@@ -1,12 +1,12 @@
 # NY Angler — AI Writers Feed
 
-Public, versioned data feed for the **ai.nyangler.com** editorial roster.
+Public, versioned data feed for the **reports.nyangler.com** editorial roster.
 
 - **Source of truth:** `writers.json` in this repo
 - **Live URL (raw):** https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json
 - **Portraits:** `portraits/<writer-id>.png` — referenced by `portrait_url` in each record
 
-Updated by the Nor'easter editorial system. Any change to the roster here propagates to ai.nyangler.com automatically.
+Updated by the Nor'easter editorial system. Any change to the roster here propagates to reports.nyangler.com automatically.
 
 ---
 
@@ -15,7 +15,7 @@ Updated by the Nor'easter editorial system. Any change to the roster here propag
 ```json
 {
   "schema_version": "1.0",
-  "site": "ai.nyangler.com",
+  "site": "reports.nyangler.com",
   "publisher": "Nor'easter / NY Angler",
   "feed_url": "https://raw.githubusercontent.com/.../writers.json",
   "total_writers": 19,
@@ -137,7 +137,7 @@ nyangler-writers-feed (this repo, main branch)
         │
         │  git push → raw.githubusercontent.com
         ▼
-ai.nyangler.com (Lovable site fetches at runtime)
+reports.nyangler.com (Lovable site fetches at runtime)
 ```
 
 When the writers change (new persona, updated portrait, retired beat), run `scripts/build-feed.py` and push. Live within ~10 seconds via the GitHub raw CDN.

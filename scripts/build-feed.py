@@ -102,7 +102,7 @@ def main() -> int:
 
     manifest = {
         "schema_version": "1.0",
-        "site": "ai.nyangler.com",
+        "site": "reports.nyangler.com",
         "publisher": "Nor'easter / NY Angler",
         "description": (
             "Editorial roster: 1 editor-in-chief + 18 zone writers covering "

@@ -1,6 +1,6 @@
-# Lovable Build Prompt — ai.nyangler.com Writers Section
+# Lovable Build Prompt — reports.nyangler.com Writers Section
 
-**Paste this into a new Lovable project to spin up the writers section of ai.nyangler.com.**
+**Paste this into a new Lovable project to spin up the writers section of reports.nyangler.com.**
 
 The data is live-hosted on GitHub at `raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed`. No backend, no API keys, no database needed. Updates to the roster propagate to the live site within seconds whenever the source repo is pushed.
 
@@ -8,7 +8,7 @@ The data is live-hosted on GitHub at `raw.githubusercontent.com/georgescocca-dev
 
 ## Master Prompt
 
-> Build the **Writers / Editorial Team** section for **ai.nyangler.com** — the AI-powered subdomain of New York Angler, the largest fishing community in the Northeast.
+> Build the **Writers / Editorial Team** section for **reports.nyangler.com** — the AI-powered subdomain of New York Angler, the largest fishing community in the Northeast.
 >
 > The data is hosted as a public JSON feed at:
 >
@@ -26,11 +26,27 @@ The data is live-hosted on GitHub at `raw.githubusercontent.com/georgescocca-dev
 >
 > ### Visual direction
 >
-> - Dark, premium editorial style — think *Sports Illustrated* meets *Atlantic*.
-> - Portrait images are large and lead each card (each portrait is roughly square, 1024px or larger).
-> - Typography: serif for names and headlines, clean sans for metadata.
-> - Color accents: deep ocean blues, salt-white text, a single warm accent (sunrise orange or copper) for hover/CTA.
-> - Mobile-first responsive — the grid collapses to a single column under 768px.
+> **Style: Sports Illustrated × Atlantic — Dark Premium Editorial.**
+>
+> - Background: midnight navy `#0a0e14`, card surface `#11161e`, divider `#1f2733`.
+> - Text: salt-white `#ecf2f8` on body, muted `#8a98a9` for secondary lines.
+> - Accent: sunrise copper `#d97706` — used sparingly for kickers, hover borders, and pill badges. Never for body text.
+> - Typography stack:
+>   - Headlines / writer names: **Playfair Display** (700–800 weight, tight letter-spacing -0.01em to -0.02em, line-height 1.05–1.15).
+>   - Body / bios / metadata: **Inter** (400–600 weight).
+>   - Kickers, role labels, section counts, byline marks: **JetBrains Mono** (500 weight, ALL CAPS, letter-spacing 0.15em–0.22em). This is the SI/Atlantic "byline" voice.
+> - Cards are bordered (1px solid divider), 4px radius (not pill — keeps it editorial, not consumer). Hover lifts the card 4px and shifts the border to the copper accent.
+> - Portraits sit at the top of each card in a 4:5 aspect ratio, slightly desaturated (`filter: contrast(1.04) saturate(.92)`) for that editorial polish.
+> - Page max-width: 1240px. Generous padding — this is a newsroom, not a marketplace.
+> - Mobile-first responsive — grid collapses to a single column under 640px.
+>
+> Reference: think **The Atlantic's design language** with the gravitas of **SI Longform** features. Premium, serious, paid-subscription-ready. Not flashy, not marketing-y.
+>
+> **Pixel reference:** a complete working HTML/CSS implementation of this style — using real data from the feed — is shipped in this repo at `mockups/reference-design.html`. View it raw at:
+> ```
+> https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/mockups/reference-design.html
+> ```
+> Match the typography, color palette, spacing, and hover behavior of that file. The mockup shows 6 of 19 writers in a grid — Lovable should render all 19, grouped by domain (see Grouping logic below).
 >
 > ### Card content (use these fields exactly)
 >
@@ -105,7 +121,7 @@ The data is live-hosted on GitHub at `raw.githubusercontent.com/georgescocca-dev
 
 ## Updating the roster going forward
 
-When you (George) want to add a writer, retire one, refresh a portrait, or rewrite a bio, the Nor'easter system (Spartacus) updates the source roster, regenerates the feed, and pushes to GitHub. The live ai.nyangler.com site picks up the change on the next page load — no Lovable redeploy required.
+When you (George) want to add a writer, retire one, refresh a portrait, or rewrite a bio, the Nor'easter system (Spartacus) updates the source roster, regenerates the feed, and pushes to GitHub. The live reports.nyangler.com site picks up the change on the next page load — no Lovable redeploy required.
 
 ## Feed sample
 
