@@ -33,6 +33,7 @@
         "headline-polish",
         "Pro-gating"
       ],
+      "bio": "Margaret Holloway runs the Nor'easter newsroom. A thirty-year veteran of fishing journalism with the editorial instincts to match, she enforces voice consistency across the zone roster, fact-checks every report against live SST, chlorophyll, and buoy data, and decides which intel goes free and which goes Pro.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/editor-in-chief.png",
       "status": "active"
     },
@@ -72,6 +73,7 @@
         "local-lore",
         "tide-savvy"
       ],
+      "bio": "Frank Marinaro has fished the Western Sound for thirty years — from the Throgs Neck pilings to Oyster Bay — and remembers every rockpile, rip line, and channel edge. He'll tell you why Execution Rocks holds bass on the outgoing tide and exactly when the bunker schools stack up off Matinecock Point in June.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/western-sound.png",
       "status": "active"
     },
@@ -111,6 +113,7 @@
         "data-first",
         "bait-watcher"
       ],
+      "bio": "David Han is the Harbor Scout of the Central Sound, working the middle waters from Oyster Bay east to Port Jefferson and across to the Connecticut shoreline. He reads the bait first, the boats second — and he'll tell you the day the bonito start punching through Stratford Shoal before the rest of the fleet figures it out.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/central-sound.png",
       "status": "active"
     },
@@ -150,6 +153,7 @@
         "rip-current",
         "trophy-bass"
       ],
+      "bio": "Mike Rizzo lives for the screaming current at The Race and Plum Gut. He's the writer who'll fish a twelve-hour tide on no sleep, then drive to the next inlet for the night bite — and he knows exactly which eddies stack the trophy bass when the water rips through at five knots.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/eastern-sound.png",
       "status": "active"
     },
@@ -189,6 +193,7 @@
         "access-points",
         "fall-blitz"
       ],
+      "bio": "Denise Vasquez grew up fishing the bay, the inlet, and the surf from Breezy Point to Rockaway. She knows the Marine Parkway Bridge bass on the outgoing, the May fluke turn-on inside the bay, and the kind of fall Rockaway blitz most anglers only ever see in dreams. She fishes shore, boat, and kayak — and she knows every access point.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jamaica-bay.png",
       "status": "active"
     },
@@ -228,6 +233,7 @@
         "bunker-blitz",
         "jetty"
       ],
+      "bio": "Sal Moretti knows Jones Inlet like the back of his hand — every sandbar shift, every new cut after a nor'easter, every hole where the bass hold. He works the Jones Beach surf in the fall blitz, drifts the Sloop Channel for fluke in summer, and swears the weakfish are quietly making their comeback.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jones-inlet.png",
       "status": "active"
     },
@@ -267,6 +273,7 @@
         "bay-runner",
         "dock-talk"
       ],
+      "bio": "Mariana Reyes was raised on the South Shore — Babylon, Patchogue, Sayville — fishing the bay with her father since she was a kid, and she now runs her own center-console out of Captree. She knows Fire Island Inlet like a lover: how it shifts after every storm, where the bass stage on the incoming, and how the fluke pile up off Democrat Point in June.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/fire-island.png",
       "status": "active"
     },
@@ -306,6 +313,7 @@
         "storm-cuts",
         "drift"
       ],
+      "bio": "Pete Gallo is the inlet engineer. He thinks in bathymetry, storm cuts, and drift lines — he can tell you why Moriches Inlet moved twenty yards after the last nor'easter and how that's about to change the spring bass push. Cupsogue Beach is, in his view, one of the most under-appreciated surf spots on the South Shore.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/moriches.png",
       "status": "active"
     },
@@ -345,6 +353,7 @@
         "outgoing-bass",
         "weakfish"
       ],
+      "bio": "Charlie Ortiz earned the Night Owl name honestly — he fishes Shinnecock Inlet at night on the outgoing for the kind of striped bass most people only see in magazine photos. He knows the fluke drift inside the bay, the weakfish patterns at the Ponquogue Bridge, and the way the canal threads everything through to the Peconic.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/shinnecock.png",
       "status": "active"
     },
@@ -384,6 +393,7 @@
         "boulder-field",
         "fall-run"
       ],
+      "bio": "Rich Martin has fished Montauk Point since he could hold a rod, and treats the place with the reverence it earns. He writes Montauk like the striper capital it is — fifty-pound surf bass from the Point, the boulder field that lights up on the incoming, the fall run that pulls anglers from across the country to the End.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/montauk.png",
       "status": "active"
     },
@@ -423,6 +433,7 @@
         "early-bass",
         "shelter-island"
       ],
+      "bio": "Bill Hubbard knows the Peconic and Gardiners Bays — the protected waters between the North and South Forks — like his own backyard. He's the writer who'll tell you the Peconic warms ahead of the Sound and the bass show up early, the porgy fishing around Shelter Island is world-class, and the Plum Gut fall run lights the whole system up.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/peconic.png",
       "status": "active"
     },
@@ -462,6 +473,7 @@
         "cape-may",
         "inlets"
       ],
+      "bio": "Joey Napolitano has fished every inlet from Sandy Hook to Cape May. He'll tell you — loudly — that the Raritan Bay striper run in April is the real start of the Northeast season, that Island Beach surf produces when the rest of the coast is dead, and that Cape May holds fish when everything north of it is frozen solid.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nj-shore.png",
       "status": "active"
     },
@@ -501,6 +513,7 @@
         "trophy-bass",
         "oxygenated-water"
       ],
+      "bio": "Jack Sullivan knows that Block Island is the summer Mecca for striped bass on the entire East Coast — fish migrate from hundreds of miles for the cool, clean, oxygenated water. He works the Southwest Ledge like a living room, has pulled 40-pound bass off the North Rip, and understands exactly why the fishing here doesn't behave like anywhere else.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/block-island.png",
       "status": "active"
     },
@@ -540,6 +553,7 @@
         "sword",
         "SST-reader"
       ],
+      "bio": "Capt. Tony Rosetti has run to the Hudson Canyon more times than he can count — out of Shinnecock, Moriches, Jones, and Manasquan. He'll tell you where the yellowfin stack in August, where the swordfish lie on the bottom in daylight, and how the canyon edge pushes bait up into the trolling zone. He reads SST and chlorophyll charts the way other people read the morning paper.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/hudson-canyon.png",
       "status": "active"
     },
@@ -573,6 +587,7 @@
         "trolling",
         "chunking"
       ],
+      "bio": "Capt. Dana Cooper covers the Wilmington Canyon out of Cape May and Indian River. She understands how Gulf Stream eddies spin off and set up there — the temperature breaks that concentrate tuna and marlin, the productive corners, the depth transitions, and exactly when to troll versus chunk.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/wilmington-canyon.png",
       "status": "active"
     },
@@ -606,6 +621,7 @@
         "walls",
         "eddies"
       ],
+      "bio": "Capt. Chris Morrison has been working Washington Canyon long enough to call himself a veteran without flinching. He's convinced — and the fish keep proving him right — that Washington fires earlier in the season than most of its neighbors because of its position relative to the Gulf Stream. He knows which walls hold, where the eddies set up, and how the canyon evolves from June through September.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/washington-canyon.png",
       "status": "active"
     },
@@ -639,6 +655,7 @@
         "norfolk",
         "mid-atlantic"
       ],
+      "bio": "Capt. Ray Lugo runs to Spencer, Lindenkohl, Poor Man's, and Norfolk out of Cape May and Ocean City. The mid-Atlantic southern canyons fire at different times for different reasons, and Ray reads that pattern with the route-savvy intensity of a captain who's burned a lot of fuel learning it.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/south-canyons.png",
       "status": "active"
     },
@@ -672,6 +689,7 @@
         "veatch",
         "RI-ports"
       ],
+      "bio": "Capt. Steve Brock runs the Eastern Canyons — Atlantis, Veatch, Hydrographer, Oceanographer — out of Montauk, Block Island, and the Rhode Island ports. He knows these eastern canyons hold different water, different timing, and a different species mix than the mid-Atlantic, and he'll tell you the fuel math and the firing order without flinching.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/east-canyons.png",
       "status": "active"
     },
@@ -712,6 +730,7 @@
         "oyster-cages",
         "bayman-storyteller"
       ],
+      "bio": "Pat Reilly has lived on the North Fork beaches for sixty years, fishing the Sound side from Mattituck Inlet east to Orient Point. He's a bayman storyteller — slow, dry, and incapable of hyping a bite that isn't real. He bridges Central Sound coverage and the Plum Gut / Race shoulder, and he knows every rock and every clammer's tip along the way.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/north-fork-sound-shore.png",
       "status": "active"
     }

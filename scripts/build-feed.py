@@ -65,6 +65,7 @@ def build_public_record(w: dict) -> dict:
         "voice": w.get("voice"),
         "mood": w.get("mood"),
         "style_tags": w.get("style_tags", []),
+        "bio": w.get("bio") or "",
         "portrait_url": f"{PUBLIC_BASE}/portraits/{w['id']}.png",
         "status": w.get("status", "active"),
     }
