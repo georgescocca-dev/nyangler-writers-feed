@@ -1,0 +1,11 @@
+# Local clutter
+.DS_Store
+__pycache__/
+*.pyc
+*.bak
+*.bak.*
+*.backup-*
+
+# Editor noise
+.vscode/
+.idea/

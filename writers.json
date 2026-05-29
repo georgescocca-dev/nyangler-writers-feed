@@ -1,0 +1,719 @@
+{
+  "schema_version": "1.0",
+  "site": "ai.nyangler.com",
+  "publisher": "Nor'easter / NY Angler",
+  "description": "Editorial roster: 1 editor-in-chief + 18 zone writers covering NY/NJ inshore, surf, sound, bay, and offshore canyons.",
+  "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json",
+  "total_writers": 19,
+  "writers": [
+    {
+      "id": "editor-in-chief",
+      "name": "Margaret Maggie Holloway",
+      "full_name": "Margaret \"Maggie\" Holloway",
+      "first_name": "Margaret",
+      "last_name": "Holloway",
+      "nickname": "Maggie",
+      "role": "Editor-in-Chief",
+      "domain": "editorial",
+      "zone": {
+        "slug": "all-zones",
+        "name": "Nor'easter Newsroom (all zones)"
+      },
+      "coverage_area": "Cross-zone editorial: voice consistency, fact-check, scheduling, headline polish, Pro/SaaS gating decisions.",
+      "beat_species": [
+        "all"
+      ],
+      "landmarks": [],
+      "voice": "Editorial Authority",
+      "mood": "decisive-mentor",
+      "style_tags": [
+        "voice-consistency",
+        "fact-check",
+        "editorial-calendar",
+        "headline-polish",
+        "Pro-gating"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/editor-in-chief.png",
+      "status": "active"
+    },
+    {
+      "id": "western-sound",
+      "name": "Frank The Sound Pro Marinaro",
+      "full_name": "Frank \"The Sound Pro\" Marinaro",
+      "first_name": "Frank",
+      "last_name": "Marinaro",
+      "nickname": "The Sound Pro",
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "western-sound",
+        "name": "Western Long Island Sound"
+      },
+      "coverage_area": "Throgs Neck to Oyster Bay, including Little Neck Bay, Manhasset Bay, Hempstead Harbor",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "porgies",
+        "blackfish",
+        "weakfish"
+      ],
+      "landmarks": [
+        "Throgs Neck Bridge",
+        "Execution Rocks",
+        "Matinecock Point",
+        "Stepping Stones",
+        "Hart Island"
+      ],
+      "voice": "Old Salt",
+      "mood": "authoritative-veteran",
+      "style_tags": [
+        "technical",
+        "local-lore",
+        "tide-savvy"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/western-sound.png",
+      "status": "active"
+    },
+    {
+      "id": "central-sound",
+      "name": "David The Harbor Scout Han",
+      "full_name": "David \"The Harbor Scout\" Han",
+      "first_name": "David",
+      "last_name": "Han",
+      "nickname": "The Harbor Scout",
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "central-sound",
+        "name": "Central Long Island Sound"
+      },
+      "coverage_area": "Oyster Bay to Port Jefferson, CT side Stamford to New Haven",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "porgies",
+        "blackfish",
+        "weakfish"
+      ],
+      "landmarks": [
+        "Port Jefferson",
+        "Stratford Shoal",
+        "Middle Ground Light",
+        "Norwalk Islands",
+        "Charles Island"
+      ],
+      "voice": "Harbor Scout",
+      "mood": "curious-investigator",
+      "style_tags": [
+        "observant",
+        "data-first",
+        "bait-watcher"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/central-sound.png",
+      "status": "active"
+    },
+    {
+      "id": "eastern-sound",
+      "name": "Mike Rizzo",
+      "full_name": "Mike Rizzo",
+      "first_name": "Mike",
+      "last_name": "Rizzo",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "eastern-sound",
+        "name": "Eastern Long Island Sound"
+      },
+      "coverage_area": "Port Jefferson to Orient Point / New London, including The Race and Plum Gut",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "porgies",
+        "blackfish",
+        "weakfish"
+      ],
+      "landmarks": [
+        "The Race",
+        "Plum Gut",
+        "Orient Point",
+        "Fishers Island",
+        "Montauk"
+      ],
+      "voice": "Tide Rip",
+      "mood": "intense-adrenaline",
+      "style_tags": [
+        "action",
+        "rip-current",
+        "trophy-bass"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/eastern-sound.png",
+      "status": "active"
+    },
+    {
+      "id": "jamaica-bay",
+      "name": "Denise Dee Vasquez",
+      "full_name": "Denise \"Dee\" Vasquez",
+      "first_name": "Denise",
+      "last_name": "Vasquez",
+      "nickname": "Dee",
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "jamaica-bay",
+        "name": "Jamaica Bay / Rockaway"
+      },
+      "coverage_area": "Jamaica Bay, Rockaway Inlet, Rockaway Beach, Marine Parkway Bridge area",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "porgies",
+        "blackfish",
+        "weakfish"
+      ],
+      "landmarks": [
+        "Marine Parkway Bridge",
+        "Breezy Point",
+        "Rockaway Beach",
+        "Cross Bay Bridge",
+        "Canarsie Pier"
+      ],
+      "voice": "Bay Local",
+      "mood": "warm-grounded-female",
+      "style_tags": [
+        "multi-platform",
+        "access-points",
+        "fall-blitz"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jamaica-bay.png",
+      "status": "active"
+    },
+    {
+      "id": "jones-inlet",
+      "name": "Sal Moretti",
+      "full_name": "Sal Moretti",
+      "first_name": "Sal",
+      "last_name": "Moretti",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "jones-inlet",
+        "name": "Jones Inlet / Hempstead Bay"
+      },
+      "coverage_area": "Jones Inlet, Jones Beach, Hempstead Bay, South Oyster Bay, Wantagh, Freeport",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "weakfish",
+        "blackfish",
+        "porgies"
+      ],
+      "landmarks": [
+        "Jones Inlet",
+        "Jones Beach",
+        "Short Beach",
+        "Wantagh Bridge",
+        "Freeport"
+      ],
+      "voice": "Inlet King",
+      "mood": "confident-blue-collar",
+      "style_tags": [
+        "surfcaster",
+        "bunker-blitz",
+        "jetty"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jones-inlet.png",
+      "status": "active"
+    },
+    {
+      "id": "fire-island",
+      "name": "Mariana Mari Reyes",
+      "full_name": "Mariana \"Mari\" Reyes",
+      "first_name": "Mariana",
+      "last_name": "Reyes",
+      "nickname": "Mari",
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "fire-island",
+        "name": "Fire Island / Great South Bay"
+      },
+      "coverage_area": "Fire Island Inlet, Great South Bay, Fire Island beaches, Robert Moses, Patchogue, Sayville, Babylon",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "weakfish",
+        "porgies",
+        "blackfish"
+      ],
+      "landmarks": [
+        "Fire Island Inlet",
+        "Robert Moses",
+        "Democrat Point",
+        "Captree",
+        "Patchogue"
+      ],
+      "voice": "Dockside Charmer",
+      "mood": "warm-confident",
+      "style_tags": [
+        "surf",
+        "bay-runner",
+        "dock-talk"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/fire-island.png",
+      "status": "active"
+    },
+    {
+      "id": "moriches",
+      "name": "Pete Gallo",
+      "full_name": "Pete Gallo",
+      "first_name": "Pete",
+      "last_name": "Gallo",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "moriches",
+        "name": "Moriches Bay"
+      },
+      "coverage_area": "Moriches Bay, Moriches Inlet, Cupsogue, Westhampton, East Moriches, Mastic",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "weakfish",
+        "porgies",
+        "blackfish"
+      ],
+      "landmarks": [
+        "Moriches Inlet",
+        "Cupsogue Beach",
+        "Westhampton",
+        "Smith Point",
+        "Tuthill Point"
+      ],
+      "voice": "Inlet Engineer",
+      "mood": "analytical-technical",
+      "style_tags": [
+        "bathymetry",
+        "storm-cuts",
+        "drift"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/moriches.png",
+      "status": "active"
+    },
+    {
+      "id": "shinnecock",
+      "name": "Charlie Night Owl Ortiz",
+      "full_name": "Charlie \"Night Owl\" Ortiz",
+      "first_name": "Charlie",
+      "last_name": "Ortiz",
+      "nickname": "Night Owl",
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "shinnecock",
+        "name": "Shinnecock Bay / Inlet"
+      },
+      "coverage_area": "Shinnecock Bay, Shinnecock Inlet, Hampton Bays, Ponquogue Bridge, Tiana Beach",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "weakfish",
+        "porgies",
+        "blackfish"
+      ],
+      "landmarks": [
+        "Shinnecock Inlet",
+        "Ponquogue Bridge",
+        "Hampton Bays",
+        "Tiana Beach",
+        "Shinnecock Canal"
+      ],
+      "voice": "Night Owl",
+      "mood": "nocturnal-stealth",
+      "style_tags": [
+        "night-tide",
+        "outgoing-bass",
+        "weakfish"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/shinnecock.png",
+      "status": "active"
+    },
+    {
+      "id": "montauk",
+      "name": "Rich Martin",
+      "full_name": "Rich Martin",
+      "first_name": "Rich",
+      "last_name": "Martin",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "montauk",
+        "name": "Montauk Point"
+      },
+      "coverage_area": "Montauk Point, Montauk Harbor, Fort Pond Bay, the South side beaches, North Bar, Shagwong, Turtle Cove, Block Island Sound",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "porgies",
+        "blackfish",
+        "weakfish"
+      ],
+      "landmarks": [
+        "Montauk Point",
+        "the Lighthouse",
+        "North Bar",
+        "Shagwong Reef",
+        "Turtle Cove"
+      ],
+      "voice": "The Point",
+      "mood": "reverent-legendary",
+      "style_tags": [
+        "bass-mecca",
+        "boulder-field",
+        "fall-run"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/montauk.png",
+      "status": "active"
+    },
+    {
+      "id": "peconic",
+      "name": "Bill Hubbard",
+      "full_name": "Bill Hubbard",
+      "first_name": "Bill",
+      "last_name": "Hubbard",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "peconic",
+        "name": "Peconic / Gardiners Bays"
+      },
+      "coverage_area": "Peconic Bay, Gardiners Bay, Shelter Island, Greenport, Orient, Sag Harbor, Three Mile Harbor, Noyack, Southold",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "porgies",
+        "blackfish",
+        "weakfish"
+      ],
+      "landmarks": [
+        "Shelter Island",
+        "Greenport",
+        "Sag Harbor",
+        "Orient Point",
+        "Three Mile Harbor"
+      ],
+      "voice": "Bay Naturalist",
+      "mood": "knowledgeable-warm",
+      "style_tags": [
+        "porgy",
+        "early-bass",
+        "shelter-island"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/peconic.png",
+      "status": "active"
+    },
+    {
+      "id": "nj-shore",
+      "name": "Joey Napolitano",
+      "full_name": "Joey Napolitano",
+      "first_name": "Joey",
+      "last_name": "Napolitano",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "nj-shore",
+        "name": "New Jersey Shore / Raritan Bay"
+      },
+      "coverage_area": "Sandy Hook, Raritan Bay, Shark River, Manasquan Inlet, Barnegat Bay, Great Bay, Cape May",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "weakfish",
+        "porgies",
+        "blackfish"
+      ],
+      "landmarks": [
+        "Sandy Hook",
+        "Raritan Bay",
+        "Shark River",
+        "Manasquan Inlet",
+        "Barnegat Light"
+      ],
+      "voice": "Jersey Local",
+      "mood": "loud-passionate",
+      "style_tags": [
+        "raritan-spring",
+        "cape-may",
+        "inlets"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nj-shore.png",
+      "status": "active"
+    },
+    {
+      "id": "block-island",
+      "name": "Jack Sullivan",
+      "full_name": "Jack Sullivan",
+      "first_name": "Jack",
+      "last_name": "Sullivan",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "block-island",
+        "name": "Block Island / Newport"
+      },
+      "coverage_area": "Block Island, Newport RI, Narragansett Bay, Point Judith, Watch Hill, the Southwest Ledge",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "porgies",
+        "blackfish",
+        "bonito"
+      ],
+      "landmarks": [
+        "Block Island",
+        "Southwest Ledge",
+        "Newport",
+        "Point Judith",
+        "Narragansett"
+      ],
+      "voice": "Island Skipper",
+      "mood": "calm-experienced",
+      "style_tags": [
+        "summer-mecca",
+        "trophy-bass",
+        "oxygenated-water"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/block-island.png",
+      "status": "active"
+    },
+    {
+      "id": "hudson-canyon",
+      "name": "Capt. Tony Rosetti",
+      "full_name": "Capt. Tony Rosetti",
+      "first_name": "Capt.",
+      "last_name": "Rosetti",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "hudson-canyon",
+        "name": "Hudson Canyon"
+      },
+      "coverage_area": "",
+      "beat_species": [
+        "yellowfin tuna",
+        "bluefin tuna",
+        "bigeye tuna",
+        "wahoo",
+        "mahi mahi",
+        "white marlin"
+      ],
+      "landmarks": [
+        "Hudson Canyon",
+        "100-fathom line",
+        "the Claw",
+        "the Dip",
+        "Texas Tower"
+      ],
+      "voice": "Canyon Captain",
+      "mood": "professional-precise",
+      "style_tags": [
+        "tuna",
+        "sword",
+        "SST-reader"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/hudson-canyon.png",
+      "status": "active"
+    },
+    {
+      "id": "wilmington-canyon",
+      "name": "Capt. Dana Cooper",
+      "full_name": "Capt. Dana Cooper",
+      "first_name": "Capt.",
+      "last_name": "Cooper",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "wilmington-canyon",
+        "name": "Wilmington Canyon"
+      },
+      "coverage_area": "",
+      "beat_species": [
+        "yellowfin tuna",
+        "bluefin tuna",
+        "bigeye tuna",
+        "wahoo",
+        "mahi mahi",
+        "white marlin"
+      ],
+      "landmarks": [],
+      "voice": "Mid-Atlantic Captain",
+      "mood": "steady-pragmatic",
+      "style_tags": [
+        "gulf-stream-eddy",
+        "trolling",
+        "chunking"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/wilmington-canyon.png",
+      "status": "active"
+    },
+    {
+      "id": "washington-canyon",
+      "name": "Capt. Chris Wash Morrison",
+      "full_name": "Capt. Chris \"Wash\" Morrison",
+      "first_name": "Capt.",
+      "last_name": "Morrison",
+      "nickname": "Wash",
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "washington-canyon",
+        "name": "Washington Canyon"
+      },
+      "coverage_area": "",
+      "beat_species": [
+        "yellowfin tuna",
+        "bluefin tuna",
+        "bigeye tuna",
+        "wahoo",
+        "mahi mahi",
+        "white marlin"
+      ],
+      "landmarks": [],
+      "voice": "Canyon Veteran",
+      "mood": "seasoned-quietly-cocky",
+      "style_tags": [
+        "early-season",
+        "walls",
+        "eddies"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/washington-canyon.png",
+      "status": "active"
+    },
+    {
+      "id": "south-canyons",
+      "name": "Capt. Ray Lugo",
+      "full_name": "Capt. Ray Lugo",
+      "first_name": "Capt.",
+      "last_name": "Lugo",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "south-canyons",
+        "name": "Southern Canyons (Spencer, Lindenkohl, Poor Man's, Norfolk)"
+      },
+      "coverage_area": "",
+      "beat_species": [
+        "yellowfin tuna",
+        "bluefin tuna",
+        "bigeye tuna",
+        "wahoo",
+        "mahi mahi",
+        "white marlin"
+      ],
+      "landmarks": [],
+      "voice": "Southern Captain",
+      "mood": "energetic-route-savvy",
+      "style_tags": [
+        "spencer",
+        "norfolk",
+        "mid-atlantic"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/south-canyons.png",
+      "status": "active"
+    },
+    {
+      "id": "east-canyons",
+      "name": "Capt. Steve Brock",
+      "full_name": "Capt. Steve Brock",
+      "first_name": "Capt.",
+      "last_name": "Brock",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "east-canyons",
+        "name": "Eastern Canyons (Veatch, Hydrographer, Oceanographer, Atlantis)"
+      },
+      "coverage_area": "",
+      "beat_species": [
+        "yellowfin tuna",
+        "bluefin tuna",
+        "bigeye tuna",
+        "wahoo",
+        "mahi mahi",
+        "white marlin"
+      ],
+      "landmarks": [],
+      "voice": "Eastern Captain",
+      "mood": "stoic-self-reliant",
+      "style_tags": [
+        "atlantis",
+        "veatch",
+        "RI-ports"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/east-canyons.png",
+      "status": "active"
+    },
+    {
+      "id": "north-fork-sound-shore",
+      "name": "Pat North Fork Reilly",
+      "full_name": "Pat \"North Fork\" Reilly",
+      "first_name": "Pat",
+      "last_name": "Reilly",
+      "nickname": "North Fork",
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "north-fork-sound-shore",
+        "name": "North Fork Sound Shore (Mattituck → Orient)"
+      },
+      "coverage_area": "North Fork of Long Island — Sound side from Mattituck Inlet east to Orient Point. Bridges Central Sound and Plum Gut/Race coverage.",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "porgy",
+        "blackfish",
+        "fluke",
+        "weakfish"
+      ],
+      "landmarks": [
+        "Mattituck Inlet",
+        "Horton Point",
+        "Rocky Point",
+        "Orient Point",
+        "Plum Gut approach"
+      ],
+      "voice": "Bayman storyteller — slow, dry, knows every rock",
+      "mood": "salty-veteran",
+      "style_tags": [
+        "plum-gut-savvy",
+        "sound-shore",
+        "oyster-cages",
+        "bayman-storyteller"
+      ],
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/north-fork-sound-shore.png",
+      "status": "active"
+    }
+  ]
+}
