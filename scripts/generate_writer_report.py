@@ -112,39 +112,128 @@ def shorten_report(r: dict, max_chars: int = 700) -> dict:
 # LLM call
 # ---------------------------------------------------------------------------
 EDITORIAL_RULES = """
-You are writing a single dated fishing report under your byline for
-reports.nyangler.com — a premium fishing intelligence site.
+You are filing a serious, oceanographically-grounded fishing report under
+your own byline for reports.nyangler.com. Think of yourself as a veteran
+beat reporter at a regional publication — closer to *Anglers Journal* or
+*On The Water* than a forum digest.
 
 NON-NEGOTIABLE RULES:
-1. Only reference species, locations, and landmarks listed in your beat
-   profile below or in the source forum reports. NEVER invent a place name.
-2. If the source forum reports clearly say "slow" or "tough", say so. Do not
-   manufacture a hot bite that the data does not support.
-3. Cite specific report authors by username when summarizing observations
-   ("Snapprhead27 reported a 33-inch keeper out of Captree on the 16th…").
-4. Voice = third person editorial byline mixed with your first-person quotes.
-   Open with a two-sentence dateline-style lead. Then a 3-4 paragraph body.
-   Close with a "Bottom line" of 2 sentences and a forward-looking prediction.
-5. Length: 400–550 words. No more, no less.
-6. Use Fahrenheit for water temps. Reference the SST date if you cite a temp.
-7. Never say "phish". Always "fish".
-8. No emoji. No hashtags. No call-to-action. No "subscribe".
+
+1. FACTUAL DEPTH, NOT FORUM RECAP.
+   Do NOT name forum posters, do NOT quote them, do NOT cite them with
+   "according to X" phrasing. The forum reports you receive are background
+   intelligence — synthesize them silently. The reader does not care what
+   Snapprhead27 said. They care what the water is doing.
+
+2. LEAD WITH THE OCEAN.
+   Open the report with the physical state of your beat — water temperature
+   with buoy station name and the actual reading in Fahrenheit, sea state,
+   wind, the thermal structure between inside and outside water, where the
+   bait is. This is the dateline of your reporting. Not a fish story.
+
+3. SECOND PARAGRAPH = WHAT IT MEANS FOR YOUR BEAT.
+   Translate the oceanographic state into specific predictions for your
+   zone: which structure is firing, which tide stage, which species class
+   (slot vs overslot vs short), which technique matches the water.
+
+4. THIRD AND FOURTH PARAGRAPHS = ON-THE-GROUND INTELLIGENCE.
+   Synthesize forum signal and any specific zone evidence into observations.
+   Phrase as a beat reporter: "The Captree night bite has shifted away from
+   clams toward soft plastics in the last week" — not "user X said he caught
+   3 keepers on plastics."
+
+5. FIFTH PARAGRAPH = THE LOOK-AHEAD.
+   Specific. What changes in the next 3–5 days. Wind shifts, moon phase,
+   temperature thresholds, bait migration. Tie it to mechanism, not vibes.
+
+6. CLOSE.
+   One paragraph. Authoritative. No "bottom line" headers, no bullet points,
+   no "subscribe", no exclamation, no hashtags, no emoji.
+
+7. NEVER INVENT.
+   • Only species in your beat profile.
+   • Only landmarks in your beat profile or explicitly in the oceanographic
+     analyst output.
+   • Only water-temperature figures that appear in the analyst data — if
+     the analyst is silent on a station, do not fabricate a number.
+   • If the analyst flags a data gap (e.g. no SST today, buoy offline),
+     acknowledge it briefly and reason around it.
+
+8. VOICE.
+   Third-person beat-reporter authority, with first-person sparingly — only
+   when you are stating a personal judgment ("I'd be watching the Robert
+   Moses bridges first thing on the outgoing"). No "as a longtime…" filler.
+   No autobiographical asides. The reader knows who you are.
+
+9. LENGTH: 550–800 words. Density over filler.
+
+10. NEVER say "phish". Always "fish".
 
 OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
+
 {
-  "headline": "string, max 80 chars, sentence case, no clickbait",
-  "subhead": "string, one sentence, max 140 chars",
-  "dateline": "string, e.g. CAPTREE, NY — May 29",
-  "body_markdown": "string, the full report body in markdown. Use **bold** for emphasis sparingly. Use blockquotes (>) for direct angler quotes. Do NOT include the headline or dateline inside this field.",
-  "bottom_line": "string, 2 sentences max",
-  "forward_look": "string, what to watch over the next 3–5 days",
-  "tags": ["string array of 3–6 lowercase tags, e.g. striped-bass, captree, outgoing-tide"],
-  "cited_threads": [{"thread_id": int, "url": "string", "author": "string"}]
+  "headline": "string, max 90 chars, sentence case, declarative not clickbait. e.g. 'Estuary thermal engine drives Fire Island bite as offshore stays sloppy'",
+  "subhead": "string, one factual sentence, max 160 chars. Should name the controlling oceanographic variable.",
+  "dateline": "string, e.g. 'CAPTREE, NY — May 30'",
+  "body_markdown": "string. 550–800 words of plain markdown — NO H2 or H3 headings, NO bullet lists, NO blockquotes. Just paragraphs. The body must FOLLOW the five-paragraph structure described in rules 2–6.",
+  "tags": ["3–6 lowercase hyphen-tags, mechanism-focused: estuary-thermal, outgoing-tide, slot-class, soft-plastics, etc."]
 }
 """
 
 
-def build_prompt(writer: dict, reports: list[dict], sst: dict) -> tuple[str, str]:
+ANALYST_DIR = NOREASTER / "data" / "analysis"
+
+
+def load_latest_analyst() -> dict:
+    """Load the most recent Dr. Fish analyst JSON if available."""
+    if not ANALYST_DIR.exists():
+        return {}
+    files = sorted(ANALYST_DIR.glob("analyst_*.json"), reverse=True)
+    if not files:
+        return {}
+    try:
+        return json.loads(files[0].read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
+def filter_analyst_for_zone(analyst: dict, zone_slug: str, writer: dict) -> dict:
+    """Extract the parts of the Dr. Fish analyst output most relevant to this writer's beat.
+
+    We strip noise (source_health, methodology) and keep the science:
+    live buoy conditions, seasonal context, pattern detection, and the
+    regional outlook entry whose region name overlaps the writer's zone.
+    """
+    if not analyst:
+        return {}
+    landmarks = [s.lower() for s in writer.get("landmarks", [])]
+    zone_name = (writer.get("zone_name") or "").lower()
+    zone_words = set(filter(None, re.split(r"[/\s,]+", zone_name)))
+
+    out: dict = {
+        "run_date": analyst.get("run_date"),
+        "live_conditions": analyst.get("live_conditions", {}),
+        "seasonal_context": analyst.get("seasonal_context", {}),
+        "pattern_detection": analyst.get("pattern_detection", {}),
+        "data_gaps": analyst.get("data_gaps", []),
+        "headline": (analyst.get("analyst_summary") or {}).get("headline"),
+    }
+    # Pull only the regional_outlook entries whose region matches our zone
+    relevant = []
+    for region in analyst.get("regional_outlook", []) or []:
+        rname = (region.get("region") or "").lower()
+        if any(w and w in rname for w in zone_words) or any(
+            lm in rname for lm in landmarks
+        ):
+            relevant.append(region)
+    # If nothing matched, include all so the writer can frame the macro
+    if not relevant:
+        relevant = analyst.get("regional_outlook", []) or []
+    out["regional_outlook_for_beat"] = relevant
+    return out
+
+
+def build_prompt(writer: dict, reports: list[dict], sst: dict, analyst: dict) -> tuple[str, str]:
     """Returns (system_prompt, user_prompt)."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     beat = {
@@ -159,12 +248,11 @@ def build_prompt(writer: dict, reports: list[dict], sst: dict) -> tuple[str, str
         "mood": writer.get("mood"),
         "style_tags": writer.get("style_tags", []),
     }
-    source_reports = [shorten_report(r) for r in reports]
-
+    background_reports = [shorten_report(r) for r in reports]
     sst_summary = ""
     if sst:
         sst_summary = (
-            f"Latest SST package date: {sst.get('latest_date')}. "
+            f"Latest published SST package date: {sst.get('latest_date')}. "
             f"Available dates in catalog: {', '.join(sst.get('available_dates', []))}."
         )
 
@@ -178,14 +266,19 @@ def build_prompt(writer: dict, reports: list[dict], sst: dict) -> tuple[str, str
         {
             "today": today,
             "beat_profile": beat,
-            "sst": sst_summary,
-            "source_forum_reports": source_reports,
+            "primary_intel_dr_fish_oceanographic_analyst": analyst,
+            "sst_pipeline_status": sst_summary,
+            "background_forum_chatter_DO_NOT_CITE": background_reports,
             "task": (
-                "Write today's fishing report for your zone, drawing on the "
-                "source forum reports above. Synthesize observations across "
-                "multiple anglers where possible. Be honest about a slow bite "
-                "if that's what the data shows. Return ONLY the JSON object "
-                "specified in the rules — no preamble, no markdown code fence."
+                "Write today's fishing report for your zone. "
+                "Lead with the OCEANOGRAPHIC state from the Dr. Fish analyst "
+                "data above — that is your primary source. Buoy readings, "
+                "water temperatures with station names, sea state, thermal "
+                "structure. The forum chatter is BACKGROUND ONLY — use it to "
+                "confirm what the ocean data implies, but do NOT cite users "
+                "or quote them. Reason from physics to fish. "
+                "Return ONLY the JSON object specified — no preamble, no "
+                "markdown code fence."
             ),
         },
         indent=2,
@@ -283,10 +376,6 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
         "",
         "---",
         "",
-        f"**Bottom line.** {report.get('bottom_line','')}",
-        "",
-        f"**Forward look.** {report.get('forward_look','')}",
-        "",
         "Tags: " + ", ".join(report.get("tags", [])),
     ]
     out_md.write_text("\n".join(md) + "\n", encoding="utf-8")
@@ -306,7 +395,7 @@ def rebuild_reports_index() -> dict:
     items.sort(key=lambda x: x.get("published_at", ""), reverse=True)
     PUBLIC_BASE = "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main"
     index = {
-        "schema_version": "1.0",
+        "schema_version": "2.0",
         "feed_url": f"{PUBLIC_BASE}/reports.json",
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total_reports": len(items),
@@ -335,12 +424,23 @@ def main() -> int:
     zone_slug = WRITER_TO_ZONE_BUCKET.get(writer["id"]) or writer.get("zone_slug") or writer["id"]
     reports = load_recent_reports(zone_slug, limit=args.limit)
     sst = load_sst()
+    raw_analyst = load_latest_analyst()
+    analyst = filter_analyst_for_zone(raw_analyst, zone_slug, writer)
 
-    print(f"[gen] writer={writer['name']} zone={zone_slug} source_reports={len(reports)} sst={sst.get('latest_date')}", file=sys.stderr)
-    if not reports:
-        print(f"[warn] no source reports found for {zone_slug}", file=sys.stderr)
+    print(
+        f"[gen] writer={writer['name']} zone={zone_slug} "
+        f"forum_bg={len(reports)} sst={sst.get('latest_date')} "
+        f"analyst={'yes' if analyst else 'NO'} "
+        f"regional_match={len(analyst.get('regional_outlook_for_beat', []))}",
+        file=sys.stderr,
+    )
+    if not analyst:
+        print(
+            "[warn] no Dr. Fish analyst data available — report will be thinner than ideal",
+            file=sys.stderr,
+        )
 
-    system, user = build_prompt(writer, reports, sst)
+    system, user = build_prompt(writer, reports, sst, analyst)
     print(f"[gen] calling {args.model} (prompt={len(system)+len(user):,} chars)", file=sys.stderr)
     raw = call_openrouter(system, user, args.model)
     try:
