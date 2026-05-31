@@ -41,6 +41,7 @@ SST_LATEST = NOREASTER / "sst-pipeline" / "output" / "latest.json"
 FEED_REPO = WORKSPACE / "projects" / "nyangler-writers-feed"
 REPORTS_DIR = FEED_REPO / "reports"
 REPORTS_INDEX = FEED_REPO / "reports.json"
+TEASERS_INDEX = FEED_REPO / "teasers.json"
 
 # Map writer id -> zone slug used in raw/nyangler/<zone>/ data path
 WRITER_TO_ZONE_BUCKET = {
@@ -383,6 +384,100 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
     return publication
 
 
+def generate_teasers(reports: list[dict]) -> list[str]:
+    """Generate AI search box teasers grounded in actual report content."""
+    teasers = []
+    species_zones: dict[str, list[str]] = {}
+    temps: list[tuple[str, str]] = []
+    tactics: set[str] = set()
+
+    for r in reports:
+        zone = r.get("zone", {}).get("name", "")
+        headline = r.get("headline", "")
+        body = r.get("body_markdown", "")
+        tags = r.get("tags", [])
+        full_text = f"{headline} {body}".lower()
+
+        # Water temps from headlines
+        for m in re.findall(r"(\d+(?:\.\d+)?)\s*(?:°F|degrees)", headline):
+            temps.append((zone, m))
+
+        # Species mentions
+        for sp in ["bass", "fluke", "weakfish", "porgy", "squid", "bunker",
+                    "blackfish", "tog", "bluefish", "striper"]:
+            if sp in full_text or sp in " ".join(tags).lower():
+                species_zones.setdefault(sp, []).append(zone)
+
+        # Tactics from tags
+        for tag in tags:
+            for tactic in ["bucktail", "soft-plastics", "live-eels",
+                           "live-bunker", "clam-belly", "chunk-bait"]:
+                if tactic in tag:
+                    tactics.add(tactic.replace("-", " "))
+
+    # Helper: pick a short, clean zone name for display
+    def short_zone(z: str) -> str:
+        return z.split("/")[0].strip()
+
+    # Prefer specific/recognizable zone names over generic ones
+    GENERIC_ZONES = {"new jersey shore", "north shore", "south shore"}
+
+    def best_zone(zone_list: list[str]) -> str:
+        """Pick the most specific zone from a list."""
+        for z in zone_list:
+            if short_zone(z).lower() not in GENERIC_ZONES:
+                return short_zone(z)
+        return short_zone(zone_list[0])
+
+    # Build teasers from what's actually in the feed
+    if temps:
+        # Pick a temp from a recognizable zone
+        named = [(z, t) for z, t in temps if short_zone(z).lower() not in GENERIC_ZONES]
+        tz, _ = (named or temps)[0]
+        teasers.append(f"What's the water temp at {short_zone(tz)}?")
+
+    if "bass" in species_zones or "striper" in species_zones:
+        teasers.append("Where are the slot bass biting on the outgoing tide?")
+
+    if "fluke" in species_zones:
+        teasers.append(f"Best spots for fluke in {best_zone(species_zones['fluke'])} this week?")
+
+    if "weakfish" in species_zones:
+        teasers.append(f"Any weakfish showing at {best_zone(species_zones['weakfish'])}?")
+
+    if "bunker" in species_zones:
+        teasers.append(f"Is the bunker bite on at {best_zone(species_zones['bunker'])}?")
+
+    if "bluefish" in species_zones:
+        teasers.append(f"Are bluefish crashing bait at {best_zone(species_zones['bluefish'])}?")
+
+    if "porgy" in species_zones:
+        teasers.append(f"Where are the porgies stacking up?")
+
+    teasers.append("Where's the thermal break stacking fish right now?")
+
+    if "bucktail" in tactics:
+        teasers.append("Who's catching on bucktails this week?")
+    if "live eels" in tactics:
+        teasers.append("Where are live eels producing trophy bass?")
+
+    teasers.append("What's the best tide window for the South Shore bays?")
+
+    # Cap at 10 to keep the scrolling box tight
+    return teasers[:10]
+
+
+def rebuild_teasers(reports: list[dict]) -> None:
+    """Regenerate teasers.json from current reports."""
+    teasers = generate_teasers(reports)
+    payload = {"teasers": teasers}
+    TEASERS_INDEX.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    print(f"[gen] teasers.json updated with {len(teasers)} questions", file=sys.stderr)
+
+
 def rebuild_reports_index() -> dict:
     """Scan reports/*.json and rebuild the public reports.json index."""
     items = []
@@ -405,6 +500,7 @@ def rebuild_reports_index() -> dict:
         json.dumps(index, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
+    rebuild_teasers(items)
     return index
 
 
