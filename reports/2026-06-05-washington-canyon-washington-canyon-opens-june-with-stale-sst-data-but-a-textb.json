@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-05-washington-canyon-washington-canyon-opens-june-with-stale-sst-data-but-a-textb",
+  "writer_id": "washington-canyon",
+  "writer_name": "Capt. Chris \"Wash\" Morrison",
+  "writer_role": "Zone Writer",
+  "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/washington-canyon.png",
+  "zone": {
+    "slug": "washington-canyon",
+    "name": "Washington Canyon"
+  },
+  "published_at": "2026-06-05T13:48:50.867910+00:00",
+  "date": "2026-06-05",
+  "headline": "Washington Canyon opens June with stale SST data but a textbook early-season setup",
+  "subhead": "Latest published thermal imagery is two days stale, but the Gulf Stream's western wall position still favors the south side troll.",
+  "dateline": "WASHINGTON CANYON, NJ — June 5",
+  "body_markdown": "The oceanographic desk is running thin this morning. The most recent published SST package in the catalog is dated June 3, and the analyst pipeline did not produce live buoy readings, frontal positions, or eddy coordinates for today's run. That means the working picture out here is built from the June 1–3 thermal sequence and the seasonal climatology of the canyon in early June, not from a fresh chart. No 44402-class offshore buoy figure is in hand from the analyst, and the SST chart team has not confirmed June 4 or June 5 imagery. I'll reason from what we have and flag the rest.\n\nWhat the June 1–3 sequence showed was the typical early-June posture for Washington: the Gulf Stream's northern edge sitting well to the south and east, with warm filaments and the leading edge of meander activity pushing up onto the slope between the 100-fathom line and the canyon mouth. Washington's geography — the way the head of the canyon cuts northwest into the shelf — means that even a modest warm push gets funneled and concentrated against the south wall first. That is why this canyon historically lights up two to three weeks before the canyons to the north. With no fresh chart to pin a finger on a specific eddy center, the highest-probability water for the next 48 hours remains the south wall from the 500-fathom curve down to roughly the 1,000, and the southeast notch where bait stacks on a west-setting current.\n\nWithout a fresh SST overlay I am not going to invent a temperature break. What I can say is that the June 3 imagery had clean 70-degree water already established along the lower slope south of the canyon, with a tongue working toward the head. If that tongue held its trajectory — and early-June meanders typically move slowly when the stream is in this configuration — the upper south wall should be sitting in the high 60s with a workable break somewhere along the 100-fathom contour. That is yellowfin and early bluefin water. Bigeye remain a deep-drop and pre-dawn proposition along the deeper south wall structure. Mahi will be on any high-flier or pot line that has been soaking more than a few days, and the first white marlin reports of the year typically come off exactly this kind of setup.\n\nThe on-the-water intelligence overnight has been thin — limited forum traffic, no fresh Canyon Runner debrief since the June 4 collector pull, and the private-group sessions have not been verified. Read that absence carefully: a quiet board in the first week of June usually means boats are still picking their weather windows rather than that the fish aren't there. The crews that have made the run in the last several days have been working ballyhoo spreads on the troll through the warmer side of the break and shifting to chunks and jigs once a mark sets up. That is the right playbook for water this temperature. I would not be deep-dropping into a cold pocket on the north wall this week — the thermal argument is on the south side until a chart tells me otherwise.\n\nLooking ahead three to five days, the two variables that matter are whether the warm tongue along the south wall consolidates or pinches off into a discrete warm-core eddy, and whether we get fresh SST imagery to confirm it. A consolidating front along the 100-fathom line is the trigger for the first real yellowfin push of the season. If a warm-core breaks off and parks itself southeast of the canyon mouth, the bite locks in for a week. Wind has been the limiter more than water, and any stretch of sub-15-knot southwest will get the fleet out and put real eyes on the break. I want June 4 and June 5 chart products in hand before I commit to a single set of numbers, but the structural setup — south wall, upper slope, 68 to 72 degrees on the warm side of whatever break establishes — is where I am pointing the bow.\n\nThe canyon is open for business earlier than most years, the geography is doing what it always does in the first week of June, and the only thing missing is a fresh chart to put a pin in. Run the south side, work the upper slope first light, and trust the wall.",
+  "tags": [
+    "early-season",
+    "south-wall",
+    "gulf-stream-edge",
+    "yellowfin",
+    "data-gap",
+    "warm-core-eddy"
+  ]
+}
