@@ -1,9 +1,84 @@
 {
   "schema_version": "2.0",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/reports.json",
-  "generated_at": "2026-06-12T12:30:18.209550+00:00",
-  "total_reports": 70,
+  "generated_at": "2026-06-12T12:32:30.696653+00:00",
+  "total_reports": 73,
   "reports": [
+    {
+      "id": "2026-06-12-nj-shore-mid-june-transition-catches-jersey-beat-between-data-gaps-an",
+      "writer_id": "nj-shore",
+      "writer_name": "Joey Napolitano",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nj-shore.png",
+      "zone": {
+        "slug": "nj-shore",
+        "name": "New Jersey Shore / Raritan Bay"
+      },
+      "published_at": "2026-06-12T12:32:30.634004+00:00",
+      "date": "2026-06-12",
+      "headline": "Mid-June transition catches Jersey beat between data gaps and bait shifts",
+      "subhead": "With primary offshore buoys offline and SST package two days stale, the Shore plays the calendar — Raritan winding down, ocean structure waking up.",
+      "dateline": "MANASQUAN, NJ — June 12, 2026",
+      "body_markdown": "The honest lead today is that the analyst desk is flying with one engine. Buoy 44025 — the workhorse New York Bight reference twelve miles south of Islip and the station every Jersey captain cross-checks against Ambrose — is offline. Block Island's 44097 water temperature feed is intermittent and not giving a clean number. The latest published SST composite in the catalog is dated June 10, two days behind today's water. That means no defensible single-degree Fahrenheit reading I'm willing to print for the Hook or the Manasquan Ridge this morning. What I can say with confidence is what the calendar and the last clean SST frame told us: by the second week of June the Raritan complex is typically running in the mid-to-upper 60s, the nearshore ocean from Sea Girt to Barnegat is climbing through the low 60s, and Cape May's rips are already pushing 65. Without fresh buoy confirmation, treat those as bracketing assumptions, not gospel.\n\nWhat that thermal bracket means for the beat is straightforward. The Raritan Bay spring striper show — the bunker-and-bass circus that defined April and May from the Reach Channel down to the Keansburg flats — is in its closing chapter. Once the bay pushes past 66, the big resident females slide out around the Hook and start working the three-mile line and the Shrewsbury Rocks on cooler ocean water. The Hook rips on the outgoing, particularly the back side of the ebb when the rip stacks against the southerly breeze, is where I'd be spending dawns this week. Inside the inlets, Manasquan and Shark River are squarely in fluke mode now, and the ocean fluke grounds from the Axel Carlson down through Barnegat Ridge should be holding fish on the drift in 40 to 55 feet.\n\nThe on-the-ground picture, synthesized from a quiet overnight intel cycle, is one of transition rather than a single dominant pattern. Bunker schools are still tractoring through the bay but the bass column on them is thinning and the fish that remain are increasingly post-spawn and lean — the trophy class is moving. Sea bass season is open and the wrecks and reef pieces from 17 Fathoms inshore to the Axel Carlson are the highest-percentage bottom trip on the board right now, with sand eels showing in the column and jigs outperforming clams when you mark fish stacked above the structure. Fluke reports out of Shark River and the Manasquan back have been steady on short-to-keeper ratios that favor patience — outgoing tide, bucktail-and-Gulp, the deeper holes off the railroad bridge.\n\nDown the southern end of the beat, Cape May and the Delaware rips are the sleeper play. When the northern bays warm past comfort, the rips off Cape May Point and the mouth of the Delaware become the most reliable striper structure on the Jersey coast through late June — moving water, tide-line bait, and slot fish that will eat a bucktail or a live spot. Weakfish should also be a real conversation in Delaware Bay and the Great Bay sedges right now; the back-bay grass edges on the top of the incoming with a pink shad or a small swimmer is the classic play, and the second week of June is historically when the better tiderunners show.\n\nLooking three to five days out, the controlling variable is wind. A sustained southerly stacks warm surface water against the Jersey beach and accelerates the inside-bay thermal exit — meaning the Raritan window closes faster. A northeast pulse, even a modest one, drags cooler slope water shoreward and can re-set the inlet bite for another week. I want eyes on Sandy Hook's tide-gauge water temperature trend and the first clean 44025 reading whenever NDBC brings it back online; a jump through 68 inside the bay is the trigger to abandon the Reach and commit to the Hook rips and the Shrewsbury Rocks full-time. New moon is not in play this week, so tide ranges are moderate — favor the inlets on the back half of the ebb rather than the slack-water windows.\n\nThe call for the next several tides: fluke the inlets and the 50-foot ocean line on the drift, jig sea bass on the inshore wrecks before the July one-fish limit clamps down, work the Hook outgoing at first light for the last of the bay bass, and if you've got the fuel, the Cape May rips are the most underrated striper bite in the state right now. I'll have firmer numbers when the buoy array and the SST pipeline catch up.",
+      "tags": [
+        "data-gap",
+        "raritan-transition",
+        "outgoing-tide",
+        "inlet-fluke",
+        "cape-may-rips",
+        "sea-bass-structure"
+      ]
+    },
+    {
+      "id": "2026-06-12-jamaica-bay-bay-heats-ahead-of-the-ocean-as-june-fluke-and-bass-settle-i",
+      "writer_id": "jamaica-bay",
+      "writer_name": "Denise \"Dee\" Vasquez",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jamaica-bay.png",
+      "zone": {
+        "slug": "jamaica-bay",
+        "name": "Jamaica Bay / Rockaway"
+      },
+      "published_at": "2026-06-12T12:31:45.188677+00:00",
+      "date": "2026-06-12",
+      "headline": "Bay heats ahead of the ocean as June fluke and bass settle into Marine Parkway pattern",
+      "subhead": "With offshore buoy reference offline, the dominant signal is the inside-outside thermal split driving bait and predators into Rockaway Inlet on the moving tides.",
+      "dateline": "ROCKAWAY, NY — June 12",
+      "body_markdown": "The oceanographic desk is running thin today. The 44025 array off Long Island is offline, taking out our primary offshore reference, and 44097 up at Block Island has been intermittent on water temperature. No fresh SST package has dropped since June 10. That means the read on Jamaica Bay this morning has to be built from structure and season rather than a clean buoy line, and the honest answer is that we are in the middle of the early-summer inside-outside split — back-bay flats and marsh edges warming hard into the mid-60s under June sun while the open Atlantic off Rockaway Beach lags several degrees behind. That gradient, more than any single number, is what is steering fish right now.\n\nWhat that thermal engine means for this beat is straightforward. The bay is the warm reservoir, the ocean is the cool sink, and Rockaway Inlet is the throat between them. Every outgoing tide pulls warmer, bait-rich water out past Breezy Point and dumps it into a cooler receiving body, and that is exactly the seam where striped bass stage. The Marine Parkway Bridge pilings remain the single most reliable piece of structure in the zone on the back half of the drop, with slot fish and a scattering of overslot holdovers working the down-current side of the towers in 18 to 30 feet. Fluke have spread from the deeper inlet channels onto the bayside flats and channel edges now that bay temps are committed to the 60s, and the first real porgy push should be setting up around the harder bottom near the bridge abutments and the channel edges off Canarsie Pier.\n\nOn the ground, the bass bite has been a tide-stage game more than a location game. The bridge is producing best on the last two hours of the outgoing into slack, with soft plastics on a half-ounce to one-ounce jighead outfishing bait for the schoolie-to-slot class, and bunker chunks still doing the work when a bigger fish wants to eat. Live bunker, where you can get it, is the move at first light along the Breezy Point rip and the deeper cuts inside the inlet. The chunk bite that defined late April and early May has thinned as the resident fish have shifted to chasing peanut bunker and spearing, and that is a normal June transition rather than a sign the bay is emptying.\n\nFluke reports out of the bay have been the usual June mix — plenty of shorts, sea robins on every other drift, and a legitimate keeper rate for anglers willing to work bucktail-and-teaser rigs on the moving water rather than dead-stick bait. The drifts along the channel edges south of the Cross Bay Bridge and the deeper water off the airport flats have been the most consistent, with the better fish coming on the stronger tide pushes. Weakfish are around in modest numbers — nothing like the banner mornings of a few seasons back, but enough yellowfins mixed into the fluke drifts and the evening bridge bite to tell you the bay is healthy. Bluefish presence has been spotty inside; the cleaner shots have come along the Rockaway Beach surf on the dawn tide when bait gets pinned against the bar.\n\nLooking ahead three to five days, the controlling variable is wind. A sustained southwest pattern in June piles warmer ocean water against the Rockaway beachfront and accelerates the inshore migration of bunker schools, which would light up the surf from Breezy east toward the jetty fields and bring bigger bass back into casting range from the sand. A hard easterly would do the opposite — push cold water against the beach, knock the surf bite back, and concentrate the action inside the inlet and at the bridge. With the new moon approaching, tide ranges will build through the week, which favors the bridge bass bite on the bigger outgoings and tends to scatter fluke off the tightest channel edges onto adjacent flats. Watch for the first serious peanut bunker showings in the back of the bay; that is the trigger that turns the evening weakfish bite from incidental into targetable.\n\nThe bay is doing in June what the bay does in June. The thermal gradient is the story, the inlet is the choke point, and the angler who fishes moving water on the right side of the bridge with the right size profile is going to catch. I would not overthink it this week — be on the Marine Parkway pilings for the last of the outgoing, have a bucktail rod rigged for the drift back, and keep an eye on the wind forecast for the first real southwest stretch.",
+      "tags": [
+        "estuary-thermal",
+        "outgoing-tide",
+        "marine-parkway-bridge",
+        "slot-class",
+        "bucktail-teaser",
+        "june-transition"
+      ]
+    },
+    {
+      "id": "2026-06-12-fire-island-captree-fleet-rides-a-mixed-bag-ocean-as-inlet-bait-stages-f",
+      "writer_id": "fire-island",
+      "writer_name": "Mariana \"Mari\" Reyes",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/fire-island.png",
+      "zone": {
+        "slug": "fire-island",
+        "name": "Fire Island / Great South Bay"
+      },
+      "published_at": "2026-06-12T12:31:01.965737+00:00",
+      "date": "2026-06-12",
+      "headline": "Captree fleet rides a mixed-bag ocean as inlet bait stages for the summer flip",
+      "subhead": "With 44025 offline and the SST package stalled at June 10, the read on Fire Island leans on inside-bay thermal cues and ocean-side party-boat signal.",
+      "dateline": "CAPTREE, NY — June 12",
+      "body_markdown": "The primary offshore reference for this beat — NDBC 44025 south of Fire Island — is sensor-dark again, and the satellite SST pipeline hasn't refreshed since June 10, so today's read leans harder than usual on the inside water and what the rails are bringing home. 44097 down at Block is also intermittent on temperature, which knocks out the second-best proxy for what's flowing past the inlet. What's left is the structural picture: a Great South Bay that, by mid-June, is running well ahead of the ocean thermally, an inlet flushing colder, denser ocean water in on every flood, and a bait column that's already split between sand eels and squid on the outside and bunker, spearing, and the first real push of snappers stacking inside. Wind has been workable, seas knockdown most mornings, and the fleet has been getting out clean.\n\nThat thermal split is the whole story right now. When the bay sits five to eight degrees warmer than the ocean — which is exactly where we should be in the second week of June with no recent blow to mix it — the inlet becomes a conveyor belt. Outgoing tide dumps warm, bait-rich bay water over the bar and the bass and blues set up on the edges of it; incoming brings cooler ocean water and the bottom fish — sea bass, porgies, ling, the last of the cod — pile onto structure just outside. That's the pattern the Captree open boats are running on, and it's why the ocean trips right now are producing the kind of mixed-bag rail you only see for a few weeks a year before the water homogenizes into full summer.\n\nThe ocean wrecks and rockpiles southeast of the inlet are the standout. Sea bass are stacked thick in 60 to 90 feet, with limits coming on hammered diamond jigs in the three- to five-ounce range and sabikis loading up three at a clip when you drop into a tight school. Porgies are mixed in heavier than usual for this early — a sign the bottom temps are climbing past that mid-50s threshold where they get aggressive. Ling and the odd cod are still being scraped off the deeper pieces, which tells me the colder ocean layer hasn't fully retreated yet. Chub mackerel showing on the boats is the other tell — that's a clean-water, cool-edge fish, and they don't hang around once the surface punches past 65.\n\nInside, the bass story has shifted hard off bait and onto plastics, and that shift tracks the water warming through the upper 50s into the low 60s. The clam-and-bunker-chunk crowd anchoring the channels is grinding through doggies to find a keeper; the guys drifting Bass Assassins, Hogys, and paddle tails through the Robert Moses bridge abutments and the deeper holes between markers are getting cleaner shots at slot fish and the occasional over. The night tide at Captree has been the most consistent window — slack to early outgoing, fishing the down-current side of the pilings. Fluke are in the inlet and along the bayside drop into the channel, but the class is still mixed and you're throwing back four or five shorts for every keeper. The Democrat Point rip and the sod banks toward Sore Thumb haven't fully turned on yet for the surf crowd, though the bait is there.\n\nLooking out three to five days, the move is bunker. The body of adult menhaden that's been working the beaches from Jones east is going to keep pushing, and once a pod commits to the inlet on an outgoing, the bass game changes overnight from finesse plastics to live-lining and snagging. Watch the wind: a sustained southwest will stack bait on the Fire Island beach from Democrat to the lighthouse and light up the dawn surf bite; a hard southeast will muddy the inside and push the fluke fleet out to the ocean side of the bridges. With the new moon working in next week, expect the tides to rip harder through the inlet, which historically triggers the first real weakfish showings around the Captree flats and the channel edges off Babylon.\n\nThe ocean is doing what it should be doing in mid-June, and the inlet is the seam where it matters. I'd be on the Moses bridges at first light on the outgoing with a bag of soft plastics, and I'd have a jigging stick rigged and ready the moment a bunker pod shows on the sounder. The bottom fishing outside is as good as it gets all year right now — don't sleep on it waiting for the bass to get easy.",
+      "tags": [
+        "thermal-split",
+        "outgoing-tide",
+        "soft-plastics",
+        "mixed-bag-bottom",
+        "bunker-watch",
+        "data-gap"
+      ]
+    },
     {
       "id": "2026-06-12-jones-inlet-jones-inlet-runs-blind-as-44025-stays-dark-but-june-pattern-",
       "writer_id": "jones-inlet",
