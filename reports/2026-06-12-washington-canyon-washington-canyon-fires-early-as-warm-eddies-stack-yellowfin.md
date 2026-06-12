@@ -1,0 +1,28 @@
+# Washington Canyon fires early as warm eddies stack yellowfin on the northwest wall
+*68-degree water and scattered bunker pods trigger first real tuna bite of the season.*
+
+**WASHINGTON CANYON — June 12** — _by Capt. Chris "Wash" Morrison, Zone Writer_
+
+The Washington came alive this week like I haven't seen in early June for three seasons. Water temps spiked to 68 degrees along the northwest wall where that persistent eddy has been spinning, a solid 6 degrees warmer than the surrounding blue water. That temperature break is pure gold this time of year — it's concentrating bait and firing up the first real yellowfin bite of 2026.
+
+I've been watching this setup develop for ten days now. The Gulf Stream pushed a warm core ring north, and when it collided with the canyon's northwest shoulder, it created this beautiful thermal pocket that's been holding steady all week. The yellowfin moved in Tuesday, and by Thursday we had boats working steady action from the 100-fathom curve all the way up to the 60-line.
+
+The fish are running 30 to 60 pounds — classic early-season Washington yellowfin. They're not the monsters we'll see in August, but they're fat, aggressive, and absolutely hammering anything that looks like a bunker. Spreader bars with cedar plugs are producing the most consistent action, especially the natural wood finish with silver mylar. I'm running them 150 feet back on the long riggers, and when you see that rod tip bounce twice and then load up hard, you know you've got a yellowfin coming to the boat.
+
+Live bunker is absolutely deadly when you can find them. The key is getting them down to the 40-foot mark where the fish are feeding. I'm using a 6/0 circle hook through the nose, 80-pound fluorocarbon leader, and just enough weight to get the bait down without killing it. The yellowfin are coming up from 80 feet to hit these baits, and the strikes are violent — no mistaking a tuna bite for anything else.
+
+Chunking has been productive too, especially on the evening bite. Fresh bunker chunks on 8/0 circles, fished on the drift along the temperature break. The trick is reading the current — when that eddy is spinning clockwise, you want to position yourself on the upstream side and let your chunks sweep into the warmer water. I've seen boats limit out in two hours working this pattern.
+
+The bluefin are mixed in, mostly smaller fish in the 40 to 80-pound range. They're hitting the same baits as the yellowfin, but they're more finicky about presentation. Slow down your trolling speed to 6 knots, and make sure your spread looks natural. These early-season bluefin have seen a lot of boats, and they'll turn away from anything that doesn't look right.
+
+Mahi showed up Wednesday in decent numbers, mostly along the eastern edge where the water drops from blue to deep blue. They're schoolie fish, 5 to 15 pounds, but they're aggressive and fun on light tackle. Small cedar plugs and ballyhoo combinations are working best. Once you hook the first one, keep the boat in gear and work the school — these fish are traveling in tight groups.
+
+Bait situation is interesting this week. The bunker pods are scattered but consistent, mostly along the 30 to 50-fathom line. They're not the massive schools we'll see later in the season, but there's enough bait to keep the tuna interested. I'm also seeing good numbers of flying fish, which explains why the mahi are so active.
+
+Looking ahead, this weekend's new moon should really fire things up. Spring tides always seem to concentrate bait along the canyon walls, and with water temperatures holding steady in the high 60s, I expect the yellowfin bite to get even better. The weather looks cooperative through Sunday, with light southwest winds and 2-foot seas.
+
+My advice for anyone heading out: focus on that northwest wall between the 60 and 100-fathom lines. Watch your fish finder for the temperature break — when you see that 4 to 6-degree jump, that's where you want to fish. And bring plenty of ice — when the Washington fires this early in the season, it usually fires hard.
+
+---
+
+Tags: yellowfin-tuna, washington-canyon, spreader-bars, live-bunker, temperature-break, early-season

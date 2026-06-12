@@ -1,0 +1,30 @@
+# Yellowfin blitz fires the canyon wall as 72-degree water holds bait tight
+*Big eyes pushing up from the deep as thermal breaks stack everything on the 100-fathom line.*
+
+**HUDSON CANYON, NY — June 12** — _by Capt. Tony Rosetti, Zone Writer_
+
+The canyon is absolutely on fire right now, and it's all about that 72-degree water sitting tight against the wall. I've been running out here for twenty-three years, and when you see that kind of thermal gradient — 68 degrees on the shelf dropping to 72 at the break — you know the yellowfin are going to stack up like cordwood.
+
+We've been finding them consistently between the 100-fathom line and the Claw, mostly in that 180 to 220-foot zone where the warm water meets the upwelling. The fish are running 40 to 80 pounds, with a few pushing the century mark. Cedar plugs and spreader bars are getting crushed on the troll, but the real action is happening when you stop the boat and chunk.
+
+Here's the deal: these fish are feeding on squid that are getting pushed up by the thermal break. I'm running a simple fishfinder rig with a 6/0 circle hook, 4 feet of 80-pound fluorocarbon, and chunks of fresh squid about the size of your thumb. Drop it back 150 feet behind the boat and let it flutter down through the water column. The takes are violent — these yellowfin are absolutely crushing the baits.
+
+The bigeye situation is even more interesting. They're coming up from the deep water at first light and again right at sunset, probably following that same squid migration. I'm seeing them in 300 to 400 feet of water, just off the main canyon wall. These fish are bigger — 80 to 120 pounds — and they want the bait presented differently. I'm using a sliding sinker rig with just enough weight to get down, maybe 8 ounces, and letting the squid chunk drift naturally in the current.
+
+The mahi bite has been solid too, especially around any floating debris you can find. We picked up a dozen fish between 10 and 25 pounds yesterday, all on ballyhoo rigged behind small feathers. The key is working the edges of the weed lines where they intersect with the temperature breaks. These fish are aggressive right now — they'll hit just about anything that moves.
+
+What's really driving this bite is the way the Gulf Stream is interacting with the shelf water. That 72-degree tongue is pushing right up against the canyon wall, creating a perfect feeding zone. The bait — mostly squid, some small tunas, and scattered flying fish — is getting concentrated right where we want to fish. It's textbook canyon fishing when everything lines up like this.
+
+The white marlin have been showing up sporadically, mostly on the troll. I'm running a spread of ballyhoo behind sea witches, working the 150 to 200-foot zone where the color change is most pronounced. These fish are finicky — you need to keep the baits moving and stay alert for that telltale bill slashing behind the spread.
+
+Timing is critical out here right now. The best bite has been happening in that first hour after sunrise and again in the last two hours before dark. The fish seem to shut down during the heat of the day, probably because the bait drops deeper when the sun gets high. I'm adjusting my fishing times accordingly — early launch, long run, fish hard during the prime windows.
+
+The current has been running pretty steady at about 1.5 knots to the northeast, which is perfect for drifting and chunking. Any faster and it becomes hard to keep your baits in the zone; any slower and the fish seem less aggressive. This current speed lets you cover water while keeping your presentation natural.
+
+Looking ahead, I'm watching the weather pattern closely. We've got a front moving through this weekend that should stir things up and potentially push some fresh bait into the canyon. The new moon is coming up next week, which typically means stronger currents and more active feeding. If this thermal structure holds together through the weekend, we could be looking at some of the best canyon fishing of the early season.
+
+The key right now is being flexible with your approach and paying attention to what the fish are telling you. Some days they want the baits trolled fast, other days they want them chunked slow. But with water this good and bait this concentrated, the canyon is fishing as well as I've seen it in years.
+
+---
+
+Tags: yellowfin-tuna, bigeye-tuna, chunking, hudson-canyon, thermal-break, squid
