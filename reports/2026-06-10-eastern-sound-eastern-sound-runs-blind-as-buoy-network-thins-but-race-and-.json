@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-10-eastern-sound-eastern-sound-runs-blind-as-buoy-network-thins-but-race-and-",
+  "writer_id": "eastern-sound",
+  "writer_name": "Mike Rizzo",
+  "writer_role": "Zone Writer",
+  "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/eastern-sound.png",
+  "zone": {
+    "slug": "eastern-sound",
+    "name": "Eastern Long Island Sound"
+  },
+  "published_at": "2026-06-10T11:02:36.047973+00:00",
+  "date": "2026-06-10",
+  "headline": "Eastern Sound runs blind as buoy network thins, but Race and Gut math still rules June",
+  "subhead": "With offshore stations offline and the SST package frozen at June 8, tide-stage discipline and structure replace real-time thermal intel.",
+  "dateline": "ORIENT POINT, NY — June 10, 2026",
+  "body_markdown": "The oceanographic picture across the Eastern Sound this morning is thinner than I'd like. The Dr. Fish analyst feed is running with significant gaps — wind data missing at 44025, 44097, and 44091, the offshore trio at 44017, 44039, and 44040 offline, and no live SST update past the June 8 satellite package. There is no current buoy-confirmed water temperature to anchor this report to, and that needs to be said up front rather than papered over. What we do have is a catalog of clean SST passes running May 23 through June 8, which gives a trajectory rather than a snapshot — the Sound was on its standard June warming curve heading into this window, and there is no storm event in the recent record severe enough to have flipped that. Working assumption: surface water on the Sound side of Plum Gut and through The Race is sitting in the high 50s to low 60s, with the Gardiners and Peconic side a couple of degrees warmer on the flood push. That two-to-three-degree delta across the Gut is the engine right now.\n\nFor the beat, that thermal seam is the single most important feature. Bass have been staged through Plum Gut and The Race for weeks on the standard May-into-June progression, and the warmer water sluicing out of the bays on the ebb is what concentrates them on the down-current side of the structure. The pattern that matches this water is classic: three-way rigs with bucktails in 60 to 100 feet through the heart of the Race on the ebb, and shorter drifts on the Gut edges where the bottom rises from 90 feet up onto the 40-foot shelf. Slot-class fish are the dominant biomass — 28 to 31 inches — with a real population of over-slot mixed in once the rip stands up. This is not yet the trophy bunker-bite window; that's a July overlay when the adult menhaden push in.\n\nOn-the-ground signal across the last ten days lines up with that read. The Gut has been producing a steady slot bite on bucktails worked deep, with the ebb tide outperforming the flood for most operators, though the flood is far from dead — it's a question of boat traffic and drift angle more than fish presence. The Race has been more boom-or-bust, dictated by wind-against-tide on the moon swings, and when the rip stands up clean it has been giving up multiples per drift, including overs on top-water once the birds work. Bluefish are in the system in Race-grade size — the gorilla class, 12 pounds and up — and they will tax tackle and bucktail inventory the moment you find them. That mix of slot bass and big blues on the same drift is the June signature out there.\n\nBlackfish season structure is closed federal-side for most of this zone right now, so the Fishers Island drops that fire in fall are not in play. Porgy fishing has begun ramping on the mid-Sound humps and along the Plum Island shoreline, and fluke is legal and live across the bay floors west of the Gut, though the better drifts are in the Peconics rather than out front. Weakfish remain a wild card — they showed in late June last year on the Gut ebb mixed with bass, and the water temperature trajectory suggests the same window opens this week or next.\n\nLooking ahead three to five days: the moon is building toward full, which means stronger tides, harder rips, and a higher premium on timing the slack-to-current transition correctly. Stronger tides also mean the thermal seam across the Gut sharpens, which should pull more fish onto the down-current edge. Without live wind data I can't call sea state with confidence, but any sustained southwest over 15 knots against an ebb will turn The Race into something only the experienced should be working. I'd be watching the bait — if the spearing and sand eel concentrations thicken along the Orient rip the way they did in the same week last year, expect the top-water window at first light to open hard, especially on the ebb out of the Gut.\n\nThe Eastern Sound is fishing the way it should fish in the second week of June: slot bass on bucktails through the rips, big blues mixed in, and a thermal gradient across the Gut doing most of the work. The data thinness is real and worth respecting, but the structure does not change and the tide does not lie.",
+  "tags": [
+    "ebb-tide",
+    "thermal-seam",
+    "slot-class",
+    "bucktail-deep",
+    "moon-swing",
+    "data-gap"
+  ]
+}

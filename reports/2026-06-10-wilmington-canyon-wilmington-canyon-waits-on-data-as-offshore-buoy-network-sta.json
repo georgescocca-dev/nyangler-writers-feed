@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-10-wilmington-canyon-wilmington-canyon-waits-on-data-as-offshore-buoy-network-sta",
+  "writer_id": "wilmington-canyon",
+  "writer_name": "Capt. Dana Cooper",
+  "writer_role": "Zone Writer",
+  "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/wilmington-canyon.png",
+  "zone": {
+    "slug": "wilmington-canyon",
+    "name": "Wilmington Canyon"
+  },
+  "published_at": "2026-06-10T11:09:48.703606+00:00",
+  "date": "2026-06-10",
+  "headline": "Wilmington Canyon waits on data as offshore buoy network stays dark",
+  "subhead": "With 44017, 44039 and 44040 offline and the latest SST package two days stale, canyon intel is running on inference rather than measurement.",
+  "dateline": "INDIAN RIVER, DE — June 10",
+  "body_markdown": "The Wilmington beat opens this week with a frustrating reality: most of the instruments we lean on for canyon decision-making are dark. Offshore stations 44017, 44039 and 44040 are not reporting, which strips out the shelf-edge wind and sea-state picture we'd normally use to call a Tuesday run. Wind data at 44025, 44097 and 44091 is also missing, so even the inshore-to-offshore pressure gradient has to be inferred rather than read. The most recent published SST composite in the catalog is dated June 8, two days behind real time, and there has been a gap of several days inside the late-May to early-June series as well. That matters because this is exactly the window when Gulf Stream warm-core eddies sling north and west toward the 100-fathom line, and a 48-hour blind spot can hide a finger of 72-degree water sliding over the east wall.\n\nWhat that means for the canyon: until a fresh chart drops, the smart approach is to fish the structure you know rather than chase a temperature break you can't currently see. The east wall from roughly the 500-fathom line up over the lip, and the southwest corner where the contours pinch, are the default plays in early June regardless of eddy position. Bigeye are the realistic overnight target on the troll at first light and last light, yellowfin should be in the mix wherever bait stacks on a clean edge, and the first serious mahi numbers of the season typically show on any floating debris or hi-flier this week. White marlin are early but not impossible on a warm push. Without confirmed SST, I would not commit to a chunk drift on a specific number — troll first, find the life, then decide whether the water justifies setting up.\n\nOn-the-water intelligence from the canyon itself is thin right now. The party boat and headboat feed that normally gives us a read on bait depth and surface activity along the shelf is offline, and inshore reports out of Delaware and South Jersey bays don't translate cleanly to 73 miles southeast of Indian River Inlet. What can be said is that the broader Mid-Atlantic pattern in the first ten days of June has been a slow warm-up rather than a sudden flip, which argues for a canyon that is fishable but not yet stacked. In years when the eddy field sets up early, you hear about it by now from the longline and commercial side; the absence of that chatter is itself a data point.\n\nBait-wise, the assumption going into this week is that sand eels and squid are the dominant forage along the shelf break, with flying fish and small mahi becoming targets as surface temps climb through the upper 60s into the low 70s. Spreadered ballyhoo behind Joe Shutes and small Ilanders remains the percentage troll, with a green machine daisy chain and a shotgun bird-and-ballyhoo for the bigeye window at gray light. If a tuna shows on the meter holding deep and uninterested, that is the cue to deploy a deep jig or a weighted bait rather than burn another hour on the troll spread.\n\nLooking ahead three to five days, the priorities are simple. First, watch for the next SST package to publish — a single clean chart will tell us whether the 72-degree contour has reached the east wall or is still hung up south of the canyon. Second, watch for 44009 and the Delaware coastal stations to give us a wind trend; a sustained southwest flow at 10 to 15 is the setup that pushes warm surface water up onto the shelf and concentrates bait on the lip. Third, the moon is building toward full, which historically sharpens the dawn and dusk tuna bite and is worth planning a trip around if the wind cooperates. A hard northeast event would set the canyon back a week and is the main downside risk.\n\nThe Wilmington is in its shoulder week. The fish are out there, the structure is the structure, but the instruments are dark and the prudent captain treats this as a scouting trip rather than a sure thing. Run it, troll the known corners, mark the bait, and bring back the data the buoys aren't giving us.",
+  "tags": [
+    "data-gap",
+    "gulf-stream-eddy",
+    "east-wall",
+    "trolling",
+    "bigeye-dawn",
+    "shelf-break"
+  ]
+}

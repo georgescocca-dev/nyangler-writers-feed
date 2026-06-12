@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-10-moriches-moriches-inlet-runs-on-june-rhythm-as-oceanographic-feed-thi",
+  "writer_id": "moriches",
+  "writer_name": "Pete Gallo",
+  "writer_role": "Zone Writer",
+  "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/moriches.png",
+  "zone": {
+    "slug": "moriches",
+    "name": "Moriches Bay"
+  },
+  "published_at": "2026-06-10T11:05:18.282570+00:00",
+  "date": "2026-06-10",
+  "headline": "Moriches Inlet runs on June rhythm as oceanographic feed thins out",
+  "subhead": "With buoy telemetry and SST imagery patchy this week, the inlet's tidal exchange and bait stage become the controlling variables for the bite.",
+  "dateline": "EAST MORICHES, NY — June 10",
+  "body_markdown": "The analyst desk is running thin today. The latest SST package in the pipeline is dated June 8, and the regional buoy network is showing gaps — 44025 south of Moriches and 44097 off Block are missing wind, and the offshore canyon stations 44017, 44039 and 44040 are offline. No fresh fleet feed either. That leaves the report grounded in what the inlet itself is telling us in early June, with the published SST imagery from earlier in the week as the only reliable thermal handle. The pattern in those frames is the one you'd expect for the second week of June on the South Shore: an inside-bay water column running noticeably warmer than the nearshore Atlantic, with the strongest gradient sitting right in the throat of Moriches Inlet on each tide change.\n\nWhat that thermal split means for this beat is straightforward. The bay is the engine room — shallow, dark-bottomed flats from Tuthill Point east toward Westhampton are heating fast on sun, pushing surface temps into the high 60s by afternoon, while the ocean side off Cupsogue is still hanging in the upper 50s to low 60s depending on swell and upwelling. That delta is what drives the inlet bite this time of year. Outgoing water dumps warm, bait-rich bay onto the ocean-side bar, and bass stage on the edge of that plume waiting for sand eels, spearing and the first of the peanut bunker to wash through. Fluke, meanwhile, are setting up on the inside edges of the channel sand where the cooler ocean push meets the warmer bay return on the flood.\n\nOn the inlet itself, the productive water remains the east-side rip on a dropping tide two hours either side of low, fishing bucktails from three-quarter to one-and-a-half ounces tipped with a six-inch Gulp grub on the deeper slope — call it 18 to 24 feet at the throat — and stepping down to half-ounce jigs as you work up onto the 8- to 12-foot shelf inside. The slot-class bass in the system right now are eating soft plastics and small swimmers better than bait; that shift away from clam and chunk toward paddle-tails and SP minnows has been the clear tell over the last couple of weeks and tracks with what the water temperature is doing. Bigger fish — the overslot class that always shows on the new and full moon tides through June — are pinning bait against the west jetty on the last of the outgoing into the first of the flood, and that's a sand-eel imitation game after dark.\n\nInside the bay, the fluke bite has been the steady headline. The skinny-water program from three to ten feet along the channel edges off East Moriches and out toward the Coast Guard station has been producing a real mix — plenty of shorts, a workable ratio of slot fish, and the occasional six-pound-plus doormat sliding into the box. The fish are responding to slow drifts and light jigs; anyone fighting a heavy west wind without a trolling motor or a drift sock is wasting a tide. Tuthill Point flats on the incoming, when cleaner ocean water is pushing up under the warmer bay surface, have been the most consistent piece of bottom. Weakfish are a quiet presence in the deeper holes near the inlet on the bottom of the tide — not a fleet story, but a fish to be aware of for anyone working pink plastics slowly.\n\nLooking out three to five days, the moon is the variable to watch. We're working into a stronger tide series, which will sharpen the inlet rip and improve the after-dark bass window on both sides of the inlet. If the missing buoy data comes back and shows the nearshore Atlantic climbing through 60 degrees, expect the first real push of bluefish to follow the bait inside, and the surf at Cupsogue should start producing on metals at first light. A southwest wind under 15 keeps the drift fishable and the bay clean; anything northwest over 20 muddies the back and shuts the flats down for a tide cycle.\n\nThe inlet is doing exactly what it does in the second week of June — running a thermal engine between two different bodies of water and concentrating fish on the seam. Until the analyst feed comes back online, fish the tide stages and the temperature break, not the rumor mill.",
+  "tags": [
+    "estuary-thermal",
+    "outgoing-tide",
+    "slot-class",
+    "soft-plastics",
+    "inlet-rip",
+    "data-gap"
+  ]
+}

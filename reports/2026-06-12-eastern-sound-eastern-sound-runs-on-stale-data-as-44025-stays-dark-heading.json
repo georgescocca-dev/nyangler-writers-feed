@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-12-eastern-sound-eastern-sound-runs-on-stale-data-as-44025-stays-dark-heading",
+  "writer_id": "eastern-sound",
+  "writer_name": "Mike Rizzo",
+  "writer_role": "Zone Writer",
+  "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/eastern-sound.png",
+  "zone": {
+    "slug": "eastern-sound",
+    "name": "Eastern Long Island Sound"
+  },
+  "published_at": "2026-06-12T11:58:41.306976+00:00",
+  "date": "2026-06-12",
+  "headline": "Eastern Sound runs on stale data as 44025 stays dark heading into mid-June",
+  "subhead": "Primary offshore reference offline and Block Island thermistor flickering — Race and Plum Gut pattern read from structure and seasonal baseline, not live SST.",
+  "dateline": "ORIENT POINT, NY — June 12, 2026",
+  "body_markdown": "The headline reality this morning is that the instruments are quiet. NDBC 44025 — the offshore anchor for any honest Eastern Sound read — is offline, and 44097 down at Block Island is intermittent on water temperature, so the Block thermal signal that normally tells us whether the outside water is loading or stalling is incomplete. The Dr. Fish analyst package did not produce a fresh SST grid for the 12th; the most recent published SST date in the catalog is June 10. Overnight fishing reports did not refresh either. That means today's read is a structural one — bathymetry, tide, moon, and a two-day-old thermal picture — rather than a buoy-driven one. Anyone telling you they have a precise Race surface temp this morning is guessing.\n\nWhat I can say from the June 10 package and the seasonal baseline is that the Eastern Sound is locked into its early-summer regime. Mid-June here means the inside Peconic and Gardiners water is running materially warmer than what's pumping through the Gut and the Race on each tide — that thermal gradient is the engine. Cold, oxygenated, current-driven water funnels through Plum Gut and The Race; warmer estuary water flushes out on the ebb. Bass stack on the downcurrent side of the boulder fields and the deeper structure where that thermal seam sets up. Without a live SST I'm not putting a number on it, but the seasonal range for this date typically lands the Race in the upper 50s to low 60s on the bottom and the inside bays five to eight degrees warmer at the surface. That spread is what's driving the bite, and there is no reason in the available data to think it has collapsed.\n\nOn the ground, the pattern that has been building since the water crossed 52 degrees in mid-May is the one to fish. Plum Gut on the flood has been the more forgiving of the two majors — bucktails on a three-way down 40 to 60 feet, slot and just-over-slot fish working the edges of the rip. The Race holds the bigger class of fish but punishes sloppy drifts; the ebb there with a small pencil popper on a casting rod when the birds start working has put overs on the deck repeatedly through the back half of spring, and there's no oceanographic reason that's changed. Bluefish are in the mix and will tax your terminal — expect to lose bucktails when the gators show, particularly on the Race ebb in full sun.\n\nFishers Island remains the wild card. The west-side shallow drops in 20 feet are a porgy and sea bass story right now more than a bass story, and the deeper 55-foot drops south and east will be a fall blackfish conversation, not a June one. What the island does offer in June is a structured shoreline where the same thermal seam wraps and bait piles against the rocks on the dropping tide. If the southwest fills in the afternoon — which is the climatological default for this week — the lee side fishes. Weakfish should be a legitimate target in the bays west of the Gut on the warmer end of the tide cycle; mid-June is historically when that bite has its window before the water gets too warm.\n\nLook-ahead is constrained by the data gap, but the mechanics are clear. We are running into the new moon on June 14, which means tides build through the week and current velocity at the Gut and Race peaks. Bigger water moves more bait and stacks more fish on structure, but it also shortens the productive window inside each tide stage — the fish feed hard on the build and the drop, not at peak rip. If 44025 comes back online and shows the offshore water holding in the low 60s, expect the Race ebb to keep producing overs through the weekend. If a hard southwest sets up Saturday into Sunday as the longer-range guidance has been hinting, the Sunday morning ebb at the Gut will be the cleaner play than a beat-up Race.\n\nUntil the buoys come back, fish the structure and the moon. The Eastern Sound is doing exactly what mid-June Eastern Sound does, and the absence of fresh numbers doesn't change where the bass are sitting — it just means the rest of us are flying on instruments we already know by feel.",
+  "tags": [
+    "data-gap",
+    "plum-gut",
+    "the-race",
+    "new-moon",
+    "thermal-seam",
+    "slot-class"
+  ]
+}

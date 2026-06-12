@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-10-hudson-canyon-hudson-canyon-opens-june-in-a-data-fog-as-offshore-buoys-sta",
+  "writer_id": "hudson-canyon",
+  "writer_name": "Capt. Tony Rosetti",
+  "writer_role": "Zone Writer",
+  "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/hudson-canyon.png",
+  "zone": {
+    "slug": "hudson-canyon",
+    "name": "Hudson Canyon"
+  },
+  "published_at": "2026-06-10T11:09:11.040193+00:00",
+  "date": "2026-06-10",
+  "headline": "Hudson Canyon opens June in a data fog as offshore buoys stay dark",
+  "subhead": "With canyon-approach stations 44017, 44025, and 44066 offline, the read on the shelf-break thermal edge is coming from satellite SST alone.",
+  "dateline": "HUDSON CANYON — June 10",
+  "body_markdown": "The canyon beat is opening this week with more questions than readings. The offshore buoy network that normally frames a Hudson report — 44025 south of Long Island, 44017 at Montauk, 44066 on the Hudson Shelf Valley approach, and the deepwater 44011 out on Georges — is either offline or transmitting incomplete data, leaving the satellite SST package as the only consistent eye on the shelf break. The most recent usable composite is the June 8 product, two days stale by the time this files, which is workable for locating the wall of the warm edge but useless for tracking the kind of overnight frontal shifts that move the bite five miles in a tide. Wind data across the inshore approach stations is patchy as well, so anyone running out this week is going to be doing more of their own oceanography than usual once they clear the inlet.\n\nWhat that means for the canyon is simple: trust the structure, not the chatter. The 100-fathom line from the Claw down through the Dip is the spine of the beat in early June regardless of what the buoys are saying, and the yellowfin push tends to set up where the satellite edge stacks against that contour. Until we get real surface readings back, the play is to run to the temperature break visible on the most recent SST chart, mark the cleanest color change with the warmest blue water on the east side, and work that line with the spread rather than committing to a single number on the temp gauge. Daytime swords are still the higher-percentage bet on the calendar — the bite has been building through the back half of May and the fish are sitting where they always sit, 1,200 to 1,500 feet down on the canyon walls, indifferent to whatever the surface is doing.\n\nThe trickle of intelligence coming off the docks the past week has been thin enough that I'm treating it as noise rather than signal. There is no party-boat or charter feed running right now to confirm what private boats are seeing, and the handful of reports filtering back from the shelf have been inshore-weighted — fluke and seabass talk, not tuna talk. That is itself a piece of information. When the canyon fleet is quiet in the second week of June it usually means one of two things: the weather window has been narrow enough to keep boats tied up, or the yellowfin haven't pushed in numbers to the inside edge yet and the long runs to Texas Tower or the deeper canyon haven't paid off enough to generate stories. Both can be true at once.\n\nWhat I am watching on the SST sequence from May 23 through June 8 is the northward creep of the 68 to 72 degree water against the shelf break. That progression has been steady but not explosive, which fits the seasonal pattern — we are still a week or two early for the bigeye night bite to get serious, and the wahoo and mahi numbers will not be there until the warm water gets a firmer grip on the structure. The white marlin are a July conversation, not a June one, though the first scattered reports usually come from the Claw when a finger of clean blue water pinches off and holds.\n\nLooking ahead three to five days, the priority is getting the buoy network back online or finding a fresh SST pass that confirms the edge has not collapsed back south. If the warm side of the break holds above 70 and the wind lays down enough to fish a moonless stretch, the canyon walls are where I'd be putting baits down for swords during the day and setting up on the troll along the 100-fathom line at first and last light. Until the offshore stations come back, the smart canyon run this week is a planned one, with the SST chart printed and a willingness to abandon the plan the moment the water on scene tells a different story than the chart did.\n\nThis is a week to fish conservatively, run with a buddy boat, and treat every temperature reading off your own transducer as the most reliable data point you have.",
+  "tags": [
+    "shelf-break",
+    "sst-edge",
+    "data-gap",
+    "daytime-swordfish",
+    "100-fathom-line",
+    "yellowfin-push"
+  ]
+}
