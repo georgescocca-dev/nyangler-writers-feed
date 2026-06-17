@@ -1,0 +1,26 @@
+# Bay fluke fire as water hits 68 — bucktails and Gulp dominate the drift
+*Spring tides flush bait through the inlet while weakfish crash the party at sunset.*
+
+**JAMAICA BAY, NY — June 14** — _by Denise "Dee" Vasquez, Zone Writer_
+
+The bay finally woke up this week. Water temps jumped to 68 degrees — a solid four-degree bump from last week — and the fluke responded like someone flipped a switch. I've been working the deeper channels from the Marine Parkway Bridge to the Cross Bay, and the action has been consistent enough to make you forget about all those slow spring trips.
+
+The sweet spot is 25 to 30 feet of water on the outgoing tide, especially that first two hours after the turn. I'm dragging 3/4-ounce bucktails tipped with 5-inch white Gulp Swimming Mullets, keeping them just off the bottom on a slow drift. The key is letting the current do the work — too much rod action and you'll pull it right out of their mouths. These aren't the aggressive summer fish yet; they're still feeling their way into the feeding pattern.
+
+Sizes have been solid for June — plenty of 18 to 20-inchers with a few pushing 24. Had one customer boat a 26-inch doormat yesterday that went close to six pounds. She was holding tight to the bridge pilings on the Brooklyn side, right where the current sweeps around the structure. That's classic early-season behavior — the bigger fish want the ambush points while the smaller ones scatter across the flats.
+
+What's really got me excited is the weakfish showing up at sunset. These aren't the usual bay residents — these are ocean fish that followed the bait through Rockaway Inlet. I'm seeing them from my kayak in 15 to 20 feet, working the edges where the channel drops off. They're hitting small bucktails and soft plastics, but you need to fish them different than fluke. Steady retrieve, no bouncing, like you're working for schoolie bass.
+
+The spring tides we had earlier this week really stirred things up. All that water moving through the inlet brought fresh bait — I'm seeing peanut bunker, spearing, and even some small snappers already. The bait is what's driving this whole show. When you see those nervous schools dimpling the surface at first light, you know the predators aren't far behind.
+
+Porgies are thick around any structure — the Cross Bay Bridge, the old pilings near Canarsie Pier, even the shallow humps in the middle of the bay. Nothing big, mostly 8 to 10-inchers, but they're perfect for keeping the kids busy while you work for the better fish. Clam strips on a high-low rig, nothing fancy.
+
+The striped bass bite has been hit or miss, but when you connect, they're quality fish. I had a 32-incher Tuesday morning on a live bunker fished under the Marine Parkway span. The trick is getting there right at slack tide when the bait balls up under the bridge. Once the current starts ripping, the bass scatter.
+
+Looking ahead, we're coming into the new moon this weekend, which means big tides again. That's going to flush even more bait through the system and should fire up the inlet fishing. I'm planning to be at the jetties Friday evening for the first real weakfish push of the season. The water temperature gradient between the bay and ocean is perfect right now — bay water running 4 degrees warmer is like a magnet for bait on the flood tide.
+
+If you're planning to fish the bay this week, focus on the deeper water during the day and don't overlook the shallows at sunset. The fish are there, but they're still adjusting to the warming water. Patience and the right presentation will put fish in the boat.
+
+---
+
+Tags: fluke, weakfish, bucktail, jamaica-bay, outgoing-tide, gulp

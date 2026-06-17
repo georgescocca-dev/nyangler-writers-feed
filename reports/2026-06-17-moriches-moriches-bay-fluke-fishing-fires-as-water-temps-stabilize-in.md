@@ -1,0 +1,28 @@
+# Moriches Bay fluke fishing fires as water temps stabilize in the shallows
+*Doormat flatfish to 7 pounds hitting bucktails in 6 feet as inlet dynamics shift post-storm.*
+
+**MORICHES BAY, NY — June 17** — _by Pete Gallo, Zone Writer_
+
+The shallow-water fluke bite in Moriches Bay has turned absolutely electric this week, with doormat summer flounder to 7.2 pounds coming over the rails in water so thin you can see bottom. The key has been understanding how this dynamic inlet system responds to the recent weather patterns and where that pushes both bait and predators.
+
+Water temperatures have stabilized beautifully in the bay's skinny sections — we're seeing a consistent 72-74 degrees in the 4-8 foot zones, a solid contrast to the ocean side which is running cooler at 68-70. That thermal gradient is critical here because it's creating distinct comfort zones for both bait and fluke. The warmer bay water is holding massive schools of spearing and juvenile bunker, while the cooler inlet flow keeps the big flatfish active and feeding aggressively.
+
+The productive pattern has been working the edges where deeper channels meet the flats, particularly on the incoming tide when that cooler ocean water pushes into the bay and creates current breaks. I'm talking about spots like the eastern edge of the main channel near Tuthill Point, and the drop-offs along the Cupsogue side where 3 feet suddenly becomes 12. These transition zones are where the big girls set up to ambush.
+
+Tactics have been all about finesse in this shallow water. We're using 1/4 to 1/2 ounce bucktails — any heavier and you're dragging bottom constantly in these depths. White and chartreuse combinations are absolutely crushing it, tipped with 4-inch Gulp Swimming Mullets in pearl or white. The key is the retrieve: slow, steady lifts with the rod tip, letting the jig flutter down on a semi-slack line. In 6 feet of water, you can actually watch the fish follow and strike.
+
+The inlet itself has been producing some spectacular fishing, but you need to read the water carefully. Moriches Inlet shifts constantly, and the recent northeast blow moved some serious sand around. The south jetty has a new cut that's funneling bait on the outgoing tide, creating a feeding lane that's been holding both fluke and stripers. Best action has been two hours before and after the tide change, when the current speed is manageable but still moving enough bait to keep fish interested.
+
+Striped bass have been a bonus target, with schoolies to 28 inches mixed in with the fluke bite. They're hitting the same bucktail presentations, but also responding well to small soft plastics like 3-inch Zoom Flukes in white or chartreuse rigged on 1/8-ounce jigheads. The bass seem to be following the spearing schools, so when you mark bait on the finder, it's worth making a few casts before dropping for fluke.
+
+Porgies have been thick around any structure — the old pilings near East Moriches, the rock piles off Smith Point, anywhere there's hard bottom in 8-15 feet. They're hitting small pieces of clam on high-low rigs, and while they're not the target species, they make excellent table fare and keep the action going between fluke drifts.
+
+Weakfish have started showing in better numbers, particularly in the back bay areas near Westhampton. Evening fishing has been best, with small bucktails and soft plastics producing fish to 4 pounds. The key has been finding the grass edges where they're feeding on grass shrimp and small crabs.
+
+Looking ahead, this weekend's new moon means spring tides that will really flush the system. I expect the inlet fishing to get even better as increased current flow concentrates bait in predictable spots. The weather pattern looks stable with light winds, which is perfect for the shallow-water game we've been playing. Water temps should continue climbing gradually, which will only improve the fluke bite as we head deeper into summer.
+
+The one thing to watch is boat traffic — word is getting out about the quality of fish we're seeing, and weekends are getting crowded in the productive zones. Early morning and late afternoon sessions are your best bet for having water to yourself and finding fish that haven't been pressured.
+
+---
+
+Tags: fluke, moriches-bay, bucktail, shallow-water, inlet-fishing, striped-bass

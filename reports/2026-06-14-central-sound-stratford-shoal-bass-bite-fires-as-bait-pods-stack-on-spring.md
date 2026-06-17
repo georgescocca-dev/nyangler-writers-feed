@@ -1,0 +1,28 @@
+# Stratford Shoal bass bite fires as bait pods stack on spring tide rips
+*New moon currents flush bunker from harbors while fluke action heats up in 30-foot zone.*
+
+**PORT JEFFERSON, NY — June 14** — _by David "The Harbor Scout" Han, Zone Writer_
+
+The new moon spring tides this week have completely reshuffled the Central Sound, and the fish are responding exactly like they should. I've been watching the bait movements for three weeks now, and everything finally clicked into place when these big tides started pulling bunker out of the harbors and stacking them against the structure.
+
+Stratford Shoal has been the star performer. The rip on the southwest corner is holding bass from 28 to 38 inches, with the best action coming on the last two hours of the ebb when the current really starts screaming. White 6-inch Hogy paddle tails on 1-ounce jig heads, worked right in the foam line where the deep water meets the shoal. The key is letting the lure sweep with the current rather than fighting it — these fish are positioned to ambush bait getting swept off the structure.
+
+What's driving this bite is the temperature break. Surface water hit 69 degrees this week, but there's a solid thermocline at 35 feet holding 64-degree water. That cooler layer is where the bunker are staging, and the bass are using the shoal's edge to trap them. I'm seeing the same pattern at Middle Ground Light, though the fish there are running smaller — mostly schoolies with the occasional keeper mixed in.
+
+The fluke bite has really turned on in the deeper water between Port Jeff and the Connecticut shore. Thirty to 40 feet has been the sweet spot, with fish to 6 pounds coming on white Gulp Swimming Mullets dragged on 3/4-ounce bucktails. The trick is fishing the transition zones where the sandy bottom meets the scattered rocks — that's where the fluke are setting up to pick off crabs and small baitfish getting swept along by the current.
+
+Porgies have been thick around the Norwalk Islands, especially on the incoming tide when the warmer harbor water pushes out and brings the bait with it. High-low rigs with small hooks and clam pieces are producing steady action in 25 to 35 feet. The fish are running large — plenty of 12-inchers mixed with the usual 8 to 10-inch fish.
+
+What's interesting is how the spring tides are affecting the bite timing. Normally I'd expect the best action around slack water, but these big currents are keeping the bait moving and the fish active throughout the tide cycle. The bass especially seem to be feeding aggressively when the current is at its strongest, using the flow to their advantage.
+
+Water clarity has been excellent despite all the current movement. The lack of significant rainfall this month means no muddy runoff, and the strong tides are actually cleaning up any debris that might have settled during the neap tide period two weeks ago.
+
+Looking ahead, we're moving into the waning moon phase, which should moderate these extreme tides somewhat. But the water temperature is in that perfect 65 to 70-degree range where everything feeds aggressively. The real wildcard will be whether this weather pattern holds — these light southwest winds have been perfect for fishing the shoals and deeper structure.
+
+I'm particularly watching for the first push of bonito, which typically show up in the deeper water off Stratford Shoal around the third week of June. The bait concentration we're seeing now, combined with the temperature structure, could set up an early run if conditions stay stable. The key will be watching for diving birds and surface activity in the 50 to 80-foot zone east of the shoal.
+
+For the weekend, focus on the structure during the stronger tide phases. The spring tide influence will carry through Sunday, so plan your trips around the current rather than fighting it. Early morning and late afternoon continue to be prime time, especially when the tide change coincides with low light conditions.
+
+---
+
+Tags: striped-bass, fluke, stratford-shoal, spring-tide, bucktail, bunker

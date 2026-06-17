@@ -1,0 +1,26 @@
+# Bay bass crash the inlet as bunker schools trigger feeding frenzy at Captree
+*Stripers to 33 inches hitting Bass Assassins on the flood while fluke fishing stays red-hot in 30 feet.*
+
+**CAPTREE, NY — June 17** — _by Mariana "Mari" Reyes, Zone Writer_
+
+The Fire Island Inlet has turned into a bass highway this week, and if you're not fishing the flood tide after dark, you're missing the show. Water temps hit 68 degrees in the bay — a full four degrees warmer than the ocean side — and that gradient is stacking bait like cordwood on every incoming tide.
+
+I've been running my 23-footer out of Captree every other night, and the pattern is locked in tight. Start fishing two hours before high water right at the inlet mouth, anywhere from the red nun to the green can. The bass are staging in 12 to 18 feet, waiting for the tide to push bunker and spearing out of the bay. I'm throwing 5-inch Bass Assassins in pearl and chartreuse on 3/4-ounce jigheads, working them slow on the drift. The key is letting the lure sink to the bottom, then lifting it just off the deck — these fish are feeding down, not up.
+
+Best fish this week was a 33-incher that hit a pearl Bass Assassin right at the bridge pilings on Sunday night. The guy who got it was fishing clam bellies on a fishfinder rig, but the soft plastics are outproducing bait three to one right now. I'm seeing keepers from 28 to 33 inches, with plenty of shorts mixed in. The bite window is narrow — it's all about that first two hours of the flood when the current is really moving.
+
+The fluke action has been absolutely insane, especially around the Robert Moses bridges. I'm talking doormat potential every drift, with fish to 6 pounds coming over the rail on white Gulp Swimming Mullets and chartreuse bucktails. The sweet spot is 25 to 35 feet of water on the ocean side of the bridges, fishing the outgoing tide. You want to be there when the water starts moving out — that's when the fluke position themselves to ambush bait getting swept through the structure.
+
+I've been using 3/4-ounce bucktails tipped with 5-inch Gulp, dragging them slow on the bottom. The key is feeling every bump and bounce — these fish are subtle. A lot of guys are missing fish because they're not paying attention to their rod tip. When you feel that tick or the weight goes light, set the hook. Don't wait for the classic fluke thump because you're not getting it with these bigger fish.
+
+The party boats out of Captree are limiting out on sea bass and porgies in the ocean, working 40 to 60 feet of water with diamond jigs and sabiki rigs. The Captree Pride and Princess have been crushing it, with limits coming easy on the morning trips. I'm hearing about some nice ling mixed in, especially on clam baits fished tight to the bottom.
+
+What's really got me excited is the bunker situation. I'm seeing massive schools pushing into the bay on every flood tide, and where there's bunker, there's bass. The new moon is this Friday, which means we're looking at spring tides all weekend — big water movement that's going to flush even more bait through the inlet. I'm planning to fish Friday and Saturday nights, focusing on the inlet mouth and the flats just inside.
+
+The surf has been tougher, but I walked Democrat Point at dawn yesterday and saw plenty of bait in the wash. The bass are there, but they're finicky. I'm throwing small metals — 1-ounce Kastmasters in silver — and working them fast through the white water. The fish are small, mostly shorts, but it's a good sign for what's coming.
+
+Looking ahead, this weather pattern is perfect for the next week. Light winds, stable pressure, and water temps climbing toward 70. The bass are going to keep pushing into the bay to feed, and the fluke are locked into their summer pattern around structure. Fish the flood for bass, the ebb for fluke, and don't sleep on those night tides — that's when the magic happens.
+
+---
+
+Tags: striped-bass, fluke, bass-assassins, captree-inlet, flood-tide, bunker

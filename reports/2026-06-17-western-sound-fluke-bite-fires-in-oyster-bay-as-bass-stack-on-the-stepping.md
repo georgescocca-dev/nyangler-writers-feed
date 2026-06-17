@@ -1,0 +1,28 @@
+# Fluke bite fires in Oyster Bay as bass stack on the Stepping Stones
+*Western Sound finally waking up with keeper flatfish and slot stripers on the feed.*
+
+**OYSTER BAY, NY — June 17** — _by Frank "The Sound Pro" Marinaro, Zone Writer_
+
+The Western Sound is finally showing signs of life after a sluggish start to the season. Water temps have climbed into the upper 60s, and that's got the fluke moving into their summer haunts from Lloyd's Neck to Matinecock Point. More importantly, the bass are starting to stack up on the structure I've been watching for three decades.
+
+Fluke fishing has been the bright spot this week. The drift from Oyster Bay Harbor out to the green can has been producing keeper fish to 19 inches on white Gulp Swimming Mullets rigged on 3/4-ounce bucktails. The key is working that 20 to 30-foot zone where the harbor channel drops into deeper water. I'm seeing boats pull up and anchor right on top of each other, but the smart money is drifting the edges where the current breaks.
+
+The technique that's been working is a slow drag presentation. Drop your bucktail to the bottom, lift it two cranks, then let it settle back down. The fluke are sitting right on the sand waiting for bait to drift by. Chartreuse has been the hot color when the white isn't producing, especially early morning and late afternoon when the light is low.
+
+What's got me excited is the bass action around Execution Rocks and the Stepping Stones. These fish are finally showing up in numbers, mostly slot-size fish from 28 to 35 inches. The outgoing tide has been the producer, especially the last two hours of the ebb when the current really starts ripping through the rocks.
+
+Live peanut bunker on fishfinder rigs has been deadly around the structure. I'm seeing schools of these small bunker thick in Manhasset Bay and Little Neck Bay, which tells me the bass won't be far behind. The trick is getting your bait tight to the rocks without hanging up. I've been using a 3-ounce egg sinker with a 3-foot leader of 30-pound fluorocarbon. Let the current sweep your bait into the pockets between the rocks where the bass are ambushing.
+
+For those working artificials, small white bucktails with pork rind trailers have been consistent producers. The 1/2-ounce size works best in the current around Execution Rocks. Cast uptide and let the jig swing through the structure. The hits come as the bucktail lifts off the bottom on the swing.
+
+The porgy bite has been steady but unspectacular around Hart Island and the deeper water off Throgs Neck. These fish are running small, mostly in the 8 to 10-inch range, but they're great for keeping the kids busy. Clam strips on high-low rigs in 40 to 50 feet of water will put you on them.
+
+What's interesting is the bait situation. I'm seeing more bunker in the western Sound than I have in years at this time of season. Usually we don't see this kind of bait concentration until late July, but the schools are already thick from City Island to Oyster Bay. That's got me thinking the bass fishing is only going to get better as we head into the full moon period next week.
+
+The new moon we just had stirred things up nicely, but the full moon on June 22nd should really get the bass feeding aggressively. Spring tides mean stronger currents, and stronger currents mean better fishing around the structure. I'll be focusing on the Stepping Stones and Execution Rocks during the peak tide changes.
+
+Looking ahead, I expect the fluke bite to continue improving as water temps climb toward 70 degrees. The bass should start showing up in better numbers around the bridges and rocky areas as the bunker schools get pushed around by the stronger tides. This is shaping up to be a solid summer bite if the bait stays put.
+
+---
+
+Tags: fluke, striped-bass, bucktail, execution-rocks, outgoing-tide, bunker

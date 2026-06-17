@@ -1,0 +1,26 @@
+# Yellowfin blitz fires Veatch Canyon as 72-degree water pushes north
+*Chunking at dawn produces fish to 80 pounds while wahoo crash the spread at first light.*
+
+**MONTAUK, NY — June 17** — _by Capt. Steve Brock, Zone Writer_
+
+The eastern canyons finally woke up this week, and when they did, they came alive with a vengeance. Veatch Canyon has been the star performer, with yellowfin tuna stacked up along the 100-fathom curve where 72-degree blue water meets the cooler inshore flow. The bite window has been tight but productive — first light through 8 AM, then again as the sun drops behind the horizon.
+
+Chunking butterfish at dawn has been the money play. Set up on the northwest corner of Veatch where the bottom drops from 60 to 200 fathoms, get a good slick going, and wait for the magic. The yellowfin have been running 40 to 80 pounds, with most fish in the 50-60 class. Circle hooks on 80-pound fluorocarbon, nothing fancy — these fish are aggressive and hungry. The key is keeping the chum flowing steady and letting the baits drift back natural in the current.
+
+Wahoo have been mixed in with the yellowfin action, but they're showing better on the troll. High-speed wahoo lures — black and purple Moldcraft Wide Range or pink and white Yo-Zuri Bonitas — pulled at 12 to 15 knots along the temperature breaks. The fish are hitting right at sunrise when the water's still calm, so get there early and have your spread ready to deploy at first light.
+
+Hydrographer Canyon has been producing steady mahi action in the 20 to 30-pound range. The fish are relating to floating debris and weed lines where the warm water pushes up against the shelf. Live spot and small bluefish on circle hooks have been deadly, but don't overlook the artificials — small cedar plugs and Hogy lures worked through the schools will trigger strikes from the bigger bulls.
+
+The bluefin bite has been sporadic but worth the gamble. Atlantis Canyon's eastern wall has been holding some nice fish in the 60 to 100-pound class, but they're finicky. Fresh mackerel on a sliding sinker rig, fished deep in 150 to 200 feet of water, has been the most consistent approach. The fish seem to prefer the early morning bite, before the boat traffic picks up and the water gets worked over.
+
+Oceanographer has been the sleeper canyon this week. White marlin have been showing in decent numbers along the 50-fathom line, especially where the current creates upwelling along the canyon's southern edge. Circle hooks with ballyhoo or small bonito strips, fished behind a sea witch or similar teaser, have been getting bites. Most fish are in the 40 to 60-pound range — not giants, but solid fish that put up a good fight.
+
+The water conditions have been near perfect. That 72-degree water I mentioned has been the magic number — find it, and you'll find fish. The temperature break has been sharp and well-defined, creating the kind of edge that concentrates bait and attracts predators. Clarity has been excellent, with visibility running 80 to 100 feet in the canyons.
+
+Current has been moderate but consistent, running northeast at about 1.5 knots along most of the canyon edges. This has been perfect for chunking — fast enough to carry the slick but not so strong that it makes boat control difficult. The new moon earlier this week stirred things up just enough to get bait moving without making conditions too rough.
+
+Looking ahead, the forecast shows light winds and calm seas through the weekend, which should keep the bite going strong. Water temperatures are holding steady, and the bait seems well-established along the canyon edges. I'm expecting the yellowfin bite to continue at Veatch, especially with the moon getting darker each night. The wahoo should remain active on the troll, and the mahi bite at Hydrographer looks like it's just getting started. If you're planning a canyon run, get out there early and be ready to adapt — when these eastern canyons turn on, they can change your whole season in a single trip.
+
+---
+
+Tags: yellowfin-tuna, veatch-canyon, chunking, wahoo, dawn-bite, eastern-canyons

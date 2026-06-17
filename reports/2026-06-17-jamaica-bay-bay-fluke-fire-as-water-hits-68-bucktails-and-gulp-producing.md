@@ -1,0 +1,22 @@
+# Bay fluke fire as water hits 68 — bucktails and Gulp producing limits
+*Spring tides flush bait through the inlet while weakfish crash the Marine Parkway Bridge on the flood.*
+
+**JAMAICA BAY, NY — June 17** — _by Denise "Dee" Vasquez, Zone Writer_
+
+The bay finally woke up this week, and it's been worth the wait. Water temps hit 68 degrees in the back channels — a solid four degrees warmer than the ocean side of Rockaway Inlet — and that thermal gradient is stacking bait like crazy on every flood tide. The fluke have responded in a big way, with limits coming from the usual suspects: the Marine Parkway Bridge pilings, the deeper holes off Cross Bay, and that sweet drift from the Coast Guard station toward Canarsie Pier.
+
+I've been working 3/4-ounce white bucktails tipped with 5-inch chartreuse Gulp Swimming Mullets, dragging them slow on the drift in 25 to 30 feet. The key is staying just off bottom — these fish are suspended about three feet up, ambushing the spearing and juvenile bunker that are getting pushed around by the current. My best fish this week went 24 inches and came on the last hour of the outgoing, right where the channel drops off near the bridge. The bucktail-and-teaser rig is also producing — 1/2-ounce bucktail on bottom with a 4-inch white Gulp on a dropper loop 18 inches up.
+
+What's really got me excited is the weakfish showing up at the Marine Parkway Bridge. These aren't the usual bay rats — we're talking 16 to 19-inch fish that are pulling drag. They're hitting on the flood tide, staging up in the current breaks around the pilings. Live killies on a fishfinder rig are deadly, but I've also taken them on small bucktails and even Deadly Dick spoons worked through the current. The bite window is tight — first two hours of the incoming, when the bait gets compressed against the structure.
+
+The striped bass action has been solid but not spectacular. Most fish are running 24 to 28 inches, with the occasional keeper mixed in. They're following the bunker schools that have been thick in the bay all week. I watched a pod of bass push bait against the Canarsie Pier pilings yesterday evening — classic feeding behavior that tells me the bigger fish are starting to move in. Chunk herring on the bottom or work a white paddle tail through the schools.
+
+Bait situation is excellent right now. The tackle shops are loaded with fresh killies, and the bunker are so thick you can see them dimpling the surface on calm mornings. Spearing are everywhere — I netted a dozen in ten minutes off the Broad Channel dock. The abundance of forage is what's driving this bite, and it should only get better as we move toward the new moon.
+
+Porgies are also in the mix, especially around the deeper structure near Cross Bay Bridge. Nothing huge — mostly 8 to 10-inchers — but they're fun on light tackle and great for the kids. Clam strips on a high-low rig in 20 feet of water.
+
+Looking ahead, we've got a new moon Friday, which means spring tides and serious current movement. That's when the inlet really comes alive — I'm planning to be there at sunset for what could be the first real push of weakfish and maybe some bigger bass. The water's warming, the bait is thick, and everything is lining up for what should be a banner week. If you've been waiting for the bay to turn on, this is it.
+
+---
+
+Tags: fluke, weakfish, bucktail, marine-parkway-bridge, flood-tide, gulp

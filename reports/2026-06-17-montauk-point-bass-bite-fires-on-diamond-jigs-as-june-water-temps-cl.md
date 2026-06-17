@@ -1,0 +1,22 @@
+# Point bass bite fires on diamond jigs as June water temps climb past 65
+*Trophy stripers to 26 pounds hitting the boulder fields while fluke action heats up south side.*
+
+**MONTAUK POINT, NY — June 17** — _by Rich Martin, Zone Writer_
+
+The Point is coming alive the way it should in mid-June. Water temps have climbed past 65 degrees around the lighthouse, and that's the magic number that gets the big bass moving through the boulder fields on the flood tide. I've been watching this setup build for two weeks, and now it's paying off.
+
+The diamond jig bite has been exceptional around the North Bar and Shagwong Reef. Guys are working 4 to 6-ounce diamonds in white and chartreuse, letting them flutter down through the water column on the incoming water. The key is fishing them right in the rocks — you need to be willing to lose some tackle to get the big fish. I'm seeing bass to 26 pounds coming over the rails, with most of the quality fish running 18 to 24 inches. The sweet spot has been the last two hours of the flood, when the current pushes bait tight against the structure.
+
+What's driving this bite is the temperature gradient we're seeing around the Point. The deeper water off the lighthouse is still running 62 to 63 degrees, but the shallower boulder fields are warming faster. That 3-degree difference is creating an edge that's stacking bunker and sand eels, and the bass are following them in. The new moon we had last week created some serious spring tides that flushed a lot of bait out of the back bays, and it's all congregating around the Point now.
+
+South of the lighthouse, the fluke action has been solid for anyone willing to make the run. The 40 to 60-foot depths are holding good numbers of doormat-sized fish, with keepers to 5 pounds coming on white Gulp Swimming Mullets rigged on 3/4-ounce bucktails. The trick is dragging them slow on the drift — these fish want the bait moving just fast enough to stay off the bottom. I'm hearing about limits being taken on the better days, with the morning bite being strongest before the boat traffic picks up.
+
+The sea bass bite has been a nice bonus for fluke fishermen. Seventeen to 19-inch fish are mixed in with the fluke around the same structure, hitting the same baits. They're not huge, but they're quality fish that'll fill out a cooler.
+
+Turtle Cove has been producing some nice weakfish in the evening hours. These fish are spooky, so you need to fish light — 15-pound fluorocarbon leaders and small bucktails tipped with Gulp. The bite has been best on the last hour of the outgoing tide, when the current pulls bait out of the cove and creates that feeding lane along the drop-off.
+
+Looking ahead, we're building toward the summer solstice, which means longer days and more stable weather patterns. The water temps should continue climbing, which will only improve the bass bite around the Point. I'm watching for the first real push of peanut bunker to show up in the next week or two — when that happens, the surface action around the lighthouse will explode. The full moon coming up Friday will create some big tides again, so I'm expecting the diamond jig bite to stay strong through the weekend.
+
+---
+
+Tags: striped-bass, diamond-jig, montauk-point, fluke, boulder-fields, flood-tide
