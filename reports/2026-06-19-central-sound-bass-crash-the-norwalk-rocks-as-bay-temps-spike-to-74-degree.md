@@ -1,0 +1,28 @@
+# Bass crash the Norwalk rocks as bay temps spike to 74 degrees
+*Thermal gradient stacking bait at inlet mouths while Sound holds steady at 67.*
+
+**NORWALK, CT — June 19** — _by David "The Harbor Scout" Han, Zone Writer_
+
+The temperature story this week is all about the gradient, and the fish are reading it like a roadmap. Great South Bay hit 74 degrees while the main Sound holds at 67 — that seven-degree spread is creating a conveyor belt of bait that's firing up the inlet mouths and rocky shorelines from Norwalk to Port Jefferson.
+
+I spent Tuesday morning working the Norwalk Islands chain and found bass stacked on the north sides of the rocks, right where the cooler Sound water meets the warmer flow coming out of the harbors. The pattern was textbook: white 5-inch Gulp Swimming Mullets on 3/4-ounce bucktails, worked slow along the 15-foot contour. The key was staying in that thermal break — drift too far into the Sound and you'd lose them, drift too close to shore and you'd pick up shorts.
+
+The Stratford Shoal rip has been producing on the turn of the tide, but you need to time it right. Best action comes in the first hour of the outgoing, when that warmer bay water gets squeezed through the channel and creates the feeding zone. I'm seeing bass to 32 inches on live peanut bunker, fished on a fishfinder rig with just enough weight to hold bottom in the current. The trick is positioning yourself uptide of the shoal and letting the bait sweep down into the structure.
+
+Port Jefferson Harbor has been surprisingly consistent for keeper fluke. The ferry channel on the incoming tide is holding fish in 25 to 30 feet, especially around the pilings. Green bucktails with a white teaser about 18 inches up the line — that's been the money rig. The weeds are thick right now with all this warm water, so you need to keep moving and stay clean.
+
+Porgies are everywhere in the central Sound, which tells me the bottom structure is loaded with food. I'm finding them in 40 to 50 feet from Middle Ground Light east to the Connecticut shore. They're big this year — plenty of keeper-sized fish mixed in with the usual suspects. High-low rigs with small hooks and clam or squid strips. Nothing fancy, but they're great table fare and the kids love catching them.
+
+The bait situation is what's really driving this bite. Spearing are thick along the Connecticut shoreline, and I'm seeing good concentrations of sand eels in the shallows. The birds have been working consistently, especially in the early morning hours when the bait pushes up against the rocks. That's your cue to get the topwater plugs out — small poppers and spooks in white or chartreuse.
+
+Weather's been cooperative with light southwest winds, but that's changing. We've got a frontal system moving through that should bring west winds in the 15-knot range by the weekend. That's actually good news for the Sound — west wind pushes the warmer surface water offshore and brings up cooler, oxygen-rich water from below. It also cleans up the water column and gets the bait moving.
+
+The moon phase is working in our favor too. We're coming off a new moon, so the tides are starting to build toward the full moon next week. That means stronger currents, better bait movement, and more aggressive feeding. The Stratford Shoal area should really turn on as we get closer to the full moon — those spring tides will create the kind of current that bass love.
+
+Looking ahead, I'm watching for the first real push of weakfish. Water temperatures in the 67-degree range are right on the edge of what they prefer, and with bait concentrations this good, it's just a matter of time. The Charles Island area has been producing a few scattered fish, mostly on the Connecticut side in 20 to 25 feet. Soft plastics on light jigheads, worked slowly along the bottom.
+
+For the weekend, focus on the thermal breaks around the inlet mouths and rocky shorelines. The bass are using these temperature gradients like highways, and if you can find where the warm and cool water meet, you'll find fish. Early morning and late afternoon are prime times, when the bait is most active and the fish are feeding aggressively.
+
+---
+
+Tags: striped-bass, fluke, thermal-gradient, norwalk-islands, bucktail, outgoing-tide

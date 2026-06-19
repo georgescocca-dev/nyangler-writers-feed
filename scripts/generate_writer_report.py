@@ -225,30 +225,30 @@ def filter_analyst_for_zone(analyst: dict, zone_slug: str, writer: dict) -> dict
     """
     if not analyst:
         return {}
-    landmarks = [s.lower() for s in writer.get("landmarks", [])]
+    zone_slug = writer.get("id", "")
     zone_name = (writer.get("zone_name") or "").lower()
-    zone_words = set(filter(None, re.split(r"[/\s,]+", zone_name)))
 
     out: dict = {
-        "run_date": analyst.get("run_date"),
-        "live_conditions": analyst.get("live_conditions", {}),
-        "seasonal_context": analyst.get("seasonal_context", {}),
-        "pattern_detection": analyst.get("pattern_detection", {}),
-        "data_gaps": analyst.get("data_gaps", []),
-        "headline": (analyst.get("analyst_summary") or {}).get("headline"),
+        "date": analyst.get("date"),
+        "buoy_readings": analyst.get("buoy_readings", {}),
+        "offline_buoys": analyst.get("offline_buoys", []),
+        "yesterday_deltas": analyst.get("yesterday_deltas", {}),
+        "wind_pattern": analyst.get("wind_pattern", {}),
+        "thermal_structure": analyst.get("thermal_structure", {}),
+        "wave_state": analyst.get("wave_state", {}),
     }
-    # Pull only the regional_outlook entries whose region matches our zone
-    relevant = []
-    for region in analyst.get("regional_outlook", []) or []:
-        rname = (region.get("region") or "").lower()
-        if any(w and w in rname for w in zone_words) or any(
-            lm in rname for lm in landmarks
-        ):
-            relevant.append(region)
-    # If nothing matched, include all so the writer can frame the macro
-    if not relevant:
-        relevant = analyst.get("regional_outlook", []) or []
-    out["regional_outlook_for_beat"] = relevant
+    # regional_outlook is now a dict keyed by zone slug
+    ro = analyst.get("regional_outlook", {})
+    if isinstance(ro, dict):
+        # Try exact zone slug match first
+        if zone_slug in ro:
+            out["regional_outlook_for_beat"] = ro[zone_slug]
+        else:
+            # Include all entries so the writer can frame the macro
+            out["regional_outlook_for_beat"] = ro
+    elif isinstance(ro, list):
+        # Legacy format: list of dicts with "region" key
+        out["regional_outlook_for_beat"] = ro
     return out
 
 

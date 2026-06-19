@@ -1,0 +1,30 @@
+# Block Island bass fire as water drops to 62 degrees, Southwest Ledge producing
+*Cool water shock triggers feeding spree while mainland stays warm at 67-74 degrees.*
+
+**BLOCK ISLAND, RI — June 19** — _by Jack Sullivan, Zone Writer_
+
+The thermometer tells the whole story this week. While the mainland shelf sits at a comfortable 67 degrees and the bays push into the mid-70s, Block Island's water dropped to 62.4 degrees — and that temperature shock has the stripers absolutely wired.
+
+I've been working the Southwest Ledge hard since Monday, and the pattern is crystal clear. The bass are stacked on the 45-foot contour where that cooler Block Island water meets the warmer shelf flow. It's creating a feeding lane that's been producing steady action on both the flood and ebb, but the magic happens on the turn.
+
+Live peanut bunker on fishfinder rigs are absolutely deadly right now. I'm running 6/0 circles on 50-pound fluorocarbon leaders, letting the bait swim free about three feet off bottom. The key is positioning — you want to be on the up-current side of the ledge structure so your bait gets swept into that temperature break. I've been marking fish consistently in 42 to 48 feet, and they're not shy about hitting.
+
+The artificial bite has been solid too, especially for guys who like to cover water. White and chartreuse bucktails in the 3 to 4-ounce range are producing when you work them slow along the bottom contour. I'm tipping mine with 6-inch Gulp Swimming Mullets in pearl white, and the combination is accounting for fish in the 28 to 35-inch range.
+
+What's really interesting is how different the fishing is compared to Newport and Point Judith. Those spots are dealing with that 6-degree temperature differential — the bays are running 74 degrees while the ocean side is only 67. That gradient is concentrating baitfish inshore, but it's also making the bass lazy. They're feeding, but they're not aggressive.
+
+Out here at Block Island, that 62-degree water is like a shot of espresso for these fish. The cooler temperature means higher oxygen content, and you can see it in how they fight. These aren't the sluggish summer bass you get in warm water — they're pulling drag and making runs like it's October.
+
+The blackfish bite around the wind farm structures has been steady for guys targeting them specifically. Green crabs on high-low rigs are producing keepers in the 16 to 18-inch range, with the occasional doormat mixed in. The trick is fishing the up-current side of the turbine bases on the slack tide — the fish tuck into those eddies to ambush crabs getting swept along.
+
+Porgies are thick around any structure in 35 to 60 feet of water. Small pieces of clam or squid on size 6 hooks will keep you busy between bass bites. The sea bass opener has been productive too, with plenty of keepers coming from the deeper water around the ledges.
+
+Looking at the conditions, we've got southwest winds building through the weekend with seas running 8 feet at 8-second intervals. That's going to make it sporty for smaller boats, but the fishing should stay hot. The temperature differential between Block Island and the mainland isn't going anywhere — if anything, it might get more pronounced as the bays continue warming.
+
+The new moon is setting up spring tides that should really get the current moving through the rips. I'm planning to hit the North Rip on the big water days when the Southwest Ledge gets too rough. That current convergence always holds fish when the tide is really cooking.
+
+For the week ahead, I'd focus on that temperature break along the Southwest Ledge if you can handle the sea conditions. If not, the protected water around Newport has been producing smaller fish but steadier action. Either way, this cool water event at Block Island is the kind of thing that can turn a good summer into a great one.
+
+---
+
+Tags: striped-bass, southwest-ledge, temperature-break, peanut-bunker, bucktail, block-island

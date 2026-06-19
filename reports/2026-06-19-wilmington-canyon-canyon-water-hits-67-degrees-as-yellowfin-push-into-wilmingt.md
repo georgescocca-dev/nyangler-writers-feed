@@ -1,0 +1,28 @@
+# Canyon water hits 67 degrees as yellowfin push into Wilmington's western wall
+*Temperature breaks stacking bait at the 100-fathom curve while early mahi show in the blue water.*
+
+**CAPE MAY, NJ — June 19** — _by Capt. Dana Cooper, Zone Writer_
+
+The Wilmington Canyon is finally coming alive. After weeks of cold, scattered water, we've got shelf temperatures holding steady at 67 degrees — right at that magic threshold where yellowfin start feeding aggressively in our mid-Atlantic canyons. More importantly, there's a solid temperature break setting up along the western wall where the 100-fathom curve bends northeast.
+
+I ran out Tuesday morning in building seas, and the difference between inshore and canyon water was immediate. Shelf stations are reading 67 to 68 degrees, but once you cross the 30-fathom line, you're looking at a 3-degree jump to 70-plus in the blue water. That gradient is what's been missing all spring — and it's finally stacking bait where it belongs.
+
+The yellowfin bite has been consistent but not spectacular. We're seeing fish in the 40 to 80-pound range working the temperature breaks, mostly on the troll. Cedar plugs and small feathers in the spread are producing, but the real action has been on chunk bait. Fresh butterfish and squid fished at 60 to 80 feet are getting bit regularly, especially during the dawn and dusk periods when the thermocline tightens up.
+
+What's interesting is how the Gulf Stream eddy is positioning itself this week. The warm water tongue is pushing closer to the shelf than usual for mid-June, creating multiple temperature breaks instead of one clean edge. That's scattering the fish somewhat, but it's also creating more opportunities. Instead of one productive zone, we're seeing yellowfin activity from the 20-fathom line all the way out to the canyon's eastern rim.
+
+The mahi are starting to show too, which is always a good sign for the summer bite. Small fish in the 5 to 15-pound range are mixed in with the yellowfin schools, and they're aggressive on anything moving through the water column. Ballyhoo on the long rigger and small cedar plugs on the flat lines are both producing. The key is staying in that 70-degree water — any cooler and the mahi disappear.
+
+Bluefin are still around but scattered. We're seeing the occasional fish in the 60 to 100-pound range, mostly on the chunk. They seem to prefer the cooler side of the breaks, hanging in that 65 to 67-degree water where the shelf meets the canyon influence. Butterfish chunks on a sliding sinker rig, fished deep, have been the most consistent producer.
+
+The weather has been the limiting factor this week. Southwest winds building to 15 knots with gusts to 20 have made the ride home sporty, especially with seas running 5 to 8 feet. Block Island is showing 8-foot seas at 8-second intervals, which means there's a groundswell building from the south. It's fishable, but you need to plan your timing. Early morning trips are getting the best conditions before the afternoon wind builds.
+
+Bait availability has been excellent. The temperature differential between the bays and the shelf is holding peanut bunker and sand eels close to shore, making it easy to load up before the run out. Great South Bay is running 74 degrees — a full 6 degrees warmer than the shelf — which is concentrating baitfish in the inlet areas.
+
+Looking ahead, the pattern should hold through the weekend. The thermal structure is stable, and the eddy position looks good for continued yellowfin activity. The new moon on Sunday will bring stronger tides, which should tighten up the temperature breaks and concentrate the bite. I'm expecting the best action on the outgoing tide, especially around the canyon's northeast corner where the current sweeps bait along the wall.
+
+The key for the coming week is staying flexible with your trolling pattern. The multiple temperature breaks mean the fish are spread out, so don't get locked into one depth or one piece of structure. Work the edges, watch your surface temperature gauge, and be ready to adjust when you find that sweet spot where the water changes color and the birds start working.
+
+---
+
+Tags: yellowfin-tuna, mahi-mahi, wilmington-canyon, temperature-breaks, chunking, trolling
