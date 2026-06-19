@@ -1,9 +1,84 @@
 {
   "schema_version": "2.0",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/reports.json",
-  "generated_at": "2026-06-19T14:46:44.466891+00:00",
-  "total_reports": 149,
+  "generated_at": "2026-06-19T18:29:43.656668+00:00",
+  "total_reports": 152,
   "reports": [
+    {
+      "id": "2026-06-19-jamaica-bay-bay-water-hits-74-degrees-as-fluke-bite-fires-on-the-ebb-at-",
+      "writer_id": "jamaica-bay",
+      "writer_name": "Denise \"Dee\" Vasquez",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jamaica-bay.png",
+      "zone": {
+        "slug": "jamaica-bay",
+        "name": "Jamaica Bay / Rockaway"
+      },
+      "published_at": "2026-06-19T18:29:43.644463+00:00",
+      "date": "2026-06-19",
+      "headline": "Bay water hits 74 degrees as fluke bite fires on the ebb at Marine Parkway",
+      "subhead": "Pre-full moon tides flush bait through the inlet while northwest winds stack surf bass on Rockaway Beach.",
+      "dateline": "JAMAICA BAY, NY — June 19",
+      "body_markdown": "The bay is cooking at 74 degrees this week, and that temperature spike is lighting up the fluke bite like I haven't seen since early May. I've been watching the thermometer climb steadily — we're running a solid 7 degrees warmer than the ocean side of Rockaway Inlet, and that gradient is doing exactly what it should: stacking bait on the flood and holding fish on the ebb.\n\nThe Marine Parkway Bridge has been the money spot all week. I'm talking keeper fluke to 22 inches coming over the rail on white Gulp Swimming Mullets rigged on 3/4-ounce chartreuse bucktails. The key is working that 20 to 30-foot zone on the outgoing tide, especially the last two hours of the ebb when the current really starts ripping. I've been dragging the bucktail slow — just enough to keep it off bottom — and letting the Gulp do the talking.\n\nWhat's making this bite special is the bait concentration. The northwest winds we've had the past few days have pushed massive schools of spearing and peanut bunker tight to the bridge pilings. You can see them dimpling the surface on the slack, and when the tide starts moving, the fluke are right there waiting. I watched one angler boat six keepers in two hours yesterday morning, all on the same white Gulp and chartreuse combo.\n\nThe Cross Bay Bridge has been producing too, but you need to adjust your approach. The water's a bit shallower there — 15 to 25 feet — so I've been dropping down to 1/2-ounce bucktails to slow the fall. Pink Gulp has been outfishing white at Cross Bay, probably because there's more sand eel activity in that stretch.\n\nWeakfish are mixed in with the fluke, which tells me the water temperature is dialed in perfectly. I picked up three weakies to 18 inches on Tuesday, all on the same bucktail rig but worked a bit more aggressively. These fish want movement — sharp jigs up off bottom, not the slow drag that's working for fluke.\n\nCanarsie Pier has been solid for porgies and the occasional short bass. The porgie bite is textbook summer fishing — drop a high-low rig with sandworms or clams, and you'll have dinner in an hour. But the real story at Canarsie is the bait. I'm seeing massive schools of bunker staging in the deeper water off the pier, and where there's bunker, bass aren't far behind.\n\nSpeaking of bass, the surf at Breezy Point and Rockaway Beach is starting to show signs of life. The northwest winds have been perfect for stacking bait against the beach, and I'm hearing reports of schoolies in the 20 to 26-inch range hitting bucktails and soft plastics on the incoming tide. Nothing huge yet, but the setup is there. The key is fishing the last two hours of the incoming, right around sunset when the bait gets pushed tight to the beach.\n\nThe water clarity has been excellent throughout the bay — that northwest wind pattern has kept the stirred-up water from the ocean side from pushing into our back-bay spots. Visibility is running 4 to 6 feet in most areas, which is perfect for sight-fishing and lets the fish really key in on your presentation.\n\nLooking ahead, we've got a full moon this weekend, which means spring tides and serious current movement. That's going to flush even more bait through the system and should fire up both the fluke bite and potentially bring some bigger bass into the mix. I'm planning to be at the Marine Parkway Bridge at first light Sunday morning — that flood-to-ebb transition on a spring tide is when the magic happens.\n\nThe only caution I'll throw out is for kayak anglers. These northwest winds, combined with the outgoing tide, can push you offshore faster than you think. I saw a rescue situation near Canarsie earlier this week — nothing serious, but a good reminder to check your drift and stay aware of the wind direction.\n\nBottom line: if you've been waiting for the bay to turn on, this is your week. The water temperature is perfect, the bait is thick, and the fish are feeding. Get out there and get bent.",
+      "tags": [
+        "fluke",
+        "bucktail",
+        "marine-parkway",
+        "outgoing-tide",
+        "weakfish",
+        "northwest-wind"
+      ]
+    },
+    {
+      "id": "2026-06-19-fire-island-bay-hits-74-degrees-as-fluke-crash-the-captree-drift-and-bas",
+      "writer_id": "fire-island",
+      "writer_name": "Mariana \"Mari\" Reyes",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/fire-island.png",
+      "zone": {
+        "slug": "fire-island",
+        "name": "Fire Island / Great South Bay"
+      },
+      "published_at": "2026-06-19T18:29:15.994618+00:00",
+      "date": "2026-06-19",
+      "headline": "Bay hits 74 degrees as fluke crash the Captree drift and bass stage for full moon",
+      "subhead": "Great South Bay's 7-degree thermal advantage over ocean water is stacking bait and firing the bite.",
+      "dateline": "CAPTREE, NY — June 19",
+      "body_markdown": "The bay hit 74 degrees this week and everything changed. That's a full seven degrees warmer than the ocean side of Fire Island Inlet, and when you get that kind of thermal gradient, bait gets confused and fish get aggressive. The Captree fleet has been cashing in on fluke that are stacked up like cordwood on the ebb tide, and with the full moon hitting Sunday, we're about to see the kind of fishing that makes you remember why you live on Long Island.\n\nI ran out Tuesday morning and found the fluke bite absolutely on fire from the inlet mouth to the Robert Moses bridges. White Gulp Swimming Mullets on 3/4-ounce chartreuse bucktails were the ticket, dragged slow on the drift in 25 to 35 feet. The key was staying with the outgoing water — as that warm bay water dumps out on the ebb, it's carrying spearing, sand eels, and juvenile bunker right into the mouths of doormat fluke that have been waiting in the cooler ocean water.\n\nThe party boats have been limiting out on keeper fluke, with fish to six pounds coming over the rails. I watched the Captree Pride work a drift off the lighthouse Wednesday where they were pulling doubles and triples on every drop. The technique that's been working is a simple fishfinder rig with a 3-ounce sinker, 18-inch leader, and either squid strips or those 5-inch white Gulp baits. Let it hit bottom, then lift and drop — the fluke are sitting right on the sand waiting for that bait to flutter down.\n\nWhat's really got me excited is the striped bass staging that's happening as we build toward Sunday's full moon. I've been seeing bass marks on the finder from Democrat Point all the way to the Fire Island bridges, and they're starting to show that pre-spawn restlessness. The water temperature is sitting in that perfect 66 to 74-degree range where bass feed aggressively, and the lunar pull is going to trigger some serious movement.\n\nThe surf has been producing too, especially on the incoming tide with this northwest wind pattern we've been locked into. I walked Democrat Point at dawn yesterday and found bass working the first gut, crushing spearing that were getting pushed against the beach. Bucktails with white or chartreuse trailers were getting hit on every cast for about an hour window right as the tide turned.\n\nOne thing to watch this weekend is the enforcement situation. Word around the dock is that DEC has been stepping up boarding activity after some overcrowding issues on the party fleet. Nothing that should affect your fishing, but if you're running a charter or party boat, make sure your paperwork is squared away and you're not pushing capacity limits.\n\nThe thermal structure is what's really driving everything right now. That 74-degree bay water is like a magnet for bait, and when it meets the 67-degree ocean water at the inlet, you get this mixing zone that concentrates everything. I've been seeing massive bait clouds on the sonar, mostly spearing and juvenile bunker, and where there's bait, there's fish.\n\nLooking at the weekend, Sunday's full moon is going to be the key. Full moon means big tides, and big tides mean serious water movement through the inlet. I'm planning to be on the water before sunrise Sunday to catch that last hour of the flood tide, then ride the ebb out as the sun comes up. That's when the bass bite has been most consistent — right at that tide change when the bait gets disoriented.\n\nFor the fluke fishermen, stick with the proven pattern: white or chartreuse bucktails with Gulp trailers, fished on the drift in 25 to 40 feet of water. The Robert Moses area has been most consistent, but don't overlook the deeper water off the Captree channel where the bigger fish have been holding.\n\nThe northwest wind pattern we've been in is perfect for small boat fishing. Seas have been 2 to 3 feet, and the wind has been laying down by afternoon, making for comfortable runs and easy drifts. Water clarity has been excellent too — that thermal gradient is keeping the water clean and green, which is exactly what you want for sight fishing.\n\nNext week I'm watching for the post-full-moon period when the bass really start to move. If this thermal pattern holds and we keep getting these northwest winds, we could be looking at some of the best June fishing we've seen in years. The bait is here, the water temperature is perfect, and the fish are staged and ready. All we need now is to time the tides right and let the moon do its work.",
+      "tags": [
+        "fluke",
+        "striped-bass",
+        "captree-drift",
+        "full-moon",
+        "bucktail",
+        "outgoing-tide"
+      ]
+    },
+    {
+      "id": "2026-06-19-montauk-montauk-jigging-explodes-as-sunset-trips-fire-bass-to-26-pou",
+      "writer_id": "montauk",
+      "writer_name": "Rich Martin",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/montauk.png",
+      "zone": {
+        "slug": "montauk",
+        "name": "Montauk Point"
+      },
+      "published_at": "2026-06-19T18:28:45.904780+00:00",
+      "date": "2026-06-19",
+      "headline": "Montauk jigging explodes as sunset trips fire — bass to 26 pounds on the Point",
+      "subhead": "Diamond jigs crushing bass on the Lighthouse grounds while porgies stack thick in 30 feet.",
+      "dateline": "MONTAUK POINT, NY — June 19",
+      "body_markdown": "The Point is alive. Diamond jigging has absolutely exploded this week, with bass to 26 pounds coming over the rail on the Lighthouse grounds and captains adding sunset trips to keep up with demand. When the boats are booking extra runs, you know something special is happening out there.\n\nThe action is concentrated on the south side drops in 25 to 40 feet, where the water has settled into that magic 67-degree range that gets everything feeding. The Viking fleet has been crushing them on the traditional Montauk diamond jig program — 3 to 6-ounce AVA 007s and 017s in white, yellow, and chartreuse, worked vertically through the water column on the drift. The key is letting the jig flutter down through the middle of the water column, then ripping it back up with sharp, aggressive jerks. These aren't bottom fish right now — they're suspended and feeding aggressively.\n\nWhat's driving this bite is the thermal setup we've got working. The shelf water has climbed to 67 degrees while Block Island Sound is still sitting at 62 — that 5-degree gradient is stacking bait along the Point's underwater structure like a dinner bell. The peanut bunker are thick, and when you combine that with the approaching full moon tides, you get bass that are feeding with serious intent.\n\nThe porgy bite has been equally impressive, with jumbo fish in the 2 to 3-pound class coming from the same grounds. High-low rigs with size 2 hooks and small pieces of squid or clam are doing the damage. The beauty of this setup is you can target both species on the same drift — drop the diamond jig for bass, then switch to the porgy rig when the action slows.\n\nBluefish are mixed into the action, which tells you the bait concentration is real. When you've got bass, blues, and porgies all feeding in the same area, that's the Point working the way it's supposed to work. The structure is funneling everything together, and the fish are taking advantage.\n\nSurf fishing has been productive on the incoming tide, particularly around Turtle Cove and the North Bar. The northwest wind we've been getting has been cleaning up the water and creating that perfect surf condition where bass move in tight to feed. Bucktails with white Gulp trailers and live eels on fishfinder rigs have been the go-to presentations. The key is fishing the last two hours of the incoming, when the current pushes bait against the structure.\n\nThe water clarity has been excellent despite the 5-foot seas we've been dealing with. That southwest groundswell is finally backing down, and conditions are becoming more manageable for smaller boats. The Block Island run is still sporty with 6-foot seas, but the Point itself is fishable if you know how to read the water.\n\nLooking ahead, this full moon cycle should keep the action hot through the weekend. The big tides will flush more bait out of the back bays and estuaries, and that means more feeding opportunities for the bass. The sunset trips that captains are adding aren't just a gimmick — they're responding to fish that are feeding aggressively in low light conditions.\n\nThe northwest wind pattern we're in should continue to clean up the water and keep conditions favorable. When you combine good water, concentrated bait, and aggressive fish, you get the kind of fishing that makes Montauk legendary. This is why we call it the striper capital of the world — when conditions align like this, there's nowhere else quite like the Point.",
+      "tags": [
+        "striped-bass",
+        "diamond-jig",
+        "montauk-point",
+        "porgy",
+        "sunset-bite",
+        "full-moon"
+      ]
+    },
     {
       "id": "2026-06-19-north-fork-sound-shore-sound-shore-bass-stack-up-as-bay-water-hits-74-degrees",
       "writer_id": "north-fork-sound-shore",
