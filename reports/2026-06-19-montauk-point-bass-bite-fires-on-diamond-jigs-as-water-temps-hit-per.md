@@ -1,0 +1,30 @@
+# Point bass bite fires on diamond jigs as water temps hit perfect 67-degree mark
+*Montauk's legendary structure is stacking stripers as thermal breaks set up south of the lighthouse.*
+
+**MONTAUK POINT, NY — June 19** — _by Rich Martin, Zone Writer_
+
+The Point is doing what the Point does best — holding bass when the water temperature hits that magic 67-degree mark. I've been watching the buoys all week, and when that 44025 reading locked in at 67.3 degrees thirty miles south of Islip, I knew it was time to get serious about the boulder fields.
+
+The diamond jig bite has been absolutely lights-out from the rocks south of the lighthouse. I'm talking about that classic Montauk pattern where the bass stack up on the structure when the thermal breaks line up just right. The water's been clean, that perfect green-blue color that tells you everything's in balance, and the fish are responding like clockwork. Four-ounce diamonds in white or chartreuse are getting crushed on the drop, especially when you work them tight to the boulders on the incoming tide.
+
+What's really got me excited is the temperature spread we're seeing. Block Island Sound is running 62 degrees while we're sitting pretty at 67 here at the Point — that five-degree gradient is creating a feeding highway that's pulling bait and bass right into our wheelhouse. The cooler water to the north is pushing everything south, and when it hits our warmer zone, the fish go absolutely mental.
+
+The charter fleet has been putting serious numbers on the board working the south side drops in 40 to 60 feet. I've been hearing about limits of keeper fluke mixed with some quality sea bass, all coming on the traditional Montauk rig — white Gulp Swimming Mullets on three-quarter-ounce bucktails, worked slow on the drift. The key has been staying with the moving water. When that tide starts to slack, the bite shuts down like someone threw a switch.
+
+North Bar has been producing some surprising action for those willing to make the run. The structure there is holding bait, and I've seen some serious bass crashes at first light when the bunker schools get pushed up against the shoal. Live peanut bunker on a fishfinder rig has been deadly, but you need to time it right — that first hour of incoming tide when the current starts to move.
+
+The surf game has been trickier with these southwest winds we've been getting. Turtle Cove has offered some protection, and I've seen guys picking up schoolies on small poppers and swimming plugs worked in the white water. Nothing huge from the beach, but consistent action for those who know how to read the structure.
+
+What's really interesting is the bait situation. The water temperature differential between the Sound and the ocean side is concentrating massive schools of sand eels and juvenile bunker right in our strike zone. When you see that kind of bait concentration, you know the big fish aren't far behind. I've been watching the bird activity, and when those terns start diving south of the Point, that's your cue to get a diamond jig in the water.
+
+Shagwong Reef has been hit-or-miss depending on the tide stage. The incoming has been the money tide, especially that first two hours when the water starts to move over the structure. I've seen some quality fluke coming off the deeper edges in 50 feet, but you need to stay mobile and follow the moving water.
+
+The pressure has been steady around 1003 millibars, which typically means stable conditions and predictable fish behavior. These aren't the wild swings that shut down the bite — this is that steady, productive weather pattern that lets you plan your fishing strategy and stick with it.
+
+Looking ahead, I'm watching for the new moon spring tides that are coming next week. When those big tides start moving serious water through the rips and around the structure, that's when the Point really comes alive. The increased current flow will concentrate bait even tighter against the rocks, and the bass will follow. I'm expecting the diamond jig bite to get even better as we move into the stronger tide cycle.
+
+The water clarity has been exceptional — that gin-clear visibility that lets you see your jig working the structure. When conditions are this good at Montauk, you don't overthink it. You get your diamond jigs ready, you watch the tide tables, and you fish the structure that's made this place legendary for generations of striped bass fishermen.
+
+---
+
+Tags: striped-bass, diamond-jig, montauk-point, boulder-field, incoming-tide, thermal-break

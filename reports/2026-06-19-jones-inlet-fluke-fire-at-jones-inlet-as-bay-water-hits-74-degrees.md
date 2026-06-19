@@ -1,34 +1,26 @@
 # Fluke fire at Jones Inlet as bay water hits 74 degrees
-*Green bucktails and smelt producing keepers on the outgoing turn while bait pods stack thick in the inlet.*
+*Green bucktails and smelt combo producing keepers on the outgoing turn while bait pods stack thick in the inlet.*
 
 **JONES INLET, NY — June 19** — _by Sal Moretti, Zone Writer_
 
-The bay is cooking at 74 degrees this week, a solid seven-degree spread over the ocean side, and that thermal gradient is doing exactly what it's supposed to do — concentrating bait and firing up the fluke bite at Jones Inlet.
+The thermometer tells the whole story this week — Great South Bay hit 74 degrees while the ocean side is holding at 68. That 6-degree gradient is like a magnet for bait, and where the bait goes, the fluke follow. I've been watching this pattern build for two weeks, and it finally clicked this past weekend.
 
-I've been watching this pattern develop all week. The southwest wind we've been getting is extending the incoming tide, holding all that warm bay water and the bait it's carrying right where we want it. Then when the tide turns and starts to ebb, everything gets funneled through the inlet mouth like a dinner bell for hungry fluke.
+The sweet spot is right at the inlet mouth on the start of the outgoing tide. I'm talking about that first hour when the bay water starts to drain and concentrates everything in the choke point. Green bucktails are the ticket — specifically a green teaser bucktail rigged a foot above your sinker with a white Gulp Swimming Mullet on the bottom hook. The guys at Combs B&T have been pushing green all month, and they're dead right.
 
-The action is happening right at the start of the outgoing tide. I'm talking about the first hour after the turn, when all that bait-rich bay water starts draining through the inlet. The fluke are stacked up waiting for it, and they're not being picky about what they eat.
+Smelt is outfishing squid three to one right now. Hook them behind the head, let them flutter on the drift. The fluke are keyed in on the natural baitfish that are getting flushed out of the bay system. I'm seeing keeper fluke in the 19 to 21-inch range, with plenty of shorts mixed in. The action dies when the tide goes slack, then picks up again on the last two hours of incoming.
 
-Green is the magic color right now. Green bucktails with a teaser rig about a foot above your sinker — that's what's putting keepers in the boat. I've been running 3/4-ounce heads to get down in the current, tipping them with fresh smelt or squid strips. The smelt has been outproducing squid three to one, especially if you hook it behind the gills and let it flutter on the drift.
+Weeds are the wild card. The inlet has been loaded with grass this week, especially on the west side. If you're getting fouled every drop, slide over to the Sloop Channel or work the Point Lookout side where the current runs cleaner. The party boats have been dealing with the same issue — I watched the Captree fleet move east when the weed load got too thick.
 
-The inlet itself is loaded with weeds right now, which is both good and bad news. Good because it means there's plenty of nutrients in the water feeding the bait chain. Bad because you're going to spend time cleaning your rig every few drifts. If the weeds get too thick, slide over to the Sloop Channel or work the Point Lookout side where the current runs cleaner.
+Birds have been working overtime on massive bait pods west of the third Wantagh bridge. Looks like sand eels from what I could see, thick enough to darken the water. The fluke are underneath them, but you need to get your rig down fast before the current pushes you off the school. Diamond jigs aren't cutting it — the fish want that slow, natural presentation of the bucktail and bait combo.
 
-I've been seeing keeper fluke in the 18 to 20-inch range, with a few pushing over the line into real doormat territory. The shorts are thick — you'll go through plenty of 15 to 17-inchers before you find a keeper, but that's fluke fishing in June. The action has been consistent enough that you're not sitting around waiting for bites.
+The southwest wind pattern we've had all week is actually helping. It's extending the incoming tide and keeping bait concentrated in the back bay longer. When that tide turns and starts to ebb, everything gets funneled through the inlet at once. That's your window.
 
-The bait situation is incredible right now. Massive schools of what look like sand eels have been moving through the area, and the birds have been going crazy on them. I've been seeing diving action from the third Wantagh bridge all the way down to the inlet mouth. That's a lot of feed in the water, and it's keeping everything from fluke to blues happy and aggressive.
+DEC has been active on the water — they boarded boats at Captree and were checking licenses at the Wantagh Park ramp. Keep your paperwork clean and know your regs. The sea bass bite has been solid on the inlet structure, but they're checking sizes hard.
 
-Speaking of blues, they're starting to show up in better numbers. Nothing huge yet, but solid 18 to 20-inch fish that are perfect for the table. They're hitting the same green bucktails that are working for fluke, just higher in the water column.
+Looking ahead, we've got a full moon Friday which means spring tides and stronger current flow. That should flush even more bait out of the bay system and concentrate the fluke bite. The weather pattern looks stable — southwest winds in the 10 to 15 knot range, which is perfect for inlet fishing.
 
-The southwest wind pattern we've been locked into is perfect for this fishing. It's keeping the seas down, extending the incoming tide, and pushing all that warm bay water toward the inlet. Ocean side is running 67 degrees while the bay is at 74 — that's a significant temperature break, and the fish know it.
-
-Tide timing is critical right now. You want to be set up and ready to fish about an hour before the tide turns to outgoing. Get your first drift in while there's still some incoming current, then be ready for the magic hour when everything starts to drain out. The bite usually shuts down once the current really starts ripping, so plan accordingly.
-
-Looking ahead, we've got a full moon Friday, which means spring tides and stronger current flow. That should flush even more bait out of the bay and could really turn on the inlet fishing. The weather pattern looks stable through the weekend — more southwest wind in the 10 to 15-knot range, which is exactly what we want.
-
-If you're planning to fish the inlet this weekend, get there early. Word is getting out about the bite, and the weekend crowds can make it tough to find room to drift properly. Launch at Wantagh Park and work your way down to the inlet mouth. Start with the green bucktail rig I mentioned, and don't be afraid to move around if the weeds get too thick in one spot.
-
-The water is clean, the bait is thick, and the fluke are feeding. This is what June fishing at Jones Inlet is supposed to look like.
+Water temps are climbing steadily. That 74-degree bay water is prime fluke habitat, and as long as we keep this gradient between bay and ocean, the fishing should stay hot. The key is timing your trip with the tide change and having the right bait presentation ready when you get there.
 
 ---
 
-Tags: fluke, jones-inlet, green-bucktail, outgoing-tide, smelt, bay-water
+Tags: fluke, jones-inlet, green-bucktail, outgoing-tide, smelt, bay-gradient

@@ -1,0 +1,28 @@
+# Canyon water hits 67 degrees as yellowfin push into trolling range
+*Shelf temperatures cross the feeding threshold while mahi scatter on the 100-fathom line.*
+
+**HUDSON CANYON, NY — June 19** — _by Capt. Tony Rosetti, Zone Writer_
+
+The Hudson Canyon finally woke up this week. Water temperatures on the shelf hit 67.3 degrees at the Long Island buoy, crossing that magic 62-degree threshold where the canyon starts to fire. After weeks of cold, sluggish water, we're seeing the first real signs of life out there.
+
+Yellowfin are moving into trolling range along the 100-fathom line. I've been watching the temperature gradient between the canyon wall and the shelf water, and it's setting up perfectly. The canyon edge is holding 68-degree water while the shelf sits at 67 — that 1-degree difference is enough to concentrate bait and stack fish. Spreader bars with cedar plugs and ballyhoo are producing fish in the 40- to 60-pound class, mostly on the troll between the Claw and the Dip.
+
+The key has been working the temperature breaks. I'm finding the best action where the 67-degree shelf water meets the warmer canyon upwelling. Set your lines at dawn and work the edges — yellowfin are hitting just after sunrise when the bait gets pushed up from the deep water. Blue and white spreader bars are outfishing everything else, pulled at 7 to 8 knots.
+
+Mahi are scattered but present along the entire 100-fathom line. These aren't the big bulls we'll see in August, but solid 10- to 20-pound fish that are willing to eat. They're hitting small ballyhoo on the long rigger and anything with green in it. The weed line has been inconsistent — some days it's there, some days it's not — but when you find it, work it hard. The mahi are using it as cover.
+
+Bigeye action has been spotty. I've marked fish on the bottom machine around the Texas Tower, but getting them to bite has been tough. The few that have come up took large ballyhoo on the deep lines, fished at 100 to 150 feet down. Water clarity has been excellent — that gin-clear blue water that tells you you're in the right place.
+
+The weather pattern is setting up for a good weekend, but keep an eye on the seas. Block Island is showing 8-foot waves at 8-second intervals from the southwest — that's a building groundswell that's going to make the ride home interesting. The wind has been steady southwest at 15 knots with gusts to 20, which is manageable for the run out but will build seas as the day goes on.
+
+What's really encouraging is the bait situation. The temperature difference between Great South Bay at 74 degrees and the shelf water at 67 is concentrating massive amounts of bait inshore. That 7-degree gradient is like a magnet for sand eels, spearing, and juvenile bunker. As this bait gets flushed out of the bay systems on the big tides, it's going to feed the canyon ecosystem.
+
+The moon phase is working in our favor too. We're coming off a new moon, so the spring tides are moving serious water. That tidal flow is what pushes the deep canyon water up to the surface, bringing nutrients and bait with it. I'm seeing the best fishing on the tide changes — both the start of the flood and the beginning of the ebb.
+
+Looking ahead, this temperature pattern should hold through the weekend. The shelf water is stable in the mid-60s, and the canyon upwelling is consistent. If the weather cooperates, this could be the week the canyon really turns on. I'm watching for the first wahoo of the season — they usually show up when the water hits 68 degrees, and we're right on the edge of that threshold.
+
+The key for the coming week is going to be reading the water. Look for the color changes where the green shelf water meets the blue canyon water. That's where the temperature breaks are, and that's where the fish are stacking up. Work those edges with spreader bars and ballyhoo, and be ready for the first real canyon bite of the season.
+
+---
+
+Tags: yellowfin-tuna, mahi-mahi, hudson-canyon, 100-fathom-line, spreader-bars, temperature-breaks

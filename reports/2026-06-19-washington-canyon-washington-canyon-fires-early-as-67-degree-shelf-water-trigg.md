@@ -1,30 +1,26 @@
-# Washington Canyon fires early as 67-degree shelf water triggers yellowfin bite
-*Canyon walls holding warm eddies while inshore temps crash — classic June setup.*
+# Washington Canyon fires early as 67-degree shelf water triggers first real tuna bite
+*Yellowfin and mahi moving up the walls as thermal gradient sets up the season's first offshore push.*
 
 **WASHINGTON CANYON — June 19** — _by Capt. Chris "Wash" Morrison, Zone Writer_
 
-The Washington Canyon is lighting up exactly when it should — two weeks ahead of the northern canyons, riding that sweet spot where the Gulf Stream pushes warm water against our eastern wall. With shelf temps holding steady at 67 degrees while everything north of Block Island is crashing into the 50s, we've got the thermal gradient that stacks bait and fires up the early yellowfin bite.
+The canyon finally woke up this week, and it happened exactly where I expected it would. Water temps hit 67 degrees across the shelf — that magic number that flips the switch on Washington's early-season bite. When the thermometer climbs past 66 on the 30-mile buoy, I start rigging the spread because the yellowfin are coming.
 
-I've been working the 30-fathom line along the eastern wall where the warm eddy has been sitting for the past week. Water temps are running 68 to 70 degrees in that pocket — a solid 6-degree jump from the surrounding water. That's yellowfin candy, and they're responding. Tuesday's trip put three fish in the boat between 40 and 60 pounds, all coming on cedar plugs and small feathers trolled at 8 knots along the temperature break.
+Tuesday morning delivered the goods. Working the northeast wall in 400 feet, we found clean 68-degree water stacked against the canyon edge while the surrounding shelf held steady at 67. That two-degree gradient is what concentrates bait, and where bait goes, tuna follow. First fish came on a cedar plug trolled tight to the 100-fathom curve — a solid 40-pound yellowfin that hit like a freight train at sunrise. Two more followed on spreader bars rigged with ballyhoo, both fish in the 35 to 45-pound class.
 
-The key is reading that eastern wall structure. The 100-fathom curve has been the money spot, especially where it bends northeast around 38°52'N, 72°47'W. The eddy sets up in that corner, spinning clockwise and holding bait tight against the wall. I'm seeing good marks from 80 to 120 fathoms, with the fish suspended in that 40 to 60-foot zone where the thermocline sets up.
+The mahi showed up Wednesday, riding the same thermal break. These weren't the scattered schoolies you see later in summer — these were legitimate gaffers, fish pushing 15 to 20 pounds that had been feeding hard on the migration north. They hit everything: small feathers, skirted ballyhoo, even a few on live bait when we stopped to chunk. The key was staying with that temperature line as it meandered along the wall. GPS coordinates don't mean much when the water's moving — you fish the thermocline, not the numbers.
 
-Trolling has been the consistent producer. Small cedar plugs in natural wood and blue-white have been deadly, especially the 6-inch Gibbs plugs. Run them on 50-pound fluorocarbon, about 150 feet back. The yellowfin are aggressive but spooky — too close to the boat and they shut down. I've also been pulling small feathers on the riggers, pink and white combinations that mimic the sand eels getting pushed up from the bottom.
+What's driving this early bite is the same pattern I've watched develop in Washington for twenty years. The canyon sits perfectly positioned to catch the first push of Gulf Stream water as it edges closer to the shelf. While the inshore guys are still waiting for their water to warm up — Great South Bay hit 74 degrees this week but the ocean side is lagging — we're already fishing 68-degree blue water that's holding serious fish.
 
-The mahi bite is just starting to show. Found a small school Tuesday afternoon in 200 fathoms, fish running 10 to 20 pounds. They were under a debris line about three miles southeast of the main canyon head. Classic early-season pattern — the bigger bulls will show up in another week or two as water temps climb into the low 70s.
+The northeast wall has been the most consistent producer, specifically the area where the 100-fathom curve makes that sharp bend around 38°50' north. The water stacks up there on the flood tide, creating an eddy that holds bait and attracts everything from yellowfin to the occasional white marlin. I've been working depths from 300 to 500 feet, trolling a mixed spread: cedar plugs on the riggers, spreader bars on the long lines, and a single ballyhoo way back in the prop wash.
 
-Bait situation is solid. The canyon is loaded with sand eels and small squid, which explains why the yellowfin are feeding so aggressively. I'm seeing good bait marks from 60 fathoms all the way out to the shelf edge. The sand eels are thick along the 50-fathom line, getting pushed up by the current and creating that feeding zone the tunas love.
+Bait presentation matters more in June than later in the season. The fish are still selective, not in full feeding mode yet. I'm pulling everything slower — 6 to 7 knots instead of the 8 to 9 knots I'll run in August. The cedar plugs are working best in natural wood, not the painted ones. For the spreader bars, I'm rigging small ballyhoo, nothing over 6 inches, with the hooks pinned tight and the baits swimming straight.
 
-Weather has been the limiting factor. We've got 8-foot seas building from the southwest, making it a rough ride out and back. The fishing window is there, but you need a boat that can handle the slop. Seas should lay down by the weekend as this frontal system moves through.
+The weather's been cooperative, which is half the battle in early season. Southwest winds have been manageable at 15 knots, though seas are building to 8 feet at Block Island. That's still fishable for the bigger boats, but smaller center consoles should think twice about the run. The forecast shows this pattern holding through the weekend — southwest flow keeping the thermal structure stable.
 
-One thing I'm watching is that temperature gradient between the canyon and inshore waters. Great South Bay is running 74 degrees while we're seeing 67 on the shelf — that 7-degree spread is pulling bait offshore and should keep the canyon bite strong through the weekend. When that bay water cools down or the shelf warms up, the gradient disappears and the fish scatter.
+Looking ahead, I expect this bite to strengthen as we push toward the new moon next week. The spring tides that come with the new moon phase will stir up more bait along the shelf edge, and that usually triggers the first real wahoo bite of the season. Washington Canyon in late June with new moon tides and 68-degree water — that's when things get serious.
 
-The bluefin situation is still hit-or-miss. Saw some schools on the sounder Tuesday but couldn't get them to bite. They're there, probably feeding on the sand eel schools, but they're not aggressive yet. Give it another week of stable warm water and they should turn on.
-
-Looking ahead, I like what I'm seeing for the weekend. The southwest wind should clock around to the west and lay down, making for better sea conditions. More importantly, that warm eddy along the eastern wall should hold with the current pattern. The new moon is Monday, which means we're building into spring tides — that extra current flow should keep bait moving and fish feeding.
-
-If you're making the run, focus on that eastern wall between the 80 and 120-fathom curves. Work the temperature breaks, troll at 8 knots, and don't be afraid to cover water until you find that warm pocket. The Washington is fishing like it should in mid-June — two weeks ahead of schedule and hungry for action.
+The canyon's early reputation isn't just marketing. While other canyons are still waiting for their water to warm up, Washington consistently produces because of its position relative to the Gulf Stream's northern edge. This week proved it again. The shelf hit 67 degrees, the canyon walls are holding 68, and the fish are responding exactly like they should. Summer's officially here in the deep water.
 
 ---
 
-Tags: yellowfin-tuna, mahi-mahi, trolling, canyon-walls, temperature-breaks, cedar-plugs
+Tags: yellowfin-tuna, mahi-mahi, washington-canyon, cedar-plug, thermal-break, early-season
