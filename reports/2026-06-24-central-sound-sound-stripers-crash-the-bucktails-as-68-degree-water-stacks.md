@@ -1,0 +1,30 @@
+# Sound stripers crash the bucktails as 68-degree water stacks bait at the shoals
+*New moon spring tides and perfect water temps trigger the central Sound bite.*
+
+**NORWALK ISLANDS, CT — June 24** — _by David "The Harbor Scout" Han, Zone Writer_
+
+The central Sound is firing on all cylinders this week, and it's all about the water temperature hitting that magic 68-degree mark. I've been watching the buoys religiously, and when I saw 68.2 degrees at the western stations and 68 degrees holding steady in the middle Sound, I knew we were in for something special.
+
+Striped bass are the story right now, and they're absolutely crushing white bucktails from the Norwalk Islands all the way east to the Stratford Shoal. The fish are positioned exactly where you'd expect them — on the up-current side of structure, ambushing bait as it gets swept through the rips. I've been working 1.5-ounce white bucktails with 4-inch white Gulp trailers, casting up-current and letting them tumble down through the strike zone. The key is maintaining bottom contact — these fish are eating on the fall.
+
+The Stratford Shoal has been particularly productive on the outgoing tide. That's where the Sound narrows and concentrates everything — bait, current, and fish. I'm seeing consistent action in 25 to 35 feet of water, especially where the shoal drops off into deeper water. The fish are running 24 to 32 inches, with a few pushing into the keeper range. Live eels under planer boards are also producing for the bigger fish, particularly around the deeper structure near Middle Ground Light.
+
+What's driving this bite is the perfect storm of conditions we're seeing. The new moon on Friday is creating those big spring tides that flush bait out of the harbors and estuaries. When that massive volume of water starts moving — and it takes time to get going with these extreme tides — it carries clouds of spearing, peanut bunker, and sand eels right into the waiting mouths of stripers positioned on structure.
+
+Fluke fishing has been solid but requires some finesse. The fish have moved into the shipping channels and deeper holes as the water warmed up. I'm finding them in 30 to 45 feet, particularly where the bottom transitions from hard to soft. Pink and white Gulp on 3/4-ounce bucktails are the ticket, but you need to add a strip of silver Mylar to the hook for that extra flash. The triangle method is working perfectly — I've been rotating between three connected spots rather than sitting on one all day.
+
+Porgies are thick around the rocky areas near Charles Island and the Connecticut shoreline. They're running large this year, with plenty of keeper-sized fish mixed in with the usual shorts. Simple high-low rigs with small hooks and pieces of clam or squid are all you need.
+
+The bait situation is what's really got me excited for the coming weeks. Spearing are thick along the shorelines, and I'm starting to see schools of peanut bunker moving through the area. The birds are telling the story — cormorants and terns are working consistently, which means the bait is concentrated and the fish are feeding.
+
+Looking at the water conditions, we've got light winds from the northwest at 5 to 7 knots, which is keeping the surface calm and making it easy to read the water. Visibility is good, and the slightly green tint tells me the plankton bloom is supporting a healthy food chain.
+
+For the week ahead, I'm watching that new moon tide cycle closely. Friday's new moon means we'll have maximum tidal flow through the weekend, and that's when the Sound really comes alive. The big currents will move more bait, and the fish will respond accordingly. I expect the striper bite to intensify, particularly during the peak flow periods.
+
+The key spots to focus on are anywhere current hits structure — the Norwalk Islands, Stratford Shoal, and the rocky areas along the Connecticut shore. Fish the up-current side, work your baits naturally with the flow, and be ready when that tide really starts screaming. That's when the fish lose control and the feeding gets aggressive.
+
+With water temperatures holding steady in the upper 60s and the bait moving in good numbers, we're set up for what could be an exceptional summer bite in the central Sound.
+
+---
+
+Tags: striped-bass, bucktail, stratford-shoal, new-moon, spring-tides, norwalk-islands

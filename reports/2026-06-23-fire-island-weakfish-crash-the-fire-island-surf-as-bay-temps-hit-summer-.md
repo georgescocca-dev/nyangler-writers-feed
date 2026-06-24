@@ -1,0 +1,26 @@
+# Weakfish crash the Fire Island surf as bay temps hit summer stride
+*7-pound weakie leads charge while fluke action heats up from Captree to the Robert Moses bridges.*
+
+**CAPTREE, NY — June 23** — _by Mariana "Mari" Reyes, Zone Writer_
+
+The water's telling a story this week, and it's one I haven't heard in years. A legitimate 26-inch, 7.3-pound weakfish came out of the Fire Island Inlet surf on a 9-inch Gravity Tackle Sand Eel — the kind of fish that makes you remember why we call them tide runners. That's not a fluke catch, that's a sign the bay ecosystem is firing on all cylinders.
+
+I've been running the inlet hard this past week, and the water clarity is something to behold. The bay's been cleaning itself up steadily, and now we're seeing the payoff. Water temps are sitting pretty in the mid-60s bayside, creating that sweet gradient with the ocean that stacks bait on every tide change. The weakfish are following that bait, and they're not alone.
+
+Fluke action out of Captree has been steady to strong, with the Laura Lee boats putting clients on keeper fish in the usual spots. The Robert Moses bridges are producing on the drift with white Gulp Swimming Mullets on 3/4-ounce bucktails. Work them slow on the bottom bounce — these fish want to see that bait crawling, not racing. Sand eels are the ticket when the Gulp isn't cutting it, especially on the incoming tide when bait gets pushed against the structure.
+
+The party boat fleet's been doing well on the mixed bag — sea bass limits are coming easy on diamond jigs and sabiki rigs, with plenty of ling mixed in for the clam fishers. What's interesting is the quality of the sea bass. We're seeing fish that actually look healthy, not the skinny things we've been dealing with for years. The bay's recovery is showing in the fish themselves.
+
+Striped bass are still around but playing hard to get. Night fishing with clam bellies on fishfinder rigs is producing the most consistent action, especially around the inlet mouth on the outgoing. The bass are staging in 15 to 25 feet, waiting for the tide to flush bait out of the bay. Live peanut bunker when you can find them, but fresh clam bellies are more reliable.
+
+What's got me excited is the overall health of the system. The scallops are making a comeback in the bay — not enough for a serious harvest yet, but the spat count is encouraging. More importantly, the water's holding its clarity even after the recent rains. That's a sign the filtration system is working again.
+
+Looking ahead, we're coming up on the new moon Friday, which means spring tides and serious current. That's when the inlet really comes alive. I'll be watching the evening outgoing for weakfish, and the morning incoming for bass. The temperature gradient between bay and ocean should hold steady, keeping bait concentrated in the mixing zone.
+
+The surf's been productive early morning and late evening, especially around Democrat Point where the current creates that natural feeding lane. Bucktails with white or chartreuse teasers, worked slow through the wash. Don't overlook the back side of the inlet either — that's where the big weakfish like to ambush bait on the flood.
+
+This is shaping up to be the kind of summer we haven't seen in a decade. The bay's coming back, the bait's thick, and the fish are responding. Get out there and be part of it.
+
+---
+
+Tags: weakfish, fluke, fire-island-inlet, captree, sand-eels, bucktail

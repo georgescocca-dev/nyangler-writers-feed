@@ -1,0 +1,26 @@
+# Bluefish blitz fires Shinnecock Inlet as crystal-clear water stacks bass
+*Big blues to 34 inches crash the rips while stripers hunt underneath on bucktails and Mag Darters.*
+
+**SHINNECOCK INLET, NY — June 23** — _by Charlie "Night Owl" Ortiz, Zone Writer_
+
+The inlet is absolutely on fire right now, and I'm talking about the kind of action that makes you forget about sleep. Crystal-clear blue-green water has been pouring through Shinnecock for the past week, and it's stacking fish like I haven't seen in years. The water clarity is so good you can watch stripers cruise the bottom in 15 feet — it's almost tropical looking.
+
+The bluefish bite has been insane. We're talking gorilla blues pushing 34 inches, and they're not the usual snapper blues either. These are legitimate choppers with shoulders that'll snap 30-pound leader like it's thread. I've been running 50-pound fluoro to keep from losing lures, and even then you better check your terminal tackle after every fish. The 5-inch Yozuri Mag Darter has been my go-to — that flat head gives it just enough wiggle in the current to drive them crazy, even on the pause.
+
+What's really interesting is how the stripers are positioning themselves. While everyone's going nuts over the blues blitzing on top, the bass are hunting underneath the schools. I've been swinging 3/4-ounce bucktails with Zoom fork tails under the chaos, and it's been money. The key is getting that bucktail down in the rip — you need to be positioned on one side of the structure or the other to cut the current and get your bait to the fish.
+
+The incoming tide has been the magic time, especially that first two hours of the flood. Fish are stacked far out in the rip where the current breaks, and they're hitting hard. I'm talking 17-pound stripers on 10-pound test — the kind of fights that make your drag sing. The retrieve that's been working is a pop-pop-pause cadence, letting that bucktail flutter in the current between pops.
+
+What's driving this bite is the water temperature differential between the bay and ocean. Bay water has climbed to 66 degrees while the inlet mouth is still running cooler, creating a thermal gradient that's concentrating bait. The crystal-clear conditions mean you need to downsize when the bite gets tough — when everyone else is throwing big plugs and coming up empty, drop down to that 5-inch Mag Darter and work it slow.
+
+The night bite has been equally impressive, though you need to know your water. I've been working the outgoing tide after sunset, focusing on the deeper holes where the current sweeps bait out of the bay. Trolling plugs run low and slow have been producing slot bass consistently. The key is staying tight to structure — these fish are ambush feeding in the current breaks.
+
+One thing to watch for is boat traffic. The big sportfishers running through the inlet are scattering schools, so timing is everything. Early morning and late evening give you the best shot at undisturbed water.
+
+Looking ahead, we're coming into a new moon cycle which means spring tides and stronger currents. That should really fire up the inlet fishing, especially if this water clarity holds. The temperature gradient between bay and ocean is only going to get more pronounced as we move deeper into summer, which should keep bait concentrated and predators feeding aggressively.
+
+The Ponquogue Bridge has been producing some nice weakfish on the evening flood, and I'm hearing reports of doormat fluke in the deeper bay channels. But right now, the inlet is where you want to be. Just make sure you've got heavy enough leader for those blues — they're not giving any quarter.
+
+---
+
+Tags: bluefish, striped-bass, shinnecock-inlet, bucktail, mag-darter, outgoing-tide

@@ -1,0 +1,28 @@
+# Canyon bluefin stack deep as 68-degree water holds at the 100-fathom line
+*Jigging and stickbaits producing giants in 75 feet of water while trollers work the edges.*
+
+**HUDSON CANYON, NY — June 24** — _by Capt. Tony Rosetti, Zone Writer_
+
+The Hudson Canyon is firing on all cylinders this week, with bluefin tuna stacked in impressive numbers along the 100-fathom line where 68-degree water has settled in and held steady. The temperature gradient we're seeing — 68.2 degrees at the canyon head dropping to the low 60s on the shelf — is creating the kind of thermal barrier that concentrates bait and keeps these fish locked in position.
+
+I've been working the Claw and the Dip hard this past week, and the pattern is clear: these bluefin are holding tight to structure in 75 to 85 feet of water, feeding on bunker schools that are getting pushed up against the thermocline. The fish aren't showing on top like we saw in May during those white-water feeds, but they're absolutely there if you know how to reach them.
+
+Jigging has been the standout technique. I'm dropping 280-gram jigs with beefed-up hooks right to the bottom, then working them slow through the water column. The key is keeping that jig within five feet of the bottom where these fish are holding. On the drift, I'm bouncing them off the deck and bringing them up methodically — no fast retrieves, just steady pumps that mimic wounded bait.
+
+Stickbaits are also producing when you can mark fish on the sounder. The UVT stickbaits in particular have been deadly when worked through schools that are showing 75 feet down. Cast them out and let them sink into the zone, then work them with long, slow sweeps. When these fish are locked on bunker, they want that presentation that looks like a crippled baitfish falling through the column.
+
+The trolling bite has been more selective, but boats working the canyon edges are picking up quality fish on spreader bars and ballyhoo rigs. The key is staying in that 68-degree water and working the temperature breaks where the warm canyon water meets the cooler shelf water. I'm seeing the best action on the incoming tide when current is pushing bait up against the canyon walls.
+
+What's interesting this week is how concentrated the fish are. Instead of scattered pods across miles of water, they're stacked in specific areas where the bottom structure and temperature combine perfectly. The Texas Tower area has been particularly productive, especially on the northeast corner where an eddy has been holding warmer water.
+
+The lunar phase is working in our favor too. We're coming off the new moon, so these spring tides are creating strong current flow that's keeping bait active and fish feeding aggressively. The tide changes have been producing the best action — that switch from slack to moving water seems to trigger feeding windows that last 45 minutes to an hour.
+
+Gear-wise, don't go light. These are legitimate giants we're dealing with, and the rocky bottom of the canyon means you need tackle that can handle both the fish and the structure. I'm running 80-pound braid to 100-pound fluorocarbon leaders, and even then I'm losing some to the rocks. Heavy jig rods in the 50-80 pound class are essential — this isn't the place for finesse gear.
+
+Looking ahead, the weather pattern is setting up perfectly for the weekend. Light northwest winds and calm seas should make the run comfortable, and more importantly, the water temperature is holding steady. That 68-degree mark seems to be the magic number this season, and as long as we maintain that thermal structure, these fish should stay put.
+
+The yellowfin haven't shown up in numbers yet, but I'm expecting them to move in as we get deeper into summer and the water warms another degree or two. For now, it's all about the bluefin, and they're as thick as I've seen them in the canyon in years. If you're making the run, bring plenty of jigs and be prepared to work for them — but when you connect, these fish are worth every minute of the fight.
+
+---
+
+Tags: bluefin-tuna, jigging, stickbait, 100-fathom-line, thermocline, canyon-structure

@@ -1,0 +1,26 @@
+# Summer porgies stack up around Shelter Island as bay water climbs into the 70s
+*Jumbo scup to 3 pounds hitting clam chunks on the flood, while scattered bass work the rips at dawn.*
+
+**SHELTER ISLAND, NY — June 23** — _by Bill Hubbard, Zone Writer_
+
+The Peconic is hitting its summer stride, and the porgy fishing around Shelter Island has turned absolutely lights-out over the past week. Water temps climbed into the low 70s, and that's pulled the big scup up from their deeper haunts to feed heavy on the shoals and drop-offs that ring the island.
+
+I've been working the flood tide around Jessup's Neck and the Middle Ground, anchoring in 25 to 30 feet and laying down a steady chum slick of crushed clams. The bite starts about an hour into the flood and runs strong until slack water. These aren't your typical bay porgies — I'm seeing fish pushing 18 to 19 inches, with several breaking the 3-pound mark. The key is keeping that chum flowing and using fresh clam chunks on a simple high-low rig with 2/0 hooks.
+
+What's driving this bite is the thermal layering that's set up in the bay. The surface water is running 72 to 74 degrees, but there's a distinct thermocline at about 20 feet where it drops to the mid-60s. That cooler water is holding bait, and the porgies are stacked right on that edge, feeding up into the warmer layer during the flood when the current pushes food over the structure.
+
+The bass fishing has been more of a dawn and dusk game. I'm finding scattered fish working the rips at Orient Point and around Plum Gut in the early morning hours. Nothing massive — mostly slot fish in the 28 to 32-inch range — but they're there if you time it right. White bucktails with chartreuse trailers seem to be the ticket, worked slow along the bottom on the last hour of the outgoing tide. The fish are holding tight to structure, so you need to get your jig down into the rocks where the current breaks.
+
+Weakfish have been showing up as a bonus around the porgy grounds. I've taken several in the 18 to 20-inch class while anchored up chumming for scup. They seem to like the same clam chunks, but they hit softer than the porgies — you need to pay attention to those subtle taps.
+
+The fluke bite has been spotty but improving. I'm finding keeper fish in the channels between Shelter Island and the North Fork, particularly around Ram Island and the deeper water off Greenport. Bucktails tipped with Gulp seem to be outproducing live bait right now, probably because the water's still a bit murky from the recent weather. Work them slow on the drift, keeping contact with the bottom.
+
+Looking at the moon phase, we're coming off the new moon, which means the tides are starting to build toward the first quarter next week. That should push more bait around and potentially fire up the bass bite in the rips. The porgy fishing should stay strong — these fish are settled into their summer pattern now, and with water temps holding steady in the low 70s, they're not going anywhere.
+
+The real story this week has been how quickly the bay warmed up. We jumped from the mid-60s to the low 70s in just a few days, and that thermal shock seems to have triggered a feeding response in everything from porgies to weakfish. It's classic Peconic Bay summer fishing — the protected water warms faster than the Sound, the bait moves in, and the fish follow.
+
+Next week, I'm watching for the building tides to push more bunker into the bay. If that happens, the bass fishing could really take off, especially in the evening hours around the bridges and deeper channels. The porgy bite should continue strong through the flood tides, and I wouldn't be surprised to see more weakfish show up as the water continues to warm.
+
+---
+
+Tags: porgies, shelter-island, flood-tide, clam-chunks, summer-pattern, bass-rips

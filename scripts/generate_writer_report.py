@@ -201,6 +201,8 @@ OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
 
 
 ANALYST_DIR = NOREASTER / "data" / "analysis"
+YOUTUBE_WEEKLY_DIR = NOREASTER / "data" / "knowledge" / "youtube_weekly_reports"
+YOUTUBE_KNOWLEDGE = NOREASTER / "data" / "knowledge" / "fishing_knowledge.jsonl"
 
 
 def load_latest_analyst() -> dict:
@@ -252,7 +254,102 @@ def filter_analyst_for_zone(analyst: dict, zone_slug: str, writer: dict) -> dict
     return out
 
 
-def build_prompt(writer: dict, reports: list[dict], sst: dict, analyst: dict) -> tuple[str, str]:
+def load_recent_youtube_intel(zone_slug: str, days: int = 14) -> list[dict]:
+    """Load YouTube-derived fishing intel from the last `days` days.
+
+    Pulls from two sources:
+    1. Structured weekly report JSONs (youtube_weekly_reports/)
+    2. Knowledge entries from fishing_knowledge.jsonl (filtered by bucket match)
+
+    Only returns entries with timestamps within the window. This ensures
+    writers are working from CURRENT intel, not stale historical data.
+    """
+    from datetime import timedelta
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    results: list[dict] = []
+
+    # Source 1: Structured weekly reports
+    if YOUTUBE_WEEKLY_DIR.exists():
+        for f in sorted(YOUTUBE_WEEKLY_DIR.glob("*.json"), reverse=True):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            # Check if the report is within our window
+            collected = data.get("collected_at", "")
+            if collected:
+                try:
+                    col_dt = datetime.fromisoformat(collected.replace("Z", "+00:00"))
+                    if col_dt < cutoff:
+                        continue
+                except (ValueError, TypeError):
+                    pass
+            # Extract notable catches and hotspots relevant to this zone
+            zone_key = zone_slug.replace("-", "_")
+            hotspots = data.get("hotspots_by_region", {})
+            zone_hotspot = hotspots.get(zone_key) or hotspots.get(zone_slug)
+            if zone_hotspot:
+                results.append({
+                    "source": "YouTube weekly report",
+                    "report_date": data.get("report_date"),
+                    "collected_at": collected,
+                    "type": "regional_hotspot",
+                    "zone": zone_key,
+                    "status": zone_hotspot.get("status"),
+                    "species": zone_hotspot.get("species", []),
+                    "notes": zone_hotspot.get("notes", ""),
+                })
+            # Also include notable catches that mention this zone's landmarks
+            zone_terms = zone_slug.replace("-", " ").lower()
+            for catch in data.get("notable_catches", []):
+                location = (catch.get("location", "") + " " + catch.get("angler", "")).lower()
+                if any(term in location for term in zone_terms.split()):
+                    results.append({
+                        "source": "YouTube weekly report",
+                        "report_date": data.get("report_date"),
+                        "collected_at": collected,
+                        "type": "notable_catch",
+                        **catch,
+                    })
+
+    # Source 2: Knowledge entries from fishing_knowledge.jsonl
+    if YOUTUBE_KNOWLEDGE.exists():
+        zone_terms = zone_slug.replace("-", " ").lower()
+        for line in YOUTUBE_KNOWLEDGE.read_text(encoding="utf-8").splitlines():
+            try:
+                entry = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            # Check timestamp freshness
+            ts = entry.get("timestamp", "")
+            if ts:
+                try:
+                    entry_dt = datetime.fromisoformat(ts.replace("Z", "+00:00"))
+                    if entry_dt < cutoff:
+                        continue
+                except (ValueError, TypeError):
+                    continue
+            else:
+                continue  # Skip entries without timestamps
+            # Filter by zone relevance
+            bucket = (entry.get("bucket", "") or "").lower()
+            region = (entry.get("region", "") or "").lower()
+            if zone_terms in bucket or zone_terms in region or zone_slug in bucket:
+                results.append({
+                    "source": entry.get("source", "YouTube"),
+                    "video_title": entry.get("video_title", ""),
+                    "timestamp": ts,
+                    "category": entry.get("category", ""),
+                    "species": entry.get("species", []),
+                    "knowledge": entry.get("knowledge", ""),
+                    "tags": entry.get("tags", []),
+                    "bucket": entry.get("bucket", ""),
+                })
+
+    return results[:50]  # Cap to keep prompt size reasonable
+
+
+def build_prompt(writer: dict, reports: list[dict], sst: dict, analyst: dict, youtube_intel: list[dict] = None) -> tuple[str, str]:
     """Returns (system_prompt, user_prompt)."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     beat = {
@@ -287,15 +384,17 @@ def build_prompt(writer: dict, reports: list[dict], sst: dict, analyst: dict) ->
             "beat_profile": beat,
             "primary_intel_dr_fish_oceanographic_analyst": analyst,
             "sst_pipeline_status": sst_summary,
+            "youtube_intel_DO_NOT_CITE": youtube_intel or [],
             "background_forum_chatter_DO_NOT_CITE": background_reports,
             "task": (
                 "Write this week's fishing report for your zone. "
                 "Lead with what's being CAUGHT — species, sizes, tactics, "
                 "baits, specific spots. Use the Dr. Fish analyst data to "
-                "explain WHY conditions are producing. The forum chatter is "
-                "BACKGROUND ONLY — synthesize it into your voice, never cite "
-                "users. Write it like YOUR column — your voice, your personality, "
-                "your way of reading the water. Be specific on baits and rigs. "
+                "explain WHY conditions are producing. The forum chatter and "
+                "YouTube intel are BACKGROUND ONLY — synthesize it into your "
+                "voice, never cite users or video channels. Write it like "
+                "YOUR column — your voice, your personality, your way of "
+                "reading the water. Be specific on baits and rigs. "
                 "Return ONLY the JSON object specified — no preamble, no "
                 "markdown code fence."
             ),
@@ -540,12 +639,14 @@ def main() -> int:
     sst = load_sst()
     raw_analyst = load_latest_analyst()
     analyst = filter_analyst_for_zone(raw_analyst, zone_slug, writer)
+    youtube_intel = load_recent_youtube_intel(zone_slug, days=14)
 
     print(
         f"[gen] writer={writer['name']} zone={zone_slug} "
         f"forum_bg={len(reports)} sst={sst.get('latest_date')} "
         f"analyst={'yes' if analyst else 'NO'} "
-        f"regional_match={len(analyst.get('regional_outlook_for_beat', []))}",
+        f"regional_match={len(analyst.get('regional_outlook_for_beat', []))} "
+        f"youtube_intel={len(youtube_intel)}",
         file=sys.stderr,
     )
     if not analyst:
@@ -554,7 +655,7 @@ def main() -> int:
             file=sys.stderr,
         )
 
-    system, user = build_prompt(writer, reports, sst, analyst)
+    system, user = build_prompt(writer, reports, sst, analyst, youtube_intel)
     print(f"[gen] calling {args.model} (prompt={len(system)+len(user):,} chars)", file=sys.stderr)
     raw = call_openrouter(system, user, args.model)
     try:
