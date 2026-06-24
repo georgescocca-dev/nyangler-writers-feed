@@ -1,0 +1,26 @@
+# Sound shore bass stack up as water hits 68 degrees off Orient Point
+*Plum Gut current is pulling bait through the rips while calm conditions make for perfect drifting.*
+
+**ORIENT POINT, NY — June 24** — _by Pat "North Fork" Reilly, Zone Writer_
+
+Water's finally warming up proper out here on the Sound shore, and the bass are responding like they should. Been seeing 68 degrees steady from Mattituck east to Orient Point, which is that magic number that gets the stripers moving in earnest. The calm weather we've had — light northwest winds under 7 knots most days — has made for some real pleasant fishing, especially around the rips where you usually get your teeth rattled.
+
+Best action's been coming off Orient Point where the current sweeps around the tip and sets up that beautiful edge. Been working the 25 to 35 foot range with bucktails and soft plastics, dragging them slow on the drift. White and chartreuse 4-inch Gulp Swimming Mullets on 3/4-ounce heads are doing the damage, especially when you let them tick bottom on the downtide side of the rip. Had one morning last week where every drift through that sweet spot produced a keeper, most in the 28 to 32 inch range with a couple pushing 35.
+
+The Plum Gut approach has been holding fish too, though you need to time it right with the current. That race gets nasty when it's really ripping, but on the slack and the first hour of the flood, it's been productive. Seeing a lot of bait getting pushed through there — mostly peanut bunker and some sand eels. The bass are sitting just outside the main current, picking off whatever gets swept past. Live peanuts on a fishfinder rig work, but honestly the artificials have been more consistent. Something about that steady retrieve that triggers them.
+
+Porgy fishing's been solid too, especially around the rocky bottom off Horton Point. Nothing huge — mostly in the half-pound to pound range — but they're thick and eager. Small pieces of squid or clam on a high-low rig, fished on the anchor in 20 to 30 feet. The kids love it, and it makes for good table fare when the bass aren't cooperating.
+
+Bluefish have been scattered but when you find them, they're aggressive. Had a school come through off Rocky Point two days back, all in the 3 to 5 pound range. They hit everything — spoons, poppers, even the bucktails meant for bass. Typical blues — here one minute, gone the next, but fun while it lasted.
+
+What's interesting is how clean the water's been staying despite the calm conditions. Usually when the wind lays down this long, you get that green bloom, but the current through Plum Gut keeps things flushed. Visibility's been good, maybe 8 to 10 feet, which explains why the artificials are outfishing bait in a lot of spots.
+
+The lunar cycle's working in our favor too. We're coming off the new moon, so the tides aren't extreme, but there's enough movement to keep bait active without making the current unmanageable. That's perfect for this kind of drift fishing where you need just enough push to work your lure but not so much that you can't control your presentation.
+
+Looking ahead, the forecast shows more of the same — light winds, stable pressure, water temps holding steady or maybe creeping up another degree. That's good news because once we hit 70 degrees consistently, the weakfish usually start showing in numbers. Haven't seen many yet, just a few scattered fish mixed in with the bass, but I'm watching for them. The full moon's coming up next week, and that often coincides with the first real push of weaks through the eastern Sound.
+
+If you're planning to fish this stretch, early morning's been best, especially that first hour after sunrise when the light's just starting to penetrate. The bass seem more aggressive then, probably because the baitfish are more active. Afternoon fishing's been decent too, but you need to work harder for your fish. And don't overlook the deeper water — some of the better bass have been coming from 40 feet or more, especially when the sun gets high.
+
+---
+
+Tags: striped-bass, bucktail, orient-point, plum-gut, sound-shore, porgy

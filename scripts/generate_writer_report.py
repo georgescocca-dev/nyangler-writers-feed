@@ -205,17 +205,114 @@ YOUTUBE_WEEKLY_DIR = NOREASTER / "data" / "knowledge" / "youtube_weekly_reports"
 YOUTUBE_KNOWLEDGE = NOREASTER / "data" / "knowledge" / "fishing_knowledge.jsonl"
 
 
-def load_latest_analyst() -> dict:
-    """Load the most recent Dr. Fish analyst JSON if available."""
+def load_latest_analyst(writer_id: str | None = None) -> dict:
+    """Load Dr. Fish analyst data covering the full period since the last published report.
+
+    If writer_id is provided, finds the date of that writer's most recent report
+    and loads ALL analyst files from that date forward (inclusive of the day after
+    the last report, so we don't re-feed data the last report already used).
+
+    If no writer_id or no prior report exists, loads the latest analyst file only
+    (same as original behavior).
+
+    Multiple analyst files are merged: the latest file is the base (it has the
+    most recent buoy readings), and earlier files' regional_outlook entries are
+    prepended so the writer sees the full progression of conditions.
+    """
     if not ANALYST_DIR.exists():
         return {}
-    files = sorted(ANALYST_DIR.glob("analyst_*.json"), reverse=True)
-    if not files:
+
+    all_files = sorted(ANALYST_DIR.glob("analyst_*.json"), reverse=True)
+    if not all_files:
         return {}
-    try:
-        return json.loads(files[0].read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
+
+    # Determine the cutoff date: day after the writer's last published report
+    cutoff_date = None
+    if writer_id:
+        # Find the writer's most recent report file
+        writer_reports = sorted(
+            REPORTS_DIR.glob(f"*{writer_id}*.json"), reverse=True
+        )
+        if writer_reports:
+            # Extract date from filename: YYYY-MM-DD-writer-id-...
+            fname = writer_reports[0].name
+            if fname.startswith("20"):
+                try:
+                    last_date_str = fname[:10]  # e.g. "2026-06-24"
+                    last_date = datetime.strptime(last_date_str, "%Y-%m-%d").replace(
+                        tzinfo=timezone.utc
+                    )
+                    # Day after the last report — we want NEW intel
+                    from datetime import timedelta
+                    cutoff_date = last_date + timedelta(days=1)
+                except (ValueError, IndexError):
+                    pass
+
+    if cutoff_date is None:
+        # No prior report or no writer_id — just load latest
+        try:
+            return json.loads(all_files[0].read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            return {}
+
+    # Load all analyst files from cutoff_date forward
+    # Analyst files: analyst_YYYY-MM-DD.json and analyst_YYYY-MM-DD_afternoon.json etc.
+    relevant_files = []
+    for f in all_files:
+        # Extract date from filename
+        # Pattern: analyst_2026-06-24.json or analyst_2026-06-24_afternoon.json
+        parts = f.stem.replace("analyst_", "").split("_")[0]  # e.g. "2026-06-24"
+        try:
+            file_date = datetime.strptime(parts, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+        if file_date >= cutoff_date:
+            relevant_files.append(f)
+
+    if not relevant_files:
+        # Fallback to latest
+        try:
+            return json.loads(all_files[0].read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            return {}
+
+    if len(relevant_files) == 1:
+        try:
+            return json.loads(relevant_files[0].read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            return {}
+
+    # Multiple files: merge them.
+    # Latest file is the base (most recent buoy data).
+    # Earlier files' regional_outlook entries are prepended as "prior_conditions".
+    relevant_files = sorted(relevant_files)  # oldest first now
+    merged = None
+    prior_outlooks = []
+
+    for f in relevant_files:
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if merged is None:
+            merged = data
+        else:
+            # Collect regional outlook from earlier days
+            ro = data.get("regional_outlook")
+            if ro:
+                prior_outlooks.append({
+                    "date": data.get("date"),
+                    "headline": data.get("headline", "")[:200],
+                    "regional_outlook": ro,
+                })
+
+    if merged is None:
         return {}
+
+    if prior_outlooks:
+        merged["prior_analyst_runs_since_last_report"] = prior_outlooks
+
+    return merged
 
 
 def filter_analyst_for_zone(analyst: dict, zone_slug: str, writer: dict) -> dict:
@@ -637,7 +734,7 @@ def main() -> int:
     zone_slug = WRITER_TO_ZONE_BUCKET.get(writer["id"]) or writer.get("zone_slug") or writer["id"]
     reports = load_recent_reports(zone_slug, limit=args.limit)
     sst = load_sst()
-    raw_analyst = load_latest_analyst()
+    raw_analyst = load_latest_analyst(writer_id=args.writer_id)
     analyst = filter_analyst_for_zone(raw_analyst, zone_slug, writer)
     youtube_intel = load_recent_youtube_intel(zone_slug, days=14)
 
@@ -645,6 +742,7 @@ def main() -> int:
         f"[gen] writer={writer['name']} zone={zone_slug} "
         f"forum_bg={len(reports)} sst={sst.get('latest_date')} "
         f"analyst={'yes' if analyst else 'NO'} "
+        f"analyst_runs={len(raw_analyst.get('prior_analyst_runs_since_last_report', [])) + 1 if raw_analyst else 0} "
         f"regional_match={len(analyst.get('regional_outlook_for_beat', []))} "
         f"youtube_intel={len(youtube_intel)}",
         file=sys.stderr,
