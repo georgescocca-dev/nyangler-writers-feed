@@ -1,0 +1,26 @@
+# Moriches Inlet fires as 68-degree water stacks bait on the flood
+*Trophy stripers crash live spot at night while fluke fishing heats up in the skinny water.*
+
+**MORICHES BAY, NY — June 24** — _by Pete Gallo, Zone Writer_
+
+The inlet's been absolutely electric this week, and the numbers tell the story. Water temps hit 68.2 degrees on the ocean side while the bay's running a solid 4 degrees warmer — that thermal gradient is what's been stacking bait on every flood tide and holding bass through the ebb. When you've got that kind of temperature differential, the inlet becomes a funnel, and right now it's funneling everything from peanut bunker to spot right into the waiting mouths of some serious stripers.
+
+Night fishing has been the ticket for trophy bass. Live spot on fishfinder rigs, dropped tight to the inlet's north jetty on the incoming water, has been producing fish in the 30-pound class. The key is getting that bait down into the 15-foot hole that forms on the flood — that's where the big girls are sitting, waiting for the current to deliver dinner. I've been running 30-pound fluorocarbon leaders with 6/0 circle hooks, letting the spot swim naturally in the current. The bite window is tight — usually the hour before and after slack high — but when it happens, it's violent.
+
+The inlet's bathymetry has shifted again after last month's nor'easter, and the new channel cut is holding fish differently than it did in May. The main flow now runs closer to the south side, which means the traditional north jetty spots aren't producing like they used to. Instead, I'm finding bass staged along the new drop-off that runs from the inlet mouth southeast toward the first channel marker. It's a subtle change — maybe 3 feet of depth difference — but it's enough to redirect the entire food chain.
+
+Fluke fishing in the bay has turned the corner this week. The skinny water bite is on fire, with fish to 6 pounds coming from 6 to 10 feet of water along the channel edges. The secret has been downsizing everything — 1/4-ounce bucktails with 3-inch white Gulp Swimming Mullets, dragged painfully slow on the drift. In water this shallow, presentation is everything. I'm using 15-pound braid straight to a 20-pound fluorocarbon leader, no swivel, no hardware that might spook fish in gin-clear water.
+
+The Tuthill Point area has been particularly productive for doormat fluke. There's a subtle depression that runs parallel to the channel, about 200 yards east of the point, where the bottom drops from 8 to 12 feet. It's not much, but it's enough to hold bait and concentrate fish. I've been anchoring uptide and casting into the hole, letting the bucktail tick bottom as it swings in the current. The takes are subtle — often just a slight heaviness on the line — but the fish have been quality.
+
+Bait has been the story this week. Massive schools of peanut bunker have moved into the bay, pushed by the warming water and spring tides. They're thick from the inlet all the way back to the Forge River, and everywhere you find bunker, you find bass. The fish are feeding aggressively, but they're also spooky. Approach these schools wrong — too fast, too loud — and they'll disappear like smoke.
+
+Cupsogue Beach has been producing consistent action for surf casters working the dawn and dusk bites. Clam rigs fished in the wash have been taking keeper fluke, while fresh bunker chunks on fishfinder rigs are drawing bass after dark. The key has been reading the structure — there's a subtle bar that runs parallel to the beach about 80 yards out, and that's where the fish are staging.
+
+Looking ahead, we're building toward the new moon on Friday, which means big spring tides and maximum current flow. That's when the inlet really comes alive. I'm expecting the bass bite to intensify as the stronger currents flush more bait out of the back bay. The fluke fishing should remain strong as long as water temps stay stable — any sudden warming could push fish deeper or scatter them entirely.
+
+The weekend forecast shows light northwest winds and calm seas, perfect conditions for working the inlet at night or drifting the bay's skinny water for fluke. With bait this thick and water conditions this good, it's shaping up to be one of those magical late June periods when everything comes together in Moriches Bay.
+
+---
+
+Tags: striped-bass, fluke, moriches-inlet, live-spot, night-fishing, skinny-water

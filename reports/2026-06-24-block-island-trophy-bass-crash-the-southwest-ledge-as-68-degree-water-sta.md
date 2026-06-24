@@ -1,0 +1,30 @@
+# Trophy bass crash the Southwest Ledge as 68-degree water stacks bait
+*Flutter spoons and bucktails producing keeper stripers to 40 inches in the thermal break.*
+
+**BLOCK ISLAND, RI — June 24** — _by Jack Sullivan, Zone Writer_
+
+The summer migration has officially arrived at Block Island, and the Southwest Ledge is firing like I haven't seen in years. Water temps hit 68 degrees this week — that magic number that pulls trophy bass from hundreds of miles away to our cool, oxygenated water. The thermal gradient between the 68-degree inshore water and the 63-degree offshore readings is creating a perfect feeding zone along the ledge structure.
+
+I've been working the Southwest Ledge at first light, and the action has been consistent for keeper bass in the 28 to 40-inch range. Flutter spoons are absolutely deadly when you find fish marked on the finder. Drop them right into the schools and let them fall through the water column — the bass are hitting them on the flutter down, usually around 30 to 45 feet. White and chartreuse patterns are producing best, with the 3-ounce models getting down fast enough in the current.
+
+Bucktails are also putting fish in the boat, especially when trolled along the structure breaks. I'm running 1-ounce white bucktails with 5-inch white Gulp Swimming Mullets, keeping them just off the bottom in 35 to 50 feet of water. The key is that slow, steady retrieve that mimics the sand eels and peanut bunker that are thick along the ledge right now.
+
+The North Rip has been producing as well, though the fish seem more spread out there. I pulled a solid 35-incher yesterday morning on a three-way rig with a 4-inch chartreuse grub, fishing the incoming tide as it swept bait up against the structure. The current was moderate — perfect for keeping your presentation in the zone without losing too much tackle to the bottom.
+
+What's really encouraging is the size of these fish. These aren't schoolies — they're mature bass that have made the journey here for the summer feeding. The 68-degree water is holding massive schools of bait, from sand eels to juvenile scup, and the bass are taking full advantage. I'm seeing thick marks on the finder from 25 feet down to the bottom in 60 feet of water.
+
+The bonito showed up this week too, which is always a good sign. First ones I've seen this season, hitting small metals and bucktails in the same areas where the bass are feeding. They're not thick yet, but their presence means the water quality is prime and more species will follow.
+
+Tide timing has been crucial. The best action is coming on the last two hours of the incoming and the first hour of the outgoing. The moderate current is keeping bait positioned along the structure without creating the washing machine effect you get during the big spring tides. We're coming off a new moon, so the tides are starting to build again — perfect timing for the weekend.
+
+The wind has been cooperative this week, mostly light northwest to west at 5 to 7 knots. That's kept the seas manageable and allowed for precise boat positioning over the structure. The high pressure system sitting over us has created stable conditions, and the fish have responded accordingly.
+
+Looking ahead, I'm watching for the full moon on Friday to really fire things up. Those big tides will flush more bait out of Narragansett Bay and concentrate it along our structure. The Southwest Ledge should be prime real estate, especially on the outgoing water when all that bay bait gets swept past the island. I'm planning to be there at sunset Friday — that's when the magic usually happens during the full moon cycle.
+
+The water clarity has been excellent, gin-clear in most spots, which means lighter leaders and more natural presentations. I'm running 20-pound fluorocarbon leaders instead of my usual 30, and it's making a difference in the number of strikes. These bass have seen plenty of lures by now, so the subtle approach is paying off.
+
+This is exactly what we wait for all year — prime summer conditions with trophy bass feeding aggressively in our backyard. The migration is in full swing, and Block Island is living up to its reputation as the striped bass capital of the East Coast.
+
+---
+
+Tags: striped-bass, flutter-spoon, bucktail, southwest-ledge, thermal-break, trophy-bass
