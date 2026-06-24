@@ -1,0 +1,26 @@
+# Trophy bass crash Moriches Inlet as thermal layers stack bait on the flood
+*Night sessions with live spot producing fish over 30 inches while fluke action heats up in skinny bay water hitting 68 degrees.*
+
+**MORICHES, NY — June 24** — _by Pete Gallo, Zone Writer_
+
+The inlet's been absolutely electric this past week, with trophy stripers staging in the deeper cuts where cooler ocean water meets the warming bay. Water temps hit 68 degrees inside the bay while the ocean side is running 4 degrees cooler — that thermal gradient is creating a perfect feeding zone right at the inlet mouth where bait gets compressed on every tide change.
+
+Night fishing with live spot has been the ticket for the big bass. I'm talking fish pushing 30-plus inches coming out of the 15 to 20-foot channel edges on the flood tide. The key is positioning your boat in that sweet spot where the incoming water creates an eddy against the north jetty. Drop your spot on a fishfinder rig with a 6/0 circle hook, keep it moving just off bottom, and wait for that telltale thump. These fish are feeding aggressively in the dark, capitalizing on disoriented bait getting swept through the cut.
+
+The daytime bite has been more technical but equally productive for those who understand the structure. The recent storms shifted sand around the inlet again, creating new drop-offs and filling in some of the traditional holes. I've been finding bass in 8 to 12 feet of water along the channel edges, particularly where the current creates that back-eddy near the coast guard station. Soft plastics — specifically 5-inch white Gulp Swimming Mullets on 3/4-ounce bucktails — have been deadly when worked slowly along these new contours.
+
+Fluke fishing has turned the corner as bay temperatures climbed into the upper 60s. The skinny water bite in 3 to 8 feet has been exceptional, with doormat-class fish showing up in numbers I haven't seen in years. The pattern is classic Moriches: ultra-light presentations in water so shallow you can watch the fish attack your jig. I'm running 1/4-ounce bucktails with 3-inch Gulp grubs, dragging them painfully slow across the sandy bottom near Tuthill Point and the eastern flats.
+
+What's driving this action is the perfect storm of conditions we've got right now. The new moon earlier this week created strong tidal flows that flushed massive amounts of bait out of the back bay creeks. Peanut bunker, spearing, and juvenile weakfish are stacked in the inlet, creating a feeding frenzy that's drawing predators from miles around. The light northwest winds have kept the water clean and allowed for precise boat positioning — critical when you're fishing these shallow bay areas.
+
+Weakfish have also made their presence known, particularly on the outgoing tide around sunset. These fish are staging in the deeper pockets near Smith Point, hitting small bucktails tipped with Gulp. It's been years since we've seen this kind of consistent weakfish activity, and I suspect the cooler spring we had delayed their migration, concentrating more fish in our area than usual.
+
+The bluefish bite has been solid but predictable — they're following the bunker schools and hitting anything that moves. Cupsogue Beach has been producing nice blues in the surf, particularly early morning and late evening when the bait moves into the wash. Simple setup: fish finder rig with fresh bunker chunks or a Hopkins spoon worked through the breaking waves.
+
+Looking ahead, this full moon cycle should intensify everything we're seeing. The stronger tides will move more bait, and I expect the inlet to be absolutely loaded with feeding fish. The key will be timing your trips with the tide changes — that first hour of the flood and the last hour of the ebb have been magic. Water temperatures should continue climbing, which will push more fluke into the bay shallows and keep the bass bite strong through the night hours.
+
+Pay attention to the wind direction over the next few days. Southwest winds will dirty up the bay water and push bait toward the inlet, while northwest winds will keep conditions clean for sight fishing in the shallows. Either way, this is prime time fishing in Moriches — the kind of action that reminds you why this inlet system is one of the most dynamic fisheries on Long Island.
+
+---
+
+Tags: striped-bass, live-spot, moriches-inlet, night-fishing, fluke, skinny-water

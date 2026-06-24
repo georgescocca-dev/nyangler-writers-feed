@@ -1,0 +1,30 @@
+# Montauk bass bite fires as water hits 68 degrees — 40-pounders on eels after dark
+*Diamond jigs and bucktails producing limits while big bass move into summer patterns on the rips.*
+
+**MONTAUK POINT, NY — June 24** — _by Rich Martin, Zone Writer_
+
+The Point is absolutely on fire right now, and it's not just the summer crowds I'm talking about. Water temps finally cracked 68 degrees this week, and that magic number has flipped the switch on what might be the best bass fishing we've seen all season. The rips are loaded, the bait is thick, and the fish are cooperating in ways that remind you why Montauk earned its reputation as the striper capital of the world.
+
+The action starts at first light with diamond jigs in the traditional spots. North Bar has been producing steady limits of bass in the 20 to 30-inch range, with enough overs mixed in to keep things interesting. The key is getting your 4 to 6-ounce diamonds down through the current and working them with that classic lift-and-drop retrieve. White and chartreuse are the go-to colors, but don't overlook silver when the sun gets high.
+
+What's really got me excited is the after-dark bite on live eels. The big girls — and I'm talking legitimate 40-pounders — are moving in tight to the boulder fields as the sun drops. Fish a live eel on a fishfinder rig with just enough weight to get down, maybe 2 to 3 ounces depending on the current. Cast it out toward the rocks and let it work. The takes are violent, and these fish have shoulders that'll test your drag and your patience.
+
+Bucktails are absolutely crushing it during the day, especially on the south side drops. A 1 to 2-ounce white or chartreuse bucktail tipped with a 5-inch Gulp Swimming Mullet has been the money combination. Work it slow on the drift, keeping contact with the bottom but not dragging. The fish are holding in that 25 to 35-foot range where the current creates the perfect ambush zone.
+
+The bait situation is interesting this year. Sand eels are everywhere — thick clouds of them stacked against the structure — but the bunker schools that usually dominate this time of year are surprisingly scarce. That's actually working in our favor because it's concentrating the bass on the eels, and they're feeding aggressively. When you see the ospreys working, you know you're in the right neighborhood.
+
+Shagwong Reef has been producing some beautiful fish on the incoming tide, particularly that first hour when the current really starts to move. The 68-degree water is holding right along the reef structure, creating a temperature break that's stacking bait and bass. It's classic Montauk fishing — read the water, find the current, and put your bait where the fish expect to find their next meal.
+
+Fluke fishing has picked up considerably as well. The south side in 30 to 40 feet has been giving up some nice doormats, with fish to 6 pounds hitting white Gulp on bucktail heads. The key is fishing the edges where the current creates those subtle depth changes. A 3/4-ounce bucktail with a 6-inch Swimming Mullet, worked slow and steady, has been the ticket.
+
+Porgies are around but scattered — not the wall-to-wall action we sometimes see. They're holding in specific spots, usually the deeper structure, and once you find them, the fishing can be fast. Small hooks, light tackle, and pieces of clam or squid will fill the cooler quickly.
+
+The new moon earlier this week spread the fish out initially, but as we build toward the full moon this weekend, I expect the action to intensify. Those spring tides are going to flush more bait out of the back bays and really fire up the rips. The forecast shows light winds and manageable seas, perfect conditions for getting out to the productive water.
+
+Looking ahead, I'm watching for the first real push of cocktail blues — those 1 to 2-pounders that signal the summer pattern is fully established. They're starting to show in small numbers, which is always a good sign. When they arrive in force, it usually means the bass fishing is about to get even better as the food chain stacks up.
+
+This is prime time at the Point. Water temps are perfect, bait is abundant, and the fish are in their summer feeding mode. Whether you're jigging the rips at dawn or soaking eels in the boulder fields after dark, Montauk is delivering the kind of fishing that built its legend.
+
+---
+
+Tags: striped-bass, diamond-jigs, live-eels, montauk-rips, bucktail, after-dark

@@ -1,28 +1,28 @@
-# Yellowfin blitz fires Hydrographer as bluefin migration finally kicks into gear
-*Eastern canyons come alive with late-season push as water temps hit the sweet spot.*
+# Yellowfin blitz fires Hydrographer as bluefin migration finally arrives
+*Eastern canyons come alive with late-season tuna push and white marlin mixed in.*
 
 **MONTAUK, NY — June 24** — _by Capt. Steve Brock, Zone Writer_
 
-The eastern canyons finally woke up this week, and when they did, they came alive with a vengeance. After weeks of waiting for the migration to get its act together, we're seeing the kind of action that makes the long runs to Hydrographer and Veatch worth every gallon of fuel.
+The eastern canyons finally woke up this week, and it happened fast. After weeks of waiting for the migration to materialize, yellowfin tuna crashed Hydrographer Canyon in numbers we haven't seen since early May. Water temps hit that magic 68-degree mark at the shelf break, and everything changed overnight.
 
-Hydrographer Canyon has been the star performer, with yellowfin tuna showing in numbers I haven't seen this early in years. The fish are stacked along the 100-fathom curve, particularly on the northeast wall where the thermocline has set up beautifully at 80 feet. Water temps are sitting pretty at 68 degrees on the surface with a clean break to 58-degree water below — that's the magic zone where bait gets pinned and yellowfin feed aggressively.
+Hydrographer has been the star performer, with yellowfin from 40 to 80 pounds taking spreader bars and cedar plugs in 100 to 200 fathoms. The bite's been best on the northwest corner where the 100-fathom curve makes that hard turn. We're seeing fish scattered from the 30-line all the way out to the 200, but the consistent action is happening where that warm 68-degree water meets the cooler upwelling along the canyon wall.
 
-The bite has been consistent from first light through mid-morning, with fish taking both live bait and artificials. Butterfish on circle hooks rigged fishfinder-style are producing the biggest fish, but don't overlook the jig bite. Cedar plugs and small feathers trolled at 6 knots along the temperature break have been deadly, especially when you mark bait on the sounder. The key is staying mobile — these fish are moving fast along the contour, and when you find them, you've got maybe 20 minutes before they push on.
+The technique that's been money is running a five-rod spread with medium ballyhoo on the riggers and a mix of cedar plugs and small feathers on the flat lines. Keep your speed between 6.5 and 7.5 knots — any faster and you're pulling the baits away from the fish. The yellowfin are aggressive but spooky. Once you hook up, get the other lines in fast or you'll tangle the whole spread.
 
-What's really got me excited is the bluefin situation. After running two to three weeks behind schedule all season, the big fish are finally showing up in force. The water temperature gradient we're seeing — 68 degrees inshore dropping to the mid-50s on the shelf — is creating the kind of structure that holds bait and draws bluefin in from the deep water. I'm seeing fish from 40 to 80 inches, with the bigger fish favoring the deeper water off the canyon edges.
+What's really got me excited is the bluefin showing up in force. These aren't the resident fish we've been picking at all spring — this is the real migration finally arriving from the south. Fish from 60 to 200 pounds are mixed in with the yellowfin, and they're taking the same baits. The difference is in the fight. When a bluefin grabs that ballyhoo, you know it immediately. They go deep and stay deep, while the yellowfin make those screaming surface runs.
 
-The bluefin are finicky, as always, but when they're feeding, it's explosive. Fresh butterfish and squid on a sliding sinker rig has been the most consistent producer, but I've also seen fish taken on chunk mackerel and even fresh bunker when you can find it. The trick is reading the water — look for temperature breaks, watch for diving birds, and don't be afraid to cover water until you find feeding fish.
+Veatch Canyon has been producing too, though not with the same consistency as Hydrographer. The northeast corner has been holding white marlin in good numbers — fish from 50 to 70 pounds that are absolutely crushing live mackerel on circle hooks. The marlin bite has been best during the afternoon hours when the sun gets high and warms that surface layer. We're fishing the mackerel on 30-pound fluorocarbon leaders, about 50 feet back from a 12-ounce egg sinker.
 
-White marlin are mixing in with the yellowfin action, particularly around Veatch Canyon where the 70-degree water has pushed closer to shore. These fish are taking trolled ballyhoo and small lures, but they're spooky in the clear water. Light tackle and natural presentations are key — 20-pound fluorocarbon leaders and circle hooks have been producing the most bites.
+The mahi situation is interesting. We're not seeing the massive schools yet, but there are quality fish scattered throughout both canyons. Most are in the 15 to 25-pound range, with a few pushing 30. They're taking small ballyhoo and squid strips fished under the birds. When you find working birds over deep water, it's worth checking out — half the time there are mahi underneath picking up the scraps.
 
-Mahi are scattered throughout the area, mostly smaller fish in the 5 to 15-pound range, but they're aggressive and willing to eat just about anything you put in front of them. Sargassum lines and floating debris are holding fish, and it's worth making a few drifts with live bait or jigs when you find good-looking water.
+Water conditions have been near perfect. That 68-degree reading at the shelf break is exactly what we want to see this time of year. The gradient is sharp — you can watch your surface temp climb from 64 degrees in 50 fathoms to 68 degrees in 100 fathoms, then drop back to 65 degrees out in the deep water. That thermal structure is what's holding bait and concentrating fish.
 
-The weather pattern has been our friend this week, with light winds and calm seas making the long runs manageable. The full moon is driving strong tidal movement, which is keeping bait active and fish feeding. I'm seeing the best action on the outgoing tide when current is ripping along the canyon walls and concentrating bait.
+The full moon this Friday is going to shake things up. These big tides always trigger movement, and with water temps where they are, I expect the bite to get even better. The strong currents will position bait differently along the canyon walls, and the tuna will follow. Plan your trips around the tide changes — the hour before and after slack water has been producing the most consistent action.
 
-Looking ahead, the forecast shows continued light winds through the weekend, which should keep the bite going strong. Water temperatures are trending upward, and if this pattern holds, we should see more tropical species pushing north. The bluefin migration appears to be hitting its stride, and with quota numbers still well below normal for this time of year, there's opportunity for anglers willing to make the run.
+Looking ahead, I'm watching Oceanographer Canyon closely. It's been quiet compared to Hydrographer and Veatch, but the water temps are climbing there too. Once that canyon hits 68 degrees, it usually explodes with yellowfin. The run from Montauk is longer, but when Oceanographer fires, it's worth every gallon of fuel.
 
-My advice for the coming week: fuel up and get out there early. The eastern canyons are fishing as well as they have all season, and with stable weather in the forecast, this could be the week that defines the summer bite. Focus on Hydrographer and Veatch, watch your sounder for bait, and be ready to adapt when you find feeding fish. The wait is over — it's time to fish.
+The season that started slow is finally hitting its stride. Water temps are climbing, bait is thick, and the migration is in full swing. If you've been waiting for the right time to make the run east, this is it.
 
 ---
 
-Tags: yellowfin-tuna, bluefin-tuna, hydrographer-canyon, veatch-canyon, white-marlin, canyon-trolling
+Tags: yellowfin-tuna, bluefin-tuna, hydrographer-canyon, white-marlin, ballyhoo, full-moon
