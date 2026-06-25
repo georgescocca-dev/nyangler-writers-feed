@@ -1,0 +1,30 @@
+# Giant bluefin crash the 100-fathom line as Gulf Stream edge sets up perfect
+*Canyon Runner boats finding 90-plus inch fish on the temperature break in 600 feet.*
+
+**WILMINGTON CANYON — June 25** — _by Capt. Dana Cooper, Zone Writer_
+
+The big fish are here, and they're eating everything we throw at them. This week brought the kind of bluefin bite that makes you forget about mortgage payments and boat repairs — giants in the 90-inch class stacked up along the 100-fathom line where the Gulf Stream edge has been sitting pretty for the past ten days.
+
+I've been running this canyon for fifteen years, and when the Stream sets up like this — that clean blue water holding steady around 72 degrees butted right against the 64-degree shelf water — you know something special is about to happen. The temperature break has been razor sharp from the northeast corner all the way down to the Baltimore Canyon, creating a highway for bait and the predators that follow.
+
+The action starts at first light with birds working over acres of sand eels getting pushed up by the current convergence. We've been finding the best bite trolling the 600-foot contour with a spread of cedar plugs and ballyhoo. The key is keeping your baits right in that temperature transition — too far into the blue water and you're fishing empty ocean, too far inshore and you're missing the giants.
+
+Chunking has been absolutely deadly once you mark fish. Fresh butterfish and mackerel on 8/0 circles, fished on 15-foot fluorocarbon leaders. The bluefin have been surprisingly leader-shy this week — guys running 20-pound test are getting bit twice as often as those with heavier tackle. These fish are feeding heavily but they're not stupid.
+
+The yellowfin bite has been solid too, though you need to work for them. Best action comes mid-morning when the sun gets up and pushes bait deeper. We're finding 40 to 60-pound fish in 800 to 1000 feet, mostly on the troll but they'll eat chunks if you can get them fired up first. Green machines and cedar plugs with ballyhoo skirts have been the ticket.
+
+Mahi showed up in decent numbers this week, mostly smaller fish in the 10 to 20-pound range but plenty of them. They're holding under any floating debris in the Stream, and once you find a good piece of weed or a log, you can usually pick away at them for an hour or more. Small ballyhoo on light tackle, or even spinning gear with bucktails, will get their attention.
+
+The white marlin bite has been frustrating — we're seeing fish but they're being picky. Water's been clean enough to see them coming up behind the baits, but getting them to commit has been tough. Smaller ballyhoo rigged on light wire seem to work better than the usual horse ballyhoo. Had one boat raise six whites yesterday but only got two to eat.
+
+Current has been ripping pretty good — 2 to 3 knots on the edge — which is keeping bait concentrated but making it tough to stay positioned. If you're chunking, you need to be ready to move with the drift or you'll pull out of the fish fast. The new moon this weekend should back the current down a bit and might make the fish more cooperative.
+
+Water clarity has been exceptional, which is a double-edged sword. The fish can see your baits from a long way off, but they can also see your hooks and leaders. I've been going lighter on everything — 60-pound fluorocarbon instead of 80, smaller hooks, more natural presentations. It's made a real difference in the bite rate.
+
+Looking ahead, this Gulf Stream setup should hold through the weekend if the weather cooperates. The forecast shows light southwest winds, which should keep the water clean and the temperature break intact. Full moon is Monday, so I expect the bite to stay strong through Sunday before things potentially slow down as the fish get more nocturnal.
+
+The key right now is finding that temperature break and staying with it. It's been moving around day to day — sometimes as shallow as 400 feet, sometimes pushed out to 800 — but when you find it, you'll know. The water goes from green to blue in a boat length, the current picks up, and if you're lucky, the fish finder lights up like a Christmas tree.
+
+---
+
+Tags: bluefin-tuna, yellowfin-tuna, gulf-stream-edge, trolling, chunking, wilmington-canyon

@@ -1,0 +1,30 @@
+# Gator blues crash Western Sound as bass push deep in 70-degree water
+*Big bluefish blitzing bunker while stripers retreat to structure in warming Sound*
+
+**EXECUTION ROCKS, NY — June 25** — _by Frank "The Sound Pro" Marinaro, Zone Writer_
+
+The Western Sound is telling two stories this week, and both of them are worth listening to. The first is about the gator blues that have moved in like they own the place, terrorizing bunker schools from the Throgs Neck Bridge to Matinecock Point. The second is about the bass that are getting pickier by the day as water temps climb toward 70 degrees.
+
+I've been watching this pattern develop for three weeks now, and it's classic late June in the Sound. The big blues — and I'm talking 12 to 15-pound fish, not cocktails — are running the show during daylight hours. They're stacked up wherever the bunker are thick, and right now that's the deep water off Execution Rocks and the channel edges near Hart Island. These fish want big baits presented aggressively. Fresh bunker chunks on a fishfinder rig, or if you're trolling, large umbrella rigs with 9-inch shads are getting crushed.
+
+The bass bite is a different animal entirely. With surface temps hitting 68 to 70 degrees in the back bays and shallows, the stripers have done what they always do — they've moved to structure and gone deep. The Stepping Stones area has been producing consistent fish in the 28 to 35-inch range, but you've got to work for them. Live eels fished tight to the rocks on the outgoing tide are still the ticket, especially after dark. During the day, it's all about finding the thermocline.
+
+I've been marking fish consistently at 35 to 45 feet, right where the cooler water sits. The key is understanding that these fish aren't feeding aggressively like they were three weeks ago. They're relating to bait, but they're selective. Small live bunker on a circle hook, fished on a three-way rig to keep it just off bottom, has been my most consistent producer. The bite window is narrow — first two hours of the outgoing tide, when the cooler water from the deep Sound starts moving.
+
+The fluke fishing has been the surprise story of the week. Little Neck Bay and the flats off Matinecock have been holding some quality fish, including several doormat-class fluke in the 6 to 8-pound range. The pattern is classic summer fluking: white Gulp Swimming Mullets on 3/4-ounce bucktails, dragged slow on the drift. The key is finding the right depth — 25 to 30 feet where the channel edges meet the flats. The fish are holding right on that transition, ambushing bait that gets swept along by the current.
+
+Porgies have moved in thick around any structure you can find. The pilings at the Throgs Neck Bridge, the rocks at Execution, even the old wrecks scattered throughout the Sound are holding good numbers of fish. Standard porgy rigs baited with clam or squid are all you need, but don't overlook the bigger fish. I've been seeing porgies to 3 pounds mixed in with the usual suspects.
+
+The bait situation is interesting this year. We've got good numbers of bunker, but they're running larger than usual for June — more like fall-sized fish. The spearing are thick along the shorelines, especially in the protected coves and harbors. Sand eels are scattered but present, particularly around the deeper structure.
+
+Looking at the lunar calendar, we're coming off a new moon, which means the tides are starting to build toward the full moon on July 3rd. That's going to mean stronger currents and better bait movement, which should fire up both the bass and blues. The key will be timing your trips to the tide changes — that's when the bait gets disoriented and the predators move in.
+
+Water clarity has been excellent throughout most of the Sound, with visibility running 8 to 12 feet in most areas. The exception is the back bays and harbors, where runoff from recent rains has things a bit stirred up. That's actually been working in our favor for the fluke fishing — they seem to bite better when the water has a little color to it.
+
+The weather pattern looks stable for the next week, with light winds and moderate temperatures. That should keep the water conditions consistent and make for comfortable fishing. The real story will be watching how the fish adjust as we move deeper into summer. The bass will continue to go deeper and get more selective, while the blues should remain aggressive as long as the bait stays thick.
+
+For the coming week, I'm watching the full moon tides closely. The stronger currents should get the bait moving and trigger more aggressive feeding. The bass bite should improve, especially on the night tides, while the blues will likely spread out more as they follow the bunker schools. It's shaping up to be a classic summer pattern in the Western Sound — you just need to know where to look and when to be there.
+
+---
+
+Tags: striped-bass, bluefish, fluke, porgies, execution-rocks, outgoing-tide

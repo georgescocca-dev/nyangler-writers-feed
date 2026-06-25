@@ -1,0 +1,30 @@
+# Bass blitz the Norwalk rocks as summer patterns lock in
+*Stripers stack on structure while fluke move shallow in warming Sound waters.*
+
+**NORWALK, CT — June 25** — _by David "The Harbor Scout" Han, Zone Writer_
+
+The Central Sound is hitting its summer stride, and the fish are responding exactly how they should when water temps climb into the upper 60s and bait gets concentrated by the lunar cycle.
+
+Striped bass are the story right now, and they're doing what bass do best — ambushing bait around structure when the current gets moving. The Norwalk Islands have been producing consistent action on the outgoing tide, particularly around the rocky points where bass set up to intercept spearing and small bunker getting swept out of the harbors. I'm seeing fish in the 28 to 35-inch range hitting white bucktails with Gulp trailers, worked slow along the bottom in 15 to 25 feet of water.
+
+The key has been reading the current. These aren't random fish — they're positioned bass waiting for the tide to deliver food. I've been most successful on the last two hours of the ebb, when the flow really gets cooking and pushes bait off the structure. A 3/4-ounce white bucktail with a 5-inch Swimming Mullet, dragged just fast enough to keep contact with bottom, has been money.
+
+Topwater action has been sporadic but explosive when it happens. Early morning around the rocky shorelines, pencil poppers in white or bone are drawing violent strikes from bass that have been feeding deep all night. The bite window is narrow — first light to about 7 AM — but when you hit it right, it's spectacular.
+
+Fluke fishing has taken an interesting turn as water temperatures push toward 70. Instead of the typical deep-water summer pattern, I'm finding good numbers of fish in surprisingly shallow water — 18 to 30 feet over sandy bottom adjacent to structure. The theory makes sense: as surface temps climb, fluke are finding the thermal comfort zone in that mid-depth range where cooler water meets warmer, and bait gets concentrated.
+
+Bucktail and Gulp combinations continue to dominate, but I'm seeing more success with chartreuse and pink than the usual white. A 1/2-ounce chartreuse bucktail with a 4-inch white Gulp grub, bounced slowly on the drift, has been producing fish to 22 inches. The bite has been best on the incoming tide when cleaner water pushes in from the east.
+
+Porgies are thick around Middle Ground Light and the deeper structure off Stratford Shoal. These aren't the usual small harbor porgies — we're seeing fish in the 12 to 14-inch range that are actually worth keeping. High-low rigs with small hooks and pieces of clam or squid are all you need, but the key is finding the right depth. Most productive fishing has been in 35 to 50 feet, where the bigger porgies seem to hold.
+
+Bait has been the underlying story driving all this action. Spearing are thick along the Connecticut shoreline, particularly in the deeper water adjacent to rocky structure. Bunker schools have been moving through the shipping channels, and when they stack up against the tide rips, everything feeds. I've been watching for bird activity — when the terns start working, there's usually something underneath worth casting to.
+
+The new moon cycle we just passed through created some serious tidal movement, and that's when the fishing really turned on. Big spring tides mean fast current, and fast current means bait loses control and predators take advantage. I expect this pattern to continue through the weekend, especially with the moderate southwest winds keeping surface conditions manageable.
+
+Looking ahead, I'm watching for the summer bluefish push that typically happens in early July. Water temps are climbing toward that magic 72-degree mark where blues really start to show in numbers. When they arrive, they'll likely follow the same bait concentrations that are holding bass right now — the Norwalk Islands, Stratford Shoal, and the deeper water off Charles Island.
+
+The weekend forecast looks promising with light winds and building afternoon sea breezes. That's perfect for working the structure fishing, where you need boat control to stay positioned properly. I'll be focusing on the rocky areas during the outgoing tide, then switching to the fluke grounds on the flood when cleaner water moves in from the east.
+
+---
+
+Tags: striped-bass, fluke, bucktail, norwalk-islands, outgoing-tide, structure-fishing

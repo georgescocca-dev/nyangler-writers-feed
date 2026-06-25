@@ -1,0 +1,26 @@
+# Jumbo blues crash Jersey jetties as bay water hits prime temps
+*Monmouth County rocks firing on bucktails while fluke push out of warming back bays.*
+
+**MANASQUAN, NJ — June 25** — _by Joey Napolitano, Zone Writer_
+
+The big blues are back, and they're absolutely crushing everything from Sandy Hook south to Barnegat. I'm talking about legitimate choppers — 8 to 12-pound fish that'll snap your drag and test your knots. The jetties from Shark River to Manasquan are producing the best action I've seen in years, with these bruisers stacked up on the outgoing tide like they're getting paid to be there.
+
+Here's the deal: 3/4-ounce white bucktails with 5-inch chartreuse Gulp Swimming Mullets are absolutely deadly right now. Cast them tight to the rocks on the drop and work them back with a slow, steady retrieve. Don't get fancy — these fish want it simple and they want it moving. The bite window is tight — first two hours of the outgoing tide, especially around sunset. Miss that window and you're throwing at ghosts.
+
+The fluke situation is interesting. Bay water has warmed to the mid-60s, pushing the late-season fish out toward the inlets. I'm finding keeper-sized fish — 19 to 22 inches — staging in the deeper holes of Shark River and the back side of Barnegat Bay. They're hitting 4-inch white Gulp on 1/2-ounce jig heads, but you've got to work for them. Drift the channels slow, bump the bottom, and be ready for that subtle tap.
+
+The real surprise has been the weakfish showing up in Raritan Bay. Nothing huge — mostly 14 to 16-inch fish — but they're there in numbers I haven't seen in a decade. Pink Deadly Dick jigs worked along the Keyport flats at dawn are producing consistent action. These fish are spooky, so keep your distance and use light tackle.
+
+Sea bass season opened strong but the 10-fish limit through June 19th is already over, so we're back to the summer doldrums of one fish at 12.5 inches. Still, if you're targeting them specifically, the Axel Carlson Reef area is holding good numbers. Green crab on a high-low rig in 35 to 45 feet is your best bet.
+
+The bunker situation is what's driving everything right now. Massive schools are moving through the inlets, and where you find bait, you find fish. I watched a blitz off the Manasquan jetty Tuesday evening that looked like a washing machine — blues, bass, and even some small bluefin tuna all mixed up in the chaos. If you see birds working, drop everything and get there.
+
+Looking ahead, this new moon cycle should keep the big tides moving bait around. The jetties will continue to produce on the outgoing water, especially the north sides where current creates the ambush points these predators love. Water temps are perfect — not too hot, not too cold — and with bunker everywhere, the fishing should stay strong through the holiday weekend.
+
+One thing to watch: Manasquan Inlet has been shoaling up again. The Army Corps is supposed to dredge, but until then, be careful on the approach. The channel markers are your friend, and don't try to cut corners. I've seen too many boats get stuck already this season.
+
+The bottom line: if you're not fishing the Jersey jetties right now, you're missing out on some of the best action we've had in years. Pack the bucktails, bring a net for the big blues, and get ready to have your arms tired by sunset.
+
+---
+
+Tags: bluefish, bucktail, jetties, outgoing-tide, manasquan, fluke

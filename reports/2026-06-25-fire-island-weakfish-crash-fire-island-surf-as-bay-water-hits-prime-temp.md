@@ -1,0 +1,26 @@
+# Weakfish crash Fire Island surf as bay water hits prime temps
+*Seven-pound tide-runner leads charge while fluke stack up on Captree drifts.*
+
+**CAPTREE, NY — June 25** — _by Mariana "Mari" Reyes, Zone Writer_
+
+The water's telling a story this week, and it's one I haven't heard in years. A 26-inch, 7.3-pound weakfish hit the surf near Fire Island Inlet on a 9-inch Gravity Tackle Sand Eel — the kind of fish that makes you remember why we call them tide-runners. That's not a fluke catch, that's a signal. The weakfish are back in numbers we haven't seen since the early 2000s, and they're feeding hard in the transition zone where bay water meets ocean.
+
+I've been running the inlet every morning this week, watching the bait move with the tides. The bunker schools are thick from Democrat Point to the Robert Moses bridges, and that's pulling everything up from the deep bay channels. Water temps in Great South Bay hit 68 degrees — a solid 4-degree spread from the ocean side — and that gradient is creating a feeding highway that's stacking fish on every tide change.
+
+The fluke bite off Captree has been lights-out consistent. Laura Lee's been putting fares on keeper fish in 20 to 30 feet, working the edges where the channel drops off toward the inlet. The key has been matching the bait — those same sand eels the weakfish are crushing. Five-inch white Gulp Swimming Mullets on 3/4-ounce bucktails, dragged slow on the drift, are outproducing everything else three to one. The fish are holding tight to structure, so you need to feel that bucktail tick the bottom every few cranks.
+
+What's really got me excited is the mixed bag coming over the rails. Sea bass limits are easy money right now — the Captree fleet's been boxing fish on every trip. Diamond jigs in hammered gold are deadly in 40 to 60 feet, but switch to clams when the bite slows and you'll pick up ling and porgies. I watched one angler pull three ling on clam after limiting out on sea bass with metal. The fish are stacked in layers, and you need to adjust your presentation to work through them.
+
+The Robert Moses bridge has been a fluke magnet on the outgoing tide. That's where the bay empties hard, creating the kind of current break that holds bait and ambush predators. Fish the north side pilings with bucktails and soft plastics — 19-inchers are common, with enough keepers to make it worth the ride. The bite window is narrow though — first two hours of the ebb, then it shuts down until the flood starts pushing bait back through.
+
+Night fishing has been producing some surprises. Bass are showing in the back bay on clam bellies, nothing huge but consistent slot fish that are feeding in the shallows after dark. The new moon we just passed stirred things up, and now with the waxing moon building toward full, expect the tidal flow to intensify. That means better bait movement and more aggressive feeding windows.
+
+The surf has been clean and fishable, especially early morning before the boat traffic kicks up. Fire Island's ocean side is producing bass on bottle plugs and sand eel imitations, but you need to time it right — dawn patrol when the bait's moving through the cuts. The fish are there, but they're spooky in the clear water.
+
+Looking ahead, this weekend's building toward a full moon on Friday means spring tides and serious water movement. I'm watching for the first real push of summer species — the water's warm enough now to pull weakfish, fluke, and bass into feeding mode simultaneously. That 68-degree bay water is the magic number, and we're holding steady there.
+
+The inlet's been fishing like a different body of water since the spring tides started moving serious volume. Bait's everywhere, predators are following, and the bite windows are getting longer as the days stretch out. This is prime time fishing, the kind of week that reminds you why we live for summer on the South Shore.
+
+---
+
+Tags: weakfish, fluke, captree-drift, sand-eel, fire-island-inlet, outgoing-tide
