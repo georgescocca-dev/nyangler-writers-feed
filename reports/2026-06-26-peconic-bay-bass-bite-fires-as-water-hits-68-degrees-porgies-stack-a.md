@@ -1,0 +1,24 @@
+# Bay bass bite fires as water hits 68 degrees, porgies stack at Shelter Island
+*New moon tides flush bait through the channels while early summer temps trigger the feeding.*
+
+**SHELTER ISLAND, NY — June 26** — _by Bill Hubbard, Zone Writer_
+
+The Peconic finally feels like summer, and the fish are responding exactly as they should. Water temps pushed past 68 degrees this week — a solid jump from the mid-60s we've been stuck in — and that thermal trigger has flipped the switch on what's shaping up to be a banner late June bite.
+
+The striped bass action has been the real story. These aren't the schoolie blitzes of early season, but quality slot fish that know how to fight. The best action is coming on the flood tide around the deeper channels near Shelter Island, where the cooler Sound water meets the warming bay. I've been working 3/4-ounce white bucktails with 5-inch Gulp Swimming Mullets, keeping them just off bottom as the current sweeps through. The key is timing — hit it right as the flood starts to really move, usually about an hour after low tide.
+
+What's driving this bite is the bait movement. The new moon spring tides we just passed have been flushing massive schools of peanut bunker and juvenile weakfish out of the back bay creeks. You can see it on the finder — thick marks stacked in 25 to 35 feet of water where the channels drop off. The bass are positioned right on those edges, ambushing anything that gets swept past.
+
+The porgy fishing around Shelter Island continues to be world-class, though you need to work for the big ones. The 16 to 18-inch fish are still there in numbers, but the real jumbos — the 3-pound-plus scup that make this fishery famous — are being more selective. Fresh clam on a simple high-low rig is still the ticket, but you need to establish a good chum slick and be patient. The flood tide has been most productive, especially the first two hours when the current really gets moving.
+
+Weakfish are making their presence known in a way we haven't seen in years. These aren't the scattered singles of recent seasons, but legitimate schools of keeper-sized fish. The action has been best in the deeper holes between Greenport and Orient, particularly on the outgoing tide when bait gets concentrated in the channels. Pink and white bucktails in the 1/2 to 3/4-ounce range, worked slow along the bottom, have been most effective.
+
+The water clarity has been exceptional — that gin-clear visibility that makes the Peconic special in summer. It's a double-edged sword: the fish can see everything, which means your presentation needs to be perfect, but it also means they're actively feeding in the warming water.
+
+Bluefish have been scattered but aggressive when you find them. The cocktail blues are thick around the bait schools, while some larger fish to 5 pounds are mixed in. They're not picky — anything that moves fast and flashes will get hit.
+
+Looking ahead, we're entering that sweet spot of late June when everything aligns in the Peconic. Water temps should continue climbing toward the low 70s, which will only intensify the feeding. The approaching full moon on July 3rd means bigger tides are coming, and that should really get the bait moving through the system. I'm watching for the first real weakfish blitz of the season — when these scattered schools consolidate into the kind of wide-open action that made the Peconic famous. The signs are all there: warm water, moving bait, and fish that are starting to feed with purpose.
+
+---
+
+Tags: striped-bass, porgies, weakfish, shelter-island, bucktail, flood-tide

@@ -1,9 +1,451 @@
 {
   "schema_version": "2.0",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/reports.json",
-  "generated_at": "2026-06-25T12:42:43.465876+00:00",
-  "total_reports": 262,
+  "generated_at": "2026-06-26T11:06:23.928169+00:00",
+  "total_reports": 280,
   "reports": [
+    {
+      "id": "2026-06-26-east-canyons-yellowfin-crash-hydrographer-as-bluefin-migration-finally-ki",
+      "writer_id": "east-canyons",
+      "writer_name": "Capt. Steve Brock",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/east-canyons.png",
+      "zone": {
+        "slug": "east-canyons",
+        "name": "Eastern Canyons (Veatch, Hydrographer, Oceanographer, Atlantis)"
+      },
+      "published_at": "2026-06-26T11:06:23.828690+00:00",
+      "date": "2026-06-26",
+      "headline": "Yellowfin crash Hydrographer as bluefin migration finally kicks into gear",
+      "subhead": "Eastern canyons firing after weeks of late-season delays, white marlin mixing in the spread.",
+      "dateline": "MONTAUK, NY — June 26",
+      "body_markdown": "The eastern canyons finally woke up this week, and it was worth the wait. Hydrographer Canyon is producing steady yellowfin action in the 40-to-80-pound class, with fish stacked along the northwest wall where the 100-fathom curve bends toward the shelf. The bite's been best on the troll — cedar plugs and spreader bars with ballyhoo are getting crushed in the top 30 feet of water, especially during the dawn patrol from first light through 8 AM.\n\nWhat's got me excited is the species mix starting to show. White marlin are finally in the picture, scattered through the yellowfin schools and hitting the same spread. Had three releases Tuesday morning on the northwest corner of Hydrographer, all fish in the 60-to-70-pound range that came up hot on the long riggers. The water's clean blue out there, running 72 to 74 degrees on the surface with a solid thermocline setting up around 45 feet.\n\nThe real story this week is the bluefin migration that's been running two to three weeks behind schedule all season. These fish that disappeared after the spring run are finally showing their faces again, and they're showing hard. The schools that were scattered off Block Island before last week's northeast blow have regrouped and pushed northeast toward the Cape Cod grounds. I'm seeing fish from 60 to 200 pounds mixing with the yellowfin schools, especially on Veatch Canyon's eastern edge where the current splits around the seamount.\n\nBait presentation is critical right now. The bluefin are spooky in the clear water — they'll follow a spread for miles without committing if something looks off. I'm running my ballyhoo naked on the short riggers, no skirts, with a light wire trace and 8/0 circle hooks. The yellowfin are less finicky but want speed — trolling 7 to 8 knots with cedar plugs and small feathers is putting fish in the box consistently.\n\nVeatch has been the sleeper canyon this week. The 30-line along the southern wall is holding yellowfin and the occasional wahoo, with fish coming up from 60 to 100 feet on the sounder. The key is working the temperature breaks where 70-degree surface water meets the 68-degree upwelling along the canyon walls. That two-degree gradient is stacking bait and concentrating the bite.\n\nAtlantis Canyon's been tougher, but the few boats working the northern approach are finding scattered yellowfin and some quality mahi in the 15-to-25-pound range. The mahi are holding tight to any floating debris — weed lines, logs, even trash. When you find them, they're aggressive. Small ballyhoo on spinning tackle or light trolling gear will get you into doubles and triples fast.\n\nThe moon phase is working in our favor right now. We're building toward the new moon this weekend, and these spring tides are moving serious water through the canyons. The current's been ripping 2 to 3 knots on the edges, which is perfect for concentrating bait and triggering the bite. I'm timing my trips to fish the slack periods around tide change, then working the edges hard when the water starts moving again.\n\nFuel math is always critical for the eastern canyons, but it's paying off this week. Hydrographer is a 65-mile run from Montauk, Veatch is 55, and both are producing enough consistent action to justify the burn. The key is committing to the full day — these fish are there, but you need to cover water and stay flexible on your approach.\n\nLooking ahead, I'm watching the weather pattern closely. We've got a stable high-pressure system setting up that should keep conditions fishable through the weekend and into early next week. The new moon tides will peak Saturday and Sunday, which should trigger the best bite we've seen all season. If the bluefin migration continues to build like it has this week, we could be looking at some serious fishing through the Fourth of July period.\n\nThe eastern canyons are finally hitting their stride. After weeks of waiting for this season to get going, the fish are here, the water's right, and the conditions are lining up. Time to make the run.",
+      "tags": [
+        "yellowfin-tuna",
+        "bluefin-tuna",
+        "hydrographer-canyon",
+        "veatch-canyon",
+        "white-marlin",
+        "trolling"
+      ]
+    },
+    {
+      "id": "2026-06-26-south-canyons-poor-man-s-canyon-fires-as-bluefin-crash-the-78-degree-break",
+      "writer_id": "south-canyons",
+      "writer_name": "Capt. Ray Lugo",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/south-canyons.png",
+      "zone": {
+        "slug": "south-canyons",
+        "name": "Southern Canyons (Spencer, Lindenkohl, Poor Man's, Norfolk)"
+      },
+      "published_at": "2026-06-26T11:06:05.807087+00:00",
+      "date": "2026-06-26",
+      "headline": "Poor Man's Canyon fires as bluefin crash the 78-degree break",
+      "subhead": "Mid-Atlantic canyons heating up with tuna action as thermal structure sets up perfectly.",
+      "dateline": "CAPE MAY, NJ — June 26",
+      "body_markdown": "The southern canyons are finally coming alive, and Poor Man's is leading the charge. We've been watching this thermal setup develop for weeks, and now it's paying dividends with bluefin tuna crashing the temperature breaks in serious numbers.\n\nPoor Man's Canyon has been the star performer this week, with boats finding consistent bluefin action along the 78-degree break on the northeast wall. The fish are running 40 to 80 pounds, with a few pushing into the triple digits. The key has been working that thermal edge where the warm Gulf Stream water meets the cooler shelf water — it's like a highway for bait, and the tuna know it.\n\nThe most productive approach has been chunking with fresh butterfish and squid, but don't overlook the trolling bite. Boats running cedar plugs and small feathers in the 6 to 8-knot range are connecting consistently, especially during the early morning hours when the water's glass calm. The bite window seems to be that golden hour just after sunrise, when the bait starts moving and the tuna get aggressive.\n\nSpencer Canyon is also showing signs of life, though the action there has been more sporadic. A few boats reported wahoo in the 30 to 50-pound class working the deeper water along the southern edge. These fish are coming on high-speed trolling — think 12 to 15 knots with ballyhoo and Ilander combinations. The wahoo bite has been best during the midday hours when the sun's high and the water's clear.\n\nNorfolk Canyon remains the sleeper pick for this weekend. The water temperature gradient isn't as pronounced as Poor Man's, but there's been steady mahi action in the 10 to 20-pound range. These fish are holding in the floating sargassum patches, and they're responding well to live bait presentations. If you can find the weed lines, you'll find the fish.\n\nWhat's really exciting is the marlin activity we're starting to see scattered throughout the region. While the numbers aren't there yet, the few boats that have connected are reporting healthy white marlin in the 60 to 80-pound class. These fish are coming on the troll, typically on the long rigger with a ballyhoo and sea witch combination.\n\nThe bait situation has been solid across all the canyons. We're seeing good concentrations of flying fish, squid, and small tunas — all the ingredients for a productive offshore bite. The key is finding where these baitfish are stacking up along the temperature breaks and current edges.\n\nLindenkohl Canyon has been the wildcard this week. While it hasn't produced the consistent numbers we've seen at Poor Man's, the quality has been impressive. A couple boats reported bigeye tuna in the 100 to 150-pound class working the deeper water during the overnight hours. These fish are coming on chunk baits fished deep, typically in the 200 to 300-foot range.\n\nLooking at the conditions, we've got a perfect storm brewing for the weekend. The thermal structure is well-established, the bait is thick, and the moon phase is right for some serious fishing. The new moon earlier this week has the tides running strong, which should keep the bait moving and the fish active.\n\nFor this weekend, I'm focusing my efforts on Poor Man's Canyon, specifically that northeast wall where the 78-degree water meets the cooler shelf water. The plan is to start with a trolling spread at first light, then switch to chunking once we mark fish. Fresh butterfish has been the go-to bait, but don't be afraid to mix in some squid or even small tunas if you can get them.\n\nThe weather looks cooperative through the weekend, with light winds and manageable seas. That's crucial for working these deeper waters effectively and staying on the fish when they're biting.\n\nNext week should be even better as this thermal pattern continues to develop. Keep an eye on Spencer and Norfolk — both canyons are showing the early signs of a major tuna push, and it could happen fast once the conditions align.",
+      "tags": [
+        "bluefin-tuna",
+        "poor-mans-canyon",
+        "chunking",
+        "thermal-break",
+        "wahoo",
+        "spencer-canyon"
+      ]
+    },
+    {
+      "id": "2026-06-26-washington-canyon-giant-bluefin-crash-washington-s-walls-as-june-heat-builds-t",
+      "writer_id": "washington-canyon",
+      "writer_name": "Capt. Chris \"Wash\" Morrison",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/washington-canyon.png",
+      "zone": {
+        "slug": "washington-canyon",
+        "name": "Washington Canyon"
+      },
+      "published_at": "2026-06-26T11:05:49.725208+00:00",
+      "date": "2026-06-26",
+      "headline": "Giant bluefin crash Washington's walls as June heat builds the thermocline",
+      "subhead": "96-inch fish leads parade of quality tuna as canyon structure fires to life.",
+      "dateline": "WASHINGTON CANYON — June 26",
+      "body_markdown": "The Washington is finally showing its teeth. After weeks of picking at scattered yellowfin and hoping for something better, the canyon delivered what we've been waiting for — a parade of quality bluefin that had boats scrambling to get lines wet on the productive walls.\n\nThe action centered on the 100-fathom line where the northwest wall drops hard into the abyss. That's classic Washington structure — the kind of vertical relief that stacks bait and holds big fish when conditions align. And brother, they're aligning now. Water temps have been climbing steadily, building that crucial thermocline at 40 to 50 feet that separates the warm surface layer from the cooler depths below. That temperature break is like a highway for tuna, and the bluefin are using it to patrol the canyon edges.\n\nThe standout fish went 96 inches — a legitimate giant that fought like the devil on heavy tackle. But it wasn't alone. Multiple boats reported quality bluefin in the 60 to 80-inch range, all coming off the same general area where the wall structure creates those productive eddies. These fish are feeding aggressively, which tells me the bait situation is finally coming together.\n\nTactics have been straightforward but precise. Chunking with fresh butterfish has been the most consistent producer, especially when you can get the slick going in that sweet spot where the current wraps around the wall. The key is reading the water — you want to find where that thermocline intersects with structure, creating an ambush point that tuna can't resist. Spreader bars with small cedar plugs have also been effective for boats willing to cover water, particularly when trolling the temperature breaks.\n\nThe yellowfin bite continues to be solid but not spectacular. Most fish are running 30 to 50 pounds, which is respectable for late June. They're scattered along the shelf edge, not concentrated like the bluefin, so you need to move around and find the active schools. Live bait has been the ticket when you can find it — peanut bunker or small mackerel on a circle hook, fished in the top 30 feet of water.\n\nMahi are starting to show in better numbers, though they're still mostly schoolies in the 5 to 15-pound range. The weed lines have been sparse, but when you find good floating structure, it's worth working thoroughly. Small ballyhoo on light tackle or spinning gear with small jigs can produce multiple fish from a single piece of debris.\n\nWhat's got me excited is the timing. Washington typically fires earlier than the other canyons because of its position relative to the Gulf Stream, and we're right in that sweet spot where the seasonal migration patterns converge with improving water conditions. The thermocline is strengthening daily, bait is moving in from the shelf, and the big fish are following.\n\nThe weather window looks favorable for the next several days, with light winds and manageable seas. That's crucial for working the canyon effectively — you need calm conditions to read the water properly and position your boat where the structure and current create those productive zones.\n\nLooking ahead, I expect the bluefin action to intensify as we move toward the new moon. The reduced light penetration during the dark phase often triggers more aggressive feeding, especially on the deeper walls where these fish like to hunt. The key will be finding fresh bait and getting it to the right depth in the right spot.\n\nFor anyone planning a Washington run, focus on the northwest wall between the 80 and 120-fathom curves. That's where the structure is most dramatic and the eddies most consistent. Start your day early — first light often produces the best bluefin action — and be prepared to adapt as conditions change. This canyon rewards patience and persistence, but when it turns on, it turns on hard.",
+      "tags": [
+        "bluefin-tuna",
+        "yellowfin-tuna",
+        "washington-canyon",
+        "chunking",
+        "thermocline",
+        "canyon-walls"
+      ]
+    },
+    {
+      "id": "2026-06-26-wilmington-canyon-giant-bluefin-crash-the-100-fathom-line-as-warm-eddy-spins-u",
+      "writer_id": "wilmington-canyon",
+      "writer_name": "Capt. Dana Cooper",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/wilmington-canyon.png",
+      "zone": {
+        "slug": "wilmington-canyon",
+        "name": "Wilmington Canyon"
+      },
+      "published_at": "2026-06-26T11:05:22.928714+00:00",
+      "date": "2026-06-26",
+      "headline": "Giant bluefin crash the 100-fathom line as warm eddy spins up off Wilmington",
+      "subhead": "96-inch fish highlight the best tuna bite we've seen all season in the canyon.",
+      "dateline": "WILMINGTON CANYON — June 26",
+      "body_markdown": "The canyon finally woke up this week, and when it did, it woke up hard. We're seeing the kind of bluefin action that makes you remember why you run 65 miles offshore in the first place — fish pushing triple digits and feeding like they mean it.\n\nThe magic zone has been the 100-fathom line where a warm-core eddy has been spinning for the past ten days. Water temps jumped from the low 60s to a solid 68 degrees, and that thermal break is stacking bait like a dinner bell. The bluefin are responding accordingly. We're talking fish in the 80- to 96-inch class, genuine giants that'll test your tackle and your back in equal measure.\n\nChunking has been the name of the game. Fresh butterfish and squid on 9/0 circle hooks, fished on 80-pound fluorocarbon leaders about 30 feet back from a 16-ounce sinker. The key is getting that bait down into the thermocline where the tuna are feeding. These fish aren't surface-oriented right now — they're working that 40- to 60-foot zone where the temperature gradient is holding the bait.\n\nTrolling has been productive too, especially early morning and late afternoon when the current slacks off. Spreader bars with small cedar plugs and daisy chains are getting bit, but you need to get them down. Use planers or downriggers to hit that 50-foot zone. The fish are particular about speed — 6.5 to 7 knots seems to be the sweet spot.\n\nThe yellowfin bite has been more consistent but smaller fish. Most are running 30 to 50 pounds, perfect for the dinner table. They're hitting the same baits as the bluefin but staying higher in the water column. If you're marking bait at 20 to 30 feet, that's yellowfin water. Switch to lighter leaders — 60-pound fluoro — and smaller hooks. An 8/0 circle on a chunk of butterfish will get you bit.\n\nMahi have been scattered but when you find them, you find them in numbers. The weed lines along the canyon edges are holding decent fish in the 15- to 25-pound range. Small ballyhoo on wire leaders trolled at 8 knots, or live bait if you can find it. The key with mahi right now is covering water until you find the school, then working it hard.\n\nWhite marlin are starting to show in better numbers as we move deeper into summer. The 30-fathom line has been producing fish on small ballyhoo and squid strips. These aren't the big fish we'll see in August, but they're willing biters that'll give you a good account of themselves on 30-pound tackle.\n\nWahoo have been the wildcard. They're not thick, but when one shows up, it's usually a good one. High-speed trolling with Ilander-and-ballyhoo combos at 12 to 15 knots along the canyon walls has been the ticket. Wire leaders are mandatory — these fish will cut you off without hesitation.\n\nThe bait situation has been excellent. Plenty of squid, butterfish, and small mackerel in the canyon. The commercial guys are reporting good numbers of sand eels too, which explains why the tuna are feeding so aggressively. When the bait is this thick, the predators follow.\n\nLooking ahead, this warm eddy should hold for another week or two before the Gulf Stream shifts it around. The new moon on Sunday will bring stronger tides, which should push more bait into the canyon and keep the bite going strong. Water temps are holding steady in the high 60s, perfect tuna water.\n\nThe weekend looks promising with light winds and manageable seas. If you're thinking about making the run, now's the time. This is the kind of bite that defines a season, and it won't last forever. The canyon is fishing as well as I've seen it in years.",
+      "tags": [
+        "bluefin-tuna",
+        "yellowfin-tuna",
+        "chunking",
+        "100-fathom-line",
+        "warm-eddy",
+        "wilmington-canyon"
+      ]
+    },
+    {
+      "id": "2026-06-26-hudson-canyon-giant-bluefin-crash-the-100-fathom-line-as-gulf-stream-sets-",
+      "writer_id": "hudson-canyon",
+      "writer_name": "Capt. Tony Rosetti",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/hudson-canyon.png",
+      "zone": {
+        "slug": "hudson-canyon",
+        "name": "Hudson Canyon"
+      },
+      "published_at": "2026-06-26T11:04:57.534363+00:00",
+      "date": "2026-06-26",
+      "headline": "Giant bluefin crash the 100-fathom line as Gulf Stream sets up perfect canyon bite",
+      "subhead": "Mid-60s water along the shelf edge stacking yellowfin, bigeye, and 96-inch giants from the Claw to Texas Tower.",
+      "dateline": "HUDSON CANYON, NY — June 26",
+      "body_markdown": "The Gulf Stream finally made its move this week, pushing tight against the 100-fathom line and creating the temperature gradient we've been waiting for all season. That mid-60s water along the shelf edge has turned into a tuna highway, with yellowfin, bigeye, and giant bluefin stacked from the Claw all the way down to the Dip.\n\nThe bite exploded after Tuesday's northeast blow cleaned up the slope water and sharpened those thermal boundaries. What had been murky, blended water for weeks suddenly turned into crisp temperature breaks with clean chlorophyll edges — exactly what these fish need to feed aggressively. The Endorphin crew proved it Wednesday, boxing seven bigeye and thirty yellowfin in a single trip, working the 100-fathom contour where 66-degree Gulf Stream water meets the cooler shelf.\n\nThe giant bluefin are the real story here. We're seeing fish to 96 inches — legitimate giants that haven't shown up in these numbers since 2019. They're feeding hard on sand eels that got pushed up against the thermocline during the blow. The key has been finding those temperature breaks in 200 to 300 feet of water, where the warm edge creates an upwelling that concentrates bait.\n\nFor tactics, it's been a topwater game early and late. UV poppers and stick baits at first light are producing explosive strikes, especially when you can find birds working over the breaks. The fish are coming up high in the water column — I'm marking them 20 to 40 feet down on the sounder before they surface. Once the sun gets up, switch to trolling the edges with cedar plugs and small feathers. The yellowfin want speed — 8 to 9 knots through the clean water.\n\nThe approaching full moon is only going to make this better. Those fast-moving spring tides will push more bait against the canyon walls and keep the fish feeding aggressively through the lunar phase. The northeast wind that hurt fishing effort earlier this week actually set us up perfectly — it stacked the water column and created the sharp gradients that concentrate pelagics.\n\nChunk fishing has been solid too, especially for the bigeye that are holding deeper during the day. Fresh butterfish and squid on circle hooks, fished on the drift in 300 to 500 feet. The key is finding where that 64-degree water meets the 68-degree Gulf Stream flow — that's where the bigeye are staging.\n\nLooking ahead, this full moon Friday should trigger even more aggressive feeding. The fast-moving tides will flush more bait out of the canyons and stack it against the temperature breaks. With the Gulf Stream locked in position along the 100-fathom line and clean chlorophyll showing on the satellite shots, we're looking at prime conditions through the weekend and into next week. This is shaping up to be the summer bite we've been waiting for — the kind of fishing that makes the Hudson Canyon legendary.",
+      "tags": [
+        "yellowfin-tuna",
+        "bluefin-tuna",
+        "bigeye-tuna",
+        "100-fathom-line",
+        "gulf-stream",
+        "topwater"
+      ]
+    },
+    {
+      "id": "2026-06-26-block-island-block-island-bass-bite-fires-on-squid-schools-as-water-temps",
+      "writer_id": "block-island",
+      "writer_name": "Jack Sullivan",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/block-island.png",
+      "zone": {
+        "slug": "block-island",
+        "name": "Block Island / Newport"
+      },
+      "published_at": "2026-06-26T11:04:43.272895+00:00",
+      "date": "2026-06-26",
+      "headline": "Block Island bass bite fires on squid schools as water temps climb into the 60s",
+      "subhead": "Trophy stripers crushing soft plastics over the Southwest Ledge while bonito make first showing of the season.",
+      "dateline": "BLOCK ISLAND, RI — June 26",
+      "body_markdown": "The summer bass bite is officially here, and it's happening exactly where it should — around Block Island's legendary structure. Water temps have climbed into the mid-60s around the island, and that thermal sweet spot is stacking bait like I haven't seen in years. The squid bite has been absolutely insane, and where you find squid this thick, you find hungry stripers.\n\nI've been working the Southwest Ledge hard this week, and the fish are responding to fast-moving presentations. These aren't your typical spring bass — they're aggressive, well-fed fish that want baits ripped through the water column. Five-inch paddle tails on 3/4-ounce heads, burned just under the surface, are getting crushed. The key is speed — these fish are feeding on sand eels and squid, both fast-moving prey, so match that energy.\n\nThe North Rip has been producing consistently on the outgoing tide, especially the last two hours of the ebb. I'm seeing fish in the 28 to 35-inch range, with a few pushing into the 40s. The water clarity around the island is exceptional right now — that clean, oxygenated water that makes Block Island the summer Mecca it is. When you can see 15 feet down in 40 feet of water, you know the conditions are prime.\n\nVertical jigging has been deadly over the deeper structure. Three-ounce diamond jigs and butterfly jigs worked in 50 to 80 feet are connecting with quality fish. The bite seems strongest when you're marking bait between 30 and 50 feet down, with bass suspended just below the schools. Don't be afraid to work the jig aggressively — these fish want reaction strikes.\n\nThe bonito showed up this week, which is always a good sign. First of the season for me, and they're hitting the same fast-worked metals that are taking bass. When you see bonito, you know the water temperature and bait situation are dialed in perfectly. They're not thick yet, but their presence tells me we're heading into prime time.\n\nFluke fishing has been spotty but improving. The better fish are coming from deeper water — 35 to 45 feet around the island's southern and eastern edges. White Gulp Swimming Mullets on bucktails are the go-to, but tip them with a strip of squid. The squid scent seems to be the difference between follows and hookups right now.\n\nThe full moon this Friday means big tides, and I'm expecting the Southwest Ledge to really light up on the major tide changes. Those spring tides will flush massive amounts of bait through the rips, and the bass know it. Plan to be on the water during the tide changes — the hour before and after the turn has been producing the best action.\n\nLooking ahead, if these water temps hold in the mid-60s and we get some stable weather, this could be the start of the epic Block Island summer bite. The bait is here, the water is clean, and the fish are aggressive. Everything is lining up for what could be a memorable week on the water.",
+      "tags": [
+        "striped-bass",
+        "squid",
+        "southwest-ledge",
+        "vertical-jigging",
+        "bonito",
+        "block-island"
+      ]
+    },
+    {
+      "id": "2026-06-26-nj-shore-jumbo-blues-crash-jersey-surf-as-fluke-bite-heats-up-in-back",
+      "writer_id": "nj-shore",
+      "writer_name": "Joey Napolitano",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nj-shore.png",
+      "zone": {
+        "slug": "nj-shore",
+        "name": "New Jersey Shore / Raritan Bay"
+      },
+      "published_at": "2026-06-26T11:04:28.209845+00:00",
+      "date": "2026-06-26",
+      "headline": "Jumbo blues crash Jersey surf as fluke bite heats up in back bays",
+      "subhead": "Mid-60s water temps trigger feeding spree from Sandy Hook to Cape May.",
+      "dateline": "MANASQUAN, NJ — June 26",
+      "body_markdown": "The Jersey Shore is absolutely on fire right now, and I'm telling you — this is what we wait for all spring. Water temps finally hit that magic mid-60s mark, and everything from Sandy Hook to Cape May is waking up hungry.\n\nThe big story this week is the return of jumbo bluefish to the Monmouth County surf. We're talking legitimate 10-plus-pound choppers that haven't been seen in these numbers for years. They're crashing bait right in the wash at first light, and if you're not out there by sunrise, you're missing the show. I watched a guy at Island Beach pull three blues over 12 pounds on consecutive casts Tuesday morning — all on 6-inch SP Minnows in wounded bunker. The key is working that first hour of light when they're pushing peanut bunker against the beach.\n\nFluke fishing has finally turned the corner in the back bays, and it's about time. Barnegat Bay is producing steady action on the drift from the Route 37 bridge south to Good Luck Point. The fish are holding in 15 to 20 feet, and they want movement. White Gulp Swimming Mullets on 3/4-ounce bucktails are the ticket — drag them slow on the bottom, pop them up, let them flutter back down. I'm seeing keepers to 24 inches, with most fish running 18 to 20. The bite's been best on the outgoing tide when that bay water dumps into the inlet and stirs up the bottom.\n\nWhat's really got me excited is the black drum action in the surf. These fish are thick from Long Beach Island south to Brigantine, and they're not picky about bait. Fresh clam on a fishfinder rig will get you bit, but I've been having better luck with chunks of bunker fished right in the first trough. The drum are running 20 to 40 pounds, with a few pushing 50. Fish them on the incoming tide when the water's moving up the beach — that's when they're most aggressive.\n\nRaritan Bay continues to be the striper factory it's been all spring. The fish are still there in good numbers, feeding on the massive schools of bunker that have set up from the Amboys to Sandy Hook. Live-lining peanuts on a circle hook is deadly, but don't overlook the plug bite at dawn and dusk. Those big SP Minnows and Daiwa Salt Pros are getting crushed in the rips off the Hook. Most bass are running 28 to 35 inches — solid keeper fish that fight like freight trains in the current.\n\nThe sea bass bite is absolutely stupid good right now, but remember — we only have until June 21st before the bag limit drops to one fish. Get out there while you can still keep 10. The Axel Carlson and Sea Girt reefs are loaded with fish, and they're not being shy. Drop a clam on a high-low rig and you'll be bent over in seconds. I'm seeing limits in under two hours on most trips.\n\nWeakfish are starting to show in the back bays — nothing crazy yet, but enough to get your attention. The Manasquan River has been producing a few nice ones on the evening tide, mostly on small bucktails tipped with Gulp. These fish are spooky, so keep the noise down and work the edges of the channels.\n\nWater temps are sitting pretty at 65 to 66 degrees from Sandy Hook south, with the back bays running a few degrees warmer. That temperature differential is key — it's concentrating bait in the inlets and creating feeding opportunities on both sides of the tide. The new moon this weekend means big water movement, which should only make things better.\n\nLooking ahead, if this weather pattern holds with light winds and warm nights, we're setting up for an epic summer bite. The bunker schools are thick, the water's clean, and the fish are hungry. Get out there early, stay late, and bring plenty of ice — you're going to need it."
+    },
+    {
+      "id": "2026-06-26-north-fork-sound-shore-bass-push-through-plum-gut-as-sound-water-warms-into-the-sev",
+      "writer_id": "north-fork-sound-shore",
+      "writer_name": "Pat \"North Fork\" Reilly",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/north-fork-sound-shore.png",
+      "zone": {
+        "slug": "north-fork-sound-shore",
+        "name": "North Fork Sound Shore (Mattituck → Orient)"
+      },
+      "published_at": "2026-06-26T11:04:01.101004+00:00",
+      "date": "2026-06-26",
+      "headline": "Bass push through Plum Gut as Sound water warms into the seventies",
+      "subhead": "Schoolies thick off Rocky Point while bigger fish work the Orient Point rips at dawn.",
+      "dateline": "ORIENT POINT, NY — June 26",
+      "body_markdown": "Water's finally acting like June ought to. Sound side hit 71 degrees this week, warmest I've seen it since early May, and the bass are responding like they remember what season it is. Been fishing these waters sixty years, and when that temperature needle climbs past 70, things start to happen.\n\nSchoolie bass are thick as fleas from Mattituck east to Rocky Point, working the shallows on the incoming tide. Nothing huge — most running 20 to 28 inches — but they're feeding hard on sand eels and juvenile bunker. White 4-inch Zoom flukes on 1/2-ounce jigheads are deadly, especially if you work them slow along the drop-off where the beach shelves into deeper water. Dawn and dusk are prime time, but I've been picking them up all day when the wind lays down.\n\nThe real action's been at Orient Point, where bigger fish are pushing through on their way to wherever bass go when they leave us. Had a morning this week — Tuesday, I think — when the rips off the point were boiling with 30 to 40-inch fish. They wanted live bunker, nothing fancy, just a circle hook through the nose and let the current do the work. Outgoing tide at sunrise, that's the ticket. Water's moving fast enough to keep bait nervous but not so hard you can't control your drift.\n\nPlum Gut's been producing too, though you need to time it right. The Race runs fierce on the big tides — we're coming off a new moon, so the water's really moving — and the bass stack up in the eddies where the current breaks. Seen some nice fish taken on diamond jigs, 3 to 4 ounces depending on how hard it's running. Let them flutter down in the slack water behind the rocks, then work them back up with a slow retrieve.\n\nPorgy fishing's been steady around the oyster cages between Horton Point and Rocky Point. Nothing spectacular, but enough keeper-sized fish to make it worthwhile if you're after dinner. Small pieces of clam on size 4 hooks, fish them on the bottom with just enough weight to hold. The cages create structure, and structure holds fish — simple as that.\n\nWeakfish showed up for about three days last week, then vanished like they do. Caught a few on small bucktails with white trailers, but they were here and gone before you could really get on them. That's weakfish for you — ghosts that appear when the water's just right, then disappear when you start counting on them.\n\nBluefish have been scarce, which isn't unusual for this time of year. Few small ones mixed in with the bass schools, but nothing worth targeting specifically. They'll be back when the water gets warmer and the bait gets thicker.\n\nWater clarity's been good despite all the boat traffic. Sound side doesn't get the murky runoff that plagues the bay side, and with the warmer temperatures, everything's settling into summer patterns. Bait's moving, fish are feeding, and the water's got that clear green color that means business.\n\nLooking ahead, we're moving into the full moon phase next week, which should push more bait through Plum Gut and keep the bass moving. Water temperature's trending up — should hit the mid-70s if this weather holds — and that's when the Sound really comes alive. I'll be watching the dawn bite at Orient Point and the evening push along the Rocky Point drop-off. When the water's this good and the fish are this active, you fish every tide you can manage.",
+      "tags": [
+        "striped-bass",
+        "plum-gut",
+        "orient-point",
+        "live-bunker",
+        "sound-shore",
+        "schoolies"
+      ]
+    },
+    {
+      "id": "2026-06-26-peconic-bay-bass-bite-fires-as-water-hits-68-degrees-porgies-stack-a",
+      "writer_id": "peconic",
+      "writer_name": "Bill Hubbard",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/peconic.png",
+      "zone": {
+        "slug": "peconic",
+        "name": "Peconic / Gardiners Bays"
+      },
+      "published_at": "2026-06-26T11:03:35.685725+00:00",
+      "date": "2026-06-26",
+      "headline": "Bay bass bite fires as water hits 68 degrees, porgies stack at Shelter Island",
+      "subhead": "New moon tides flush bait through the channels while early summer temps trigger the feeding.",
+      "dateline": "SHELTER ISLAND, NY — June 26",
+      "body_markdown": "The Peconic finally feels like summer, and the fish are responding exactly as they should. Water temps pushed past 68 degrees this week — a solid jump from the mid-60s we've been stuck in — and that thermal trigger has flipped the switch on what's shaping up to be a banner late June bite.\n\nThe striped bass action has been the real story. These aren't the schoolie blitzes of early season, but quality slot fish that know how to fight. The best action is coming on the flood tide around the deeper channels near Shelter Island, where the cooler Sound water meets the warming bay. I've been working 3/4-ounce white bucktails with 5-inch Gulp Swimming Mullets, keeping them just off bottom as the current sweeps through. The key is timing — hit it right as the flood starts to really move, usually about an hour after low tide.\n\nWhat's driving this bite is the bait movement. The new moon spring tides we just passed have been flushing massive schools of peanut bunker and juvenile weakfish out of the back bay creeks. You can see it on the finder — thick marks stacked in 25 to 35 feet of water where the channels drop off. The bass are positioned right on those edges, ambushing anything that gets swept past.\n\nThe porgy fishing around Shelter Island continues to be world-class, though you need to work for the big ones. The 16 to 18-inch fish are still there in numbers, but the real jumbos — the 3-pound-plus scup that make this fishery famous — are being more selective. Fresh clam on a simple high-low rig is still the ticket, but you need to establish a good chum slick and be patient. The flood tide has been most productive, especially the first two hours when the current really gets moving.\n\nWeakfish are making their presence known in a way we haven't seen in years. These aren't the scattered singles of recent seasons, but legitimate schools of keeper-sized fish. The action has been best in the deeper holes between Greenport and Orient, particularly on the outgoing tide when bait gets concentrated in the channels. Pink and white bucktails in the 1/2 to 3/4-ounce range, worked slow along the bottom, have been most effective.\n\nThe water clarity has been exceptional — that gin-clear visibility that makes the Peconic special in summer. It's a double-edged sword: the fish can see everything, which means your presentation needs to be perfect, but it also means they're actively feeding in the warming water.\n\nBluefish have been scattered but aggressive when you find them. The cocktail blues are thick around the bait schools, while some larger fish to 5 pounds are mixed in. They're not picky — anything that moves fast and flashes will get hit.\n\nLooking ahead, we're entering that sweet spot of late June when everything aligns in the Peconic. Water temps should continue climbing toward the low 70s, which will only intensify the feeding. The approaching full moon on July 3rd means bigger tides are coming, and that should really get the bait moving through the system. I'm watching for the first real weakfish blitz of the season — when these scattered schools consolidate into the kind of wide-open action that made the Peconic famous. The signs are all there: warm water, moving bait, and fish that are starting to feed with purpose.",
+      "tags": [
+        "striped-bass",
+        "porgies",
+        "weakfish",
+        "shelter-island",
+        "bucktail",
+        "flood-tide"
+      ]
+    },
+    {
+      "id": "2026-06-26-montauk-montauk-bass-bite-fires-as-sand-eels-stack-the-rips-and-40-p",
+      "writer_id": "montauk",
+      "writer_name": "Rich Martin",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/montauk.png",
+      "zone": {
+        "slug": "montauk",
+        "name": "Montauk Point"
+      },
+      "published_at": "2026-06-26T11:03:19.378324+00:00",
+      "date": "2026-06-26",
+      "headline": "Montauk bass bite fires as sand eels stack the rips and 40-pounders hit eels",
+      "subhead": "Diamond jigs crushing blues to 10 pounds while night eel fishermen connect with slot-plus stripers in the boulder fields.",
+      "dateline": "MONTAUK POINT, NY — June 26",
+      "body_markdown": "The Point is absolutely on fire right now, and it's everything we've been waiting for since the spring migration settled into summer patterns. Bass fishing has reached that magical peak where the rips are loaded, the bait is thick, and the big fish are feeding with abandon.\n\nThe diamond jig bite has been nothing short of spectacular. Crews are coming back with couple dozen bass and couple dozen blues to 10 pounds, all taken on traditional 3 to 4-ounce diamonds worked through the current. The key is getting down to where the fish are holding — usually 40 to 60 feet depending on the drift — and letting the jig flutter on the drop. White and chartreuse are producing consistently, but don't overlook the classic silver when the sun gets high.\n\nWhat's really got my attention is the night eel bite. We're seeing legitimate 40-pound-class bass coming over the rails after sunset, fish that have been feeding heavily on the abundant sand eels during daylight hours and switching to bigger meals when darkness falls. The technique is straightforward but demands patience: fishfinder rigs with 8/0 circles, 3 to 4-ounce pyramid sinkers to hold bottom in the current, and the freshest eels you can find. Fish them tight to the boulder fields on the incoming tide, especially the last two hours before slack.\n\nThe sand eel population is absolutely stacked right now, which explains why the fishing has been so consistent. These baitfish are concentrated along the drop-offs and in the rip lines, creating feeding opportunities that the bass simply can't ignore. When you combine that with the squid that have been pushing through and the scattered bunker schools, you've got a buffet that's keeping fish in the area rather than pushing them further east.\n\nBucktails are also producing quality fish, particularly for anglers who prefer working the structure during daylight hours. Three-quarter-ounce heads with white or chartreuse tails, bounced along the bottom on the drift, are accounting for solid keeper bass in the 28 to 35-inch range. The key is maintaining bottom contact while still giving the jig enough action to trigger strikes.\n\nThe fluke bite has been picking up significantly, with boats working the south side drops finding consistent action. The Viking Fleet and Ebb Tide have been reporting steady catches, with fish coming from 30 to 50 feet of water on the traditional white Gulp and bucktail combinations. The porgies are clustering rather than scattered, which means when you find them, you can fill the cooler quickly.\n\nWater temperatures have been climbing steadily, hitting the mid-60s on the ocean side while the back bays are pushing into the upper 60s. This temperature differential is creating the kind of gradient that stacks bait and holds fish, particularly around the inlet where the exchange is most pronounced. The new moon period we just finished was tough — as expected — with fish scattered and waiting for current to pick up. But now that we're building toward the full moon Friday, the spring tides are going to flush serious water through the rips.\n\nThe small cocktail blues in the 1 to 2-pound range have started showing up, which is always a great sign for the summer bite. These fish are indicators that the forage base is healthy and that bigger predators won't be far behind. They're taking small metals and bucktails, and they're excellent bait for the big bass if you can keep them lively.\n\nLooking ahead, this full moon is going to create some serious current flow, and I expect the rips to absolutely light up. The big tides will move massive amounts of water, concentrating bait and creating the kind of feeding opportunities that produce memorable trips. Night fishermen should focus on the boulder fields during the peak flow periods, while day anglers will find the best action during the hour before and after the tide change.\n\nThe offshore scene has been producing as well, with swordfish reports coming from the canyon edges. While that's beyond most of our daily concerns here at the Point, it's another indicator that the entire ecosystem is firing on all cylinders.\n\nThis is Montauk at its finest — multiple species feeding aggressively, bait everywhere you look, and conditions that reward both skill and persistence. Whether you're throwing metals in the rips or soaking eels in the boulders, the fish are here and they're hungry. Just remember to check your drag before you drop that diamond jig — these bass are pulling hard right now.",
+      "tags": [
+        "striped-bass",
+        "diamond-jigs",
+        "eels",
+        "night-fishing",
+        "sand-eels",
+        "montauk-rips"
+      ]
+    },
+    {
+      "id": "2026-06-26-shinnecock-bluefish-blitz-fires-shinnecock-inlet-as-crystal-clear-water",
+      "writer_id": "shinnecock",
+      "writer_name": "Charlie \"Night Owl\" Ortiz",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/shinnecock.png",
+      "zone": {
+        "slug": "shinnecock",
+        "name": "Shinnecock Bay / Inlet"
+      },
+      "published_at": "2026-06-26T11:02:59.477337+00:00",
+      "date": "2026-06-26",
+      "headline": "Bluefish blitz fires Shinnecock Inlet as crystal-clear water stacks bait",
+      "subhead": "Giant blues to 34 inches crash bucktails while stripers work the shadows on the outgoing tide.",
+      "dateline": "SHINNECOCK INLET, NY — June 26",
+      "body_markdown": "The inlet's been on fire this week, and I mean absolutely lit up. Crystal-clear blue-green water has the whole system looking tropical, and the fish are responding like it's prime time. Big bluefish — I'm talking 30-plus-inch choppers — are absolutely crushing everything that moves in the main channel, while stripers are working the edges like ghosts in the gin-clear water.\n\nThe action starts about two hours into the outgoing tide when the current really gets moving. That's when the bait gets flushed out of the bay and stacks up in the inlet mouth. I've been working 3/4-ounce bucktails with white Zoom fork tails, and the pop-pop-pause retrieve is absolutely deadly. Cast into the rip, let it sink, then work it with sharp pops followed by a three-second pause. The hits come on the drop every time.\n\nHere's the key — you need to position yourself on one side of the structure or the other to get your bait down in this current. The middle of the channel is too fast, but work the edges and you'll find the sweet spot where the bucktail can get down and work properly. I've been using 30-pound fluoro leader because these blues will cut you off in a heartbeat, but it's light enough that the stripers don't get spooked in this clear water.\n\nThe bluefish are absolutely savage right now. When they're blitzing on top, throw a 5-inch Yozuri Mag Darter right into the chaos. That flat head gives it perfect action even in the strong current — the water pushes it around just enough to look alive during the pause. But here's the trick: when the blues are going nuts on top, swing a bucktail underneath the school. That's where the stripers are holding, and I've been picking up some beautiful fish in the 15 to 20-pound class doing exactly that.\n\nThe water clarity is unreal right now — you can see bottom in 15 feet, and the fish are spooky because of it. That's why I've been fishing mostly at night when the inlet really comes alive. The outgoing tide after dark is when the big stripers move, and they're less cautious in the low light. I've been working the north jetty with live peanut bunker on fishfinder rigs, tight to the rocks on the ebb.\n\nInside the bay, the fluke bite has been solid but not spectacular. The cleaner water has them finicky, so I've been downsizing to 4-inch Gulp Swimming Mullets on 1/2-ounce bucktails instead of the usual 5-inch baits. Work the deeper holes in 20 to 30 feet, especially around the Hampton Bays marina area where the channel drops off. The fish are there, but they want a more subtle presentation.\n\nWeakfish have been showing at the Ponquogue Bridge on the night tides, nothing huge but some decent 2 to 3-pound fish on small bucktails with pink teasers. The key is fishing the shadow line where the bridge lights hit the water — they seem to ambush bait right at that edge.\n\nThe water temperature hit 68 degrees in the bay this week, a solid jump from last week's readings, and that's pulling more bait in from the ocean side. The thermal gradient between bay and ocean water is creating a perfect setup at the inlet mouth where cooler ocean water meets the warmer bay outflow.\n\nLooking ahead, we've got a new moon coming Friday which means spring tides and serious current. That should really fire up the inlet action, especially on the big outgoing tides at sunset. I'll be watching for the first real push of summer weakfish as that tidal flow gets stronger. The bait is stacked, the water is clean, and the fish are hungry — this is what we wait for all year.",
+      "tags": [
+        "bluefish",
+        "striped-bass",
+        "bucktail",
+        "shinnecock-inlet",
+        "outgoing-tide",
+        "crystal-clear"
+      ]
+    },
+    {
+      "id": "2026-06-26-moriches-trophy-bass-crash-moriches-inlet-as-night-bite-explodes-on-l",
+      "writer_id": "moriches",
+      "writer_name": "Pete Gallo",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/moriches.png",
+      "zone": {
+        "slug": "moriches",
+        "name": "Moriches Bay"
+      },
+      "published_at": "2026-06-26T11:02:41.863499+00:00",
+      "date": "2026-06-26",
+      "headline": "Trophy bass crash Moriches Inlet as night bite explodes on live spot",
+      "subhead": "Inlet's non-stop action produces doormat stripers while bay fluke fishing heats up in skinny water.",
+      "dateline": "MORICHES, NY — June 26",
+      "body_markdown": "The inlet's been absolutely on fire this past week, with trophy striped bass stacking up in the channel like I haven't seen in years. Night fishing with live spot has been producing bass in the 30-plus-pound class consistently, with the best action coming on the last two hours of the outgoing tide when the current really starts ripping through the cut.\n\nWhat's driving this bite is the perfect storm of conditions we've got right now. The inlet's been stable since the spring storms reshaped the channel, creating that deep hole on the east side that's become a bass highway. Water temps have settled into that sweet spot — bay side running about 4 degrees warmer than the ocean, creating a thermal gradient that's funneling bait through the inlet like a conveyor belt.\n\nThe technique that's been money is simple but precise: live spot on a fishfinder rig, 6/0 circle hook, 30-pound fluorocarbon leader. Key is getting that bait down into the channel where it sweeps along the bottom edge. I've been anchoring uptide of the deep water and letting the current do the work. The bass are sitting in that 25-to-30-foot zone where the channel drops off, ambushing spot as they get swept through.\n\nTiming is everything here. You want to be set up and fishing by sunset, but the real magic happens after dark when the big girls move up to feed. I'm talking about bass that haven't seen a scale in years — thick, heavy fish that fight like freight trains in that current. The bite window is narrow though, maybe two hours max before the tide slacks off and the fish scatter.\n\nMeanwhile, the bay's been producing some quality fluke fishing, especially in the skinny water along the eastern shoreline. The pattern's been consistent: work the 3-to-8-foot depths with ultra-light jigs, quarter-ounce bucktails tipped with white Gulp Swimming Mullets. The key is reading the bottom structure — those subtle drop-offs and channel edges that most guys blow right over.\n\nI've been finding the best fluke action on the incoming tide when cleaner water pushes into the bay. The fish are relating to those sandy pockets between the grass beds, especially around Tuthill Point where the channel makes that sharp bend. Presentation is critical in this shallow water — you need to keep that jig moving but not too fast, just enough to stay off the bottom and trigger strikes.\n\nThe size quality has been impressive, with keepers running from 19 inches up to some legitimate doormat-class fish pushing 6 pounds. What's interesting is how these bay fluke are feeding — they're not the typical bottom-huggers you'd expect. I'm seeing them suspended in the water column, chasing bait, which explains why a slow retrieve with occasional pops of the rod tip has been so effective.\n\nWeakfish have started showing up in decent numbers too, mostly on the flood tide when they push up from the inlet. Small Deadly Dick lures worked along the channel edges have been producing fish in the 2-to-4-pound range. Nothing spectacular, but a welcome addition to the mix after a few lean years.\n\nThe bait situation is what's really driving everything right now. Massive schools of peanut bunker have been staging in the bay, with adult bunker moving through the inlet on every tide change. The spot population is thick too, which explains why the live bait approach has been so deadly on the bass. Spearing are everywhere in the shallows, keeping the fluke active and aggressive.\n\nLooking ahead, we're moving into the new moon phase, which should amp up the tidal flow and really get things moving. I'm expecting the bass bite to stay strong through the weekend, especially if we get some cloud cover to extend that feeding window. The fluke fishing should only get better as more fish move into the bay to take advantage of all this bait.\n\nOne thing to watch is the water temperature. Bay temps have been climbing steadily, and if we hit that 75-degree mark, the fluke might start moving to deeper, cooler water. But for now, everything's lining up perfectly — stable inlet, good bait, and fish that are feeding aggressively. This is what Moriches Bay fishing is all about.",
+      "tags": [
+        "striped-bass",
+        "live-spot",
+        "moriches-inlet",
+        "night-fishing",
+        "fluke",
+        "skinny-water"
+      ]
+    },
+    {
+      "id": "2026-06-26-fire-island-weakfish-crash-fire-island-surf-as-bay-temps-hit-perfect-fee",
+      "writer_id": "fire-island",
+      "writer_name": "Mariana \"Mari\" Reyes",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/fire-island.png",
+      "zone": {
+        "slug": "fire-island",
+        "name": "Fire Island / Great South Bay"
+      },
+      "published_at": "2026-06-26T11:02:11.332971+00:00",
+      "date": "2026-06-26",
+      "headline": "Weakfish crash Fire Island surf as bay temps hit perfect feeding zone",
+      "subhead": "Seven-pound trout leads charge while fluke stack deep on the Captree drift.",
+      "dateline": "CAPTREE, NY — June 26",
+      "body_markdown": "The water's telling a story this week, and it's one I haven't heard in years. A legitimate 26-inch, 7.3-pound weakfish came out of the Fire Island Inlet surf on a 9-inch Gravity Tackle Sand Eel — the kind of fish that makes you remember why we call them trout. That's not a fluke catch, either. The weakfish are staging in numbers I haven't seen since the late '90s, working the inlet mouth where the bay water meets the ocean.\n\nWhat's driving this? Bay temperatures have climbed into that sweet spot — mid-60s where the bait gets active and the predators follow. The thermal gradient between the bay and ocean is creating a feeding funnel right at the inlet. On the incoming tide, you've got warmer bay water pushing bait toward the surf line. On the outgoing, cooler ocean water creates an edge that holds fish.\n\nI've been working the inlet hard at dawn, casting big sand eels and paddle tails into the wash. The key is fishing the transition water — not the deep channel, not the shallow flats, but that 8 to 12-foot zone where the currents collide. White and chartreuse soft plastics on 3/4-ounce jigheads are producing, but don't overlook live spot if you can find them. The weakfish are feeding aggressively, but they're also spooky. Keep your casts long and your retrieve varied.\n\nThe fluke bite has been equally impressive, though you need to adjust your thinking. The Captree fleet is finding keeper fish in 25 to 35 feet of water off the Robert Moses bridges, but it's not the typical bucktail-and-Gulp show. The fish are holding tight to structure — bridge pilings, channel edges, anywhere the current creates an ambush point. I'm seeing success with live killies on a three-way rig, especially on the outgoing tide when the bait gets swept through the spans.\n\nSand eels remain the consistent producer for fluke. Rig them on a fishfinder setup with just enough weight to hold bottom — 2 to 3 ounces in most spots. The bite window is narrow, usually the first two hours of the outgoing tide when the current is moving but not ripping. After that, the fish seem to shut down until the next tide change.\n\nThe party boat action out of Captree has been solid for mixed bags. Sea bass are thick in 40 to 60 feet, with plenty of keepers mixed in with the shorts. Diamond jigs in gold and silver are working, but don't overlook clam strips on high-low rigs. The ling are showing up in good numbers too — not the most glamorous fish, but they fight hard and eat well.\n\nWhat's really got my attention is the bait situation. The bunker schools that have been absent for weeks are finally showing up in the bay. Small pods are working the flats from Babylon to Patchogue, and where you find bunker, you find bass. I'm not seeing the blitz fishing yet, but the setup is there. The new moon this weekend should push more bait around and get the stripers more active.\n\nLooking ahead, I'm watching the weather pattern closely. We've got a stretch of stable conditions coming — light winds, moderate tides, and water temperatures that should hold steady. That's perfect for the weakfish bite to continue, and it might be the catalyst for the striper fishing to really take off. The full moon is still two weeks away, but the building tides should start moving more bait through the inlet.\n\nMy advice for the coming week: hit the Fire Island surf at first light with big soft plastics. Work the inlet mouth on both sides, but pay attention to the current. The fish are there, but they're not everywhere. Find the bait, find the structure, and be ready to move if the bite shuts down. This is shaping up to be one of those magical summer weeks when everything comes together.",
+      "tags": [
+        "weakfish",
+        "fire-island-inlet",
+        "sand-eel",
+        "fluke",
+        "captree-drift",
+        "outgoing-tide"
+      ]
+    },
+    {
+      "id": "2026-06-26-jones-inlet-trophy-bass-crash-the-reynolds-channel-jetty-as-bunker-schoo",
+      "writer_id": "jones-inlet",
+      "writer_name": "Sal Moretti",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jones-inlet.png",
+      "zone": {
+        "slug": "jones-inlet",
+        "name": "Jones Inlet / Hempstead Bay"
+      },
+      "published_at": "2026-06-26T11:01:52.262560+00:00",
+      "date": "2026-06-26",
+      "headline": "Trophy bass crash the Reynolds Channel jetty as bunker schools thicken",
+      "subhead": "42-pound striper taken on fresh chunks while weakfish push into the inlet on sand eels.",
+      "dateline": "JONES INLET, NY — June 26",
+      "body_markdown": "The big fish are here, and they're eating like it's November. A 42-pound striper came off the back jetty at Reynolds Channel this week on fresh bunker chunks — the kind of fish that makes you remember why we do this. That's not a fluke. That's the inlet telling us the summer pattern is locked in.\n\nThe bunker schools have thickened up considerably over the past ten days, and it's drawing everything with teeth. I'm seeing pods of peanuts from the Wantagh Bridge all the way out to the inlet mouth, with adult bunker mixed in. The bass are keyed on them hard, especially on the outgoing tide when the bait gets funneled through the cuts.\n\nJones Inlet itself has been the sweet spot for keeper fluke, particularly on the start of the outgoing. The inlet's been weedy — typical for this time of year — but the fish are there if you can deal with the grass. I'm hearing consistent reports of back-to-back keepers right at the tide change. White bucktails with squid strips or fresh smelt are getting it done in the deeper holes near the Coast Guard station.\n\nWhat's really got my attention is the weakfish showing up. A 26-inch, 7-pound fish came from Fire Island Inlet on a 9-inch sand eel imitation, and I'm seeing similar bait patterns here. The sand eels are thick on the bars just outside our inlet, and that's classic weakfish food. These fish are staging for their summer push, and the inlet's thermal gradient is holding them.\n\nThe surf has been productive at sunset, especially around the jetties. Diamond jigs with green tails are working the wash over the sandbars, but you need to time it right — low light is critical. The fish are sitting shallow on the bar edges, not in the deep troughs like you'd expect. Cast past the break and work the jig back through the wash as it comes up over the drop-off.\n\nFluke action has been solid from the Meadowbrook Bridge south to Point Lookout. The southeast side of the Meadowbrook has been holding good numbers, though most are running 15 to 17 inches. Green bucktails are the hot color right now — the tackle shops are pushing it hard because it's working. Pair that with fresh squid or smelt, and you're in business.\n\nThe bird action has been insane, with massive schools of small baitfish getting hammered from above. I'm seeing this from Wantagh Park all the way to the inlet mouth. The problem is the fish under the birds are mostly small stuff — snappers and short fluke. The real action is away from the circus, in the deeper water where the bigger predators are ambushing bait.\n\nWater temps are climbing into the mid-60s in the bay, creating that thermal break at the inlet mouth that stacks bait on the flood and holds bass on the ebb. The gradient is what's making this whole system work right now.\n\nLooking ahead, we've got a new moon Friday, which means spring tides and serious current. That's when I expect the weakfish bite to really turn on. The big tides will flush more bait out of the back bays, and the inlet will be a funnel for everything following it. Plan to be there at sunset on the outgoing — that's when the magic happens.\n\nThe bass bite should only get better as these bunker schools continue to build. Keep fresh chunks ready and don't be afraid to fish the structure tight. The big fish are here, and they're not shy about eating.",
+      "tags": [
+        "striped-bass",
+        "weakfish",
+        "fluke",
+        "bunker-chunks",
+        "jones-inlet",
+        "outgoing-tide"
+      ]
+    },
+    {
+      "id": "2026-06-26-jamaica-bay-bay-water-hits-69-as-weakfish-crash-the-party-with-keeper-fl",
+      "writer_id": "jamaica-bay",
+      "writer_name": "Denise \"Dee\" Vasquez",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jamaica-bay.png",
+      "zone": {
+        "slug": "jamaica-bay",
+        "name": "Jamaica Bay / Rockaway"
+      },
+      "published_at": "2026-06-26T11:01:34.685033+00:00",
+      "date": "2026-06-26",
+      "headline": "Bay water hits 69 as weakfish crash the party with keeper fluke",
+      "subhead": "Jamaica Bay's warming temps trigger species shift as bass move out and summer fish move in.",
+      "dateline": "JAMAICA BAY, NY — June 26",
+      "body_markdown": "The bay hit 69 degrees this week and everything changed. The water's officially summer-warm now, and the fish are responding exactly like they should. The stripers that had us spoiled all spring are starting to thin out, but don't cry about it — the summer crew is moving in strong.\n\nWeakfish are the story right now. Real weakfish, not the rumors we've been chasing for years. I'm talking keeper-sized trout showing up from the Marine Parkway Bridge all the way back to the Cross Bay. The better fish are coming on the incoming tide, especially that first hour when the cooler ocean water starts pushing into the bay. White bucktails with chartreuse teasers are doing the damage, but here's the key — you've got to work them slow. These aren't the aggressive spring bass. Drop your jig, let it settle, then lift and drop with the rod tip. The weakfish are picking them up on the fall.\n\nThe fluke fishing finally turned the corner too. That 69-degree mark seems to be the magic number that gets them feeding consistently. I've been working the deeper holes around the Marine Parkway with 3/4-ounce bucktails tipped with 4-inch white Gulp Swimming Mullets. The fish are holding in 15 to 20 feet, and they want that bait moving. Don't dead-stick it like you would for winter fluke — keep a steady retrieve with little pops of the rod tip. Had a solid 25-incher yesterday that hammered the jig right at the bridge pilings on the outgoing.\n\nThe bass haven't completely disappeared, but they're getting pickier. The big schools that were crushing bunker chunks in May are breaking up. Now it's singles and doubles, mostly in the 24 to 28-inch range, and they're relating to structure. The bridge pilings, the channel edges, anywhere there's current break and some depth change. Live eels are still the ticket for the bigger fish, especially on the night tides. Fish them on a fishfinder rig tight to the pilings — let the current do the work.\n\nBait situation is interesting. The bunker schools are definitely thinning out compared to last month, but there's still plenty around if you know where to look. The back channels near Canarsie Pier have been holding good pods of peanuts, and the spearing are thick along the flats. What's really encouraging is seeing more variety — sand eels mixed in with the spearing, some small mackerel showing up, even caught a few squid while jigging for weakfish.\n\nSea robins are everywhere, which some people complain about, but I love it. They're a sign of a healthy ecosystem, and they're actually great eating if you know how to clean them. Plus, where you find big sea robins, you usually find fluke nearby. They're competing for the same food sources.\n\nTide-wise, the incoming has been the most consistent producer, especially that first two hours. The new moon we just had really moved some water, and I think that's part of what triggered this species shift. Those big tides flush the bay, bring in fresh ocean water, and seem to activate the summer fish.\n\nAccess has been good. The Marine Parkway parking area is your best bet for boat launching, and the fishing around the bridge structure has been consistent. Shore anglers should focus on the deeper water near the bridge or work the channel edges along Beach Channel Drive. Canarsie Pier is producing for the bait fishermen — clam strips and bloodworms on high-low rigs.\n\nLooking ahead, we're heading into the full moon next week, which should mean even bigger tides and more water movement. I'm expecting the weakfish bite to stay strong, and the fluke should only get better as we push into July. The bass fishing will probably get tougher during the day, but the night bite should remain solid for anyone willing to put in the time with live eels.\n\nThis is classic summer transition fishing in Jamaica Bay. The water's warm, the bait's diverse, and multiple species are feeding. It's not the easy bass fishing of May, but it's more interesting. You never know what's going to hit your line next.",
+      "tags": [
+        "weakfish",
+        "fluke",
+        "jamaica-bay",
+        "bucktail",
+        "summer-transition",
+        "marine-parkway"
+      ]
+    },
+    {
+      "id": "2026-06-26-eastern-sound-race-rips-fire-as-big-bass-crash-butterfish-schools-in-60-fo",
+      "writer_id": "eastern-sound",
+      "writer_name": "Mike Rizzo",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/eastern-sound.png",
+      "zone": {
+        "slug": "eastern-sound",
+        "name": "Eastern Long Island Sound"
+      },
+      "published_at": "2026-06-26T11:01:02.151800+00:00",
+      "date": "2026-06-26",
+      "headline": "Race rips fire as big bass crash butterfish schools in 60-foot water",
+      "subhead": "Plum Gut producing slot fish on three-ways while topwater action explodes at first light in the eastern rips.",
+      "dateline": "ORIENT POINT, NY — June 26",
+      "body_markdown": "The eastern Sound is absolutely on fire right now, and it's all about reading the current and being where the bait stacks up. I've been hammering The Race and Plum Gut for the past week, and the fishing has been as good as I've seen it in years.\n\nThe Race is the story right now. Big migratory bass — I'm talking 35 to 45-inch fish — are crushing butterfish schools in 60 to 80 feet of water where the rip builds. These aren't your typical spring schoolies. These are thick Hudson River fish that have pushed into our zone and they're feeding aggressively. I've been working three-way rigs with 8-ounce cannonballs and 6-foot leaders of 80-pound test to stand the bucktails off the rocky bottom. The heavy leader isn't just for abrasion — the stiffness keeps your presentation clean in that screaming current.\n\nHere's the key: you need to time the drift perfectly. I'm hitting The Race on the last two hours of the ebb when the current is ripping at 3 to 4 knots. The fish are stacked on the up-current side of the rip where the butterfish get pinned against the structure. Drop your rig in 80 feet, follow the bottom contour as it rises to 40, then cranks up preemptively as you approach the shallow water to avoid the snags.\n\nPlum Gut has been more consistent for numbers. The flood tide has been the producer here, especially the first two hours when the current builds momentum. I'm seeing mostly slot fish — 28 to 34 inches — with the occasional overslot mixed in. Same three-way setup, but I've been alternating between white bucktails and 7-inch Tsunami swim shads. The shads are definitely pulling bigger fish, which makes sense when you consider the size of the bait these bass are keying on.\n\nThe topwater bite has been insane at first light. When the current slacks at dawn, these fish push up in the water column and absolutely demolish big pencil poppers. I'm talking about 6 to 8-inch plugs thrown into the rip edges where the water boils. The key is being there right at slack water — you've got maybe a 20-minute window before the current picks up and pushes them back down.\n\nBluefish have crashed the party in a big way. These aren't the typical snappers — I'm seeing gorilla blues in the 12 to 15-pound class that are absolutely wrecking expensive plugs. Use a wire leader or you'll be donating tackle all morning. The blues are actually a good sign because they're following the same bait concentrations that are holding the bass.\n\nThe bait situation is what's driving everything. Butterfish showed up early this year and they're thick throughout the eastern Sound. There's also scattered bunker and some squid still hanging around from the spring push. The water temperature has stabilized in the mid-60s, which is perfect for keeping these bait schools concentrated in the rips.\n\nFishers Island has been producing solid blackfish action for those looking to get away from the bass crowds. The 20 to 30-foot drops on the west side of the island are holding keeper tog, especially on the flood tide when the current pushes crabs and other bottom forage into the structure.\n\nLooking ahead, we're coming up on the new moon this weekend, which means spring tides and stronger currents. That should really fire up the rip fishing, but you'll need heavier tackle to deal with the increased flow. I'm expecting the bass to push even tighter to the structure as the current intensifies, so precision drifting will be critical.\n\nThe key to success out here right now is mobility and reading the water. Don't get married to one spot — if the fish aren't there on the first drift, move. The current is constantly shifting these bait schools, and the bass are following. Stay aggressive, stay mobile, and be ready for some of the best eastern Sound fishing we've seen in years.",
+      "tags": [
+        "striped-bass",
+        "three-way-rig",
+        "the-race",
+        "plum-gut",
+        "butterfish",
+        "topwater"
+      ]
+    },
+    {
+      "id": "2026-06-26-central-sound-stratford-shoal-rip-fires-as-bay-water-hits-68-degrees",
+      "writer_id": "central-sound",
+      "writer_name": "David \"The Harbor Scout\" Han",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/central-sound.png",
+      "zone": {
+        "slug": "central-sound",
+        "name": "Central Long Island Sound"
+      },
+      "published_at": "2026-06-26T11:00:42.835439+00:00",
+      "date": "2026-06-26",
+      "headline": "Stratford Shoal rip fires as bay water hits 68 degrees",
+      "subhead": "Bucktails and spearing are connecting on keeper bass as the thermal gradient stacks bait.",
+      "dateline": "STRATFORD SHOAL, CT — June 26",
+      "body_markdown": "The Central Sound is finally showing its summer personality, and the fish are responding exactly how they should. Water temperatures pushed past 68 degrees in the protected harbors this week while the main channel is holding steady around 65 — that 3-degree gradient is creating the kind of thermal breaks that concentrate bait and trigger feeding.\n\nI've been watching the Stratford Shoal rip closely, and Wednesday's outgoing tide told the whole story. Spearing are thick on the up-current side of the shoal, getting pushed over the structure and creating a feeding lane that stretches nearly a quarter-mile downtide. Worked that zone with 3/4-ounce white bucktails tipped with 4-inch spearing, keeping the jig just off bottom as it swept through the break. Connected with three keeper bass between 26 and 32 inches, all hitting on the pause as the bucktail fluttered down.\n\nThe key is reading that rip correctly. Too early in the tide and you're fighting 2 knots of current with nothing to show for it. Too late and the bait disperses. Sweet spot is about two hours into the ebb when the flow moderates to maybe 1.2 knots — fast enough to position bait but manageable for presentation.\n\nPort Jefferson Harbor has been producing consistent action on the flood tide, particularly around the ferry slip pilings. The warmer harbor water is drawing schools of peanut bunker, and bass are following them in. Live-lined bunker on a simple fishfinder rig has been the most reliable approach, though I've also seen fish taken on small diamond jigs worked vertically along the structure. Best action comes in the last hour before high water when the bunker get pushed tight against the pilings.\n\nThe Norwalk Islands circuit is heating up as well. Charles Island's north side has been holding good numbers of blues in the 3 to 8-pound range, with the occasional bass mixed in. They're feeding aggressively on the incoming tide, particularly around the rocky points where current creates ambush zones. Kastmasters and small poppers are both producing, but you need to be there right as the tide starts to flood — the window is narrow but intense.\n\nMiddle Ground Light continues to be my go-to spot for mixed bags. The 40-foot contour around the light has been holding sea bass, porgies, and the occasional fluke. High-low rigs with clam and squid strips are standard, but I've been having better luck with small bucktails bounced along bottom. The structure around the light creates enough current deflection to keep bait active, and the fish respond to movement.\n\nFluke action has been spotty but improving. The 30-foot zone between Oyster Bay and Huntington has produced a few keepers on white Gulp Swimming Mullets rigged on 1/2-ounce jig heads. The key is working the edges where sand meets harder bottom — fluke are staging on these transitions, waiting for the current to deliver bait.\n\nLooking at the lunar calendar, we're approaching a new moon Friday, which means spring tides and stronger currents through the weekend. That should fire up the rips even more, particularly Stratford Shoal and the edges around Middle Ground. The increased water movement will concentrate bait and trigger more aggressive feeding.\n\nWeather looks cooperative through the weekend with light southwest winds and building seas staying under 3 feet. That's perfect for working the mid-Sound structure without getting beat up.\n\nNext week's outlook hinges on how these water temperatures develop. If the bay water continues warming while the main channel stays cooler, we should see even better thermal breaks and more concentrated bait schools. I'm particularly watching for the first real push of adult bunker — when that happens, everything changes in the Central Sound.",
+      "tags": [
+        "striped-bass",
+        "bucktail",
+        "stratford-shoal",
+        "outgoing-tide",
+        "spearing",
+        "thermal-break"
+      ]
+    },
+    {
+      "id": "2026-06-26-western-sound-execution-rocks-trollers-nail-50-pound-class-bass-as-sound-w",
+      "writer_id": "western-sound",
+      "writer_name": "Frank \"The Sound Pro\" Marinaro",
+      "writer_role": "Zone Writer",
+      "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/western-sound.png",
+      "zone": {
+        "slug": "western-sound",
+        "name": "Western Long Island Sound"
+      },
+      "published_at": "2026-06-26T11:00:23.485380+00:00",
+      "date": "2026-06-26",
+      "headline": "Execution Rocks trollers nail 50-pound class bass as Sound water hits prime temps",
+      "subhead": "Big Mojos over the ledges producing oversized stripers on moving water.",
+      "dateline": "EXECUTION ROCKS, NY — June 26",
+      "body_markdown": "The Western Sound is absolutely on fire right now, and I'm telling you — this is what we've been waiting for all season. Water temps have climbed into that magic 68-70 degree range, and the big bass are finally showing up where they're supposed to be.\n\nThe story of the week is happening at Execution Rocks, where trollers are connecting with legitimate 40-plus-inch stripers on large Mojos worked over the ledge structure. The pattern is textbook: morning starts slow, but when that outgoing tide gets moving in the afternoon, the bite switches on like a light. These aren't your typical schoolie bass — we're talking about fish that'll test your drag and your nerves.\n\nThe key is understanding the structure. That ledge at Execution drops from 25 feet to 45 feet in a hurry, and when the current picks up on the ebb, it creates an upwelling that pushes bait right into the strike zone. The bass know this, and they position themselves along that drop-off waiting for an easy meal. Large Mojos — I'm talking 9-inch and bigger — trolled at 3-4 knots are getting crushed when the water starts moving.\n\nBut here's the thing about this bite: it's not just about being there. You need to read the current. When it's slack, you might as well be trolling in a bathtub. But once that water starts ripping on the outgoing — usually about two hours after high tide — that's when the magic happens. The bait gets disoriented, the bass move up to feed, and if you're in the right spot with the right presentation, you're going to get bit.\n\nThe bunker situation is interesting this year. We're seeing good schools of peanuts stacked up off Matinecock Point, but they're not the massive adult bunker we usually get in late June. These are larger peanuts — almost like they skipped a growth stage. But the bass don't care. They're feeding hard on whatever bait is available, and that includes the spearing that are thick along the dock lines and channel edges.\n\nSpeaking of dock fishing, the porgy bite has been solid for anyone looking to put some meat in the cooler. Bloodworms and sandworms around the pilings are producing nice scup, especially in the early morning hours. It's not glamorous fishing, but when the bass bite slows down, it's a reliable way to bend the rod.\n\nFluke fishing has been more of a grind. The Oyster Bay to Lloyd's Neck drift is producing shorts with the occasional keeper, but you're working for every fish. White Gulp Swimming Mullets on 3/4-ounce bucktails seem to be the most consistent producers, but even then, you're looking at a lot of 16-17 inchers before you find that 19-inch keeper. The fish are there, but they're finicky.\n\nThe bluefish have been making appearances too, mostly cocktail-sized fish running the beaches and inlet mouths. They're not the gator blues we'll see later in the summer, but they're aggressive and fun on light tackle. Small metals and poppers are getting the job done when you find them feeding on the surface.\n\nNow, here's what I'm watching for the coming week. We've got a new moon approaching, which means spring tides and stronger currents. That's going to flush more bait out of the back bays and concentrate the feeding fish along the major structure. The Stepping Stones area should light up, especially on the outgoing tide when all that Eastchester Bay water comes pouring through.\n\nWater temperatures are holding steady in the upper 60s to low 70s, which is perfect for this time of year. Any warmer and the fish start to get sluggish in the afternoon heat. Any cooler and they're not as aggressive. Right now, we're in that sweet spot where everything is feeding.\n\nThe weekend forecast looks decent — southwest winds in the 10-15 knot range, which will keep the water clean and provide enough chop to break up the surface. That's important when you're trolling, because flat calm conditions make the fish spooky.\n\nIf you're planning to get out there, focus on the moving water. Don't waste time during slack tide unless you're targeting fluke. The bass want current, and the current is what brings the bait. Hit the ledges, work the channel edges, and keep those Mojos moving. This bite won't last forever, but right now, it's as good as it gets in the Western Sound.",
+      "tags": [
+        "striped-bass",
+        "trolling",
+        "execution-rocks",
+        "mojos",
+        "outgoing-tide",
+        "ledge-structure"
+      ]
+    },
     {
       "id": "2026-06-25-east-canyons-yellowfin-fire-at-hydrographer-as-bluefin-migration-finally-",
       "writer_id": "east-canyons",

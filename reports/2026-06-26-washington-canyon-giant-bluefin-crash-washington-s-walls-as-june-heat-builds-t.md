@@ -1,0 +1,28 @@
+# Giant bluefin crash Washington's walls as June heat builds the thermocline
+*96-inch fish leads parade of quality tuna as canyon structure fires to life.*
+
+**WASHINGTON CANYON — June 26** — _by Capt. Chris "Wash" Morrison, Zone Writer_
+
+The Washington is finally showing its teeth. After weeks of picking at scattered yellowfin and hoping for something better, the canyon delivered what we've been waiting for — a parade of quality bluefin that had boats scrambling to get lines wet on the productive walls.
+
+The action centered on the 100-fathom line where the northwest wall drops hard into the abyss. That's classic Washington structure — the kind of vertical relief that stacks bait and holds big fish when conditions align. And brother, they're aligning now. Water temps have been climbing steadily, building that crucial thermocline at 40 to 50 feet that separates the warm surface layer from the cooler depths below. That temperature break is like a highway for tuna, and the bluefin are using it to patrol the canyon edges.
+
+The standout fish went 96 inches — a legitimate giant that fought like the devil on heavy tackle. But it wasn't alone. Multiple boats reported quality bluefin in the 60 to 80-inch range, all coming off the same general area where the wall structure creates those productive eddies. These fish are feeding aggressively, which tells me the bait situation is finally coming together.
+
+Tactics have been straightforward but precise. Chunking with fresh butterfish has been the most consistent producer, especially when you can get the slick going in that sweet spot where the current wraps around the wall. The key is reading the water — you want to find where that thermocline intersects with structure, creating an ambush point that tuna can't resist. Spreader bars with small cedar plugs have also been effective for boats willing to cover water, particularly when trolling the temperature breaks.
+
+The yellowfin bite continues to be solid but not spectacular. Most fish are running 30 to 50 pounds, which is respectable for late June. They're scattered along the shelf edge, not concentrated like the bluefin, so you need to move around and find the active schools. Live bait has been the ticket when you can find it — peanut bunker or small mackerel on a circle hook, fished in the top 30 feet of water.
+
+Mahi are starting to show in better numbers, though they're still mostly schoolies in the 5 to 15-pound range. The weed lines have been sparse, but when you find good floating structure, it's worth working thoroughly. Small ballyhoo on light tackle or spinning gear with small jigs can produce multiple fish from a single piece of debris.
+
+What's got me excited is the timing. Washington typically fires earlier than the other canyons because of its position relative to the Gulf Stream, and we're right in that sweet spot where the seasonal migration patterns converge with improving water conditions. The thermocline is strengthening daily, bait is moving in from the shelf, and the big fish are following.
+
+The weather window looks favorable for the next several days, with light winds and manageable seas. That's crucial for working the canyon effectively — you need calm conditions to read the water properly and position your boat where the structure and current create those productive zones.
+
+Looking ahead, I expect the bluefin action to intensify as we move toward the new moon. The reduced light penetration during the dark phase often triggers more aggressive feeding, especially on the deeper walls where these fish like to hunt. The key will be finding fresh bait and getting it to the right depth in the right spot.
+
+For anyone planning a Washington run, focus on the northwest wall between the 80 and 120-fathom curves. That's where the structure is most dramatic and the eddies most consistent. Start your day early — first light often produces the best bluefin action — and be prepared to adapt as conditions change. This canyon rewards patience and persistence, but when it turns on, it turns on hard.
+
+---
+
+Tags: bluefin-tuna, yellowfin-tuna, washington-canyon, chunking, thermocline, canyon-walls
