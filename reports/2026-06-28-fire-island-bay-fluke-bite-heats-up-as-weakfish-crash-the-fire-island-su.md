@@ -1,0 +1,24 @@
+# Bay fluke bite heats up as weakfish crash the Fire Island surf
+*Full moon tides flush bait through the inlet while sand eels trigger keeper action from Captree to the bridges.*
+
+**CAPTREE, NY — June 28** — _by Mariana "Mari" Reyes, Zone Writer_
+
+The full moon on Tuesday reset everything in Great South Bay, and the fishing has responded exactly like it should when big water starts moving serious bait around. Those spring tides — we're talking 6-foot swings at the inlet — have been flushing sand eels and spearing out of the back bay channels, and everything with fins has been waiting for the buffet. The water's been clean, running 68 degrees in the bay and pushing 70 on the ocean side, which is right where you want it for late June.
+
+This week's looking even better. We're sliding into the waning gibbous phase, which means the tides stay strong through the weekend but start to mellow out by Tuesday. That's perfect timing — the big water keeps the bait moving, but it's not so ripping that you can't hold bottom or drift properly. Wind's been cooperative too, mostly southwest at 10-15, which keeps the bay fishable even when the ocean gets lumpy.
+
+The fluke bite has been the story of the week, and it's been legit. The Laura Lee boats out of Captree have been putting keepers in the box consistently, working the shallow edges along the Fire Island beaches in 15-25 feet. White Gulp Swimming Mullets on 3/4-ounce bucktails have been the go-to, but the real key is the drift speed — you want to crawl it just fast enough to keep the bucktail off bottom. I've been seeing doormat-class fish to 6 pounds, with most keepers running 18-22 inches. The sand eels are thick right now, and when you match that profile with a slow presentation, the fluke can't help themselves.
+
+What's got me really excited is the weakfish showing up in the surf. A 26-inch, 7-pound fish came out of the Fire Island Inlet surf this week on a 9-inch Gravity Tackle Sand Eel, and that's not a fluke — pun intended. The weakfish have been scattered for years, but when they show up this size in late June, it usually means there's a decent push moving through. I'd be working the inlet mouth at sunset with large sand eel imitations, especially on the outgoing when the bait gets swept out of the bay.
+
+The Robert Moses bridges have been producing mixed bags on the flood tide. Sea bass limits are coming easy on diamond jigs and sabiki rigs in 30-40 feet around the bridge pilings. The ling have been thick too — not glamorous, but they fight hard and eat well. I've been seeing porgies mixed in, along with the occasional blackfish picking at green crabs around the structure. The key is fishing the up-current side of the pilings on the incoming water — that's where the bait gets pinned and the fish set up to feed.
+
+Striper action has been spotty but not dead. The night bite around Captree has produced a few keepers in the 28-33 inch range on Bass Assassins and clam bellies. The fish are there, but they're not aggressive — you need to put the bait right in front of them and wait them out. The full moon probably didn't help, but as we slide into darker nights this week, I expect the bass to get more cooperative.
+
+One thing I'm watching closely is the bait situation. The sand eels are everywhere right now, which is driving the fluke bite, but I'm also seeing good numbers of spearing and small bunker in the bay. When you get that kind of bait diversity in late June, it usually sets up a strong summer bite for everything from fluke to stripers to blues.
+
+Looking ahead, I like the setup for the holiday week. The tides moderate after Tuesday, which should make the fishing more manageable for weekend warriors. Water temps are trending up slowly — I expect to see 70-degree water in the bay by the Fourth of July, which should really turn on the summer patterns. If the southwest wind pattern holds, I'd focus on the ocean-side fluke bite and the inlet mouth for weakfish at sunset. The bay fishing should stay consistent, especially around the bridges on the moving water.
+
+---
+
+Tags: fluke, weakfish, captree-drift, fire-island-surf, sand-eels, full-moon-tides

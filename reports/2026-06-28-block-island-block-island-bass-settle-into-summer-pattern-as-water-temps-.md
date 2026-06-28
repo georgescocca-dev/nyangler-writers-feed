@@ -1,0 +1,24 @@
+# Block Island bass settle into summer pattern as water temps climb past 65
+*Trophy stripers holding deep structure while fluke action picks up on the ledges.*
+
+**BLOCK ISLAND, RI — June 28** — _by Jack Sullivan, Zone Writer_
+
+Last week's weather pattern told the whole story — three days of southwest winds pushed surface temps up another two degrees, and the bass responded exactly how they should when the water hits that magic 66-degree mark. They dropped off the shallow rips and settled into the deeper eddies around the Southwest Ledge, where the cooler water sits at 40 to 50 feet. The quarter moon on Tuesday brought moderate tides, nothing dramatic, but enough current to keep bait moving through the structure without creating the washing-machine effect we get during the springs.
+
+This week's setup looks even better. New moon hits Friday, which means we're building toward spring tides by the weekend — perfect timing as water temps continue their climb toward the summer sweet spot. The forecast shows light and variable winds through Thursday, then a shift to the northeast Friday night that should push some cooler water back inshore. That temperature break could be the key to firing up the bite at the North Rip, where I've been marking good schools of bunker but haven't seen the bass commit yet.
+
+The striped bass fishing has been solid but selective. I'm finding most of my keepers — fish from 32 to 38 inches — working the 45 to 60-foot contours around the Southwest Ledge. The key has been vertical jigging 6-inch white Hogy sand eels right in the current seams where the ledge drops off. You need to feel for that transition zone where the hard bottom gives way to sand — that's where they're stacked. I've had my best success on the last two hours of the incoming tide, when the current slows enough that you can hold your jig in the strike zone without constantly fighting the drift.
+
+Live bait has been producing the bigger fish. I'm running fishfinder rigs with 8-inch scup, dropped right to the bottom in 50 feet of water off the west side of the island. The trick is using just enough weight to hold bottom — too heavy and you lose the natural presentation that triggers these summer bass. I've connected on three fish over 40 inches this week using this setup, including a 44-inch cow that took a scup at slack high tide on Wednesday.
+
+Fluke action has picked up considerably as the water warms. The 30 to 40-foot zone between the island and the mainland has been holding good numbers, with keepers mixed in among the usual shorts. White Gulp Swimming Mullets on 3/4-ounce bucktails have been the most consistent producers, especially when you tip them with a strip of squid. The key is working the drift slow — these summer fluke want a bait that looks like it's struggling, not racing across the bottom.
+
+Blackfish are still around the deeper structure, though they're not as aggressive as they were in May. The windmill foundations continue to hold fish, but you need to get your green crabs right against the pilings. Circle hooks in size 4 or 6 work best — the fish are picking up baits and dropping them quickly in this warmer water.
+
+The bait situation is setting up nicely for the summer bite. Bunker schools are thickening up on the 60 to 80-foot line south of the island, and I'm seeing more adult porgies moving through, which always brings the big bass with them. Sand eels are everywhere in 30 to 50 feet of water — a good sign that the food chain is healthy and the predators won't be far behind.
+
+Looking ahead, Friday's new moon should trigger some serious tide movement by Sunday and Monday. If the northeast wind materializes as forecast, it'll push that thermal layer around and could stack bait against the North Rip. That's where I'd focus if you can get out early next week — the combination of big tides and a temperature break usually produces the kind of fishing that makes the trip to Block Island worthwhile. The bass are here, they're feeding, but they're being selective about when and where. Match your tactics to the conditions, and you'll find them.
+
+---
+
+Tags: striped-bass, vertical-jigging, southwest-ledge, new-moon, live-scup

@@ -1,0 +1,24 @@
+# Bass and drum hold tight to Jersey beaches as water temps climb past 65
+*Clam baits still king in the suds while bay fluke fishing stays spotty through the heat.*
+
+**BARNEGAT LIGHT, NJ — June 28** — _by Joey Napolitano, Zone Writer_
+
+Last week's southwest winds pushed water temps into the mid-60s from Sandy Hook to Cape May, and that thermal shift is changing everything about how we fish the Jersey coast. The waning crescent moon we're working through means smaller tides — good news if you're wading the suds because the water's not ripping as hard, but it also means less bait movement in the inlets. We had five straight days of southwest wind that churned the nearshore water and brought that upwelling everyone talks about, but instead of cooling things down, it just mixed warmer surface water with the cooler stuff below. The result? Steady 64-66 degree water from the beach out to about two miles, which has the bass and drum settled into feeding patterns they'll hold through July.
+
+This week's new moon on Friday changes the game completely. We're looking at spring tides starting Wednesday — bigger water movement, stronger currents, and the kind of tidal flow that flushes bait out of the back bays and stacks it against the beach. The wind forecast shows northwest turning northeast by Thursday, which should clean up the water just in time for the moon tides to do their work. Water temps should hold steady or climb another degree, putting us right in that sweet spot where the bass are aggressive but not yet pushed into their deep summer patterns.
+
+The surf bite from Island Beach State Park down to Barnegat Inlet has been solid all week, but you need to fish it right. Clam is still the king bait — I'm talking fresh surf clam, not the frozen stuff that's been sitting in a bait shop freezer since April. The bass are holding in 8 to 12 feet of water, just outside the first sandbar, and they're feeding best on the two hours before and after slack tide. I've been fishing a simple fishfinder rig with a 6/0 circle hook and just enough weight to hold bottom — usually 3 to 4 ounces depending on the current. The drum are mixed in with the bass, running from schoolies up to 15-pounders, and they're hitting the same clam baits.
+
+Bunker chunks are producing some bass, but not consistently. I had three trips this week where clam outfished bunker five to one, which tells me the fish are keyed in on the shellfish that are getting churned up by all this southwest wind. The bass I'm seeing are healthy fish — mostly in that 6 to 12-pound range with a few bigger ones mixed in. Nothing huge, but solid keeper fish that fight hard in the warm water.
+
+Fluke fishing in the back bays has been frustrating. I spent four hours in Barnegat Bay yesterday and managed one 19-inch keeper out of maybe a dozen fish. The problem isn't finding fluke — they're there — but most of them are shorts. The gulp turbo shrimp on a 3/4-ounce bucktail has been my most consistent producer, fished slow on the drift over the main channels. The fish are holding in 12 to 18 feet, and they're feeding best on the slack water between tide changes. But for every keeper, I'm throwing back four or five shorts.
+
+The inlet fishing at Manasquan has been hit or miss. The shoaling that's been choking that inlet all summer is still there, making navigation tricky, but when you can get to the deeper water on the outgoing tide, there are bass and blues mixed together. Small diamond jigs and bucktails work when you find the fish, but you need to time it right — the hour before slack low has been the most productive window.
+
+Looking ahead to the new moon tides, I'm expecting the bass bite to pick up significantly. Those spring tides will move more bait, and the cooler northwest wind should clean up the water visibility. If I had one day to fish this weekend, I'd hit the surf at first light Saturday with fresh clam and fish the incoming tide at any of the beaches from Seaside down to Beach Haven. The bigger tides mean the bass will push closer to shore to feed, and that northwest wind should lay the water down enough to see what you're doing.
+
+The drum fishing should stay consistent — they're not as tide-dependent as the bass, and they seem to like this warmer water. For the bay fluke, I'd wait until the new moon tides start moving more bait around. Those bigger tide swings might shake loose some of the keeper fish that have been sitting tight in the deeper channels.
+
+---
+
+Tags: striped-bass, black-drum, fluke, clam-bait, surf-fishing, new-moon

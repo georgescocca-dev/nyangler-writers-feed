@@ -1,0 +1,28 @@
+# Central Sound bass scatter as southwest winds churn the water for five straight days
+*Stratford Shoal rip still holding fish, but you'll work for every bite in the chocolate milk.*
+
+**NORWALK, CT — June 28** — _by David "The Harbor Scout" Han, Zone Writer_
+
+Five days of southwest wind at 15-20 knots turned the central Sound into a washing machine this week, and the bass responded exactly how you'd expect — they scattered. Water temps held steady around 68 degrees, but visibility dropped to maybe two feet in most spots as the persistent wind churned up everything from the bottom. The new moon on Tuesday brought spring tides that should have fired up the bite, but when you can't see your bucktail six inches under the surface, even the hungriest bass struggle to find it.
+
+This weekend's forecast shows the wind finally backing off to the northwest at 10-15 knots, which should let the water start to clear. Moon's waxing toward first quarter next Friday, so we're moving into neap tide territory — smaller tidal ranges but more predictable current flow. That's actually good news for the central Sound, where the moderate current lets bait settle into the eddies instead of getting swept through the rips.
+
+The bass are still here, just pushed deeper and tighter to structure. Stratford Shoal's been the most consistent producer this week, especially the northeast corner where the 40-foot contour meets the rip line. You need to get your baits down fast in the current — 3/4-ounce bucktails minimum, and I've been going to full ounces when the water's really moving. White and chartreuse combinations are cutting through the dirty water better than anything subtle.
+
+Best action's been on the last two hours of the outgoing tide when the current starts to ease. The bass slide out of the main flow and set up in the back eddies where they can ambush bait without fighting the water. I'm dragging 5-inch white Gulp Swimming Mullets on those heavy bucktails, keeping them just off the bottom. Three trips out there this week, connected on two of them — not spectacular numbers, but the fish that are eating are quality. Saw bass to 32 inches, with most keepers running 24-28.
+
+The Norwalk Islands circuit has been tougher. Sheffield Island's north side usually holds fish this time of year, but the murky water has them spooked. Tried live peanut bunker on fishfinder rigs around the deeper rocks, but only managed a few short blues and one keeper bass in four hours of fishing. The bait's there — saw pods of bunker getting worked over by terns — but the bass aren't committing in the dirty conditions.
+
+Middle Ground Light's been hit or miss. The structure's holding porgies and some decent sea bass in 35-45 feet, but the stripers seem to have moved off the shallow stuff. Bucktails tipped with squid strips are working for the bottom fish, but you're picking through a lot of shorts to find keepers.
+
+Fluke fishing's been the bright spot this week. The dirty water doesn't seem to bother them as much, and they're spread out along the 30-foot line from Port Jefferson to Stamford. Berkley Gulp in white and pink on 1/2-ounce bucktails, drifted slow with the tide. Best action's been early morning before the wind builds, and again in the evening when it lays down. Saw fluke to 6 pounds this week, with a decent number of 18-20 inchers mixed in.
+
+Weakfish are starting to show in small numbers around Charles Island and the deeper water off Milford. Nothing consistent yet, but I'm seeing a few in the 14-16 inch range on the same bucktail-and-Gulp combo that's working for fluke. They're hitting on the drop more than the retrieve, so work those baits slow and pay attention to your line.
+
+If the wind cooperates this weekend like the forecast suggests, I'd focus on the Stratford Shoal area Saturday morning on the outgoing tide. The water should start clearing by then, and the bass that have been hunkered down all week might start feeding more aggressively. Sunday looks even better — northwest wind at 10 knots should flatten things out nicely for a drift along the Connecticut shoreline drops.
+
+The key this week is adjusting your expectations. This isn't going to be wide-open fishing until the water clears, but there are fish to be caught if you're willing to grind it out. Heavy jigs, bright colors, and patience. The bass didn't leave — they're just waiting for better conditions, same as us.
+
+---
+
+Tags: striped-bass, bucktail, stratford-shoal, outgoing-tide, dirty-water, fluke

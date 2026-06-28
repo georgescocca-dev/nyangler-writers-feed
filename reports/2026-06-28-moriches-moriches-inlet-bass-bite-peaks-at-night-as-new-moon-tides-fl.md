@@ -1,0 +1,26 @@
+# Moriches Inlet bass bite peaks at night as new moon tides flush bait
+*Trophy stripers hitting live spot after dark while fluke fishing stays steady in the shallows.*
+
+**MORICHES, NY — June 28** — _by Pete Gallo, Zone Writer_
+
+The new moon cycle that peaked Wednesday has been reshaping the entire Moriches system, and the bass have responded exactly how the bathymetry suggests they should. Spring tides through the weekend pushed massive volumes of water through the inlet, creating the kind of current breaks and bait concentrations that make trophy stripers predictable. Water temps have stabilized in the upper 60s to low 70s range — warm enough to keep fish active but not so hot that they shut down during the day.
+
+This week's wind pattern tells the real story. Southwest breezes dominated early in the period, which typically muddies the back bay but creates clean water along the inlet's eastern wall where the current sweeps sediment offshore. By Thursday, winds shifted northwest and dropped, setting up textbook conditions for the inlet mouth. The outgoing tide now runs clean and strong, carrying peanut bunker and sand eels from the bay into the surf zone where the bass stack up in the deeper cuts.
+
+The inlet has been producing consistent bass action, particularly after sunset when the bigger fish move into the shallows. Live spot on fishfinder rigs has been the top producer — 4/0 circle hooks on 30-pound fluorocarbon, fished tight to the jetty rocks on the outgoing water. The key depth has been 12 to 18 feet along the eastern drop-off, where the current creates an eddy that holds bait. I've been seeing fish in the 28 to 35-inch range, with a few pushing into trophy territory. The bite window runs from about an hour before sunset through the first two hours of the ebb tide.
+
+Cupsogue Beach has been more consistent for smaller bass during daylight hours. The recent southwest winds carved new cuts in the bar structure, and these deeper pockets are holding fish on the incoming water. Bucktails with white or chartreuse Gulp have been effective — 3/4 to 1-ounce heads depending on the current. Work them slow along the drop-off in 8 to 12 feet. The bass aren't huge — mostly schoolies in the 20 to 26-inch range — but the action has been steady enough to keep rods bent.
+
+Fluke fishing in the back bay continues to improve as water temps climb. The skinny water bite has been particularly good along the channel edges in 4 to 8 feet of water. Ultra-light bucktails in the 1/4 to 3/8-ounce range with small Gulp baits have been the ticket. White and pink combinations work best on the flood tide when the water stays clean. I'm seeing keeper fluke in the 19 to 24-inch range, with the occasional doormat pushing 5 to 6 pounds. The bite has been most consistent during the two hours before high water, when the incoming tide pushes bait into the shallows.
+
+Bait availability has been excellent throughout the system. Peanut bunker are thick in the inlet, particularly on the outgoing tide when they get flushed from the bay. Sand eels have been showing in good numbers along Cupsogue Beach, especially in the early morning hours. Spot have been easy to catch around the marina docks using small hooks and bloodworms.
+
+Bluefish have been mixed into the bass schools at the inlet, running in the 3 to 8-pound range. They're hitting the same live spot rigs but tend to bite more aggressively during the day. Wire leaders become necessary when they're around, though it definitely cuts down on bass strikes.
+
+Looking ahead, the moon enters its first quarter phase this weekend, which means the extreme tides will moderate into neaps by early next week. This typically slows the inlet bite but can improve the back bay fluke action as the gentler current lets fish settle into feeding mode rather than fighting the flow. Weather looks cooperative through the holiday weekend — light winds and partly cloudy skies should keep water temps stable and fishing pressure manageable.
+
+If I had to pick one spot for the weekend, it would be the inlet mouth on Saturday night's outgoing tide. The moon phase is still strong enough to create good current, and the bass have been most active during that two-hour window after sunset. Have live spot ready and fish the eastern wall where the depth drops from 8 to 18 feet. If the inlet doesn't produce, the back bay fluke bite should be solid during Sunday morning's flood tide.
+
+---
+
+Tags: striped-bass, live-spot, moriches-inlet, night-fishing, fluke, outgoing-tide

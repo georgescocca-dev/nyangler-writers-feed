@@ -1,0 +1,28 @@
+# Weakfish crash Jones Inlet as bay temps hit 72 and moon pulls big water
+*Trophy weaks to 7 pounds mixing with keeper bass on the inlet drift as full moon tides flush bait.*
+
+**JONES INLET, NY — June 28** — _by Sal Moretti, Zone Writer_
+
+The full moon Thursday night set up — big water movement, bait getting pushed around, and the first real weakfish bite I've seen in years. Water temps jumped to 72 degrees in the bay this week, and that thermal trigger combined with the spring tides has the inlet absolutely loaded with life. The southwest wind pattern we had Monday through Wednesday kept things stirred up just enough to move sand eels and spearing around without making it unfishable.
+
+This week's moon cycle is textbook summer fishing — we're coming off those big full moon tides that peaked Friday morning, and now we're settling into the back side with strong but manageable water movement. The 6.2-foot high at dawn Saturday dropped to a 5.8 Sunday, but there's still enough push to keep bait moving through the inlet. Next weekend we'll hit the last quarter moon, which means neap tides — lighter current, longer slack periods, and a completely different game plan.
+
+The weakfish showed up like ghosts materializing out of deep water. I've been fishing this inlet for thirty years, and I haven't seen weaks like this since the early 2000s. Thursday night into Friday morning, guys were connecting with fish to 7 pounds on 9-inch sand eel plastics worked slow on the bottom. The key was fishing the inlet mouth on the outgoing tide — not the back bay, not the ocean side, but right where the inlet dumps into the Atlantic and the current creates that perfect feeding zone.
+
+I watched a guy from Atlantic Beach boat a 26-inch weak Friday morning that went 6.8 pounds on a white Slug-Go worked through the current seam. These aren't the little cocktail blues we usually call weakfish — these are legitimate trophy-class fish with shoulders and bellies full of sand eels. The bite window was narrow, maybe two hours around slack before sunrise, but when it happened it was electric.
+
+The striped bass are mixing right in with the weaks, which tells you the bait concentration is serious. Keepers to 32 inches on fresh bunker chunks fished on fishfinder rigs in the deeper holes behind the jetty. The bass are holding in 25 to 30 feet, right where the inlet channel drops off, and they're feeding hard on the outgoing water. Circle hooks are mandatory — these fish are swallowing bait deep, and you need the hook to slide to the corner of the mouth.
+
+Fluke fishing has been solid but not spectacular in the back bay drifts. The Meadowbrook Bridge area is producing steady action on white bucktails tipped with squid or smelt, but most fish are running 15 to 17 inches. I'm seeing plenty of shorts, which is actually encouraging — it means there's a year class moving through. The keeper ratio is maybe one in ten, but when you're catching twenty fish in a morning session, you're going home with dinner.
+
+The inlet has been weedy — typical for this time of year when the water warms and everything starts growing. It's manageable if you're prepared for it, but bring extra rigs because you're going to lose some tackle. The weed is worst on the incoming tide when it gets pushed up from the ocean, so plan your drifts accordingly.
+
+Bait situation is excellent. Peanut bunker are thick in the inlet, sand eels are everywhere, and there's enough spearing in the shallows to keep everything fed. The bait shops in Freeport are well-stocked with fresh squid and killies, but if you can net your own peanuts, that's always the best option.
+
+Looking ahead, this new moon cycle should keep the weakfish bite going through the weekend. The lighter tides mean longer feeding windows, especially in the early morning hours before boat traffic picks up. I'd focus on the inlet mouth from 5 to 7 AM, then shift to the back bay fluke drift if the weaks shut down. The weather looks cooperative — light southwest winds, partly cloudy skies, and no major fronts on the horizon.
+
+The real story here is the return of the weakfish. These aren't just random fish — this looks like a legitimate run of mature spawners that found the right conditions in our inlet. Water temp, bait concentration, moon phase, current flow — everything aligned perfectly this week. Whether it holds through July depends on the bait staying put and the water staying in that 70 to 74 degree sweet spot. But right now, for the first time in years, I'm telling people to bring their light tackle and get ready for some serious weakfish action.
+
+---
+
+Tags: weakfish, striped-bass, jones-inlet, sand-eel, full-moon, outgoing-tide

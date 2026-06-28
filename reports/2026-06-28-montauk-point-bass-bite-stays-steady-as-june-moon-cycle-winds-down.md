@@ -1,0 +1,24 @@
+# Point bass bite stays steady as June moon cycle winds down
+*Consistent stripers in the rips while fluke action picks up on the south side drifts.*
+
+**MONTAUK POINT, NY — June 28** — _by Rich Martin, Zone Writer_
+
+The waning moon has been kind to us this week, settling the tides into a more manageable rhythm after the big spring pushes we saw earlier in the month. We're coming off a last quarter that peaked Tuesday, which means the current's been easing up in the rips — less of that washing-machine action that scatters the bass and more of the steady flow that lets them settle into feeding lanes. Water temps have been climbing steadily into the mid-60s, and with the southwest winds we've had for most of the week, the south side has been fishable more days than not. The new moon hits next Friday, which should fire up the tides again just as we roll into July.
+
+What's got me optimistic is the bait situation. Sand eels are thick from the lighthouse all the way around to Turtle Cove, and I'm seeing more squid than I have in weeks. The bunker that were so scarce early in the month are starting to show in scattered pods, though nothing like the massive schools we'll see come fall. Small cocktail blues in the 1-to-2-pound range have been mixing in with the bass, which is always a good sign — tells me the forage base is healthy and the bigger predators aren't far behind.
+
+The bass fishing has been the story this week. I've been working the rips on both sides of the Point, and while it's not the epic bite some of the charter reports make it sound like, it's been consistent enough to keep you interested. Most of the action has been on the flood tide, especially that first hour when the current starts to build. Diamond jigs in the 3-to-4-ounce range have been the go-to — white and chartreuse seem to be the colors, though I've had luck with plain silver when the water's clean. The key has been working them right in the current seam where the fast water meets the eddy. Let them flutter down, then work them back up with short, sharp jerks.
+
+Size-wise, we're seeing a good mix. Plenty of schoolies in the 24-to-28-inch range, but enough keepers to make it worthwhile. I've put a few fish over 30 inches in the boat this week, with the best going just over 35. The night bite has been producing some of the bigger fish — live eels fished around the boulder fields after sunset. You need to get them right tight to the structure, and be ready for the pickup to be subtle. These fish aren't crushing baits like they will in the fall.
+
+Fluke action on the south side has been picking up as the water warms. The 40-to-60-foot range has been the sweet spot, especially where the bottom transitions from sand to that mixed bottom with scattered rocks. White Gulp on bucktails has been the most consistent producer — 5-inch Swimming Mullets on 3/4-ounce heads, worked slow on the drift. The key is keeping contact with the bottom but not dragging. Let the bucktail bounce, pause, bounce again. Most of the keepers have been coming on that pause.
+
+I'm seeing fish in the 3-to-5-pound range regularly, with a few pushing 6 pounds. The bite has been best on the outgoing tide, especially when there's enough current to keep the boat moving at a good clip. Too slow and you're just feeding the sea robins. Too fast and you're pulling the bait over their heads. It's that Goldilocks zone where the drift is just right.
+
+Porgies have been mixed in with the fluke, though they're not in the massive schools we sometimes see. Clams and squid strips have been working, but you need to get through the bergalls first. The bigger porgies — the ones worth keeping — seem to be holding in slightly deeper water, 50 feet and beyond.
+
+Looking ahead to next week, that new moon Friday should get things interesting. The spring tides will pump more current through the rips, which could scatter the bass temporarily but should also move more bait around. If the southwest wind pattern holds, I'd focus on the north side of the Point for the bass — North Bar and the deeper water off Shagwong. The south side should stay productive for fluke, especially if we get a day or two of lighter wind to clean up the water. Water temps should continue climbing toward 70, which will only help the fluke bite and might start to pull some of the bigger bass deeper during the day.
+
+---
+
+Tags: striped-bass, fluke, diamond-jigs, montauk-point, south-side, new-moon
