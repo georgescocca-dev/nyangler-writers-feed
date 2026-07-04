@@ -57,6 +57,12 @@ WRITER_TO_ZONE_BUCKET = {
     "peconic": "peconic",
     "block-island": "block-island",
     "nj-shore": "nj-shore",
+    # Offshore canyon captains — map to offshore bucket for forum intel
+    "hudson-canyon": "offshore",
+    "wilmington-canyon": "offshore",
+    "washington-canyon": "offshore",
+    "south-canyons": "offshore",
+    "east-canyons": "offshore",
 }
 
 
@@ -140,14 +146,78 @@ HARD RULES (break these and we pull the column):
 
 4. NEVER say "phish." Always "fish."
 
+BANNED PHRASES — never use any of these. They are clichés that make
+every writer sound the same:
+
+- "on fire" / "absolutely on fire" / "lit up"
+- "finally woke up" / "finally showing"
+- "firing on all cylinders"
+- "responding exactly how they should" / "responding like they should"
+- "and I'm telling you" / "and I mean really" / "and I mean *firing*"
+- "the kind of fishing that makes you forget about..."
+- "everything we've been waiting for"
+- "the kind of [fish] that makes you remember why..."
+- "officially here" / "officially summer" / "officially arrived"
+- "the water's telling a story" (find a different way to say it)
+
+If you catch yourself using any of these phrases, stop and rewrite.
+
+HONESTY — THIS IS CRITICAL:
+
+Fishing is not always good. Real anglers get skunked. Real anglers
+have tough sessions, tough weeks, tough conditions. Your readers are
+anglers — they know when they're being sold a bill of goods.
+
+- If the bite is genuinely on, say so — but don't oversell it. "Solid
+  bass action" is fine. "The greatest fishing of all time" is not.
+- If the bite is mixed or spotty, SAY SO. "The bass are here but scattered
+  — I covered twenty miles of beach to put three keepers in the truck"
+  is a better report than pretending it was easy.
+- If the bite is slow, SAY SO. "Tough week on the Sound. The wind's been
+  out of the southwest for five days straight, churned the water into
+  milo, and the bass have lockjaw. Here's what I'd do differently..." is
+  a real report. Anglers respect honesty. They don't respect cheerleading.
+- Never give the impression that a reader is guaranteed to catch fish.
+  "Worth a shot if you can get out before the front pushes through" is
+  honest. "Get out there NOW, it's going off!" is not.
+- A report that says "the fishing was slow but here's what I learned"
+  is more valuable than one that says "epic bite, get out there!"
+
+THE CONDITIONS PRELUDE — REQUIRED:
+
+Before you get into what's being caught, open with 1-2 paragraphs of
+conditions analysis. This is where you show your expertise. Cover:
+
+- WHAT HAPPENED LAST WEEK: How did the tides set up? What did the wind
+  do? Did water temps move? Was there a moon phase that mattered? Did a
+  front push through? Did a storm roll the water?
+- WHAT'S COMING THIS WEEK: Moon phase (new, full, quarter, waxing,
+  waning — and what it means for tides and feeding). Tide heights and
+  timing. Wind forecast. Any weather systems approaching. Water temp
+  trend (warming, cooling, stable).
+- THE WHY: Connect these conditions to what the fish are doing or will
+  do. "Last quarter moon on Friday means neap tides this weekend — the
+  current slows at the rips, which lets the bass settle into the eddies
+  and feed at slack instead of holding in the current lane. That changes
+  where I'd fish and when." That's the kind of analysis that separates a
+  real angler from a reporter.
+
+Use the tide_moon, bite_windows, emerging_patterns, and key_predictions
+data from your analyst package. That's your source for moon phases, tide
+heights, thermal patterns, and what the oceanography is doing. Weave it
+into YOUR voice — don't just list data points. Interpret them the way
+an experienced angler would.
+
+This prelude is NOT optional. Every report opens with conditions and
+the look-ahead, THEN moves into what's being caught.
+
 WHAT MAKES A GREAT REPORT:
 
-• CATCHES AND TACTICS FIRST. People read fishing reports to find out what
-  people are catching and how. Lead with the action: what species are
-  being taken, where, on what (specific baits, lures, rigs, presentations),
-  at what depth, on which tide. "Fluke to 6 pounds on white Gulp and
-  chartreuse bucktails in 30 feet off the Robert Moses bridge, outgoing
-  water" — that's what readers want.
+• CATCHES AND TACTICS — after the prelude, get into what's being
+  caught: species, sizes, where, on what (specific baits, lures, rigs,
+  presentations), at what depth, on which tide. "Fluke to 6 pounds on
+  white Gulp and chartreuse bucktails in 30 feet off the Robert Moses
+  bridge, outgoing water" — that's what readers want.
 
 • BE SPECIFIC ABOUT BAIT AND TECHNIQUE. Don't say "soft plastics are
   working." Say "5-inch white Gulp Swimming Mullets on 3/4-oz bucktails,
@@ -156,37 +226,83 @@ WHAT MAKES A GREAT REPORT:
 
 • EXPLAIN THE WHY. You're not just a reporter — you understand fish
   behavior. Why are the bass hitting here and not there? Because the
-  thermocline set up at 45 feet and pushed bait against the shelf. Because
-  the new moon spring tides are flushing bunker out of the bay. Because
-  the eddy off the canyon wall is holding 68-degree water while everything
-  around it is 62. Connect the dots between conditions, bait, and fish.
+  thermocline set up at 45 feet and pushed bait against the shelf.
+  Because the new moon spring tides are flushing bunker out of the bay.
+  Because the eddy off the canyon wall is holding 68-degree water while
+  everything around it is 62. Connect the dots between conditions, bait,
+  and fish.
 
-• MOON, TIDE, AND CURRENT MATTER. Talk about the lunar phase and what it
-  means — spring tides flush bait, neap tides let fish settle. Name the
-  tide stage that's producing. Talk about current speed at the rips, how
-  it affects presentation, when to be there.
-
-• WATER CONDITIONS IN CONTEXT. Don't just list a buoy reading. Tell us
-  what it means: "Bay water hit 66 this week, a solid 4 degrees warmer
-  than the ocean side of the inlet — that gradient is what's stacking
-  bait on the flood and holding bass on the ebb."
-
-• YOUR VOICE, YOUR PERSONALITY. You have a distinct way of talking. Use
-  it. If you're a night-fishing specialist, your report should feel
+• YOUR VOICE, YOUR PERSONALITY. You have a distinct way of talking.
+  Use it. If you're a night-fishing specialist, your report should feel
   different from the guy who runs a center-console out of Montauk. Your
-  cadence, your vocabulary, your obsessions — let them show.
+  cadence, your vocabulary, your obsessions — let them show. Your
+  opening line should sound like YOU, not like a fishing report template.
 
 • THE LOOK-AHEAD. End with what you expect in the coming week and why.
   "Full moon Friday means big tides — I'm watching the inlet drain at
   sunset for the first real run of weakfish."
 
-STRUCTURE: Write it YOUR way. No required paragraph count. Some weeks need
-600 words, some need 800. Some reports want a slow build, others hit you
-with the headline catch first. Match the energy to the week. Just make
-sure every report has: what's being caught, how, where, why the conditions
-are producing, and what's coming next.
+PREDICTIONS AND THE LOOK-AHEAD — HOW TO FRAME UNCERTAINTY:
 
-LENGTH: 600–900 words.
+You're a fisherman, not a psychic. Your predictions should sound like
+an experienced angler making an educated call — confident in the
+reasoning, honest about the uncertainty, without ever saying
+"nothing is guaranteed" or "no guarantees" or any variation of that
+disclaimer. Anglers know fishing is unpredictable. They don't need
+you to remind them. They need you to tell them what the conditions
+suggest and where they'd put their time.
+
+Frame predictions through one of these natural angler approaches:
+
+- CONDITIONAL: "IF the wind lays down Saturday night, the drift at
+  the lighthouse should set up perfect for the early flood. That's
+  where I'd start." The IF does the hedging for you — it says "this
+  depends on something I can't control" without saying "no guarantees."
+
+- ODDS-BASED: "Three trips out there this week, connected on two of
+  them. Those are good numbers for late June, but it's not a sure
+  thing — you still need the right tide and a little luck." Real
+  numbers, real context, honest framing.
+
+- SCENARIO: "Best case, the eddy holds through Tuesday and the tuna
+  stay stacked on the 100-fathom line. If it slides east like it did
+  last month, I'd shift to the flats. Either way, the water's warm
+  enough that something's going to eat." Acknowledges multiple
+  outcomes without hedging.
+
+- EXPERIENCE-BASED: "I've seen this pattern before — neap tides in
+  late June, the bass slide off the rips and settle into the deeper
+  eddies. Doesn't mean it's guaranteed, but that's where I'd put my
+  time." Your track record IS the credibility. No disclaimer needed.
+
+- WHAT YOU'D DO: "If I had one day this weekend, I'd fish the
+  Sunday morning flood at the inlet. The moon's right, the tide's
+  right, and there are enough fish around to make it worth the trip.
+  But I'd have a Plan B — the back bay fluke drift if the bass
+  don't show." Showing you have a Plan B says more about uncertainty
+  than any disclaimer.
+
+NEVER use these phrases — they're the verbal equivalent of a
+disclaimer and they kill credibility:
+
+- "nothing is guaranteed" / "no guarantees"
+- "as always, fishing is unpredictable"
+- "but that's fishing" / "that's why they call it fishing"
+- "results may vary"
+- "I can't promise anything"
+
+Instead, let the conditions do the hedging. Name what needs to
+happen for the prediction to play out. That's how real anglers talk.
+
+STRUCTURE: Open with the conditions prelude (1-2 paragraphs), then
+move into catches and tactics in whatever structure fits the week. Some
+weeks the prelude is the whole story (tough conditions, slow bite, here's
+why). Some weeks it's a quick setup before the catches take over. Match
+the energy to the week — but the prelude is always there.
+
+LENGTH: 800–1100 words. The conditions prelude is roughly 200 words on
+its own, then 600+ for the catches and look-ahead. If your report is
+under 800 words, you are leaving out analysis the reader needs.
 
 OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
 
@@ -194,7 +310,7 @@ OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
   "headline": "string, max 90 chars. Punchy, specific, says what happened. e.g. 'Doormat fluke crash the Captree drift as bay water hits 66' or 'Bunker blitz fires the Rye rocks at sunset'",
   "subhead": "string, one sentence, max 160 chars. The hook that makes you read the whole thing.",
   "dateline": "string, e.g. 'CAPTREE, NY — June 12'",
-  "body_markdown": "string. 600–900 words of flowing prose — NO H2 or H3 headings, NO bullet lists, NO blockquotes. Just your voice in paragraphs.",
+  "body_markdown": "string. 800-1100 words. Opens with 1-2 paragraphs of conditions and moon/tide/weather analysis (the prelude), then flows into catches and tactics. NO H2 or H3 headings, NO bullet lists, NO blockquotes. Just your voice in paragraphs.",
   "tags": ["3–6 lowercase hyphen-tags: species, technique, location focused. e.g. fluke, bucktail, captree-drift, outgoing-tide, bunker"]
 }
 """
@@ -335,6 +451,10 @@ def filter_analyst_for_zone(analyst: dict, zone_slug: str, writer: dict) -> dict
         "wind_pattern": analyst.get("wind_pattern", {}),
         "thermal_structure": analyst.get("thermal_structure", {}),
         "wave_state": analyst.get("wave_state", {}),
+        "tide_moon": analyst.get("tide_moon", {}),
+        "bite_windows": analyst.get("bite_windows", []),
+        "emerging_patterns": analyst.get("emerging_patterns", []),
+        "key_predictions": analyst.get("key_predictions", []),
     }
     # regional_outlook is now a dict keyed by zone slug
     ro = analyst.get("regional_outlook", {})
@@ -485,15 +605,26 @@ def build_prompt(writer: dict, reports: list[dict], sst: dict, analyst: dict, yo
             "background_forum_chatter_DO_NOT_CITE": background_reports,
             "task": (
                 "Write this week's fishing report for your zone. "
-                "Lead with what's being CAUGHT — species, sizes, tactics, "
-                "baits, specific spots. Use the Dr. Fish analyst data to "
-                "explain WHY conditions are producing. The forum chatter and "
-                "YouTube intel are BACKGROUND ONLY — synthesize it into your "
-                "voice, never cite users or video channels. Write it like "
-                "YOUR column — your voice, your personality, your way of "
-                "reading the water. Be specific on baits and rigs. "
-                "Return ONLY the JSON object specified — no preamble, no "
-                "markdown code fence."
+                "OPEN with 1-2 paragraphs of conditions analysis — what "
+                "happened last week (tides, wind, water temps, moon), "
+                "what's coming this week (moon phase, tide heights, "
+                "weather systems, temp trends), and WHY it matters to "
+                "the fishing. Use the tide_moon, bite_windows, "
+                "emerging_patterns, and key_predictions from your "
+                "analyst data. Then move into what's being CAUGHT — "
+                "species, sizes, tactics, baits, specific spots. "
+                "Be honest about the bite quality — if it's slow or "
+                "mixed, say so. Anglers respect honesty, not hype. "
+                "Use the Dr. Fish analyst data to explain WHY "
+                "conditions are producing. The forum chatter and "
+                "YouTube intel are BACKGROUND ONLY — synthesize it "
+                "into your voice, never cite users or video channels. "
+                "Write it like YOUR column — your voice, your "
+                "personality, your way of reading the water. Be "
+                "specific on baits and rigs. Return ONLY the JSON "
+                "object specified — no preamble, no markdown code "
+                "fence. Remember: open with conditions/moon/tide "
+                "analysis, then catches, then look-ahead."
             ),
         },
         indent=2,
@@ -522,7 +653,7 @@ def call_openrouter(system: str, user: str, model: str) -> str:
             {"role": "user", "content": user},
         ],
         "temperature": 0.4,
-        "max_tokens": 2200,
+        "max_tokens": 8000,
     }
     req = urllib.request.Request(
         "https://openrouter.ai/api/v1/chat/completions",
@@ -537,16 +668,81 @@ def call_openrouter(system: str, user: str, model: str) -> str:
     )
     with urllib.request.urlopen(req, timeout=120) as resp:
         data = json.loads(resp.read().decode("utf-8"))
-    return data["choices"][0]["message"]["content"]
+    choice = data["choices"][0]
+    content = choice["message"].get("content")
+    if content is None:
+        raise SystemExit(
+            f"Model returned null content (finish_reason={choice.get('finish_reason')}). "
+            "May need higher max_tokens or the model returned only reasoning."
+        )
+    return content
 
 
 def parse_llm_json(raw: str) -> dict:
-    """Strip code fences if the model wraps the response."""
+    """Strip code fences and find the JSON object in the response."""
     raw = raw.strip()
     if raw.startswith("```"):
         raw = re.sub(r"^```(?:json)?\n", "", raw)
         raw = re.sub(r"\n```$", "", raw)
+    # Some models (Sonnet 5) sometimes prepend prose before the JSON.
+    # Find the first { and try to parse from there.
+    json_start = raw.find("{")
+    if json_start > 0:
+        raw = raw[json_start:]
+    # Also handle trailing text after the JSON
+    # Find the last } and trim after it
+    json_end = raw.rfind("}")
+    if json_end > 0 and json_end < len(raw) - 1:
+        raw = raw[:json_end + 1]
     return json.loads(raw)
+
+
+# Phrases the LLM uses despite being told not to. We strip them post-hoc
+# rather than re-rolling the generation (which costs another API call).
+BANNED_PHRASES = [
+    "absolutely on fire",
+    "on fire",
+    "lit up",
+    "finally woke up",
+    "finally showing",
+    "firing on all cylinders",
+    "responding exactly how they should",
+    "responding like they should",
+    "and I'm telling you",
+    "and I mean really",
+    "everything we've been waiting for",
+    "officially here",
+    "officially summer",
+    "officially arrived",
+    "the water's telling a story",
+    # Disclaimer phrases — kill credibility
+    "nothing is guaranteed",
+    "no guarantees",
+    "as always, fishing is unpredictable",
+    "that's why they call it fishing",
+    "but that's fishing",
+    "results may vary",
+    "i can't promise anything",
+]
+
+
+def scrub_report(report: dict) -> dict:
+    """Post-process LLM output: strip banned phrases, ensure required fields."""
+    body = report.get("body_markdown", "")
+    for phrase in BANNED_PHRASES:
+        # Case-insensitive replace, preserving surrounding context
+        pattern = re.compile(re.escape(phrase), re.IGNORECASE)
+        body = pattern.sub("", body)
+    # Clean up any double spaces left by removals
+    body = re.sub(r"  +", " ", body)
+    body = re.sub(r"\n +", "\n", body)
+    report["body_markdown"] = body.strip()
+
+    # Ensure tags exists (LLM occasionally drops it)
+    if not report.get("tags"):
+        report["tags"] = []
+
+    return report
 
 
 # ---------------------------------------------------------------------------
@@ -724,8 +920,8 @@ def rebuild_reports_index() -> dict:
 def main() -> int:
     p = argparse.ArgumentParser(description="Generate a fishing report for a writer.")
     p.add_argument("writer_id", help="e.g. fire-island, jamaica-bay")
-    p.add_argument("--model", default="anthropic/claude-sonnet-4",
-                   help="OpenRouter model id (default: anthropic/claude-sonnet-4)")
+    p.add_argument("--model", default="anthropic/claude-sonnet-5",
+                   help="OpenRouter model id (default: anthropic/claude-sonnet-5)")
     p.add_argument("--limit", type=int, default=30, help="Max source reports to include (default 30)")
     p.add_argument("--dry-run", action="store_true", help="Print the report; do not write files.")
     args = p.parse_args()
@@ -761,6 +957,8 @@ def main() -> int:
     except json.JSONDecodeError as e:
         print(f"[error] model returned non-JSON: {e}\n---\n{raw[:1200]}", file=sys.stderr)
         return 1
+
+    report = scrub_report(report)
 
     if args.dry_run:
         print(json.dumps(report, indent=2, ensure_ascii=False))

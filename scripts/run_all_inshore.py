@@ -42,6 +42,16 @@ INSHORE_WRITERS = [
     "nj-shore",
 ]
 
+OFFSHORE_WRITERS = [
+    "hudson-canyon",
+    "wilmington-canyon",
+    "washington-canyon",
+    "south-canyons",
+    "east-canyons",
+]
+
+ALL_WRITERS = INSHORE_WRITERS + OFFSHORE_WRITERS
+
 
 def main() -> int:
     p = argparse.ArgumentParser()
@@ -52,7 +62,7 @@ def main() -> int:
     p.add_argument("--only", nargs="*", help="Only run these writer ids")
     args = p.parse_args()
 
-    targets = args.only if args.only else INSHORE_WRITERS
+    targets = args.only if args.only else ALL_WRITERS
     results: list[tuple[str, str, str]] = []  # (writer_id, status, headline_or_err)
 
     print(f"[batch] running {len(targets)} writers; cooldown={args.cooldown}s; dry_run={args.dry_run}")
