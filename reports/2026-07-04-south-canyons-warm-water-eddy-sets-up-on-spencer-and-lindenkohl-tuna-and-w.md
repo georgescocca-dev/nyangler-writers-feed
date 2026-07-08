@@ -21,4 +21,4 @@ Looking ahead, the easing tides this week should make it a little more comfortab
 
 ---
 
-Tags: 
+Tags: yellowfin-tuna, new-moon-tides, south-canyons

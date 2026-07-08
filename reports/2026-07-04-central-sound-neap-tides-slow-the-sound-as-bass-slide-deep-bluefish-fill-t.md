@@ -19,4 +19,4 @@ Looking ahead, I'd fish the turns of the tide hard this week rather than trying 
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, bluefish, porgy, weakfish, bonito

@@ -21,4 +21,4 @@ Looking ahead: if the wind lays down over the holiday weekend and the neap tide 
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, porgy, bucktail, new-moon-tides, outgoing-tide

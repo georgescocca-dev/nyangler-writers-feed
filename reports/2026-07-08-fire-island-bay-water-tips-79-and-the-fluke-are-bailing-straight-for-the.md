@@ -21,4 +21,4 @@ Looking ahead: with the new moon building through the weekend and into next week
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, bluefish, porgy, weakfish, bonito

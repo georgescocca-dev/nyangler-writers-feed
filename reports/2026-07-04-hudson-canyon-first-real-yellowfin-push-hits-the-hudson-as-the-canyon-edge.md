@@ -21,4 +21,4 @@ Looking ahead, the tide's only going to get friendlier through the weekend as we
 
 ---
 
-Tags: 
+Tags: yellowfin-tuna, bluefin-tuna, bunker, new-moon-tides, incoming-tide, hudson-canyon

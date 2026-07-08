@@ -19,4 +19,4 @@ Looking ahead: with tides easing toward the new moon this week, I'd fish the slo
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, bluefish, weakfish, bucktail, bunker

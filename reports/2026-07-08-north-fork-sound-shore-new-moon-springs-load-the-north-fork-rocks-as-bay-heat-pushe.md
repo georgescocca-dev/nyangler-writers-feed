@@ -21,4 +21,4 @@ Looking ahead, my time this weekend is going into that Friday-through-Monday sun
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, bluefish, porgy, weakfish, bucktail

@@ -19,4 +19,4 @@ Looking ahead, if the tides keep building through the week like they should off 
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, bluefish, porgy, weakfish, bucktail

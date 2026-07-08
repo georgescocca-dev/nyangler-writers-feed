@@ -19,4 +19,4 @@ My read for the week: Wednesday-Thursday is the best window to run the Poor Man'
 
 ---
 
-Tags: 
+Tags: yellowfin-tuna, bluefin-tuna, new-moon-tides, south-canyons

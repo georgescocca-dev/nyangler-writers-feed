@@ -19,4 +19,4 @@ One more thing before you head out — the community lost a good man this week, 
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, bluefish, porgy, weakfish, bucktail

@@ -27,4 +27,4 @@ The eastern Sound is hitting its stride. Get out there and get bent.
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, porgy, weakfish, bucktail, new-moon-tides

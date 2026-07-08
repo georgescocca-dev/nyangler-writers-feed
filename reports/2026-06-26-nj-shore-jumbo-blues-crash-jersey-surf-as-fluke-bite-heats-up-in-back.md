@@ -23,4 +23,4 @@ Looking ahead, if this weather pattern holds with light winds and warm nights, w
 
 ---
 
-Tags: 
+Tags: striped-bass, fluke, bluefish, weakfish, bucktail, bunker
