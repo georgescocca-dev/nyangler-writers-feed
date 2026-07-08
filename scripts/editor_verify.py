@@ -34,6 +34,22 @@ EXPECTED_ZONES = [
     "washington-canyon",
     "south-canyons",
     "east-canyons",
+    # CT expansion (July 2026)
+    "western-ct-sound",
+    "central-ct-sound",
+    "lower-ct-river",
+    "eastern-ct-sound",
+    "thames-river-new-london",
+    "fishers-island-sound-stonington",
+    "ct-offshore",
+    # NJ expansion (July 2026)
+    "raritan-bay-sandy-hook",
+    "northern-nj-shore",
+    "barnegat-bay",
+    "long-beach-island",
+    "south-jersey-shore",
+    "cape-may-delaware-bay",
+    "nj-offshore",
 ]
 
 FEED_REPO = Path(__file__).resolve().parent.parent
