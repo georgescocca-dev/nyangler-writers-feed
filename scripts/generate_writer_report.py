@@ -37,7 +37,6 @@ WORKSPACE = Path("/Users/spartacus/.hermes/workspace")
 NOREASTER = WORKSPACE / "projects" / "noreaster-intel"
 SRC_ROSTER = NOREASTER / "config" / "writers_roster.json"
 SRC_REPORTS = NOREASTER / "data" / "raw" / "nyangler"
-SST_LATEST = NOREASTER / "sst-pipeline" / "output" / "latest.json"
 FEED_REPO = WORKSPACE / "projects" / "nyangler-writers-feed"
 REPORTS_DIR = FEED_REPO / "reports"
 REPORTS_INDEX = FEED_REPO / "reports.json"
@@ -77,7 +76,13 @@ def load_writer(writer_id: str) -> dict:
     raise SystemExit(f"writer not found: {writer_id}")
 
 
-def load_recent_reports(zone_slug: str, limit: int = 30) -> list[dict]:
+def load_recent_reports(zone_slug: str, writer_id: str | None = None, limit: int = 30) -> list[dict]:
+    """Load forum fishing reports for a zone.
+
+    If writer_id is provided, only returns reports dated AFTER the writer's
+    most recent generated report — so we only feed new intel each cycle.
+    Falls back to last `limit` reports if no prior report exists.
+    """
     bucket_dir = SRC_REPORTS / zone_slug
     if not bucket_dir.exists():
         return []
@@ -88,15 +93,33 @@ def load_recent_reports(zone_slug: str, limit: int = 30) -> list[dict]:
                 reports.append(json.loads(line))
             except json.JSONDecodeError:
                 continue
+
+    # If we have a writer_id, find their most recent report and only keep
+    # forum posts dated after that report.
+    if writer_id:
+        cutoff_date = None
+        writer_reports = sorted(
+            REPORTS_DIR.glob(f"*{writer_id}*.json"), reverse=True
+        )
+        if writer_reports:
+            fname = writer_reports[0].name
+            if fname.startswith("20"):
+                try:
+                    last_date_str = fname[:10]  # e.g. "2026-06-24"
+                    cutoff_date = last_date_str
+                except (ValueError, IndexError):
+                    pass
+
+        if cutoff_date:
+            reports = [r for r in reports if r.get("date", "") > cutoff_date]
+
     reports.sort(key=lambda r: r.get("date", ""), reverse=True)
     return reports[:limit]
 
 
-def load_sst() -> dict:
-    try:
-        return json.loads(SST_LATEST.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        return {}
+ANALYST_DIR = NOREASTER / "data" / "analysis"
+YOUTUBE_WEEKLY_DIR = NOREASTER / "data" / "knowledge" / "youtube_weekly_reports"
+YOUTUBE_KNOWLEDGE = NOREASTER / "data" / "knowledge" / "fishing_knowledge.jsonl"
 
 
 def shorten_report(r: dict, max_chars: int = 700) -> dict:
@@ -314,11 +337,6 @@ OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
   "tags": ["3–6 lowercase hyphen-tags: species, technique, location focused. e.g. fluke, bucktail, captree-drift, outgoing-tide, bunker"]
 }
 """
-
-
-ANALYST_DIR = NOREASTER / "data" / "analysis"
-YOUTUBE_WEEKLY_DIR = NOREASTER / "data" / "knowledge" / "youtube_weekly_reports"
-YOUTUBE_KNOWLEDGE = NOREASTER / "data" / "knowledge" / "fishing_knowledge.jsonl"
 
 
 def load_latest_analyst(writer_id: str | None = None) -> dict:
@@ -566,7 +584,7 @@ def load_recent_youtube_intel(zone_slug: str, days: int = 14) -> list[dict]:
     return results[:50]  # Cap to keep prompt size reasonable
 
 
-def build_prompt(writer: dict, reports: list[dict], sst: dict, analyst: dict, youtube_intel: list[dict] = None) -> tuple[str, str]:
+def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel: list[dict] = None) -> tuple[str, str]:
     """Returns (system_prompt, user_prompt)."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     beat = {
@@ -582,12 +600,6 @@ def build_prompt(writer: dict, reports: list[dict], sst: dict, analyst: dict, yo
         "style_tags": writer.get("style_tags", []),
     }
     background_reports = [shorten_report(r) for r in reports]
-    sst_summary = ""
-    if sst:
-        sst_summary = (
-            f"Latest published SST package date: {sst.get('latest_date')}. "
-            f"Available dates in catalog: {', '.join(sst.get('available_dates', []))}."
-        )
 
     system = (
         writer.get("system_prompt", "")
@@ -600,7 +612,6 @@ def build_prompt(writer: dict, reports: list[dict], sst: dict, analyst: dict, yo
             "today": today,
             "beat_profile": beat,
             "primary_intel_dr_fish_oceanographic_analyst": analyst,
-            "sst_pipeline_status": sst_summary,
             "youtube_intel_DO_NOT_CITE": youtube_intel or [],
             "background_forum_chatter_DO_NOT_CITE": background_reports,
             "task": (
@@ -791,6 +802,29 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
     ]
     out_md.write_text("\n".join(md) + "\n", encoding="utf-8")
 
+    # Also write to the unified fishing intel database
+    import hashlib as _hl
+    UNIFIED_DB = NOREASTER / "intel" / "data" / "fishing_intel.jsonl"
+    uid = _hl.sha1(f"{today.isoformat()}{writer.get('id','')}{report.get('headline','')[:50]}".encode()).hexdigest()[:16]
+    unified_entry = {
+        "id": uid,
+        "timestamp": today.isoformat(),
+        "date": today.strftime("%Y-%m-%d"),
+        "source_type": "writer_report",
+        "zone": writer.get("zone_slug", ""),
+        "region": writer.get("zone_name", ""),
+        "species": [],  # extracted later by catch marker script
+        "techniques": [],
+        "conditions": [],
+        "summary": report.get("headline", ""),
+        "detail": report.get("body_markdown", ""),
+        "lat": None,
+        "lon": None,
+        "bucket": writer.get("zone_slug", ""),
+    }
+    with open(UNIFIED_DB, "a") as f:
+        f.write(json.dumps(unified_entry, ensure_ascii=False) + "\n")
+
     return publication
 
 
@@ -928,15 +962,14 @@ def main() -> int:
 
     writer = load_writer(args.writer_id)
     zone_slug = WRITER_TO_ZONE_BUCKET.get(writer["id"]) or writer.get("zone_slug") or writer["id"]
-    reports = load_recent_reports(zone_slug, limit=args.limit)
-    sst = load_sst()
+    reports = load_recent_reports(zone_slug, writer_id=args.writer_id, limit=args.limit)
     raw_analyst = load_latest_analyst(writer_id=args.writer_id)
     analyst = filter_analyst_for_zone(raw_analyst, zone_slug, writer)
     youtube_intel = load_recent_youtube_intel(zone_slug, days=14)
 
     print(
         f"[gen] writer={writer['name']} zone={zone_slug} "
-        f"forum_bg={len(reports)} sst={sst.get('latest_date')} "
+        f"forum_bg={len(reports)} "
         f"analyst={'yes' if analyst else 'NO'} "
         f"analyst_runs={len(raw_analyst.get('prior_analyst_runs_since_last_report', [])) + 1 if raw_analyst else 0} "
         f"regional_match={len(analyst.get('regional_outlook_for_beat', []))} "
@@ -949,7 +982,7 @@ def main() -> int:
             file=sys.stderr,
         )
 
-    system, user = build_prompt(writer, reports, sst, analyst, youtube_intel)
+    system, user = build_prompt(writer, reports, analyst, youtube_intel)
     print(f"[gen] calling {args.model} (prompt={len(system)+len(user):,} chars)", file=sys.stderr)
     raw = call_openrouter(system, user, args.model)
     try:

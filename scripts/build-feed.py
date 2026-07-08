@@ -2,7 +2,7 @@
 """
 Build the public writers.json feed from the internal Nor'easter roster.
 
-Source: /Users/spartacus/.hermes/workspace/projects/noreaster-intel/config/writers_roster.json
+Source: /Users/spartacus/.hermes/workspace/noreaster/intel/config/writers_roster.json
 Output: writers.json (in the repo root) + portraits/<id>.png
 
 Strips internal-only fields (system_prompt, portrait_prompt, model) so they
@@ -18,8 +18,8 @@ import shutil
 import sys
 from pathlib import Path
 
-SRC_ROSTER = Path("/Users/spartacus/.hermes/workspace/projects/noreaster-intel/config/writers_roster.json")
-SRC_PORTRAITS = Path("/Users/spartacus/.hermes/workspace/projects/noreaster-intel/assets/writer-portraits")
+SRC_ROSTER = Path("/Users/spartacus/.hermes/workspace/noreaster/intel/config/writers_roster.json")
+SRC_PORTRAITS = Path("/Users/spartacus/.hermes/workspace/noreaster/intel/assets/writer-portraits")
 OUT_ROOT = Path(__file__).resolve().parent.parent      # repo root
 OUT_JSON = OUT_ROOT / "writers.json"
 OUT_PORTRAITS = OUT_ROOT / "portraits"
