@@ -1,0 +1,26 @@
+# Bass Holding on the Boulders as New Moon Springs Build Toward the Weekend
+*Stripers are scattered but present in the rips, bluefin are showing off the back side, and the real window opens with Friday's tide push.*
+
+**MONTAUK, NY — July 8** — _by Rich Martin, Zone Writer_
+
+We're in that stretch of July where the Point makes you work for it, and this week has been no exception. Last week's tides were unremarkable — nothing extreme, nothing to write home about — but the water's been doing something worth noting. The thermal edge out past the shelf sharpened up considerably after the blow earlier in the week, and that kind of structure doesn't happen every season. We're looking at close to a ten-degree differential out on the shelf-slope break, which is about as pronounced as I've seen it. That's canyon water, not Point water, but it matters to us because it tells you the whole regional system is stacking bait and pushing warmth around in ways that eventually filter back toward the reefs and rips.
+
+What's coming is the piece that actually changes my plans. We're building toward a new moon, and that means spring tides — bigger swings, stronger current, more water moving through North Bar and Shagwong on both stages. The window I'm circling is Friday through Monday, when the evening high stand starts lining up with sunset. That's not just a pretty picture — that's the moment stripers stack against structure and feed hard as the light drops and the current is still working. If you've fished the Point long enough you know that alignment doesn't happen every week, and when it does, you don't sleep in.
+
+As for the bass fishing itself — I'll be straight with you, it's been a grind. Not a bad grind, but a grind. The boulder field on the south side, the stretch I've fished since I was a kid, is holding fish but they're not stacked the way they were during the June push. I worked the incoming tide there three mornings this week and connected each time, but it was one or two fish per trip, not a parade. Best action came right at first light, bucktails in the 1.5 to 2-ounce range, white or olive, bounced slow along the boulder tops in eight to fifteen feet of water. One 28-pounder came off a boulder seam on the incoming Tuesday, taken on a swim of a black GT Eel fly worked just under the surface at first light — proof the bigger fish are still around, just not schooled up tight.
+
+Shagwong Reef has been more consistent for numbers, if not size. Guys trolling umbrella rigs and single bucktails through the reef on the last two hours of the outgoing have been picking at schoolies and a few mid-20s fish, mostly in that 15 to 25 foot depth range where the reef breaks up the current. Live eels after dark off the Lighthouse rocks have produced too — nothing gaudy, but a couple of solid mid-30s fish came off there this week on the last of the incoming, right in that classic white-water zone where the current wraps the rocks.
+
+Bluefish have been mixed in with the bass at North Bar, chopper-class fish up to ten pounds hitting poppers and Hopkins jigs worked fast over the sandbar on the outgoing. If you want steady action without the bass grind, that's been the more reliable play — blues don't care about moon phase the way stripers do, they just want moving water and bait pushed up shallow.
+
+Offshore, there's real buzz worth passing along even though it's not strictly Point water. Bluefin have been showing on the 20 to 30 fathom breaks south of us, and small boats running out that direction have connected on schoolie-class fish using diamond jigs and trolled Mojos. If you've got a center console and a decent weather window, that's worth a look — but I'd call it a bonus trip, not the bread and butter.
+
+Fluke have shifted hard toward the harbor mouth and Fort Pond Bay inlet as the back bay water's warmed up more than the fish like. Drifting white Gulp Swimming Mullets on 3/4-ounce bucktails through the deeper cuts near the inlet on the outgoing has been the play — fish to five pounds, nothing enormous, but steady enough to fill a cooler if you keep moving and hit the deeper holes where the cooler ocean water is pushing in.
+
+Porgies and blackfish remain a summer afterthought right now — most guys aren't targeting them seriously until the water cools in fall, though a few porgies have come over the side incidentally while bottom bouncing for fluke near Turtle Cove.
+
+Looking ahead, Friday through Monday is where I'm putting my chips. New moon springs building, the evening high stand lining up with the last light, current still working the boulder field and Shagwong hard enough to pin bait against structure. If that alignment holds and the wind stays reasonable out of the southwest, I expect the bass bite to tighten up — more fish, closer together, feeding with some urgency instead of the scattered picture we've had. I'd start at the boulder field on the incoming Friday evening with bucktails and eels, then shift to Shagwong on the last two hours of the outgoing Saturday morning if the Point doesn't produce. Worth remembering — this window doesn't come around often, and if you can only make one trip this month, I'd make it this one.
+
+---
+
+Tags: striped-bass, montauk-point, bucktail, shagwong-reef, new-moon-tide, bluefish
