@@ -4,7 +4,7 @@
   "publisher": "Nor'easter / NY Angler",
   "description": "Editorial roster: 1 editor-in-chief + 18 zone writers covering NY/NJ inshore, surf, sound, bay, and offshore canyons.",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json",
-  "total_writers": 26,
+  "total_writers": 33,
   "writers": [
     {
       "id": "editor-in-chief",
@@ -1019,6 +1019,298 @@
       ],
       "bio": "Capt. Sabrina Cole runs The Race the way other captains run a milk route. Ten seasons of charters through the deepest, fastest water in the Sound taught her exactly which stage of the ebb piles the big bass on Valiant Rock — and she's not shy about telling you when you're fishing it wrong.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/ct-offshore.png",
+      "status": "pending"
+    },
+    {
+      "id": "raritan-bay-sandy-hook",
+      "name": "Marisol Duarte",
+      "full_name": "Marisol Duarte",
+      "first_name": "Marisol",
+      "last_name": "Duarte",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "raritan-bay-sandy-hook",
+        "name": "Raritan Bay / Sandy Hook"
+      },
+      "coverage_area": "Raritan Bay, Sandy Hook, Keyport, the Highlands, Navesink and Shrewsbury rivers, Flynn's Knoll, Romer Shoal",
+      "beat_species": [
+        "striped bass",
+        "fluke",
+        "bluefish",
+        "weakfish",
+        "porgies",
+        "blackfish"
+      ],
+      "landmarks": [
+        "Sandy Hook",
+        "Flynn's Knoll",
+        "Romer Shoal",
+        "Keyport Flats",
+        "Navesink River",
+        "The Rip at the Hook"
+      ],
+      "voice": "Bay Tactician",
+      "mood": "energetic-sharp",
+      "style_tags": [
+        "spring-run",
+        "flats-and-channels",
+        "tide-timing"
+      ],
+      "bio": "Marisol Duarte grew up on the Perth Amboy waterfront, where her father taught her the bay before she could ride a bike. When the April bunker schools push into Raritan Bay and the big stripers follow, Marisol has usually called the first blitz within a tide — and she'll tell you exactly which channel edge the fluke set up on when the run winds down.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/raritan-bay-sandy-hook.png",
+      "status": "pending"
+    },
+    {
+      "id": "northern-nj-shore",
+      "name": "Brendan Doyle",
+      "full_name": "Brendan Doyle",
+      "first_name": "Brendan",
+      "last_name": "Doyle",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "northern-nj-shore",
+        "name": "Northern NJ Shore"
+      },
+      "coverage_area": "Sea Bright to Manasquan — Shark River, Belmar, Manasquan Inlet, the jetty country and party boat row",
+      "beat_species": [
+        "striped bass",
+        "fluke",
+        "bluefish",
+        "false albacore",
+        "blackfish",
+        "porgies"
+      ],
+      "landmarks": [
+        "Manasquan Inlet",
+        "Shark River Inlet",
+        "Belmar",
+        "Sea Bright rocks",
+        "Asbury Park",
+        "Spring Lake jetties"
+      ],
+      "voice": "Jetty Rat",
+      "mood": "dry-witted-relentless",
+      "style_tags": [
+        "surf-and-jetty",
+        "plug-fishing",
+        "dawn-patrol"
+      ],
+      "bio": "Brendan Doyle has worn out more Korkers than most anglers own plugs. A quarter century of dawn patrols from Sea Bright to Manasquan taught him exactly which jetty pocket fishes on a northeast blow — and his dry running commentary on the Belmar party boat fleet is worth the read alone.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/northern-nj-shore.png",
+      "status": "pending"
+    },
+    {
+      "id": "barnegat-bay",
+      "name": "Gus Papadakis",
+      "full_name": "Gus Papadakis",
+      "first_name": "Gus",
+      "last_name": "Papadakis",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "barnegat-bay",
+        "name": "Barnegat Bay"
+      },
+      "coverage_area": "Point Pleasant to Barnegat Inlet — Island Beach surf, Double Creek Channel, Oyster Creek, the bay from Toms River south",
+      "beat_species": [
+        "striped bass",
+        "fluke",
+        "bluefish",
+        "weakfish",
+        "blowfish",
+        "kingfish"
+      ],
+      "landmarks": [
+        "Barnegat Inlet",
+        "Island Beach State Park",
+        "Double Creek Channel",
+        "Oyster Creek",
+        "Barnegat Light",
+        "Tices Shoal"
+      ],
+      "voice": "Bay Elder",
+      "mood": "warm-encyclopedic",
+      "style_tags": [
+        "bay-fishing",
+        "inlet-currents",
+        "old-school"
+      ],
+      "bio": "Gus Papadakis started as a twelve-year-old mate on the Point Pleasant party boats and never really left the water. Four decades later he knows Barnegat Bay the way you know your own kitchen — including the May weakfish sedges everyone else forgot and exactly how far the Double Creek shoals moved after the last blow.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/barnegat-bay.png",
+      "status": "pending"
+    },
+    {
+      "id": "long-beach-island",
+      "name": "Tommy Nguyen",
+      "full_name": "Tommy Nguyen",
+      "first_name": "Tommy",
+      "last_name": "Nguyen",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "long-beach-island",
+        "name": "Long Beach Island / Great Bay"
+      },
+      "coverage_area": "LBI from Barnegat Light to Holgate, Little Egg Inlet, Great Bay, Graveling Point, the Mullica system",
+      "beat_species": [
+        "striped bass",
+        "fluke",
+        "bluefish",
+        "black drum",
+        "weakfish",
+        "kingfish"
+      ],
+      "landmarks": [
+        "Holgate",
+        "Little Egg Inlet",
+        "Graveling Point",
+        "Beach Haven",
+        "Ship Bottom",
+        "Mullica River",
+        "Great Bay"
+      ],
+      "voice": "Surf Technician",
+      "mood": "focused-modern",
+      "style_tags": [
+        "surf-plugging",
+        "structure-reading",
+        "light-tackle"
+      ],
+      "bio": "Tommy Nguyen grew up stocking shelves in his family's bait shop near Ship Bottom and reading LBI's sandbars like other kids read comic books. He's the island's new-school surf technician — drone shots of the cuts, a plug bag organized like a surgeon's tray, and the first report every March when Graveling Point wakes up.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/long-beach-island.png",
+      "status": "pending"
+    },
+    {
+      "id": "south-jersey-shore",
+      "name": "Darnell Freeman",
+      "full_name": "Darnell Freeman",
+      "first_name": "Darnell",
+      "last_name": "Freeman",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "south-jersey-shore",
+        "name": "South Jersey Shore"
+      },
+      "coverage_area": "Atlantic City to Stone Harbor — Absecon and Great Egg inlets, the back bays, Ocean City surf, Townsends Inlet",
+      "beat_species": [
+        "fluke",
+        "striped bass",
+        "bluefish",
+        "weakfish",
+        "kingfish",
+        "triggerfish"
+      ],
+      "landmarks": [
+        "Absecon Inlet",
+        "Great Egg Inlet",
+        "Brigantine",
+        "Ocean City",
+        "Sea Isle City",
+        "Townsends Inlet",
+        "Stone Harbor"
+      ],
+      "voice": "Back Bay Professor",
+      "mood": "calm-authoritative",
+      "style_tags": [
+        "back-bay",
+        "inlet-fishing",
+        "fluke-program"
+      ],
+      "bio": "Darnell Freeman taught high school science in Atlantic City for three decades, and he approaches the back bays the same way he ran his classroom — methodically, patiently, and with receipts. His sod-bank fluke program from Brigantine to Stone Harbor is the stuff of local legend, and he explains the why behind every bite.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/south-jersey-shore.png",
+      "status": "pending"
+    },
+    {
+      "id": "cape-may-delaware-bay",
+      "name": "Capt. Kate Brennan",
+      "full_name": "Capt. Kate Brennan",
+      "first_name": "Capt.",
+      "last_name": "Brennan",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "cape-may-delaware-bay",
+        "name": "Cape May / Delaware Bay"
+      },
+      "coverage_area": "Cape May Rips, Hereford Inlet, Wildwood, Delaware Bay to Fortescue — the drum run, the rips, the weakfish grounds",
+      "beat_species": [
+        "striped bass",
+        "black drum",
+        "weakfish",
+        "fluke",
+        "bluefish",
+        "triggerfish"
+      ],
+      "landmarks": [
+        "Cape May Rips",
+        "Hereford Inlet",
+        "Cape May Point",
+        "Delaware Bay",
+        "Fortescue",
+        "Brandywine Shoal",
+        "The Rips"
+      ],
+      "voice": "Rips Captain",
+      "mood": "salty-precise",
+      "style_tags": [
+        "rips-fishing",
+        "drum-run",
+        "two-bay-game"
+      ],
+      "bio": "Capt. Kate Brennan is second-generation Cape May charter royalty — her father ran the rips for forty years and she's run them for twenty more. From the May black drum thump in Delaware Bay to fall stripers stacked in the rips off the Point, Kate calls it straight, including the days you should stay home and tie leaders.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/cape-may-delaware-bay.png",
+      "status": "pending"
+    },
+    {
+      "id": "nj-offshore",
+      "name": "Capt. Rey Santos",
+      "full_name": "Capt. Rey Santos",
+      "first_name": "Capt.",
+      "last_name": "Santos",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "nj-offshore",
+        "name": "NJ Offshore / Mud Hole"
+      },
+      "coverage_area": "Mud Hole, Klondike, Barnegat Ridge, the reef and wreck network — midrange tuna, mahi, sea bass and tog on structure",
+      "beat_species": [
+        "bluefin tuna",
+        "yellowfin tuna",
+        "mahi",
+        "black sea bass",
+        "blackfish",
+        "cod",
+        "bonito"
+      ],
+      "landmarks": [
+        "Mud Hole",
+        "Klondike",
+        "Barnegat Ridge",
+        "Axel Carlson Reef",
+        "Sea Girt Reef",
+        "Shrewsbury Rocks",
+        "Triple Wrecks"
+      ],
+      "voice": "Wreck Hunter",
+      "mood": "methodical-confident",
+      "style_tags": [
+        "wreck-fishing",
+        "midrange-tuna",
+        "numbers-and-structure"
+      ],
+      "bio": "Capt. Rey Santos keeps a waterproof book of wreck numbers two decades thick, and he fishes the water most Jersey boats run right past. The Mud Hole bluefin bite in June, jumbo sea bass on the deep wrecks, August mahi on the pot lines off Barnegat Ridge — Rey's midrange program out of Manasquan proves you don't need a canyon run to fill the box.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nj-offshore.png",
       "status": "pending"
     }
   ]
