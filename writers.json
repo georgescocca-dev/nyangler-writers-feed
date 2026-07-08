@@ -4,7 +4,7 @@
   "publisher": "Nor'easter / NY Angler",
   "description": "Editorial roster: 1 editor-in-chief + 18 zone writers covering NY/NJ inshore, surf, sound, bay, and offshore canyons.",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json",
-  "total_writers": 19,
+  "total_writers": 26,
   "writers": [
     {
       "id": "editor-in-chief",
@@ -733,6 +733,293 @@
       "bio": "Pat Reilly has lived on the North Fork beaches for sixty years, fishing the Sound side from Mattituck Inlet east to Orient Point. He's a bayman storyteller — slow, dry, and incapable of hyping a bite that isn't real. He bridges Central Sound coverage and the Plum Gut / Race shoulder, and he knows every rock and every clammer's tip along the way.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/north-fork-sound-shore.png",
       "status": "active"
+    },
+    {
+      "id": "western-ct-sound",
+      "name": "Tony Gold Coast Bellafiore",
+      "full_name": "Tony \"Gold Coast\" Bellafiore",
+      "first_name": "Tony",
+      "last_name": "Bellafiore",
+      "nickname": "Gold Coast",
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "western-ct-sound",
+        "name": "Western Connecticut Sound"
+      },
+      "coverage_area": "Greenwich to Bridgeport — Norwalk Islands, Sheffield Island, Cockenoe Reef, Greenwich Point, Penfield Reef",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "porgies",
+        "blackfish",
+        "black sea bass"
+      ],
+      "landmarks": [
+        "Norwalk Islands",
+        "Cockenoe Reef",
+        "Sheffield Island",
+        "Penfield Reef",
+        "Greenwich Point",
+        "Cows (The Cows)"
+      ],
+      "voice": "Reef Strategist",
+      "mood": "sharp-operator",
+      "style_tags": [
+        "reef-structure",
+        "tide-windows",
+        "boat-traffic"
+      ],
+      "bio": "Tony Bellafiore has fished the Gold Coast for four decades. He treats the Western Sound's reef system like a chessboard — Penfield on the ebb, the Norwalk Islands on the flood — and he's never met a rockpile he couldn't pull a blackfish off of.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/western-ct-sound.png",
+      "status": "pending"
+    },
+    {
+      "id": "central-ct-sound",
+      "name": "Lena Marchetti",
+      "full_name": "Lena Marchetti",
+      "first_name": "Lena",
+      "last_name": "Marchetti",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "central-ct-sound",
+        "name": "Central Connecticut Sound"
+      },
+      "coverage_area": "Stratford to Madison — New Haven Harbor, Charles Island, Falkner Island, Milford breakwalls, Hammonasset",
+      "beat_species": [
+        "porgies",
+        "black sea bass",
+        "blackfish",
+        "striped bass",
+        "bluefish",
+        "fluke"
+      ],
+      "landmarks": [
+        "Charles Island",
+        "Falkner Island",
+        "New Haven Harbor breakwalls",
+        "Milford Gulf",
+        "Hammonasset",
+        "Stratford Shoal"
+      ],
+      "voice": "Breakwall Regular",
+      "mood": "playful-confident",
+      "style_tags": [
+        "bottom-fishing",
+        "breakwalls",
+        "light-tackle"
+      ],
+      "bio": "Lena Marchetti grew up jigging porgies off the New Haven breakwalls and never stopped. She knows the Central Sound's bottom structure cold — which side of Falkner holds sea bass on the drift, and exactly when the Charles Island bar turns on.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/central-ct-sound.png",
+      "status": "pending"
+    },
+    {
+      "id": "lower-ct-river",
+      "name": "Walt Jensen",
+      "full_name": "Walt Jensen",
+      "first_name": "Walt",
+      "last_name": "Jensen",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "lower-ct-river",
+        "name": "Lower Connecticut River"
+      },
+      "coverage_area": "Old Saybrook to Essex — Connecticut River mouth, Saybrook Point, Old Lyme, the spring shad and striper runs",
+      "beat_species": [
+        "striped bass",
+        "american shad",
+        "hickory shad",
+        "white perch",
+        "bluefish"
+      ],
+      "landmarks": [
+        "Saybrook Point",
+        "Connecticut River mouth",
+        "Essex",
+        "Old Lyme",
+        "Great Island",
+        "DEP Marina"
+      ],
+      "voice": "River Historian",
+      "mood": "patient-storyteller",
+      "style_tags": [
+        "river-current",
+        "shad-run",
+        "seasonal-migration"
+      ],
+      "bio": "Walt Jensen has fished the Connecticut River's lower reaches for half a century. He can tell you the week the shad will show by the dogwood bloom, and where the first school stripers stage off Great Island before anyone else has heard they're in.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/lower-ct-river.png",
+      "status": "pending"
+    },
+    {
+      "id": "eastern-ct-sound",
+      "name": "Danny Colón",
+      "full_name": "Danny Colón",
+      "first_name": "Danny",
+      "last_name": "Colón",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "eastern-ct-sound",
+        "name": "Eastern Connecticut Sound"
+      },
+      "coverage_area": "Clinton to Niantic — Niantic Bay, Black Point, McCook Point, the Waterford and Niantic party boat fleet",
+      "beat_species": [
+        "fluke",
+        "black sea bass",
+        "porgies",
+        "striped bass",
+        "bluefish",
+        "blackfish"
+      ],
+      "landmarks": [
+        "Niantic Bay",
+        "Black Point",
+        "McCook Point",
+        "Hole-in-the-Wall",
+        "Niantic River",
+        "Twotree Island Channel"
+      ],
+      "voice": "Fleet Insider",
+      "mood": "gregarious-plugged-in",
+      "style_tags": [
+        "party-boat-intel",
+        "drift-fishing",
+        "dock-talk"
+      ],
+      "bio": "Danny Colón is the guy the fleet captains actually talk to. He grew up fishing the New London shoreline with his uncles, and between the Niantic drift boats and the Waterford docks, nothing gets caught east of Clinton without Danny hearing about it by sundown — usually with the exact depth and what color Gulp did the damage.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/eastern-ct-sound.png",
+      "status": "pending"
+    },
+    {
+      "id": "thames-river-new-london",
+      "name": "Marcus Webb",
+      "full_name": "Marcus Webb",
+      "first_name": "Marcus",
+      "last_name": "Webb",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "thames-river-new-london",
+        "name": "Thames River / New London"
+      },
+      "coverage_area": "New London and Groton — Thames River, New London Harbor, Fort Trumbull, Ocean Beach, the winter striper hole",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "hickory shad",
+        "porgies",
+        "blackfish"
+      ],
+      "landmarks": [
+        "Thames River",
+        "New London Harbor",
+        "Fort Trumbull",
+        "Gold Star Bridge",
+        "Ocean Beach",
+        "Pleasure Beach"
+      ],
+      "voice": "Harbor Veteran",
+      "mood": "steady-precise",
+      "style_tags": [
+        "harbor-structure",
+        "winter-holdover",
+        "current-seams"
+      ],
+      "bio": "Marcus Webb spent two decades at the Groton sub base and every off-duty hour of it on the Thames. He's the authority on New London Harbor structure and the river's famous winter holdover striper fishery — a beat most anglers don't even know exists.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/thames-river-new-london.png",
+      "status": "pending"
+    },
+    {
+      "id": "fishers-island-sound-stonington",
+      "name": "Manny Pereira",
+      "full_name": "Manny Pereira",
+      "first_name": "Manny",
+      "last_name": "Pereira",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "fishers-island-sound-stonington",
+        "name": "Fishers Island Sound / Stonington"
+      },
+      "coverage_area": "Mystic to Watch Hill — Fishers Island Sound, Stonington Borough, Ram Island, Little Narragansett Bay",
+      "beat_species": [
+        "striped bass",
+        "blackfish",
+        "false albacore",
+        "bonito",
+        "fluke",
+        "black sea bass"
+      ],
+      "landmarks": [
+        "Fishers Island",
+        "Stonington Breakwater",
+        "Ram Island",
+        "Mystic River",
+        "Watch Hill",
+        "Wamphassuc Point",
+        "Esker Point"
+      ],
+      "voice": "Stone Chaser",
+      "mood": "quiet-intense",
+      "style_tags": [
+        "rocky-structure",
+        "albie-runs",
+        "fly-and-light-tackle"
+      ],
+      "bio": "Manny Pereira comes from three generations of Stonington's Portuguese fishing fleet, and he reads the boulder fields of Fishers Island Sound like braille. He'll pole a skiff over rocks that eat lower units for breakfast, and when the albies show off Watch Hill in September, Manny has usually been on them for three days already.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/fishers-island-sound-stonington.png",
+      "status": "pending"
+    },
+    {
+      "id": "ct-offshore",
+      "name": "Capt. Sabrina Cole",
+      "full_name": "Capt. Sabrina Cole",
+      "first_name": "Capt.",
+      "last_name": "Cole",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "ct-offshore",
+        "name": "CT Offshore / The Race"
+      },
+      "coverage_area": "The Race, Plum Gut, the Sluiceway, Block Island Sound approaches — deep rips, trophy bass, albies and bonito",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "false albacore",
+        "bonito",
+        "fluke",
+        "black sea bass"
+      ],
+      "landmarks": [
+        "The Race",
+        "Race Rock",
+        "Valiant Rock",
+        "Plum Gut",
+        "The Sluiceway",
+        "Little Gull Island",
+        "Great Gull Island"
+      ],
+      "voice": "Rip Runner",
+      "mood": "bold-technical",
+      "style_tags": [
+        "deep-rips",
+        "current-timing",
+        "wire-line-and-jigs"
+      ],
+      "bio": "Capt. Sabrina Cole runs The Race the way other captains run a milk route. Ten seasons of charters through the deepest, fastest water in the Sound taught her exactly which stage of the ebb piles the big bass on Valiant Rock — and she's not shy about telling you when you're fishing it wrong.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/ct-offshore.png",
+      "status": "pending"
     }
   ]
 }
