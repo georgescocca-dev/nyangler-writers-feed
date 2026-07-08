@@ -81,6 +81,8 @@ def main() -> int:
 
     roster = json.loads(SRC_ROSTER.read_text(encoding="utf-8"))
     writers = roster.get("writers", [])
+    # Only publish active writers — pending (e.g. CT/NJ pre-launch) stay out of the public feed
+    writers = [w for w in writers if w.get("status", "active") == "active"]
     if not writers:
         print("ERROR: roster has no writers", file=sys.stderr)
         return 1
