@@ -1,643 +1,99 @@
 #!/usr/bin/env python3
-"""
-Editor-in-Chief Verification Script
-Runs after the batch report generator to verify all expected zones shipped.
-If any zone is missing, it auto-generates the missing report immediately.
+"""Verify that every active Nor'easter writer has exactly one staged report.
 
-Used by the daily report script as a post-run check.
-Can also be run standalone: python3 scripts/editor_verify.py [date    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]
+The writer roster is the source of truth. This deliberately does not maintain a
+separate hard-coded zone list: state expansion should require a roster change,
+not a second deployment change in the editorial gate.
 """
+from __future__ import annotations
+
 import json
-import subprocess
 import sys
-import os
-from pathlib import Path
+from collections import Counter
 from datetime import datetime
-
-# All expected writer zones (must match writers.json + batch script)
-EXPECTED_ZONES = [
-    "western-sound",
-    "central-sound",
-    "eastern-sound",
-    "jamaica-bay",
-    "jones-inlet",
-    "fire-island",
-    "moriches",
-    "shinnecock",
-    "montauk",
-    "peconic",
-    "north-fork-sound-shore",
-    "nj-shore",
-    "block-island",
-    "hudson-canyon",
-    "wilmington-canyon",
-    "washington-canyon",
-    "south-canyons",
-    "east-canyons",
-    # CT expansion (July 2026)
-    "western-ct-sound",
-    "central-ct-sound",
-    "lower-ct-river",
-    "eastern-ct-sound",
-    "thames-river-new-london",
-    "fishers-island-sound-stonington",
-    "ct-offshore",
-    # NJ expansion (July 2026)
-    "raritan-bay-sandy-hook",
-    "northern-nj-shore",
-    "barnegat-bay",
-    "long-beach-island",
-    "south-jersey-shore",
-    "cape-may-delaware-bay",
-    "nj-offshore",
-    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]
+from pathlib import Path
 
 FEED_REPO = Path(__file__).resolve().parent.parent
 REPORTS_DIR = FEED_REPO / "reports"
+ROSTER_PATH = Path("/Users/spartacus/.hermes/workspace/noreaster/intel/config/writers_roster.json")
+EDITOR_IDS = {"editor-in-chief"}
 
 
-def check_date(date_str: str) -> dict:
-    """Check which zones have reports for the given date."""
-    found = {}
-    missing = [    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]
+def active_writer_ids() -> list[str]:
+    """Return all active report writers from the canonical multi-state roster."""
+    roster = json.loads(ROSTER_PATH.read_text(encoding="utf-8"))
+    return [
+        writer["id"]
+        for writer in roster.get("writers", [])
+        if writer.get("status") == "active"
+        and writer.get("id") not in EDITOR_IDS
+        and writer.get("domain") != "editorial"
+    ]
 
-    for zone in EXPECTED_ZONES:
-        pattern = f"{date_str}-{zone}-*.json"
-        matches = list(REPORTS_DIR.glob(pattern))
-        if matches:
-            # Read the report to get headline
-            try:
-                data = json.loads(matches[0    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-].read_text())
-                found[zone    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] = {
-                    "file": matches[0    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-].name,
-                    "headline": data.get("headline", "?"),
-                    "writer": data.get("writer_name", "?"),
-                }
-            except Exception:
-                found[zone    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] = {"file": matches[0    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-].name, "headline": "ERROR READING", "writer": "?"}
-        else:
-            missing.append(zone)
 
+def reports_for_date(date_str: str) -> list[dict]:
+    reports = []
+    for path in REPORTS_DIR.glob(f"{date_str}-*.json"):
+        try:
+            report = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            reports.append({"_path": path.name, "_invalid": str(exc)})
+            continue
+        report["_path"] = path.name
+        reports.append(report)
+    return reports
+
+
+def verify(date_str: str) -> dict:
+    expected = active_writer_ids()
+    reports = reports_for_date(date_str)
+    by_writer = Counter(report.get("writer_id") for report in reports if not report.get("_invalid"))
+    invalid = [report["_path"] for report in reports if report.get("_invalid")]
+    missing = [writer_id for writer_id in expected if by_writer[writer_id] == 0]
+    duplicates = {
+        writer_id: count
+        for writer_id, count in by_writer.items()
+        if writer_id in expected and count > 1
+    }
+    unexpected = sorted(
+        writer_id for writer_id in by_writer
+        if writer_id and writer_id not in expected
+    )
     return {
         "date": date_str,
-        "expected": len(EXPECTED_ZONES),
-        "found": len(found),
+        "expected_writers": expected,
+        "expected_count": len(expected),
+        "report_count": len(reports),
+        "present_count": sum(by_writer[writer_id] == 1 for writer_id in expected),
         "missing": missing,
-        "reports": found,
+        "duplicates": duplicates,
+        "unexpected": unexpected,
+        "invalid": invalid,
+        "ok": not (missing or duplicates or unexpected or invalid),
     }
 
 
-def generate_missing(date_str: str, missing: list) -> dict:
-    """Auto-generate any missing zone reports."""
-    results = {"generated": [    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-], "failed": [    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}
-    for zone in missing:
-        print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] AUTO-GENERATING missing report: {zone}")
-        try:
-            proc = subprocess.run(
-                ["python3", "scripts/generate_writer_report.py", zone    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-],
-                capture_output=True,
-                text=True,
-                timeout=120,
-                cwd=str(FEED_REPO),
-            )
-            if proc.returncode == 0:
-                # Extract headline from output
-                headline = ""
-                for line in proc.stdout.splitlines():
-                    if '"headline"' in line:
-                        headline = line.split('"headline": "')[1    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-].rstrip('"') if '"' in line else ""
-                        break
-                results["generated"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-].append({"zone": zone, "headline": headline})
-                print(f"  ✅ {zone}: {headline}")
-            else:
-                results["failed"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-].append({"zone": zone, "error": proc.stderr[:200    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]})
-                print(f"  ❌ {zone}: {proc.stderr[:200    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}")
-        except subprocess.TimeoutExpired:
-            results["failed"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-].append({"zone": zone, "error": "timeout"})
-            print(f"  ❌ {zone}: timeout")
-        except Exception as e:
-            results["failed"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-].append({"zone": zone, "error": str(e)})
-            print(f"  ❌ {zone}: {e}")
-    return results
-
-
-def main():
-    # Get date from arg or default to today
-    if len(sys.argv) > 1:
-        date_str = sys.argv[1    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]
-    else:
-        date_str = datetime.now().strftime("%Y-%m-%d")
-
-    print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] Verifying reports for {date_str}...")
-    print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] Expected zones: {len(EXPECTED_ZONES)}")
-
-    result = check_date(date_str)
-
-    print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] Found: {result['found'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}/{result['expected'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}")
-
-    if result["missing"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]:
-        print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] MISSING: {', '.join(result['missing'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-])}")
-        print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] Auto-generating {len(result['missing'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-])} missing reports...")
-        gen = generate_missing(date_str, result["missing"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-])
-
-        if gen["generated"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]:
-            print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] ✅ Generated {len(gen['generated'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-])} missing reports")
-        if gen["failed"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]:
-            print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] ❌ Failed to generate {len(gen['failed'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-])} reports:")
-            for f in gen["failed"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]:
-                print(f"  - {f['zone'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}: {f['error'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}")
-
-        # Re-check after generation
-        result = check_date(date_str)
-        print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] Post-generation: {result['found'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}/{result['expected'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}")
-
-        if result["missing"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]:
-            print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] ⚠️ STILL MISSING after auto-gen: {', '.join(result['missing'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-])}")
-            print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] These need manual intervention.")
-    else:
-        print(f"[editor    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-] ✅ All {result['expected'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]} zones present!")
-
-    # Print summary table
-    print(f"\n{'='*80}")
-    print(f"EDITOR'S REPORT — {date_str}")
-    print(f"{'='*80}")
-    for zone in EXPECTED_ZONES:
-        if zone in result["reports"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]:
-            r = result["reports"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-][zone    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]
-            print(f"  ✅ {zone:25s} {r['writer'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]:30s} {r['headline'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-][:50    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}")
-        else:
-            print(f"  ❌ {zone:25s} MISSING")
-    print(f"{'='*80}")
-    print(f"Total: {result['found'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}/{result['expected'    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]}")
-
-    # Exit non-zero if still missing
-    if result["missing"    "narragansett-bay",
-    "point-judith-block-island",
-    "ri-south-shore",
-    "nh-coast",
-    "nh-offshore",
-    "southern-maine",
-    "casco-bay",
-    "midcoast-maine",
-]:
-        sys.exit(1)
+def main() -> int:
+    date_str = sys.argv[1] if len(sys.argv) > 1 else datetime.now().strftime("%Y-%m-%d")
+    result = verify(date_str)
+    print(f"[editor] {date_str}: {result['present_count']}/{result['expected_count']} active writer reports")
+    print(f"[editor] staged files: {result['report_count']}")
+    if result["missing"]:
+        print("[editor] MISSING: " + ", ".join(result["missing"]))
+    if result["duplicates"]:
+        print("[editor] DUPLICATES: " + ", ".join(
+            f"{writer_id}={count}" for writer_id, count in sorted(result["duplicates"].items())
+        ))
+    if result["unexpected"]:
+        print("[editor] UNEXPECTED: " + ", ".join(result["unexpected"]))
+    if result["invalid"]:
+        print("[editor] INVALID JSON: " + ", ".join(result["invalid"]))
+    if result["ok"]:
+        print("[editor] PASS: exactly one report is staged for every active writer.")
+        return 0
+    print("[editor] FAIL: hold for correction; no reports were auto-generated.")
+    return 1
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

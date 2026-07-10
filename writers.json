@@ -4,7 +4,7 @@
   "publisher": "Nor'easter / NY Angler",
   "description": "Editorial roster: 1 editor-in-chief + 18 zone writers covering NY/NJ inshore, surf, sound, bay, and offshore canyons.",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json",
-  "total_writers": 41,
+  "total_writers": 47,
   "writers": [
     {
       "id": "editor-in-chief",
@@ -1645,6 +1645,257 @@
       ],
       "bio": "Rusty Pelletier has forty years of lobstering and sport fishing from Boothbay to Stonington, and he reads Penobscot Bay like a chart you can walk on. Monhegan's ledges, Eastern Egg's bass, the deep channel groundfish — Rusty's is the voice of the real Downeast coast.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/midcoast-maine.png",
+      "status": "active"
+    },
+    {
+      "id": "cape-cod-canal",
+      "name": "Mike Devlin",
+      "full_name": "Mike Devlin",
+      "first_name": "Mike",
+      "last_name": "Devlin",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "cape-cod-canal",
+        "name": "Cape Cod Canal"
+      },
+      "coverage_area": "The Cape Cod Canal — east end, west end, the rip line, the current seams, Scusset and Mashnee",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "false albacore",
+        "bonito",
+        "fluke"
+      ],
+      "landmarks": [
+        "East End",
+        "West End",
+        "Scusset Beach",
+        "Mashnee Island",
+        "Hog Island",
+        "Phinneys Harbor",
+        "Wings Neck"
+      ],
+      "voice": "Canal Rat",
+      "mood": "obsessive-tide-watching",
+      "style_tags": [
+        "current-reading",
+        "rip-line",
+        "dawn-and-dusk"
+      ],
+      "bio": "Mike Devlin has been watching Canal tides since the Army Corps was still dredging it. He can tell you the exact minute the west end current seam will stack bass on the bottom of the ebb, and he's never wrong about the first big fish of the season showing at the east end rip line.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/cape-cod-canal.png",
+      "status": "active"
+    },
+    {
+      "id": "boston-harbor-north-shore",
+      "name": "Sara Whitfield",
+      "full_name": "Sara Whitfield",
+      "first_name": "Sara",
+      "last_name": "Whitfield",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "boston-harbor-north-shore",
+        "name": "Boston Harbor / North Shore"
+      },
+      "coverage_area": "Boston Harbor, Nahant, Winthrop, Gloucester, Cape Ann, Plymouth, Kingston Bay — the big-water shore",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "cod",
+        "haddock",
+        "mackerel",
+        "flounder"
+      ],
+      "landmarks": [
+        "Boston Harbor",
+        "Nahant",
+        "Gloucester",
+        "Cape Ann",
+        "Plymouth",
+        "Duxbury Bay",
+        "Scituate",
+        "Deer Island",
+        "Spectacle Island"
+      ],
+      "voice": "Harbor Pilot",
+      "mood": "confident-outdoorsy",
+      "style_tags": [
+        "structure-fishing",
+        "big-water",
+        "light-tackle"
+      ],
+      "bio": "Sara Whitfield grew up sailing Boston Harbor and switched to fishing it when she realized the bass were more interesting than the mooring field. She knows every ledge and dropoff from Deer Island to Gloucester, and her North Shore light-tackle striper program is quietly the best around.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/boston-harbor-north-shore.png",
+      "status": "active"
+    },
+    {
+      "id": "cape-cod-bay",
+      "name": "Donny Costa",
+      "full_name": "Donny Costa",
+      "first_name": "Donny",
+      "last_name": "Costa",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "cape-cod-bay",
+        "name": "Cape Cod Bay"
+      },
+      "coverage_area": "Provincetown to Barnstable — Race Point, Peaked Hill Bars, Billingsgate, Sandy Neck",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "cod",
+        "fluke",
+        "mackerel"
+      ],
+      "landmarks": [
+        "Race Point",
+        "Peaked Hill Bars",
+        "Billingsgate",
+        "Sandy Neck",
+        "Provincetown",
+        "Barnstable",
+        "Brewster"
+      ],
+      "voice": "Bay Drifter",
+      "mood": "calm-experienced",
+      "style_tags": [
+        "drift-fishing",
+        "rip-structure",
+        "big-bass"
+      ],
+      "bio": "Donny Costa drifts Cape Cod Bay like other people drive to work. Race Point on the slack, Peaked Hill on the building tide, Billingsgate when the bass are pushing sand eels — Donny's Bay program is the kind that produces 40-pound bass when everyone else is catching schoolies.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/cape-cod-bay.png",
+      "status": "active"
+    },
+    {
+      "id": "buzzards-bay-vineyard",
+      "name": "Maria Fonseca",
+      "full_name": "Maria Fonseca",
+      "first_name": "Maria",
+      "last_name": "Fonseca",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "buzzards-bay-vineyard",
+        "name": "Buzzards Bay / Martha's Vineyard"
+      },
+      "coverage_area": "Buzzards Bay, Woods Hole, Cuttyhunk, the Elizabeth Islands, Martha's Vineyard — rips, albies, bonito",
+      "beat_species": [
+        "false albacore",
+        "bonito",
+        "striped bass",
+        "bluefish",
+        "fluke",
+        "scup"
+      ],
+      "landmarks": [
+        "Woods Hole",
+        "Cuttyhunk",
+        "Elizabeth Islands",
+        "Martha's Vineyard",
+        "Menemsha",
+        "Oak Bluffs",
+        "Robinson's Hole",
+        "Quick's Hole"
+      ],
+      "voice": "Rip Hunter",
+      "mood": "fast-paced-sharp",
+      "style_tags": [
+        "albie-runs",
+        "rip-fishing",
+        "island-current"
+      ],
+      "bio": "Maria Fonseca fishes the rips between Buzzards Bay and the Vineyard like she was born on them — and she nearly was. When the albies show at Quick's Hole in August, Maria has been casting at them for a week already, and her fall striper program off the Elizabeth Islands is pure New England.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/buzzards-bay-vineyard.png",
+      "status": "active"
+    },
+    {
+      "id": "nantucket-sound",
+      "name": "Charlie St. Pierre",
+      "full_name": "Charlie St. Pierre",
+      "first_name": "Charlie",
+      "last_name": "Pierre",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "nantucket-sound",
+        "name": "Nantucket Sound"
+      },
+      "coverage_area": "Nantucket, Nantucket Shoals, Monomoy, Chatham — the rips, bonito, albies, Great Point",
+      "beat_species": [
+        "false albacore",
+        "bonito",
+        "striped bass",
+        "bluefish",
+        "fluke"
+      ],
+      "landmarks": [
+        "Nantucket",
+        "Great Point",
+        "Sankaty",
+        "Monomoy",
+        "Chatham",
+        "Nantucket Shoals",
+        "Horseshoe Shoal"
+      ],
+      "voice": "Rip Chaser",
+      "mood": "laid-back-obsessed",
+      "style_tags": [
+        "albie-runs",
+        "rip-fishing",
+        "surf-and-boat"
+      ],
+      "bio": "Charlie St. Pierre chases rips from Nantucket to Monomoy like a man on a mission. When the first bonito flash on Nantucket Shoals in July, Charlie's been watching for them for two weeks — and by the time the albies are crashing on Great Point, he's already moved on to the fall striper rips off Chatham.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nantucket-sound.png",
+      "status": "active"
+    },
+    {
+      "id": "ma-offshore-stellwagen",
+      "name": "Capt. Donna Shaw",
+      "full_name": "Capt. Donna Shaw",
+      "first_name": "Capt.",
+      "last_name": "Shaw",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "ma-offshore-stellwagen",
+        "name": "MA Offshore / Stellwagen Bank"
+      },
+      "coverage_area": "Stellwagen Bank, Cape Cod canyons approaches, Tillies Bank — groundfish, bluefin tuna, the whale grounds",
+      "beat_species": [
+        "cod",
+        "haddock",
+        "bluefin tuna",
+        "pollock",
+        "hake",
+        "mackerel"
+      ],
+      "landmarks": [
+        "Stellwagen Bank",
+        "Stellwagen Edge",
+        "Tillies Bank",
+        "Carter Canyon",
+        "Cape Cod Tails",
+        "Stellwagen Basin"
+      ],
+      "voice": "Bank Captain",
+      "mood": "steady-deep-water",
+      "style_tags": [
+        "groundfish",
+        "bluefin-tuna",
+        "numbers-and-structure"
+      ],
+      "bio": "Capt. Donna Shaw runs Stellwagen like it's her backyard — and it is. Cod on the gravel edge, haddock on the mud in the Basin, and when the giant bluefin pin mackerel against the surface in October, Donna is the captain everyone calls.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/ma-offshore-stellwagen.png",
       "status": "active"
     }
   ]

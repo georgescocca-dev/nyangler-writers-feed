@@ -34,10 +34,12 @@ from pathlib import Path
 # Paths
 # ---------------------------------------------------------------------------
 WORKSPACE = Path("/Users/spartacus/.hermes/workspace")
-NOREASTER = WORKSPACE / "projects" / "noreaster-intel"
+# The active roster and intel live in the canonical Nor'easter tree.  The
+# retired projects/ mirror drifts from the multi-state roster.
+NOREASTER = WORKSPACE / "noreaster" / "intel"
 SRC_ROSTER = NOREASTER / "config" / "writers_roster.json"
 SRC_REPORTS = NOREASTER / "data" / "raw" / "nyangler"
-FEED_REPO = WORKSPACE / "projects" / "nyangler-writers-feed"
+FEED_REPO = WORKSPACE / "noreaster" / "writers-feed"
 REPORTS_DIR = FEED_REPO / "reports"
 REPORTS_INDEX = FEED_REPO / "reports.json"
 TEASERS_INDEX = FEED_REPO / "teasers.json"
@@ -56,6 +58,13 @@ WRITER_TO_ZONE_BUCKET = {
     "peconic": "peconic",
     "block-island": "block-island",
     "nj-shore": "nj-shore",
+    # MA expansion zones
+    "cape-cod-canal": "cape-cod-canal",
+    "boston-harbor-north-shore": "boston-harbor-north-shore",
+    "cape-cod-bay": "cape-cod-bay",
+    "buzzards-bay-vineyard": "buzzards-bay-vineyard",
+    "nantucket-sound": "nantucket-sound",
+    "ma-offshore-stellwagen": "ma-offshore-stellwagen",
     # RI/NH/ME expansion zones
     "narragansett-bay": "narragansett-bay",
     "point-judith-block-island": "point-judith-block-island",
@@ -805,6 +814,11 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
         **report,
     }
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    # A retry replaces the prior staged report for this writer/date.  Leaving
+    # both files made Kent receive multiple conflicting reports for one zone.
+    date_prefix = f"{today.strftime('%Y-%m-%d')}-{writer['id']}-"
+    for stale in REPORTS_DIR.glob(f"{date_prefix}*"):
+        stale.unlink()
     out_json = REPORTS_DIR / f"{report_id}.json"
     out_json.write_text(
         json.dumps(publication, indent=2, ensure_ascii=False) + "\n",
@@ -982,6 +996,8 @@ def main() -> int:
                    help="OpenRouter model id (default: anthropic/claude-sonnet-5)")
     p.add_argument("--limit", type=int, default=30, help="Max source reports to include (default 30)")
     p.add_argument("--dry-run", action="store_true", help="Print the report; do not write files.")
+    p.add_argument("--skip-index", action="store_true",
+                   help="Skip reports.json/teasers rebuild; intended for batch generation.")
     args = p.parse_args()
 
     writer = load_writer(args.writer_id)
@@ -1023,9 +1039,10 @@ def main() -> int:
 
     today = datetime.now(timezone.utc)
     pub = emit_report(writer, report, today)
-    index = rebuild_reports_index()
+    index = None if args.skip_index else rebuild_reports_index()
     print(f"[gen] wrote {pub['id']}", file=sys.stderr)
-    print(f"[gen] index now has {index['total_reports']} reports", file=sys.stderr)
+    if index:
+        print(f"[gen] index now has {index['total_reports']} reports", file=sys.stderr)
     print(json.dumps({"id": pub["id"], "headline": report["headline"]}, indent=2))
     return 0
 
