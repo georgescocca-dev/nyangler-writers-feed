@@ -4,7 +4,7 @@
   "publisher": "Nor'easter / NY Angler",
   "description": "Editorial roster: 1 editor-in-chief + 18 zone writers covering NY/NJ inshore, surf, sound, bay, and offshore canyons.",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json",
-  "total_writers": 47,
+  "total_writers": 46,
   "writers": [
     {
       "id": "editor-in-chief",
@@ -435,46 +435,6 @@
       ],
       "bio": "Bill Hubbard knows the Peconic and Gardiners Bays — the protected waters between the North and South Forks — like his own backyard. He's the writer who'll tell you the Peconic warms ahead of the Sound and the bass show up early, the porgy fishing around Shelter Island is world-class, and the Plum Gut fall run lights the whole system up.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/peconic.png",
-      "status": "active"
-    },
-    {
-      "id": "nj-shore",
-      "name": "Joey Napolitano",
-      "full_name": "Joey Napolitano",
-      "first_name": "Joey",
-      "last_name": "Napolitano",
-      "nickname": null,
-      "role": "Zone Writer",
-      "domain": "inshore",
-      "zone": {
-        "slug": "nj-shore",
-        "name": "New Jersey Shore / Raritan Bay"
-      },
-      "coverage_area": "Sandy Hook, Raritan Bay, Shark River, Manasquan Inlet, Barnegat Bay, Great Bay, Cape May",
-      "beat_species": [
-        "striped bass",
-        "bluefish",
-        "fluke",
-        "weakfish",
-        "porgies",
-        "blackfish"
-      ],
-      "landmarks": [
-        "Sandy Hook",
-        "Raritan Bay",
-        "Shark River",
-        "Manasquan Inlet",
-        "Barnegat Light"
-      ],
-      "voice": "Jersey Local",
-      "mood": "loud-passionate",
-      "style_tags": [
-        "raritan-spring",
-        "cape-may",
-        "inlets"
-      ],
-      "bio": "Joey Napolitano has fished every inlet from Sandy Hook to Cape May. He'll tell you — loudly — that the Raritan Bay striper run in April is the real start of the Northeast season, that Island Beach surf produces when the rest of the coast is dead, and that Cape May holds fish when everything north of it is frozen solid.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nj-shore.png",
       "status": "active"
     },
     {
