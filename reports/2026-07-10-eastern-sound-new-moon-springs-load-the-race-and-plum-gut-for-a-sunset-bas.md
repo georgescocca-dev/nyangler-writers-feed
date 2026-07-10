@@ -1,0 +1,26 @@
+# New moon springs load The Race and Plum Gut for a sunset bass window
+*Bigger tides mean harder current through the rips this weekend — here's where the bass and blues are stacking, and why the fluke moved out of the bay.*
+
+**ORIENT POINT, NY — July 10** — _by Mike Rizzo, Zone Writer_
+
+Last week the Sound settled into a rhythm — moderate current, stable warm water, fish scattered but findable if you worked the structure right. That's changing fast. We're rolling into new moon springs, and anyone who's fished The Race or Plum Gut on a big tide knows what that means: more water moving, faster current, harder rips. I was out Tuesday on a modest tide and the eddy below Race Rock was already stacking bait hard against the ledge. By this weekend, with the moon dark and the tidal range opening up, that same eddy is going to be turning bass on with real conviction.
+
+Here's the timing that matters: the PM flood is lining up with sunset Friday through Monday, peaking July 11-13. That's the window I circle every year — high water and low light overlapping right when the current through Plum Gut and The Race is still ripping from the tail end of the flood. Bass push up onto the structure to feed as the light drops, and for those three evenings the tide stage and the darkness are working together instead of fighting each other. It's the first real PM setup we've had since the June full moon, and it's worth rearranging your week around.
+
+Bass fishing right now is real but it's not effortless — you have to be in the right eddy at the right stage or you're just drifting through empty water. The pattern that's produced for me is working the leeward side of the current break off Valiant Rock and along the north side of Race Rock on the last two hours of the ebb into the start of the flood. Bucktail-tipped bottle plugs and big Danny-style swimmers thrown up-current and swung through the seam have been drawing fish in the 15 to 28 pound class, with a few better ones mixed in — there's been talk of bigger fish stacking up in pockets around the Sound this summer, and I believe it, because the two 30-plus fish I've seen crossed a scale this month both came off structure exactly like this. At night, eels fished on a fish-finder rig through the same rips have out-produced everything else — slow-troll them along the rock pile off Fishers Island's west end on the building tide and hang on.
+
+Bluefish are riding shotgun in all of it. Choppers in the 4 to 8 pound range are slashing through the same current lines, and if you want steady action over trophy shots, working smaller wire-leadered poppers through the white water at Plum Gut on peak current will get you bent rods all afternoon. They're not picky — anything fast and flashy in the strike zone gets hit.
+
+Fluke have made their move out of the back bays and it's exactly what I expected. Bay water pushing into the high 70s ran the fluke out of the shallow flats and into the channels and inlets where there's real flow and cooler bottom water. Plum Gut itself has turned into a legitimate fluke drift — 25 to 40 feet of water, strong current, and that mixing zone where ocean-influenced water meets the Sound keeps bottom temps noticeably cooler than the bay side. Drifting bucktails tipped with Gulp Swimming Mullet — white or chartreuse, 3/4 to 1 ounce depending on the stage of tide — through the deeper cuts on the outgoing has been the move. Fish are running 16 to 20 inches with the occasional 4 to 5 pound doormat mixed in for anyone willing to grind through the short fish.
+
+Porgies are doing what porgies do in July — stacking thick over the rock piles and reefs off Orient Point and around Fishers Island in 15 to 35 feet. Sandworms and clam on light tackle, small hooks, enough weight to hold bottom in the current. It's not glamorous but it's dependable, and it's a good way to fill a cooler on a day when the bass aren't cooperating.
+
+Weakfish, I have to be honest, have been a non-event. Water temps have been in the right range for weeks and I haven't heard a credible report of a keeper weakfish anywhere in the zone. Warm water alone clearly isn't enough to trigger that bite anymore — something else has to line up, and right now it isn't. I wouldn't plan a trip around them.
+
+One more thing worth watching: the warm-water pulse that's been pushing bonito and Spanish mackerel activity up from Block Island toward Point Judith and Newport is widening that corridor noticeably. Fishers Island sits right on the edge of that push. It's not a confirmed pattern in the Sound yet, but if that warm plume keeps sliding west, don't be shocked if there's a bonito or two showing up around the east end this month. I'll be watching bait behavior out there closely.
+
+For this week, my plan is simple: I'm fishing the PM flood at Race Rock and Plum Gut Friday through Sunday, working the eddies as the light fades and the current's still got some push left in it. If the bass don't show at the rocks, I've got the Plum Gut fluke drift as a backup — that bite's been steady enough to save a slow evening. Big tides reward preparation more than luck this time of year. Know your stage, know your structure, and be in position before the window opens, not after.
+
+---
+
+Tags: striped-bass, the-race, plum-gut, fluke, bluefish, new-moon-tides
