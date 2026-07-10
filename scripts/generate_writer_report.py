@@ -56,6 +56,15 @@ WRITER_TO_ZONE_BUCKET = {
     "peconic": "peconic",
     "block-island": "block-island",
     "nj-shore": "nj-shore",
+    # RI/NH/ME expansion zones
+    "narragansett-bay": "narragansett-bay",
+    "point-judith-block-island": "point-judith-block-island",
+    "ri-south-shore": "ri-south-shore",
+    "nh-coast": "nh-coast",
+    "nh-offshore": "nh-offshore",
+    "southern-maine": "southern-maine",
+    "casco-bay": "casco-bay",
+    "midcoast-maine": "midcoast-maine",
     # CT + NJ expansion zones (each has its own bucket)
     "western-ct-sound": "western-ct-sound",
     "central-ct-sound": "central-ct-sound",

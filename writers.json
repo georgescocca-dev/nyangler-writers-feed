@@ -4,7 +4,7 @@
   "publisher": "Nor'easter / NY Angler",
   "description": "Editorial roster: 1 editor-in-chief + 18 zone writers covering NY/NJ inshore, surf, sound, bay, and offshore canyons.",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json",
-  "total_writers": 33,
+  "total_writers": 41,
   "writers": [
     {
       "id": "editor-in-chief",
@@ -1311,6 +1311,340 @@
       ],
       "bio": "Capt. Rey Santos keeps a waterproof book of wreck numbers two decades thick, and he fishes the water most Jersey boats run right past. The Mud Hole bluefin bite in June, jumbo sea bass on the deep wrecks, August mahi on the pot lines off Barnegat Ridge — Rey's midrange program out of Manasquan proves you don't need a canyon run to fill the box.",
       "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nj-offshore.png",
+      "status": "active"
+    },
+    {
+      "id": "narragansett-bay",
+      "name": "Vinny Ciervo",
+      "full_name": "Vinny Ciervo",
+      "first_name": "Vinny",
+      "last_name": "Ciervo",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "narragansett-bay",
+        "name": "Narragansett Bay"
+      },
+      "coverage_area": "Narragansett Bay, Providence River, Greenwich Bay, Prudence Island, Conimicut Point to Rocky Point",
+      "beat_species": [
+        "striped bass",
+        "fluke",
+        "bluefish",
+        "scup",
+        "black sea bass",
+        "weakfish"
+      ],
+      "landmarks": [
+        "Conimicut Point",
+        "Rocky Point",
+        "Prudence Island",
+        "Buckeye Brook",
+        "Greenwich Bay",
+        "Nyatt Point"
+      ],
+      "voice": "Bay Rat",
+      "mood": "wiry-restless",
+      "style_tags": [
+        "bridge-fishing",
+        "herring-run",
+        "light-line"
+      ],
+      "bio": "Vinny Ciervo grew up on the Providence River piers and never left the bay. Buckeye Brook's herring run tells him when the bass are coming, Conimicut Point tells him where they're staging, and Rocky Point tells him when the fluke have pushed in deep enough to drift.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/narragansett-bay.png",
+      "status": "active"
+    },
+    {
+      "id": "point-judith-block-island",
+      "name": "Ava Thomas",
+      "full_name": "Ava Thomas",
+      "first_name": "Ava",
+      "last_name": "Thomas",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "point-judith-block-island",
+        "name": "Point Judith / Block Island"
+      },
+      "coverage_area": "Point Judith, Galilee, Block Island — SW Ledge, Sandy Point, the rips and deep-water structure",
+      "beat_species": [
+        "striped bass",
+        "fluke",
+        "black sea bass",
+        "bonito",
+        "false albacore",
+        "bluefish"
+      ],
+      "landmarks": [
+        "Point Judith",
+        "Galilee",
+        "Block Island",
+        "SW Ledge",
+        "Sandy Point",
+        "North Light",
+        "Clay Head"
+      ],
+      "voice": "Rip Reader",
+      "mood": "confident-analytical",
+      "style_tags": [
+        "rip-fishing",
+        "deep-water-structure",
+        "albie-runs"
+      ],
+      "bio": "Ava Thomas runs charters out of Galilee and reads SW Ledge like other people read the news. When the bonito first flash off the Block in August, Ava's been on them for a week — and her October striper program on the deep rips is the best-kept non-secret in Rhode Island.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/point-judith-block-island.png",
+      "status": "active"
+    },
+    {
+      "id": "ri-south-shore",
+      "name": "Billy Tanaka",
+      "full_name": "Billy Tanaka",
+      "first_name": "Billy",
+      "last_name": "Tanaka",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "ri-south-shore",
+        "name": "RI South Shore / Newport"
+      },
+      "coverage_area": "Newport, Jamestown, Sakonnet, Matunuck, Charlestown, Watch Hill, Napatree Point",
+      "beat_species": [
+        "striped bass",
+        "blackfish",
+        "false albacore",
+        "bluefish",
+        "fluke",
+        "scup"
+      ],
+      "landmarks": [
+        "Newport",
+        "Jamestown",
+        "Sakonnet Point",
+        "Second Beach",
+        "Watch Hill",
+        "Napatree Point",
+        "Weekapaug"
+      ],
+      "voice": "Rock Hopper",
+      "mood": "laid-back-precise",
+      "style_tags": [
+        "rocky-shore",
+        "tog-structure",
+        "albie-blitz"
+      ],
+      "bio": "Billy Tanaka hops rocks from Newport to Napatree like he's on a sidewalk. The south shore's granite ledges are his office — he knows which crack holds a tog on the slack, which breachway the albies choose first, and why Sakonnet on a west wind is the best hour of your day.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/ri-south-shore.png",
+      "status": "active"
+    },
+    {
+      "id": "nh-coast",
+      "name": "Cole Robinson",
+      "full_name": "Cole Robinson",
+      "first_name": "Cole",
+      "last_name": "Robinson",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "nh-coast",
+        "name": "NH Coast / Isles of Shoals"
+      },
+      "coverage_area": "Hampton, Seabrook, Rye Harbor, Odiorne Point, Isles of Shoals, Piscataqua River, Portsmouth Harbor",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "cod",
+        "haddock",
+        "mackerel",
+        "flounder"
+      ],
+      "landmarks": [
+        "Hampton Harbor",
+        "Rye Harbor",
+        "Isles of Shoals",
+        "Odiorne Point",
+        "Piscataqua River",
+        "Portsmouth Harbor",
+        "Great Boars Head"
+      ],
+      "voice": "Shoals Rat",
+      "mood": "understated-confident",
+      "style_tags": [
+        "shoal-fishing",
+        "groundfish",
+        "small-boat"
+      ],
+      "bio": "Cole Robinson fishes 13 miles of coast like it's 130. He trailers his Lund from Hampton Harbor to the Shoals before dawn, chases cod and haddock on Appledore's ledges, and is back at Rye Harbor with a box of fish before most people's coffee is ready.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nh-coast.png",
+      "status": "active"
+    },
+    {
+      "id": "nh-offshore",
+      "name": "Capt. Sonya Nguyen",
+      "full_name": "Capt. Sonya Nguyen",
+      "first_name": "Capt.",
+      "last_name": "Nguyen",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "offshore",
+      "zone": {
+        "slug": "nh-offshore",
+        "name": "NH Offshore / Jeffrey's Ledge"
+      },
+      "coverage_area": "Jeffrey's Ledge, Platts Bank, Tillies Bank, Scantum Basin, Stellwagen Bank approaches",
+      "beat_species": [
+        "cod",
+        "haddock",
+        "bluefin tuna",
+        "pollock",
+        "hake",
+        "mackerel"
+      ],
+      "landmarks": [
+        "Jeffrey's Ledge",
+        "Platts Bank",
+        "Tillies Bank",
+        "Scantum Basin",
+        "Stellwagen Bank",
+        "Cape Ann",
+        "Thatcher Island"
+      ],
+      "voice": "Ledge Captain",
+      "mood": "steady-methodical",
+      "style_tags": [
+        "groundfish",
+        "bluefin-tuna",
+        "numbers-fishing"
+      ],
+      "bio": "Capt. Sonya Nguyen runs Jeffrey's Ledge like it's her backyard — because it is. Cod on the gravel, haddock on the mud edge, and when the bluefin giants pin bait against the surface in October, Sonya is the one who called it three tides ago.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nh-offshore.png",
+      "status": "active"
+    },
+    {
+      "id": "southern-maine",
+      "name": "Dutch Osterberg",
+      "full_name": "Dutch Osterberg",
+      "first_name": "Dutch",
+      "last_name": "Osterberg",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "southern-maine",
+        "name": "Southern Maine"
+      },
+      "coverage_area": "Kittery to Cape Elizabeth — Wells, Ogunquit, Kennebunk, Biddeford Pool, Pine Point, Prouts Neck",
+      "beat_species": [
+        "striped bass",
+        "bluefish",
+        "mackerel",
+        "flounder",
+        "cod"
+      ],
+      "landmarks": [
+        "Biddeford Pool",
+        "Pine Point",
+        "Prouts Neck",
+        "Higgins Beach",
+        "Cape Elizabeth",
+        "Wells Harbor",
+        "Ogunquit"
+      ],
+      "voice": "Surf Brute",
+      "mood": "rough-charming",
+      "style_tags": [
+        "surf-plugging",
+        "rocky-shore",
+        "bluefish-runs"
+      ],
+      "bio": "Dutch Osterberg has been throwing plugs at Southern Maine's rocks since the Reel mullet run still existed. He'll tell you Biddeford Pool on the incoming is the best hour of the Maine striper day, and that Higgins Beach bluefish blitzes are the only time you'll see him run.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/southern-maine.png",
+      "status": "active"
+    },
+    {
+      "id": "casco-bay",
+      "name": "Pashmi Cooper",
+      "full_name": "Pashmi Cooper",
+      "first_name": "Pashmi",
+      "last_name": "Cooper",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "casco-bay",
+        "name": "Casco Bay"
+      },
+      "coverage_area": "Portland to Harpswell — Casco Bay islands, Halfway Rock, ledges and reefs, Cape Small",
+      "beat_species": [
+        "striped bass",
+        "mackerel",
+        "cod",
+        "haddock",
+        "bluefish"
+      ],
+      "landmarks": [
+        "Portland",
+        "Halfway Rock",
+        "Peaks Island",
+        "Bailey Island",
+        "Cape Small",
+        "Harpswell",
+        "Two Lights"
+      ],
+      "voice": "Island Hopper",
+      "mood": "calm-methodical",
+      "style_tags": [
+        "island-structure",
+        "groundfish",
+        "tide-swing"
+      ],
+      "bio": "Pashmi Cooper taught marine biology at Bowdoin for three decades, and he fished Casco Bay every day he wasn't grading papers. He approaches the bay's ledges like a professor — methodical, patient, with data — and his Halfway Rock groundfish program is the most quietly productive in Maine.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/casco-bay.png",
+      "status": "active"
+    },
+    {
+      "id": "midcoast-maine",
+      "name": "Rusty Pelletier",
+      "full_name": "Rusty Pelletier",
+      "first_name": "Rusty",
+      "last_name": "Pelletier",
+      "nickname": null,
+      "role": "Zone Writer",
+      "domain": "inshore",
+      "zone": {
+        "slug": "midcoast-maine",
+        "name": "Midcoast Maine / Penobscot Bay"
+      },
+      "coverage_area": "Boothbay to Stonington — Penobscot Bay, Monhegan Island, Deer Isle, Vinalhaven, Isle au Haut",
+      "beat_species": [
+        "striped bass",
+        "mackerel",
+        "cod",
+        "haddock",
+        "bluefish",
+        "pollock"
+      ],
+      "landmarks": [
+        "Monhegan Island",
+        "Penobscot Bay",
+        "Rockland",
+        "Boothbay Harbor",
+        "Deer Isle",
+        "Stonington",
+        "Matinicus",
+        "Eastern Egg Rock"
+      ],
+      "voice": "Downeast Salt",
+      "mood": "dry-steady",
+      "style_tags": [
+        "island-fishing",
+        "groundfish",
+        "lobster-ground"
+      ],
+      "bio": "Rusty Pelletier has forty years of lobstering and sport fishing from Boothbay to Stonington, and he reads Penobscot Bay like a chart you can walk on. Monhegan's ledges, Eastern Egg's bass, the deep channel groundfish — Rusty's is the voice of the real Downeast coast.",
+      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/midcoast-maine.png",
       "status": "active"
     }
   ]
