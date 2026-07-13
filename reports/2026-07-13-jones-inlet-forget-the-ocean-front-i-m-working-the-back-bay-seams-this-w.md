@@ -1,0 +1,22 @@
+# Forget the Ocean Front — I'm Working the Back Bay Seams This Week
+*With the ocean stacking up sloppy off the beach, the real bass and weakfish bite is happening where the warm water dumps out of the marsh.*
+
+**WANTAGH, NY — July 13** — _by Sal Moretti, Zone Writer_
+
+Every guy at the bait shop this week wants to talk about running the ocean front or making the run out past the bar for fluke. I let them talk. Buoy readings off the Bight are showing 2.3-foot swell at a nice tight ten-second period, which sounds fine on paper until you're standing on the beach watching it stack up and roll through like a bad washing machine. That's not fishable water for a guy with two feet planted on sand, and it's not worth the gas for a boat guy either when the real action is twenty minutes closer to the dock.
+
+Here's the thing nobody wants to hear: the ocean's cooking at almost 73 degrees right now, and that's actually part of the problem, not the solution. When the open water and the bay start running close in temperature, the fish lose that hard edge they usually hold to. But inside the inlet and back in the bay, the afternoon sun is baking those shallow mud flats and marsh creeks, and on the back half of the ebb that warm water comes pouring out through the cuts and channels like a dinner bell. That's where I've been putting my time, and it's paying off better than fighting swell on the beach.
+
+Jones Inlet itself has been the most reliable stretch. I've been working the rocks at Short Beach on the last two hours of the outgoing, right where that warm marsh water collides with the harder inlet current. Bass in the mid-20s to low-30s have been stacking on that seam, hitting bunker chunks fished on a fish-finder rig with 3 ounces of lead to hold bottom against the pull. If you want to work artificials, a white bucktail with a Gulp swimming mullet trailer, cast up-current and swung through the seam, has drawn some hard strikes right at dusk. Nothing gigantic, but a solid mixed bag of schoolies and a few keepers mixed in, plus enough bluefish in the 3 to 5 pound range crashing bunker on top to keep things interesting. If you see the gulls diving tight to the jetty rocks on that outgoing push, don't wait — those blues won't stick around long once the tide goes slack.
+
+Fluke guys, don't sleep on Sloop Channel. I drifted it three times this week in 18 to 24 feet on the dropping tide, and while it wasn't a banner week, I put together a respectable box — nothing over 4 pounds but steady action on white and chartreuse bucktails tipped with Gulp, dragged slow along the channel edges where the sand meets the deeper cuts. The bite's better on the back half of the outgoing when that current really starts moving bait off the flats. Don't waste time drifting dead water on the top of the tide — I tried, and it was a lot of nothing.
+
+Now here's what's got me more excited than anything else this summer — the weakfish. They're really coming back into South Oyster Bay, and I'm not exaggerating when I say it's the best I've seen this fishery in years. Freeport creeks and the deeper holes off the bay side have been holding weakfish in the 18 to 24 inch range, and a few pushing better than that. Sandworms fished on a simple bottom rig, or a bucktail tipped with a strip of squid worked slow along the bottom on the last of the incoming, has been the ticket. Evening tide, right around dusk into dark, has been the strongest window — those fish seem to feed harder once the light drops off the water. If this trend holds through the rest of July, it's going to be a real story for this bay.
+
+Porgies are around too if you want an easy box to fill — Wantagh Bridge on the bottom with clam has been steady, nothing exciting but reliable if you've got kids along or just want dinner.
+
+I won't sugarcoat it — the striper bite inshore is scattered right now, not blitz-quality. You've got to find the bait pods and work the current edges instead of blind-casting open water. But the pattern is consistent enough that I'm confident in it. We're sliding toward a new moon this week, which means bigger tidal swings and more water moving through the inlet — that usually sharpens up the bite on those current seams even more. If the wind stays out of the south and doesn't beat up the ocean any worse, I'd keep working the inlet rocks on the outgoing and hit the bay creeks for weakfish on the evening flood. That's where my time's going, and where I'd point yours too.
+
+---
+
+Tags: 

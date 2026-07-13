@@ -1,0 +1,24 @@
+# Holgate's Reshaped Third Bar Holds Fluke on the Drop, Bass Wait for Dark
+*A groundswell chewed a new trough into the south end this week — fluke moved in fast, stripers are still playing it cautious until the sun's down.*
+
+**SHIP BOTTOM, NJ — July 13** — _by Tommy Nguyen, Zone Writer_
+
+I walked the Holgate stretch at low light Tuesday morning with the drone up before the wind picked up, and the third bar isn't where it was two weeks ago. That two-to-three-foot groundswell we picked up off a long-period east swell — ten seconds, out of the southeast — did some real work down there. It cut a new trough on the south end, maybe 40 yards off the dune line, deeper and tighter than the old one. Water's pushing through it hard on the outgoing, and that kind of current edge right up against structure is exactly what fluke want in mid-July.
+
+So that's where I started the week, and it paid. Drifting that new cut and the flat behind it, 18 to 24 feet, on the last three hours of the outgoing — 4-inch white Gulp Swimming Mullets on 3/4-ounce bucktails, tipped light, just enough to feel bottom and no more. Picked up keeper fluke to 22 inches doing that, along with a pile of shorts that kept it interesting between fish. The Little Egg Inlet channel edge, right where it necks down before Graveling Point, has been doing the same thing — same depth range, same idea, current stacking bait against a hard edge. If you're marking bait balls on the meter there on the last of the ebb, don't leave. That's the window.
+
+Barnegat Inlet's producing too, but it's pickier. North side near Oyster Creek Channel on the incoming has given up a few nicer fluke, 4 to 6 pounds, to guys working chartreuse bucktails with a Gulp swimming mullet trailer, dragged slow along the bottom edge where the sand meets the rock rubble. That's not a drift-and-hope spot — you need to know exactly where that rubble line sits, and it moves every season. I'd rather send you to Holgate or Little Egg if you're not familiar with that structure.
+
+Bluefish have been showing up early, and I mean early — first light, Ship Bottom and Surf City beachfront, blitzing peanut bunker and small mullet that are starting to stage up for the run. Poppers and small metal, cast right into the wash where the birds are working. It doesn't last — usually blown out by 7:30 once the sun gets up and the bait scatters — but for that hour it's about as fun as this beach gets in July. Bring a spinning rod you don't mind getting slimed.
+
+Kingfish are on the sod banks in Little Egg and up around Graveling Point, working the marsh edges on the high tide push and pulling back off the bank as it drains. Bloodworms and FishBites bloodworm strips on a high-low rig, small hooks, light sinker — these fish don't need much convincing right now, they're just not everywhere. Focus on the drainage guts where the marsh grass funnels bait out on the ebb.
+
+Striped bass are the hard truth of this report. The resident fish are here, but July's ocean temp sitting in the low 70s and a back bay running even warmer has them doing what smart bass do this time of year — feeding at night and hiding in whatever cool water they can find during the day. I've had two decent sessions at Holgate after dark, working that new cut with a black needlefish on the slower stretches and switching to a small darter when I could hear bait getting nervous on the surface. Slot fish, nothing huge, but real bites on a real presentation instead of just soaking bunker and hoping. My plug bag right now is stripped down to three trays — swimmers for the last of dusk, poppers for when bait's showing, needlefish and darters for full dark. If you're bass fishing LBI in July and you're not out there between 9 PM and 2 AM, you're mostly fishing for the memory of spring.
+
+Weakfish are thinning out fast. Great Bay and the deeper holes off Graveling Point still had a few respectable fish on soft plastics — Bass Assassins in pearl, worked slow along the bottom — but that bite's fading as the water climbs. The Mullica's gone properly warm and tannic, good for an hour at first light before it goes quiet and stays quiet through the heat of the day.
+
+Looking ahead, that groundswell is backing off and the wind's supposed to swing more southwest by the weekend, which should let that new Holgate cut settle in rather than get reworked again. If it holds its shape, I'd keep drifting it on the outgoing for fluke through next week. For bass, until we get a real bait push or a cool-down at night, I'm treating it as a dark-hours program only — plan your trip around the tide stage after sunset, not the calendar.
+
+---
+
+Tags: 

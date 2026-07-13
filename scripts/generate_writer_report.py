@@ -44,6 +44,22 @@ REPORTS_DIR = FEED_REPO / "reports"
 REPORTS_INDEX = FEED_REPO / "reports.json"
 TEASERS_INDEX = FEED_REPO / "teasers.json"
 
+# Per-writer voice profiles — gives each writer a distinct opening style,
+# headline approach, and voice directives to prevent all reports from
+# sounding the same.
+VOICE_PROFILES_FILE = FEED_REPO / "scripts" / "writer_voice_profiles.json"
+
+
+def load_voice_profile(writer_id: str) -> dict | None:
+    """Load the voice profile for a specific writer, or None if not found."""
+    if not VOICE_PROFILES_FILE.exists():
+        return None
+    try:
+        data = json.loads(VOICE_PROFILES_FILE.read_text(encoding="utf-8"))
+        return data.get("writers", {}).get(writer_id)
+    except (json.JSONDecodeError, OSError):
+        return None
+
 # Map writer id -> zone slug used in raw/nyangler/<zone>/ data path
 WRITER_TO_ZONE_BUCKET = {
     "fire-island": "fire-island",
@@ -218,6 +234,51 @@ every writer sound the same:
 
 If you catch yourself using any of these phrases, stop and rewrite.
 
+ANTI-SAMENESS RULES — CRITICAL. You are one of 45+ writers. If your
+report sounds like the others, it fails. These rules are here to
+force your report to sound like YOU and nobody else:
+
+A. NEVER open with "Last week the [water body] did what it does in
+   [month]..." or any variation. This is the #1 most overused opening
+   on this site. Do not use it. Do not use "Last week the bay/sound/
+   river/canyon did..." as your first sentence. Find YOUR opening.
+
+B. NEVER open with "We're rolling into a new moon..." or "We're heading
+   into a new moon..." — five other writers already used that opening
+   this week. Find your own way in.
+
+C. NEVER use "lights up" or "lights up the [spot]" in a headline. It
+   has been used to death. Find a different verb.
+
+D. NEVER use "stack the [structure]" in a headline (e.g. "yellowfin
+   stack the 100-fathom line"). Find a different image.
+
+E. NEVER use "New moon springs" as a headline prefix. It appears in
+   20+ headlines. Just don't.
+
+F. OPENING DIVERSITY: Your opening should reflect YOUR personality and
+   YOUR beat. You don't have to open with conditions. You can open with:
+   - A specific catch that happened this week
+   - A conversation at the dock or tackle shop
+   - An observation about bait or bird behavior
+   - A tactical decision you made and why
+   - What you saw on the water that surprised you
+   - A comparison to last week or last year
+   Conditions matter — weave them in, but they don't have to be the
+   first thing out of your mouth. Your voice profile tells you how to
+   open. Follow it.
+
+G. HEADLINE DIVERSITY: Your headline should be specific and punchy but
+   must NOT follow the formula "[Conditions] [verb] [species] at
+   [spot]." Mix it up. Use a quote, a number, a question, an
+   observation, a single vivid image. Your voice profile tells you
+   your headline style. Follow it.
+
+H. CONDITIONS STILL MATTER — but weave them INTO the report, not
+   necessarily as the first 200 words. Mention tides, wind, water
+   temps, moon phase where they're relevant to what's being caught
+   and why. Don't front-load them unless your voice profile says to.
+
 HONESTY — THIS IS CRITICAL:
 
 Fishing is not always good. Real anglers get skunked. Real anglers
@@ -239,65 +300,6 @@ anglers — they know when they're being sold a bill of goods.
 - A report that says "the fishing was slow but here's what I learned"
   is more valuable than one that says "epic bite, get out there!"
 
-THE CONDITIONS PRELUDE — REQUIRED:
-
-Before you get into what's being caught, open with 1-2 paragraphs of
-conditions analysis. This is where you show your expertise. Cover:
-
-- WHAT HAPPENED LAST WEEK: How did the tides set up? What did the wind
-  do? Did water temps move? Was there a moon phase that mattered? Did a
-  front push through? Did a storm roll the water?
-- WHAT'S COMING THIS WEEK: Moon phase (new, full, quarter, waxing,
-  waning — and what it means for tides and feeding). Tide heights and
-  timing. Wind forecast. Any weather systems approaching. Water temp
-  trend (warming, cooling, stable).
-- THE WHY: Connect these conditions to what the fish are doing or will
-  do. "Last quarter moon on Friday means neap tides this weekend — the
-  current slows at the rips, which lets the bass settle into the eddies
-  and feed at slack instead of holding in the current lane. That changes
-  where I'd fish and when." That's the kind of analysis that separates a
-  real angler from a reporter.
-
-Use the tide_moon, bite_windows, emerging_patterns, and key_predictions
-data from your analyst package. That's your source for moon phases, tide
-heights, thermal patterns, and what the oceanography is doing. Weave it
-into YOUR voice — don't just list data points. Interpret them the way
-an experienced angler would.
-
-This prelude is NOT optional. Every report opens with conditions and
-the look-ahead, THEN moves into what's being caught.
-
-WHAT MAKES A GREAT REPORT:
-
-• CATCHES AND TACTICS — after the prelude, get into what's being
-  caught: species, sizes, where, on what (specific baits, lures, rigs,
-  presentations), at what depth, on which tide. "Fluke to 6 pounds on
-  white Gulp and chartreuse bucktails in 30 feet off the Robert Moses
-  bridge, outgoing water" — that's what readers want.
-
-• BE SPECIFIC ABOUT BAIT AND TECHNIQUE. Don't say "soft plastics are
-  working." Say "5-inch white Gulp Swimming Mullets on 3/4-oz bucktails,
-  dragged slow on the drift." Don't say "live bait." Say "peanut bunker
-  on a fishfinder rig, fished tight to the pilings on the outgoing."
-
-• EXPLAIN THE WHY. You're not just a reporter — you understand fish
-  behavior. Why are the bass hitting here and not there? Because the
-  thermocline set up at 45 feet and pushed bait against the shelf.
-  Because the new moon spring tides are flushing bunker out of the bay.
-  Because the eddy off the canyon wall is holding 68-degree water while
-  everything around it is 62. Connect the dots between conditions, bait,
-  and fish.
-
-• YOUR VOICE, YOUR PERSONALITY. You have a distinct way of talking.
-  Use it. If you're a night-fishing specialist, your report should feel
-  different from the guy who runs a center-console out of Montauk. Your
-  cadence, your vocabulary, your obsessions — let them show. Your
-  opening line should sound like YOU, not like a fishing report template.
-
-• THE LOOK-AHEAD. End with what you expect in the coming week and why.
-  "Full moon Friday means big tides — I'm watching the inlet drain at
-  sunset for the first real run of weakfish."
-
 PREDICTIONS AND THE LOOK-AHEAD — HOW TO FRAME UNCERTAINTY:
 
 You're a fisherman, not a psychic. Your predictions should sound like
@@ -312,31 +314,25 @@ Frame predictions through one of these natural angler approaches:
 
 - CONDITIONAL: "IF the wind lays down Saturday night, the drift at
   the lighthouse should set up perfect for the early flood. That's
-  where I'd start." The IF does the hedging for you — it says "this
-  depends on something I can't control" without saying "no guarantees."
+  where I'd start." The IF does the hedging for you.
 
 - ODDS-BASED: "Three trips out there this week, connected on two of
   them. Those are good numbers for late June, but it's not a sure
-  thing — you still need the right tide and a little luck." Real
-  numbers, real context, honest framing.
+  thing — you still need the right tide and a little luck."
 
 - SCENARIO: "Best case, the eddy holds through Tuesday and the tuna
   stay stacked on the 100-fathom line. If it slides east like it did
-  last month, I'd shift to the flats. Either way, the water's warm
-  enough that something's going to eat." Acknowledges multiple
-  outcomes without hedging.
+  last month, I'd shift to the flats."
 
 - EXPERIENCE-BASED: "I've seen this pattern before — neap tides in
   late June, the bass slide off the rips and settle into the deeper
   eddies. Doesn't mean it's guaranteed, but that's where I'd put my
-  time." Your track record IS the credibility. No disclaimer needed.
+  time."
 
 - WHAT YOU'D DO: "If I had one day this weekend, I'd fish the
   Sunday morning flood at the inlet. The moon's right, the tide's
   right, and there are enough fish around to make it worth the trip.
-  But I'd have a Plan B — the back bay fluke drift if the bass
-  don't show." Showing you have a Plan B says more about uncertainty
-  than any disclaimer.
+  But I'd have a Plan B."
 
 NEVER use these phrases — they're the verbal equivalent of a
 disclaimer and they kill credibility:
@@ -348,25 +344,47 @@ disclaimer and they kill credibility:
 - "I can't promise anything"
 
 Instead, let the conditions do the hedging. Name what needs to
-happen for the prediction to play out. That's how real anglers talk.
+happen for the prediction to play out.
 
-STRUCTURE: Open with the conditions prelude (1-2 paragraphs), then
-move into catches and tactics in whatever structure fits the week. Some
-weeks the prelude is the whole story (tough conditions, slow bite, here's
-why). Some weeks it's a quick setup before the catches take over. Match
-the energy to the week — but the prelude is always there.
+WHAT MAKES A GREAT REPORT:
 
-LENGTH: 800–1100 words. The conditions prelude is roughly 200 words on
-its own, then 600+ for the catches and look-ahead. If your report is
-under 800 words, you are leaving out analysis the reader needs.
+• CATCHES AND TACTICS — get into what's being caught: species, sizes,
+  where, on what (specific baits, lures, rigs, presentations), at what
+  depth, on which tide. "Fluke to 6 pounds on white Gulp and
+  chartreuse bucktails in 30 feet off the Robert Moses bridge, outgoing
+  water" — that's what readers want.
+
+• BE SPECIFIC ABOUT BAIT AND TECHNIQUE. Don't say "soft plastics are
+  working." Say "5-inch white Gulp Swimming Mullets on 3/4-oz
+  bucktails, dragged slow on the drift." Don't say "live bait." Say
+  "peanut bunker on a fishfinder rig, fished tight to the pilings on
+  the outgoing."
+
+• EXPLAIN THE WHY. You're not just a reporter — you understand fish
+  behavior. Why are the bass hitting here and not there? Connect the
+  dots between conditions, bait, and fish.
+
+• YOUR VOICE, YOUR PERSONALITY. You have a distinct way of talking.
+  Use it. Your opening line should sound like YOU, not like a fishing
+  report template. Your voice profile tells you how. Follow it.
+
+• THE LOOK-AHEAD. End with what you expect in the coming week and why.
+
+STRUCTURE: Your voice profile defines your opening style. Follow it.
+After the opening, move into catches and tactics in whatever structure
+fits the week. Weave conditions in where they matter — don't front-load
+them unless your voice profile specifically says to.
+
+LENGTH: 800–1100 words. If your report is under 800 words, you are
+leaving out analysis the reader needs.
 
 OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
 
 {
-  "headline": "string, max 90 chars. Punchy, specific, says what happened. e.g. 'Doormat fluke crash the Captree drift as bay water hits 66' or 'Bunker blitz fires the Rye rocks at sunset'",
+  "headline": "string, max 90 chars. Punchy, specific, says what happened. Do NOT use 'lights up' or 'stack the' or 'new moon springs' — these are banned. Find your own verb and image.",
   "subhead": "string, one sentence, max 160 chars. The hook that makes you read the whole thing.",
   "dateline": "string, e.g. 'CAPTREE, NY — June 12'",
-  "body_markdown": "string. 800-1100 words. Opens with 1-2 paragraphs of conditions and moon/tide/weather analysis (the prelude), then flows into catches and tactics. NO H2 or H3 headings, NO bullet lists, NO blockquotes. Just your voice in paragraphs.",
+  "body_markdown": "string. 800-1100 words. Opens in YOUR voice per your voice profile, then flows into catches and tactics. Weave conditions in where relevant. NO H2 or H3 headings, NO bullet lists, NO blockquotes. Just your voice in paragraphs.",
   "tags": ["3–6 lowercase hyphen-tags: species, technique, location focused. e.g. fluke, bucktail, captree-drift, outgoing-tide, bunker"]
 }
 """
@@ -634,11 +652,30 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
     }
     background_reports = [shorten_report(r) for r in reports]
 
+    # Load per-writer voice profile and build the voice directive block
+    voice_profile = load_voice_profile(writer["id"])
+    voice_block = ""
+    if voice_profile:
+        voice_lines = [
+            f"\nYOUR VOICE PROFILE (follow these directives — they make you unique):",
+            f"  Opening style: {voice_profile.get('opening_style', 'your own choice')}",
+            f"  How to open: {voice_profile.get('opening_directive', 'Open however feels right for you this week.')}",
+            f"  Headline style: {voice_profile.get('headline_style', 'Punchy and specific.')}",
+            f"  Voice focus: {voice_profile.get('voice_focus', 'Be yourself.')}",
+        ]
+        banned = voice_profile.get("banned_for_this_writer", [])
+        if banned:
+            voice_lines.append(f"  Phrases banned for YOU specifically: {', '.join(banned)}")
+        voice_lines.append("  These directives override any general structure rules. Open YOUR way.")
+        voice_block = "\n".join(voice_lines)
+
     system = (
         writer.get("system_prompt", "")
         + "\n\n---\n"
         + EDITORIAL_RULES.strip()
     )
+    if voice_block:
+        system += "\n\n---\n" + voice_block
 
     user = json.dumps(
         {
@@ -649,26 +686,22 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
             "background_forum_chatter_DO_NOT_CITE": background_reports,
             "task": (
                 "Write this week's fishing report for your zone. "
-                "OPEN with 1-2 paragraphs of conditions analysis — what "
-                "happened last week (tides, wind, water temps, moon), "
-                "what's coming this week (moon phase, tide heights, "
-                "weather systems, temp trends), and WHY it matters to "
-                "the fishing. Use the tide_moon, bite_windows, "
-                "emerging_patterns, and key_predictions from your "
-                "analyst data. Then move into what's being CAUGHT — "
-                "species, sizes, tactics, baits, specific spots. "
-                "Be honest about the bite quality — if it's slow or "
-                "mixed, say so. Anglers respect honesty, not hype. "
-                "Use the Dr. Fish analyst data to explain WHY "
-                "conditions are producing. The forum chatter and "
-                "YouTube intel are BACKGROUND ONLY — synthesize it "
-                "into your voice, never cite users or video channels. "
-                "Write it like YOUR column — your voice, your "
-                "personality, your way of reading the water. Be "
-                "specific on baits and rigs. Return ONLY the JSON "
-                "object specified — no preamble, no markdown code "
-                "fence. Remember: open with conditions/moon/tide "
-                "analysis, then catches, then look-ahead."
+                "Open in YOUR voice per your voice profile — do NOT "
+                "default to a conditions prelude. Weave tides, wind, "
+                "water temps, and moon phase into the report where "
+                "they're relevant to what's being caught and why. "
+                "Then move into what's being CAUGHT — species, sizes, "
+                "tactics, baits, specific spots. Be honest about the "
+                "bite quality — if it's slow or mixed, say so. "
+                "Anglers respect honesty, not hype. Use the analyst "
+                "data to explain WHY conditions are producing. The "
+                "forum chatter and YouTube intel are BACKGROUND ONLY "
+                "— synthesize it into your voice, never cite users or "
+                "video channels. Write it like YOUR column — your "
+                "voice, your personality, your way of reading the "
+                "water. Be specific on baits and rigs. Return ONLY "
+                "the JSON object specified — no preamble, no markdown "
+                "code fence."
             ),
         },
         indent=2,
@@ -767,6 +800,14 @@ BANNED_PHRASES = [
     "but that's fishing",
     "results may vary",
     "i can't promise anything",
+    # Anti-sameness phrases — these make every writer sound identical
+    "did what it does",
+    "did what it always does",
+    "did what overheated",
+    "did what shallow water does",
+    "did what bay water does",
+    "did what it does every",
+    "did what it usually does",
 ]
 
 
@@ -842,7 +883,7 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
 
     # Also write to the unified fishing intel database
     import hashlib as _hl
-    UNIFIED_DB = NOREASTER / "intel" / "data" / "fishing_intel.jsonl"
+    UNIFIED_DB = NOREASTER / "data" / "fishing_intel.jsonl"
     uid = _hl.sha1(f"{today.isoformat()}{writer.get('id','')}{report.get('headline','')[:50]}".encode()).hexdigest()[:16]
     unified_entry = {
         "id": uid,

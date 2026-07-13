@@ -1,0 +1,26 @@
+# Plum Gut Turned Over for Blues, Horton Point Still Making You Earn a Bass
+*The Gut's running with jumbo bluefish and the first real squid smell of the summer, but the bass between Mattituck and Rocky Point are still playing hard to get.*
+
+**MATTITUCK, NY — July 13** — _by Pat "North Fork" Reilly, Zone Writer_
+
+Sal Petrucci's been clamming Mattituck Creek longer than I've been legal to drink, and Tuesday morning he flagged me down off the town beach holding up a bucket like it owed him money. "Water's got a stripe in it," he says. "Warm on top, cold underneath, like somebody poured two different summers in the same glass." I told him that's about the smartest thing anybody's said to me all week, because that's exactly what's going on out there — and it's why this report's going to sound like two different reports stitched together, because that's what the Sound's doing right now.
+
+Western water's been running warm — I'm hearing Kings Point up around 71 — and by the time you work your way east toward New London it's dropped into the mid-60s. That gradient doesn't stop at some invisible line on a chart, it runs right through my zone. Mattituck's fishing like the warm side. Orient and the Plum Gut approach are fishing like the cold side. Horton Point and Rocky Point are stuck in the middle, which is about where the fishing's been too — decent, not great, and you have to work for it.
+
+Start at Mattituck Inlet. There's peanut bunker stacked in the mouth on the last two hours of the ebb, and the bass know it. Nothing big — mostly schoolies and a few fish pushing 26, 27 inches — but they're there most evenings if you fish live bunker on a fishfinder rig, or a white 1-ounce bucktail worked slow along the rocks on the west side. I had one client stick three keepers in an hour Thursday and get skunked the next night in the same spot on the same tide. That's the warm-water pattern for you — the fish are following the bait, and the bait's moving with the temperature, not the clock.
+
+Horton Point's been the stubborn one. The structure's still there, the current still rips off that point like it always has, but the bass have been sitting deep and picky. Clam's been out-fishing plugs and bucktails by a wide margin — cut skimmer clam on a fish-finder rig, fished right on bottom where the rip drops off into the deeper water. Guys throwing plugs through there have had long, quiet evenings. I don't know why the bass want it slow and smelly instead of something with action, but I've fished that rock pile sixty years and I've learned not to argue with what's working.
+
+Rocky Point's given up some decent porgy the last couple weeks — good numbers of scup in the 10-to-12-inch range on the reef structure, taking sandworm and squid strips fished light, small hooks, just enough weight to hold bottom on the drift. If you want a bucket of fish for the pan without much drama, that's your spot right now. Blackfish are mixed in on the rockier stretches too, but they're still finicky this time of year — green crab's the ticket when they cooperate, which isn't every tide.
+
+Now the good news, and it's real good news if you like bluefish with some shoulders on them. Plum Gut's turned over. The current there is doing what it does when the tide really starts to rip, and there are jumbo blues stacked on the edges of that current, blitzing bait right on the surface in spots. I had a report of fish to 12, 13 pounds taken on diamond jigs and topwater poppers worked right along the seam where the fast water meets the slower stuff off Orient Point. That's classic Gut behavior — the current does the work, piling bait against the structure, and you just need to put something shiny in front of a fish that's already worked up.
+
+There's bass mixed in with those blues too, and from what I'm seeing they're leaning toward slot and overslot rather than shorts — bigger, more mature fish pushing through on the tide change. If you're going to fish the Gut, fish the edges of the rip, not the middle of it, and don't be afraid to let a bucktail sink clean before you start working it. That's where the bigger stripers are holding, down under the commotion the blues are making up top.
+
+Weakfish have been a rumor more than a pattern out here this year — a few taken incidental to the fluke guys working the deeper holes off Rocky Point on bucktail and Gulp combos, nothing you could call a run. I wouldn't plan a trip around them, but keep a rod rigged light just in case.
+
+Looking ahead, I'd watch that thermal stripe Sal pointed out. If the warm water keeps pushing east, Horton Point ought to loosen up and start fishing more like Mattituck — faster, more aggressive fish willing to chase a plug again. If it holds where it is, keep the clam rod rigged and be patient. And with squid starting to show up to our east around Rhode Island and Nantucket, don't be surprised if Plum Gut gets even better before it gets worse — that's the kind of forage that turns a good bluefish bite into a genuine bass rip. I'd fish the Gut on the next good tide change if I only had one shot this week, but I'd have the clam bucket in the truck as a backup plan for Horton Point on the way home.
+
+---
+
+Tags: plum-gut, bluefish, striped-bass, horton-point, porgy, sound-shore
