@@ -19,4 +19,4 @@ Looking ahead, if that southeast swell backs off like it's supposed to by the we
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, weakfish, squid, bunker, bucktails, poppers

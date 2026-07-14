@@ -21,4 +21,4 @@ Looking ahead, that groundswell is backing off and the wind's supposed to swing 
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, weakfish, kingfish, bunker, bucktails, poppers

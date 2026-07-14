@@ -17,4 +17,4 @@ No sign of albies yet, and I wouldn't expect them — that's a late-August, Sept
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, false albacore, squid, bunker, bucktails, poppers

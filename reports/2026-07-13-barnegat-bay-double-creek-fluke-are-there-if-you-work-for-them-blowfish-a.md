@@ -19,4 +19,4 @@ Looking ahead, if the wind stays out of the southwest and lays down through the 
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, weakfish, blowfish, kingfish, squid, bunker

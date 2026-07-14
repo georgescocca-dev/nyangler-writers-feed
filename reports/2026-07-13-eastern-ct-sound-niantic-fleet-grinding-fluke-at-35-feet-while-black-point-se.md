@@ -19,4 +19,4 @@ Looking ahead, I'd keep an eye on that New London temp reading. If it climbs bac
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, black sea bass, scup, tautog, squid, bunker

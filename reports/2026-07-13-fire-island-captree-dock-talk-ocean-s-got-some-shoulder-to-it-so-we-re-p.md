@@ -19,4 +19,4 @@ Looking ahead, if that ocean swell settles down even a little by the weekend, I'
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, weakfish, squid, bunker, bucktails, jigs

@@ -19,4 +19,4 @@ Looking at the week ahead: if the wind stays out of the southwest and doesn't ki
 
 ---
 
-Tags: 
+Tags: striped bass, black sea bass, tautog, cod, bonito, yellowfin tuna, bluefin tuna, mahi-mahi

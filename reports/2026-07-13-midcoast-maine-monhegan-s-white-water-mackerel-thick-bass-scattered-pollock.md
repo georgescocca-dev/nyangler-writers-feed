@@ -21,4 +21,4 @@ Looking ahead, if the wind stays out of the southwest and the water keeps warmin
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, cod, haddock, pollock, mackerel, squid, sand eels

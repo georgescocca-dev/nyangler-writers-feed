@@ -19,4 +19,4 @@ I won't sugarcoat it — the striper bite inshore is scattered right now, not bl
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, weakfish, squid, bunker, bucktails, chunking

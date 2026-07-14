@@ -25,4 +25,4 @@ Bottom line: rough start, real finish. The squid are the tell this time of year 
 
 ---
 
-Tags: 
+Tags: yellowfin tuna, bluefin tuna, wahoo, mahi-mahi, squid, jigs, plugs, trolling

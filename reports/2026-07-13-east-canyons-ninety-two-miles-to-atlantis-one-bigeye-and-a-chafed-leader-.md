@@ -17,4 +17,4 @@ Looking ahead, I'd plan the next trip around the weather window rather than the 
 
 ---
 
-Tags: 
+Tags: yellowfin tuna, bigeye tuna, wahoo, mahi-mahi, mackerel, squid, jigs, chunking

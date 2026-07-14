@@ -21,4 +21,4 @@ Looking ahead, if the swell holds in this 2- to 3-foot range and doesn't build p
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, tautog, weakfish, squid, bunker, bucktails

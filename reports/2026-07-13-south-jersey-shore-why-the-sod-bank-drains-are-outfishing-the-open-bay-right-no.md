@@ -25,4 +25,4 @@ Looking ahead, the moon is building toward new phase this week, which means bigg
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, weakfish, kingfish, triggerfish, bunker, bucktails

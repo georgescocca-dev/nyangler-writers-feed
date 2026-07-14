@@ -19,4 +19,4 @@ Looking ahead: the tide cycle is building toward bigger swings over the next sev
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, black sea bass, bonito, false albacore, squid, bunker

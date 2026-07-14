@@ -19,4 +19,4 @@ Looking ahead, the pattern holds if the wind stays out of the south-southwest an
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, scup, tautog, false albacore, squid, bunker

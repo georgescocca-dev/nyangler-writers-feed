@@ -19,4 +19,4 @@ Looking ahead, these new moon tides should keep building through the weekend, wh
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, black sea bass, scup, weakfish, squid, bunker

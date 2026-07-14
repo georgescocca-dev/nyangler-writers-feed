@@ -21,4 +21,4 @@ Looking ahead, I'd keep my eye on that thermal gradient more than the calendar. 
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, tautog, weakfish, bonito, bunker, bucktails

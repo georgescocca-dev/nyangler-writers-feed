@@ -17,4 +17,4 @@ For the week ahead: I'd keep working the gravel edge on the northwest corner for
 
 ---
 
-Tags: 
+Tags: striped bass, cod, haddock, bluefin tuna, mackerel, jigs, trolling, long island sound

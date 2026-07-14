@@ -19,4 +19,4 @@ Looking ahead, if the wind holds out of the southwest through the weekend I'd be
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, mackerel, squid, bunker, bucktails, jigs, poppers

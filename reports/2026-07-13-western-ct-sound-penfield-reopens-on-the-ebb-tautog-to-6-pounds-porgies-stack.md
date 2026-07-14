@@ -17,4 +17,4 @@ Heading into this coming week, I'd play the tide windows the same way I did Satu
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, porgies, tautog, squid, bunker, bucktails

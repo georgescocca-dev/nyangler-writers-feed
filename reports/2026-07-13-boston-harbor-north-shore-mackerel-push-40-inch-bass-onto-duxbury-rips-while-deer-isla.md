@@ -21,4 +21,4 @@ Looking ahead, if the mackerel schools stay put around Duxbury and Kingston Bay,
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, cod, haddock, mackerel, squid, bucktails

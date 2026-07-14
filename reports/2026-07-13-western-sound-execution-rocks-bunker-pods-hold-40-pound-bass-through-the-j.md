@@ -23,4 +23,4 @@ Looking at the week ahead, that thermal split between the western and eastern So
 
 ---
 
-Tags: 
+Tags: striped bass, bluefish, fluke, weakfish, squid, bunker, bucktails, soft plastics
