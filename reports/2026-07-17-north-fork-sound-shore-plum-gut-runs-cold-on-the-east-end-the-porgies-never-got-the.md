@@ -1,0 +1,26 @@
+# Plum Gut runs cold on the east end — the porgies never got the memo
+*A steep temperature break from Horton Point to Orient is sorting the bite by degrees, and the bass know it better than we do.*
+
+**MATTITUCK, NY — July 17** — _by Pat "North Fork" Reilly, Zone Writer_
+
+My father used to say a bayman who trusts his eyes more than his thermometer will starve slow and confused. I didn't understand that till I was maybe forty, standing on the rocks at Horton Point watching gulls work a rip that had nothing under it. Water looked right. Tide looked right. Fish weren't there. Took me another twenty years of getting it wrong before I learned that the Sound doesn't hand you the same water twice in a week, and this week it's handing us two different oceans on one beat.
+
+Run your hand off Mattituck east toward Orient and you're crossing a real seam. Up around the west end of my water it's pushing warm — nothing official to give you off Rocky Point, but the feel of it, the color, tells you it's tracking close to what Kings Point's been reading out west, high 60s pushing 70. By the time you're out toward Plum Gut and looking at New London's numbers, you're down closer to 68, maybe cooler in the current itself where that Race water comes barreling through. That's not a small difference to a fish. Seven, eight tenths of a degree can move a school off a rip like somebody turned off a light.
+
+What that's meant on the water: the porgy bite off Horton Point and out past Rocky Point has been the most honest thing going. Small warm-water invertebrates, worms, spider crab bits — porgies don't ask permission, they just eat, and they've been stacked over the mussel bottom in eighteen to twenty-eight feet on the tail of the outgoing. Bloodworms on a hi-lo rig, size 6 or 8 hook, just enough sinker to hold bottom without dragging — that's been filling coolers with fish in the 12 to 14 inch range, a few pushing bigger. Nothing glamorous. Reliable, though, and reliable is worth something in July.
+
+Bluefish have been running through in patches, mostly showing themselves in the surface commotion off Rocky Point in the last two hours of the incoming, chopping bunker pods that have been thick this month. If you see the water nervous and the terns diving, don't overthink it — a silver or blue diamond jig worked fast through the melee will connect, and so will a bunker chunk if you've got the patience to sit on it. Sizes have been mixed, plenty of choppers in the three to five pound range, the occasional bigger fish that'll make you check your leader after.
+
+Striped bass have been the trickier read, and that's where the temperature break matters most. Closer to Mattituck and Horton Point, in that warmer water, the bass have been shallow and aggressive on the last two hours of the outgoing tide — working bucktails, half-ounce to three-quarter, white or chartreuse, tipped with a strip of squid, worked slow along the drop-offs where the current pulls bait off the flats. Slot fish mostly, a few overslot mixed in for guys willing to work the rocks at first light before the boat traffic starts. But push east toward the Gut and that cooler water seems to be holding the bigger fish deeper and later — less willing to chase on top, more willing to eat a bucktail bounced right on bottom through the rip itself. That's classic Plum Gut behavior this time of year — the current does the work, you just need to get your offering down into it and let it ride. A friend who runs the approach regularly has been marking good bass sign on the meter down deep in that hard water off Orient, fish that won't show themselves on the surface but will eat a jig dropped and worked with the tide, not against it.
+
+Weakfish have been a rumor more than a pattern — a few taken incidentally on bucktail drifts inside Mattituck Inlet, nothing you'd plan a trip around. Fluke have been steady but unspectacular off the drop-offs between Rocky Point and Horton, four-inch white Gulp on a light jighead, drifted slow over sand-to-mud transitions in twenty-five to thirty feet. Keeper-sized fish mixed in with plenty of shorts, which tells you the population's healthy even if the box isn't filling fast.
+
+Blackfish, for those asking, you can leave the crab pots home — not their season and won't be for months yet.
+
+Wind's been the other variable worth respecting. When it's been out of the southwest and built through the afternoon, the water off Rocky Point turns unpleasant fast for a small boat, and that's when I've told people to work the more protected water tucked closer to the inlet instead of grinding it out on the open beach.
+
+Looking ahead — if that thermal seam holds where it's been sitting, I'd keep working the warmer water for the shallow, aggressive bass and save the deep bucktail work for the Gut on a strong tide, morning or evening, when the light's low and the current's really moving. If a stretch of easterly wind pushes that cooler water back west, the whole pattern could compress toward Horton Point fast, and I wouldn't be shocked to see the porgy grounds turn into a bass spot overnight. Worth checking both ends before you commit the whole day to one piece of rock.
+
+---
+
+Tags: striped bass, bluefish, fluke, porgies, tautog, weakfish, squid, bunker

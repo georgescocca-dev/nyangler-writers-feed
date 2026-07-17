@@ -1,0 +1,24 @@
+# Slot bass at Plum Gut — 3 A.M. and the rocks are loaded
+*Cold water still pouring through The Race is holding bait and bass tight to the current lines while the rest of the Sound cooks.*
+
+**ORIENT POINT, NY — July 17** — _by Mike Rizzo, Zone Writer_
+
+Three-fifteen in the morning, standing on the rocks at Plum Gut with the tide just turning to ebb, and my rod loads up on the third cast. Slot bass, 29 inches, came off a white bucktail I was dragging through the seam where the eddy peels off the main current. That fish didn't feed soft. It hit like it meant it — and that's been the story out here all week. When the water's moving hard through the Gut and The Race, these bass are not messing around.
+
+Here's why: New London is reading 67.5 degrees right now, a solid three to four degrees colder than Kings Point over on the west end at 71.2. That's not an accident. The Race is a funnel — millions of gallons getting rammed through a narrow slot on every tide change, and it's dragging cooler, oxygen-rich bottom water up with it. While the rest of the Sound is sliding into that flat, warm, mid-summer doldrums pattern, our water out here stays charged. Bait piles up on the edges of that cold flow, and the bass and blues know exactly where to sit and wait for it.
+
+The pattern all week has been simple and repeatable: fish the two hours around max current, whether that's the top of the flood or the bottom of the ebb, and target the current seams — not the middle of the rip, the edges where fast water meets slower water. I've been throwing 1.5 to 2-ounce bucktails, white or chartreuse, tipped with a green Fin-S tail, letting them sink on a controlled drop off the edge of the flat before working them back with a slow, rhythmic sweep along bottom. That's put slot and overslot bass on the deck at Plum Gut and along the north side of The Race consistently — nothing giant yet, mostly 28 to 34 inches, but they're eating with purpose and there have been enough of them that I'm not calling this lucky.
+
+Fishers Island Race has been the bluefish address. Jumbo blues, 8 to 12 pounds, blowing up on top when the bait gets pushed into the rip on the tide change. Poppers and 2-ounce Ava jigs worked fast through the boils have been getting hit almost every cast when it's happening — but it's not an all-day thing. You get a window, usually 30 to 45 minutes around max current, and then it shuts off hard until the next stage. I've run out there three times this week and connected on all three, but two of those trips I had maybe 20 minutes of real action total. You need to be on the water and ready when it turns on, not idling around hoping to stumble into it.
+
+Fluke fishing has been fair, not great. Drifting Plum Gut and the flats off Orient Point in 40 to 60 feet, white and pink Gulp Swimming Mullets on bucktails have been picking through some keepers, but the ratio of shorts to keepers is running heavy — a lot of 14 and 15-inch fish for every one that measures. The warmer surface water is pushing bait shallower than the fluke want to sit, so the better drifts have been the deeper edges where that cold Race water is still influencing bottom temp. Porgies have been steady and reliable at Valiant Rock and Bug Light, bloodworms and clam on high-low rigs in 20 to 40 feet — not glamorous, but if you want a bent rod and dinner, that's your play right now.
+
+Weakfish are around in small numbers, mostly as bycatch on the fluke drifts, nothing worth planning a trip around. I haven't targeted blackfish — season's closed out here through the summer, and there's nothing to report there anyway.
+
+Night fishing off the Orient Point rocks has been my favorite session of the week. Live eels, slow-walked through the current on a fish-finder rig, into the deep water at the base of the point. That's where I got a 36-inch bass Tuesday night on the last of the ebb, and I heard of at least one bigger fish, close to 40, lost at the rocks the same night to a broken leader. If you're going to fish this spot, bring 50-pound fluorocarbon leader minimum — those rocks and that current will find any weak link in your rig.
+
+Looking ahead, as long as that thermal gradient holds — cold Race water against the warmer Sound to the west — I expect this pattern to keep producing. The bunker schools have been building around Fishers Island, and if they push into the Gut like they did last summer, that's when this bite goes from good to genuinely dangerous for anything swimming near them. Wind's been mild out of the south, which is keeping the surface clean for now; if that holds through the weekend, I'd fish the Saturday night ebb at Plum Gut and the Sunday morning flood at The Race. If the wind swings hard out of the southwest and churns things up, I'd shift over to Fishers Island Race for the blues and save the bass fishing for the next clean tide.
+
+---
+
+Tags: striped bass, bluefish, fluke, tautog, weakfish, bunker, bucktails, jigs

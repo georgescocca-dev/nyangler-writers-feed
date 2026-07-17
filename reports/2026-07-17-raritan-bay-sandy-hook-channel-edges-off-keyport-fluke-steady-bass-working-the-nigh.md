@@ -1,0 +1,24 @@
+# Channel Edges Off Keyport: Fluke Steady, Bass Working the Night Shift
+*With the ocean side kicking up leftover swell, I'm staying inside — and the fluke on the flats are making that decision easy.*
+
+**PERTH AMBOY, NJ — July 17** — _by Marisol Duarte, Zone Writer_
+
+I made the call Monday morning before I even loaded the boat: skip the Rip, work the flats. There's still a leftover groundswell rolling off the Bight — buoy data offshore of the Hook has been holding in the 3-foot range on a short period, the kind of chop that makes the ocean side of Sandy Hook miserable for anything but the diehards. So I turned the truck toward Keyport instead, and I'm glad I did.
+
+This time of year, the bay tells you where to go if you're willing to listen. Water out front of the Hook is pushing into the low 70s, which means the Bay itself — shallower, more protected — has been running warm and a little sleepy in the mid-day sun. The fish know it. Fluke have tucked into the channel edges where the current keeps things moving and the bottom stays cooler, and that's exactly where I found them.
+
+Flynn's Knoll into the Keyport Flats has been my program all week. I'm drifting the edge where the flat drops from eight feet down into eighteen to twenty-two, working the transition hard on the top of the incoming tide when the current starts stacking bait against that lip. Four-inch Gulp Swimming Mullets in pearl white and bubblegum, threaded on 3/4-ounce bucktails, dragged slow along bottom with just enough hop to keep contact — that's been the ticket. Picked up a stretch of keeper fluke Tuesday afternoon between 17 and 22 inches, with one heavier fish that pushed close to 5 pounds that came off the deeper cut near the Knoll's northern edge. Nothing like that doormat that got weighed in at Bayonne a few weeks back, but solid, honest fluke fishing — the kind where you keep three rods working the drift and stay disciplined about covering ground instead of anchoring up and hoping.
+
+Romer Shoal has been a mixed bag. I got a few short fluke there Wednesday morning on the same rig, plus a couple of porgies that snuck onto a bucktail tipped with a Gulp strip — not a bad sign, means the bottom's holding bait. If you want porgies specifically, drop clam on top-and-bottom rigs right on the shoal itself around the wreck pieces; they're there, they're just not stacked the way they will be come September.
+
+Striped bass have gone the way they always do in the heart of summer — they're not gone, they're just smarter than the boat traffic. The daytime bite in the open bay has gone quiet outside of dawn and dusk. I fished the Great Beds area at first light Thursday, chunking bunker on fishfinder rigs in about 20 feet, and connected with two schoolies and one fish that just cleared 28 inches before the sun got high and the bite shut like someone flipped a switch. That's the pattern right now — an hour, maybe ninety minutes of real window at first light, then done. If you want a better shot at bass, work the Navesink after dark. I've had reports of decent fish holding around the Highlands bridge pilings and up toward Red Bank on the last two hours of the outgoing, hitting swimming plugs and soft plastics twitched slow through the current seams. Bring a good headlamp and patience — it's not a numbers game, it's a quality-over-quantity game right now.
+
+Bluefish have been the wildcard, and honestly the most fun I've had on the water this week. There's still bunker schools holding off Flynn's Knoll and drifting toward Romer, and when the blues find them it gets chaotic fast — birds diving, bait skying, the whole show. Chrome and green Ava jigs cast into the melee have been producing fish in the 3 to 5 pound range, some bigger. If you see the gulls working, don't wait, get on it — that window can close in fifteen minutes once the blues push the bait down or move off.
+
+Weakfish are still around in small numbers, mostly as incidental catches on the fluke rigs in the deeper channel stretches near Keyport. I'd encourage releasing anything close to the slot — the population's still fragile enough that every spawner matters, and it's not worth the fillet to put a dent in a fishery that's been rebuilding slow.
+
+Looking ahead, if the swell out front settles down by the weekend, I might sneak out to the Rip and see if there's a bigger class of bass holding on that current edge the way they do when bait gets funneled through there on a hard tide. But my money for the next several days stays inside — the channel edges off Keyport, the flats around Flynn's Knoll, working the incoming for fluke and putting in the early alarm clock hours for bass. That's the honest program right now: no blitzes, no fireworks, just solid tide-and-structure fishing if you're willing to be specific about when and where you show up.
+
+---
+
+Tags: fluke, striped-bass, bluefish, flynns-knoll, keyport-flats, channel-edge

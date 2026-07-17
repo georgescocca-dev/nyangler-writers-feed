@@ -1,0 +1,24 @@
+# New Haven's Outer Wall Buried in Porgies, Bass Sliding the Charles Island Bar
+*Scup are thick enough on the rockpiles to wear your arm out, and there's a slot-fish pattern building on the sandbar worth your evening tide.*
+
+**NEW HAVEN, CT — July 17** — _by Lena Marchetti, Zone Writer_
+
+Tuesday evening, outer wall at New Haven Harbor, second rock pile out from the light. I dropped a high-low rig with two size 6 Chestertown hooks, seaworm on one, a strip of squid on the other, into about 16 feet on the tail end of the flood. Didn't even get the sinker settled before the rod tip started dancing — porgy, chunky one, close to a pound and a half, and that was the first of about forty over two hours before the current went dead slack and shut the whole thing down like someone flipped a switch. That's July on the breakwalls for you. When the tide's moving, it's about as easy as bottom fishing gets around here. When it stops, go home or go find moving water somewhere else.
+
+That's really the story of the week — the porgies are here in numbers I haven't seen since early June, and they're piled onto every rockpile from the New Haven jetties out to Falkner Island. Small hooks, light sinkers, fresh bait, that's it. Seaworms are still the top bait but squid strips are keeping pace, and I had a stretch Thursday off the Falkner rocks where clam necks out-produced both for a solid hour on the last two hours of the incoming. Depth's been 15 to 25 feet depending which pile you're working, and the fish are hugging bottom tight — if your rig isn't ticking rock, you're not in the strike zone.
+
+Sea bass are mixed in with the porgies on the deeper structure, especially out around Falkner and the rougher bottom off Stratford Shoal. Nothing giant — most are running 13 to 15 inches, right around the keeper mark — but there are enough shorts in the mix that you're culling through fish most drops. A 1-ounce diamond jig tipped with a squid strip, worked with a short hop off bottom, has been out-fishing bait-only rigs for the bigger sea bass. If you're marking bait balls on the graph over the rockpiles, that's your cue to jig instead of soak.
+
+Blackfish are off the table right now — CT's summer closure has them shut down until September, so if you're marking tog on the same structure, let them be and come back after Labor Day. That closure's actually done the porgy bite a favor; without guys targeting the same rocks for tog, the scup have had that structure to themselves and they're piling up on it.
+
+Stripers are the more interesting development. The Charles Island bar has been holding a real pattern on the last two hours of the flood into the top of the tide — I had three fish Sunday evening in the 26 to 29-inch range, one just under slot, working a white bucktail with a chartreuse Fin-S trailer along the drop-off where the bar falls into the channel. Water's running warm out there, and with the western Sound reading well into the low 70s, that warmth is holding bait tight against the sandbar edge — silversides mostly, with peanut bunker starting to show in pockets. The bass are using the bar as an ambush wall, sitting on the down-current side waiting for that bait to get pushed over the edge. Fish the transition zone, not the flat top of the bar, and you'll find them.
+
+Bluefish have been spotty but real — a few blitzes off Hammonasset on bunker schools mid-week, gone as fast as they showed up. If you see birds working tight and bait skying, that's your five-minute window. Bucktails or any metal that gets down fast will draw strikes; don't waste time trying to match the hatch when they're in that mode.
+
+Fluke are still soft. I drifted the sandy stretch off Milford Gulf twice this week with white Gulp Swimming Mullets on 3/4-ounce bucktails and only scratched out two keepers each trip, both right around 19 inches. The bottom there is clean and the current's decent on the outgoing, but the numbers just aren't what they were in June. I'd rather spend my fluke time working the edges near Stratford Shoal where there's more structure mixed with the sand — better odds of a bigger fish even if the overall action is slower.
+
+Looking ahead, the tides build through this week heading toward the next new moon, which should push more water and more bait onto the bar at Charles Island — that's where I'd put my evening effort if stripers are the target. For bottom fishing, stick with the moving water windows on the rockpiles; the porgy bite has been consistent enough that I don't see it slowing unless we get a stretch of dead calm and slack current lasting more than a tide or two. If the bluefish schools settle into a pattern instead of running through, Hammonasset could turn into the better bet by next weekend. Worth checking both ends of the beat before committing.
+
+---
+
+Tags: porgies, black-sea-bass, striped-bass, new-haven-breakwalls, charles-island, bottom-fishing
