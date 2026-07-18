@@ -171,6 +171,175 @@ YOUTUBE_WEEKLY_DIR = NOREASTER / "data" / "knowledge" / "youtube_weekly_reports"
 YOUTUBE_KNOWLEDGE = NOREASTER / "data" / "knowledge" / "fishing_knowledge.jsonl"
 
 
+# ---------------------------------------------------------------------------
+# Hooper intel briefing (LLM synthesis: zone/species analysis + predictions)
+# ---------------------------------------------------------------------------
+# Hooper's daily briefing is the richest intel we produce — regional reads,
+# per-zone analysis, species breakdowns, and a predictive_outlook with dated
+# calls ("white marlin within 1-2 weeks", "bonito by late July"). The writers
+# consume it in two ways:
+#   1. Today's briefing -> zone + species context for their beat.
+#   2. The last few briefings -> "we called it" candidates. When a prior
+#      prediction has visibly come true in today's intel, the writer works the
+#      confirmation into the report. Cheap credibility — remind readers we
+#      know this water.
+HOOPER_SETUP_DIR = Path(
+    "/Users/spartacus/nor-easter-setup/projects/noreaster-intel/data/analysis"
+)
+
+
+def _hooper_score(path: Path) -> int:
+    """Score a hooper file by usefulness. More zones = better; the newer
+    46-zone format (species_analysis as list) beats the older dict format."""
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return -1
+    za = data.get("zone_analysis", {})
+    zone_count = len(za) if isinstance(za, dict) else 0
+    newer_format = 1 if isinstance(data.get("species_analysis"), list) else 0
+    return zone_count * 10 + newer_format
+
+
+def _hooper_files() -> list[Path]:
+    """Best hooper_*.json per date across all intel trees, newest first.
+
+    The intel trees drift (see P24): the same date can hold DIFFERENT briefings
+    in different trees. We score every candidate and keep the richest per date
+    so writers always get the most complete briefing available."""
+    by_date: dict[str, Path] = {}
+    best_score: dict[str, int] = {}
+    candidates = list(ANALYST_DIR.glob("hooper_*.json")) + list(
+        HOOPER_SETUP_DIR.glob("hooper_*.json")
+    )
+    for f in candidates:
+        date = f.stem.replace("hooper_", "")[:10]
+        s = _hooper_score(f)
+        if date not in by_date or s > best_score[date]:
+            by_date[date] = f
+            best_score[date] = s
+    return [by_date[d] for d in sorted(by_date, reverse=True)]
+
+
+def _species_entries(species_analysis) -> list[tuple[str, str]]:
+    """Normalize species_analysis to [(label, text)] regardless of format.
+
+    Two formats exist: dict {"striped_bass": "text..."} (older 18-zone Hooper)
+    and list [{"species": "Fluke", "status": "...", "details": "..."}] (newer
+    46-zone Hooper — richer, preferred)."""
+    out: list[tuple[str, str]] = []
+    if isinstance(species_analysis, dict):
+        for k, v in species_analysis.items():
+            out.append((str(k), str(v)))
+    elif isinstance(species_analysis, list):
+        for item in species_analysis:
+            if not isinstance(item, dict):
+                continue
+            label = item.get("species") or item.get("name") or ""
+            text = item.get("details") or item.get("analysis") or item.get("summary") or ""
+            status = item.get("status")
+            if status and text:
+                text = f"[{status}] {text}"
+            elif status and not text:
+                text = str(status)
+            if label:
+                out.append((str(label), str(text)))
+    return out
+
+
+def load_hooper_briefing(zone_slug: str, beat_species: list[str]) -> dict:
+    """Load the LATEST Hooper briefing, filtered to this writer's beat.
+
+    Returns today's zone_analysis entry, the species_analysis entries matching
+    their beat species, and the predictive_outlook. Empty dict if none."""
+    files = _hooper_files()
+    if not files:
+        return {}
+    try:
+        data = json.loads(files[0].read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+    out: dict = {"briefing_date": data.get("date") or files[0].stem.replace("hooper_", "")}
+    zone_analysis = data.get("zone_analysis", {}) or {}
+    if isinstance(zone_analysis, dict) and zone_slug in zone_analysis:
+        out["zone_analysis"] = zone_analysis[zone_slug]
+
+    beat_norm = {_norm_species(s) for s in beat_species}
+    matched = {}
+    for label, text in _species_entries(data.get("species_analysis")):
+        nl = _norm_species(label)
+        if nl in beat_norm or any(nl in b or b in nl for b in beat_norm if b):
+            matched[label] = text
+    if matched:
+        out["species_analysis"] = matched
+
+    pred = data.get("predictive_outlook")
+    if pred:
+        out["predictive_outlook"] = pred
+    return out
+
+
+def _norm_species(s: str) -> str:
+    """Normalize a species label for fuzzy matching (striped bass == striped_bass)."""
+    return re.sub(r"[_\-\s]+", " ", str(s).lower()).strip()
+
+
+# Prediction-signal phrases. If a PRIOR briefing used this language about a
+# zone/species and TODAY's intel shows it happening, that's a "called it."
+_PREDICTION_SIGNALS = re.compile(
+    r"\b(expect|should start|should see|will|building|watch for|by late|"
+    r"next (week|few|couple)|coming week|within|keep an eye|set to|"
+    r"about to|poised to|on the (verge|cusp))\b",
+    re.IGNORECASE,
+)
+
+
+def load_hooper_called_it(zone_slug: str, beat_species: list[str], lookback: int = 3) -> list[dict]:
+    """Scan PRIOR Hooper briefings for dated predictions about this beat.
+
+    Returns up to `lookback` candidates (newest first): {date, text, about}.
+    The writer (via the prompt) decides whether today's intel confirms it; we
+    do NOT auto-assert a confirmation — that would risk claiming credit for a
+    call that didn't pan out."""
+    files = _hooper_files()[1:]  # skip today — we want PRIOR calls
+    beat_norm = {_norm_species(s) for s in beat_species}
+    candidates: list[dict] = []
+
+    for f in files[:lookback]:
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        date = data.get("date") or f.stem.replace("hooper_", "")
+
+        texts: list[tuple[str, str]] = []  # (about, text)
+        zone_analysis = data.get("zone_analysis", {}) or {}
+        if isinstance(zone_analysis, dict) and zone_slug in zone_analysis:
+            texts.append((f"your zone ({zone_slug})", zone_analysis[zone_slug]))
+        for label, sp_text in _species_entries(data.get("species_analysis")):
+            if _norm_species(label) in beat_norm:
+                texts.append((_norm_species(label), sp_text))
+
+        for about, text in texts:
+            for sent in re.split(r"(?<=[.!?])\s+", str(text)):
+                sent = sent.strip()
+                if 20 < len(sent) < 320 and _PREDICTION_SIGNALS.search(sent):
+                    candidates.append({"date": date, "about": about, "text": sent})
+
+    seen: set[str] = set()
+    out: list[dict] = []
+    for c in candidates:
+        key = c["text"][:60].lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(c)
+        if len(out) >= 3:
+            break
+    return out
+
+
 def shorten_report(r: dict, max_chars: int = 700) -> dict:
     """Trim a single raw report to fit in the LLM context cleanly."""
     text = r.get("text", "") or ""
@@ -635,7 +804,7 @@ def load_recent_youtube_intel(zone_slug: str, days: int = 14) -> list[dict]:
     return results[:50]  # Cap to keep prompt size reasonable
 
 
-def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel: list[dict] = None) -> tuple[str, str]:
+def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel: list[dict] = None, hooper: dict = None, called_it: list[dict] = None) -> tuple[str, str]:
     """Returns (system_prompt, user_prompt)."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     beat = {
@@ -651,6 +820,38 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         "style_tags": writer.get("style_tags", []),
     }
     background_reports = [shorten_report(r) for r in reports]
+
+    # Hooper's briefing: today's zone/species synthesis (background — never
+    # cited by name) plus the predictive outlook.
+    hooper = hooper or {}
+    hooper_context = {}
+    if hooper.get("zone_analysis"):
+        hooper_context["zone_read"] = hooper["zone_analysis"]
+    if hooper.get("species_analysis"):
+        hooper_context["species_read"] = hooper["species_analysis"]
+    if hooper.get("predictive_outlook"):
+        hooper_context["predictive_outlook"] = hooper["predictive_outlook"]
+
+    # "We called it" candidates — prior Hooper predictions about this beat.
+    called_it = called_it or []
+    called_it_block = ""
+    if called_it:
+        lines = [
+            "",
+            "WE CALLED IT — credibility opportunity (use ONLY if today's intel confirms it):",
+            "Our own recent analysis made these calls about your beat:",
+        ]
+        for c in called_it:
+            lines.append(f"  • On {c['date']} ({c['about']}): \"{c['text']}\"")
+        lines += [
+            "If what's happening NOW in your zone confirms one of these calls,",
+            "say so — naturally, in YOUR voice. One short line is plenty:",
+            "\"We flagged this last week — said the [X] would [Y], and here it is.\"",
+            "Do NOT force it. Do NOT claim a confirmation that isn't in your intel.",
+            "Do NOT mention Hooper, 'the analyst', or 'our analysis' by name —",
+            "it is simply what WE saw coming. If nothing confirmed, skip entirely.",
+        ]
+        called_it_block = "\n".join(lines)
 
     # Load per-writer voice profile and build the voice directive block
     voice_profile = load_voice_profile(writer["id"])
@@ -682,6 +883,7 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
             "today": today,
             "beat_profile": beat,
             "primary_intel_dr_fish_oceanographic_analyst": analyst,
+            "hooper_synthesis_background_DO_NOT_CITE": hooper_context,
             "youtube_intel_DO_NOT_CITE": youtube_intel or [],
             "background_forum_chatter_DO_NOT_CITE": background_reports,
             "task": (
@@ -694,10 +896,13 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
                 "tactics, baits, specific spots. Be honest about the "
                 "bite quality — if it's slow or mixed, say so. "
                 "Anglers respect honesty, not hype. Use the analyst "
-                "data to explain WHY conditions are producing. The "
-                "forum chatter and YouTube intel are BACKGROUND ONLY "
-                "— synthesize it into your voice, never cite users or "
-                "video channels. Write it like YOUR column — your "
+                "data and the Hooper synthesis to explain WHY conditions "
+                "are producing. The forum chatter, YouTube intel, and "
+                "Hooper synthesis are BACKGROUND ONLY "
+                "— synthesize them into your voice, never cite users, "
+                "video channels, Hooper, or 'the analyst'."
+                + called_it_block +
+                " Write it like YOUR column — your "
                 "voice, your personality, your way of reading the "
                 "water. Be specific on baits and rigs. Return ONLY "
                 "the JSON object specified — no preamble, no markdown "
@@ -1048,12 +1253,23 @@ def main() -> int:
     analyst = filter_analyst_for_zone(raw_analyst, zone_slug, writer)
     youtube_intel = load_recent_youtube_intel(zone_slug, days=14)
 
+    # Hooper: today's synthesis for this beat + prior "called it" candidates.
+    # Use the writer's OWN id (not the forum zone bucket) — canyon captains map
+    # to the generic "offshore" bucket for forum intel, but Hooper has dedicated
+    # per-zone entries keyed by their real id.
+    beat_species = writer.get("beat_species", []) or []
+    hooper_key = writer["id"]
+    hooper = load_hooper_briefing(hooper_key, beat_species)
+    called_it = load_hooper_called_it(hooper_key, beat_species)
+
     print(
         f"[gen] writer={writer['name']} zone={zone_slug} "
         f"forum_bg={len(reports)} "
         f"analyst={'yes' if analyst else 'NO'} "
         f"analyst_runs={len(raw_analyst.get('prior_analyst_runs_since_last_report', [])) + 1 if raw_analyst else 0} "
         f"regional_match={len(analyst.get('regional_outlook_for_beat', []))} "
+        f"hooper={'yes' if hooper else 'NO'} "
+        f"called_it={len(called_it)} "
         f"youtube_intel={len(youtube_intel)}",
         file=sys.stderr,
     )
@@ -1063,7 +1279,7 @@ def main() -> int:
             file=sys.stderr,
         )
 
-    system, user = build_prompt(writer, reports, analyst, youtube_intel)
+    system, user = build_prompt(writer, reports, analyst, youtube_intel, hooper=hooper, called_it=called_it)
     print(f"[gen] calling {args.model} (prompt={len(system)+len(user):,} chars)", file=sys.stderr)
     raw = call_openrouter(system, user, args.model)
     try:
