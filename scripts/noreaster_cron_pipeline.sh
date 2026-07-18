@@ -12,7 +12,11 @@
 # Mac must be awake at 3am. Set with:
 #   sudo pmset repeat wakeorpoweron MT F 02:55:00
 
-set -euo pipefail
+# Graceful degradation: do NOT use `set -e`. A failed analyst or Hooper run
+# must NOT kill the whole pipeline — writers can still generate (thinner) and
+# the site still gets an update. We only hard-fail when publishing is truly
+# impossible (no python, no API key). Each step reports its own status.
+set -uo pipefail
 
 # --- Paths ---
 INTEL_DIR="/Users/spartacus/nor-easter-setup/projects/noreaster-intel"
@@ -23,6 +27,9 @@ LOG_FILE="$FEED_DIR/scripts/pipeline.log"
 export TZ="America/New_York"
 TODAY=$(date '+%Y-%m-%d')
 echo "=== PIPELINE START: $TODAY $(date) ==="
+
+# Degradation tracker — recorded so the push/Kent knows what shipped thin.
+DEGRADED=""
 
 # --- Python --- (3.11 was removed in the crash; use the intel venv's 3.12)
 PYTHON="/Users/spartacus/nor-easter-setup/projects/noreaster-intel/.venv/bin/python3"
@@ -41,11 +48,21 @@ fi
 # --- Step 1: Analyst (buoy data, no LLM) ---
 echo "--- Step 1: Analyst ---"
 cd "$INTEL_DIR"
-"$PYTHON" scripts/run_analyst_today.py "$TODAY" 2>&1
+if "$PYTHON" scripts/run_analyst_today.py "$TODAY" 2>&1; then
+    echo "  Analyst: OK"
+else
+    echo "  [WARN] Analyst failed — writers will run on prior analyst data"
+    DEGRADED="$DEGRADED analyst"
+fi
 
 # --- Step 2: Hooper (LLM intel briefing) ---
 echo "--- Step 2: Hooper ---"
-"$PYTHON" scripts/run_hooper.py "$TODAY" 2>&1
+if "$PYTHON" scripts/run_hooper.py "$TODAY" 2>&1; then
+    echo "  Hooper: OK"
+else
+    echo "  [WARN] Hooper failed — writers will run without today's synthesis (analyst-only)"
+    DEGRADED="$DEGRADED hooper"
+fi
 
 # --- Step 3: Generate all 45 writer reports ---
 echo "--- Step 3: Generate writer reports ---"
@@ -59,11 +76,19 @@ FAILED_WRITERS=""
 
 for w in $WRITER_IDS; do
     echo "  Generating: $w"
-    if "$PYTHON" scripts/generate_writer_report.py "$w" >> "$LOG_FILE" 2>&1; then
+    # One retry per writer — network/LLM timeouts are the common failure.
+    if "$PYTHON" scripts/generate_writer_report.py "$w" --skip-index >> "$LOG_FILE" 2>&1; then
         SUCCESS=$((SUCCESS+1))
     else
-        FAIL=$((FAIL+1))
-        FAILED_WRITERS="$FAILED_WRITERS $w"
+        echo "  [retry] $w failed once, retrying…"
+        sleep 5
+        if "$PYTHON" scripts/generate_writer_report.py "$w" --skip-index >> "$LOG_FILE" 2>&1; then
+            SUCCESS=$((SUCCESS+1))
+        else
+            FAIL=$((FAIL+1))
+            FAILED_WRITERS="$FAILED_WRITERS $w"
+            echo "  [FAIL] $w (after retry) — continuing"
+        fi
     fi
     sleep 2
 done
@@ -71,6 +96,14 @@ done
 echo "  Generation: $SUCCESS success, $FAIL fail"
 if [ -n "$FAILED_WRITERS" ]; then
     echo "  FAILED:$FAILED_WRITERS"
+    DEGRADED="$DEGRADED writers($FAIL)"
+fi
+
+# Ship whatever we have — even a partial set is better than no update. Only
+# abort the push if literally nothing generated.
+if [ "$SUCCESS" -eq 0 ]; then
+    echo "FATAL: 0 reports generated — not pushing an empty update"
+    exit 1
 fi
 
 # --- Step 4: Fix empty tags ---
@@ -148,11 +181,27 @@ for f in files:
 print(f"  Fixed {fixed} empty tag lines")
 TAGFIX
 
-# --- Step 5: Commit and push ---
-echo "--- Step 5: Commit and push ---"
+# --- Step 5: Rebuild index, commit and push ---
+echo "--- Step 5: Rebuild index, commit and push ---"
 cd "$FEED_DIR"
+# Writers ran with --skip-index (fast); rebuild reports.json/teasers.json once here.
+"$PYTHON" -c "
+import sys; sys.path.insert(0, 'scripts')
+import importlib.util as u
+spec = u.spec_from_file_location('g', 'scripts/generate_writer_report.py')
+m = u.module_from_spec(spec); spec.loader.exec_module(m)
+idx = m.rebuild_reports_index()
+print(f'  Index rebuilt: {idx[\"total_reports\"]} reports')
+" 2>&1
+
+DEG_NOTE=""
+if [ -n "$DEGRADED" ]; then
+    DEG_NOTE=" [DEGRADED:$DEGRADED]"
+    echo "  Note: pipeline ran degraded —$DEGRADED"
+fi
+
 git add -A
-git commit -m "Auto-pipeline: $TODAY — $SUCCESS reports generated, tags fixed, pushed via crontab" 2>&1
+git commit -m "Auto-pipeline: $TODAY — $SUCCESS reports generated, tags fixed, pushed via crontab$DEG_NOTE" 2>&1
 git push origin main 2>&1
 
-echo "=== PIPELINE COMPLETE: $TODAY $(date) ==="
+echo "=== PIPELINE COMPLETE: $TODAY $(date) — $SUCCESS reports$DEG_NOTE ==="
