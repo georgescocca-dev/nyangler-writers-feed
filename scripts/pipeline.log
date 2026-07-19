@@ -1,3 +1,1155 @@
 === PIPELINE START: 2026-07-17 Fri Jul 17 03:00:06 EDT 2026 ===
 --- Step 1: Analyst ---
 /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/noreaster_cron_pipeline.sh: line 37: python3.11: command not found
+[gen] writer=Frank "The Sound Pro" Marinaro zone=western-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=25,021 chars)
+[gen] wrote 2026-07-18-western-sound-execution-rocks-goes-dark-by-day-bass-feeding-is-a-nighttime
+{
+  "id": "2026-07-18-western-sound-execution-rocks-goes-dark-by-day-bass-feeding-is-a-nighttime",
+  "headline": "Execution Rocks goes dark by day \u2014 bass feeding is a nighttime job now"
+}
+[gen] writer=David "The Harbor Scout" Han zone=central-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,114 chars)
+[gen] wrote 2026-07-18-central-sound-peanut-bunker-push-into-the-middle-ground-bass-slide-into-th
+{
+  "id": "2026-07-18-central-sound-peanut-bunker-push-into-the-middle-ground-bass-slide-into-th",
+  "headline": "Peanut Bunker Push Into the Middle Ground \u2014 Bass Slide Into the Dark"
+}
+[gen] writer=Mike Rizzo zone=eastern-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,574 chars)
+[gen] wrote 2026-07-18-eastern-sound-deep-in-the-gut-bass-buried-in-the-rip-eels-doing-the-damage
+{
+  "id": "2026-07-18-eastern-sound-deep-in-the-gut-bass-buried-in-the-rip-eels-doing-the-damage",
+  "headline": "Deep in the Gut: bass buried in the rip, eels doing the damage"
+}
+[gen] writer=Denise "Dee" Vasquez zone=jamaica-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=25,333 chars)
+[gen] wrote 2026-07-18-jamaica-bay-canarsie-pier-at-first-light-fluke-in-the-channel-blues-in-t
+{
+  "id": "2026-07-18-jamaica-bay-canarsie-pier-at-first-light-fluke-in-the-channel-blues-in-t",
+  "headline": "Canarsie Pier at First Light: Fluke in the Channel, Blues in the Shallows"
+}
+[gen] writer=Sal Moretti zone=jones-inlet forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=3
+[gen] calling anthropic/claude-sonnet-5 (prompt=31,741 chars)
+[gen] wrote 2026-07-18-jones-inlet-forget-the-bunker-blitz-the-real-bass-bite-at-jones-is-happe
+{
+  "id": "2026-07-18-jones-inlet-forget-the-bunker-blitz-the-real-bass-bite-at-jones-is-happe",
+  "headline": "Forget the bunker blitz \u2014 the real bass bite at Jones is happening after the sun goes down"
+}
+[gen] writer=Mariana "Mari" Reyes zone=fire-island forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,840 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Mariana "Mari" Reyes zone=fire-island forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,840 chars)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(484 bytes read)
+[gen] writer=Pete Gallo zone=moriches forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=5
+[gen] calling anthropic/claude-sonnet-5 (prompt=32,386 chars)
+[error] model returned non-JSON: Invalid control character at: line 5 column 1566 (char 1868)
+---
+{
+  "headline": "The Ebb Channel Off Cupsogue Cut Deeper — Fluke and Bait Found the New Edge",
+  "subhead": "The new moon flush scoured a fresh drop along the ocean side of the inlet, and everything from bunker to bass rearranged around it inside a week.",
+  "dateline": "MORICHES INLET, NY — July 18",
+  "body_markdown": "I ran the numbers on my depth finder against last month's chart the other morning coming through the cut, and the channel's moved again. Nothing dramatic — the inlet doesn't do dramatic unless a nor'easter tells it to — but the ebb current has scoured a noticeably deeper groove along the Cupsogue side of the throat, maybe 20 yards east of where it sat in June. That's the spring tide talking. We flagged it last week: the new moon push was going to flush hard through the inlet and pile bait at the mouth and on the nearby structure. It did exactly that. The throat concentrated everything — sand eels, bunker, spearing — and predators followed the funnel right in behind them.\n\nThat new cut is fishing well right now, and it's the most reliable water in the system. Fluke are stacked on the edge where the deeper groove drops off into the historically shallower flat — cal
+[gen] writer=Pete Gallo zone=moriches forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=5
+[gen] calling anthropic/claude-sonnet-5 (prompt=32,386 chars)
+[gen] wrote 2026-07-18-moriches-the-new-moon-flush-cut-a-fresh-channel-off-cupsogue-fluke-mo
+{
+  "id": "2026-07-18-moriches-the-new-moon-flush-cut-a-fresh-channel-off-cupsogue-fluke-mo",
+  "headline": "The New Moon Flush Cut a Fresh Channel Off Cupsogue \u2014 Fluke Moved Right Into It"
+}
+[gen] writer=Charlie "Night Owl" Ortiz zone=shinnecock forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=8
+[gen] calling anthropic/claude-sonnet-5 (prompt=37,298 chars)
+[gen] wrote 2026-07-18-shinnecock-midnight-outgoing-the-deep-hole-behind-the-rocks-and-weakfis
+{
+  "id": "2026-07-18-shinnecock-midnight-outgoing-the-deep-hole-behind-the-rocks-and-weakfis",
+  "headline": "Midnight Outgoing: The Deep Hole Behind the Rocks, and Weakfish Waking Up at Ponquogue"
+}
+[gen] writer=Rich Martin zone=montauk forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=63,058 chars)
+[error] model returned non-JSON: Expecting ',' delimiter: line 5 column 1111 (char 1444)
+---
+{
+  "headline": "Shagwong at First Light: The Bass Go Nocturnal, the Blues and Doormats Carry the Day",
+  "subhead": "Mid-July at the Point means working around the heat — dawn and dark for stripers, daylight for jumbo blues and keeper fluke, and the canyon fleet finally cashing in offshore.",
+  "dateline": "MONTAUK, NY — July 18",
+  "body_markdown": "There's a rhythm to mid-July out here that you learn or you don't catch fish. The Point isn't done — it's never done — but it's shifted gears the way it does every summer once the water settles into the low 70s. I checked a thermometer off the Lighthouse rocks Tuesday morning and it read 71.6, same number I've been seeing for a week now, and that's the number that tells you everything about how this week is going to play out.\n\nStripers don't leave Montauk in July. They go underground. The bass that were smashing bait on North Bar in broad daylight back in May and June have slid into a nighttime and dawn pattern now — moving up onto the rips and the boulder field on the dark side of the tide, then dropping back to deeper structure and current breaks once the sun gets up over the bluffs. This isn't a disappearing act, it's thermal com
+[gen] writer=Rich Martin zone=montauk forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=63,058 chars)
+[gen] wrote 2026-07-18-montauk-north-bar-bass-go-underground-as-the-blues-take-the-day-shif
+{
+  "id": "2026-07-18-montauk-north-bar-bass-go-underground-as-the-blues-take-the-day-shif",
+  "headline": "North Bar Bass Go Underground as the Blues Take the Day Shift"
+}
+[gen] writer=Bill Hubbard zone=peconic forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=3
+[gen] calling anthropic/claude-sonnet-5 (prompt=27,326 chars)
+[gen] wrote 2026-07-18-peconic-bay-pushes-into-the-high-70s-porgies-mob-shelter-island-bass
+{
+  "id": "2026-07-18-peconic-bay-pushes-into-the-high-70s-porgies-mob-shelter-island-bass",
+  "headline": "Bay pushes into the high 70s \u2014 porgies mob Shelter Island, bass slide into the night shift"
+}
+[gen] writer=Jack Sullivan zone=block-island forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=5
+[gen] calling anthropic/claude-sonnet-5 (prompt=26,427 chars)
+[gen] wrote 2026-07-18-block-island-southwest-ledge-still-holding-cold-clean-water-bass-and-a-st
+{
+  "id": "2026-07-18-block-island-southwest-ledge-still-holding-cold-clean-water-bass-and-a-st",
+  "headline": "Southwest Ledge Still Holding Cold, Clean Water \u2014 Bass and a Strengthening Fluke Run"
+}
+[gen] writer=Capt. Tony Rosetti zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=67,955 chars)
+[error] model returned non-JSON: Invalid control character at: line 5 column 1333 (char 1618)
+---
+{
+  "headline": "73.6°F on the Bight Buoy — the Warm-Core Ring Hasn't Moved an Inch",
+  "subhead": "A week after the new moon spring tide pushed warm water onto the wall, yellowfin and bigeye are settling into a real pattern at Hudson Canyon.",
+  "dateline": "MANASQUAN, NJ — July 18",
+  "body_markdown": "Buoy 44025 out in the Bight is reading 73.6°F this week, wave height 2.6 feet at a 3.0-second period. That's a short, stacked sea — not glassy, not miserable, just the kind of chop you punch through at 20 knots without thinking twice about it. The number that matters, though, is the temperature. We flagged this ten days ago — said the new moon spring tide on the 13th would push warm-core ring water and bait across the shelf break and concentrate the pelagics on the edge. That's exactly what's sitting out there right now, and it hasn't slid off like these filaments sometimes do after a week of settled wind.\n\nThe canyon wall itself — I'm talking the stretch from the Chicken Canyon drop-off down through the main body of Hudson, around 39°28'N/72°42'W on the 100-fathom curve, pushing out to 39°18'N/72°50'W where the bottom falls into the 1,000-fathom range — is holding a clean edge w
+[gen] writer=Capt. Tony Rosetti zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=67,955 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Capt. Dana Cooper zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=67,591 chars)
+[error] model returned non-JSON: Expecting ',' delimiter: line 5 column 812 (char 1151)
+---
+{
+  "headline": "Ran to Wilmington instead of Baltimore this week — six yellowfin and two whites made the fuel bill worth it",
+  "subhead": "A warm-water eddy parked on the northeast corner has bait stacked and tuna feeding, but you still have to find the right piece of water to make the run pay.",
+  "dateline": "CAPE MAY, NJ — July 18",
+  "body_markdown": "I had a decision to make Tuesday morning sitting at the fuel dock — run south to Baltimore where I fished two weeks ago, or push out to Wilmington on a tip that a warm filament had broken off the Stream and set up on the northeast edge. Baltimore had been quiet water, blue and clean but empty. Wilmington was a longer run, another forty minutes each way, but the satellite shots I'd been staring at showed a tongue of 76-degree water wrapping around the 100-fathom line up near 38°42'N, 72°32'W, right where the canyon starts to break sharply toward the Slide. That kind of temperature break, sitting on top of that kind of structure, is where I've found tuna concentrate for fifteen years out of this port. I made the call, and it was the right one — but I want to be straight about what "right" meant this week, because it wasn't a slaug
+[gen] writer=Capt. Dana Cooper zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=67,591 chars)
+[gen] wrote 2026-07-18-wilmington-canyon-ran-the-east-wall-on-a-hunch-six-yellowfin-and-our-first-whi
+{
+  "id": "2026-07-18-wilmington-canyon-ran-the-east-wall-on-a-hunch-six-yellowfin-and-our-first-whi",
+  "headline": "Ran the East Wall on a Hunch \u2014 Six Yellowfin and Our First White Marlin of the Year"
+}
+[gen] writer=Capt. Chris "Wash" Morrison zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=67,637 chars)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(352 bytes read)
+[gen] writer=Capt. Chris "Wash" Morrison zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=67,637 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Capt. Ray Lugo zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=67,550 chars)
+[gen] wrote 2026-07-18-south-canyons-slow-monday-money-thursday-yellowfin-and-white-marlin-turn-i
+{
+  "id": "2026-07-18-south-canyons-slow-monday-money-thursday-yellowfin-and-white-marlin-turn-i",
+  "headline": "Slow Monday, Money Thursday: Yellowfin and White Marlin Turn It Around at Spencer"
+}
+[gen] writer=Capt. Steve Brock zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=19
+[gen] calling anthropic/claude-sonnet-5 (prompt=67,747 chars)
+[gen] wrote 2026-07-18-east-canyons-four-hours-forty-minutes-to-veatch-and-the-bluefin-were-exac
+{
+  "id": "2026-07-18-east-canyons-four-hours-forty-minutes-to-veatch-and-the-bluefin-were-exac",
+  "headline": "Four hours, forty minutes to Veatch \u2014 and the bluefin were exactly where the tide said they'd be"
+}
+[gen] writer=Pat "North Fork" Reilly zone=north-fork-sound-shore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,895 chars)
+[gen] wrote 2026-07-18-north-fork-sound-shore-plum-gut-ran-hard-like-we-called-it-bass-went-nocturnal-porg
+{
+  "id": "2026-07-18-north-fork-sound-shore-plum-gut-ran-hard-like-we-called-it-bass-went-nocturnal-porg",
+  "headline": "Plum Gut ran hard like we called it \u2014 bass went nocturnal, porgies never blinked"
+}
+[gen] writer=Tony "Gold Coast" Bellafiore zone=western-ct-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,460 chars)
+[gen] wrote 2026-07-18-western-ct-sound-cockenoe-on-the-last-ebb-fluke-stack-sea-bass-show-bass-go-d
+{
+  "id": "2026-07-18-western-ct-sound-cockenoe-on-the-last-ebb-fluke-stack-sea-bass-show-bass-go-d",
+  "headline": "Cockenoe on the Last Ebb: Fluke Stack, Sea Bass Show, Bass Go Dark"
+}
+[gen] writer=Lena Marchetti zone=central-ct-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,369 chars)
+[gen] wrote 2026-07-18-central-ct-sound-new-haven-breakwall-porgies-run-deep-charles-island-bass-go-
+{
+  "id": "2026-07-18-central-ct-sound-new-haven-breakwall-porgies-run-deep-charles-island-bass-go-",
+  "headline": "New Haven Breakwall Porgies Run Deep, Charles Island Bass Go Nocturnal"
+}
+[gen] writer=Walt Jensen zone=lower-ct-river forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,308 chars)
+[gen] wrote 2026-07-18-lower-ct-river-river-warms-past-70-stripers-slide-to-the-night-tide-at-sayb
+{
+  "id": "2026-07-18-lower-ct-river-river-warms-past-70-stripers-slide-to-the-night-tide-at-sayb",
+  "headline": "River Warms Past 70, Stripers Slide to the Night Tide at Saybrook Point"
+}
+[gen] writer=Danny Colón zone=eastern-ct-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,463 chars)
+[gen] wrote 2026-07-18-eastern-ct-sound-niantic-boats-filling-boxes-with-fluke-and-jumbo-sea-bass-ba
+{
+  "id": "2026-07-18-eastern-ct-sound-niantic-boats-filling-boxes-with-fluke-and-jumbo-sea-bass-ba",
+  "headline": "Niantic Boats Filling Boxes With Fluke and Jumbo Sea Bass \u2014 Bass Slide Into the Dark"
+}
+[gen] writer=Marcus Webb zone=thames-river-new-london forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,237 chars)
+[gen] wrote 2026-07-18-thames-river-new-london-fort-trumbull-holds-the-line-thames-bass-still-eating-in-day
+{
+  "id": "2026-07-18-thames-river-new-london-fort-trumbull-holds-the-line-thames-bass-still-eating-in-day",
+  "headline": "Fort Trumbull Holds the Line: Thames Bass Still Eating in Daylight"
+}
+[gen] writer=Manny Pereira zone=fishers-island-sound-stonington forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,634 chars)
+[gen] wrote 2026-07-18-fishers-island-sound-stonington-wamphassuc-boulders-holding-fluke-and-sea-bass-stripers-have
+{
+  "id": "2026-07-18-fishers-island-sound-stonington-wamphassuc-boulders-holding-fluke-and-sea-bass-stripers-have",
+  "headline": "Wamphassuc Boulders Holding Fluke and Sea Bass \u2014 Stripers Have Gone to the Dark"
+}
+[gen] writer=Capt. Sabrina Cole zone=ct-offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,295 chars)
+[gen] wrote 2026-07-18-ct-offshore-race-ebb-at-3-8-knots-bass-go-nocturnal-sea-bass-rule-plum-g
+{
+  "id": "2026-07-18-ct-offshore-race-ebb-at-3-8-knots-bass-go-nocturnal-sea-bass-rule-plum-g",
+  "headline": "Race Ebb at 3.8 Knots: Bass Go Nocturnal, Sea Bass Rule Plum Gut by Day"
+}
+[gen] writer=Marisol Duarte zone=raritan-bay-sandy-hook forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,180 chars)
+[gen] wrote 2026-07-18-raritan-bay-sandy-hook-night-tide-on-the-channel-edge-bass-go-dark-bunker-bring-the
+{
+  "id": "2026-07-18-raritan-bay-sandy-hook-night-tide-on-the-channel-edge-bass-go-dark-bunker-bring-the",
+  "headline": "Night tide on the channel edge: bass go dark, bunker bring the blues topside"
+}
+[gen] writer=Brendan Doyle zone=northern-nj-shore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,395 chars)
+[error] model returned non-JSON: Invalid control character at: line 5 column 640 (char 915)
+---
+{
+  "headline": "Belmar Rocks at First Light: Blues Shred Bunker, Bass Wait for Dark",
+  "subhead": "The bunker never left the beach this week — bluefish are stacked under it by day, stripers are working it after the sun goes down.",
+  "dateline": "SEA BRIGHT, NJ — July 18",
+  "body_markdown": "Quarter past five Tuesday morning, I'm walking out on the north jetty at Belmar with a thermos I never got to drink, because forty yards off the rocks the water erupted. Bunker showering, gulls dropping out of a still-dark sky like they'd been shot, and a kid I didn't recognize — waders, no leader wire, God bless him — hooked up on a chrome popper before I'd even clipped on a leader of my own. That's been the show all week from Sea Bright down through Belmar: bunker schools pinned tight to the beach, and bluefish stacked underneath them instead of chasing the bait offshore like they usually do this time of year.
+
+The why isn't complicated. Surface water's sitting in the low-to-mid 70s right off the beach — the Bight buoy's reading 73.6 — and that warm skin of water has bunker bunched up tight against the sand instead of spread out over open water. Blues don't need to hunt when the pantry's d
+[gen] writer=Brendan Doyle zone=northern-nj-shore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,395 chars)
+[gen] wrote 2026-07-18-northern-nj-shore-belmar-rocks-at-dawn-blues-under-the-bunker-bass-gone-to-gho
+{
+  "id": "2026-07-18-northern-nj-shore-belmar-rocks-at-dawn-blues-under-the-bunker-bass-gone-to-gho",
+  "headline": "Belmar Rocks at Dawn: Blues Under the Bunker, Bass Gone to Ghosts"
+}
+[gen] writer=Gus Papadakis zone=barnegat-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,046 chars)
+[gen] wrote 2026-07-18-barnegat-bay-bay-water-pushes-past-78-and-the-fluke-follow-it-straight-to
+{
+  "id": "2026-07-18-barnegat-bay-bay-water-pushes-past-78-and-the-fluke-follow-it-straight-to",
+  "headline": "Bay Water Pushes Past 78, and the Fluke Follow It Straight to the Inlet"
+}
+[gen] writer=Tommy Nguyen zone=long-beach-island forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,664 chars)
+[error] model returned non-JSON: Invalid control character at: line 5 column 782 (char 1076)
+---
+{
+  "headline": "New cut off Holgate holds fluke tight to the drop — bunker blitz owns the beach at sunrise",
+  "subhead": "The sandbar moved, the bluefish followed the bunker, and the stripers went strictly nocturnal — here's how to fish all three.",
+  "dateline": "SHIP BOTTOM, NJ — July 18",
+  "body_markdown": "Walked the Holgate rack line Tuesday morning at first light and something's different south of the last house. There's a new cut running diagonal off the beach, maybe 80 yards down from where the old one sat in June — three to four feet of water pouring through a trough that wasn't there three weeks ago. Short-period wind swell out of the south, 2 to 3 feet at 3 seconds, has been reworking that sandbar all week, and it's pushed the outer bar in tighter to shore. That's the kind of structure change you want to know about before you waste a tide fishing water that isn't there anymore. I flew the drone over it Wednesday just to confirm what my feet already told me — the drop-off is sharper now, six feet of relief in about 40 yards, and it's holding fish.
+
+Fluke are sitting right on that new edge, and they're not alone. We flagged this two weeks back — said the back bay fluke 
+[gen] writer=Tommy Nguyen zone=long-beach-island forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,664 chars)
+[gen] wrote 2026-07-18-long-beach-island-the-cut-at-holgate-deepened-overnight-fluke-moved-in-behind-
+{
+  "id": "2026-07-18-long-beach-island-the-cut-at-holgate-deepened-overnight-fluke-moved-in-behind-",
+  "headline": "The Cut at Holgate Deepened Overnight \u2014 Fluke Moved In Behind It"
+}
+[gen] writer=Darnell Freeman zone=south-jersey-shore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=3
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,877 chars)
+[gen] wrote 2026-07-18-south-jersey-shore-why-are-the-fluke-leaving-the-back-bays-class-is-in-session
+{
+  "id": "2026-07-18-south-jersey-shore-why-are-the-fluke-leaving-the-back-bays-class-is-in-session",
+  "headline": "Why Are the Fluke Leaving the Back Bays? Class Is in Session"
+}
+[gen] writer=Capt. Kate Brennan zone=cape-may-delaware-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,852 chars)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(440 bytes read)
+[gen] writer=Capt. Kate Brennan zone=cape-may-delaware-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,852 chars)
+[gen] wrote 2026-07-18-cape-may-delaware-bay-rips-report-card-bass-get-a-c-minus-weakfish-climbing-drum-l
+{
+  "id": "2026-07-18-cape-may-delaware-bay-rips-report-card-bass-get-a-c-minus-weakfish-climbing-drum-l",
+  "headline": "Rips Report Card: Bass Get a C-Minus, Weakfish Climbing, Drum Long Gone"
+}
+[gen] writer=Capt. Rey Santos zone=nj-offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,517 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Capt. Rey Santos zone=nj-offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,517 chars)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(473 bytes read)
+[gen] writer=Vinny Ciervo zone=narragansett-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,282 chars)
+[gen] wrote 2026-07-18-narragansett-bay-nyatt-point-after-dark-bass-go-nocturnal-while-bunker-pulls-
+{
+  "id": "2026-07-18-narragansett-bay-nyatt-point-after-dark-bass-go-nocturnal-while-bunker-pulls-",
+  "headline": "Nyatt Point after dark: bass go nocturnal while bunker pulls blues into the Bay"
+}
+[gen] writer=Ava Thomas zone=point-judith-block-island forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,846 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 951, in call_openrouter
+    with urllib.request.urlopen(req, timeout=120) as resp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 1450, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Ava Thomas zone=point-judith-block-island forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,846 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Billy Tanaka zone=ri-south-shore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=4
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,999 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Billy Tanaka zone=ri-south-shore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=4
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,999 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Cole Robinson zone=nh-coast forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,389 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Cole Robinson zone=nh-coast forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,389 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Capt. Sonya Nguyen zone=nh-offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=2 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=20,536 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Capt. Sonya Nguyen zone=nh-offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=2 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=20,536 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Dutch Osterberg zone=southern-maine forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,309 chars)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(572 bytes read)
+[gen] writer=Dutch Osterberg zone=southern-maine forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,309 chars)
+[gen] wrote 2026-07-18-southern-maine-biddeford-pool-s-push-tide-loads-up-bass-on-dannys-blues-rip
+{
+  "id": "2026-07-18-southern-maine-biddeford-pool-s-push-tide-loads-up-bass-on-dannys-blues-rip",
+  "headline": "Biddeford Pool's Push Tide Loads Up \u2014 Bass on Dannys, Blues Ripping Higgins"
+}
+[gen] writer=Pashmi Cooper zone=casco-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=2 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,553 chars)
+[gen] wrote 2026-07-18-casco-bay-halfway-rock-mackerel-thick-bass-still-feeding-in-daylight-w
+{
+  "id": "2026-07-18-casco-bay-halfway-rock-mackerel-thick-bass-still-feeding-in-daylight-w",
+  "headline": "Halfway Rock mackerel thick, bass still feeding in daylight while the coast goes dark"
+}
+[gen] writer=Rusty Pelletier zone=midcoast-maine forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=2 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,230 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Rusty Pelletier zone=midcoast-maine forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=2 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,230 chars)
+[gen] wrote 2026-07-18-midcoast-maine-kennebec-stripers-working-mackerel-schools-monhegan-ledges-h
+{
+  "id": "2026-07-18-midcoast-maine-kennebec-stripers-working-mackerel-schools-monhegan-ledges-h",
+  "headline": "Kennebec Stripers Working Mackerel Schools, Monhegan Ledges Holding Pollock and a Few Cod"
+}
+[gen] writer=Mike Devlin zone=cape-cod-canal forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,333 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Mike Devlin zone=cape-cod-canal forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,333 chars)
+[gen] wrote 2026-07-18-cape-cod-canal-the-6-40-ebb-turns-east-end-dark-thirty-for-bass-blues-run-t
+{
+  "id": "2026-07-18-cape-cod-canal-the-6-40-ebb-turns-east-end-dark-thirty-for-bass-blues-run-t",
+  "headline": "The 6:40 Ebb Turns East End Dark-Thirty for Bass, Blues Run the Daylight Shift"
+}
+[gen] writer=Sara Whitfield zone=boston-harbor-north-shore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,718 chars)
+[gen] wrote 2026-07-18-boston-harbor-north-shore-gloucester-s-cool-water-wins-this-week-bass-on-bunker-blues-
+{
+  "id": "2026-07-18-boston-harbor-north-shore-gloucester-s-cool-water-wins-this-week-bass-on-bunker-blues-",
+  "headline": "Gloucester's Cool Water Wins This Week: Bass on Bunker, Blues in the Wash"
+}
+[gen] writer=Donny Costa zone=cape-cod-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,400 chars)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(1089 bytes read)
+[gen] writer=Donny Costa zone=cape-cod-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,400 chars)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(1034 bytes read)
+[gen] writer=Maria Fonseca zone=buzzards-bay-vineyard forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,307 chars)
+[error] model returned non-JSON: Invalid control character at: line 5 column 1855 (char 2175)
+---
+{
+  "headline": "Silversides stack the rips at Robinson's Hole — bass gone quiet by day, bonito still a rumor on the wind",
+  "subhead": "The bait is thick and the water's warming toward bonito range, but the scouts haven't shown yet — here's what's actually eating this week.",
+  "dateline": "WOODS HOLE, MA — July 18",
+  "body_markdown": "Stood on the rocks at Robinson's Hole Tuesday evening watching silversides pour through on the tail of the ebb, that nervous flicker just under the surface that tells you something's pushing them. No bonito flash yet, no albie wakes cutting behind the bait balls — but the ingredients are there, and that's worth paying attention to. Water at Block Island is sitting around 68.4, which is right in the window where bonito start getting comfortable, and we flagged last week that it should spread east through the Sound corridor over the next week or two. If that pattern holds true to form, the first scouts show up in this stretch — Robinson's, Quick's Hole, the Vineyard side of Woods Hole — before they show up anywhere else on the East Coast. Right now it's a watch item, not a bite. I wouldn't burn a Saturday betting on bonito yet, but I'd have the epox
+[gen] writer=Maria Fonseca zone=buzzards-bay-vineyard forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,307 chars)
+[error] model returned non-JSON: Invalid control character at: line 5 column 788 (char 1089)
+---
+{
+  "headline": "Robinson's Hole running silversides, no albies yet — but the bait's setting the table",
+  "subhead": "Bass have gone nocturnal in the warm water, bluefish are stacked on bunker, and the bonito watch starts now — even if nothing's shown yet.",
+  "dateline": "WOODS HOLE, MA — July 18",
+  "body_markdown": "The bait tells you everything before the fish do, and right now the bait in Robinson's Hole and Quick's Hole is doing something worth paying attention to. Silversides are pouring through both rips on the last two hours of the ebb, tight schools getting squeezed and folded by the current, and where you get that kind of bait compression you'd normally expect albies stacked underneath by mid-July. Not yet. The water's warm enough — we're sitting in the low-to-mid 70s across the Bay and up into the Vineyard Sound — but the first false albacore and bonito scouts haven't shown their fins around here. That's not unusual for the date. Early-to-mid August is the real window for this corridor, and everything about the bait right now says the table's being set for it.
+
+What IS happening is a solid, honest bass and bluefish week if you're willing to fish the clock instead of th
+[gen] writer=Charlie St. Pierre zone=nantucket-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,638 chars)
+[gen] wrote 2026-07-18-nantucket-sound-great-point-boils-on-bunker-blues-not-bones-own-the-rip
+{
+  "id": "2026-07-18-nantucket-sound-great-point-boils-on-bunker-blues-not-bones-own-the-rip",
+  "headline": "Great Point Boils on Bunker \u2014 Blues, Not Bones, Own the Rip"
+}
+[gen] writer=Capt. Donna Shaw zone=ma-offshore-stellwagen forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=2 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,040 chars)
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+[gen] writer=Capt. Donna Shaw zone=ma-offshore-stellwagen forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=2 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,040 chars)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 602, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1308, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 1284, in main
+    raw = call_openrouter(system, user, args.model)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/generate_writer_report.py", line 952, in call_openrouter
+    data = json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(869 bytes read)
