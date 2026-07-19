@@ -1,16 +1,28 @@
 #!/bin/bash
 #
-# Nor'easter daily report pipeline — runs via macOS crontab at 3am ET Mon/Fri
+# Nor'easter report pipeline — GENERATE step. Runs via macOS system crontab at
+# 11pm ET the night BEFORE publication (Sun/Thu nights for Mon/Fri reports).
 # No Hermes app required. Just Python, OpenRouter API, and git.
 #
-# Steps: analyst → hooper → generate 45 writer reports → fix empty tags → push to GitHub
-# Output: live on noreaster.com by ~5am ET
+# Steps: analyst → hooper → generate 45 writer reports → fix empty tags →
+#        rebuild index → commit locally (NO PUSH — the push is gated on Kent's
+#        editorial review, which runs at 5:30am; push job at 6am ships only if
+#        Kent's verdict file approves).
 #
-# Crontab entry:
-#   0 3 * * 1,5 /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/noreaster_cron_pipeline.sh >> /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/pipeline.log 2>&1
+# Crontab entry (11pm Sun/Thu — reports go live next morning):
+#   0 23 * * 0,4 /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/noreaster_cron_pipeline.sh >> /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/pipeline.log 2>&1
 #
-# Mac must be awake at 3am. Set with:
-#   sudo pmset repeat wakeorpoweron MT F 02:55:00
+# Mac must be awake at 11pm. Arm the wake with:
+#   sudo pmset repeat wakeorpoweron MTWRFSU 22:45:00
+# (Mac Studio on AC power — wakeorpoweron works reliably.)
+
+# Keep the Mac awake for the whole run — caffeinate -s blocks system sleep
+# until this script exits. Critical because the Mac is set to sleep after 1 min
+# of idle; without this it could nod off mid-generation.
+if [ -z "${NOREASTER_CAFFEINATED:-}" ]; then
+    export NOREASTER_CAFFEINATED=1
+    exec caffeinate -s "$0" "$@"
+fi
 
 # Graceful degradation: do NOT use `set -e`. A failed analyst or Hooper run
 # must NOT kill the whole pipeline — writers can still generate (thinner) and
@@ -201,7 +213,11 @@ if [ -n "$DEGRADED" ]; then
 fi
 
 git add -A
-git commit -m "Auto-pipeline: $TODAY — $SUCCESS reports generated, tags fixed, pushed via crontab$DEG_NOTE" 2>&1
-git push origin main 2>&1
+git commit -m "Auto-pipeline (staged): $TODAY — $SUCCESS reports generated, tags fixed$DEG_NOTE" 2>&1
 
-echo "=== PIPELINE COMPLETE: $TODAY $(date) — $SUCCESS reports$DEG_NOTE ==="
+# Do NOT push here. Push is gated on Kent's editorial review (5:30am) and runs
+# as a separate 6am job (noreaster_push_if_approved.sh) that checks Kent's
+# verdict file first. This keeps unreviewed content off the live site.
+echo "  Staged locally — awaiting Kent review before push"
+
+echo "=== GENERATE COMPLETE: $TODAY $(date) — $SUCCESS reports staged$DEG_NOTE ==="
