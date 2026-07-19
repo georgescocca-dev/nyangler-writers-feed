@@ -560,7 +560,7 @@ OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
 
 
 def load_latest_analyst(writer_id: str | None = None) -> dict:
-    """Load Dr. Fish analyst data covering the full period since the last published report.
+    """Load analyst buoy/tide data covering the full period since the last published report.
 
     If writer_id is provided, finds the date of that writer's most recent report
     and loads ALL analyst files from that date forward (inclusive of the day after
@@ -670,7 +670,7 @@ def load_latest_analyst(writer_id: str | None = None) -> dict:
 
 
 def filter_analyst_for_zone(analyst: dict, zone_slug: str, writer: dict) -> dict:
-    """Extract the parts of the Dr. Fish analyst output most relevant to this writer's beat.
+    """Extract the parts of the analyst buoy/tide output most relevant to this writer's beat.
 
     We strip noise (source_health, methodology) and keep the science:
     live buoy conditions, seasonal context, pattern detection, and the
@@ -882,7 +882,7 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         {
             "today": today,
             "beat_profile": beat,
-            "primary_intel_dr_fish_oceanographic_analyst": analyst,
+            "primary_intel_buoy_tide_conditions": analyst,
             "hooper_synthesis_background_DO_NOT_CITE": hooper_context,
             "youtube_intel_DO_NOT_CITE": youtube_intel or [],
             "background_forum_chatter_DO_NOT_CITE": background_reports,
@@ -895,12 +895,12 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
                 "Then move into what's being CAUGHT — species, sizes, "
                 "tactics, baits, specific spots. Be honest about the "
                 "bite quality — if it's slow or mixed, say so. "
-                "Anglers respect honesty, not hype. Use the analyst "
-                "data and the Hooper synthesis to explain WHY conditions "
+                "Anglers respect honesty, not hype. Use the buoy/tide "
+                "conditions and the Hooper synthesis to explain WHY conditions "
                 "are producing. The forum chatter, YouTube intel, and "
                 "Hooper synthesis are BACKGROUND ONLY "
                 "— synthesize them into your voice, never cite users, "
-                "video channels, Hooper, or 'the analyst'."
+                "video channels, Hooper, or the buoy data source."
                 + called_it_block +
                 " Write it like YOUR column — your "
                 "voice, your personality, your way of reading the "
@@ -1275,7 +1275,7 @@ def main() -> int:
     )
     if not analyst:
         print(
-            "[warn] no Dr. Fish analyst data available — report will be thinner than ideal",
+            "[warn] no analyst buoy/tide data available — report will be thinner than ideal",
             file=sys.stderr,
         )
 
