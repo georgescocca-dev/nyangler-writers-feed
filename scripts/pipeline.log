@@ -1153,3 +1153,115 @@ Traceback (most recent call last):
   File "/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 614, in _read_chunked
     raise IncompleteRead(b''.join(value)) from exc
 http.client.IncompleteRead: IncompleteRead(869 bytes read)
+[gen] writer=Frank "The Sound Pro" Marinaro zone=western-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,712 chars)
+[gen] wrote 2026-07-20-western-sound-execution-rocks-goes-dark-hours-only-as-bass-slide-into-a-ni
+{
+  "id": "2026-07-20-western-sound-execution-rocks-goes-dark-hours-only-as-bass-slide-into-a-ni",
+  "headline": "Execution Rocks goes dark-hours only as bass slide into a nighttime pattern"
+}
+[gen] writer=David "The Harbor Scout" Han zone=central-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,429 chars)
+[gen] wrote 2026-07-20-central-sound-bunker-balled-up-on-stratford-shoal-blues-slashing-bass-wait
+{
+  "id": "2026-07-20-central-sound-bunker-balled-up-on-stratford-shoal-blues-slashing-bass-wait",
+  "headline": "Bunker Balled Up on Stratford Shoal \u2014 Blues Slashing, Bass Waiting on Dark"
+}
+[gen] writer=Mike Rizzo zone=eastern-sound forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=23,124 chars)
+[gen] wrote 2026-07-20-eastern-sound-plum-gut-goes-quiet-and-that-s-exactly-when-the-bass-show-up
+{
+  "id": "2026-07-20-eastern-sound-plum-gut-goes-quiet-and-that-s-exactly-when-the-bass-show-up",
+  "headline": "Plum Gut Goes Quiet \u2014 And That's Exactly When the Bass Show Up"
+}
+[gen] writer=Denise "Dee" Vasquez zone=jamaica-bay forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=1
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,462 chars)
+[gen] wrote 2026-07-20-jamaica-bay-marine-parkway-bridge-after-dark-slot-bass-on-the-outgoing-f
+{
+  "id": "2026-07-20-jamaica-bay-marine-parkway-bridge-after-dark-slot-bass-on-the-outgoing-f",
+  "headline": "Marine Parkway Bridge After Dark: Slot Bass on the Outgoing, Fluke Rule the Day"
+}
+[gen] writer=Sal Moretti zone=jones-inlet forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,138 chars)
+[gen] wrote 2026-07-20-jones-inlet-forget-the-bunker-blitz-hype-jones-inlet-bass-are-feeding-af
+{
+  "id": "2026-07-20-jones-inlet-forget-the-bunker-blitz-hype-jones-inlet-bass-are-feeding-af",
+  "headline": "Forget the Bunker Blitz Hype \u2014 Jones Inlet Bass Are Feeding After Dark"
+}
+[gen] writer=Mariana "Mari" Reyes zone=fire-island forum_bg=0 analyst=yes analyst_runs=3 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=23,128 chars)
+[gen] wrote 2026-07-20-fire-island-captree-dock-talk-bunker-pull-blues-to-the-beach-bass-go-noc
+{
+  "id": "2026-07-20-fire-island-captree-dock-talk-bunker-pull-blues-to-the-beach-bass-go-noc",
+  "headline": "Captree Dock Talk: Bunker Pull Blues to the Beach, Bass Go Nocturnal"
+}
+[gen] writer=Pete Gallo zone=moriches forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,584 chars)
+[gen] wrote 2026-07-20-moriches-the-cut-off-cupsogue-deepened-two-feet-fluke-found-the-new-e
+{
+  "id": "2026-07-20-moriches-the-cut-off-cupsogue-deepened-two-feet-fluke-found-the-new-e",
+  "headline": "The Cut Off Cupsogue Deepened Two Feet \u2014 Fluke Found the New Edge Fast"
+}
+[gen] writer=Charlie "Night Owl" Ortiz zone=shinnecock forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=2
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,886 chars)
+[gen] wrote 2026-07-20-shinnecock-outgoing-at-1-a-m-bass-hold-the-deep-hole-weakfish-wake-up-a
+{
+  "id": "2026-07-20-shinnecock-outgoing-at-1-a-m-bass-hold-the-deep-hole-weakfish-wake-up-a",
+  "headline": "Outgoing at 1 A.M.: Bass Hold the Deep Hole, Weakfish Wake Up at the Bridge"
+}
+[gen] writer=Rich Martin zone=montauk forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=4
+[gen] calling anthropic/claude-sonnet-5 (prompt=24,174 chars)
+[gen] wrote 2026-07-20-montauk-bunker-boils-at-first-light-but-the-real-bass-are-waiting-on
+{
+  "id": "2026-07-20-montauk-bunker-boils-at-first-light-but-the-real-bass-are-waiting-on",
+  "headline": "Bunker Boils at First Light, But the Real Bass Are Waiting on the Dark"
+}
+[gen] writer=Bill Hubbard zone=peconic forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,050 chars)
+[gen] wrote 2026-07-20-peconic-peconic-pushes-into-the-mid-70s-porgies-thick-at-shelter-isl
+{
+  "id": "2026-07-20-peconic-peconic-pushes-into-the-mid-70s-porgies-thick-at-shelter-isl",
+  "headline": "Peconic pushes into the mid-70s \u2014 porgies thick at Shelter Island, bass slide onto the night shift"
+}
+[gen] writer=Jack Sullivan zone=block-island forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=4
+[gen] calling anthropic/claude-sonnet-5 (prompt=24,020 chars)
+[gen] wrote 2026-07-20-block-island-southwest-ledge-bass-have-gone-to-bed-early-best-water-s-aft
+{
+  "id": "2026-07-20-block-island-southwest-ledge-bass-have-gone-to-bed-early-best-water-s-aft",
+  "headline": "Southwest Ledge Bass Have Gone to Bed Early \u2014 Best Water's After Dark Now"
+}
+[gen] writer=Capt. Tony Rosetti zone=offshore forum_bg=0 analyst=yes analyst_runs=3 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=22,028 chars)
+[gen] wrote 2026-07-20-hudson-canyon-73-6-f-at-buoy-44025-the-warm-filament-still-owns-the-hudson
+{
+  "id": "2026-07-20-hudson-canyon-73-6-f-at-buoy-44025-the-warm-filament-still-owns-the-hudson",
+  "headline": "73.6\u00b0F at Buoy 44025 \u2014 the Warm Filament Still Owns the Hudson Wall"
+}
+[gen] writer=Capt. Dana Cooper zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,457 chars)
+[gen] wrote 2026-07-20-wilmington-canyon-ran-the-night-shift-on-wilmington-for-bigeye-three-bites-two
+{
+  "id": "2026-07-20-wilmington-canyon-ran-the-night-shift-on-wilmington-for-bigeye-three-bites-two",
+  "headline": "Ran the night shift on Wilmington for bigeye \u2014 three bites, two in the boat, and a plan to do it again"
+}
+[gen] writer=Capt. Chris "Wash" Morrison zone=offshore forum_bg=0 analyst=yes analyst_runs=3 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,557 chars)
+[gen] wrote 2026-07-20-washington-canyon-july-20-and-washington-is-already-fishing-like-it-s-august
+{
+  "id": "2026-07-20-washington-canyon-july-20-and-washington-is-already-fishing-like-it-s-august",
+  "headline": "July 20 and Washington Is Already Fishing Like It's August"
+}
+[gen] writer=Capt. Ray Lugo zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,372 chars)
+[gen] wrote 2026-07-20-south-canyons-slow-monday-stacked-thursday-spencer-s-bigeye-chunk-bailed-o
+{
+  "id": "2026-07-20-south-canyons-slow-monday-stacked-thursday-spencer-s-bigeye-chunk-bailed-o",
+  "headline": "Slow Monday, stacked Thursday: Spencer's bigeye chunk bailed out a rough start"
+}
+[gen] writer=Capt. Steve Brock zone=offshore forum_bg=0 analyst=yes analyst_runs=2 regional_match=3 hooper=yes called_it=3 youtube_intel=0
+[gen] calling anthropic/claude-sonnet-5 (prompt=21,507 chars)
+[gen] wrote 2026-07-20-east-canyons-forty-miles-east-of-atlantis-a-white-marlin-made-the-whole-t
+{
+  "id": "2026-07-20-east-canyons-forty-miles-east-of-atlantis-a-white-marlin-made-the-whole-t",
+  "headline": "Forty Miles East of Atlantis, a White Marlin Made the Whole Trip Worth the Diesel"
+}

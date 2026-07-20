@@ -33,6 +33,7 @@ if [ ! -f "$VERDICT" ]; then
     echo "  HELD: no Kent verdict file at $VERDICT"
     echo "  Reports staged but NOT pushed — Kent review did not run/complete."
     echo "  ACTION NEEDED: run Kent editorial review, then push manually."
+    bash "$FEED_DIR/scripts/noreaster_notify.sh" "Nor'easter $TODAY: push HELD — no Kent verdict. Reports staged, not live." 2>/dev/null || true
     exit 1
 fi
 
@@ -41,10 +42,14 @@ STATUS=$(python3 -c "import json,sys; print(json.load(open('$VERDICT')).get('sta
 if [ "$STATUS" != "approved" ]; then
     echo "  HELD: Kent verdict status is '$STATUS' (not approved)."
     echo "  NOT pushing. See $VERDICT for details."
+    COUNT=$(ls "$FEED_DIR/reports/${TODAY}-"*.json 2>/dev/null | wc -l | tr -d ' ')
+    bash "$FEED_DIR/scripts/noreaster_notify.sh" "Nor'easter $TODAY: push HELD — Kent gate rejected ($COUNT reports staged). Check verdict." 2>/dev/null || true
     exit 1
 fi
 
 # Approved — push.
 echo "  Kent verdict: APPROVED. Pushing staged reports…"
 git push origin main 2>&1
+COUNT=$(ls "$FEED_DIR/reports/${TODAY}-"*.json 2>/dev/null | wc -l | tr -d ' ')
+bash "$FEED_DIR/scripts/noreaster_notify.sh" "Nor'easter $TODAY: $COUNT reports PUSHED live. Kent gate approved." 2>/dev/null || true
 echo "=== PUSH COMPLETE: $TODAY $(date) ==="

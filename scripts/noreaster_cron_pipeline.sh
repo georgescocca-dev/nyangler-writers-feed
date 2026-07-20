@@ -11,9 +11,12 @@
 #
 # Crontab entry (11pm Sun/Thu — reports go live next morning):
 #   0 23 * * 0,4 /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/noreaster_cron_pipeline.sh >> /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/pipeline.log 2>&1
+# Companion jobs (installed 2026-07-20): Kent auto-review at 5:30am Mon/Fri
+# (kent_auto_review.sh) and gated push at 6am (noreaster_push_if_approved.sh).
 #
 # Mac must be awake at 11pm. Arm the wake with:
 #   sudo pmset repeat wakeorpoweron MTWRFSU 22:45:00
+#   sudo pmset repeat wakeorpoweron MT F 05:15:00
 # (Mac Studio on AC power — wakeorpoweron works reliably.)
 
 # Keep the Mac awake for the whole run — caffeinate -s blocks system sleep

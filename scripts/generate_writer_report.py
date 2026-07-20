@@ -22,10 +22,13 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import http.client
 import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -948,8 +951,32 @@ def call_openrouter(system: str, user: str, model: str) -> str:
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
+    # Transient read failures (timeouts, dropped chunked streams) killed
+    # writers mid-batch on 2026-07-18. Retry with backoff — they're flaky,
+    # not deterministic. Deterministic errors (4xx) raise immediately.
+    last_err = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=180) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            break
+        except (TimeoutError, http.client.IncompleteRead, http.client.RemoteDisconnected, ConnectionError) as e:
+            last_err = e
+            if attempt < 2:
+                wait = 15 * (attempt + 1)
+                print(f"  [llm] read failed ({type(e).__name__}), retry {attempt+1}/2 in {wait}s", file=sys.stderr)
+                time.sleep(wait)
+        except urllib.error.HTTPError as e:
+            # 5xx from upstream provider is worth one retry; 4xx is deterministic.
+            if e.code >= 500 and attempt < 2:
+                last_err = e
+                wait = 15 * (attempt + 1)
+                print(f"  [llm] HTTP {e.code} from upstream, retry {attempt+1}/2 in {wait}s", file=sys.stderr)
+                time.sleep(wait)
+            else:
+                raise
+    else:
+        raise SystemExit(f"LLM call failed after 3 attempts: {last_err}")
     choice = data["choices"][0]
     content = choice["message"].get("content")
     if content is None:

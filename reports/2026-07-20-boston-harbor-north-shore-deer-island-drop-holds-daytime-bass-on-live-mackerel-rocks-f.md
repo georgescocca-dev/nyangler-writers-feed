@@ -1,0 +1,26 @@
+# Deer Island Drop Holds Daytime Bass on Live Mackerel — Rocks Fish the Same Trick
+*Cooler harbor water is keeping stripers eating through the middle of the day while the rest of the coast goes nocturnal.*
+
+**BOSTON HARBOR, MA — July 20** — _by Sara Whitfield, Zone Writer_
+
+I made my call for this week Tuesday morning, standing on the dock at Winthrop watching a mackerel school push bait against the rocks off Grover's Cliff. Harbor islands, not the North Shore rocks, not a run down to Plymouth. When mackerel stack that thick this close to the ledges, you follow the bait, not the calendar. That decision paid off by ten AM.
+
+Here's the thing that's different about our water right now compared to everywhere south of the Cape — the Gulf of Maine keeps this harbor cool enough that bass haven't shut down into a strict low-light pattern. South Shore guys, Cape Cod guys, they're grinding it out at 5 AM and 9 PM because the water's too warm for stripers to feed comfortably in the sun. We don't have that problem. Deer Island Light, Spectacle Island's northern ledge, the drop-off along President Roads — I've had bass hitting live mackerel at high noon this week, which tells you everything about why this stretch of coast is worth fishing right through midday in July.
+
+The program at Deer Island is dead simple. Snag mackerel off the surface with a Sabiki rig, hook one through the nose on a 7/0 circle, and slow-troll or drift it right along that drop where the channel falls off from 15 feet to better than 40. Outgoing tide is the move — water pulls off the flats around Spectacle and funnels bait right past that ledge, and the bass know it. I had three fish over 30 inches Wednesday on the last two hours of the ebb, all within casting distance of the light itself. Nothing giant, but steady, and every one of them came up eating instead of sulking, which is the story of this whole zone right now.
+
+Up on the North Shore, the rocks at Nahant and around Gloucester's breakwater are holding fish too, but it's a different bite — more technical, more about reading the wash. Dawn topwater with a Gibbs Polaris popper off the eastern side of Nahant has produced some quality bluefish mixed with schoolie bass, and once the sun gets up I've been switching to a white Savage Sand Eel jig, six inches, worked slow along the boulder fields where the pollock have been holding. Cape Ann out toward Halibut Point is fishing similarly — bass tucked tight to structure, not chasing far, so short precise casts into the wash beat long bombs every time. The mackerel and pollock schools sitting inshore right now are doing exactly what they're supposed to — feeding the whole food chain and keeping predators shallow and aggressive instead of pushing them out deep.
+
+Down south toward Duxbury Bay and Kingston, the flounder bite is doing what we said it would last week — it's building. Guys working the mud flats on the dropping tide with sandworms and squid strips on a simple two-hook flounder rig are filling coolers steadier than they were two weeks ago, and I expect that to keep improving as the flats warm through the rest of July. If you've got a light spinning outfit and don't mind anchoring up and waiting, Duxbury's inner flats on the last two hours of the ebb are worth the trip right now.
+
+We're heading into a first-quarter neap around the 21st, which softens the current everywhere from Deer Island to the Cape Ann rips. That's not a bad thing for us — weaker current means wider bite windows on structure spots like Spectacle and Nahant, since the fish aren't getting blown off the rock by a hard rip. It does mean the harbor channel bite at Deer Island might slow slightly on the tide change itself, so I'd plan around the two hours before and after the ebb rather than fighting slack water.
+
+Cod and haddock reports have been thin close to shore, which is normal for late July — that fishery's mostly pushed out to the deeper structure off Stellwagen and the outer Cape Ann ledges now, and I wouldn't burn a day targeting bottom fish inside the harbor this week. If you want groundfish, it's a boat run, not a rock-hop.
+
+Bluefish have been a bonus rather than a target — mixed in with the bass blitzes at Nahant and occasionally slashing through the mackerel schools off Winthrop, but I haven't seen the kind of dedicated blue run yet that they're getting further south along the bunker schools. If that bait moves north the way it has in past Julys, expect that to change fast, and I'll be watching Broad Sound and the outer harbor closely for it.
+
+Looking ahead, if the mackerel stay stacked around the harbor islands the way they are now, I'd keep working Deer Island and Spectacle through the neap tide — the wider bite window should actually make this an easier week to time than a big-moon push would. If the bait scatters or pushes offshore, I'll shift the program north to the Nahant-to-Gloucester rocks, where the structure holds fish regardless of what the tide's doing. Either way, daylight fishing is still very much alive in this harbor — that's the edge we've got over the rest of the coast right now, and I'd use it while the water stays cool enough to let us.
+
+---
+
+Tags: striped-bass, deer-island, live-mackerel, boston-harbor, flounder, nahant
