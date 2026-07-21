@@ -1,0 +1,28 @@
+# Execution Rocks still paying off after dark — but you'd better fish the neap right
+*Daytime bass bite has gone quiet with the first-quarter neap easing the current, so the smart money's working nights on bunker and days on fluke.*
+
+**CITY ISLAND, NY — July 21** — _by Frank "The Sound Pro" Marinaro, Zone Writer_
+
+Had a guy at the bait shop on City Island Tuesday morning telling me the bass had left the Sound entirely, packed up and moved to Block Island for the summer. I let him finish his coffee before I set him straight. They didn't leave. They just quit punching the clock during banker's hours, and this week's tide chart is exactly why.
+
+We hit the first-quarter neap today, and if you've fished this water as long as I have you know what that means — the current goes soft, especially around the Stepping Stones and out toward Execution Rocks, and the bite that depends on a hard-running rip goes quiet with it. Combine that with water sitting at 70.9 at Kings Point and warmer than that in the back bays, and you've got bass doing exactly what warm, slack water makes them do — sliding into a nocturnal pattern and feeding when the sun's off the water, not when it's beating down on it.
+
+So here's where I've been putting my time. Execution Rocks, but late — I mean after 9 PM, working the last two hours of the outgoing when what current there is starts funneling bait past the rocks. Live bunker on a fish-finder rig, 20 to 30 feet, freelined back with just enough weight to keep it down near the structure. Had two fish over 30 pounds in the boat Wednesday night, one that pushed close to 38, both right off the north side where the rockpile drops into that trench. Eels work too if you can find them — snag a few off Matinecock and keep them in a bucket of Sound water, because the bunker have thinned out some this week compared to June.
+
+During the day, forget the bass and go find the fluke, because that bite hasn't cared one bit about the neap. Matinecock Point drift, 25 to 35 feet, has been the most consistent thing I've fished all month. White Gulp Swimming Mullets on 3/4-ounce bucktails, dragged slow with the tide pushing you along the channel edge, and you're picking off fluke to 4 and 5 pounds with regularity. A few six-pounders mixed in for guys who slowed down even more and let the bait sit an extra beat on bottom before hopping it. The Stepping Stones flats have also been holding decent numbers on the last of the incoming, same rig, just shallower — 15 to 20 feet.
+
+Bluefish are the wildcard this week and honestly the most fun I've had on the water. There are pockets of bunker still working their way through the basin between Hart Island and Throgs Neck, and where the blues find them it's a demolition derby — you'll see the surface just erupt, gulls diving, bunker skying out of the water trying to escape. If you run up on one of those blitzes, don't bother with metal, just chuck a big popper or a bunker spoon right into the froth and hold on. This has been a daytime thing too, which tells you the blues aren't as spooked by the warm shallow water as the bass are.
+
+Porgies are around Hempstead Harbor and the reefs off Matinecock, but I called this last week and I'll say it again — the grade is small. Plenty of action on bloodworms and clam if you want to keep the kids busy off the rail, but you're not filling a bucket with dinner-plate porgies like you do out east. Take what you can get and don't expect Montauk numbers.
+
+Blackfish are basically a non-story right now — too warm, too early for the fall run back onto structure, and most of what's still around are undersized fish holding tight to the rockpiles. I wouldn't target them again until the water starts to turn in September.
+
+Weakfish have been a ghost story this year in the western end. I hear a few whispers out of Manhasset Bay on soft plastics at dusk, but I haven't put one in my own boat in three weeks, and I'm not going to sell you a bite I haven't seen.
+
+Looking ahead, the neap is going to keep softening through the weekend before the tides start building back toward the next full moon push. That's actually good news for structure fishing — slower water means you can work Execution Rocks and the Stepping Stones with lighter jigs and cover ground you'd normally get swept off of. I'd keep hammering the after-dark bunker bite at the Rocks and let the daytime hours belong to the fluke drift at Matinecock.
+
+One more thing worth watching — we flagged last week that bonito should start pushing into the Sound as the water kept warming, and while I haven't seen one crash bait yet on this end, the conditions are lining up right where I'd expect them to show first — around the mouth of the harbors where clean water meets the bait. Keep a light spinning rod rigged with small metal in the rocket launcher just in case. If they show, it won't be subtle.
+
+---
+
+Tags: striped bass, bluefish, fluke, tautog, weakfish, bonito, bunker, bucktails
