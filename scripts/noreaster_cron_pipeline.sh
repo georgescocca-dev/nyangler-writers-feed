@@ -79,34 +79,121 @@ else
     DEGRADED="$DEGRADED hooper"
 fi
 
-# --- Step 3: Generate all 45 writer reports ---
-echo "--- Step 3: Generate writer reports ---"
+# --- Step 3: Generate all 45 writer reports (parallel, 5 workers) ---
+echo "--- Step 3: Generate writer reports (parallel) ---"
 cd "$FEED_DIR"
 
 WRITER_IDS=$("$PYTHON" -c "import json; writers=json.load(open('writers.json')).get('writers',[]); print(' '.join(w['id'] for w in writers if w['id']!='editor-in-chief'))")
 
-SUCCESS=0
-FAIL=0
-FAILED_WRITERS=""
+# Write the parallel generation script
+PARALLEL_GEN=$(mktemp /tmp/noreaster_parallel_gen.XXXXXX.py)
+cat > "$PARALLEL_GEN" << 'PYEOF'
+"""Parallel writer generation — runs N writers concurrently via ThreadPoolExecutor."""
+import json, os, subprocess, sys, time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-for w in $WRITER_IDS; do
-    echo "  Generating: $w"
-    # One retry per writer — network/LLM timeouts are the common failure.
-    if "$PYTHON" scripts/generate_writer_report.py "$w" --skip-index >> "$LOG_FILE" 2>&1; then
-        SUCCESS=$((SUCCESS+1))
-    else
-        echo "  [retry] $w failed once, retrying…"
-        sleep 5
-        if "$PYTHON" scripts/generate_writer_report.py "$w" --skip-index >> "$LOG_FILE" 2>&1; then
-            SUCCESS=$((SUCCESS+1))
-        else
-            FAIL=$((FAIL+1))
-            FAILED_WRITERS="$FAILED_WRITERS $w"
-            echo "  [FAIL] $w (after retry) — continuing"
-        fi
-    fi
-    sleep 2
-done
+PYTHON = sys.argv[1]
+FEED_DIR = sys.argv[2]
+WORKERS = int(sys.argv[3]) if len(sys.argv) > 3 else 5
+
+writer_ids = sys.argv[4].split()
+
+def generate_one(writer_id: str) -> tuple[str, bool, str]:
+    """Generate one writer report. Returns (writer_id, success, detail)."""
+    cmd = [PYTHON, "scripts/generate_writer_report.py", writer_id, "--skip-index"]
+    env = os.environ.copy()
+    try:
+        result = subprocess.run(
+            cmd,
+            capture_output=True, text=True,
+            timeout=600,  # 10 min max per writer
+            cwd=FEED_DIR,
+            env=env,
+        )
+        if result.returncode == 0:
+            return (writer_id, True, "OK")
+        else:
+            # Extract last meaningful line from stderr
+            err_lines = [l for l in result.stderr.strip().split('\n') if l.strip()]
+            detail = err_lines[-1] if err_lines else f"exit code {result.returncode}"
+            return (writer_id, False, detail[:120])
+    except subprocess.TimeoutExpired:
+        return (writer_id, False, "timeout after 600s")
+    except Exception as e:
+        return (writer_id, False, f"{type(e).__name__}: {e}")
+
+# --- Pass 1: parallel generation ---
+print(f"  [pass-1] Generating {len(writer_ids)} reports with {WORKERS} workers")
+t0 = time.time()
+succeeded = []
+failed = []
+
+with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+    futures = {pool.submit(generate_one, w): w for w in writer_ids}
+    for future in as_completed(futures):
+        wid, ok, detail = future.result()
+        if ok:
+            succeeded.append(wid)
+            print(f"    ✓ {wid}")
+        else:
+            failed.append(wid)
+            print(f"    ✗ {wid}: {detail}")
+
+elapsed = time.time() - t0
+print(f"  [pass-1] Done in {elapsed:.0f}s: {len(succeeded)} OK, {len(failed)} failed")
+
+# --- Pass 2: catch-up for failures (after 2 min cooling off) ---
+if failed:
+    print(f"  [pass-2] Cooling off 120s, then retrying {len(failed)} failures...")
+    time.sleep(120)
+    still_failed = []
+    with ThreadPoolExecutor(max_workers=3) as pool:  # fewer workers for retries
+        futures = {pool.submit(generate_one, w): w for w in failed}
+        for future in as_completed(futures):
+            wid, ok, detail = future.result()
+            if ok:
+                succeeded.append(wid)
+                failed.remove(wid)
+                print(f"    ✓ {wid} (catch-up)")
+            else:
+                still_failed.append(wid)
+                print(f"    ✗ {wid}: {detail} (catch-up failed)")
+    failed = still_failed
+
+total = len(succeeded) + len(failed)
+print(f"\n  TOTAL: {len(succeeded)}/{total} succeeded, {len(failed)} failed")
+if failed:
+    print(f"  FAILED: {' '.join(failed)}")
+
+# Write results for the shell script to read
+result = {"succeeded": succeeded, "failed": failed, "total": total}
+with open(os.environ.get("GEN_RESULT_FILE", "/tmp/noreaster_gen_result.json"), "w") as f:
+    json.dump(result, f)
+
+sys.exit(0 if succeeded else 1)
+PYEOF
+
+export GEN_RESULT_FILE=$(mktemp /tmp/noreaster_gen_result.XXXXXX.json)
+
+if "$PYTHON" "$PARALLEL_GEN" "$PYTHON" "$FEED_DIR" 5 "$WRITER_IDS" 2>&1; then
+    GEN_OK=true
+else
+    GEN_OK=false
+fi
+
+# Read results
+if [ -f "$GEN_RESULT_FILE" ]; then
+    SUCCESS=$("$PYTHON" -c "import json; r=json.load(open('$GEN_RESULT_FILE')); print(len(r['succeeded']))")
+    FAIL=$("$PYTHON" -c "import json; r=json.load(open('$GEN_RESULT_FILE')); print(len(r['failed']))")
+    FAILED_WRITERS=$("$PYTHON" -c "import json; r=json.load(open('$GEN_RESULT_FILE')); print(' '.join(r['failed']))")
+else
+    echo "  [WARN] No result file found — assuming worst case"
+    SUCCESS=0
+    FAIL=0
+    FAILED_WRITERS=""
+fi
+
+rm -f "$PARALLEL_GEN" "$GEN_RESULT_FILE"
 
 echo "  Generation: $SUCCESS success, $FAIL fail"
 if [ -n "$FAILED_WRITERS" ]; then

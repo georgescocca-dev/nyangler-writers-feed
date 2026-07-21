@@ -919,6 +919,14 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
 
 
 def call_openrouter(system: str, user: str, model: str) -> str:
+    """Call OpenRouter via `requests` (handles chunked reads better than urllib).
+
+    Retries up to 5 times with exponential backoff on transient errors
+    (timeouts, dropped connections, IncompleteRead, 5xx). 4xx errors raise
+    immediately — they're deterministic.
+    """
+    import requests as _req
+
     api_key = os.environ.get("OPENROUTER_API_KEY")
     if not api_key:
         # Lazy-load from .env
@@ -940,43 +948,57 @@ def call_openrouter(system: str, user: str, model: str) -> str:
         "temperature": 0.4,
         "max_tokens": 8000,
     }
-    req = urllib.request.Request(
-        "https://openrouter.ai/api/v1/chat/completions",
-        data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-            "HTTP-Referer": "https://reports.nyangler.com",
-            "X-Title": "reports.nyangler.com writer generator",
-        },
-        method="POST",
-    )
-    # Transient read failures (timeouts, dropped chunked streams) killed
-    # writers mid-batch on 2026-07-18. Retry with backoff — they're flaky,
-    # not deterministic. Deterministic errors (4xx) raise immediately.
-    last_err = None
-    for attempt in range(3):
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://reports.nyangler.com",
+        "X-Title": "reports.nyangler.com writer generator",
+    }
+
+    MAX_ATTEMPTS = 5
+    last_err: Exception | None = None
+    for attempt in range(MAX_ATTEMPTS):
         try:
-            with urllib.request.urlopen(req, timeout=180) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
+            resp = _req.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                json=payload,
+                headers=headers,
+                timeout=(30, 180),  # (connect, read) — connect fast, read slow
+            )
+            resp.raise_for_status()
+            data = resp.json()
             break
-        except (TimeoutError, http.client.IncompleteRead, http.client.RemoteDisconnected, ConnectionError) as e:
+        except (
+            _req.exceptions.Timeout,
+            _req.exceptions.ConnectionError,
+            _req.exceptions.ChunkedEncodingError,
+        ) as e:
+            # Transient: timeout, dropped connection, chunked stream died
             last_err = e
-            if attempt < 2:
-                wait = 15 * (attempt + 1)
-                print(f"  [llm] read failed ({type(e).__name__}), retry {attempt+1}/2 in {wait}s", file=sys.stderr)
+            if attempt < MAX_ATTEMPTS - 1:
+                wait = 15 * (2 ** attempt)  # 15s, 30s, 60s, 120s
+                print(
+                    f"  [llm] read failed ({type(e).__name__}), "
+                    f"retry {attempt+1}/{MAX_ATTEMPTS-1} in {wait}s",
+                    file=sys.stderr,
+                )
                 time.sleep(wait)
-        except urllib.error.HTTPError as e:
-            # 5xx from upstream provider is worth one retry; 4xx is deterministic.
-            if e.code >= 500 and attempt < 2:
+        except _req.exceptions.HTTPError as e:
+            # 5xx from upstream provider is worth retrying; 4xx is deterministic
+            if e.response is not None and e.response.status_code >= 500 and attempt < MAX_ATTEMPTS - 1:
                 last_err = e
-                wait = 15 * (attempt + 1)
-                print(f"  [llm] HTTP {e.code} from upstream, retry {attempt+1}/2 in {wait}s", file=sys.stderr)
+                wait = 15 * (2 ** attempt)
+                print(
+                    f"  [llm] HTTP {e.response.status_code} from upstream, "
+                    f"retry {attempt+1}/{MAX_ATTEMPTS-1} in {wait}s",
+                    file=sys.stderr,
+                )
                 time.sleep(wait)
             else:
                 raise
     else:
-        raise SystemExit(f"LLM call failed after 3 attempts: {last_err}")
+        raise SystemExit(f"LLM call failed after {MAX_ATTEMPTS} attempts: {last_err}")
+
     choice = data["choices"][0]
     content = choice["message"].get("content")
     if content is None:
@@ -1308,13 +1330,22 @@ def main() -> int:
 
     system, user = build_prompt(writer, reports, analyst, youtube_intel, hooper=hooper, called_it=called_it)
     print(f"[gen] calling {args.model} (prompt={len(system)+len(user):,} chars)", file=sys.stderr)
-    raw = call_openrouter(system, user, args.model)
-    try:
-        report = parse_llm_json(raw)
-    except json.JSONDecodeError as e:
-        print(f"[error] model returned non-JSON: {e}\n---\n{raw[:1200]}", file=sys.stderr)
-        return 1
 
+    # Retry the LLM call up to 3 times on non-JSON output (transient model issue)
+    report: dict | None = None
+    for json_attempt in range(3):
+        raw = call_openrouter(system, user, args.model)
+        try:
+            report = parse_llm_json(raw)
+            break
+        except json.JSONDecodeError as e:
+            print(f"[error] model returned non-JSON (attempt {json_attempt+1}/3): {e}\n---\n{raw[:400]}", file=sys.stderr)
+            if json_attempt < 2:
+                time.sleep(5)
+            else:
+                return 1
+
+    assert report is not None  # loop either breaks with report or returns 1
     report = scrub_report(report)
 
     if args.dry_run:
