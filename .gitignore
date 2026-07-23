@@ -1,5 +1,6 @@
 # Local clutter
 .DS_Store
+._*
 __pycache__/
 *.pyc
 *.bak
