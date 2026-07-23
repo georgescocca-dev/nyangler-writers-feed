@@ -974,7 +974,6 @@ def call_openrouter(system: str, user: str, model: str) -> str:
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
-        "temperature": 0.4,
         "max_tokens": 8000,
         "response_format": {"type": "json_object"},
         "plugins": [{"id": "response-healing"}],
