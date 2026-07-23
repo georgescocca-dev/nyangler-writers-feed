@@ -972,6 +972,9 @@ def call_openrouter(system: str, user: str, model: str) -> str:
         ],
         "temperature": 0.4,
         "max_tokens": 8000,
+        "response_format": {"type": "json_object"},
+        "plugins": [{"id": "response-healing"}],
+        "provider": {"require_parameters": True},
     }
     headers = {
         "Authorization": f"Bearer {api_key}",
