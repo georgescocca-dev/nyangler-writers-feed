@@ -1034,6 +1034,49 @@ def call_openrouter(system: str, user: str, model: str) -> str:
     return content
 
 
+def escape_json_string_controls(raw: str) -> str:
+    """Escape literal control characters only while inside JSON strings.
+
+    Some otherwise-valid model responses contain real newlines or tabs inside
+    `body_markdown` instead of the required JSON escape sequences. Repair that
+    narrow defect without changing structural whitespace outside strings.
+    """
+    output: list[str] = []
+    in_string = False
+    escaped = False
+    replacements = {
+        "\b": "\\b",
+        "\f": "\\f",
+        "\n": "\\n",
+        "\r": "\\r",
+        "\t": "\\t",
+    }
+    for char in raw:
+        if in_string:
+            if escaped:
+                output.append(char)
+                escaped = False
+                continue
+            if char == "\\":
+                output.append(char)
+                escaped = True
+                continue
+            if char == '"':
+                output.append(char)
+                in_string = False
+                continue
+            if ord(char) < 0x20:
+                output.append(replacements.get(char, f"\\u{ord(char):04x}"))
+                continue
+            output.append(char)
+            continue
+
+        output.append(char)
+        if char == '"':
+            in_string = True
+    return "".join(output)
+
+
 def parse_llm_json(raw: str) -> dict:
     """Strip code fences and find the JSON object in the response."""
     raw = raw.strip()
@@ -1050,7 +1093,12 @@ def parse_llm_json(raw: str) -> dict:
     json_end = raw.rfind("}")
     if json_end > 0 and json_end < len(raw) - 1:
         raw = raw[:json_end + 1]
-    return json.loads(raw)
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as exc:
+        if "control character" not in exc.msg.lower():
+            raise
+        return json.loads(escape_json_string_controls(raw))
 
 
 # Phrases the LLM uses despite being told not to. We strip them post-hoc
