@@ -29,6 +29,14 @@ class JsonRepairTests(unittest.TestCase):
         payload = MODULE.parse_llm_json(raw)
         self.assertEqual(payload, {"headline": "Clean"})
 
+    def test_retries_transient_router_statuses(self):
+        for status in (404, 408, 409, 425, 429, 500, 503):
+            with self.subTest(status=status):
+                self.assertTrue(MODULE.retryable_http_status(status))
+        for status in (400, 401, 403, 422):
+            with self.subTest(status=status):
+                self.assertFalse(MODULE.retryable_http_status(status))
+
 
 if __name__ == "__main__":
     unittest.main()

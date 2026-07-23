@@ -943,6 +943,10 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
     return system, user
 
 
+def retryable_http_status(status: int) -> bool:
+    return status in {404, 408, 409, 425, 429} or status >= 500
+
+
 def call_openrouter(system: str, user: str, model: str) -> str:
     """Call OpenRouter via `requests` (handles chunked reads better than urllib).
 
@@ -1012,12 +1016,15 @@ def call_openrouter(system: str, user: str, model: str) -> str:
                 )
                 time.sleep(wait)
         except _req.exceptions.HTTPError as e:
-            # 5xx from upstream provider is worth retrying; 4xx is deterministic
-            if e.response is not None and e.response.status_code >= 500 and attempt < MAX_ATTEMPTS - 1:
+            status = e.response.status_code if e.response is not None else 0
+            # OpenRouter can return a transient 404 when no compatible provider
+            # route is available at that instant. Retry routing/rate-limit/server
+            # failures; other 4xx responses are deterministic.
+            if retryable_http_status(status) and attempt < MAX_ATTEMPTS - 1:
                 last_err = e
                 wait = 15 * (2 ** attempt)
                 print(
-                    f"  [llm] HTTP {e.response.status_code} from upstream, "
+                    f"  [llm] retryable HTTP {status} from upstream, "
                     f"retry {attempt+1}/{MAX_ATTEMPTS-1} in {wait}s",
                     file=sys.stderr,
                 )
