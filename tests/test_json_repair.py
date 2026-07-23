@@ -37,6 +37,33 @@ class JsonRepairTests(unittest.TestCase):
             with self.subTest(status=status):
                 self.assertFalse(MODULE.retryable_http_status(status))
 
+    def test_supplies_grounded_tags_when_model_omits_them(self):
+        report = {
+            "body_markdown": "A useful report.",
+            "tags": [],
+        }
+        writer = {
+            "beat_species": ["striped bass", "bluefish"],
+            "zone_slug": "western-sound",
+        }
+        scrubbed = MODULE.scrub_report(report, writer)
+        self.assertEqual(
+            scrubbed["tags"],
+            ["striped-bass", "bluefish", "western-sound"],
+        )
+
+    def test_quality_gate_rejects_short_body(self):
+        report = {
+            "headline": "Western Sound bass settle into the night shift",
+            "subhead": "The bunker remain thick, but the productive window has moved.",
+            "body_markdown": "short",
+            "tags": ["striped-bass", "bunker", "western-sound"],
+        }
+        self.assertEqual(
+            MODULE.report_quality_errors(report),
+            ["body too short"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

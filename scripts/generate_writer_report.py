@@ -1147,7 +1147,14 @@ BANNED_PHRASES = [
 ]
 
 
-def scrub_report(report: dict) -> dict:
+def normalize_tag(value: object) -> str:
+    """Return a lowercase hyphen tag, or an empty string."""
+    if value is None:
+        return ""
+    return re.sub(r"[^a-z0-9]+", "-", str(value).lower()).strip("-")
+
+
+def scrub_report(report: dict, writer: dict | None = None) -> dict:
     """Post-process LLM output: strip banned phrases, ensure required fields."""
     body = report.get("body_markdown", "")
     for phrase in BANNED_PHRASES:
@@ -1159,11 +1166,44 @@ def scrub_report(report: dict) -> dict:
     body = re.sub(r"\n +", "\n", body)
     report["body_markdown"] = body.strip()
 
-    # Ensure tags exists (LLM occasionally drops it)
-    if not report.get("tags"):
-        report["tags"] = []
+    # Models occasionally omit tags even when the JSON schema is otherwise
+    # valid. Keep this deterministic and grounded in the assigned beat.
+    raw_tags = report.get("tags")
+    tags = raw_tags if isinstance(raw_tags, list) else []
+    candidates = [
+        *tags,
+        *((writer or {}).get("beat_species", []) or []),
+        (writer or {}).get("zone_slug"),
+        (writer or {}).get("id"),
+    ]
+    normalized: list[str] = []
+    for candidate in candidates:
+        tag = normalize_tag(candidate)
+        if tag and tag not in normalized:
+            normalized.append(tag)
+        if len(normalized) == 6:
+            break
+    report["tags"] = normalized
 
     return report
+
+
+def report_quality_errors(report: dict) -> list[str]:
+    """Reject structurally valid JSON that is not publication-ready."""
+    errors: list[str] = []
+    headline = report.get("headline")
+    subhead = report.get("subhead")
+    body = report.get("body_markdown")
+    tags = report.get("tags")
+    if not isinstance(headline, str) or not 20 <= len(headline.strip()) <= 140:
+        errors.append("headline length")
+    if not isinstance(subhead, str) or len(subhead.strip()) < 40:
+        errors.append("subhead too short")
+    if not isinstance(body, str) or len(body.strip()) < 900:
+        errors.append("body too short")
+    if not isinstance(tags, list) or len(tags) < 3:
+        errors.append("too few tags")
+    return errors
 
 
 # ---------------------------------------------------------------------------
@@ -1237,8 +1277,9 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
         "lon": None,
         "bucket": writer.get("zone_slug", ""),
     }
-    with open(UNIFIED_DB, "a") as f:
-        f.write(json.dumps(unified_entry, ensure_ascii=False) + "\n")
+    if os.environ.get("NOREASTER_WRITE_UNIFIED_DB", "1") != "0":
+        with open(UNIFIED_DB, "a") as f:
+            f.write(json.dumps(unified_entry, ensure_ascii=False) + "\n")
 
     return publication
 
@@ -1413,22 +1454,29 @@ def main() -> int:
     system, user = build_prompt(writer, reports, analyst, youtube_intel, hooper=hooper, called_it=called_it)
     print(f"[gen] calling {args.model} (prompt={len(system)+len(user):,} chars)", file=sys.stderr)
 
-    # Retry the LLM call up to 3 times on non-JSON output (transient model issue)
+    # Retry the LLM call up to 3 times on invalid or incomplete output.
     report: dict | None = None
     for json_attempt in range(3):
         raw = call_openrouter(system, user, args.model)
         try:
-            report = parse_llm_json(raw)
-            break
+            candidate = scrub_report(parse_llm_json(raw), writer)
         except json.JSONDecodeError as e:
             print(f"[error] model returned non-JSON (attempt {json_attempt+1}/3): {e}\n---\n{raw[:400]}", file=sys.stderr)
-            if json_attempt < 2:
-                time.sleep(5)
-            else:
-                return 1
+        else:
+            quality_errors = report_quality_errors(candidate)
+            if not quality_errors:
+                report = candidate
+                break
+            print(
+                f"[error] model output failed quality gate "
+                f"(attempt {json_attempt+1}/3): {', '.join(quality_errors)}",
+                file=sys.stderr,
+            )
+        if json_attempt < 2:
+            time.sleep(5)
 
-    assert report is not None  # loop either breaks with report or returns 1
-    report = scrub_report(report)
+    if report is None:
+        return 1
 
     if args.dry_run:
         print(json.dumps(report, indent=2, ensure_ascii=False))
