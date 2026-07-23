@@ -8,14 +8,29 @@ not a second deployment change in the editorial gate.
 from __future__ import annotations
 
 import json
+import os
 import sys
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
-FEED_REPO = Path(__file__).resolve().parent.parent
+FEED_REPO = Path(
+    os.environ.get(
+        "NOREASTER_FEED_REPO",
+        str(Path(__file__).resolve().parent.parent),
+    )
+).expanduser()
 REPORTS_DIR = FEED_REPO / "reports"
-ROSTER_PATH = Path("/Users/spartacus/.hermes/workspace/noreaster/intel/config/writers_roster.json")
+HERMES_HOME = Path(
+    os.environ.get("HERMES_HOME", str(Path.home() / ".hermes"))
+).expanduser()
+NOREASTER_INTEL_DIR = Path(
+    os.environ.get(
+        "NOREASTER_INTEL_DIR",
+        str(HERMES_HOME / "workspace" / "noreaster" / "intel"),
+    )
+).expanduser()
+ROSTER_PATH = NOREASTER_INTEL_DIR / "config" / "writers_roster.json"
 EDITOR_IDS = {"editor-in-chief"}
 
 

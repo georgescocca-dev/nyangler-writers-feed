@@ -36,13 +36,28 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-WORKSPACE = Path("/Users/spartacus/.hermes/workspace")
+HERMES_HOME = Path(
+    os.environ.get("HERMES_HOME", str(Path.home() / ".hermes"))
+).expanduser()
+WORKSPACE = Path(
+    os.environ.get("NOREASTER_WORKSPACE", str(HERMES_HOME / "workspace"))
+).expanduser()
 # The active roster and intel live in the canonical Nor'easter tree.  The
 # retired projects/ mirror drifts from the multi-state roster.
-NOREASTER = WORKSPACE / "noreaster" / "intel"
+NOREASTER = Path(
+    os.environ.get(
+        "NOREASTER_INTEL_DIR",
+        str(WORKSPACE / "noreaster" / "intel"),
+    )
+).expanduser()
 SRC_ROSTER = NOREASTER / "config" / "writers_roster.json"
 SRC_REPORTS = NOREASTER / "data" / "raw" / "nyangler"
-FEED_REPO = WORKSPACE / "noreaster" / "writers-feed"
+FEED_REPO = Path(
+    os.environ.get(
+        "NOREASTER_FEED_REPO",
+        str(Path(__file__).resolve().parent.parent),
+    )
+).expanduser()
 REPORTS_DIR = FEED_REPO / "reports"
 REPORTS_INDEX = FEED_REPO / "reports.json"
 TEASERS_INDEX = FEED_REPO / "teasers.json"
@@ -187,8 +202,18 @@ YOUTUBE_KNOWLEDGE = NOREASTER / "data" / "knowledge" / "fishing_knowledge.jsonl"
 #      confirmation into the report. Cheap credibility — remind readers we
 #      know this water.
 HOOPER_SETUP_DIR = Path(
-    "/Users/spartacus/nor-easter-setup/projects/noreaster-intel/data/analysis"
-)
+    os.environ.get(
+        "NOREASTER_SETUP_ANALYSIS_DIR",
+        str(
+            Path.home()
+            / "nor-easter-setup"
+            / "projects"
+            / "noreaster-intel"
+            / "data"
+            / "analysis"
+        ),
+    )
+).expanduser()
 
 
 def _hooper_score(path: Path) -> int:
