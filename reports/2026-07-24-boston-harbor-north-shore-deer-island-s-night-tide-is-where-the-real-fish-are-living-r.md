@@ -1,0 +1,26 @@
+# Deer Island's night tide is where the real fish are living right now
+*Daytime bass have gone quiet on the harbor and North Shore both — the program's shifted to dark water and moving current.*
+
+**BOSTON HARBOR, MA — July 24** — _by Sara Whitfield, Zone Writer_
+
+I made the call Tuesday to skip the daytime harbor run and give Deer Island a look on the last two hours of the outgoing, starting around 9 PM. That decision came from watching three straight days of flat, disappointing daytime trips — the kind where you mark bait on the machine, drop down, and get nothing but a shrug. Surface temps in the harbor are pushing toward 70, maybe a hair over in the shallow coves off Winthrop, and that's enough to shut the daytime bite down almost everywhere except right at the margins of first light and last light.
+
+So nights it is. The rip that forms off the northern tip of Deer Island on the back half of the ebb has been the most consistent thing I've fished all month. Current stacks up against the flushing tunnel outflow and the edge of the drop where it goes from eight feet to better than thirty in a hurry, and that's holding bass through the dark hours. I've been drifting live mackerel — snagged fresh right there off the same rip on a small hook and treble jig — back into the seam, freespooled on a fishfinder rig with just enough weight to hold bottom in the current. Fish have been in the 28 to 34 inch class mostly, one push toward midnight last Thursday that had three of us into fish over 36 inches on live mac before it shut off as fast as it started. That's the pattern right now — short, violent windows, then dead water. You have to be there when it happens, and you have to be patient through the lulls.
+
+Spectacle Island's north drop-off has been giving up smaller stripers on the same tide stage, but bluefish have actually been the more reliable player out there the last week, chopping bait on top right at dusk before the bass show. If you want visible, aggressive action, that's your window — Deceivers and 1-ounce Kastmasters worked fast across the surface will draw strikes from blues in that 3 to 6 pound class, and it's a nice warm-up before you settle in for the real bass program after dark.
+
+Nahant's been quieter than I'd like it to be this week. The rocks off East Point are still holding fish, but they've gone deep and nocturnal just like everywhere else in the harbor complex — daytime casters working topwater in that classic July light are mostly getting skunked unless they're there at gray light. I fished the boulder field off Bass Point on a dropping tide last Sunday morning, 5 AM, and picked up two decent bass on a swimming plug worked slow along the current seam, but by 6:30 with the sun up it was over. That's the window now — tight, early, and gone fast.
+
+Gloucester and Cape Ann are holding to the same script, though the water up there runs a touch cooler thanks to the Gulf of Maine influence, which has kept some daytime activity alive longer than in the harbor proper. Guys working the ledges off Eastern Point and out around Thacher Island have still been picking at bass on umbrella rigs and diamond jigs worked deep, 40 to 60 feet, on the last of the incoming. Mackerel schools are thick up there right now too — if you need bait, that's the run, and it doesn't take long to load a bucket working small jigs off the rocks at Gloucester Harbor's outer breakwater.
+
+We flagged this pattern last week — said to expect stable, unspectacular conditions with no major thermal shift, and that's exactly what's played out. Nothing's blown up, nothing's collapsed. The water's just settled into that mid-summer holding pattern where the fish know the rules better than we do.
+
+Plymouth and Duxbury Bay have been the wildcard. Cooler water moving through the bay off the back side of the Cape has kept some daytime striper activity alive in spots — the flats off Duxbury Beach on the early incoming have produced schoolies to 26 inches on soft plastics, 5-inch white paddle tails on light jig heads, worked slow over the sand. Nothing to write home about, but it's daylight fishing that's actually working, which right now feels like a luxury.
+
+Flounder have been steady but unspectacular in the harbor's mud bottoms — Deer Island Flats and the channel edges off Long Island have given up fish to guys soaking clam bellies on the bottom, standard spreader rigs, small hooks. It's not a program that's going to make anyone's week, but it's honest, catchable action if you want something to do while waiting for dark.
+
+Looking ahead, I don't see this pattern breaking soon. The moon's past full and heading toward the next quarter, tides are moderating, and without a real cold push or a stiff northeast blow to mix the water column, the bass are going to keep living deep and dark through the coming week. If I had one night to fish, I'd be back at Deer Island on the outgoing, live mackerel in the water, waiting for that rip to load up. Daytime anglers, your best shot is still that narrow window right at gray light — get there early, because it closes fast once the sun's up.
+
+---
+
+Tags: striped-bass, bluefish, cod, haddock, mackerel, flounder

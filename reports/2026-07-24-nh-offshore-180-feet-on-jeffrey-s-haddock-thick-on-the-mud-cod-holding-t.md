@@ -1,0 +1,26 @@
+# 180 feet on Jeffrey's: haddock thick on the mud, cod holding tight to the gravel edge
+*The bottom's doing exactly what it should this time of July — you just have to fish the right five feet of it.*
+
+**RYE HARBOR, NH — July 24** — _by Capt. Sonya Nguyen, Zone Writer_
+
+Two hundred and ten feet of water on the west side of Jeffrey's, mud bottom, and the sounder with that fuzzy grey haze eight feet off the bottom that means haddock are stacked and feeding. That's been the story most of this week — you find the soft stuff, the mud basins between the humps, and you find fish. Move fifty yards onto the gravel and hard rubble on the ledge's spine, up around 130 to 160 feet, and the picture changes completely. Marks get sparser, tighter to bottom, less spread — that's your cod water, and you've got to fish it different.
+
+I've had my best mornings this week working that exact transition zone, where the mud gives way to broken gravel on the northeast corner of the ledge, inside of Cape Ann but still well out past Thatcher. Anchoring up on the gravel edge with clam and squid combo rigs, cod have been running a solid mixed bag — plenty in the 24 to 30 inch class, a few pushing better than that, though nothing that's going to make the scale groan this week. Jigging with 8 to 12 ounce diamond jigs, teaser dropper above, has worked when the current's moving right — slack tide kills it, so I've been timing my drifts around the two hours either side of max flow.
+
+Haddock have been the more consistent producer, and honestly the better eating too. Working the mud basins in 180 to 220 feet with standard haddock rigs — two hooks, bait up with squid strips or clam belly, small bit of green or chartreuse tube for attraction — and letting it sit just off bottom rather than dragging it. These fish want it presented clean, not bounced around. Limits haven't been automatic but a well-fished drift has been putting a dozen keepers in the box most trips, mixed in with a few pollock that come through in that mid-water column when the tide's really humming.
+
+Platts Bank has been fishing similar to Jeffrey's — same mud-versus-gravel read applies, and I had a trip out there Tuesday that mirrored what we've seen closer to home, haddock thick on the softer bottom west side, cod scattered but present on the eastern rubble. Tillies has been quieter for me this week, water's a touch warmer out that way and the bite's been softer, more of a pick than a program. I'd put my time closer to home right now if you're choosing between the two.
+
+The bluefin piece of this puzzle is starting to develop the way it does every summer before it really turns on in the fall. We're seeing whale activity pushing bait up onto Stellwagen's approaches and along the edge of Jeffrey's itself — sand eel and herring balls getting worked hard by humpbacks and fin whales, and where the whales are, the tuna show up to clean up behind them. I had one client hook and lose a fish trolling a spreader bar over a bait ball on the southern end of the ledge last week, decent fish, probably 200-plus, gone after a short fight on light drag. That's the pattern right now — scattered giants working bait balls opportunistically, not the concentrated push we'll see once the mackerel and herring really stack up in September and October. If you're rigging for bluefin now, I'd keep gear ready but not build a whole trip around it yet. Better odds are still a month or two out.
+
+Regionally the recreational slot fishery down toward Block Island and the canyons has been grinding steady since the trophy closure came through July 3rd, and that pattern holding stable is a decent sign for what's coming our way once the giants really commit to the ledge later this season. Worth watching.
+
+We flagged this pattern last week — said to expect steady, if unspectacular, structure fishing through the next few days — and that's exactly what's played out. Nothing explosive, but reliable numbers if you fish the right bottom type for the right species and don't waste time working gravel for haddock or mud for cod.
+
+Wind's been cooperative, nothing over 15 knots most days, and that's let us hold position properly on both the gravel and the mud without a lot of drift-and-reset headaches. If that holds through the weekend I'd expect the same read to continue — haddock steady on the mud in that 180 to 220 range, cod a more disciplined pick on the gravel edges where you need patience and a well-placed bait rather than covering water.
+
+Looking ahead, I'd keep an eye on any building southwest wind later in the week — that can push a chop onto the ledge that makes precision anchoring tougher, especially working that gravel-mud transition where five feet of position matters. If it stays clean, my plan is the same one that's worked all week: hit the mud early for haddock while the bite's fresh, shift onto the gravel edge as the tide builds, and keep a rod rigged for anything that shows on the bait balls if we cross paths with the whales again on the way home.
+
+---
+
+Tags: jeffreys-ledge, haddock, cod, bluefin-tuna, gravel-bottom, rye-harbor
