@@ -1,0 +1,26 @@
+# Rough Monday, redemption Thursday: Norfolk pays off, Spencer stays stingy
+*A week of route-hopping between four canyons taught me the yellowfin moved south before the fleet did.*
+
+**CAPE MAY, NJ — July 27** — _by Capt. Ray Lugo, Zone Writer_
+
+Grade for the week: C-plus overall, but that's an average of a D and an A, and knowing which canyon earned which grade is the whole ballgame right now.
+
+Monday and Tuesday I ran Spencer and Lindenkohl off Cape May, and honestly, I wasted diesel. Water on the edge at Spencer — I'm talking the 39°20' N, 72°30' W stretch where the 100-fathom curve kinks — was still holding decent color, but the temp break had gone soft. No hard edge, no birds working it, and the meter showed bait scattered thin instead of balled up tight the way you want it before you pull spreader bars. We trolled green machines and cedar plugs off the shotgun for six hours and put two gaffer dolphin in the box and not much else. That's not a disaster, that's just a canyon that hasn't lit its filament yet this cycle.
+
+Wednesday I made the call to run further south, and that's where the week turned. Poor Man's has been the sleeper all month, and Norfolk finally paid rent. Down around 37°10' N, 74°40' W, the Gulf Stream is throwing a legitimate warm tongue up onto the edge — we were marking 79 to 80 degree water right on the break, which is exactly the number that gets yellowfin to commit instead of just window-shopping. We chunked butterfish over a hard current line in about 850 fathoms starting at first light, and it was steady — not stack-em-up crazy, but a fish every twenty to thirty minutes for four hours, mostly 25 to 45 pound yellowfin, a couple pushing 60. Naked ballyhoo and small skirted ballyhoo on the flat lines did the damage once the chunk got them fired up and looking for the next thing that swam by.
+
+We flagged this last week — said the bite would hold as long as the high pressure stuck around, and that's exactly what happened. The stable weather kept the canyon edges clean and let that warm filament stay put instead of getting torn up and pushed around by wind-driven current. That's the whole story of this week in one sentence: patience with the pattern paid off more than horsepower did.
+
+Bluefin have been the quiet reliable player since the trophy fish closure hit July 3rd. We're seeing slot-class fish, mid-40s to bumping 70 inches, scattered across the same temperature breaks the yellowfin are using — Norfolk and Poor Man's both produced bluefin this week on smaller cedar plugs and green-and-yellow machines pulled fast, 7 to 9 knots, right along the color change. Nobody's boating a truckload of them in one trip, but if you're grinding a canyon edge for yellowfin, don't be surprised when a bluefin jumps the chunk line at dusk instead.
+
+Mahi have been exactly what we called last week too — scattered but honest. You're not going to find a mile of grass loaded with gaffers, but any bit of floating structure — a lobster pot warp, a mat of sargassum, even a stray piece of dunnage — is holding fish. We picked off a dozen keeper-class dolphin this week just by running the edges between Poor Man's and Norfolk with a spotter up top and a couple of pitch rods rigged with small skirted ballyhoo ready to fire the second we saw color or debris.
+
+White marlin activity is building the way it's supposed to for late July, and Norfolk's edge is where I'd point the bow if that's your target. We had two bites and one release on dink ballyhoo behind small Sea Witches, both fish coming up on the long riggers in that same 78-80 degree water. It's not a full-blown bite yet, but the trend line is right — more fish showing every week as that Gulf Stream water keeps pushing warmer filaments up onto the shelf edge.
+
+Lindenkohl and the northern half of Spencer are the ones I'd put on the back burner for now. Until that edge sharpens back up and the bait balls tighten, you're burning fuel for a mixed bag at best. If you've only got one day and you're launching out of Cape May or Ocean City, the run to Poor Man's or Norfolk is longer, but this week it was the difference between a photo of two mahi and a fish box that actually needed ice.
+
+Looking ahead, the pattern holds if the high pressure holds — and right now there's nothing in the tropics forcing a change, though that's worth watching as we roll into August. If that filament stays parked on Norfolk and Poor Man's, I'd expect the yellowfin bite to hold steady to build through early next week, with the white marlin count ticking up as more fish push north along the edge. If a system spins up and stirs the stream, that warm tongue could shift on us fast, and I'd be back to scouting Spencer and Lindenkohl for the reset. For now, my plan is simple: run south, chunk the break, and keep ballyhoo in the water till something eats.
+
+---
+
+Tags: yellowfin-tuna, bluefin-tuna, bigeye-tuna, wahoo, mahi-mahi, white-marlin

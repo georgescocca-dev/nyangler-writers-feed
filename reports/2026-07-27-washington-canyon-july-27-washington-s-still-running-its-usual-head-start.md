@@ -1,0 +1,24 @@
+# July 27: Washington's Still Running Its Usual Head Start
+*The eastern wall is holding warm water and yellowfin while boats up north are still waiting on their break to show.*
+
+**WASHINGTON CANYON — July 27** — _by Capt. Chris "Wash" Morrison, Zone Writer_
+
+Every year around this time I get the same question at the fuel dock — why is Washington already dialed in when guys running out of Manasquan or Montauk are still hunting for their break? Simple answer: geography. We sit far enough south and close enough to where the Gulf Stream likes to throw its filaments that we get first crack at 78-80°F water most seasons, sometimes by two to three weeks. This year's no different. By the third week of June we had a clean edge setting up along the 100-fathom curve on the eastern wall, and it's held there, more or less, ever since. Late July is when Washington should be cooking, and it is — not lights-out, but honest, consistent, the kind of canyon fishing you can plan a trip around.
+
+The read this week: warm water is still pushing onto the edge, holding a temperature break right around the eastern wall between 38°37'N and 38°42'N, 72°48'W to 72°52'W. That's been the address all month. South of there, past the 250 line, the water goes soft and green — not worth the fuel. North, up toward the Washington/Wilmington saddle, it's mixed and unsettled. Stay on that eastern wall where the blue meets the green and you're in business.
+
+Yellowfin have been the backbone of the trip report this week, and they're doing exactly what a stable high-pressure pattern says they should. Troll-and-chunk spreads working the color change in 900 to 1,300 feet have put fish in the box on most trips — nothing gangbuster, but a hard pull of ballyhoo and small Green Machines skirted behind the spreader bars has drawn strikes in that 78°F push, then once the trolling bite goes quiet around mid-morning, butterfish chunks on 20 to 30-pound fluoro leader, drifted back in the chum slick, have kept rods bent through the heat of the day. Fish have run 20 to 45 pounds, nothing giant, but they're eating.
+
+Mahi have been the pleasant surprise, and honestly, we flagged this pattern last week — said the scattered-but-steady mahi bite would hold as long as the offshore high held, and that's exactly what's happened. Weed lines and any floating junk along that eastern wall edge have been holding fish in the 3 to 12-pound class, occasional bull in the teens mixed in. Small hookless teasers with naked ballyhoo dropped back to any surface-feeding pod has worked better than blind trolling — these fish are visual right now, and if you're not scanning for weed lines and high flyers you're leaving fish on the table.
+
+Bigeye have been a night bite, like always this time of year, and the northeast wall in 1,000 to 1,400 feet has been the spot. Deep drops on squid and butterfish, glow sticks on the leader, dropped down after dark on the slower tide stages — that's produced the better-grade fish, 80 to 150 pounds, though it's not an every-trip thing. You need to commit to the overnight and you need calm water to fish it right, which we've had.
+
+Wahoo have shown but they're not thick yet — a fish here, a fish there on high-speed gear, planers and Ilanders in the 62 to 66-fathom stretch along the wall. That's a August pattern that's arriving a touch early, which fits the whole seasonal theme around here. White marlin sign has been scattered — a few tags, a few raised and not converted, mostly on ballyhoo strings behind the dredge in that same warm push. Nothing to build a trip around yet, but worth having the pitch bait rigged.
+
+Bluefin have stayed mostly a Block Island and Stellwagen story since the July 3rd trophy closure shifted effort north, but we're still seeing slot-class fish mixed in on the canyon grounds, particularly where bait's been thick on the temperature break. Nothing that changes the game plan — yellowfin and mahi remain the money species out here right now.
+
+Looking at the next week, I don't see a reason for this to change much. The high-pressure pattern that's kept the water settled and the edge clean isn't going anywhere fast, and that eastern wall break has been remarkably stable for going on six weeks now — longer than I'd have bet on back in June. If I had a trip to plan, I'd run straight to that 38°40'N, 72°50'W stretch, start trolling the color change early, and be ready to switch to chunk once the sun gets high. Keep an eye on the weed lines for the mahi, and if you've got the crew and the fuel for an overnight, the northeast wall bigeye drop is worth the extra hours. August around here usually means the wahoo numbers build and the white marlin bite sharpens up — if that early-arrival pattern holds true to form again this year, don't be shocked if Washington gets there before everybody else does, same as always.
+
+---
+
+Tags: yellowfin-tuna, bluefin-tuna, bigeye-tuna, wahoo, mahi-mahi, white-marlin
