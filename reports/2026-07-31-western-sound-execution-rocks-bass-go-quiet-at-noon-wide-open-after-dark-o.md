@@ -1,0 +1,26 @@
+# Execution Rocks bass go quiet at noon, wide open after dark on bunker chunks
+*Warm water has flipped the switch on the Sound — stripers are night-shift only while bluefish run the daylight bunker schools from Matinecock to the Throgs Neck.*
+
+**CITY ISLAND, NY — July 31** — _by Frank "The Sound Pro" Marinaro, Zone Writer_
+
+Had a guy at the bait shop this week swear up and down that the bass have left Execution Rocks. Told him the fish didn't go anywhere — they just changed their hours. That's been the story on the western Sound for two weeks now, and it's not changing anytime soon with this water staying warm through the day.
+
+Kings Point is reading 70.9 this week, and that's on the surface — out at Execution Rocks and around the Stepping Stones, that top layer's been sitting in the high 60s to low 70s straight through the afternoon. Compare that to New London out east at 69.4 and you can see the gradient — the western end of this Sound is running warmer than it has any business being at the end of July, and stripers don't love it. They're doing exactly what thirty years of watching this water tells me they'll do: sliding down onto structure during the day and only really showing themselves on the tide changes, at first light, and after the sun goes down.
+
+Execution Rocks has still been good — better than good, honestly — but you need to be there for the right window. The last two hours of the outgoing into the start of the incoming, right around dusk, has been the money stretch. Bunker chunks fished on a fish-finder rig, 2 to 3 ounces of weight depending on how hard that current's ripping, dropped right along the rockpile edge where it drops from 15 feet down into the 30s. I've had guys anchor up there at 7pm with a chum slick going and not touch a rod until it's full dark, then it's bent rods for an hour straight — fish from 26 inches up to a couple that pushed 40. Live eels drifted on the same structure after 9pm have been the ticket for the bigger models. Daytime, forget it — I've fished that rock at noon three times this month and gotten nothing but sunburned.
+
+Stepping Stones is running the same program. That light has been a spring highway for decades, but right now it's strictly a tide-change and night bite too. The current there is still the draw — bass are using it as a highway between Execution Rocks and the bridge, they're just moving through on their own schedule now instead of ours.
+
+What's filling the daylight void is bluefish, and they are absolutely making the most of this warm water. We flagged this pattern last week and said it would hold as long as the weather stayed stable — and it has. Matinecock Point has had bunker stacked up thick since June, and the blues have been shredding through those schools all week, especially on the last two hours of the incoming when the bait gets pushed up tight against the point. Bucktails with a strip of pork rind, or just a bare metal like a Hopkins or an Ava jig worked through the melee, will get bit almost every cast when the birds are working. Snap swivel above the leader unless you enjoy losing gear — these blues have teeth and no patience.
+
+Fluke fishing has been the steady hand through all this. Hart Island and the channel edge running off it have been holding keepers mixed with a lot of shorts — standard summer ratio, nothing to write home about but enough to put dinner in the cooler. Drifting with 3/4-ounce white bucktails tipped with Gulp Swimming Mullet in the 4-inch size, working the drop from 20 feet down into the channel at 35, outgoing tide. The bite's better on the last two hours before dead low when the current's still got some push to it but isn't ripping your bucktail sideways.
+
+Porgies remain the honest man's fish around City Island right now — anchor up on any of the reefs off the north shore, clam or bloodworm on a high-low rig, and you'll load the cooler without much drama. It's not glamorous but it's about as sure a thing as this Sound offers in late July.
+
+Weakfish have been scattered — a few reports out of Little Neck Bay and up in Manhasset, nothing consistent enough to plan a trip around, but worth a drift if you're already out there working bucktails for fluke.
+
+Looking ahead, I don't expect much to change through the weekend — the tides are easing off the full moon push toward neap, which usually means a little less current strength and a little more patience required, but the warm surface layer isn't going anywhere with this weather pattern locked in. If a thunderstorm rolls through midweek like they tend to in early August, it might mix the water enough to knock the bass off their spots for a tide or two, but I'd expect the night bite at Execution Rocks and the Stepping Stones to bounce right back. My money this week is on fishing dusk into dark for the bass and hitting the bunker schools off Matinecock in the middle of the day for blues — that's where the action actually is right now, and no sense fighting the thermometer.
+
+---
+
+Tags: striped-bass, bluefish, fluke, porgies, blackfish, weakfish

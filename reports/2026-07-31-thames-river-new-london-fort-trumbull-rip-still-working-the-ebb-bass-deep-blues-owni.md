@@ -1,0 +1,24 @@
+# Fort Trumbull Rip Still Working the Ebb — Bass Deep, Blues Owning the Surface
+*New London's water is running a shade cooler than the rest of the Sound, and that half-degree is buying the Thames a better bass bite than most river systems get in late July.*
+
+**NEW LONDON, CT — July 31** — _by Marcus Webb, Zone Writer_
+
+There's a spot off Fort Trumbull where the current pinches between the old fort wall and the river channel, and on a hard ebb it throws a standing seam you can read from fifty yards out — a line of nervous water where the smooth flow off the flats collides with the deeper channel push. That seam has been holding fish all week, and it's the first place I point the bow when the tide turns.
+
+New London is reading 69.4 degrees right now, which doesn't sound like much until you put it next to what the western Sound is carrying — Kings Point up near 71. That degree and a half matters more than people think. It's kept our stripers from getting pushed into the strict nocturnal program that's shutting down daytime bites from the Housatonic on west. We're not seeing blitz-quality daytime fishing, but the bass haven't abandoned structure during daylight either — they're just holding deeper in it, and you have to go get them instead of waiting for them to show.
+
+The Gold Star Bridge pilings are still the most reliable structure in the system. On the last two hours of the ebb, I've been working the downstream faces of the center pilings with 1-ounce bucktails dressed with a strip of pork rind or a 4-inch white paddle tail, dropping to the bottom and working it back up in short hops. Fish are sitting tight to the concrete in 18 to 22 feet, and most of what's coming over the rail is 24 to 30 inches — a few better ones mixed in after dark. If you can fish it blind on the incoming tide too, don't skip it; the pilings hold fish on both stages, they just sit in different spots depending on which way the water's pushing.
+
+We flagged this last week — said the bass activity would pick up as the tide cycle built, and that's exactly what's happened. The current strength off the sub base and down through the river mouth has been noticeably stronger the past several days, and the fish have responded by stacking tighter to the defined current lines instead of spreading out over open bottom.
+
+Bluefish are the story nobody should be surprised by. They love this warm surface layer that's been shoving bass deep everywhere from here to Jersey, and the river mouth has had them working peanut bunker schools most mornings this week, right off the mouth where the Thames dumps into the harbor near Pleasure Beach. Cast small metal — half-ounce Deadly Dicks or Kastmasters — into the surface nervousness and you'll get bit fast. Some fish pushing 4 to 6 pounds mixed into the smaller choppers, and if you're throwing topwater, a Yo-Zuri Mag Popper worked in short, aggressive strokes has been drawing the bigger blues up off the bottom of the school.
+
+Porgies are still the honest bread-and-butter bite around the sub base and the deeper holes off Fort Trumbull. Bottom rigs with size 6 or 4 hooks, sandworm or clam strips, fished in 20 to 35 feet on the slower stages of the tide — this hasn't changed in weeks and it isn't going to. It's not exciting fishing but it's steady, and if you're taking someone out who wants bent rods without a lot of technical demand, this is still your play. I had a father-son trip out of the harbor Tuesday morning that put twenty-some keeper porgies in the cooler in about two hours of soak time, nothing fancy about it.
+
+Blackfish are still closed water this time of year in Connecticut, so if you're seeing them stacked up on the rockpiles off Ocean Beach — and I have been, on the sounder — leave them be and make a mental note for the fall reopener. They'll still be there.
+
+What I'd watch going into next week: the tide cycle is building back toward the August 12 new moon, and that usually means stronger current through the Thames corridor, which is good news for the bass pattern holding at the bridge and the fort. If we get a passing thunderstorm or a wind shift out of the southwest — which wouldn't be unusual for early August — expect a day or two of dirty water off the river mouth that'll shut down the sight-fishing for bluefish, though the bottom bite for porgies should hold up fine since that's not dependent on clarity. If the current stays strong and the water holds in the high 60s, I don't see any reason the Fort Trumbull rip and the bridge pilings don't keep producing through the coming week. Fish the tide changes, work the seams instead of the open water, and don't be afraid to go slow and deep for the bass — that's where they're living right now.
+
+---
+
+Tags: striped-bass, bluefish, porgy, fort-trumbull, gold-star-bridge, thames-river

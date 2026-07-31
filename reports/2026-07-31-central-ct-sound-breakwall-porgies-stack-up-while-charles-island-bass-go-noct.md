@@ -1,0 +1,26 @@
+# Breakwall Porgies Stack Up While Charles Island Bass Go Nocturnal
+*Sea bass and porgies keep the rockpiles honest in daylight, but the stripers have punched the night shift card at Charles Island and the Shoal.*
+
+**MILFORD, CT — July 31** — _by Lena Marchetti, Zone Writer_
+
+Friday morning, half tide coming in, I dropped a double-hook rig tipped with green crab off the outer breakwall at New Haven Harbor and had a doubleheader of porgies before my buddy Ray even got his second rod rigged. Eight-inchers, some pushing nine, coming two at a time off the rocks on the east side where the current sweeps hardest. That's the story of my week — the structure stuff hasn't blinked, even while everything pelagic in this Sound has gone squirrely with the heat.
+
+Water's sitting in the low 70s across the western basin — Kings Point read 70.9 the other day, and that warmth has pushed clean into our zone. New London out east is still a couple degrees cooler at 69.4, and that gradient matters more than people think. It means the porgies and black sea bass, which don't mind warm water one bit, are locked in and feeding hard on the reef structure — Charles Island bar, the rockpiles off Milford Gulf, both jetties at the harbor mouth. But it also means the stripers, which like it more like 68 to 72, have gone deep and gone dark. If you're bass fishing at noon right now off Charles Island, you're wasting bait.
+
+Sea bass have been the real bright spot. I've had good drifts in 25 to 35 feet off Falkner Island on the last two hours of the incoming, squid strips and clam belly on a two-hook bottom rig with 3-ounce sinkers to hold in that current. Fish to 17 inches, a few shorts mixed in that go back, but enough keepers that three of us walked off with a dozen good ones Sunday. The bite window there is tight — it dies the second the tide goes slack, so time your trip around the moving water, not the clock.
+
+Blackfish are still a touch early for the real conversation, but I've been picking up a few incidental fish jigging green crab around the rockpiles at Stratford Shoal, which tells me the tautog are starting to stage even if the dedicated bite is a few weeks off yet.
+
+Stripers are the frustrating part of the week, and I'll be straight about it — daytime action off Charles Island bar has been dead slow. I made three trips out there between 10 and 2 and managed one 24-inch fish on a white bucktail worked slow along the sandbar drop-off. That's it. What's actually happening is the fish have slid off that structure into deeper, cooler water and gone strictly nocturnal — dawn, dusk, full dark, working bunker schools on the tide changes. If you want stripers right now, fish the bottom of the ebb into the top of the flood starting an hour before sunset, working eels or bunker chunks on a fish-finder rig in 15 to 20 feet off the north side of the island, or drift live bait over the deeper edges of Stratford Shoal after dark. That's where the quality fish are sitting out the heat.
+
+We flagged this pattern building last week — said the neap tide had softened the current and it'd rebuild over the next few days, and sure enough the moving water off Falkner and the harbor mouth has come back with some real push behind it this week. That stronger current is exactly why the porgy and sea bass bite has stayed consistent — moving water stacks the bait against structure, and these fish don't need convincing.
+
+Bluefish have been showing in pulses off Hammonasset and along the beach at Charles Island, chopping through peanut bunker schools mid-morning. Nothing like the sustained blitz pattern they're seeing down the Jersey shore right now, but if you see birds working close to the beach, a silver spoon or a Hopkins jig thrown into the fray will get bit fast — just watch your fingers on the release, these have teeth.
+
+Fluke have been a quiet, steady presence in the deeper basin off Milford Gulf, 25 to 40 feet, drifting white Gulp Swimming Mullets on bucktails tipped with squid strips. Nothing huge — most going 16 to 18 inches with the occasional keeper mixed in — but it's a dependable program if the bottom bite is what you're after and you want a break from the structure grind.
+
+Looking ahead, I don't see much changing in the next few days. Wind's been light and stable, water's holding warm, and that combination should keep the porgy and sea bass program rolling on the rockpiles same as it has been. The building tide cycle heading toward the mid-August new moon should start concentrating bait tighter around the structure, which is usually when the blackfish start showing up in real numbers on purpose instead of by accident. For stripers, I'd keep playing the night program at Charles Island and the Shoal until this warm stretch breaks — if we get a good northeast blow or a cold front pushes through, watch for those fish to slide back up onto the bar during daylight again. Until then, set your alarm for last light, not first.
+
+---
+
+Tags: porgies, black-sea-bass, blackfish, striped-bass, bluefish, fluke
