@@ -66,6 +66,7 @@ TEASERS_INDEX = FEED_REPO / "teasers.json"
 # headline approach, and voice directives to prevent all reports from
 # sounding the same.
 VOICE_PROFILES_FILE = FEED_REPO / "scripts" / "writer_voice_profiles.json"
+FIELD_GUIDE_DIR = NOREASTER / "data" / "regional_memory" / "field_guides"
 
 
 def load_voice_profile(writer_id: str) -> dict | None:
@@ -77,6 +78,27 @@ def load_voice_profile(writer_id: str) -> dict | None:
         return data.get("writers", {}).get(writer_id)
     except (json.JSONDecodeError, OSError):
         return None
+
+
+def load_regional_field_guide(writer_id: str, *, as_of: str | None = None) -> dict:
+    """Load only current, verified facts from an editor's durable field guide."""
+    guide_path = FIELD_GUIDE_DIR / f"{writer_id}.json"
+    if not guide_path.exists():
+        return {}
+    try:
+        guide = json.loads(guide_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    as_of = as_of or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    facts = [
+        fact
+        for fact in guide.get("facts", [])
+        if fact.get("status") == "verified"
+        and (not fact.get("expires_at") or fact["expires_at"] > as_of)
+    ]
+    guide["facts"] = facts
+    guide["fact_count"] = len(facts)
+    return guide
 
 # Map writer id -> zone slug used in raw/nyangler/<zone>/ data path
 WRITER_TO_ZONE_BUCKET = {
@@ -903,6 +925,13 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         + "\n\n---\n"
         + EDITORIAL_RULES.strip()
     )
+    field_guide = load_regional_field_guide(writer["id"])
+    system += (
+        "\n\n---\nUse the verified regional field guide as factual local context. "
+        "Do not invent missing local details. Never treat your own prior articles "
+        "as evidence; article-derived leads require independent verification before "
+        "they can appear in this field guide."
+    )
     if voice_block:
         system += "\n\n---\n" + voice_block
 
@@ -910,6 +939,7 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         {
             "today": today,
             "beat_profile": beat,
+            "verified_regional_field_guide": field_guide,
             "primary_intel_buoy_tide_conditions": analyst,
             "hooper_synthesis_background_DO_NOT_CITE": hooper_context,
             "youtube_intel_DO_NOT_CITE": youtube_intel or [],
@@ -1157,6 +1187,15 @@ def normalize_tag(value: object) -> str:
 def scrub_report(report: dict, writer: dict | None = None) -> dict:
     """Post-process LLM output: strip banned phrases, ensure required fields."""
     body = report.get("body_markdown", "")
+
+    # Fix double-escaped newlines: model sometimes emits literal "\n" (backslash-n
+    # as two chars) instead of actual newlines inside the JSON string. json.loads
+    # preserves them as literal text, which renders as visible "\n" on the sites.
+    # Convert any run of escaped newline sequences into real newlines.
+    body = re.sub(r"(?:\\n)+", "\n\n", body)
+    # Same for escaped tabs, just in case
+    body = body.replace("\\t", "  ")
+
     for phrase in BANNED_PHRASES:
         # Case-insensitive replace, preserving surrounding context
         pattern = re.compile(re.escape(phrase), re.IGNORECASE)
@@ -1164,6 +1203,8 @@ def scrub_report(report: dict, writer: dict | None = None) -> dict:
     # Clean up any double spaces left by removals
     body = re.sub(r"  +", " ", body)
     body = re.sub(r"\n +", "\n", body)
+    # Collapse 3+ consecutive newlines to a standard paragraph break
+    body = re.sub(r"\n{3,}", "\n\n", body)
     report["body_markdown"] = body.strip()
 
     # Models occasionally omit tags even when the JSON schema is otherwise
