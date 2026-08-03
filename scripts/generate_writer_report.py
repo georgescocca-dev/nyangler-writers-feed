@@ -608,6 +608,14 @@ OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
 }
 """
 
+OFFSHORE_SCOPE_DIRECTIVE = """
+OFFSHORE COVERAGE CONTRACT:
+- Your offshore beat begins 10 nautical miles from shore and continues outward; it is not limited to the canyon edge.
+- Retain evidence-backed tuna bites on wrecks, lumps, ledges, banks, shoals, and canyons. A 10-12-mile tuna bite belongs in scope.
+- Virginia Wreck, Bacardi, San Diego, and the possibly mis-transcribed "Montour Canyon" are search leads only. Use one only when the supplied evidence verifies the structure name or alias, position, report date, tuna species, and source.
+- Never invent coordinates, catches, or a tuna report to fill the expanded scope. If the evidence has no qualifying signal, leave it out.
+"""
+
 
 def load_latest_analyst(writer_id: str | None = None) -> dict:
     """Load analyst buoy/tide data covering the full period since the last published report.
@@ -925,6 +933,9 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         + "\n\n---\n"
         + EDITORIAL_RULES.strip()
     )
+    offshore_scope = writer.get("domain") == "offshore"
+    if offshore_scope:
+        system += "\n\n---\n" + OFFSHORE_SCOPE_DIRECTIVE.strip()
     field_guide = load_regional_field_guide(writer["id"])
     system += (
         "\n\n---\nUse the verified regional field guide as factual local context. "
@@ -939,6 +950,17 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         {
             "today": today,
             "beat_profile": beat,
+            "offshore_coverage_scope": (
+                {
+                    "minimum_distance_from_shore_nm": 10,
+                    "direction": "outward",
+                    "structure_types": [
+                        "wreck", "lump", "ledge", "bank", "shoal", "canyon"
+                    ],
+                }
+                if offshore_scope
+                else None
+            ),
             "verified_regional_field_guide": field_guide,
             "primary_intel_buoy_tide_conditions": analyst,
             "hooper_synthesis_background_DO_NOT_CITE": hooper_context,
