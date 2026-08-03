@@ -248,6 +248,14 @@ class OffshoreScopeTests(unittest.TestCase):
         )
         self.assertIn("missing offshore location disclosure", errors)
 
+        report["offshore_locations_used"] = []
+        errors = MODULE.report_quality_errors(
+            report, hooper=route_only,
+            writer={"id": "ma-offshore-stellwagen", "domain": "offshore"},
+        )
+        self.assertIn("undisclosed offshore structure: Invented Bank", errors)
+        self.assertIn("unsupported offshore structure: Invented Bank", errors)
+
 
 if __name__ == "__main__":
     unittest.main()

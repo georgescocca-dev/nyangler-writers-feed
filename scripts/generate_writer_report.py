@@ -679,6 +679,19 @@ OFFSHORE_NAMED_LEADS = (
     "The Tails",
 )
 
+OFFSHORE_STRUCTURE_NAME_RE = re.compile(
+    r"\b((?:(?:The|the)\s+)?(?:[A-Z][A-Za-z0-9'’.-]*\s+){1,4}"
+    r"(?:Wreck|Lump|Ledge|Bank|Shoal|Hole|Tower|Canyon))\b"
+)
+
+
+def extract_named_offshore_structures(text: str) -> list[str]:
+    return list(
+        dict.fromkeys(
+            match.group(1).strip() for match in OFFSHORE_STRUCTURE_NAME_RE.finditer(text)
+        )
+    )
+
 
 def load_latest_analyst(writer_id: str | None = None) -> dict:
     """Load analyst buoy/tide data covering the full period since the last published report.
@@ -1404,6 +1417,21 @@ def report_quality_errors(
             errors.append(f"undisclosed offshore structure: {name}")
         if folded_name in full_text and writer_id and zone != writer_id:
             marker = f"wrong-zone offshore structure: {name}"
+            if marker not in errors:
+                errors.append(marker)
+    for name in extract_named_offshore_structures(str(report.get("body_markdown", ""))):
+        folded_name = name.casefold()
+        if folded_name not in disclosed_folded:
+            marker = f"undisclosed offshore structure: {name}"
+            if marker not in errors:
+                errors.append(marker)
+        route = route_index_folded.get(folded_name)
+        if not route:
+            marker = f"unsupported offshore structure: {name}"
+            if marker not in errors:
+                errors.append(marker)
+        elif writer_id and route[1] != writer_id:
+            marker = f"wrong-zone offshore structure: {route[0]}"
             if marker not in errors:
                 errors.append(marker)
     return errors
