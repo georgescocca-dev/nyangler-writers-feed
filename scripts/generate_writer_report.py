@@ -297,7 +297,11 @@ def _species_entries(species_analysis) -> list[tuple[str, str]]:
     return out
 
 
-def load_hooper_briefing(zone_slug: str, beat_species: list[str]) -> dict:
+def load_hooper_briefing(
+    zone_slug: str,
+    beat_species: list[str],
+    include_species_analysis: bool = True,
+) -> dict:
     """Load the LATEST Hooper briefing, filtered to this writer's beat.
 
     Returns today's zone_analysis entry, the species_analysis entries matching
@@ -314,15 +318,26 @@ def load_hooper_briefing(zone_slug: str, beat_species: list[str]) -> dict:
     zone_analysis = data.get("zone_analysis", {}) or {}
     if isinstance(zone_analysis, dict) and zone_slug in zone_analysis:
         out["zone_analysis"] = zone_analysis[zone_slug]
+        evidence = data.get("named_lead_evidence", {})
+        zone_text = str(zone_analysis[zone_slug]).lower()
+        if isinstance(evidence, dict):
+            zone_evidence = {
+                name: records
+                for name, records in evidence.items()
+                if str(name).lower() in zone_text and isinstance(records, list)
+            }
+            if zone_evidence:
+                out["named_lead_evidence"] = zone_evidence
 
-    beat_norm = {_norm_species(s) for s in beat_species}
-    matched = {}
-    for label, text in _species_entries(data.get("species_analysis")):
-        nl = _norm_species(label)
-        if nl in beat_norm or any(nl in b or b in nl for b in beat_norm if b):
-            matched[label] = text
-    if matched:
-        out["species_analysis"] = matched
+    if include_species_analysis:
+        beat_norm = {_norm_species(s) for s in beat_species}
+        matched = {}
+        for label, text in _species_entries(data.get("species_analysis")):
+            nl = _norm_species(label)
+            if nl in beat_norm or any(nl in b or b in nl for b in beat_norm if b):
+                matched[label] = text
+        if matched:
+            out["species_analysis"] = matched
 
     pred = data.get("predictive_outlook")
     if pred:
@@ -345,7 +360,12 @@ _PREDICTION_SIGNALS = re.compile(
 )
 
 
-def load_hooper_called_it(zone_slug: str, beat_species: list[str], lookback: int = 3) -> list[dict]:
+def load_hooper_called_it(
+    zone_slug: str,
+    beat_species: list[str],
+    lookback: int = 3,
+    include_species_analysis: bool = True,
+) -> list[dict]:
     """Scan PRIOR Hooper briefings for dated predictions about this beat.
 
     Returns up to `lookback` candidates (newest first): {date, text, about}.
@@ -367,9 +387,10 @@ def load_hooper_called_it(zone_slug: str, beat_species: list[str], lookback: int
         zone_analysis = data.get("zone_analysis", {}) or {}
         if isinstance(zone_analysis, dict) and zone_slug in zone_analysis:
             texts.append((f"your zone ({zone_slug})", zone_analysis[zone_slug]))
-        for label, sp_text in _species_entries(data.get("species_analysis")):
-            if _norm_species(label) in beat_norm:
-                texts.append((_norm_species(label), sp_text))
+        if include_species_analysis:
+            for label, sp_text in _species_entries(data.get("species_analysis")):
+                if _norm_species(label) in beat_norm:
+                    texts.append((_norm_species(label), sp_text))
 
         for about, text in texts:
             for sent in re.split(r"(?<=[.!?])\s+", str(text)):
@@ -617,6 +638,15 @@ OFFSHORE COVERAGE CONTRACT:
 - Priority New York and New York Bight leads are Virginia Wreck, San Diego, Bacardi, the Mud Hole, Texas Tower, and the Tails. Use one only when supplied evidence verifies the structure name or alias, position, report date, tuna species, and source.
 - Never invent coordinates, catches, or a tuna report to fill the expanded scope. If the evidence has no qualifying signal, leave it out.
 """
+
+OFFSHORE_NAMED_LEADS = (
+    "Virginia Wreck",
+    "San Diego",
+    "Bacardi",
+    "Mud Hole",
+    "Texas Tower",
+    "The Tails",
+)
 
 
 def load_latest_analyst(writer_id: str | None = None) -> dict:
@@ -891,6 +921,8 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         hooper_context["species_read"] = hooper["species_analysis"]
     if hooper.get("predictive_outlook"):
         hooper_context["predictive_outlook"] = hooper["predictive_outlook"]
+    if hooper.get("named_lead_evidence"):
+        hooper_context["named_lead_evidence"] = hooper["named_lead_evidence"]
 
     # "We called it" candidates — prior Hooper predictions about this beat.
     called_it = called_it or []
@@ -1253,7 +1285,7 @@ def scrub_report(report: dict, writer: dict | None = None) -> dict:
     return report
 
 
-def report_quality_errors(report: dict) -> list[str]:
+def report_quality_errors(report: dict, hooper: dict | None = None) -> list[str]:
     """Reject structurally valid JSON that is not publication-ready."""
     errors: list[str] = []
     headline = report.get("headline")
@@ -1268,6 +1300,24 @@ def report_quality_errors(report: dict) -> list[str]:
         errors.append("body too short")
     if not isinstance(tags, list) or len(tags) < 3:
         errors.append("too few tags")
+    full_text = " ".join(
+        str(report.get(key, "")) for key in ("headline", "subhead", "body_markdown")
+    ).lower()
+    evidence = (hooper or {}).get("named_lead_evidence", {})
+    if not isinstance(evidence, dict):
+        evidence = {}
+    for name in OFFSHORE_NAMED_LEADS:
+        if name.lower() not in full_text:
+            continue
+        records = evidence.get(name, [])
+        if not (
+            isinstance(records, list)
+            and any(
+                isinstance(item, dict) and item.get("date") and item.get("source")
+                for item in records
+            )
+        ):
+            errors.append(f"unsupported named lead: {name}")
     return errors
 
 
@@ -1496,8 +1546,17 @@ def main() -> int:
     # per-zone entries keyed by their real id.
     beat_species = writer.get("beat_species", []) or []
     hooper_key = writer["id"]
-    hooper = load_hooper_briefing(hooper_key, beat_species)
-    called_it = load_hooper_called_it(hooper_key, beat_species)
+    include_species_analysis = writer.get("domain") != "offshore"
+    hooper = load_hooper_briefing(
+        hooper_key,
+        beat_species,
+        include_species_analysis=include_species_analysis,
+    )
+    called_it = load_hooper_called_it(
+        hooper_key,
+        beat_species,
+        include_species_analysis=include_species_analysis,
+    )
 
     print(
         f"[gen] writer={writer['name']} zone={zone_slug} "
@@ -1528,7 +1587,7 @@ def main() -> int:
         except json.JSONDecodeError as e:
             print(f"[error] model returned non-JSON (attempt {json_attempt+1}/3): {e}\n---\n{raw[:400]}", file=sys.stderr)
         else:
-            quality_errors = report_quality_errors(candidate)
+            quality_errors = report_quality_errors(candidate, hooper=hooper)
             if not quality_errors:
                 report = candidate
                 break
