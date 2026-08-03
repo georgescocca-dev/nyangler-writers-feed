@@ -1,0 +1,31 @@
+{
+  "id": "2026-08-03-wilmington-canyon-ran-the-extra-eight-miles-to-wilmington-s-inshore-corner-thr",
+  "writer_id": "wilmington-canyon",
+  "writer_name": "Capt. Dana Cooper",
+  "writer_role": "Zone Writer",
+  "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/wilmington-canyon.png",
+  "zone": {
+    "slug": "wilmington-canyon",
+    "name": "Wilmington Canyon"
+  },
+  "published_at": "2026-08-03T11:02:11.456631+00:00",
+  "date": "2026-08-03",
+  "headline": "Ran the extra eight miles to Wilmington's inshore corner — three for five on yellowfin, one bigeye after dark",
+  "subhead": "Skipped the crowded Washington grounds for a cleaner break off the Wilmington wall, and the fuel bill paid for itself.",
+  "dateline": "INDIAN RIVER, DE — August 3",
+  "body_markdown": "Tuesday morning I had a decision to make at the fuel dock — run the usual line out to Washington Canyon where four other boats were already talking on the radio, or push the extra eight miles northeast to Wilmington's inshore corner where the satellite shots showed a tighter, cleaner temperature break. I made the call to burn the extra fuel. That corner, up around 38°42'N/74°00'W where the wall drops from the 100-fathom curve into the 300s, has been holding an eddy edge that's tucked in nice and stable since late July, and I wanted first crack at it before the fleet figured out the same thing.\\n\\nGlad I did. We had the spread out by 0630 — naked ballyhoo behind Mold Craft wide-range lures on the long riggers, a green machine bar down the middle, and a pair of Ilanders skirted in pink/white running the shorts. First knockdown came inside twenty minutes on the edge itself, where the water goes from a hazy green-blue to that dark cobalt in about a quarter mile. That's the tell — you can see the break with your eyes before you ever look at a number, and the birds know it too. We had frigates working bait balls right on the line all morning.\\n\\nEnded up three for five on yellowfin, fish in the 35 to 55-pound class, all right on that seam where the temp jumps. Lost two at the boat on short bites and one just came unbuttoned on a green machine — happens when the fish are eating aggressively but not committing fully, which tells me the bait underneath wasn't as thick as it looked on the surface. Mixed in with the yellowfin we picked up two mahi, a stray dolphin pair sitting under a clump of sargassum about a half mile off the main break, nothing huge, schoolies in the 8 to 12-pound range, but they came easy on the same spread without any adjustment.\\n\\nNo wahoo Tuesday, which surprised me a little given how clean that water looked. Wednesday we ran the high-speed gear — Ilanders and Ling lures rigged behind planers, pulled fast at 12 to 14 knots along the same wall — and picked up two wahoo in the 30s working the structure where the canyon bends toward the northeast, roughly 38°45'N/73°57'W. That bite window was short, maybe forty minutes right at first light before the sun got up on the water, but it was clean and repeatable both mornings we tried it.\\n\\nWhite marlin have been the frustrating part of the week. We had two bites on the troll — one pulled the hook on a naked ballyhoo before we could drop back, the other came unglued on a circle hook rigged bait we'd switched to specifically for that shot. Marlin numbers feel like they're there in scattered pairs and singles along the same break, not stacked up the way they can be in a good August, but present enough that if you're covering the right water you'll get a look. I'd call it a look-and-lose week more than a hookup week for billfish specifically.\\n\\nThe better decision, honestly, was staying out after the troll bite died midafternoon and setting up to chunk overnight rather than running back in. We anchored on a temperature lump just inside the 100-fathom line, cut butterflied bunker on circle hooks, no weight, just let it drift back naturally in the chunk slick with glow sticks taped to the leader once it got dark. Bigeye showed up around 2200 — one fish just under 200 pounds that took forty-five minutes to get to the boat on 80-pound fluoro leader. That's the kind of fish that makes the whole overnight worth it, but I want to be straight with you — that was one bite in about five hours of soaking baits. We had bluefin show interest twice, boat-side swirls, no takers. The bigeye bite out here right now is real but it's a grind, not a program you can count on producing every trip.\\n\\nWater's holding warm and stable through this stretch, which is the main reason I'm not seeing any reason to change the pattern yet. The eddy that's set up off Wilmington's northeast corner doesn't look like it's sliding anywhere fast, and as long as it holds its position relative to the 100-fathom curve, that's where I'm putting my time rather than running further out to the deeper water off Baltimore. Tides are building toward the new moon, which should tighten up current on the break and could sharpen the bite window rather than spread it out — that's usually a good sign for concentrated action rather than fish scattered across five miles of water.\\n\\nIf I had one day this week, I'd troll that same northeast corner early, switch over to high-speed gear for an hour right at first light for a wahoo shot, then make the call by 1400 whether the day justifies staying out to chunk after dark. The bigeye are there for the boats willing to put in the overnight hours, but it's not a guaranteed program — it's earned one bite at a time. Watch for any cold front sneaking down from the north later this week; that's the kind of thing that can push this eddy around and reset the whole pattern in a day.",
+  "TypeError": "Cannot read properties of undefined (reading 'length')",
+  "at yv.parseUntrackedSpans (chat-8LSRvBQr.js": 1,
+  "12238)": "at yv.parseChunk (chat-8LSRvBQr.js",
+  "[object Object]": "11881)",
+  "at Gce.parseChunk (chat-8LSRvBQr.js": 1,
+  "26932)": "at wce.processChunkString (chat-8LSRvBQr.js",
+  "tags": [
+    "yellowfin-tuna",
+    "bluefin-tuna",
+    "bigeye-tuna",
+    "wahoo",
+    "mahi-mahi",
+    "white-marlin"
+  ]
+}

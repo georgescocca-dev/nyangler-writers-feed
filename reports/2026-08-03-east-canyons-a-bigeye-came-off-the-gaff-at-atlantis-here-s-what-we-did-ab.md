@@ -1,0 +1,26 @@
+# A Bigeye Came Off the Gaff at Atlantis — Here's What We Did About It
+*The warm water we flagged last week finally pushed onto the canyon wall, and the tuna bite at Atlantis is worth the fuel — if you can stomach the run.*
+
+**MONTAUK, NY — August 3** — _by Capt. Steve Brock, Zone Writer_
+
+We hooked a bigeye at first light on the east wall of Atlantis Tuesday morning, fought him boat-side for twenty-five minutes, and lost him at the leader when the mate's first gaff shot skipped off his shoulder. Second shot missed clean. He sounded, the hook pulled somewhere around two hundred feet down, and that was that. Nobody said much. You run ninety-some miles to that piece of bottom, you don't get to be precious about one fish. We picked up the trolling lines, reset the spread, and by ten o'clock we'd boxed two yellowfin in the 60-pound class off the same stretch of temperature break. That's the canyons for you — long way out, short memory required.
+
+The run from Montauk to Atlantis is right around 100 nautical miles depending where you jump off the shelf, call it five and a half hours at an 18-knot cruise, and at today's diesel that's not a trip you make on a whim. From Block Island or the Rhode Island ports it's a bit longer to Atlantis but shorter to Veatch, which sits closer to home water around 40°00'N, 69°15'W. We've been splitting our weeks between the two, and this week Atlantis was clearly the better piece of real estate.
+
+We flagged this pattern last week — said the warm eddy pushing toward the shelf break would get tuna and marlin activity building, with mahi showing on any floating structure, and that's exactly what showed up. The break itself has firmed up nicely along the 100-fathom curve on the east side of Atlantis, and the color change there is sharp enough to see from the bridge — green water inside, that blue-green offshore water outside the line. Yellowfin have been sitting right on that seam, mixed with a fair number of small bigeye that are showing up on the troll during daylight, which isn't typical — usually you need to soak baits after dark for the bigeye. We ran a standard spread for the yellowfin bite: Green Machines and small Islander lures in the shotgun and long riggers, ballyhoo behind Sea Witches in the shorts, running 6 to 7 knots. When the yellowfin got finicky mid-morning, dropping the speed half a knot and switching the flat lines to naked ballyhoo turned it back on.
+
+Wahoo have been mixed into that same water, and we took two on high-speed gear — cedar plugs and Braid Marauders in black-and-purple, run at 14 to 16 knots off a separate set of rods rigged with wind-on leaders and heavy mono top shots. Wahoo don't show every trip out there, but when the water's this stacked with bait, it's worth burning fifteen minutes running the high-speed pattern through the canyon before you settle into the tuna troll.
+
+Mahi have been scattered but not absent — we picked off a half dozen fish, 4 to 10 pounds, around a weed line that had built up on the eastern edge of the canyon, holding sargassum and enough small baitfish that the mahi were stacked underneath it. Small skirted ballyhoo and bare hooks with a chunk of butterfish did the work once we slowed the boat and pitched baits instead of trolling through.
+
+White marlin showed twice on the temp break in the afternoon, both times on the long rigger ballyhoo, both times a missed bite rather than a hookup — that fish is notoriously light on the take, and if you're not watching the line the whole time you'll never know he was there. We didn't convert either one, which is honest reporting: the marlin are around, but they're not stacked up thick enough yet that you can count on one.
+
+Hydrographer and Oceanographer have been quieter by comparison — a few boats working Hydrographer reported a slower pick, mostly smaller yellowfin and no bigeye activity to speak of, and Oceanographer is enough of a run from any of our home ports that nobody's bothered making the trip this week to check it firsthand. That's the eastern canyon math — you commit fuel and a full day to find out, and right now the intel says Atlantis is holding the better water.
+
+Night fishing for bigeye at Atlantis has been a mixed bag. We drifted baits over the edge two nights this week — squid strips and butterfish chunks fished on balloons at various depths down to 150 feet — and connected once, lost the fish I mentioned up top, and had one more bite we never converted. That's not a bad ratio for bigeye, which are never an easy fish, but it's not a guaranteed box either.
+
+Looking ahead, the moon's building toward new, which typically strengthens current on the canyon edges and can either concentrate bait right on the break or scatter it depending on which way the eddy moves. If that warm water holds its position through the weekend, I'd keep running Atlantis — the yellowfin bite there has been the most consistent thing going, and the wahoo and mahi are a bonus on top of it. If the eddy slides east like these things sometimes do, Veatch becomes the shorter, smarter run out of Block Island or Point Judith. Either way, check the fuel tanks twice before you leave the dock — out here, that's the only guarantee you get.
+
+---
+
+Tags: yellowfin-tuna, bluefin-tuna, bigeye-tuna, wahoo, mahi-mahi, white-marlin
