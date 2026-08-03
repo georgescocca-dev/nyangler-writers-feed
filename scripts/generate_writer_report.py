@@ -315,6 +315,18 @@ def load_hooper_briefing(
         return {}
 
     out: dict = {"briefing_date": data.get("date") or files[0].stem.replace("hooper_", "")}
+    structure_evidence = data.get("offshore_structure_evidence", [])
+    if isinstance(structure_evidence, list):
+        route_index = {
+            str(item.get("location_name", "")).strip(): str(item.get("report_zone", ""))
+            for item in structure_evidence
+            if isinstance(item, dict)
+            and str(item.get("location_name", "")).strip()
+            and str(item.get("report_zone", "")).strip()
+        }
+        if route_index:
+            # Kept out of the writer prompt; used only by deterministic acceptance.
+            out["offshore_structure_route_index"] = route_index
     zone_analysis = data.get("zone_analysis", {}) or {}
     if isinstance(zone_analysis, dict) and zone_slug in zone_analysis:
         out["zone_analysis"] = zone_analysis[zone_slug]
@@ -335,7 +347,6 @@ def load_hooper_briefing(
                     zone_evidence[name] = matching_records
             if zone_evidence:
                 out["named_lead_evidence"] = zone_evidence
-        structure_evidence = data.get("offshore_structure_evidence", [])
         if isinstance(structure_evidence, list):
             matching_structures = [
                 item
@@ -643,7 +654,8 @@ OUTPUT FORMAT — return ONLY valid JSON with this exact schema:
   "subhead": "string, one sentence, max 160 chars. The hook that makes you read the whole thing.",
   "dateline": "string, e.g. 'CAPTREE, NY — June 12'",
   "body_markdown": "string. 800-1100 words. Opens in YOUR voice per your voice profile, then flows into catches and tactics. Weave conditions in where relevant. NO H2 or H3 headings, NO bullet lists, NO blockquotes. Just your voice in paragraphs.",
-  "tags": ["3–6 lowercase hyphen-tags: species, technique, location focused. e.g. fluke, bucktail, captree-drift, outgoing-tide, bunker"]
+  "tags": ["3–6 lowercase hyphen-tags: species, technique, location focused. e.g. fluke, bucktail, captree-drift, outgoing-tide, bunker"],
+  "offshore_locations_used": ["Every named offshore wreck, lump, ledge, bank, shoal, hole, tower, canyon, or local spot mentioned anywhere in this report. Use exact supplied wording. Empty array when none."]
 }
 """
 
@@ -655,6 +667,7 @@ OFFSHORE COVERAGE CONTRACT:
 - A supplied, verified nearby structure is part of your offshore beat even if it is not listed in your static landmarks. This exception applies only to evidence-backed offshore signals routed by Hooper; it never authorizes an invented place or catch.
 - Priority New York and New York Bight leads are Virginia Wreck, San Diego, Bacardi, the Mud Hole, Texas Tower, and the Tails. Use one only when supplied evidence verifies the structure name or alias, position, report date, tuna species, and source.
 - Never invent coordinates, catches, or a tuna report to fill the expanded scope. If the evidence has no qualifying signal, leave it out.
+- List every named offshore place used in `offshore_locations_used`. Omitting the list or a used place fails publication; listing a place without routed source evidence also fails publication.
 """
 
 OFFSHORE_NAMED_LEADS = (
@@ -1366,6 +1379,33 @@ def report_quality_errors(
             errors.append(f"unsupported offshore structure: {name}")
         elif writer_id and item.get("report_zone") != writer_id:
             errors.append(f"wrong-zone offshore structure: {name}")
+    route_index = (hooper or {}).get("offshore_structure_route_index", {})
+    if not isinstance(route_index, dict):
+        route_index = {}
+    route_index_folded = {str(name).casefold(): (str(name), zone) for name, zone in route_index.items()}
+    disclosed = report.get("offshore_locations_used")
+    if (writer or {}).get("domain") == "offshore" and not isinstance(disclosed, list):
+        errors.append("missing offshore location disclosure")
+        disclosed = []
+    elif not isinstance(disclosed, list):
+        disclosed = []
+    disclosed_folded = {str(name).strip().casefold() for name in disclosed if str(name).strip()}
+    for name in disclosed:
+        clean_name = str(name).strip()
+        if not clean_name:
+            continue
+        route = route_index_folded.get(clean_name.casefold())
+        if not route:
+            errors.append(f"unsupported offshore structure: {clean_name}")
+        elif writer_id and route[1] != writer_id:
+            errors.append(f"wrong-zone offshore structure: {route[0]}")
+    for folded_name, (name, zone) in route_index_folded.items():
+        if folded_name in full_text and folded_name not in disclosed_folded:
+            errors.append(f"undisclosed offshore structure: {name}")
+        if folded_name in full_text and writer_id and zone != writer_id:
+            marker = f"wrong-zone offshore structure: {name}"
+            if marker not in errors:
+                errors.append(marker)
     return errors
 
 

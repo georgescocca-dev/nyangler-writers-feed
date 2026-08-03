@@ -119,6 +119,7 @@ class OffshoreScopeTests(unittest.TestCase):
             "subhead": "A source-backed report is still outside this writer's assigned zone.",
             "body_markdown": "Bacardi bluefin tuna report. " + "x" * 1000,
             "tags": ["bluefin-tuna", "bacardi", "massachusetts-offshore"],
+            "offshore_locations_used": ["Bacardi"],
         }
         errors = MODULE.report_quality_errors(
             report,
@@ -178,12 +179,17 @@ class OffshoreScopeTests(unittest.TestCase):
                 "Coxes Ledge",
             )
             self.assertNotIn("offshore_structure_evidence", ma)
+            self.assertEqual(
+                ma["offshore_structure_route_index"]["Coxes Ledge"],
+                "point-judith-block-island",
+            )
 
         report = {
             "headline": "Bluefin show on Coxes Ledge",
             "subhead": "A dated Rhode Island report puts tuna on local structure.",
             "body_markdown": "Coxes Ledge bluefin tuna report. " + "x" * 1000,
             "tags": ["bluefin-tuna", "coxes-ledge", "rhode-island-offshore"],
+            "offshore_locations_used": ["Coxes Ledge"],
         }
         evidence = {
             "offshore_structure_evidence": [
@@ -211,6 +217,36 @@ class OffshoreScopeTests(unittest.TestCase):
                 writer={"id": "ma-offshore-stellwagen", "domain": "offshore"},
             ),
         )
+
+    def test_wrong_writer_and_unsupported_local_spot_cannot_bypass_publication_gate(self):
+        report = {
+            "headline": "Bluefin Push Across the Local Ledge",
+            "subhead": "A current offshore signal puts tuna on a named piece of structure.",
+            "body_markdown": "Coxes Ledge bluefin tuna report. " + "x" * 1000,
+            "tags": ["bluefin-tuna", "offshore", "local-structure"],
+            "offshore_locations_used": ["Coxes Ledge"],
+        }
+        route_only = {"offshore_structure_route_index": {"Coxes Ledge": "point-judith-block-island"}}
+        errors = MODULE.report_quality_errors(
+            report, hooper=route_only,
+            writer={"id": "ma-offshore-stellwagen", "domain": "offshore"},
+        )
+        self.assertIn("wrong-zone offshore structure: Coxes Ledge", errors)
+
+        report["body_markdown"] = "Invented Bank bluefin tuna report. " + "x" * 1000
+        report["offshore_locations_used"] = ["Invented Bank"]
+        errors = MODULE.report_quality_errors(
+            report, hooper=route_only,
+            writer={"id": "ma-offshore-stellwagen", "domain": "offshore"},
+        )
+        self.assertIn("unsupported offshore structure: Invented Bank", errors)
+
+        report.pop("offshore_locations_used")
+        errors = MODULE.report_quality_errors(
+            report, hooper=route_only,
+            writer={"id": "ma-offshore-stellwagen", "domain": "offshore"},
+        )
+        self.assertIn("missing offshore location disclosure", errors)
 
 
 if __name__ == "__main__":
