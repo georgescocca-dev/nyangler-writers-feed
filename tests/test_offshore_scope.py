@@ -137,6 +137,81 @@ class OffshoreScopeTests(unittest.TestCase):
         )
         self.assertIn("wrong-zone named lead: Bacardi", errors)
 
+    def test_unlisted_coastwide_spot_reaches_only_its_closest_writer(self):
+        with tempfile.TemporaryDirectory() as temp:
+            briefing = Path(temp) / "hooper_2026-08-03.json"
+            briefing.write_text(
+                json.dumps(
+                    {
+                        "date": "2026-08-03",
+                        "zone_analysis": {
+                            "point-judith-block-island": "Bluefin tuna were taken on Coxes Ledge.",
+                            "ma-offshore-stellwagen": "Different regional read.",
+                        },
+                        "offshore_structure_evidence": [
+                            {
+                                "location_name": "Coxes Ledge",
+                                "structure_type": "ledge",
+                                "report_zone": "point-judith-block-island",
+                                "species": "bluefin tuna",
+                                "date": "2026-08-03",
+                                "source": "Rhode Island captain report",
+                                "source_record_id": "ri-source-1",
+                            }
+                        ],
+                    }
+                )
+            )
+            with mock.patch.object(MODULE, "_hooper_files", return_value=[briefing]):
+                ri = MODULE.load_hooper_briefing(
+                    "point-judith-block-island",
+                    ["bluefin tuna"],
+                    include_species_analysis=False,
+                )
+                ma = MODULE.load_hooper_briefing(
+                    "ma-offshore-stellwagen",
+                    ["bluefin tuna"],
+                    include_species_analysis=False,
+                )
+            self.assertEqual(
+                ri["offshore_structure_evidence"][0]["location_name"],
+                "Coxes Ledge",
+            )
+            self.assertNotIn("offshore_structure_evidence", ma)
+
+        report = {
+            "headline": "Bluefin show on Coxes Ledge",
+            "subhead": "A dated Rhode Island report puts tuna on local structure.",
+            "body_markdown": "Coxes Ledge bluefin tuna report. " + "x" * 1000,
+            "tags": ["bluefin-tuna", "coxes-ledge", "rhode-island-offshore"],
+        }
+        evidence = {
+            "offshore_structure_evidence": [
+                {
+                    "location_name": "Coxes Ledge",
+                    "report_zone": "point-judith-block-island",
+                    "date": "2026-08-03",
+                    "source": "Rhode Island captain report",
+                }
+            ]
+        }
+        self.assertNotIn(
+            "wrong-zone offshore structure: Coxes Ledge",
+            MODULE.report_quality_errors(
+                report,
+                hooper=evidence,
+                writer={"id": "point-judith-block-island", "domain": "offshore"},
+            ),
+        )
+        self.assertIn(
+            "wrong-zone offshore structure: Coxes Ledge",
+            MODULE.report_quality_errors(
+                report,
+                hooper=evidence,
+                writer={"id": "ma-offshore-stellwagen", "domain": "offshore"},
+            ),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

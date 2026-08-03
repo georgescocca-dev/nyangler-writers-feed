@@ -335,6 +335,17 @@ def load_hooper_briefing(
                     zone_evidence[name] = matching_records
             if zone_evidence:
                 out["named_lead_evidence"] = zone_evidence
+        structure_evidence = data.get("offshore_structure_evidence", [])
+        if isinstance(structure_evidence, list):
+            matching_structures = [
+                item
+                for item in structure_evidence
+                if isinstance(item, dict)
+                and item.get("report_zone") == zone_slug
+                and str(item.get("location_name", "")).lower() in zone_text
+            ]
+            if matching_structures:
+                out["offshore_structure_evidence"] = matching_structures
 
     if include_species_analysis:
         beat_norm = {_norm_species(s) for s in beat_species}
@@ -930,6 +941,8 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         hooper_context["predictive_outlook"] = hooper["predictive_outlook"]
     if hooper.get("named_lead_evidence"):
         hooper_context["named_lead_evidence"] = hooper["named_lead_evidence"]
+    if hooper.get("offshore_structure_evidence"):
+        hooper_context["offshore_structure_evidence"] = hooper["offshore_structure_evidence"]
 
     # "We called it" candidates — prior Hooper predictions about this beat.
     called_it = called_it or []
@@ -1338,6 +1351,21 @@ def report_quality_errors(
             for item in records
         ):
             errors.append(f"wrong-zone named lead: {name}")
+    structure_evidence = (hooper or {}).get("offshore_structure_evidence", [])
+    if not isinstance(structure_evidence, list):
+        structure_evidence = []
+    writer_id = (writer or {}).get("id")
+    for item in structure_evidence:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("location_name", "")).strip()
+        if not name or name.lower() not in full_text:
+            continue
+        has_source_evidence = bool(item.get("date") and item.get("source"))
+        if not has_source_evidence:
+            errors.append(f"unsupported offshore structure: {name}")
+        elif writer_id and item.get("report_zone") != writer_id:
+            errors.append(f"wrong-zone offshore structure: {name}")
     return errors
 
 
