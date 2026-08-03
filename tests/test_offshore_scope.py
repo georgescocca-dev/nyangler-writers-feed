@@ -44,6 +44,16 @@ class OffshoreScopeTests(unittest.TestCase):
         )
         self.assertIn("wreck", payload["offshore_coverage_scope"]["structure_types"])
 
+    def test_offshore_writer_folds_inside_tuna_into_closest_area_report(self):
+        system, _ = MODULE.build_prompt(writer("offshore"), [], {}, [])
+        self.assertIn("closest applicable existing area report", system)
+        self.assertIn("tuna are inside at the Virginia Wreck", system)
+        self.assertIn("San Diego", system)
+        self.assertIn("Mud Hole", system)
+        self.assertIn("Texas Tower", system)
+        self.assertIn("the Tails", system)
+        self.assertNotIn("Montour Canyon", system)
+
     def test_inshore_writer_does_not_receive_offshore_contract(self):
         system, user = MODULE.build_prompt(writer("inshore"), [], {}, [])
         payload = json.loads(user)
