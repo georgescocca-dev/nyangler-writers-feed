@@ -52,6 +52,9 @@ class OffshoreScopeTests(unittest.TestCase):
         self.assertIn("Mud Hole", system)
         self.assertIn("Texas Tower", system)
         self.assertIn("the Tails", system)
+        self.assertIn(
+            "verified nearby structure is part of your offshore beat", system
+        )
         self.assertNotIn("Montour Canyon", system)
 
     def test_inshore_writer_does_not_receive_offshore_contract(self):

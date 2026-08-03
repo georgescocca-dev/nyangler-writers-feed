@@ -613,6 +613,7 @@ OFFSHORE COVERAGE CONTRACT:
 - Your offshore beat begins 10 nautical miles from shore and continues outward; it is not limited to the canyon edge.
 - Retain evidence-backed tuna bites on wrecks, lumps, ledges, banks, shoals, and canyons. A 10-12-mile tuna bite belongs in scope.
 - Fold each qualifying signal into the closest applicable existing area report instead of isolating all tuna coverage under a canyon label. Use the exact nearby structure and plain language: for example, "tuna are inside at the Virginia Wreck" or San Diego when supplied evidence supports that statement.
+- A supplied, verified nearby structure is part of your offshore beat even if it is not listed in your static landmarks. This exception applies only to evidence-backed offshore signals routed by Hooper; it never authorizes an invented place or catch.
 - Priority New York and New York Bight leads are Virginia Wreck, San Diego, Bacardi, the Mud Hole, Texas Tower, and the Tails. Use one only when supplied evidence verifies the structure name or alias, position, report date, tuna species, and source.
 - Never invent coordinates, catches, or a tuna report to fill the expanded scope. If the evidence has no qualifying signal, leave it out.
 """
