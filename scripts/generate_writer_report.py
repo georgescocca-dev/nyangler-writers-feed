@@ -321,11 +321,18 @@ def load_hooper_briefing(
         evidence = data.get("named_lead_evidence", {})
         zone_text = str(zone_analysis[zone_slug]).lower()
         if isinstance(evidence, dict):
-            zone_evidence = {
-                name: records
-                for name, records in evidence.items()
-                if str(name).lower() in zone_text and isinstance(records, list)
-            }
+            zone_evidence = {}
+            for name, records in evidence.items():
+                if str(name).lower() not in zone_text or not isinstance(records, list):
+                    continue
+                matching_records = [
+                    record
+                    for record in records
+                    if isinstance(record, dict)
+                    and record.get("preferred_report_zone") == zone_slug
+                ]
+                if matching_records:
+                    zone_evidence[name] = matching_records
             if zone_evidence:
                 out["named_lead_evidence"] = zone_evidence
 
@@ -1285,7 +1292,11 @@ def scrub_report(report: dict, writer: dict | None = None) -> dict:
     return report
 
 
-def report_quality_errors(report: dict, hooper: dict | None = None) -> list[str]:
+def report_quality_errors(
+    report: dict,
+    hooper: dict | None = None,
+    writer: dict | None = None,
+) -> list[str]:
     """Reject structurally valid JSON that is not publication-ready."""
     errors: list[str] = []
     headline = report.get("headline")
@@ -1310,14 +1321,23 @@ def report_quality_errors(report: dict, hooper: dict | None = None) -> list[str]
         if name.lower() not in full_text:
             continue
         records = evidence.get(name, [])
-        if not (
+        has_source_evidence = (
             isinstance(records, list)
             and any(
                 isinstance(item, dict) and item.get("date") and item.get("source")
                 for item in records
             )
-        ):
+        )
+        if not has_source_evidence:
             errors.append(f"unsupported named lead: {name}")
+            continue
+        writer_id = (writer or {}).get("id")
+        if writer_id and not any(
+            isinstance(item, dict)
+            and item.get("preferred_report_zone") == writer_id
+            for item in records
+        ):
+            errors.append(f"wrong-zone named lead: {name}")
     return errors
 
 
@@ -1587,7 +1607,11 @@ def main() -> int:
         except json.JSONDecodeError as e:
             print(f"[error] model returned non-JSON (attempt {json_attempt+1}/3): {e}\n---\n{raw[:400]}", file=sys.stderr)
         else:
-            quality_errors = report_quality_errors(candidate, hooper=hooper)
+            quality_errors = report_quality_errors(
+                candidate,
+                hooper=hooper,
+                writer=writer,
+            )
             if not quality_errors:
                 report = candidate
                 break

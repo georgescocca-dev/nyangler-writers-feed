@@ -113,6 +113,30 @@ class OffshoreScopeTests(unittest.TestCase):
         self.assertIn("unsupported named lead: Virginia Wreck", unsupported)
         self.assertNotIn("unsupported named lead: Virginia Wreck", supported)
 
+    def test_wrong_zone_named_lead_evidence_is_not_accepted(self):
+        report = {
+            "headline": "Bacardi tuna signal reaches Massachusetts waters",
+            "subhead": "A source-backed report is still outside this writer's assigned zone.",
+            "body_markdown": "Bacardi bluefin tuna report. " + "x" * 1000,
+            "tags": ["bluefin-tuna", "bacardi", "massachusetts-offshore"],
+        }
+        errors = MODULE.report_quality_errors(
+            report,
+            hooper={
+                "named_lead_evidence": {
+                    "Bacardi": [
+                        {
+                            "date": "2026-08-03",
+                            "source": "captain report",
+                            "preferred_report_zone": "hudson-canyon",
+                        }
+                    ]
+                }
+            },
+            writer={"id": "ma-offshore-stellwagen", "domain": "offshore"},
+        )
+        self.assertIn("wrong-zone named lead: Bacardi", errors)
+
 
 if __name__ == "__main__":
     unittest.main()
