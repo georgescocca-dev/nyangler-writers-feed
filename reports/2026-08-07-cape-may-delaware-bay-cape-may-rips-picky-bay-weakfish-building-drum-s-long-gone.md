@@ -3,8 +3,6 @@
 
 **CAPE MAY, NJ — August 7** — _by Capt. Kate Brennan, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Rips: fishable, not fast. Hereford Inlet: bluefish on the move. Delaware Bay: weakfish building like it should. Drum: done, don't bother. That's the report card for the first week of August, and there's no dressing it up beyond that.
 
 The Cape May Rips in high summer are what they are — thin current on the small tides, warm surface water stacked on top of cooler bottom water, and stripers that know exactly where the bait is concentrated and won't chase much outside of it. Boats working the ledges off Cape May Point in 30 to 40 feet are finding keepers mixed with a lot of short fish on the last two hours of the ebb sliding into the top of the flood — that's when the rip lines actually stand up enough to hold bait against the structure. Bucktails in the 1 to 1.5-ounce range, tipped with a squid strip, dragged slow along bottom through the seams, are outproducing anything worked fast or up in the water column. If you're marking bait high and the current's weak, don't waste time up top — the fish are down on the structure waiting for it to funnel to them. This time of year the rips reward patience over hardware. Run three or four drifts through a piece before you decide it's dead.

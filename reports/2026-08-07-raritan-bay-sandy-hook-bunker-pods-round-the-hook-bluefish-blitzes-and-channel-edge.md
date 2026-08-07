@@ -3,8 +3,6 @@
 
 **PERTH AMBOY, NJ — August 7** — _by Marisol Duarte, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 If I'm putting a boat in the water this week, I'm running to Flynn's Knoll first thing and working the last two hours of the incoming, because that's where the bunker have been stacking and that's where the blitzes are breaking. Early August in this bay isn't a striper month — anybody telling you different is selling you something — but it's a bluefish month, and right now the bluefish are exactly where they're supposed to be: parked under bait.
 
 We flagged this pattern two weeks back — said bunker schools pushing north out of the Belmar blitz zone would round Sandy Hook and pull predators in behind them within a day or two of entering the bay. That's precisely what's been playing out. The pods have worked their way up past the Hook and into the bay proper, holding thick off Keyport and along the edge of Flynn's Knoll, and the bluefish have followed them in exactly the way that pattern predicted. What surprised me a little is how quiet the striper end of that equation has stayed — the blues showed up hard, the bass mostly didn't. That's the story of this bay in the heat of summer: warm surface water pushes the linesiders down and out, but bluefish don't care one bit, and bunker-fed blitzes are still blitzes.

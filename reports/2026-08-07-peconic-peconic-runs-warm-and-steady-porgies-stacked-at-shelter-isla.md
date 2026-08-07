@@ -3,8 +3,6 @@
 
 **SHELTER ISLAND, NY — August 7** — _by Bill Hubbard, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 The Peconic runs its own clock, and right now that clock says summer in full stride — shallow flats pushing well past 75 degrees by afternoon, the kind of warmth that makes porgies fat and lazy and turns fluke into channel-dwellers that won't budge off structure until the tide forces the issue. This is the flip side of the bay's early-spring advantage. Back in April and May, the Peconic warms faster than the Sound and the bass show up first. By August, that same shallow structure that gave us an early start is running hot enough to push the bigger predators toward deeper water and moving current, while porgies, fluke, and weakfish — species that don't mind the heat — take center stage.
 
 Shelter Island's rock piles and reef structure remain the most dependable porgy water in the region, and nothing about that has changed this week. The stretches off Cedar Island, the drop-offs along the north side, and the mixed bottom near Coecles Harbor are holding good numbers of porgies in the 15 to 25 foot range. High-low rigs baited with sandworms or clam strips, fished on the last of the incoming into the top of the outgoing, continue to produce the most consistent action — that brief slack window when the current eases lets the rig sit still long enough for porgies to commit instead of just picking at bait. Size 6 to 8 hooks are outproducing bigger iron; these fish are feeding but not aggressive, and a smaller profile gets more hookups per soak.

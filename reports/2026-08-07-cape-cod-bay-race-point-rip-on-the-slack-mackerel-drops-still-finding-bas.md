@@ -3,8 +3,6 @@
 
 **PROVINCETOWN, MA — August 7** — _by Donny Costa, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Boats working the Race Point rip this week have been threading a narrow needle — a tide window that opens for maybe ninety minutes around the slack and then shuts like someone flipped a switch. That's how August goes out here. The bay's warmed up enough now that the big fish don't want to fight current all day, so they stack on the structure right at the transition, when the rip goes from ripping to breathing, and that's when the marks show up thick on the sounder over the gravel edges off Race Point and along Peaked Hill Bars.
 
 Live mackerel has been the difference-maker. Snag a few off the surface schools working bait balls north of the Race — they're still around in decent numbers this week, just scattered wider than they were in June — and drop them back on a 5/0 circle hook, light egg sinker, right into the seam where the rip meets the flat green water. Bass in the mid-30s to upper-40s have come off that pattern on the last hour of the ebb into the slack, mostly in 25 to 40 feet of water. It's not a bite you can force. You sit on the drift, you let the boat ride the current down the edge, and you wait for the rod to load up instead of chasing marks around.

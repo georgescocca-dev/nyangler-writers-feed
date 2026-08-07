@@ -3,8 +3,6 @@
 
 **CAPTREE, NY — August 7** — _by Mariana "Mari" Reyes, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Ran into a guy at the Captree bait shop Tuesday morning loading a cooler he clearly hadn't filled yet, grumbling about getting bounced around off Democrat Point the evening before. Said he never even got a bucktail to the bottom clean — the swell kept walking his boat off the drift. I told him what I've been telling everybody this week: leave the ocean alone for a few days and go fish the bay like your father did. He didn't love hearing it, but he went home and came back Wednesday with better stories.
 
 Here's the honest read. The Bight buoy off the coast is showing better than three and a half feet of swell on a short six-second period, which is a sloppy, disorganized sea — not the kind of water that lets you work a bucktail or a plug with any confidence off the outer bars or the Robert Moses jetties. Surface temp out there is sitting near 76, which on paper sounds great for albies and bonito showing up on bait balls — and we flagged that watch last week when the water first pushed past 70. But nothing's confirmed it yet. No bait balls reported, no surface action off the outer bars. Keep an eye on it, because that temperature trend hasn't reversed, but I wouldn't plan a trip around it just yet.

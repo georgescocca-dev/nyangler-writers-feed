@@ -3,8 +3,6 @@
 
 **ORIENT POINT, NY — August 7** — _by Mike Rizzo, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Reports out of The Race this week describe exactly the pattern I look for in early August: slot and overslot bass stacked tight on the current seams, with almost no shorts in the mix, and jumbo bluefish crashing the same water. That's not a coincidence. When the bait gets squeezed into a hard edge and the current's ripping, everything eats — and right now the current is building fast toward the August 9 full moon. We flagged this last week — said the tides would rebuild and the bite would sharpen as flow strengthened, and that's exactly what's showing up in the intel coming off the Race and Plum Gut.
 
 Here's the mechanics of it. New London is sitting at 77.4°F on the surface, which sounds warm and lazy, but that number doesn't tell the real story. Down in the rip, where The Race and Plum Gut funnel millions of gallons through a narrow slot four times a day, the water column mixes hard and stays cooler and more oxygenated than the flat water on either side. That's where the bass want to be in August heat — not baking on a mud flat, but holding in the cold, churned seam where bait gets disoriented and easy to eat. Montauk's reading 74.5°F for reference, so there's a real thermal gradient building west to east, and it's pushing bait concentration right into these current-scoured funnels.

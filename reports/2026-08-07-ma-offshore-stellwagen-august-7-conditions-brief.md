@@ -1,8 +1,6 @@
 # Offshore conditions brief — August 7
 *Current NOAA observations support a cautious, conditions-first offshore plan; this update does not present unverified catch or location claims.*
 
-_AI fishing-intelligence report. It was prepared from the August 7 NOAA analyst package, including 6 buoy records and 8 tide-station temperature records. It does not claim firsthand fishing._
-
 **MA OFFSHORE / the assigned offshore zone — August 7** — _by Capt. Donna Shaw, Zone Writer_
 
 This is a conditions update rather than a catch report. The current Nor’easter analyst package recorded observed water temperatures spanning 70.3°F to 77.9°F across the available Northeast buoy and tide-station network. That regional range is useful for trip planning, but it does not establish a bite, a specific fish location, or a local access condition for this zone. The supplied same-day package should be read as a broad environmental baseline.

@@ -3,8 +3,6 @@
 
 **OLD SAYBROOK, CT — August 7** — _by Walt Jensen, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 The shad are a memory now — gone back to sea in June, the way they always do, and the river has settled into that heavy, green-gold stillness that marks the dog days. Marsh grass on Great Island has gone from spring's tender shoots to a thick, tall stand, and if you've walked the causeway lately you know the greenheads have hatched out in force — that's as reliable a calendar marker on this river as the shad bloom itself. High summer on the lower Connecticut means one thing above the Baldwin Bridge and something else entirely below Saybrook Point, and this week that split has never been more obvious.
 
 Upriver, from Essex on up, the water has gone slow and warm — too warm to hold striped bass with any conviction, and the coves are handing the show over to white perch. That's the honest read. If you want a bend in the rod without burning gas or nerves, the perch fishing in the quieter guts off Essex and around the mouth of the Lieutenant River in Old Lyme has been dependable on the tail of the outgoing tide, small grass shrimp or bloodworm bits fished on a size 6 hook under a split shot, tight to the pilings and the shaded banks where the water stacks a degree or two cooler. Nothing glamorous, but it's honest action on a river that's otherwise gone quiet in the middle reaches.

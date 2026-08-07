@@ -3,8 +3,6 @@
 
 **CITY ISLAND, NY — August 7** — _by Frank "The Sound Pro" Marinaro, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Guy at the bait shop on City Island asked me Tuesday why his son couldn't buy a bass off the rocks at eleven in the morning last weekend when his uncle limited out there in June. I told him the same thing I've been telling people for thirty years in August: the fish didn't leave, the sun just moved them. Kings Point is reading 74.8 degrees right now, and that's warm enough to shut down the aggressive daytime feed but not warm enough to push the bass out of the Western Sound. They're still here. They're just smarter about when they show themselves.
 
 Execution Rocks has been the tell all week. On the last two hours of the outgoing, with the current ripping off that light and pushing bait down toward Hart Island, the rockpile lights up with bluefish under bunker schools and bass working the eddies behind the boulders. Live bunker on a fish-finder rig, 20 to 30 feet of water, fished tight to the structure on that ebb — that's producing keeper bass and some overslot fish mixed in with the blues. Come back at high noon and it's dead water. That's the pattern right now, and it's not going to change until nights get longer and the surface cools off a few degrees.

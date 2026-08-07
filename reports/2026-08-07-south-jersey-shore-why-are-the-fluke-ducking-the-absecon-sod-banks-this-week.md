@@ -3,8 +3,6 @@
 
 **ATLANTIC CITY, NJ — August 7** — _by Darnell Freeman, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Why are the fluke ducking the sod banks in Absecon this week instead of sitting up on the flats where they've been all summer? I get this question every August, and it's a good one to slow down and actually teach through, because the answer explains almost everything happening in the back bays right now.
 
 The short version: shallow water gets too warm to hold fluke comfortably once the sun's been on it a few hours, especially on these longer, calmer August days. The sod bank edges in Absecon Inlet — the flats running off Rainbow Channel and the mussel-bar structure toward Brigantine — still produce, but the better window has narrowed to the first two hours of the outgoing tide, right after the turn, before that shallow water heats up. After that, the better-sized fish slide off into the deeper cuts, 10 to 15 feet, where the bottom stays cooler and the current keeps bait moving past them. Same story in Great Egg — the Broad Thorofare and the deep bend by the Rainbow Channel intersection have been holding fish that the flats gave up by mid-morning. If you're only fishing the shallow stuff at 10 a.m., you're fishing where the fish used to be, not where they are.

@@ -3,8 +3,6 @@
 
 **RYE HARBOR, NH — August 7** — _by Cole Robinson, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 People hear thirteen miles of coastline and figure there's nothing here worth the trailer time. I've never fished it that way. Thirteen miles with the Isles of Shoals sitting six miles off the beach, a river mouth that moves like a fire hose, and groundfish structure that most of Massachusetts would kill for is plenty of water if you know which six feet of it to be sitting on at the right tide. Right now, in the first week of August, that means the Piscataqua more than the Shoals, and it means fishing early or not at all.
 
 The groundfish bite out at the Isles has gone the way it always goes this time of year — tighter and deeper. Cod and haddock aren't gone from the structure around White Island and Appledore, but the fish that were sitting up on the broken ground in fifty and sixty feet in June have slid down into the colder water on the back side, closer to seventy and eighty feet, and they're not as eager to chase a jig as they were in the spring. Diamond jigs and teasers still work, but the retrieve needs to slow down — short lifts off bottom, let it fall on a controlled drop, and don't be in a hurry to reel through the water column. Haddock have been the more consistent draw of the two, showing on clam bellies and small jigs fished right on the bottom on the slower half of the tide, when the current isn't ripping the boat off the mark. Cod are there but you're earning every one — this isn't a limit trip, it's a few solid fish for the patient boat that stays on top of the structure instead of drifting off it after two casts.

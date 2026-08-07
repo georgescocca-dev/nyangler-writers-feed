@@ -3,8 +3,6 @@
 
 **JAMESTOWN, RI — August 7** — _by Billy Tanaka, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 16 supplied analysis inputs; it does not claim firsthand fishing._
-
 The bait tells you where to start this time of year, and right now it's peanut bunker and silversides getting squeezed into the pockets between the boulders — Beavertail, the Fort Wetherill ledges, the rocks off Sakonnet Point, all the way down to the breakwater at Napatree. When you see that nervous water balled up tight against a ledge with nowhere to run, something's usually pushing it, and this week that something has been bluefish, not always big, but plenty aggressive, cutting through those pods and leaving slicks of oil on the surface.
 
 We flagged this pattern a couple weeks back — said that wherever bunker concentrate, expect violent topwater feeds as long as the bait stays thick, and that's exactly what's showing up along this stretch now. The blues aren't holding in one spot long. They'll blow up a pocket off Second Beach for twenty minutes, go quiet, then show up working the same bait against the rocks off Sakonnet Point an hour later. Poppers and metal — Deadly Dicks, Kastmasters, anything that throws a long cast and gets down through the wash — have been the move when you find them up. If they're deep on the bait, a weighted swimming plug or a bucktail with a strip of squid fished slow through the pocket will pick up fish the surface guys miss.

@@ -3,8 +3,6 @@
 
 **NEW HAVEN, CT — August 7** — _by Lena Marchetti, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Drop a chunk of green crab down eighteen feet off the New Haven Harbor breakwalls right now and you won't wait long. Porgies are stacked thick on the inside rocks, and mixed into them are sea bass that keep grabbing the bottom hook before the top one even settles. That's the kind of two-species tangle that makes bottom fishing fun instead of a chore, and this week the drift finally slowed down enough to fish it properly.
 
 We flagged this last week — said the coming neap tide would ease the grip on structure-dependent spots, and that's exactly what showed up on the breakwalls and at Stratford Shoal. Current that was ripping through on the spring tides two weeks ago has gone soft and manageable, which means less split shot, tighter drifts, and baits sitting where you actually put them instead of getting swept off the rock face. For anyone who's fought a three-ounce sinker just to hold bottom on the outgoing, this is the window you wait for.

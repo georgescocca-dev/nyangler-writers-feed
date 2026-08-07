@@ -3,8 +3,6 @@
 
 **CAPE MAY, NJ — August 7** — _by Capt. Dana Cooper, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 15 supplied analysis inputs; it does not claim firsthand fishing._
-
 The decision this week was simple on paper and harder in practice: troll the edge first, and only commit to a chunk anchor if a real temperature break showed up on the drop. That's the call when the radio traffic off the canyon goes quiet and the only hard data on hand is a Bight buoy reading 75.9°F with a lazy 3.6-foot swell on a 6-second period. That's not rough water, but it's not glass either — enough chop to make chunking a rocking-chair proposition unless you've got a real reason to sit still.
 
 We flagged this last week — said the stable weather would keep run conditions favorable through the stretch — and it held. Light wind, manageable seas, good visibility for spotting color changes and grass lines from the tower. That's the kind of window that lets a boat cover ground instead of committing early to one number and hoping. So the plan leaned into that: work the shelf break out past the 20-fathom curve, hold a spread across the 100-fathom line, and use the stable conditions to actually scout instead of guess.

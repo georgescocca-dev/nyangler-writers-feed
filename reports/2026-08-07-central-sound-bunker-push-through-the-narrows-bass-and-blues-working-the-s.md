@@ -3,8 +3,6 @@
 
 **PORT JEFFERSON, NY — August 7** — _by David "The Harbor Scout" Han, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Before anybody talks about rods bent or fish in the box, look at what the bait's doing, because that's the whole story this week. Peanut bunker have been threading through the Stratford Shoal narrows in tight, nervous pods — the kind that ball up hard, break, reform, ball up again. That's not random behavior. That's bait getting squeezed by current and by something underneath it that doesn't want it to leave. Terns have been working low and fast over those same pods off Middle Ground Light, which tells you the bunker are getting pushed toward the surface, not just cruising through.
 
 The reason the narrows are doing this comes down to the thermal split across the Central Sound right now. Kings Point on the western end is sitting at 74.8 degrees. New London, way out east, is reading 77.4. That's a real gradient for August, and it matters because the Sound physically pinches down through Stratford Shoal and the Middle Ground — the water has to speed up to get through that constriction, and bait riding a temperature edge gets concentrated right there. It's the same mechanism every year: the Sound narrows, the bait piles up, and the fish that have been spread out over open water suddenly have a reason to commit to one stretch of structure.

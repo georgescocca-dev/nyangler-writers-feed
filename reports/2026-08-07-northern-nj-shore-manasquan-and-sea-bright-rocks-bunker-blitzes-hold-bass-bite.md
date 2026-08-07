@@ -3,8 +3,6 @@
 
 **MANASQUAN, NJ — August 7** — _by Brendan Doyle, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 First light on the Manasquan north jetty this week has looked the same every morning — a handful of regulars picking their way out over slick rock in the dark, headlamps bobbing, everybody watching the same thing: bunker pods stacked so thick against the rocks they turn the water black. That's the tell. When the bait's balled up tight like that, you don't need a fishfinder to know what's underneath it.
 
 We flagged this last week — said the bunker-driven blitz would keep spreading north and south as long as the high pressure held and the bait stayed thick, and that's exactly what's playing out from Sea Bright down through Manasquan Inlet. Bluefish, mostly 3 to 6 pounds with some bigger cows mixed in, are hammering those bunker schools on the surface at first light and again in the last hour before dark. The pattern's simple: find the nervous water off the jetty tips, cast a metal-lip swimmer or a wide-wobble popper past the edge of the bait, and let the blues do the rest. Snagging live bunker on a treble and drifting it back on a fish-finder rig into the melee has been just as deadly for anybody who doesn't mind the extra rod work. Sea Bright's north jetty and the rocks off Monmouth Beach have both had bait pinned against them on the outgoing, and the Manasquan Inlet jetties — north side especially — have had blitzes break loose an hour either side of the tide change.

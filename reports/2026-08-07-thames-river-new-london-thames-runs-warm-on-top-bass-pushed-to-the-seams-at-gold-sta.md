@@ -3,8 +3,6 @@
 
 **NEW LONDON, CT — August 7** — _by Marcus Webb, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Twenty years watching this river tells you something the thermometer confirms: once New London Harbor pushes past 76 degrees on the surface, the fish don't leave — they go down and they go tight to structure. That's exactly what the water is doing right now, with a read near 77.4 degrees off New London against a noticeably cooler Kings Point to the west. That gradient matters less for us than what it does locally — it stacks a warm surface lens over cooler bottom water in the deeper cuts of the Thames, and the stripers know it better than anyone standing on the bank.
 
 The center span pilings at Gold Star Bridge are holding fish right now, but not where they sit in June. Forget the shallow eddies on the up-current side — the bass have slid down into 18 to 25 feet on the channel side, working the seam where the bridge current splits against the tide. Bucktails in the 1- to 1.5-ounce range, white or olive, dropped to bottom and hopped slow through that seam on the last two hours of the ebb, have been the most consistent producer. Slack water there is dead water this time of year — you want the current still moving hard enough to hold bait against the pilings but not so hard you can't hold bottom.

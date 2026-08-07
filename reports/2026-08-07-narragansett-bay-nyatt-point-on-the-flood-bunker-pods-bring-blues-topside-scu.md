@@ -3,8 +3,6 @@
 
 **PROVIDENCE, RI — August 7** — _by Vinny Ciervo, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Stood at the rail off one of the piers below the Point Street Bridge last week and heard two guys arguing about whether the blitz off Nyatt was bunker or peanut bunker. Doesn't matter much once the blues are in it — that water was churning white for a good twenty minutes before it shut off like someone flipped a switch. That's August on this Bay. The herring run that fed the spring bass bite up Buckeye Brook wrapped up months ago, and now it's bunker pods doing the work, dragging bluefish up top and holding stripers underneath them on the edges.
 
 The pattern right now is thermal, plain and simple. Upper Bay water is warm, mid-70s and pushing higher on the flats, and that's stacking bait tight against current breaks where there's still some cooler water moving. Conimicut Point is still doing what it does on the last two hours of the ebb — that flat off the light dumps into a channel edge that holds fluke in 12 to 18 feet, and the drift with a 3/4-ounce white bucktail tipped with a strip of squid or a chartreuse Gulp Swimming Mullet has been the play. Nothing gigantic being reported, mostly keeper-class fluke in the 18 to 20-inch range, but enough of them dropping to make the drift worth repeating.

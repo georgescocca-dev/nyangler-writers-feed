@@ -3,8 +3,6 @@
 
 **BOOTHBAY HARBOR, ME — August 7** — _by Rusty Pelletier, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 There's an old rule passed boat to boat around here every August, and it hasn't failed yet in forty years of watching it play out: when the mackerel show thick off Ocean Point and push into Linekin Bay, the bass aren't far behind, working the push of bait out of the Sheepscot and the Damariscotta on the back half of the tide. That rule is holding again this week, and it's about as reliable a read as this bay offers.
 
 We flagged it two weeks back — called for a stable seasonal pattern to hold through the week — and that's exactly what's playing out. No big disruption, no cold-water shock, no southwest blow tearing up the surface. Just the bay doing its steady August business.

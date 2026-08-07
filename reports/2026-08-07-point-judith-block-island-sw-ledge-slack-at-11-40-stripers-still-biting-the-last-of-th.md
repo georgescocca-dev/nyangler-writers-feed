@@ -3,8 +3,6 @@
 
 **GALILEE, RI — August 7** — _by Ava Thomas, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Slack at SW Ledge runs 11:40 this week, and the ninety minutes on either side of it are still the difference between a rod-bending drift and a long ride home with nothing to show for it. That's not a new rule — it's the oldest rule on this ledge — but with August heat pressing down on the surface layer, that tide window has gotten tighter and less forgiving. Miss it by twenty minutes and the current goes soft and mushy over the rockpile, and the bass that were stacked on the up-current side scatter into water too deep to reach with anything but a wire-line troll.
 
 Striped bass are still there, though, and that's worth saying plainly because a lot of the surf reports coming out of the rest of the region this week describe fish pushed deep and lockjawed by warm water. SW Ledge in the 25-to-40-foot band is holding better than that. The pattern that's working is a heavy bucktail — 2 to 3 ounces depending on how hard the current is running — bounced tight to the rock structure on the last hour of the ebb, then switched to a slow, deliberate swim through the first hour of the flood as the current reverses and bait gets disoriented over the ledge. Eels fished on a fish-finder rig, drifted right along that same current seam, have been the better bet for anything over 20 pounds. Nothing here is a guaranteed 35-pounder every trip — the bite has been more about putting time into the right ninety minutes than blind luck — but the fish are present and eating when the tide sets up.

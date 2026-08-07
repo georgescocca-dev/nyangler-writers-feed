@@ -3,8 +3,6 @@
 
 **ORIENT, NY — August 7** — _by Pat "North Fork" Reilly, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 There's an old trick clammers used to use before anybody had a thermometer worth trusting — you'd stick your bare foot down into the mud at low tide, and if it felt like bathwater, you knew to move east before you set your rig. I thought about that this week reading the numbers off the buoys. Kings Point's sitting around 74.8, and by the time you get out to New London it's pushing 77.4. That's a hard climb across one body of water, and it tells you plain as anything which way the fish are leaning. West end's warm and getting warmer. East end's warm too, but there's current out there that keeps turning it over, and current is what a striper wants in August more than anything else.
 
 So if you're fishing Mattituck Inlet or Horton Point right now, don't be surprised if the mornings are your window and the afternoons go quiet as a church. The water sitting up against those bluffs by midday has nothing moving through it, and bass don't like sitting in a warm bathtub any better than we do. Fish it early, on the first hour or two of the outgoing, working bucktails — half-ounce to three-quarter, white or chartreuse — tipped with a strip of squid, bounced slow along the drop where the sand gives way to the rock piles. That's produced a few keeper stripers and a scattering of weakfish mixed in, nothing to write home about in numbers, but real fish, not fantasy fish.

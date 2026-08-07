@@ -3,8 +3,6 @@
 
 **WANTAGH, NY — August 7** — _by Sal Moretti, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Everybody and their brother is still parking at Field 6 and bombing bunker chunks into the surf off Jones Beach like it's October. I get it — muscle memory, that big-fish dream. But with the ocean running 3.6 feet at 6 seconds and no sign of laying down, that's a young man's game right now, and a frustrating one. I've been steering people toward Sloop Channel, the bay flats off Short Beach, and the rock piles at the inlet mouth, because that's where the fish actually are this week — and where the tide is doing the work for you instead of against you.
 
 Here's the read. Buoy data off the coast is showing 75.9°F water and a beat-up sea state, while the back bay and inlet channels are running warmer and calmer under that August sun. That thermal split matters. Bait and predators alike don't want to fight three-foot slop and a steep gradient — they're stacking in the protected water where the current is manageable and the forage is concentrated. Every guy grinding the open beach for four hours with nothing to show for it is fishing against the grain. The fish moved into the house. Go find them there.

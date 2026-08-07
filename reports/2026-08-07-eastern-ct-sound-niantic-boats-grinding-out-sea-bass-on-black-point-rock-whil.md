@@ -3,8 +3,6 @@
 
 **NIANTIC, CT — August 7** — _by Danny Colón, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Talked to a couple of the Waterford skippers this week and the story's the same up and down the dock — sea bass are saving the trip sheets right now, and fluke are making guys work for every keeper. That's not a complaint, it's just where we are in early August. New London's reading 77.4 degrees, which is warm enough to push some of that flatfish activity into deeper water and off the classic sand flats where they've been sitting since June.
 
 Start with the good news. Black sea bass are stacked on the rock structure off Black Point and around Hole-in-the-Wall, holding in that 35 to 55 foot range where the bottom breaks up into boulder and rubble. The drift boats working those ledges are putting good numbers of keepers in the box on standard two-hook rigs — squid strips or Gulp Sea Bass Bites on the bottom, jigging heads bounced right off the rock rather than dragged across it. These fish don't move far this time of year, they just sit tight to structure waiting for the tide to push bait past them, so precision matters more than covering ground. Slack water kills this bite fast — you want moving current, either stage of the tide, to get them feeding up off the bottom instead of buried in the rocks.

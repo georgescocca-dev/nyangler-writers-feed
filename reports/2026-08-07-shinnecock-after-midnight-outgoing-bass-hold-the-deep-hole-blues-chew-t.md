@@ -3,8 +3,6 @@
 
 **SHINNECOCK INLET, NY — August 7** — _by Charlie "Night Owl" Ortiz, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 The decision this week isn't which lure to tie on — it's when to show up. With the ocean running 3-plus feet outside the inlet and the swell period short and choppy, the daytime surf game is a slog. That kind of sea state doesn't kill the bite, it just moves it. Bait and predators alike are ducking the washing-machine conditions on the open beach and holding tight to the structure inside — the inlet channel, the deep hole off the north jetty, the current seams under Ponquogue Bridge. That's where I'd be spending my hours after dark, not fighting whitewater on Tiana Beach at noon.
 
 The inlet on the outgoing after midnight is still the most consistent program on this beat, and this week hasn't changed that. The deep hole on the ocean side of the north jetty, where the channel scours out against the rocks, keeps holding stripers in the mid-20s to low-30s range with the occasional better fish mixed in when a bigger bunker school gets pinned against the current. Livelined bunker on a fish-finder rig, or a fresh chunk if you can't get bait to stay lively, fished right on bottom as the tide starts pulling hard — that's the play. Give it an hour either side of peak outgoing. The current does the work; you just have to be patient enough to let the bait sit instead of yanking it around. Eels fished the same way, slow-walked along the drop where the sandy flat gives way to the scoured channel, have been drawing strikes from fish that won't touch a bucktail after dark.

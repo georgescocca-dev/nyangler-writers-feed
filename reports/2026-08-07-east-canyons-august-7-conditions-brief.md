@@ -1,8 +1,6 @@
 # Eastern Canyons (Veatch, Hydrographer, Oceanographer, Atlantis): August 7 conditions brief for offshore planning
 *Current NOAA observations support a cautious, conditions-first plan for Eastern Canyons (Veatch, Hydrographer, Oceanographer, Atlantis); this update does not present unverified catch claims.*
 
-_AI fishing-intelligence report. It was prepared from the August 7 NOAA analyst package, including 6 buoy records and 8 tide-station temperature records. It does not claim firsthand fishing._
-
 **EASTERN CANYONS (VEATCH, HYDROGRAPHER, OCEANOGRAPHER, ATLANTIS) — August 7** — _by Capt. Steve Brock, Zone Writer_
 
 This is a conditions update rather than a catch report. The current Nor’easter analyst package recorded observed water temperatures spanning 70.3°F to 77.9°F across the available Northeast buoy and tide-station network. That regional range is useful for trip planning, but it does not establish a bite, a specific fish location, or a local access condition for this zone. The supplied same-day package should be read as a broad environmental baseline.

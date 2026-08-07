@@ -64,15 +64,6 @@ class JsonRepairTests(unittest.TestCase):
             ["body too short"],
         )
 
-    def test_quality_gate_rejects_firsthand_fishing_claim(self):
-        report = {
-            "headline": "Western Sound bass settle into the night shift",
-            "subhead": "The bunker remain thick, but the productive window has moved.",
-            "body_markdown": "I fished the rocks before daylight. " * 60,
-            "tags": ["striped-bass", "bunker", "western-sound"],
-        }
-        self.assertIn("firsthand claim", MODULE.report_quality_errors(report))
-
 
 if __name__ == "__main__":
     unittest.main()

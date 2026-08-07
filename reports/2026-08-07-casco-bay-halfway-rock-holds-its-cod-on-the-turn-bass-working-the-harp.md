@@ -3,8 +3,6 @@
 
 **PORTLAND, ME — August 7** — _by Pashmi Cooper, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 There's a particular quiet that settles over Halfway Rock at the top of the tide — the swirl around its base goes still, the gulls stop working the rip, and for ten or fifteen minutes the whole ledge seems to hold its breath before the water starts moving the other way. I've watched that turn happen more times than I can count, and it's still the best classroom this bay has. This week, that slack window has been the tell for where the cod and haddock are sitting: tight to the rock's eastern face, in 80 to 110 feet, where the current sweeps bait against the granite and stacks it up before the tide reverses.
 
 Groundfish have been steady out there, not spectacular, but honest. Diamond jigs — the heavier 6- to 8-ounce models — dropped straight down and worked in short lifts off bottom have been taking keeper cod in the mid-20-inch range, with the occasional haddock mixed in on the drift as the tide starts to build. The key has been fishing the last hour of the ebb into the first hour of flood, when the bait gets pinned against the ledge instead of scattered across open water. Anglers running bait — clams or herring chunks on a simple ledger rig — have done about as well as the jig crowd, which tells you the fish aren't picky right now, just concentrated.

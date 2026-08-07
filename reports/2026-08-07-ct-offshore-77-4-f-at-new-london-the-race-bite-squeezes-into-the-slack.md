@@ -3,8 +3,6 @@
 
 **NEW LONDON, CT — August 7** — _by Capt. Sabrina Cole, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 New London is reading 77.4°F this week, and that number tells you almost everything you need to know about how to fish The Race right now. That's warm water sitting right at the throat of the strongest current on the East Coast, and it changes the calculus. Bass don't want to sit in 77-degree water grinding against 4-plus knots of moving current burning oxygen they don't have to spare. So the bite isn't spread across the tide anymore — it's compressed into the transition, the last hour of the drop and the first hour of the build, right around the turn. Miss that window at Valiant Rock and you're marking bait on the sounder with nothing willing to commit.
 
 Valiant Rock still tops out around 18 feet, and on a strong moon the water sluicing over it runs hard enough to turn a bucktail sideways if you're not paying attention to your retrieve angle. Right now, with the thermal load this high, the better program is fishing the last 30 minutes of ebb into dead slack with wire line and a 2-ounce bucktail — white or chartreuse, tipped with a strip of pork rind or a Fin-S fluke trailer — dropped down the upcurrent side and swept across the top of the structure. Once the water goes truly slack, that's your five-to-ten-minute window to work the deep pockets on the east side of the rock with a jointed swimmer before the current reverses and picks back up. Race Rock itself is fishing the same way — same tactic, same clock, just shift your position to the rip line forming off the lighthouse on the building flood.

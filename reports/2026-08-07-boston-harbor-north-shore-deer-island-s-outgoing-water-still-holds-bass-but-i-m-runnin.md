@@ -3,8 +3,6 @@
 
 **BOSTON HARBOR, MA — August 7** — _by Sara Whitfield, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Every Thursday this time of year I make the same call at the chart table: harbor, rocks, or run south to Plymouth. This week I'm splitting the difference — working the harbor early before the sun gets up on the flats, then pushing out to the Nahant side for the evening tide. Here's why.
 
 Boston Harbor in the first week of August is a warm-water harbor, and warm water pushes bass off the shallow flats and onto structure where there's moving water and shade. Deer Island's outer edge, where the flow rips past on the outgoing tide, is still holding fish — but they're not sitting up shallow anymore. They've dropped into the deeper cuts along the drop-off, tucked against the rockpile where the current breaks. Live mackerel on a fish-finder rig, or a chunk of fresh bunker fished on the bottom with just enough weight to hold in the current, has been the more consistent producer than plugs up top during the brightest hours. Once the tide starts to soften on the last of the ebb, that's when the topwater window opens — poppers and Danny-style swimmers worked along the current seam near Spectacle Island have drawn bass up out of the depth, especially if there's bunker in the area.

@@ -3,8 +3,6 @@
 
 **NANTUCKET, MA — August 7** — _by Charlie St. Pierre, Zone Writer_
 
-_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
-
 Watched a wall of terns fold up and drop on the outside edge of the Great Point rip on the tail of the ebb this week, and that's usually all the invitation you need. When the birds stack that tight over that piece of water, it's not bait skittering — it's bait getting eaten from underneath, and sure enough the surface behind them went white with bluefish choppers working a pod of sand eels against the current seam. That's the giveaway with this rip: the blitz on top is bluefish, showing themselves, splashy and obvious. The stripers are doing their business quieter, sitting deeper on the drop-off where the moving water piles the bait against the sandbar, and you find them by working a bucktail or a swimming plug down through the wash instead of chucking topwater into the chaos everyone else is casting at.
 
 That's been the read across the Sound the last several days — bluefish are the loud fish right now, bass are the patient fish, and the two are stacked on the same real estate more often than not. Great Point on the last two hours of the ebb into the start of the flood has been the most consistent version of that pattern, with white water forming off the rip and holding bait against it. A 3/4-ounce bucktail with a white or chartreuse curl-tail trailer, worked along bottom on the up-current side, has been picking up stripers in the mid-20s to low-30s while poppers and Danny plugs stay busy with blues on top. Nothing enormous, but steady, and that's worth something when a lot of the Sound has gone quiet in the afternoon heat.
