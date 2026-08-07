@@ -460,13 +460,14 @@ def shorten_report(r: dict, max_chars: int = 700) -> dict:
 # LLM call
 # ---------------------------------------------------------------------------
 EDITORIAL_RULES = """
-You are writing YOUR fishing report — your voice, your beat, your way of
-seeing the water. You are a real angler who fishes this zone every week.
-You talk to captains, you talk to guys at the dock, you watch the bait,
-you read the water. This is YOUR column for reports.nyangler.com.
+You are writing a fishing-intelligence report for this beat. You are an AI
+writer, not a human angler, captain, dockworker, or eyewitness. This is a
+clearly disclosed AI fishing-intelligence column for reports.nyangler.com.
 
-Write it like you'd tell your best fishing buddy what's happening on
-your water this week — except polished enough for print.
+Write it with a distinct editorial voice and practical tactics, but only from
+the supplied evidence and analysis. Never manufacture a trip, a catch, a boat,
+a conversation, a sighting, a purchase, parking experience, or a personal
+observation.
 
 HARD RULES (break these and we pull the column):
 
@@ -485,7 +486,13 @@ HARD RULES (break these and we pull the column):
    number, use it; if you don't, describe conditions qualitatively (warm,
    cold, dirty, clean, ripping, slack).
 
-4. NEVER say "phish." Always "fish."
+4. NO FIRSTHAND CLAIMS. Do not write "I fished," "I ran," "I caught," "I
+   saw," "I checked," "my boat," "we hooked," "at the dock," or any version
+   of a personal trip or conversation. Attribute only to supplied evidence in
+   neutral language such as "recent reports indicate" or "the analysis points
+   to." Do not invent human experience to make the column sound authentic.
+
+5. NEVER say "phish." Always "fish."
 
 BANNED PHRASES — never use any of these. They are clichés that make
 every writer sound the same:
@@ -1350,90 +1357,104 @@ def report_quality_errors(
         errors.append("body too short")
     if not isinstance(tags, list) or len(tags) < 3:
         errors.append("too few tags")
+    firsthand_patterns = (
+        r"\bI\s+(?:fished|ran|caught|hooked|saw|felt|checked|watched|went|"
+        r"set\s+up|trolled|marked|remember|had)\b",
+        r"\b(?:we|I)\s+(?:hooked|caught|ran|fished|went|set\s+up|trolled|"
+        r"checked|watched|marked)\b",
+        r"\b(?:my|our)\s+(?:boat|trip|catch|mate|dock|cooler|transducer)\b",
+        r"\b(?:at\s+the\s+dock|in\s+the\s+boat|in\s+my\s+boat)\b",
+    )
+    if isinstance(body, str) and any(re.search(pattern, body, re.IGNORECASE) for pattern in firsthand_patterns):
+        errors.append("firsthand claim")
     full_text = " ".join(
         str(report.get(key, "")) for key in ("headline", "subhead", "body_markdown")
     ).lower()
+    is_offshore_writer = (writer or {}).get("domain") == "offshore"
     evidence = (hooper or {}).get("named_lead_evidence", {})
     if not isinstance(evidence, dict):
         evidence = {}
-    for name in OFFSHORE_NAMED_LEADS:
-        if name.lower() not in full_text:
-            continue
-        records = evidence.get(name, [])
-        has_source_evidence = (
-            isinstance(records, list)
-            and any(
-                isinstance(item, dict) and item.get("date") and item.get("source")
-                for item in records
+    if is_offshore_writer:
+        for name in OFFSHORE_NAMED_LEADS:
+            if name.lower() not in full_text:
+                continue
+            records = evidence.get(name, [])
+            has_source_evidence = (
+                isinstance(records, list)
+                and any(
+                    isinstance(item, dict) and item.get("date") and item.get("source")
+                    for item in records
+                )
             )
-        )
-        if not has_source_evidence:
-            errors.append(f"unsupported named lead: {name}")
-            continue
-        writer_id = (writer or {}).get("id")
-        if writer_id and not any(
-            isinstance(item, dict)
-            and item.get("preferred_report_zone") == writer_id
-            for item in records
-        ):
-            errors.append(f"wrong-zone named lead: {name}")
+            if not has_source_evidence:
+                errors.append(f"unsupported named lead: {name}")
+                continue
+            writer_id = (writer or {}).get("id")
+            if writer_id and not any(
+                isinstance(item, dict)
+                and item.get("preferred_report_zone") == writer_id
+                for item in records
+            ):
+                errors.append(f"wrong-zone named lead: {name}")
     structure_evidence = (hooper or {}).get("offshore_structure_evidence", [])
     if not isinstance(structure_evidence, list):
         structure_evidence = []
     writer_id = (writer or {}).get("id")
-    for item in structure_evidence:
-        if not isinstance(item, dict):
-            continue
-        name = str(item.get("location_name", "")).strip()
-        if not name or name.lower() not in full_text:
-            continue
-        has_source_evidence = bool(item.get("date") and item.get("source"))
-        if not has_source_evidence:
-            errors.append(f"unsupported offshore structure: {name}")
-        elif writer_id and item.get("report_zone") != writer_id:
-            errors.append(f"wrong-zone offshore structure: {name}")
+    if is_offshore_writer:
+        for item in structure_evidence:
+            if not isinstance(item, dict):
+                continue
+            name = str(item.get("location_name", "")).strip()
+            if not name or name.lower() not in full_text:
+                continue
+            has_source_evidence = bool(item.get("date") and item.get("source"))
+            if not has_source_evidence:
+                errors.append(f"unsupported offshore structure: {name}")
+            elif writer_id and item.get("report_zone") != writer_id:
+                errors.append(f"wrong-zone offshore structure: {name}")
     route_index = (hooper or {}).get("offshore_structure_route_index", {})
     if not isinstance(route_index, dict):
         route_index = {}
     route_index_folded = {str(name).casefold(): (str(name), zone) for name, zone in route_index.items()}
     disclosed = report.get("offshore_locations_used")
-    if (writer or {}).get("domain") == "offshore" and not isinstance(disclosed, list):
+    if is_offshore_writer and not isinstance(disclosed, list):
         errors.append("missing offshore location disclosure")
         disclosed = []
     elif not isinstance(disclosed, list):
         disclosed = []
     disclosed_folded = {str(name).strip().casefold() for name in disclosed if str(name).strip()}
-    for name in disclosed:
-        clean_name = str(name).strip()
-        if not clean_name:
-            continue
-        route = route_index_folded.get(clean_name.casefold())
-        if not route:
-            errors.append(f"unsupported offshore structure: {clean_name}")
-        elif writer_id and route[1] != writer_id:
-            errors.append(f"wrong-zone offshore structure: {route[0]}")
-    for folded_name, (name, zone) in route_index_folded.items():
-        if folded_name in full_text and folded_name not in disclosed_folded:
-            errors.append(f"undisclosed offshore structure: {name}")
-        if folded_name in full_text and writer_id and zone != writer_id:
-            marker = f"wrong-zone offshore structure: {name}"
-            if marker not in errors:
-                errors.append(marker)
-    for name in extract_named_offshore_structures(str(report.get("body_markdown", ""))):
-        folded_name = name.casefold()
-        if folded_name not in disclosed_folded:
-            marker = f"undisclosed offshore structure: {name}"
-            if marker not in errors:
-                errors.append(marker)
-        route = route_index_folded.get(folded_name)
-        if not route:
-            marker = f"unsupported offshore structure: {name}"
-            if marker not in errors:
-                errors.append(marker)
-        elif writer_id and route[1] != writer_id:
-            marker = f"wrong-zone offshore structure: {route[0]}"
-            if marker not in errors:
-                errors.append(marker)
+    if is_offshore_writer:
+        for name in disclosed:
+            clean_name = str(name).strip()
+            if not clean_name:
+                continue
+            route = route_index_folded.get(clean_name.casefold())
+            if not route:
+                errors.append(f"unsupported offshore structure: {clean_name}")
+            elif writer_id and route[1] != writer_id:
+                errors.append(f"wrong-zone offshore structure: {route[0]}")
+        for folded_name, (name, zone) in route_index_folded.items():
+            if folded_name in full_text and folded_name not in disclosed_folded:
+                errors.append(f"undisclosed offshore structure: {name}")
+            if folded_name in full_text and writer_id and zone != writer_id:
+                marker = f"wrong-zone offshore structure: {name}"
+                if marker not in errors:
+                    errors.append(marker)
+        for name in extract_named_offshore_structures(str(report.get("body_markdown", ""))):
+            folded_name = name.casefold()
+            if folded_name not in disclosed_folded:
+                marker = f"undisclosed offshore structure: {name}"
+                if marker not in errors:
+                    errors.append(marker)
+            route = route_index_folded.get(folded_name)
+            if not route:
+                marker = f"unsupported offshore structure: {name}"
+                if marker not in errors:
+                    errors.append(marker)
+            elif writer_id and route[1] != writer_id:
+                marker = f"wrong-zone offshore structure: {route[0]}"
+                if marker not in errors:
+                    errors.append(marker)
     return errors
 
 
@@ -1445,8 +1466,22 @@ def slugify(text: str) -> str:
     return s[:60]
 
 
-def emit_report(writer: dict, report: dict, today: datetime) -> dict:
+def emit_report(
+    writer: dict,
+    report: dict,
+    today: datetime,
+    *,
+    evidence_record_count: int = 0,
+    analysis_item_count: int = 0,
+) -> dict:
     report_id = f"{today.strftime('%Y-%m-%d')}-{writer['id']}-{slugify(report['headline'])}"
+    disclosure = (
+        "_AI fishing-intelligence report. It was prepared from "
+        f"{evidence_record_count} supplied evidence records and "
+        f"{analysis_item_count} supplied analysis inputs; it does not claim firsthand fishing._"
+    )
+    body = report.get("body_markdown", "").strip()
+    report = {**report, "body_markdown": f"{disclosure}\n\n{body}"}
     publication = {
         "id": report_id,
         "writer_id": writer["id"],
@@ -1727,7 +1762,15 @@ def main() -> int:
         return 0
 
     today = datetime.now(timezone.utc)
-    pub = emit_report(writer, report, today)
+    evidence_record_count = len(reports) + len(youtube_intel)
+    analysis_item_count = len(analyst) + len(hooper) + len(called_it)
+    pub = emit_report(
+        writer,
+        report,
+        today,
+        evidence_record_count=evidence_record_count,
+        analysis_item_count=analysis_item_count,
+    )
     index = None if args.skip_index else rebuild_reports_index()
     print(f"[gen] wrote {pub['id']}", file=sys.stderr)
     if index:

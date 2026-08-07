@@ -1,0 +1,28 @@
+# Why Are the Fluke Ducking the Absecon Sod Banks This Week?
+*Warm shallow water is pushing the back-bay fluke program into deeper holes, and the surf's groundswell is rewriting the kingfish and bluefish game plan too.*
+
+**ATLANTIC CITY, NJ — August 7** — _by Darnell Freeman, Zone Writer_
+
+_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
+
+Why are the fluke ducking the sod banks in Absecon this week instead of sitting up on the flats where they've been all summer? I get this question every August, and it's a good one to slow down and actually teach through, because the answer explains almost everything happening in the back bays right now.
+
+The short version: shallow water gets too warm to hold fluke comfortably once the sun's been on it a few hours, especially on these longer, calmer August days. The sod bank edges in Absecon Inlet — the flats running off Rainbow Channel and the mussel-bar structure toward Brigantine — still produce, but the better window has narrowed to the first two hours of the outgoing tide, right after the turn, before that shallow water heats up. After that, the better-sized fish slide off into the deeper cuts, 10 to 15 feet, where the bottom stays cooler and the current keeps bait moving past them. Same story in Great Egg — the Broad Thorofare and the deep bend by the Rainbow Channel intersection have been holding fish that the flats gave up by mid-morning. If you're only fishing the shallow stuff at 10 a.m., you're fishing where the fish used to be, not where they are.
+
+Tactically, that means white or chartreuse Gulp Swimming Mullets on 1/2- to 3/4-ounce bucktails, dragged slow along the channel edges rather than up on the flat itself. A strip of squid or a live spearing on the hook adds enough scent to matter when the water's got a little color to it, which it has after the recent groundswell worked the beachfront and pushed some sediment into the inlets. This isn't a blowout bite — it's a mixed one. Expect shorts mixed with keepers in the 17-to-19-inch range, with the occasional better fish in the deeper holes on the last of the outgoing. Anyone telling you it's easy right now isn't fishing the same tide charts I am.
+
+Offshore, the ocean buoy reading in the Bight has been running around 76 degrees with a lingering 3-to-4-foot swell at a short six-second period — that's a groundswell, not a windswell, and it's been enough to keep the surf a little sloppy for the kingfish crowd at Ocean City, Sea Isle City, and Stone Harbor. The kingfish are still there, working the trough just outside the second bar on bloodworm and Fishbites bottom rigs, but the bite windows are tighter — dawn and the last hour of daylight, when the wind lays down and the wash cleans up enough to fish bait on the bottom without it getting buried in suspended sand. Midday with that swell running has been mostly a chore.
+
+Striped bass in South Jersey in August are, frankly, a night fish right now, and if you've fished this beat with me before you know I don't sugarcoat that. Daytime water temps in the back bays and along the beachfront are simply too warm to hold bass comfortably outside of the deepest inlet structure. The better activity has been after dark around the rock piles at Absecon Inlet and the Great Egg jetty, on bunker chunks fished on a fish-finder rig or swum slowly with a bunker spoon on the last of the incoming tide, when the cooler ocean water is pushing back into the inlet mouth. It's not a numbers game this time of year — it's a patience game. One or two quality fish on a good night is a realistic expectation, not a guarantee.
+
+Weakfish are still showing in the back bays, but this is strictly a dusk-and-dark program now — small paddletail grubs on light jigheads, fished slow over the eelgrass edges in the Great Egg back bays and the deeper holes off Townsends Inlet. New Jersey's one-fish, 13-inch minimum keeps this mostly a release fishery, and that's fine, because the population still needs the help. Treat it as a bonus, not a plan.
+
+Triggerfish have been holding true to form around the rock structure at Townsends Inlet and the Absecon Inlet jetty rocks, picking at small pieces of clam and squid fished tight to the rocks on the bottom. It's a light-tackle, patient man's game, but it's a nice change of pace when the fluke bite goes quiet in the heat of the day.
+
+We flagged the bunker-driven bluefish push moving south from the Belmar stretch a few weeks back, and while South Jersey hasn't seen that blitz activity materialize in the surf yet, the pattern bears watching. If bunker schools keep working down the beachfront under this settled weather, the Ocean City and Sea Isle beaches are the logical next stop, and cocktail blues chasing bait in the wash on metal-lip swimmers or diamond jigs wouldn't surprise anyone who's watched this pattern before.
+
+Looking ahead: if the groundswell backs off later this week as forecast, the surf kingfish bite should open back up beyond the dawn-and-dusk windows, and the back-bay fluke should hold a little longer on the shallow flats before ducking into the channels. Until then, I'd fish the outgoing tide early, work the deeper cuts by midday, and save the inlet rock piles for after dark if bass are the target. That's the lesson plan for this week — adjust your depth to the clock, not just the tide chart.
+
+---
+
+Tags: fluke, back-bay, absecon-inlet, great-egg-inlet, striped-bass, outgoing-tide

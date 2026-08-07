@@ -99,7 +99,8 @@ class OffshoreScopeTests(unittest.TestCase):
             "body_markdown": "Virginia Wreck bluefin tuna report. " + "x" * 1000,
             "tags": ["bluefin-tuna", "virginia-wreck", "new-york-offshore"],
         }
-        unsupported = MODULE.report_quality_errors(report, hooper={})
+        writer = {"id": "hudson-canyon", "domain": "offshore"}
+        unsupported = MODULE.report_quality_errors(report, hooper={}, writer=writer)
         supported = MODULE.report_quality_errors(
             report,
             hooper={
@@ -109,6 +110,7 @@ class OffshoreScopeTests(unittest.TestCase):
                     ]
                 }
             },
+            writer=writer,
         )
         self.assertIn("unsupported named lead: Virginia Wreck", unsupported)
         self.assertNotIn("unsupported named lead: Virginia Wreck", supported)

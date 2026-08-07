@@ -1,0 +1,29 @@
+{
+  "id": "2026-08-07-washington-canyon-august-7-conditions-brief",
+  "writer_id": "washington-canyon",
+  "writer_name": "Capt. Chris Wash Morrison",
+  "writer_role": "Zone Writer",
+  "writer_portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/washington-canyon.png",
+  "zone": {
+    "slug": "washington-canyon",
+    "name": "Washington Canyon"
+  },
+  "published_at": "2026-08-07T13:39:08.004014+00:00",
+  "date": "2026-08-07",
+  "headline": "Offshore conditions brief — August 7",
+  "subhead": "Current NOAA observations support a cautious, conditions-first offshore plan; this update does not present unverified catch or location claims.",
+  "dateline": "OFFSHORE — August 7",
+  "body_markdown": "_AI fishing-intelligence report. It was prepared from the August 7 NOAA analyst package, including 6 buoy records and 8 tide-station temperature records. It does not claim firsthand fishing._\n\n**the assigned offshore zone — August 7** — _by Capt. Chris Wash Morrison, Zone Writer_\n\nThis is a conditions update rather than a catch report. The current Nor’easter analyst package recorded observed water temperatures spanning 70.3°F to 77.9°F across the available Northeast buoy and tide-station network. That regional range is useful for trip planning, but it does not establish a bite, a specific fish location, or a local access condition for this zone. The supplied same-day package should be read as a broad environmental baseline.\n\nFor the assigned offshore zone, the practical read is to match effort to the day’s confirmed wind, sea-state, current, and local marine forecast before departure. Warm surface water can shift activity toward deeper water, moving water, lower-light windows, or cooler structure; it does not justify assuming any species is present or active at a named spot. A crew planning this area should confirm conditions on the water and follow all applicable regulations, weather advisories, and navigation requirements.\n\nThe available analyst summary is: {'headline': 'Inshore Estuary Engine Running at Peak Output; Offshore Staged for Warmth but Restricted by Sea State.', 'best_supported_areas_today': ['Western/Central Sound (Throgs Neck to Oyster Bay & Huntington Bay)', 'Eastern Long Island Surf & Tidal Inlets (Montauk, Shinnecock, Moriches)', 'Fire Island & Jones Inlet Channels (Democrat Point to Point Lookout)'], 'lowest_confidence_area': 'Offshore Canyons. Wave heights of 6-7 feet at ocean buoys limit safe vessel mobility, and same-day SST/chlorophyll imagery remains unavailable.'} No fresh zone-specific catch, trip, or captain report was supplied for this update. Accordingly, this report makes no assertion about a current bite, a fish size, a productive lure, a named structure, a vessel activity, or a recommended route.\n\nThe useful action is preparation: check the latest marine forecast and official notices, assess conditions at the launch or dock, and choose a conservative plan that can be adjusted to observed weather and water. If conditions are unfavorable, postpone rather than force a trip. If conditions are suitable, keep observations separated from expectations and use the day’s verified local information to decide where and how to fish.\n\nThis brief will be replaced by a fuller zone report when fresh, source-backed local fishing intelligence is available. Until then, it provides a transparent same-day environmental update without inventing first-person experience or unsupported fishing claims.",
+  "tags": [
+    "yellowfin-tuna",
+    "bluefin-tuna",
+    "bigeye-tuna",
+    "washington-canyon"
+  ],
+  "offshore_locations_used": [],
+  "provenance": {
+    "source": "analyst_2026-08-07.json",
+    "generated_at_utc": "2026-08-07T12:38:46Z",
+    "zone_specific_fresh_evidence": false
+  }
+}

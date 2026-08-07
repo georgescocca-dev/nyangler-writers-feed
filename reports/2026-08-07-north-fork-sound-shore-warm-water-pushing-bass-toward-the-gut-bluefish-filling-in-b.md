@@ -1,0 +1,26 @@
+# Warm water pushing bass toward the Gut — bluefish filling in behind
+*The Sound's running warm end to end, and the fish know which way the cool water sits.*
+
+**ORIENT, NY — August 7** — _by Pat "North Fork" Reilly, Zone Writer_
+
+_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
+
+There's an old trick clammers used to use before anybody had a thermometer worth trusting — you'd stick your bare foot down into the mud at low tide, and if it felt like bathwater, you knew to move east before you set your rig. I thought about that this week reading the numbers off the buoys. Kings Point's sitting around 74.8, and by the time you get out to New London it's pushing 77.4. That's a hard climb across one body of water, and it tells you plain as anything which way the fish are leaning. West end's warm and getting warmer. East end's warm too, but there's current out there that keeps turning it over, and current is what a striper wants in August more than anything else.
+
+So if you're fishing Mattituck Inlet or Horton Point right now, don't be surprised if the mornings are your window and the afternoons go quiet as a church. The water sitting up against those bluffs by midday has nothing moving through it, and bass don't like sitting in a warm bathtub any better than we do. Fish it early, on the first hour or two of the outgoing, working bucktails — half-ounce to three-quarter, white or chartreuse — tipped with a strip of squid, bounced slow along the drop where the sand gives way to the rock piles. That's produced a few keeper stripers and a scattering of weakfish mixed in, nothing to write home about in numbers, but real fish, not fantasy fish.
+
+Further east, toward Rocky Point and on out to the Orient approach, the story changes some because the water's got more push to it. That funnel of current running toward Plum Gut keeps things mixed and a few degrees more honest than the flat stretches to the west. This is where the bluefish have shown up with some conviction — schools of bunker holding tight against the shoreline, gulls working them hard in the early light, and blues busting through from underneath in that violent, splashy way they do when they mean business. If you see the bunker balled up nervous near the surface, that's your signal — don't wait, get a popper or a metal lip out there fast, because those windows close as quick as they open. We flagged this pattern a few weeks back, that wherever the bunker stacked up thick you'd get those topwater blitzes as long as the weather stayed settled, and that's exactly what's playing out along this stretch now.
+
+Stripers are in that mix too, though you have to work harder for them than the blues. They're sitting deeper, using the moving water in the Gut approach and around Rocky Point's structure to stay cool and still get fed. A bucktail dropped down into the rip and worked with a slow lift-and-drop, letting it hug bottom, has taken a few slot fish for anglers willing to grind through blues to get to them. Live bunker on a fish-finder rig, drifted through the same current seams, is doing the same job without the arm workout.
+
+Porgy fishing has been steady and honest around the rock structure off Rocky Point and out toward Orient — small hooks, size 8 or 10, baited with sandworm or clam, fished right on bottom in fifteen to twenty-five feet. Nothing glamorous, but a bucket of porgies for the pan is still a good afternoon on the water, and it's about as reliable a bite as this beat offers right now. Blackfish are still a few weeks off from being a real target here — you can mark spots by watching where the porgies concentrate, because the tog will move onto that same structure once the water starts to turn, but right now they're mostly an afterthought, a stray fish here and there for somebody working clam on the bottom.
+
+Fluke have been spotty at best off Mattituck Inlet — a few keepers mixed with a lot of shorts on white Gulp swimming mullets and bucktails dragged slow along the sandy stretches inside the inlet mouth on the last of the outgoing. Not a bite worth planning a whole trip around, but worth a drift or two if you're already out there working bass in the morning.
+
+As for albies or bonito showing at the Gut — nothing's crossed my desk yet to say they've arrived, and I'd rather tell you straight than send you out chasing ghosts. The temperature breaks out there are worth watching as we move deeper into August, because that's exactly the kind of structure that pulls those fish through when they do show, but for now it's bass, blues, porgy, and a mixed bag — nothing exotic.
+
+Looking ahead, if this warm pattern holds and the wind stays out of the south, I'd expect the western stretch to keep going quiet by midday and the Gut-side water to keep holding the better bass and the more consistent blue action. If a cold front finally pushes through and knocks that surface temperature down a few degrees, watch for the bass to spread back west and get more active through the afternoons again. Until then, fish the moving water, fish it early, and don't waste your good bait on water that's gone still and warm.
+
+---
+
+Tags: striped-bass, bluefish, plum-gut, porgy, fluke, horton-point

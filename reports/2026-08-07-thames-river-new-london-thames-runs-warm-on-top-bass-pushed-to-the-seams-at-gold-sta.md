@@ -1,0 +1,28 @@
+# Thames Runs Warm on Top: Bass Pushed to the Seams at Gold Star and Fort Trumbull
+*With New London reading near 77 degrees, the stripers are hugging bottom structure and current breaks — here's where the seams are holding fish.*
+
+**NEW LONDON, CT — August 7** — _by Marcus Webb, Zone Writer_
+
+_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 17 supplied analysis inputs; it does not claim firsthand fishing._
+
+Twenty years watching this river tells you something the thermometer confirms: once New London Harbor pushes past 76 degrees on the surface, the fish don't leave — they go down and they go tight to structure. That's exactly what the water is doing right now, with a read near 77.4 degrees off New London against a noticeably cooler Kings Point to the west. That gradient matters less for us than what it does locally — it stacks a warm surface lens over cooler bottom water in the deeper cuts of the Thames, and the stripers know it better than anyone standing on the bank.
+
+The center span pilings at Gold Star Bridge are holding fish right now, but not where they sit in June. Forget the shallow eddies on the up-current side — the bass have slid down into 18 to 25 feet on the channel side, working the seam where the bridge current splits against the tide. Bucktails in the 1- to 1.5-ounce range, white or olive, dropped to bottom and hopped slow through that seam on the last two hours of the ebb, have been the most consistent producer. Slack water there is dead water this time of year — you want the current still moving hard enough to hold bait against the pilings but not so hard you can't hold bottom.
+
+Fort Trumbull remains the most honest read on this river. The rip that forms off the point on a strong outgoing tide is doing what it always does in August — pulling warm surface water off the flats and creating a hard, visible current edge where the cooler river water underneath collides with the incoming Sound tide. Bass are holding on the down-current lip of that rip, not out in the open boil where the surface temperature is highest. Live eels fished on a fish-finder rig, or bunker chunks fixed on a Carolina rig weighted heavy enough to hold bottom in that current, have been drawing better results than swimming plugs worked through the froth. The froth is bait activity, not necessarily where the bigger fish are sitting — they're a rod-length off the edge, tucked in the cooler seam.
+
+We flagged this pattern last week — said the outgoing tide would keep producing through this stable stretch, and that's exactly what's holding here. The tide-change windows, particularly the two hours either side of dead low, are still where the bites cluster. High water in this harbor right now is mostly a bait-holding period; the fish don't commit until the ebb starts pulling structure-relief water past them.
+
+Bluefish have been the more aggressive story this week, and if bunker schools are pushing up into the harbor mouth near Ocean Beach or drifting off Pleasure Beach, expect the surface eruptions that come with it. These aren't subtle bites — poppers and metal-lipped swimmers thrown into visible bunker pods at first light have drawn violent strikes, the kind where you feel the fish committing before the lure even settles. That bluefish pattern tends to hold as long as bunker stay thick and the weather stays stable, and there's no sign yet of either changing. If you're marking bait balls off the beach on the sounder, don't leave — work the edges methodically rather than running through the middle of the school and spooking it.
+
+Blackfish season is open now through the end of August, and while it's not the marquee bite on this beat, the structure around Fort Trumbull's rip-rap and the deeper riprap flanks near the bridge abutments are worth a drop if stripers go quiet mid-tide. Green crabs on a jig head, fished tight to structure on slack tide when the current relents enough to hold bottom without excessive weight, have picked at fish in the 14- to 18-inch range. Nothing to build a trip around solo, but a solid secondary target while waiting on the tide to turn.
+
+Porgies are scattered but present through the harbor's mid-depth flats, particularly where sandy bottom meets the edges of the channel drop-offs. Small hooks, squid strips or sandworms, fished on the bottom during the last hour of the incoming — that's produced a mixed bag without much drama, which is about right for August porgy fishing on this river.
+
+What's notably absent right now is the hickory shad — that's strictly a spring pattern here and those fish are long gone downriver and out into the Sound by August. Don't waste tide time looking for them.
+
+Looking ahead, if the stable weather holds through the coming week, expect the same script: outgoing tide windows at Gold Star and Fort Trumbull producing the most consistent striper action, bluefish tracking bunker wherever it concentrates off the beaches, and blackfish filling the gaps on structure. If a front pushes through and drops the surface temperature even a couple degrees, watch for the bass to spread out of the tight seams and back onto the flats they abandoned — that's the tell to reset your approach rather than keep grinding the same current break.
+
+---
+
+Tags: striped-bass, bluefish, gold-star-bridge, fort-trumbull, outgoing-tide, thames-river

@@ -1,0 +1,26 @@
+# Sakonnet to Napatree: bluefish crash the bunker, tog bite still finding its legs
+*Peanut bunker are packing into the rock pockets from Beavertail to Napatree and the blues found them first — the tog and the albies are still on their own schedule.*
+
+**JAMESTOWN, RI — August 7** — _by Billy Tanaka, Zone Writer_
+
+_AI fishing-intelligence report. It was prepared from 0 supplied evidence records and 16 supplied analysis inputs; it does not claim firsthand fishing._
+
+The bait tells you where to start this time of year, and right now it's peanut bunker and silversides getting squeezed into the pockets between the boulders — Beavertail, the Fort Wetherill ledges, the rocks off Sakonnet Point, all the way down to the breakwater at Napatree. When you see that nervous water balled up tight against a ledge with nowhere to run, something's usually pushing it, and this week that something has been bluefish, not always big, but plenty aggressive, cutting through those pods and leaving slicks of oil on the surface.
+
+We flagged this pattern a couple weeks back — said that wherever bunker concentrate, expect violent topwater feeds as long as the bait stays thick, and that's exactly what's showing up along this stretch now. The blues aren't holding in one spot long. They'll blow up a pocket off Second Beach for twenty minutes, go quiet, then show up working the same bait against the rocks off Sakonnet Point an hour later. Poppers and metal — Deadly Dicks, Kastmasters, anything that throws a long cast and gets down through the wash — have been the move when you find them up. If they're deep on the bait, a weighted swimming plug or a bucktail with a strip of squid fished slow through the pocket will pick up fish the surface guys miss.
+
+Striped bass are mixed into this same bait but playing it cooler, more nocturnal, more patient. The better fish have been coming off the ledges on the last two hours of the outgoing into dead low, when current pulls bait off the rocks and stages it in the current seams — that's when an eel swum slow along the edge of the structure at Fort Wetherill or off the Sakonnet breakwater has been drawing the most attention. First light and last light are still your windows. Mid-day sun on these ledges in early August pushes the better fish deeper into the cracks, and daytime bites have been mostly schoolies and the occasional keeper mixed with scup picking at green crabs and clam in the same washes.
+
+Speaking of scup — that bite's been steady and honestly the most reliable thing going right now. Sandy pockets tight to the rocks at Beavertail, Second Beach, and along the inside edge of Napatree have been holding good numbers on squid strips and clam belly, small hooks, light enough weight to feel bottom without getting hung in the rocks. Fluke have been mixed in on the same stretches, better on the drift over the sand cuts between ledges than tight to structure — Gulp in white or pink, tipped with squid, worked slow on the last of the ebb.
+
+Tog is the one everybody keeps asking about and the honest answer is it's still slow to build. A few shorts and the occasional keeper have come off green crabs fished tight to cracks and boulder edges around Jamestown and out toward Watch Hill Reef, but this isn't the concentrated, stack-'em-up bite you get once the water starts to turn in September and October. Right now it's a fish here, a fish there, mostly on the slack around the turn of the tide when there's no current shoving your bait off the rock face. Worth doing if you're patient and picking your spots carefully, but I wouldn't plan a whole trip around it yet.
+
+No albies to report. It's early — that push into the breachways at Napatree and Watch Hill is a September pattern here, and with water still holding summer temperatures and bait staying inshore and shallow rather than pushing out to the rips, there's no reason to expect them ahead of schedule. When they do show, it'll likely be the smaller breachways first — Napatree and the Weekapaug cut — where the current funnels bait tight and the fish don't have to work as hard.
+
+Conditions-wise, it's been a rougher week on the exposed south-facing beaches. Swell running in the 3-plus foot range with a short period has made places like Second Beach and the open stretches toward Weekapaug messier to fish cleanly, kicking up enough turbidity that sight-fishing for blues has been tougher outside the early and late hours. The lee-side spots — Jamestown's western shore, the inside of the Sakonnet breakwater, the protected pockets around Napatree — have been fishing cleaner and that's where I'd put the time if the wind stays up out of the south.
+
+Looking ahead, if the bunker schools hold and the high pressure sticks around, expect the bluefish pattern to keep spreading down the shore the way it has been — that's consistent with what's been building the past couple weeks. I'd keep working the ledges on the outgoing for stripers, treat the tog bite as a bonus rather than a target until the water starts to cool, and keep an eye on the breachways starting in a few weeks as the calendar turns toward the albie window. For now, follow the bait — it's still calling the shots on this shore.
+
+---
+
+Tags: bluefish, striped-bass, tautog, scup, rocky-shore, ri-south-shore
