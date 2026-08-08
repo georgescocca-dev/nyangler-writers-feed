@@ -1052,6 +1052,43 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
     offshore_scope = writer.get("domain") == "offshore"
     if offshore_scope:
         system += "\n\n---\n" + OFFSHORE_SCOPE_DIRECTIVE.strip()
+        permitted_locations = [
+            str(item).strip()
+            for item in beat.get("landmarks", [])
+            if str(item).strip()
+        ]
+        zone_name = str(beat.get("zone", "")).strip()
+        if zone_name:
+            permitted_locations.append(zone_name.split("(", 1)[0].split("/", 1)[-1].strip())
+            parenthetical = re.search(r"\(([^)]+)\)", zone_name)
+            if parenthetical:
+                for name in parenthetical.group(1).split(","):
+                    clean_name = name.strip()
+                    if clean_name:
+                        permitted_locations.extend([clean_name, f"{clean_name} Canyon"])
+        for item in hooper.get("offshore_structure_evidence", []) or []:
+            if (
+                isinstance(item, dict)
+                and item.get("report_zone") == writer.get("id")
+                and item.get("location_name")
+            ):
+                permitted_locations.append(str(item["location_name"]).strip())
+        for name, records in named_lead_evidence.items():
+            if any(
+                isinstance(item, dict)
+                and item.get("preferred_report_zone") == writer.get("id")
+                and item.get("date")
+                and item.get("source")
+                for item in records
+            ):
+                permitted_locations.append(str(name).strip())
+        permitted_locations = list(dict.fromkeys(filter(None, permitted_locations)))
+        system += (
+            "\n\nNAMED OFFSHORE LOCATION ALLOWLIST FOR THIS REPORT:\n- "
+            + ("\n- ".join(permitted_locations) if permitted_locations else "No named location is currently allowed")
+            + "\nDo not mention or disclose any other named offshore location. "
+            "A familiar neighboring canyon or structure is still prohibited unless it appears above."
+        )
     field_guide = load_regional_field_guide(writer["id"])
     system += (
         "\n\n---\nUse the verified regional field guide as factual local context. "

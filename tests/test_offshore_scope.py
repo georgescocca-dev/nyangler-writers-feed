@@ -298,6 +298,16 @@ class OffshoreScopeTests(unittest.TestCase):
         self.assertNotIn("Mud Hole", user)
         self.assertIn("Barnegat Ridge", user)
 
+    def test_offshore_prompt_forbids_neighboring_locations_outside_writer_beat(self):
+        wilmington = writer("offshore")
+        wilmington["id"] = "wilmington-canyon"
+        wilmington["zone_name"] = "Wilmington Canyon"
+        system, _ = MODULE.build_prompt(wilmington, [], {}, [], hooper={})
+        self.assertIn("NAMED OFFSHORE LOCATION ALLOWLIST", system)
+        self.assertIn("Wilmington Canyon", system)
+        self.assertIn("Do not mention or disclose any other named offshore location", system)
+        self.assertNotIn("Baltimore Canyon", system)
+
 
 if __name__ == "__main__":
     unittest.main()
