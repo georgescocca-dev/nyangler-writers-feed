@@ -1519,6 +1519,23 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
     return publication
 
 
+def report_datetime() -> datetime:
+    """Return the requested report date or the current UTC timestamp.
+
+    The batch wrapper sets NOREASTER_REPORT_DATE for retries and recovery runs.
+    Honor it here so a correction replaces that dated report instead of
+    silently creating a new-day article.
+    """
+    requested = os.environ.get("NOREASTER_REPORT_DATE", "").strip()
+    if not requested:
+        return datetime.now(timezone.utc)
+    try:
+        parsed = datetime.strptime(requested, "%Y-%m-%d")
+    except ValueError as exc:
+        raise ValueError("NOREASTER_REPORT_DATE must use YYYY-MM-DD") from exc
+    return parsed.replace(tzinfo=timezone.utc)
+
+
 def generate_teasers(reports: list[dict]) -> list[str]:
     """Generate AI search box teasers grounded in actual report content."""
     teasers = []
@@ -1730,7 +1747,7 @@ def main() -> int:
         print(json.dumps(report, indent=2, ensure_ascii=False))
         return 0
 
-    today = datetime.now(timezone.utc)
+    today = report_datetime()
     pub = emit_report(writer, report, today)
     index = None if args.skip_index else rebuild_reports_index()
     print(f"[gen] wrote {pub['id']}", file=sys.stderr)

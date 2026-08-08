@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import os
 import unittest
 from pathlib import Path
 
@@ -63,6 +64,30 @@ class JsonRepairTests(unittest.TestCase):
             MODULE.report_quality_errors(report),
             ["body too short"],
         )
+
+    def test_report_datetime_honors_recovery_date(self):
+        previous = os.environ.get("NOREASTER_REPORT_DATE")
+        os.environ["NOREASTER_REPORT_DATE"] = "2026-08-07"
+        try:
+            value = MODULE.report_datetime()
+        finally:
+            if previous is None:
+                os.environ.pop("NOREASTER_REPORT_DATE", None)
+            else:
+                os.environ["NOREASTER_REPORT_DATE"] = previous
+        self.assertEqual(value.isoformat(), "2026-08-07T00:00:00+00:00")
+
+    def test_report_datetime_rejects_invalid_recovery_date(self):
+        previous = os.environ.get("NOREASTER_REPORT_DATE")
+        os.environ["NOREASTER_REPORT_DATE"] = "08/07/2026"
+        try:
+            with self.assertRaisesRegex(ValueError, "YYYY-MM-DD"):
+                MODULE.report_datetime()
+        finally:
+            if previous is None:
+                os.environ.pop("NOREASTER_REPORT_DATE", None)
+            else:
+                os.environ["NOREASTER_REPORT_DATE"] = previous
 
 
 if __name__ == "__main__":
