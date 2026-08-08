@@ -941,14 +941,42 @@ def load_recent_youtube_intel(zone_slug: str, days: int = 14) -> list[dict]:
 def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel: list[dict] = None, hooper: dict = None, called_it: list[dict] = None) -> tuple[str, str]:
     """Returns (system_prompt, user_prompt)."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
+    hooper = hooper or {}
+    named_lead_evidence = hooper.get("named_lead_evidence", {})
+    if not isinstance(named_lead_evidence, dict):
+        named_lead_evidence = {}
+    unsupported_named_leads = {
+        name
+        for name in OFFSHORE_NAMED_LEADS
+        if not any(
+            isinstance(item, dict) and item.get("date") and item.get("source")
+            for item in named_lead_evidence.get(name, [])
+        )
+    }
+
+    def redact_unsupported_named_leads(value: object) -> object:
+        if isinstance(value, str):
+            result = value
+            for name in unsupported_named_leads:
+                result = re.sub(re.escape(name), "", result, flags=re.IGNORECASE)
+            result = re.sub(r"\s*/\s*(?=$|[,;)])", "", result)
+            return re.sub(r" {2,}", " ", result).strip(" /,;-\t")
+        if isinstance(value, list):
+            return [
+                cleaned
+                for item in value
+                if (cleaned := redact_unsupported_named_leads(item))
+            ]
+        return value
+
     beat = {
         "id": writer["id"],
         "name": writer["name"],
         "role": writer["role"],
-        "zone": writer.get("zone_name"),
+        "zone": redact_unsupported_named_leads(writer.get("zone_name")),
         "area": writer.get("area"),
         "beat_species": writer.get("beat_species", []),
-        "landmarks": writer.get("landmarks", []),
+        "landmarks": redact_unsupported_named_leads(writer.get("landmarks", [])),
         "voice": writer.get("voice"),
         "mood": writer.get("mood"),
         "style_tags": writer.get("style_tags", []),
@@ -957,7 +985,6 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
 
     # Hooper's briefing: today's zone/species synthesis (background — never
     # cited by name) plus the predictive outlook.
-    hooper = hooper or {}
     hooper_context = {}
     if hooper.get("zone_analysis"):
         hooper_context["zone_read"] = hooper["zone_analysis"]
@@ -1013,6 +1040,15 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         + "\n\n---\n"
         + EDITORIAL_RULES.strip()
     )
+    if unsupported_named_leads and writer.get("domain") == "offshore":
+        for name in unsupported_named_leads:
+            system = re.sub(re.escape(name), "", system, flags=re.IGNORECASE)
+        system += (
+            "\n\nDo not introduce any named offshore lead that lacks a dated source "
+            "record in the supplied Hooper evidence. Canonical landmarks in this "
+            "writer's beat profile may be used as geographic context, but they do "
+            "not prove a current catch on their own."
+        )
     offshore_scope = writer.get("domain") == "offshore"
     if offshore_scope:
         system += "\n\n---\n" + OFFSHORE_SCOPE_DIRECTIVE.strip()
@@ -1025,6 +1061,9 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
     )
     if voice_block:
         system += "\n\n---\n" + voice_block
+    if unsupported_named_leads and offshore_scope:
+        for name in unsupported_named_leads:
+            system = re.sub(re.escape(name), "", system, flags=re.IGNORECASE)
 
     user = json.dumps(
         {
@@ -1398,6 +1437,27 @@ def report_quality_errors(
     route_index = (hooper or {}).get("offshore_structure_route_index", {})
     if not isinstance(route_index, dict):
         route_index = {}
+    else:
+        route_index = dict(route_index)
+    if is_offshore_writer and writer_id:
+        # Standing writer landmarks are valid geographic context for that beat.
+        # They are not current-catch evidence; priority leads still require the
+        # dated Hooper evidence checked above.
+        canonical_names = list((writer or {}).get("landmarks", []) or [])
+        zone_name = str((writer or {}).get("zone_name", ""))
+        if zone_name:
+            canonical_names.append(zone_name.split("(", 1)[0].split("/", 1)[-1].strip())
+            parenthetical = re.search(r"\(([^)]+)\)", zone_name)
+            if parenthetical:
+                for name in parenthetical.group(1).split(","):
+                    clean_name = name.strip()
+                    if clean_name:
+                        canonical_names.extend([clean_name, f"{clean_name} Canyon"])
+        named_leads_folded = {lead.casefold() for lead in OFFSHORE_NAMED_LEADS}
+        for name in canonical_names:
+            clean_name = str(name).strip()
+            if clean_name and clean_name.casefold() not in named_leads_folded:
+                route_index.setdefault(clean_name, writer_id)
     route_index_folded = {str(name).casefold(): (str(name), zone) for name, zone in route_index.items()}
     disclosed = report.get("offshore_locations_used")
     if is_offshore_writer and not isinstance(disclosed, list):
