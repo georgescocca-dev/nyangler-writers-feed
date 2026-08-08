@@ -47,7 +47,17 @@ class OffshoreScopeTests(unittest.TestCase):
         self.assertIn("wreck", payload["offshore_coverage_scope"]["structure_types"])
 
     def test_offshore_writer_folds_inside_tuna_into_closest_area_report(self):
-        system, _ = MODULE.build_prompt(writer("offshore"), [], {}, [])
+        evidence = {
+            name: [{"date": "2026-08-03", "source": "captain report"}]
+            for name in MODULE.OFFSHORE_NAMED_LEADS
+        }
+        system, _ = MODULE.build_prompt(
+            writer("offshore"),
+            [],
+            {},
+            [],
+            hooper={"named_lead_evidence": evidence},
+        )
         self.assertIn("closest applicable existing area report", system)
         self.assertIn("tuna are inside at the Virginia Wreck", system)
         self.assertIn("San Diego", system)
@@ -257,6 +267,36 @@ class OffshoreScopeTests(unittest.TestCase):
         )
         self.assertIn("undisclosed offshore structure: Invented Bank", errors)
         self.assertIn("unsupported offshore structure: Invented Bank", errors)
+
+    def test_writer_canonical_landmark_is_valid_geographic_context(self):
+        report = {
+            "headline": "Bluefin Set Up Along Stellwagen Bank",
+            "subhead": "The Massachusetts offshore plan starts with the bank edge.",
+            "body_markdown": "Stellwagen Bank is the geographic frame for this report. " + "x" * 1000,
+            "tags": ["bluefin-tuna", "stellwagen-bank", "massachusetts-offshore"],
+            "offshore_locations_used": ["Stellwagen Bank"],
+        }
+        errors = MODULE.report_quality_errors(
+            report,
+            hooper={},
+            writer={
+                "id": "ma-offshore-stellwagen",
+                "domain": "offshore",
+                "zone_name": "MA Offshore / Stellwagen Bank",
+                "landmarks": ["Stellwagen Bank"],
+            },
+        )
+        self.assertNotIn("unsupported offshore structure: Stellwagen Bank", errors)
+
+    def test_unverified_seed_name_is_removed_from_writer_prompt(self):
+        seeded_writer = writer("offshore")
+        seeded_writer["zone_name"] = "NJ Offshore / Mud Hole"
+        seeded_writer["landmarks"] = ["Mud Hole", "Barnegat Ridge"]
+        seeded_writer["system_prompt"] = "Write the Mud Hole beat."
+        system, user = MODULE.build_prompt(seeded_writer, [], {}, [], hooper={})
+        self.assertNotIn("Mud Hole", system)
+        self.assertNotIn("Mud Hole", user)
+        self.assertIn("Barnegat Ridge", user)
 
 
 if __name__ == "__main__":
