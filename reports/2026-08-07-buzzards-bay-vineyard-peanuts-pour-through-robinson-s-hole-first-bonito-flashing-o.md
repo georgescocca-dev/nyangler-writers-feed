@@ -1,0 +1,26 @@
+# Peanuts Pour Through Robinson's Hole — First Bonito Flashing on the Ebb
+*Buzzards Bay's bait is stacking in the rips right on schedule, and the first bonito of the season are cutting through it four days ahead of the new moon.*
+
+**WOODS HOLE, MA — August 8** — _by Maria Fonseca, Zone Writer_
+
+The peanut bunker showed up in Robinson's Hole on Tuesday's outgoing tide like someone flipped a switch — dense, nervous pods getting pushed through the gut between Naushon and Pasque, and by Wednesday morning there were bonito underneath them. Not a blitz. Not yet. But real fish, cutting sideways through the bait with that unmistakable flash, and enough of them that three different boats working the hole on the last two hours of ebb connected on doubleheaders. That's the tell I wait for every August, and this week it arrived.
+
+We flagged this exact window nine days ago — said Buzzards Bay and the Vineyard were sitting in the classic staging corridor and that the building new moon current would be the trigger. The new moon hits August 12, and the bonito that pushed through Rhode Island's Watch Hill and Sakonnet corridor over the past week have crossed the line into the bay right on that timetable. What we're seeing now is the leading edge — a handful of fish per tide, not a wall of them — but the direction is right and the timing lines up too cleanly to be coincidence.
+
+Quick's Hole is running the same script, maybe a tide behind Robinson's. Silversides are balling up on the Elizabeth Islands side on the last of the flood, and there were reports of bonito showing there Thursday afternoon, chasing bait right up against the rocks on the Pasque side. If you're picking a spot this weekend, I'd still lean Robinson's first — it's been the more consistent producer the last three seasons on the opening push, and the current there sets up cleaner for a long drift with a Deadly Dick or a half-ounce Albie Snax worked fast through the froth. Keep your retrieve honest — these early-run bonito are eating small and fast, and a slow presentation gets ignored.
+
+False albacore are close behind, per usual, but nobody's put one in the boat yet that I've heard confirmed. Historically they trail the bonito into the bay by a week to ten days once the bait gets thick enough to hold them, so I wouldn't be shocked to see the first albies working the rip off Menemsha by the back half of next week if this bait stays put through the new moon.
+
+Striped bass haven't gone anywhere, and that's worth saying plainly because everybody's attention is about to shift entirely to the albie run. There's a steady pick of schoolies and a few keepers working the rip current off Cuttyhunk on the last two hours of the outgoing, especially where the tide rips past the western end of the island into deeper water. Live eels fished on the drift, or a bucktail bounced slow along bottom in 15 to 25 feet, has been the play. Nothing gigantic — most fish are in the 24 to 32 inch range — but it's a dependable bite while you're waiting on the bonito to thicken up, and it should hold through the new moon since building current tends to sharpen this pattern rather than shut it down.
+
+Bluefish are mixed in with that bass bite in the same rips, chopping bait on top some mornings around Cuttyhunk and off the Elizabeth Islands. Nothing like the gator run some of the western waters are seeing, but a few solid 4 to 6 pound blues have been chewing through wire leaders meant for stripers, which tells you the bait density out there is real.
+
+Fluke fishing is the honest disappointment of the week. Drifting the deeper holes off Woods Hole and around Cuttyhunk with Gulp on light bucktails has produced fish, but they're mostly short — a lot of 15 and 16 inchers getting released for every keeper. The warm surface water this time of year pushes the better fluke down into the deeper cuts, and you need to be fishing bottom hard on the last of the ebb to find the bigger ones. If fluke is your priority this week, I'd fish early, before the boat traffic and the sun get the shallower flats churned up.
+
+Scup are everywhere they always are in August — Oak Bluffs pier, the Woods Hole channel, anywhere there's structure and current. Squid strips or sandworms on a simple hi-lo rig will keep a rod bent all afternoon if the bonito bite goes quiet on you, and it's a good way to keep kids or first-timers busy while the adults work the rips.
+
+Looking ahead: the tidal range keeps building through Wednesday's new moon, and that's exactly the mechanism that should pull more bait — and more bonito — through Robinson's and Quick's Hole over the next several days. If the pattern holds the way it did last August, expect the bonito numbers to build noticeably by the weekend of the 15th, with the first legitimate albie showing up somewhere in that same window. I'd fish the last two hours of the ebb at Robinson's Hole through midweek, watch the bait balls close, and have a light spinning rod rigged with something small and fast ready to go the second you see that first nervous water. Worth getting out there before the crowds figure out it's started.
+
+---
+
+Tags: bonito, robinsons-hole, quicks-hole, striped-bass, new-moon, buzzards-bay

@@ -1,0 +1,26 @@
+# Porgies keep the lights on while the bass wait for the tide to turn
+*Horton Point to Orient, the fishing's steady but nobody's getting rich — and the new moon might change that fast.*
+
+**MATTITUCK, NY — August 8** — _by Pat "North Fork" Reilly, Zone Writer_
+
+Old Ray Corwin used to say a bayman without patience is just a fella standing in cold water. Ray's been gone eleven years now, but I thought of him Tuesday morning out past the Mattituck breakwater, watching a single osprey work the same stretch of glass for twenty minutes before it finally dropped and came up with something silver. Twenty minutes for one fish. That's about the pace of things out here right now — nothing's rushing, but if you wait it out, something comes.
+
+Water's holding in the high 60s to low 70s depending where you dip a thermometer — Kings Point's reading near 71 down west, New London's sitting closer to 69, and that gradient tells you what you need to know about this stretch. Warmer water piles up toward the western Sound, and the cooler stuff settles in toward us and on out through Plum Gut. It's not a big spread, a couple degrees, but fish know a couple degrees the way you and I know the difference between a warm bath and a cold one.
+
+Striped bass have been doing what they've been doing all month — holding deep, feeding mostly after the sun goes down, and making you work for every fish. We said last week the building tide into this new moon would sharpen that pattern up, and I'll tell you, it's starting to show. Guys working the rockpiles off Horton Point after dark on bunker chunks and fresh-cut bait have been finding better numbers the last two nights than they did over the weekend — nothing spectacular, mind you, mostly schoolie-to-mid-twenties fish, but more of them, and more consistent. The current's got some shoulder to it now that we're building toward the new moon on the 12th, and moving water wakes bass up quicker than warm sun ever will. If you're set up on eels or a big swimming plug on the last two hours of the outgoing at Horton or Rocky Point, fish it slow and deep, right along the rock edge where the current breaks. That's where they're sitting.
+
+Bluefish are the interesting story this week, though nothing's confirmed yet on our stretch. There's real chatter about blues coming back strong on the deep reefs out west — fish in the mid-teens showing up where they'd gone quiet most of July. That kind of resurgence usually doesn't stay put. Bait redistributes with a strengthening tide, and blues follow bait, not loyalty. I wouldn't be shocked if by the back half of this week we start seeing that push work its way east toward Mattituck and beyond. Keep a bucktail or a diamond jig rigged and ready even if you're bass fishing — you don't want to be scrambling when a school of choppers comes through and cuts your leader in half.
+
+Porgy fishing remains the one thing out here you can set a watch by. Scup have been steady on the rockpiles and mussel beds from Rocky Point clear out to the Orient Point rip, and that bite doesn't care much what the bass or blues are up to. Small hooks, size 6 or 8, a piece of clam or sandworm, fished right on bottom in fifteen to twenty-five feet — that's lunch and dinner most days if you've got the patience to sort through the small ones. It's not glamorous fishing but it's honest fishing, and there's something to be said for a bite you can count on.
+
+Fluke have been a mixed bag, and I won't oversell it. Word from the western Sound is mostly short fish, and out here it's much the same story — plenty of fluke around the drop-offs off Mattituck Inlet and along the flats toward Horton Point, but you're culling through a lot of shorts to find a keeper. White Gulp on a three-quarter ounce bucktail, drifted slow along the edges where the sand gives way to mud, has been the best combination for me. Nothing wrong with the technique — the fish just aren't stacked up the way they were in July.
+
+Weakfish, I'll be honest, have been scarce. A few reports of fish taken incidental to the bass bite on bunker chunks, but nothing organized enough to call a pattern. If you stumble into one, consider it a bonus, not a target.
+
+Blackfish season's still closed, but the smart guys are already out scouting structure — marking rockpiles and boulder fields on the sounder ahead of the fall opener, particularly around the Plum Gut approach where the current really works the bottom clean. Worth doing now while the water's calm enough to see what you're marking.
+
+Looking ahead: that new moon on the 12th is going to push more water through here than we've seen in weeks, and moving water is exactly what this bass pattern's been waiting on. If the tidal range builds the way it should, I'd expect the night bite at Horton Point and Rocky Point to firm up further, and there's a real chance the bluefish push reaches us before the week's out. My plan is simple — fish the last of the outgoing after dark, keep a jig rigged for blues, and treat the porgies as the sure thing they've been all summer. Nothing out here is a lock, but the water's finally starting to move with some purpose, and that's usually when this stretch shows its hand.
+
+---
+
+Tags: striped-bass, porgy, bluefish, fluke, horton-point, new-moon-tide

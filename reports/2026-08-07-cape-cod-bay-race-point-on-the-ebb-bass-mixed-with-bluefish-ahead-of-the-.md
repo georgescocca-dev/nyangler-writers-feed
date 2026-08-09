@@ -1,0 +1,24 @@
+# Race Point on the Ebb: Bass Mixed with Bluefish Ahead of the New Moon Push
+*The rip's holding fish but you have to work the tide stages right — here's what's biting from Race Point to Barnstable this week.*
+
+**PROVINCETOWN, MA — August 8** — _by Donny Costa, Zone Writer_
+
+Tuesday morning I had the boat idling off Race Point about forty minutes before the top of the tide, watching the rip line start to build against a light southwest breeze. There's a moment out there, right when the current starts pulling hard against the shoal, where the water goes from flat to nervous — little boils, terns dropping, and then that first swirl behind the boat that tells you the bass have found the same seam you did. That's the whole game this time of year. You don't chase the fish around the Bay in August, you let the rip bring them to you.
+
+We've been drifting Race Point and Peaked Hill Bars on the last two hours of the ebb and the first hour of the flood, and the pattern's been consistent even if the numbers haven't been huge. Live mackerel on a fish-finder rig, 20 to 30 feet of water, right on the edge where the sand drops into the deeper cut, has been the most reliable way to connect. We're also dropping big soft plastic eels — 9-inch, weighted, slow-jigged near bottom — when the mackerel aren't cooperating, and that's picked up a few better fish in the 30-pound class. Nothing epic, but a legit keeper-and-up mix, with enough overslot fish mixed in that you want a good release plan and a net that can handle them.
+
+Bluefish have been more of a wildcard. Some mornings you'll find a school of choppers working bait right on the surface off Peaked Hill, and for twenty minutes it's as fast as anything in the Bay — poppers, or just bare bucktails ripped through the froth, get bit every cast. Other days they've vanished off that same piece of water entirely. That's typical August blues — they're following bait, not structure, so if you find working birds, get on them fast, because they don't stick around.
+
+Fluke fishing has been the honest disappointment of the week. Billingsgate and the flats off Sandy Neck have decent bottom and warm, clean water, but we've been grinding for keepers — lots of shorts on Gulp and squid strips, not much size to show for it. I think the warm surface layer has pushed some of the better fish down into slightly deeper water than we've been fishing, so if you're on the flats and it's slow, don't be afraid to work out toward 25 to 30 feet before you give up on the drift.
+
+Cod have gone quiet, which isn't a surprise for August. The deeper structure off Billingsgate and out toward the edge of Stellwagen holds some fish, but the water up top is too warm to pull them shallow, and without a strong reason to grind bottom in 100-plus feet of water in mid-summer, most of the fleet's left them alone. If you want a cod, this isn't the month to force it — wait for the water to turn over in the fall.
+
+Mackerel have been steady bait, which matters more than the mackerel fishing itself. We've had schools stack up inside Provincetown Harbor and along the back side of the Race, and that's been our live-bait source most mornings — a few Diamond jigs or Swedish Pimples dropped over a marked school fills the well in ten minutes, and that bait's been the single best producer for bass all week.
+
+The tide's been the deciding factor more than anything. We flagged this pattern last week — said the building tidal flow into the August 12 new moon should sharpen the bite at current-driven structure — and that's exactly what's been happening at the rips. The bigger the swing, the harder that water rips through the bars, and the harder it rips, the more bait gets pinned and the more the bass show up to eat it. Slack water has been dead almost everywhere we've fished, which tells you all you need to know about working the stages instead of just showing up and drifting blind.
+
+Looking ahead, I'd expect the next few days to build on this as the new moon tightens up the tidal range. If the wind stays out of the southwest and light like it's been, I'd fish Race Point and Peaked Hill Bars on the last two hours of the ebb through the first hour of flood, live mackerel or eels near bottom, and keep an eye out for surface activity from the blues — they'll tell you where the bait's pushed. Fluke guys, I'd push a little deeper than usual off Sandy Neck and Barnstable until that top layer cools off. And if you're set on cod, I'd hold off — that bite doesn't turn on until the Bay starts losing its summer heat, and we're not there yet.
+
+---
+
+Tags: striped-bass, bluefish, race-point, drift-fishing, new-moon-tide, cape-cod-bay

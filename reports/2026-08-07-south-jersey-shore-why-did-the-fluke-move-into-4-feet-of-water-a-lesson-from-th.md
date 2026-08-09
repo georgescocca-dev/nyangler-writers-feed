@@ -1,0 +1,26 @@
+# Why did the fluke move into 4 feet of water? A lesson from the Absecon sod banks
+*Bunker pushed shallow, the bass went to the basement, and the building tide into the new moon is about to sharpen every inlet from Brigantine to Stone Harbor.*
+
+**ATLANTIC CITY, NJ — August 8** — _by Darnell Freeman, Zone Writer_
+
+Every August I get some version of the same question leaning on the bait shop counter: "Professor, why was my fluke drift stone dead at 9 AM and stacked with keepers by 11?" It's a fair question, and the answer this week is written all over the sod banks. Bait moved shallow. The fluke followed. If you didn't move with them, you fished an empty classroom.
+
+Here's the lesson plan. Peanut bunker and rainfish have pushed hard onto the flats behind Absecon Inlet — the same sod bank edges that run along the Brigantine side channel — and fluke have tucked in tight to ambush them in 4 to 8 feet of water. The bite window is the last two hours of the outgoing, when that water drains off the flat and funnels bait past the drop-offs. A half-ounce bucktail tipped with a white Gulp Swimming Mullet, dragged slow along bottom right where the sod gives way to the channel, has been the difference-maker. Guys throwing straight bucktail without the trailer are getting bit less — the fluke want that extra wag right now, not a fast retrieve.
+
+Over at Great Egg, the pattern flips a little. That inlet holds deeper structure — 15 to 20 feet in the main channel — and the better-grade fluke, the 4- and 5-pound class, are showing on the incoming rather than the outgoing. Chartreuse bucktails with a Gulp mullet trailer, bounced slow along the channel edges near the rock piles, have out-produced the plain white presentation there. It's not a huge bite — you're working for four or five keepers on a good tide — but the fish are real, and they're better sized than what's coming off the flats.
+
+Now, the bluefish. We flagged this pattern last week — scattered peanut bunker schools, blues roaming on them, blitzes showing in the early morning window — and that's exactly what's playing out at Townsends Inlet and along the Ocean City beachfront right now. Dawn patrol has been the move: peanut bunker balled up tight against the beach, blues busting through them just after first light, gone by the time the sun's fully up and the water warms. Small metal — half-ounce Deadly Dicks or Kastmasters — cast into the froth has been getting bit fast and hard. By 8 AM the show's usually over for the day, so if you're not on the sand before sunrise, you're watching it happen instead of fishing it.
+
+Stripers are a tougher conversation, and we called this too — daytime surf bass have all but vanished, pushed to deeper, cooler refuge, and any action has been strictly a dawn-and-dusk affair. That's held up all week. If you want a shot at a keeper bass, you're fishing the last legal light or the first legal light, working the deeper channel edges at Great Egg and the mouth of Absecon Inlet where the current runs hardest. A bunker chunk fished on the bottom, tight to the drop where the channel meets the flat, has out-produced artificials for the few fish being caught. It's not a numbers game right now — it's patience and the right thirty minutes of tide.
+
+Weakfish are still a back bay night bite. The channels behind Brigantine and the deeper holes off Longport have given up a scattered mix of weakfish in the 16- to 20-inch range to guys chunking bunker after dark on the last of the outgoing. It's not consistent enough to plan a whole trip around, but if you're already out there for bass or fluke and you stay past dark, it's worth a soak.
+
+Kingfish are doing what kingfish do in August — working the first bar trough at Ocean City and Sea Isle City on sand fleas and bloodworm bits fished on a simple hi-lo rig. It's a light-tackle, kid-and-a-lawn-chair kind of bite, but it's steady, and it's one of the more reliable things going in the surf right now while the bass sulk in deeper water.
+
+And for the structure guys — triggerfish are holding on the rock jetties at both Absecon and Townsends Inlets, taking small pieces of clam or squid fished tight to the rocks on light tackle. It's a niche bite, but it fills a slow afternoon when the tide's wrong for everything else.
+
+Looking ahead, we're building toward the new moon on the 12th, and that means increasing tidal range and stronger current through every inlet on this stretch. That's good news for structure-oriented fishing — sharper current at Absecon and Great Egg should tighten up the fluke bite on the sod banks and give the bass a reason to feed a little more aggressively on the edges during those brief low-light windows. If I had one day to fish this week, I'd take the outgoing at Absecon at first light, work the sod bank edges hard for an hour, then slide over to the inlet mouth for the last of the ebb hoping to intercept a bass on the move. It's not a sure thing, but the tide's about to do some of the work for you — that's the kind of week it is.
+
+---
+
+Tags: fluke, absecon-inlet, back-bay, bluefish, striped-bass, great-egg-inlet

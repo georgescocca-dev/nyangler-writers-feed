@@ -1,0 +1,20 @@
+# 71.2°F and 3.9-Footers: Sea Bass Holding, Mahi and Tuna Still a Gamble
+*The numbers off the Bight say the bait's there, but the swell kept a lot of boats tied to the dock this week — here's what I'd trust and what I'd wait on.*
+
+**MANASQUAN, NJ — August 9** — _by Capt. Rey Santos, Zone Writer_
+
+Seventy-one point two. That's what the buoy out past the Bight read this week, with 3.9 feet at five seconds stacked on top of it. That combination tells me two things before I ever untie the lines: the warm water's out there to hold bait, and the ride's going to have some lump in it for anything under 28 feet.
+
+That 71-degree reading is a mid-shelf number, not a canyon number, and it matters because it sits right on top of our sea bass and reef grounds. Warm water like that tends to push bait up and hold it tight to structure, which is the classic August pattern — bait balled up over the high spots, sea bass sitting near the edge of structure in 55 to 70 feet rather than up in the water column. High-low rigs with Gulp Sea Bass baits or fresh squid strips, dropped tight and worked slow off the bottom, remain the standard play in that setup. I don't have a confirmed, verified catch count from any specific reef to report this week — the boats that got out between wind events described a workable but not stacked bite in general terms, and I'm not going to attach that to a named spot without a firmer report in hand.
+
+We're building toward the new moon on the 12th, and the tidal range is going to widen over the next few days. On current-driven bottom structure, a widening tidal swing usually sharpens the drift bite for sea bass and blackfish — more water moving typically means bait pinned tighter to structure and fish feeding with more confidence. If I had one day to fish this week, I'd take the day closest to the new moon with the least wind, fishing the last two hours of the incoming into the first hour of the outgoing.
+
+Mahi is the one I don't have a confirmed number on yet, and I'm not going to pretend otherwise. August is typically when pot and buoy lines start holding mahi under shade lines, and the water temp supports that possibility, but the sea state this week kept most boats closer to the beach. Nobody I trust has called in a solid, verified mahi report yet. That's a watch-and-wait for me — if we get a calm window, small blue-and-white or pink skirted baits trolled slow around any floating structure, with greenies for chum if you find fish holding under a buoy, would be the move.
+
+Bluefin is the same story, just with more chatter behind it. There's a warm pool that's been sitting off our grounds, and that's the kind of setup that can get bluefin working — morning troll on spreader bars, switching to jig and chunk once the sun's up. I've had more phone calls asking about it than confirmed hookups to report. The ingredients are there, the water's right, but my own log doesn't have a verified fish on the deck to back it up this week.
+
+Note: this report was cut off before it could be completed, so any additional detail on specific bites or locations beyond what's above could not be confirmed and has been left out.
+
+---
+
+Tags: sea-bass, mahi, bluefin-tuna, new-jersey, water-temperature, swell
