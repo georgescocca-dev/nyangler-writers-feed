@@ -663,9 +663,9 @@ OFFSHORE_SCOPE_DIRECTIVE = """
 OFFSHORE COVERAGE CONTRACT:
 - Your offshore beat begins 10 nautical miles from shore and continues outward; it is not limited to the canyon edge.
 - Retain evidence-backed tuna bites on wrecks, lumps, ledges, banks, shoals, and canyons. A 10-12-mile tuna bite belongs in scope.
-- Fold each qualifying signal into the closest applicable existing area report instead of isolating all tuna coverage under a canyon label. Use the exact nearby structure and plain language: for example, "tuna are inside at the Virginia Wreck" or San Diego when supplied evidence supports that statement.
+- Fold each qualifying signal into the closest applicable existing area report instead of isolating all tuna coverage under a canyon label. Use the exact nearby structure named in the supplied evidence, in plain language.
 - A supplied, verified nearby structure is part of your offshore beat even if it is not listed in your static landmarks. This exception applies only to evidence-backed offshore signals routed by Hooper; it never authorizes an invented place or catch.
-- Priority New York and New York Bight leads are Virginia Wreck, San Diego, Bacardi, the Mud Hole, Texas Tower, and the Tails. Use one only when supplied evidence verifies the structure name or alias, position, report date, tuna species, and source.
+- Use a priority named lead only when supplied evidence verifies the structure name or alias, position, report date, tuna species, and source. The dated source records supplied with this prompt are the only authority.
 - Never invent coordinates, catches, or a tuna report to fill the expanded scope. If the evidence has no qualifying signal, leave it out.
 - List every named offshore place used in `offshore_locations_used`. Omitting the list or a used place fails publication; listing a place without routed source evidence also fails publication.
 """
@@ -691,6 +691,58 @@ def extract_named_offshore_structures(text: str) -> list[str]:
             match.group(1).strip() for match in OFFSHORE_STRUCTURE_NAME_RE.finditer(text)
         )
     )
+
+
+def canonical_offshore_landmarks(writer: dict) -> list[str]:
+    """Static canonical geography for a writer's beat (roster landmarks plus
+    names derivable from the zone label). These are legitimate geographic
+    context — they are NOT evidence of a current bite."""
+    names: list[str] = []
+    for item in (writer or {}).get("landmarks", []) or []:
+        clean = str(item).strip()
+        if clean and clean not in names:
+            names.append(clean)
+    zone_name = str((writer or {}).get("zone_name", "") or "").strip()
+    if zone_name:
+        tail = zone_name.split("(", 1)[0].split("/")[-1].strip()
+        if tail and tail not in names:
+            names.append(tail)
+        parenthetical = re.search(r"\(([^)]+)\)", zone_name)
+        if parenthetical:
+            for part in parenthetical.group(1).split(","):
+                clean = part.strip()
+                if clean:
+                    for candidate in (clean, f"{clean} Canyon"):
+                        if candidate not in names:
+                            names.append(candidate)
+    return names
+
+
+# Language that turns a named structure into a claim of a current bite.
+# Fish/catch verbs or dated recency markers near the name = evidence required.
+_CURRENT_CATCH_CLAIM_RE = re.compile(
+    r"\b(tuna|bluefin|yellowfin|bigeye|albacore|mah[iy]|\w*fish|bass|bluefish|"
+    r"catch(?:es|ing)?|caught|hookup(?:s)?|hooked|landed|boats|capt(?:ain)?s?|"
+    r"charters?|anglers?|bit(?:e|ing|es)?|chew(?:ing)?|blitz(?:es|ing)?|"
+    r"stack(?:ed|ing)?|holding|school(?:ed|ing|s)?|show(?:ed|ing)?|producing|"
+    r"report(?:s|ed|ing)?)\b.{0,80}\b(STRUCTURE)\b"
+    r"|\b(STRUCTURE)\b.{0,80}\b(tuna|bluefin|yellowfin|bigeye|albacore|mah[iy]|"
+    r"\w*fish|bass|bluefish|catch(?:es|ing)?|caught|hookup(?:s)?|hooked|landed|"
+    r"boats|capt(?:ain)?s?|charters?|anglers?|bit(?:e|ing|es)?|chew(?:ing)?|"
+    r"blitz(?:es|ing)?|stack(?:ed|ing)?|holding|school(?:ed|ing|s)?|show(?:ed|ing)?|"
+    r"producing|report(?:s|ed|ing)?)\b",
+    re.IGNORECASE,
+)
+
+
+def claims_current_catch(text: str, name: str) -> bool:
+    """True when `text` links `name` to fish/catch language — i.e. the name is
+    being used as evidence of a current bite rather than static geography."""
+    pattern = re.compile(
+        _CURRENT_CATCH_CLAIM_RE.pattern.replace("STRUCTURE", re.escape(name)),
+        re.IGNORECASE,
+    )
+    return bool(pattern.search(text))
 
 
 def load_latest_analyst(writer_id: str | None = None) -> dict:
@@ -941,14 +993,62 @@ def load_recent_youtube_intel(zone_slug: str, days: int = 14) -> list[dict]:
 def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel: list[dict] = None, hooper: dict = None, called_it: list[dict] = None) -> tuple[str, str]:
     """Returns (system_prompt, user_prompt)."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
+    hooper = hooper or {}
+
+    # Priority named leads must never be seeded into the prompt unless routed,
+    # dated source evidence supports them for THIS writer. Redact unverified
+    # lead names from every prompt-bound string (roster fields included).
+    named_lead_evidence = hooper.get("named_lead_evidence", {})
+    if not isinstance(named_lead_evidence, dict):
+        named_lead_evidence = {}
+    writer_id_for_leads = writer.get("id")
+    verified_named_leads = {
+        name
+        for name in OFFSHORE_NAMED_LEADS
+        if any(
+            isinstance(item, dict)
+            and item.get("date")
+            and item.get("source")
+            and item.get("preferred_report_zone") == writer_id_for_leads
+            for item in (
+                named_lead_evidence.get(name, [])
+                if isinstance(named_lead_evidence.get(name, []), list)
+                else []
+            )
+        )
+    }
+    unverified_named_leads = [
+        name for name in OFFSHORE_NAMED_LEADS if name not in verified_named_leads
+    ]
+
+    def redact_unverified_leads(value: object) -> object:
+        if isinstance(value, str):
+            result = value
+            for name in unverified_named_leads:
+                result = re.sub(re.escape(name), "", result, flags=re.IGNORECASE)
+            # Clean up artifacts left by removal: "/ /" separators, doubles.
+            result = re.sub(r"\s*/\s*(?=$|[,;)/])", "", result)
+            result = re.sub(r"(?<=[(/,;])\s*/\s*", " ", result)
+            result = re.sub(r" {2,}", " ", result)
+            return result.strip(" /,;-\t")
+        if isinstance(value, list):
+            cleaned_items = []
+            for item in value:
+                cleaned = redact_unverified_leads(item)
+                if isinstance(cleaned, str) and not cleaned:
+                    continue
+                cleaned_items.append(cleaned)
+            return cleaned_items
+        return value
+
     beat = {
         "id": writer["id"],
         "name": writer["name"],
         "role": writer["role"],
-        "zone": writer.get("zone_name"),
+        "zone": redact_unverified_leads(writer.get("zone_name")),
         "area": writer.get("area"),
         "beat_species": writer.get("beat_species", []),
-        "landmarks": writer.get("landmarks", []),
+        "landmarks": redact_unverified_leads(writer.get("landmarks", [])),
         "voice": writer.get("voice"),
         "mood": writer.get("mood"),
         "style_tags": writer.get("style_tags", []),
@@ -957,7 +1057,6 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
 
     # Hooper's briefing: today's zone/species synthesis (background — never
     # cited by name) plus the predictive outlook.
-    hooper = hooper or {}
     hooper_context = {}
     if hooper.get("zone_analysis"):
         hooper_context["zone_read"] = hooper["zone_analysis"]
@@ -966,7 +1065,15 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
     if hooper.get("predictive_outlook"):
         hooper_context["predictive_outlook"] = hooper["predictive_outlook"]
     if hooper.get("named_lead_evidence"):
-        hooper_context["named_lead_evidence"] = hooper["named_lead_evidence"]
+        # Only leads verified for THIS writer reach the prompt; unverified
+        # priority named leads must never be injected as background either.
+        hooper_context["named_lead_evidence"] = {
+            name: records
+            for name, records in hooper["named_lead_evidence"].items()
+            if name in verified_named_leads
+        }
+        if not hooper_context["named_lead_evidence"]:
+            del hooper_context["named_lead_evidence"]
     if hooper.get("offshore_structure_evidence"):
         hooper_context["offshore_structure_evidence"] = hooper["offshore_structure_evidence"]
 
@@ -1009,13 +1116,40 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         voice_block = "\n".join(voice_lines)
 
     system = (
-        writer.get("system_prompt", "")
+        redact_unverified_leads(writer.get("system_prompt", ""))
         + "\n\n---\n"
         + EDITORIAL_RULES.strip()
     )
     offshore_scope = writer.get("domain") == "offshore"
     if offshore_scope:
         system += "\n\n---\n" + OFFSHORE_SCOPE_DIRECTIVE.strip()
+        # The allowlist is derived, never hard-coded: canonical beat geography
+        # plus evidence-backed structures routed to this writer. Priority named
+        # leads appear here ONLY when verified for this writer above.
+        allowed_locations = list(canonical_offshore_landmarks(writer))
+        for item in hooper.get("offshore_structure_evidence", []) or []:
+            if (
+                isinstance(item, dict)
+                and item.get("report_zone") == writer.get("id")
+                and item.get("location_name")
+                and item.get("date")
+                and item.get("source")
+            ):
+                allowed_locations.append(str(item["location_name"]).strip())
+        allowed_locations.extend(sorted(verified_named_leads))
+        allowed_locations = list(dict.fromkeys(filter(None, allowed_locations)))
+        system += (
+            "\n\nNAMED OFFSHORE LOCATION ALLOWLIST FOR THIS REPORT:\n- "
+            + (
+                "\n- ".join(allowed_locations)
+                if allowed_locations
+                else "No named location is currently allowed"
+            )
+            + "\nCanonical beat landmarks above may be used as static geographic "
+            "context; naming any listed or unlisted structure as a CURRENT bite "
+            "requires dated routed source evidence. Do not mention or disclose "
+            "any other named offshore location."
+        )
     field_guide = load_regional_field_guide(writer["id"])
     system += (
         "\n\n---\nUse the verified regional field guide as factual local context. "
@@ -1025,6 +1159,12 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
     )
     if voice_block:
         system += "\n\n---\n" + voice_block
+    if offshore_scope and unverified_named_leads:
+        # Voice profiles and roster prompts can seed stale lead names; strip
+        # them from the fully-assembled system prompt as a final guard.
+        for name in unverified_named_leads:
+            system = re.sub(re.escape(name), "", system, flags=re.IGNORECASE)
+        system = re.sub(r" {2,}", " ", system)
 
     user = json.dumps(
         {
@@ -1242,6 +1382,91 @@ def parse_llm_json(raw: str) -> dict:
         return json.loads(escape_json_string_controls(raw))
 
 
+class ReportGenerationError(Exception):
+    """Raised when the model cannot produce a publishable report within the
+    bounded retry budget. The message is sanitized: it names the failure
+    category only, never raw model output."""
+
+
+MAX_SCHEMA_REPAIR_ATTEMPTS = 3
+
+_SCHEMA_REPAIR_SYSTEM = (
+    "You repair malformed JSON outputs from a fishing-report generator. "
+    "Return ONLY a single valid JSON object conforming to the required "
+    "schema. Do not add commentary, code fences, or explanation."
+)
+
+
+def build_schema_repair_prompt(raw: str, error: str) -> str:
+    """Build a bounded schema-repair user prompt for a fresh provider call.
+
+    The failed output is included so the model can fix it, but the instruction
+    is explicit: produce schema-valid JSON, not prose. The caller must still
+    validate the retry result — a repair response is never trusted blindly.
+    """
+    truncated = raw if len(raw) <= 4000 else raw[:4000] + "\n...[truncated]"
+    return (
+        "The following model output failed validation for the required report "
+        f"schema.\n\nValidation error: {error}\n\n"
+        "Rewrite it as ONE valid JSON object with exactly these keys: "
+        "headline, subhead, dateline, body_markdown, tags, "
+        "offshore_locations_used. Preserve any real reported facts; do not "
+        "invent new catches, places, or numbers. If the original text is "
+        "truncated or unusable, return a JSON object whose body_markdown "
+        "states the report could not be completed.\n\n"
+        f"Failed output:\n{truncated}"
+    )
+
+
+def generate_report_with_retry(
+    writer: dict,
+    system: str,
+    user: str,
+    model: str,
+    hooper: dict | None = None,
+    max_attempts: int = MAX_SCHEMA_REPAIR_ATTEMPTS,
+) -> dict:
+    """Call the provider and return a validated report, with bounded recovery.
+
+    Deterministic recovery ladder:
+      1. parse_llm_json already tolerates literal control chars inside strings.
+      2. On parse/schema/quality failure, issue a fresh provider call with an
+         explicit schema-repair prompt (bounded to max_attempts total calls).
+      3. Every response — initial and retry — is fully re-validated.
+      4. On exhaustion raise ReportGenerationError with a sanitized message;
+         no partial report content is ever returned for publication.
+    """
+    last_error = "unknown"
+    repair_prompt: str | None = None
+    for attempt in range(1, max_attempts + 1):
+        call_system = _SCHEMA_REPAIR_SYSTEM if repair_prompt else system
+        call_user = repair_prompt if repair_prompt else user
+        raw = call_openrouter(call_system, call_user, model)
+        try:
+            candidate = scrub_report(parse_llm_json(raw), writer)
+        except (json.JSONDecodeError, ValueError, TypeError, KeyError) as exc:
+            last_error = f"invalid json ({exc.__class__.__name__})"
+            repair_prompt = build_schema_repair_prompt(raw, str(exc)[:200])
+        else:
+            quality_errors = report_quality_errors(
+                candidate, hooper=hooper, writer=writer
+            )
+            if not quality_errors:
+                return candidate
+            last_error = "quality gate: " + ", ".join(sorted(set(quality_errors)))[:200]
+            repair_prompt = build_schema_repair_prompt(raw, last_error)
+        if attempt < max_attempts:
+            print(
+                f"  [gen] attempt {attempt}/{max_attempts} failed ({last_error}); "
+                "issuing schema-repair retry",
+                file=sys.stderr,
+            )
+            time.sleep(5)
+    raise ReportGenerationError(
+        f"report generation failed after {max_attempts} attempts: {last_error}"
+    )
+
+
 # Phrases the LLM uses despite being told not to. We strip them post-hoc
 # rather than re-rolling the generation (which costs another API call).
 BANNED_PHRASES = [
@@ -1398,6 +1623,19 @@ def report_quality_errors(
     route_index = (hooper or {}).get("offshore_structure_route_index", {})
     if not isinstance(route_index, dict):
         route_index = {}
+    else:
+        route_index = dict(route_index)
+    # Canonical beat geography is valid static context. These names are
+    # fold-registered so disclosure and wrong-zone checks behave, but they are
+    # NOT treated as current-bite evidence on their own (checked below).
+    canonical_folded: set[str] = set()
+    if is_offshore_writer and writer_id:
+        named_leads_folded = {lead.casefold() for lead in OFFSHORE_NAMED_LEADS}
+        for name in canonical_offshore_landmarks(writer or {}):
+            clean_name = str(name).strip()
+            if clean_name and clean_name.casefold() not in named_leads_folded:
+                route_index.setdefault(clean_name, writer_id)
+                canonical_folded.add(clean_name.casefold())
     route_index_folded = {str(name).casefold(): (str(name), zone) for name, zone in route_index.items()}
     disclosed = report.get("offshore_locations_used")
     if is_offshore_writer and not isinstance(disclosed, list):
@@ -1407,6 +1645,7 @@ def report_quality_errors(
         disclosed = []
     disclosed_folded = {str(name).strip().casefold() for name in disclosed if str(name).strip()}
     if is_offshore_writer:
+        body_text = str(report.get("body_markdown", ""))
         for name in disclosed:
             clean_name = str(name).strip()
             if not clean_name:
@@ -1423,7 +1662,7 @@ def report_quality_errors(
                 marker = f"wrong-zone offshore structure: {name}"
                 if marker not in errors:
                     errors.append(marker)
-        for name in extract_named_offshore_structures(str(report.get("body_markdown", ""))):
+        for name in extract_named_offshore_structures(body_text):
             folded_name = name.casefold()
             if folded_name not in disclosed_folded:
                 marker = f"undisclosed offshore structure: {name}"
@@ -1438,6 +1677,25 @@ def report_quality_errors(
                 marker = f"wrong-zone offshore structure: {route[0]}"
                 if marker not in errors:
                     errors.append(marker)
+        # Canonical geography may be named as static context, but the moment it
+        # is presented as a CURRENT bite it becomes evidence and requires dated
+        # routed source records like any other lead.
+        evidenced_folded = {
+            str(item.get("location_name", "")).strip().casefold()
+            for item in structure_evidence
+            if isinstance(item, dict)
+            and item.get("date")
+            and item.get("source")
+            and (not writer_id or item.get("report_zone") == writer_id)
+        }
+        for folded_name in sorted(canonical_folded):
+            if folded_name in evidenced_folded or folded_name not in full_text:
+                continue
+            display = route_index_folded[folded_name][0]
+            if claims_current_catch(body_text, display) or claims_current_catch(
+                f"{report.get('headline', '')} {report.get('subhead', '')}", display
+            ):
+                errors.append(f"unverified current catch claim: {display}")
     return errors
 
 
@@ -1471,26 +1729,44 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
     date_prefix = f"{today.strftime('%Y-%m-%d')}-{writer['id']}-"
     for stale in REPORTS_DIR.glob(f"{date_prefix}*"):
         stale.unlink()
-    out_json = REPORTS_DIR / f"{report_id}.json"
-    out_json.write_text(
-        json.dumps(publication, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
+    # Atomic pair: write both sides to temp files, then rename. A crash or
+    # failure mid-write can never leave a partial .json/.md behind.
+    json_tmp: Path | None = None
+    md_tmp: Path | None = None
+    try:
+        json_tmp = REPORTS_DIR / f".{report_id}.json.tmp"
+        json_tmp.write_text(
+            json.dumps(publication, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
 
-    out_md = REPORTS_DIR / f"{report_id}.md"
-    md = [
-        f"# {report['headline']}",
-        f"*{report.get('subhead','')}*",
-        "",
-        f"**{report.get('dateline','')}** — _by {writer['name']}, {writer['role']}_",
-        "",
-        report.get("body_markdown", ""),
-        "",
-        "---",
-        "",
-        "Tags: " + ", ".join(report.get("tags", [])),
-    ]
-    out_md.write_text("\n".join(md) + "\n", encoding="utf-8")
+        md = [
+            f"# {report['headline']}",
+            f"*{report.get('subhead','')}*",
+            "",
+            f"**{report.get('dateline','')}** — _by {writer['name']}, {writer['role']}_",
+            "",
+            report.get("body_markdown", ""),
+            "",
+            "---",
+            "",
+            "Tags: " + ", ".join(report.get("tags", [])),
+        ]
+        md_tmp = REPORTS_DIR / f".{report_id}.md.tmp"
+        md_tmp.write_text("\n".join(md) + "\n", encoding="utf-8")
+
+        os.replace(json_tmp, REPORTS_DIR / f"{report_id}.json")
+        json_tmp = None
+        os.replace(md_tmp, REPORTS_DIR / f"{report_id}.md")
+        md_tmp = None
+    except BaseException:
+        for tmp in (json_tmp, md_tmp):
+            if tmp is not None:
+                try:
+                    tmp.unlink()
+                except OSError:
+                    pass
+        raise
 
     # Also write to the unified fishing intel database
     import hashlib as _hl
@@ -1715,32 +1991,15 @@ def main() -> int:
     system, user = build_prompt(writer, reports, analyst, youtube_intel, hooper=hooper, called_it=called_it)
     print(f"[gen] calling {args.model} (prompt={len(system)+len(user):,} chars)", file=sys.stderr)
 
-    # Retry the LLM call up to 3 times on invalid or incomplete output.
-    report: dict | None = None
-    for json_attempt in range(3):
-        raw = call_openrouter(system, user, args.model)
-        try:
-            candidate = scrub_report(parse_llm_json(raw), writer)
-        except json.JSONDecodeError as e:
-            print(f"[error] model returned non-JSON (attempt {json_attempt+1}/3): {e}\n---\n{raw[:400]}", file=sys.stderr)
-        else:
-            quality_errors = report_quality_errors(
-                candidate,
-                hooper=hooper,
-                writer=writer,
-            )
-            if not quality_errors:
-                report = candidate
-                break
-            print(
-                f"[error] model output failed quality gate "
-                f"(attempt {json_attempt+1}/3): {', '.join(quality_errors)}",
-                file=sys.stderr,
-            )
-        if json_attempt < 2:
-            time.sleep(5)
-
-    if report is None:
+    # Bounded deterministic recovery: parse/schema/quality failures trigger a
+    # fresh provider call with an explicit schema-repair prompt. Exhaustion is
+    # a clean nonzero exit with a sanitized error and no partial report files.
+    try:
+        report = generate_report_with_retry(
+            writer, system, user, args.model, hooper=hooper
+        )
+    except ReportGenerationError as exc:
+        print(f"[error] {exc}", file=sys.stderr)
         return 1
 
     if args.dry_run:
