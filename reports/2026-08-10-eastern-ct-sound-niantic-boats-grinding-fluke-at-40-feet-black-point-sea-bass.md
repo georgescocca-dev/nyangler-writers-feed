@@ -1,0 +1,26 @@
+# Niantic Boats Grinding Fluke at 40 Feet — Black Point Sea Bass Won't Quit
+*Full moon current has the drift bite sharp on the edges, and the first cocktail blues are sneaking into the river right on schedule.*
+
+**NIANTIC, CT — August 10** — _by Danny Colón, Zone Writer_
+
+Stopped by the dock in Niantic Tuesday morning and one of the mates off the drift boats was still hosing down the deck when he told me Monday's half-day put a dozen keeper fluke in the box, biggest one going better than seven pounds, out on the flat between Twotree Island Channel and the Bay. That's the kind of report that gets repeated at the bait shop by noon, and by the time I got over there myself, every rod holder on the wall had a story attached to it.
+
+Here's what's actually happening out there. New London's holding around 69.8 degrees, which is a solid five, six degrees cooler than what they're dealing with over in the western Sound right now, and that's exactly why this end keeps producing while other zones get squirrely in the heat. The fluke don't want warm water any more than we want to fish in it, and the drop-offs off Black Point and the deeper cuts through Twotree Channel are holding that cooler layer right where the boats are drifting — 35 to 45 feet depending where you set up, current line running clean.
+
+This full moon has put some real push into the tide, and that's sharpening up the bite windows at the changes. Boats that are timing their drifts to the last hour of the ebb and the first hour of the flood are the ones filling the cooler. Standard program: white or chartreuse Gulp on 3/4-ounce bucktails, tipped with a strip of squid, dragged slow right on bottom. When the current's really moving through Twotree, guys are bumping up to an ounce just to stay in contact. Nothing fancy about it — it's a bottom game, and the fish are sitting tight to structure where that current bends around the edges.
+
+Black sea bass have been the steady Eddie all month and nothing's changed. Structure off Black Point and out toward Hole-in-the-Wall is holding fish stacked right around the thermocline, and that's typically 30 to 50 feet this time of year depending on where you're marking bait on the machine. Green crab and squid strips on a standard sea bass rig, two-hook bottom rig with enough weight to hold in the current — 4 to 6 ounces most days. Legal-size fish are mixing with plenty of shorts, so you're sorting through some, but limits aren't hard to come by if you're willing to move around and find the right piece of bottom.
+
+Porgies are doing what porgies do — thick around the same structure, happy to eat whatever you drop, and a great option if you've got kids aboard or just want steady bend in the rod without overthinking it. Sandworms and clam on light tackle, anywhere there's rock or reef from McCook Point out toward the deeper water.
+
+Striper action has gone strictly nocturnal with this heat. Daytime, forget the open Sound — those fish have shut down outside of a few current-swept pockets. But dawn and dusk around bunker schools, especially where the Niantic River empties out and any structure near Black Point that breaks up the current, guys are still connecting. Live-lining bunker or working bucktails through the low-light windows is the play. Don't expect much between 10 and 4 — that's naptime for these fish right now.
+
+Now here's something worth flagging. We said a couple weeks back that as peanut bunker spread through the back bays, the cocktail blues would follow within two weeks — and that's exactly what's showing up in the Niantic River and the shallows around Twotree right now. Snapper-sized and up into cocktail-blue territory, chewing on small metal and epoxy jigs, giving light-tackle guys and kids with spinning rods some genuinely fun action in water that's easy to reach from shore or a small boat. It's not the big adult blues yet, but it's building, and if the bait keeps pushing this direction, don't be shocked if bigger fish show up behind them.
+
+One more thing to keep an ear on — the guys running charters toward the Race have been talking bonito potential as that water holds in a favorable range. Nothing confirmed on my end yet for this zone specifically, but Fishers Island Sound and the Race corridor are exactly the kind of structure that lights up once those fish push through, and eastern Connecticut Sound anglers are close enough to make a run worth it if reports firm up.
+
+Looking ahead, this moon's still got some juice left in it for another day or two, so I'd keep working those tide changes for fluke while the current's sharp. Once we get past full and things settle back to a more normal push, expect the bite windows to spread out a little rather than concentrate so hard at the changes — which usually means covering more water to find them. If the afternoon sea breeze builds like it's been forecasted, plan your drift boat trips or your own runs for the morning before it kicks up chop on the open Bay. Structure fishing stays money regardless — Black Point and Hole-in-the-Wall aren't going anywhere, and neither is the sea bass.
+
+---
+
+Tags: fluke, black-sea-bass, niantic-bay, black-point, bucktail, twotree-channel

@@ -1,0 +1,24 @@
+# Rough Monday, roaring Thursday: Spencer's break reformed right where we said it would
+*A southerly blow scrambled the edge for two days, then Spencer and Norfolk both turned on yellowfin as the water sorted itself out.*
+
+**CAPE MAY, NJ — August 7** — _by Capt. Ray Lugo, Zone Writer_
+
+Grade for the week: B-plus, and it earned every bit of that grade the hard way. Monday was a throwaway — that southerly blow pushed 3 to 4 foot seas out of the south, mean direction dead out of 178, and it took the clean edge we'd been running to Spencer and turned it to mush. We said it would happen before it did — flagged that the breaks would blur for a day or two and likely reform south or seaward of where they'd been sitting. That's exactly the play. By Wednesday the water sorted itself back out, and Thursday we found yellowfin stacked on a filament that had slid a good eight to ten miles southeast of where we'd marked it the week before.
+
+Here's how the week actually ran, canyon by canyon, because that's the only way to talk about this stretch of bottom.
+
+Spencer was the story. We ran out of Cape May working the 100-fathom curve on the northeast wall, roughly 39°08'N 72°38'W, and once that break reformed it reformed clean — sharp color change, birds working bait pushed right up against the edge. Yellowfin from 35 to 60 pounds came on the troll early, green machines and small Ilanders pulled at 6 to 7 knots over water we marked in the mid-70s on the surface, and once we found the push we shut down and chunked butterfish over it. That's when the bigger fish showed — a couple bigeye in the 100-pound class came up from depth on a straight butterfish drift with no weight, baits sinking naturally off the stern in that oily slick. Stable high pressure the last several days made it an easy canyon to fish two, three days running — no weather bailouts, no wasted fuel.
+
+Lindenkohl, just south of Spencer around 38°58'N 72°46'W, was more of a mixed bag. We picked at mahi under a weedline on the way out — schoolies to 8 pounds, small stuff but fun on light spinning gear with skirted ballyhoo — and a couple white marlin showed on the troll but wouldn't commit past a bite-off. If you're running Lindenkohl right now I'd have naked ballyhoo and a spread of dink baits ready for those whites rather than counting on the bigger meat spread alone. It's there, but it's not stacked the way Spencer was.
+
+Poor Man's — the closer run, inshore of the 100-fathom line around 38°37'N 73°10'W — fished more like a bait-and-troll day than a chunk day. Good for boats that can't commit to the full run. We marked wahoo signs on the fishfinder screaming through bait balls near the edge and picked off two nice ones, 40 and 55 pounds, on high-speed trolled Yo-Zuri Bonito lures pulled at 12 knots. That canyon's the sleeper for guys who want a shorter ride and still want a shot at real fish, but the tuna bite there was slower than Spencer — a couple stray yellowfin, nothing like the numbers up north.
+
+Norfolk was the surprise. That's the long run for us out of Ocean City, but the reports coming back from boats working the 200-fathom break down there had bigeye and yellowfin both showing on the same push of warm water that's been feeding Spencer. If the filament that reformed after Monday's blow keeps sliding south the way it has, Norfolk could be the better bet by the weekend — it's already getting the leftovers of the same temperature break, just a few days behind.
+
+Across the board, the stable weather is doing the heavy lifting right now. No wind, no seas to fight, and boats that can commit two or three days in a row are cashing in on it. That's the read Hooper and I have both been circling for weeks — mid-August, warm Gulf Stream filaments pinned against the shelf edge, bait and tuna both holding tight to the breaks. It's about as textbook as this fishery gets, but textbook doesn't mean automatic. We still had to find the reformed edge, and it took a day of running around with the temp gauge before Spencer paid off.
+
+Looking ahead — tides are softening back toward first quarter, and that shift usually means less current-driven chaos on the drift and better conditions for the troll and the daytime deep-drop. If you've got swordfish gear rigged, this is the window. Softer current makes it easier to hold bottom at 1,200 to 1,600 feet without fighting the boat all day, and Norfolk in particular has a track record for daytime swords once things calm down like this. I'd split my time — troll Spencer early morning while the temp break is freshest, then either chunk it through midday or make the run south to check Norfolk before committing the boat to a full sword drop. Keep an eye on anything spinning up in the tropics, because this calm stretch won't last forever, and when it breaks it usually breaks the pattern along with it.
+
+---
+
+Tags: yellowfin-tuna, spencer-canyon, norfolk-canyon, canyon-troll, bigeye-tuna, chunking

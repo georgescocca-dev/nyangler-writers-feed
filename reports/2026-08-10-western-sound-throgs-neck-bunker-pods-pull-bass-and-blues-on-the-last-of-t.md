@@ -1,0 +1,26 @@
+# Throgs Neck bunker pods pull bass and blues on the last of the dark
+*The daytime bite's gone quiet with the heat, but the bunker schools stacking off City Island are turning on stripers and blues at first light.*
+
+**CITY ISLAND, NY — August 10** — _by Frank "The Sound Pro" Marinaro, Zone Writer_
+
+Guy at the bait shop on City Island Avenue asked me Tuesday why his charter got skunked on bass at noon last week, working the same rockpile off Hart Island that put fish in the box back in June. I told him what I've been telling guys for thirty years in the dead of August — the sun's up too high, the water's too warm on top, and if you want stripers this time of year you fish the dark. Simple as that. He didn't love the answer, but it's the truth of the Western Sound in high summer.
+
+Kings Point is reading 72.5 degrees, New London's sitting at 69.8, and that gradient tells you everything. The western end of the Sound holds the heat longer, and by two in the afternoon the top six feet off Matinecock or the flats inside Little Neck Bay is basically a warm bath. Bass don't want any part of that in daylight. What they want is the dark water down around Execution Rocks and the last hour of light through the Stepping Stones, when the current starts working and the temperature breaks a couple degrees on the drop.
+
+The good news — and there's real good news this week — is the bunker. Big pods of peanut and adult bunker have parked off Throgs Neck and along the City Island flats, thick enough to color the water black in patches, and every predator in the Sound knows it. We flagged the bunker spread a week back as the thing to watch for cocktail blues, and here it is — snapper blues have thickened up in Little Neck Bay and Manhasset Bay, and the adult blues are riding those bunker schools right up against the bridge pilings at dawn. Guys throwing SP Minnows and small Deadly Dicks into the edges of those pods at first light are getting steady action, blues in the 3- to 5-pound range, some better.
+
+Stripers are working the same bunker but on their own schedule — first thirty minutes of gray light and the last thirty of dusk, that's the window. Live-lining a bunker off a fish-finder rig, freespooled back into the pod, has produced the better fish — nothing enormous, mostly schoolies and a few keepers in the 26- to 30-inch range around the Execution Rocks rockpile on the last of the outgoing. If you're not there for that window, don't bother — I had two nights this week where the tide was right and the bass just weren't up, and one night where they hammered bunker so hard off the rocks it looked like rain hitting the surface. That's August for you. You put your time in on the tide, not the clock.
+
+Fluke has been the more dependable player, and the moon's helping. We're coming off the full moon swing, and that extra push has sharpened the drift bite at the tide changes — I've had my best fluke drifts of the month working the channel edge off Matinecock Point and the deeper cuts inside Hempstead Harbor, 25 to 35 feet, white Gulp Swimming Mullets on 3/4-ounce bucktails, tipped with a strip of squid. Doormats have been scattered but real — a 6-pounder came over the rail off Manhasset Bay on the last incoming Sunday, and I've heard of a couple better than that working the Throgs Neck side. The pattern's the same everywhere: fish it slow, right on the bottom, right through the moment the tide turns, because that's when the current-swept structure gives up its best window.
+
+Porgies remain the honest man's fishery out here — you want a bent rod without overthinking it, anchor up on any of the rockpiles from Hart Island out to Execution Rocks, drop bloodworms or clam on a hi-lo rig in 20 to 30 feet, and you'll load the cooler. Nothing glamorous about it, but it's about as close to a guarantee as this Sound offers in August, and on a slow bass morning it's saved plenty of trips.
+
+Weakfish have been quiet on my end — I know the bunker's supposed to pull them into the bays this month, and I've heard whispers of a few taken deep on bucktails around Manhasset, but I haven't put my hands on one myself, so I'm not going to oversell it. If you're targeting them, fish the same deep holes where the porgies and fluke are stacking and keep an open mind.
+
+Blue claw crabbing, meanwhile, has been about the most reliable thing going — the back bays and marsh creeks off Little Neck and Manhasset are loaded, chicken necks on a hand line will keep a family busy for an afternoon while the men work the rod tips elsewhere.
+
+Looking ahead, the moon's starting to ease off full, which should settle the current back into a more normal rhythm by midweek — shorter, gentler pushes at the bridge and reef rips instead of the exaggerated full-moon current we've had. That usually means the bite windows get a little more predictable, even if they don't get any longer. If I had one trip to make this week, I'd be at Execution Rocks forty minutes before first light on the outgoing, live bunker ready to go, and I'd have a bucktail rigged for fluke as backup once the sun gets up and the bass shut down. That's the two-fish plan that's been working for me all month, and I don't see any reason to change it yet.
+
+---
+
+Tags: striped-bass, bluefish, fluke, porgies, blackfish, weakfish

@@ -1,0 +1,24 @@
+# Biddeford Pool's Incoming Still Pays: Bass to 28, Blues Crash Pine Point
+*A rocky-shore stretch that's fishing better than it should this deep into a warm August, if you work the right hour of tide.*
+
+**BIDDEFORD POOL, ME — August 7** — _by Dutch Osterberg, Zone Writer_
+
+Tuesday morning, forty minutes into the flood at Biddeford Pool, I watched a bass come up under a black Danny plug like it had somewhere to be. Twenty-eight inches, maybe six pounds heavier than that, and she hit the plug so hard the rod tip buried before I even felt the take. That's the Pool doing what it's supposed to do on the incoming — the current stacks bait against the rocks on the east side, the stripers slide in behind it, and for about ninety minutes you've got the best window of the day. I've fished that tide stage for going on twenty years and it still gets me every time. Miss that window and you're often just casting at empty water till the next cycle.
+
+That's the honest headline for Southern Maine right now — good, not great, and very much tide-and-hour dependent. The water down south of the Cape has slid into that thick, warm mid-70s stuff that pushes bass off the surface and into deep structure at night. We don't have that problem up here. The Gulf of Maine keeps feeding cooler water along this stretch, and it's kept our fish willing to eat in daylight when the boys south of Boston are stuck fishing eels after dark. If you want a daytime striper right now, Kittery to Cape Elizabeth is the more honest bet on the whole coast.
+
+Pine Point and the mouth of the Scarborough River system have been the story for bluefish. We flagged the peanut bunker push a couple weeks back and said it'd spike the back-bay blues within two weeks — that's exactly what showed up. Snapper blues are thick enough in the harbor channels that kids with bobbers and strips of mackerel are filling coolers, and the adult blues are working the edges where the river current meets the incoming salt, chopping through pods of peanuts hard enough to turn the surface white for a few minutes at a time before they push back out with the tide. Small metal — half-ounce to an ounce, Deadly Dicks and narrow Kastmasters — has been the right call there. Don't overthink it. Cast into the boil, let it sink two seconds, rip it back.
+
+Higgins Beach has been more stop-and-start than blitz. I had one evening last week where the blues showed for maybe twenty minutes right at the change of light, chased a school of pogies right up into the wash, and then vanished like they'd never been there. Needlefish plugs and 3/4-ounce Hopkins worked when they were on, but I burned two hours of nothing before and after that window. If you're planning a Higgins trip, go at the tide change and don't expect a long bite — get in, get your shots, and don't be surprised if it shuts off fast.
+
+Prouts Neck has been quietly solid on a southwest wind, which is the setup you want there. The wind lays the swell down along the front side of the point, cleans up the water, and pushes bait tight against the rocks where the bass sit and wait for it. I worked the outside edge on a falling tide with a Doc's swimmer in bone color and picked up two fish in the mid-20-inch range along with a couple of shorts that came unbuttoned before I could get a hand on them. Nothing to write home about size-wise, but steady enough that I'd go back on the next SW day without hesitating.
+
+Mackerel are still thick off the ledges — Wood Island, the rocks off Cape Elizabeth, out past Prouts. Deadly Dicks or a mackerel tree jigged just under the surface will fill a bucket in twenty minutes most mornings, and if you want fresh bait for a night bass session at the Pool or off the Cape Elizabeth rocks, that's your move. A live mackerel on a fish-finder rig, drifted along a rock ledge on the last two hours of the ebb, has been quietly producing some of the better fish reports I've heard this month — nothing giant, but consistent 28-to-32-inch class bass.
+
+Flounder are still around in Wells Harbor and the channel edges up in Ogunquit, though that bite has softened as the water's warmed — bloodworms and clam strips on the bottom, fished slow, still get a few keepers if you're patient. Cod are a non-story for the surf crowd this time of year; that's strictly a boat game well offshore of this beat, and not one I'm chasing from the rocks.
+
+Looking ahead — if this southwest wind pattern holds through the weekend, I'd put my money on Prouts Neck again, same approach, outgoing tide, working the outside edge with swimmers. Biddeford Pool stays the highest-percentage spot in the zone as long as you respect the incoming window and don't waste time fishing it dead slack. And keep an eye on Pine Point — if that bunker keeps pushing in the way it has, the blue bite there could turn from good to genuinely wild before the month's out.
+
+---
+
+Tags: striped-bass, bluefish, mackerel, flounder, cod, southern-maine
