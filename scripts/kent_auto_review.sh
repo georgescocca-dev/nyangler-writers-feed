@@ -94,8 +94,24 @@ print(scan_out)
 if scan.returncode != 0:
     problems.append("scanner found hard rejects (see log)")
 
-# --- 4. today's Hooper briefing exists ---
+# --- 4. today's Hooper briefing exists (fresh intel, within 48h) ---
+# The pipeline runs at 11pm the night BEFORE publish, so it writes hooper_<run-date>.json
+# (e.g. hooper_2026-08-09.json for Monday Aug 10). Accept today's file OR the most
+# recent hooper_*.json if it is <= 48h old — same fresh intel, no off-by-one rejection.
 hooper = os.path.join(hooper_dir, f"hooper_{today}.json")
+hooper_used = f"hooper_{today}.json"
+if not os.path.exists(hooper):
+    import glob
+    candidates = sorted(glob.glob(os.path.join(hooper_dir, "hooper_*.json")), reverse=True)
+    for cand in candidates:
+        try:
+            mtime = datetime.fromtimestamp(os.path.getmtime(cand), tz=timezone.utc)
+            if (datetime.now(timezone.utc) - mtime).total_seconds() <= 48 * 3600:
+                hooper = cand
+                hooper_used = os.path.basename(cand)
+                break
+        except OSError:
+            continue
 if not os.path.exists(hooper):
     problems.append("no Hooper briefing for today (stale intel)")
 
@@ -106,7 +122,7 @@ verdict = {
     "reviewed_at": datetime.now(timezone.utc).isoformat(),
     "reports_reviewed": report_count,
     "zone_coverage": f"{coverage}/{len(expected)}",
-    "hooper_analysis": f"hooper_{today}.json" if os.path.exists(hooper) else "MISSING",
+    "hooper_analysis": hooper_used if os.path.exists(hooper) else "MISSING",
     "review_type": "auto-rule-gate (headless)",
     "notes": ("Auto-gate passed: coverage OK, no hard rejects, fresh Hooper."
               if not problems else

@@ -46,8 +46,13 @@ echo "=== PIPELINE START: $TODAY $(date) ==="
 # Degradation tracker — recorded so the push/Kent knows what shipped thin.
 DEGRADED=""
 
-# --- Python --- (3.11 was removed in the crash; use the intel venv's 3.12)
+# --- Python --- (3.11 was removed in the crash; use the intel venv's 3.12,
+# falling back to the hermes-agent venv, then system python)
 PYTHON="/Users/spartacus/nor-easter-setup/projects/noreaster-intel/.venv/bin/python3"
+if [ ! -x "$PYTHON" ]; then
+    PYTHON="/Users/spartacus/.hermes/hermes-agent/venv/bin/python3"
+    echo "  [WARN] old intel venv missing — falling back to hermes venv: $PYTHON"
+fi
 if [ ! -x "$PYTHON" ]; then
     echo "FATAL: $PYTHON not found or not executable"
     exit 1
