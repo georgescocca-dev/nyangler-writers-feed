@@ -1,0 +1,26 @@
+# Biddeford Pool's Incoming Turns Bass, Blues Crash Higgins at First Light
+*Warm water pushed the bait tight to the rocks this week, and for an hour on either side of the turn, Southern Maine looked like it meant business.*
+
+**BIDDEFORD POOL, ME — August 17** — _by Dutch Osterberg, Zone Writer_
+
+Tuesday, half hour before the top of the incoming at the Pool, and a striper north of 30 inches about tore the rod out of my hands on a black Gibbs Danny worked slow across the current seam by the channel markers. Didn't see her coming — just felt the plug go from swimming to dead stop, then that heavy, stubborn pull toward the rocks that only a real bass gives you. She came in at 34 inches, fat, full of pogies, and went back to do it again to somebody else. That's the kind of take that reminds you why you stand in the dark waiting on a tide.
+
+That's been the story all week — not everywhere, not all day, but at the Pool on the incoming, it's been the real thing. The water here jumped hard the last ten days, up out of the low 60s into the upper 60s and touching low 70s in the harbor mouths, and that's pulled bait tight against structure and kept it there longer than usual. Pogies and peanut bunker are stacked in the pool and along the flats toward Fletcher's Neck, and the bass are following them right up onto the sod banks on the push. Best window is the last two hours of the incoming through the top — after that the current goes slack, the bite goes quiet, and you're better off moving.
+
+Higgins Beach has had its moments too, mostly at first light. Bluefish, not giants, mostly 2 to 4 pounds with a few pushing 6, have been slashing through pods of bait right in the wash, close enough that guys are hooking up on the first cast off the sand. Poppers and 1-ounce Kastmasters worked fast through the foam have been drawing the strikes — don't finesse it, blues want commotion. By 8 or 9 with the sun up and the wind lying down, that bite shuts off hard. If you want a shot at Higgins, be there in the dark with coffee already gone cold.
+
+Prouts Neck has been streaky, which is normal for this spot — it lives and dies on wind direction. We had a stretch of southwest wind mid-week that pushed bait right up against the ledges on the north side, and that turned on a decent bass bite for two mornings running, mostly schoolies with a few keepers mixed in on white Slug-Gos worked over the boulder fields. When the wind swings northeast or dies flat, Prouts goes quiet fast — the current there needs that push to concentrate anything.
+
+We flagged last week that the striper-and-mackerel pattern would carry this zone through August, and that's exactly what's held. Mackerel have been thick off Pine Point pier and the jetty at Wells Harbor, schools rolling through on the tide changes and readily taking small Swedish Pimples and diamond jigs worked fast through the water column. Bring a few home for bait — a fresh mackerel strip fished on a fishfinder rig off the Pool rocks has out-produced everything else for the bigger bass holding deeper, especially on the dropping tide when the current pulls hard past the channel.
+
+Flounder fishing has been steady, not spectacular, in Wells Harbor and up into the Kennebunk River mouth. Bloodworms and sandworms on a simple two-hook flounder rig, fished slow on the bottom over mud and sand on the incoming, have been putting keeper flatties in coolers most mornings. Nothing to write home about size-wise, but it's a reliable box-filler when the surf bite goes soft midday.
+
+Cod and pollock have held to the usual pattern off Cape Elizabeth — working the ledges and broken bottom in 40 to 60 feet with diamond jigs or tube-and-worm trolled slow has been producing a mixed bag, pollock outnumbering cod about three to one right now. Nothing huge, but enough action to make a slow surf morning worth turning into a boat afternoon.
+
+We also called it on the bluefish — said the snapper blues packing the back bays and river mouths would build toward adult class as August wore on, and that's starting to show. The blues hitting Higgins and mixing into the mackerel schools off Pine Point are noticeably bigger than what we had three weeks ago. Expect that trend to keep building into September as the water holds warm.
+
+Looking ahead: tides are building back toward the August 28 full moon, which should sharpen up the current at the Pool and put more push behind that incoming bite — that's where I'd spend my time if I only had one morning. If the southwest wind cooperates again, Prouts Neck is worth a look too. Higgins stays a dawn-only proposition until the water cools some. And if the surf goes flat and quiet on you, there's no shame in running out to the ledges for cod and pollock — better than standing on dry rocks waiting on fish that aren't there yet.
+
+---
+
+Tags: striped-bass, bluefish, biddeford-pool, surf-plugging, higgins-beach, southern-maine

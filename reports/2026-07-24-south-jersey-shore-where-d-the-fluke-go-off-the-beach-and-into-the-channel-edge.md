@@ -3,7 +3,7 @@
 
 **ABSECON, NJ — July 24** — _by Darnell Freeman, Zone Writer_
 
-Got the same question three times this week, from three different anglers at three different docks, so let's turn it into a lesson. \"Darnell, I fished the sod banks in Absecon same as always and all I caught was shorts. What happened to the fluke?\"
+Got the same question three times this week, from three different anglers at three different docks, so let's turn it into a lesson. "Darnell, I fished the sod banks in Absecon same as always and all I caught was shorts. What happened to the fluke?"
 
 Here's what happened. It's July 24th, the back bays have been baking under stable southwest wind and high sun for going on two weeks, and shallow water that read comfortable in June is now running warm enough that a keeper fluke — the mature, 19-inch-and-up female — has options, and she's taking them. She's moved off the skinny sod bank flats where you found her on the last new moon and settled into the deeper channel edges and inlet structure where the water stays cooler and the current runs harder. This is textbook mid-summer behavior. I've watched it happen every July for thirty years and it never fails to catch somebody off guard.
 

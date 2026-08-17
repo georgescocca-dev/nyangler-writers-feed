@@ -1,0 +1,26 @@
+# Bunker Push the Breachways: Bass Crushing Peanuts from Sakonnet to Napatree
+*Rocks from Second Beach to Watch Hill are loaded with bait and blitzing stripers — the albies just haven't shown up to the party yet.*
+
+**NEWPORT, RI — August 14** — _by Billy Tanaka, Zone Writer_
+
+Peanut bunker are stacked so thick against the rocks at Second Beach this week you can see the wash go dark with them on a calm morning tide. That's the tell. When the bait pins itself tight to structure like that, something's pushing it, and right now it's stripers — not albies, not yet, but give it time.
+
+We flagged this last week — said the building tide into the new moon would sharpen things up at the breachways and points, and that's exactly what's happened. The bass have been on the bunker hard from Sakonnet Point down through Jamestown's east side and into Newport's Ocean Drive rocks. I've been working peanut-imitating soft plastics — 5-inch white Slug-Go's and Hogy jr's, unweighted or on a light 3/8-ounce jighead — right through the froth where the bunker are getting pinned against ledge. Retrieve slow, let it sink between rock faces, twitch it out. Fish are running mostly schoolies to mid-20s, but there've been enough fatter ones mixed in — low 30s — that it's worth working a spot longer than you think you should.
+
+Sakonnet Point has been the most consistent piece of structure all week. The bunker get squeezed into that funnel on the last two hours of the incoming, and the bass sit right on the edge of the rip off the point waiting for the current to disorganize the school. That's when you see the surface erupt — not a constant blitz, more like waves of it every 20 minutes as another push of bait gets shoved through. Second Beach has fished similarly on the outgoing, bait draining out past the rocks with the tide and stripers stacking up right where the wash meets the rip line.
+
+Jamestown's rockier stretches — the ledges along the east passage — have been a slower, more technical bite. Less blitz, more picking. Guys drifting live bunker on a fishfinder rig tight to the rocks in 15 to 25 feet have done well on the slower tides, especially the last hour before the turn when the current eases and the fish can actually track a bait instead of getting blown past it.
+
+Bluefish are riding right along with the bass in these same bunker schools, and they're not small — I've seen 3 and 4 pounders mixed into the blitzes at Sakonnet, plus snapper blues thick in the coves at Third Beach and up in the Sakonnet River proper. If you want steady bent-rod action without hunting for the exact right blitz window, tie on a metal — half-ounce Kastmaster or a Hopkins — and just work the edges of the bait balls. You'll connect.
+
+Now the albie question. Napatree and Watch Hill haven't seen the first fin yet, but the water's set up right for it — bait's dense, temps are warm, and Fishers Island Sound just to our west has all the right ingredients cooking too. Typically we don't see the first albies push into these breachways until late August or the first week of September, but with bait this thick this early, I wouldn't be shocked if they show ahead of schedule. When they do arrive, Napatree's the spot I check first — that sandbar drop where the rip forms on the outgoing tide funnels bait right past the point, and albies use it like a feeding lane. Watch Hill's east side and the Weekapaug breachway are close seconds. Keep an epoxy jig or a Deadly Dick tied on and just fish the bunker/blitz spots daily — the albies find these same bait concentrations, they just haven't crossed the sound yet.
+
+Fluke have been modest, which tracks with what's happening most places in New England this year outside of Nantucket Sound. I've picked a few keepers drifting Gulp on bucktails in the sandy pockets off Second Beach and in the mouth of the Sakonnet River, but it's not a program I'd build a whole trip around right now. Scup, on the other hand, have been dependable filler — drop a piece of clam or squid strip down into any rocky pocket from Beavertail to Napatree and you'll have bait for the cooler in short order.
+
+Tog are still tucked deep on the ledges — Beavertail, the rocks off Brenton Point, the humps outside Sakonnet — but this warm water has them uninterested. That bite doesn't really sharpen up until the water starts sliding down into the upper 60s, which puts us into September for real tog action. Not worth chasing hard yet.
+
+Looking ahead, I'd keep working the bunker schools wherever you find them stacked against structure — that's where the bass and blues are, and it's the same water the albies will use when they finally push in. Sakonnet Point on the incoming and Second Beach on the outgoing are my picks for this weekend if the wind stays reasonable. And I'd be checking Napatree every session, because when those first albies show, they don't stick around long before word gets out and the rocks get crowded.
+
+---
+
+Tags: striped-bass, bluefish, false-albacore-watch, sakonnet-point, napatree-point, bunker-blitz

@@ -1,0 +1,26 @@
+# Biddeford Pool on the incoming still owns the night — bass to 28, mackerel stacked at Wells
+*The new moon tide finally gave the current-driven spots some teeth, but this is still a river-mouth-and-rocks bite, not a blitz.*
+
+**BIDDEFORD POOL, ME — August 14** — _by Dutch Osterberg, Zone Writer_
+
+Tuesday night, low tide turning, I put a black Gibbs Danny across the mouth of the Pool and had a 28-inch bass on the third cast before my headlamp batteries were even warm. Missed two more blows in the dark that felt like real weight — the kind of headshake that makes you check your hooks twice before you cast again. That's the Pool doing what the Pool does on the incoming: current pours in over that sandbar, pushes mackerel and silversides ahead of it, and the bass stack up in the deeper channel edge waiting for the buffet to arrive. I've fished that push for the better part of thirty years and it still gets my hands shaking a little.
+
+We flagged this last week — said the building tidal flow into the August 12 new moon would sharpen the bite at current-driven structure, and that's exactly the story right now. The moon's fresh off new, the tides are running big, and every spot in this zone that depends on moving water — the Pool, the mouth of the Saco, Wells Harbor, the back channel at Pine Point — is fishing better than it was two weeks ago when everything felt stuck in neutral.
+
+Don't mistake that for a blitz, though. What's happening from Narragansett Bay up through Cape Cod Bay right now — bunker-driven, visible, surface-erupting bass — hasn't reached us and I wouldn't bet on it showing up here. Our water is still holding in that low-to-mid 60s range, cooler than the corridor to our south, and that keeps this a classic Maine pattern: fish working the tide against structure, not schools boiling on top in broad daylight. If you want the fireworks, you're looking at the wrong coastline this week. If you want a solid, honest bass in the dark on a plug, you're in the right place.
+
+Pine Point has been quietly good on the last two hours of the incoming, working the channel edge off the jetty with a Northbar bottle darter or a bone-colored Super Strike — slow retrieve, let it wallow, because the bass there are eating mackerel that are getting pushed and disoriented by the current rip, not chasing anything fast. I had a mixed bag Thursday morning there — three bass between 24 and 27 inches, one that measured just a hair shy of slot, released clean.
+
+Higgins Beach has had bluefish showing in shorter windows than I'd like — a solid half hour around the top of the tide where the sand fleas get stirred and the blues come through hot, hitting anything silver and fast. Small metal — a 1-ounce Kastmaster or a Hopkins — thrown into the wash and cranked hard has been the move. It's not an all-day bite. Miss the window and you're just casting at empty water, so time it to the tide charts, not to when you feel like showing up.
+
+Prouts Neck has been a coin flip depending on wind. When it's blowing out of the southwest, which it has more days than not this stretch, the rocks fish well — bait gets pushed up against the ledges and the bass hold tight to structure, close enough that you're practically dropping the plug in your own shadow. A Danny or a Bottle Popper worked parallel to the rocks, right in that white water seam, has drawn strikes in the 26-to-30-inch range. When the wind swings northeast, forget it — that whole stretch turns into standing water and the fish scatter off the structure.
+
+Mackerel have been thick enough at Wells Harbor and off Ogunquit's rocks that if you're not catching a few on a string of tinsel jigs dropped along the pilings, you're not really trying. They're the forage driving this whole pattern right now — striped bass pushing into the estuaries and river mouths are doing it because the mackerel are there, and that's held true from Kittery to Cape Elizabeth all month. Flounder fishing in Wells Harbor and the calmer stretches behind Biddeford Pool has stayed steady on the bottom — squid strips and sandworms on a simple flounder rig in eight to fifteen feet, best on the last of the incoming when the water's had a chance to warm and settle.
+
+Cod haven't been a big story close to shore this time of year, which is normal — that's more a late fall and winter game for us once the water starts dropping. Pollock have been the better bonus fish around any hard structure — jetties, ledge piles, the rocks off Cape Elizabeth — hit with a diamond jig worked with a fast vertical jig-and-drop.
+
+Looking ahead: the tides stay big for another few days off this new moon, so I'd keep leaning into the Pool on the incoming and Pine Point on that same push — those two spots have the most reliable current to work with right now. If the wind holds southwest into the weekend, Prouts Neck is worth the drive. What I'm watching for is any sign that bait starts thinning out of the estuaries as we roll toward September — that's usually the tell that the real fall run is close, and up here that's still the best fishing of the year once it gets going. For now, it's a solid, working-man's bite. Bring your headlamp, fish the tide, and don't expect the ocean to hand you anything for free.
+
+---
+
+Tags: striped-bass, biddeford-pool, surf-plugging, bluefish, mackerel, incoming-tide

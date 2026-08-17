@@ -1,0 +1,26 @@
+# Race Point on the push: bass crash peanut bunker as blitzes run up from the south
+*Mid-August bunker blitzes have hit Cape Cod Bay early, with bass tearing up bait from Race Point to Sandy Neck while cod stay quiet on the deep stuff for now.*
+
+**PROVINCETOWN, MA — August 14** — _by Donny Costa, Zone Writer_
+
+Tuesday morning I had the boat idling off Race Point, waiting on the tide to turn, and the water just erupted about two hundred yards off my bow. No warning, no gulls even — just white water and bass coming up under a pod of peanut bunker like someone flipped a switch. I've been drifting this Bay thirty years and you learn not to run at a blitz, you ease into it, let the boat drift down on the edge of the bait rather than plow through the middle and spook the whole show. Cut the engine, let her glide, and cast into the edge where the bunker are getting pushed against the current line. That's exactly what I did, and inside twenty minutes we had four bass in the 28 to 34 inch range in the box and released a handful more.
+
+What's happening right now is a little out of the ordinary for the middle of August. Bunker-driven blitzes usually belong to September and October around here, the classic fall run signature, but this year the peanut bunker showed up early and stacked thick, and the bass followed them right up the coast — the same pattern that's been running from Narragansett Bay through Buzzards Bay is now showing at our doorstep. Whether that means an early fall staging pattern or just an early bait push, I can't say for certain, but the fish don't care what you call it. They're eating.
+
+Race Point and Peaked Hill Bars have both been holding fish, but the pattern's been tide-dependent. The last two hours of the incoming, when the rip starts to build off the Race, has been the most reliable window — bait gets funneled and concentrated against the current seam and the bass sit underneath waiting for it to spill over. Slack water kills it dead out there; I've watched a blitz just evaporate the second the tide goes still, bass sounding down and bunker scattering. So if you're planning a trip, build it around that push, not around when you happen to be free.
+
+Tactics have been simple because the fish are telling you what to do. Straight bunker imitations — 6-inch white or bunker-colored soft plastic swimbaits on a 1-ounce jighead, worked just under the surface through the edge of the commotion — have outfished everything else. When the fish get finicky and stop hitting the top-water stuff, dropping down to a bunker spoon or a diamond jig with a bit of bucktail tied on and working it through the water column has saved more than one slow stretch. Live-lining an actual peanut bunker on a small hook, if you can net a few off the school, is about as good as it gets when the bass get fussy, which they do once the blitz has been worked over by every boat in the harbor.
+
+Bluefish have been riding shotgun in these same bunker schools, and they're not shy about it — choppers in the 3 to 6 pound class slashing through the bait right alongside the stripers. If you're throwing plugs and missing hookups on bass, there's a good chance a blue just cut your leader instead. Wire or heavy fluoro leader has been worth the extra rig time.
+
+Fluke fishing stays what it's been all summer in this Bay — modest, honest work rather than a highlight reel. Billingsgate has been giving up a few keepers in that 18 to 22 inch class on Gulp in white or chartreuse dragged slow along the sand-mud transition in 15 to 25 feet, and the Barnstable flats off Sandy Neck have done similarly on the last of the outgoing when the water's still got some push to it. Nobody's filling a cooler on fluke right now, but a few for dinner is a realistic goal if you put in the drift time.
+
+Mackerel have been around in decent numbers offshore of the Race, which is part of why the bass have been so willing — there's a layered bait buffet out there between the peanut bunker inshore and mackerel schools a bit further out. Jigging small diamond jigs or mackerel trees in 40 to 60 feet has been an easy way to fill the livewell if you want fresh bait for bigger bass, and it's also just a nice half hour of fishing on its own.
+
+Cod remain the quiet story right now. The deeper structure out toward the edges of Stellwagen and the drop-offs beyond Peaked Hill hasn't turned on yet — water's still holding its summer warmth up top, and cod want that fall chill to push them back onto the humps and ledges in earnest. I wouldn't burn a trip targeting them this week. That bite's coming, just not yet.
+
+Looking ahead, as long as those peanut bunker schools hold position in the Bay, I expect the blitz pattern to keep running, especially on that incoming push at Race Point and Peaked Hill Bars. If the wind stays out of the northeast and keeps that bait pinned against the outer beach, this could stretch on for another week or two before things settle into the more typical September pattern. I'd plan around the tide, not the calendar, and get out there while the bunker's still balled up tight.
+
+---
+
+Tags: striped-bass, bluefish, cod, fluke, mackerel, cape-cod-bay

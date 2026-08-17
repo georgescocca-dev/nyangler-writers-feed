@@ -1,0 +1,26 @@
+# Ebb Tide Eels Are Putting Big Bass on the Rocks at Plum Gut
+*Cooler water and hard current at the Race and the Gut are holding fish while the rest of the Sound cooks.*
+
+**ORIENT, NY — August 17** — _by Mike Rizzo, Zone Writer_
+
+Three-fifteen in the morning, chest-deep on the Orient side of Plum Gut, and a 34-inch bass nearly ripped the rod out of my hands on the third cast of a slow-sinking eel. That's the report right there. The current was screaming — full ebb, maybe 4 knots — and that fish came off the edge of a rip that's been holding stripers all week. Landed two more before the tide went slack, both in the low 30s, one push over 38 inches that came off a Fin-S swimbait worked dead-slow along the seam where white water meets green.
+
+The why is simple: the Race and the Gut flush hard enough to keep this end of the Sound running cooler and cleaner than everything west of Mount Sinai. New London's reading 69.4, Kings Point's up at 70.9 — that's a real gradient, and it's the difference between fish that feed all day here and fish that shut down to an hour at dawn in the western basin. We've got current-driven structure doing the work that warm, stagnant water can't undo. Bass are stacking on the downtide side of the reef at the Race in 25 to 40 feet, and they're doing it on the ebb specifically — that's when bait gets rolled off the flats at Fishers Island and swept into the rip where the stripers are waiting.
+
+We flagged this pattern last week — said building tidal flow into the new moon would sharpen the bite at current structure, and that's exactly what's playing out at both the Race and the Gut right now. Tube-and-worm trolled slow through the rip is still money, but the eel bite at night has been the standout — bucktail-and-eel combos, 1.5 to 2 ounces, cast across the seam and let it sink before you start the retrieve. Don't rush it. The fish are eating it on the fall, not the swim.
+
+Bluefish are everywhere east of Mount Sinai right now, and this confirms something else we called — snapper blues have been thick in the back bays and creek mouths off Orient and Southold all summer, and now the adult class is showing up to back it up. Blues to 8 pounds are mixing right into the bass bite at the Race, hammering the same poppers and metal — Ava 27s, half-ounce Kastmasters — that you'd throw for stripers. If you're getting bit off constantly on wire leader, that's your answer. Bring some 40-pound fluorocarbon shock and just accept you're going to lose a plug or two a trip.
+
+Fluke are a mixed bag. Inside the Gut and around the mouth of Orient Harbor you can find keeper-class fish holding on the tide-scoured bottom, but the ratio is running heavy on shorts — for every 19-incher I've boated off Fishers Island in 30 feet of water, I've thrown back six or seven teens. Squid strips over white Gulp on a bucktail, dragged slow on the last two hours of the incoming, has been the most consistent combo. Don't waste time on the flats inside the harbors right now — the water's too warm and too still. Fish where the current is still moving cool water across structure.
+
+Porgies are the one thing I'd call flat-out strong right now. The reefs and rockpiles off Orient Point and around Plum Island are stacked with humpies in the 20- to 35-foot range. Sandworms and clam on a high-low rig, light enough weight to feel the bottom but heavy enough to hold in the current — that's the program. Bring a five-gallon bucket, because you're going to fill it.
+
+Blackfish are starting to show around the same structure — nothing to build a trip around yet, but I've picked up a few short togs jigging green crab on the drop near the rockpiles off Fishers Island. That'll sharpen up as the water starts to ease off in September. Not there yet.
+
+Here's the one to watch: with warm water building to our east through Buzzards Bay and Nantucket Sound, there's a real chance false albacore or bonito push into Fishers Island Sound before Labor Day. I haven't seen it yet — no confirmed albie action in this zone as of today — but the setup is right, and I'll be running metal off the back of Fishers Island every morning this week just in case that bait shows up busting.
+
+Look ahead: tidal flow is building toward the August 28 full moon, and that should only sharpen the bite at the Race and the Gut over the next week. If the wind stays out of the northwest and lets the current run clean, I'd fish the last two hours of the ebb at Plum Gut for bass, then slide over to the Orient reefs on the slack for porgies while you wait for the next stage. If a southwest blow kicks up and dirties the water, don't fight it — head into the back bays for snapper blues and keep your string tight until conditions reset.
+
+---
+
+Tags: striped-bass, bluefish, fluke, porgies, blackfish, weakfish

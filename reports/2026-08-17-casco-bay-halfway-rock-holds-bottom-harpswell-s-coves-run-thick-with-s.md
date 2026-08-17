@@ -1,0 +1,24 @@
+# Halfway Rock Holds Bottom, Harpswell's Coves Run Thick With Snapper Blues
+*A warm pulse pushing up from the south is stretching bluefish and bass activity further into the bay than August usually allows.*
+
+**HARPSWELL, ME — August 17** — _by Pashmi Cooper, Zone Writer_
+
+I spent an hour on the porch at Bailey Island last Tuesday evening with a cup of coffee and a pair of binoculars, watching a pod of peanut pogies get pushed tight against the rocks by something working them from below. Turned out to be a dozen or so bluefish, nothing over three pounds, but eager enough to send bait skittering across the surface in that nervous, silvery way that tells you exactly what's happening even before you see the fish roll. That's not an unusual sight for late August in the coves around Harpswell — what's unusual is how far it's crept up the bay this year, and how early in the month it started.
+
+We flagged this two weeks back — said the snapper blues thick in the back bays and estuaries were a sign that adult-class fish would keep building through late August. That's exactly what's playing out. The coves off Bailey Island, the mouth of the New Meadows, and the back channels around Portland are holding good numbers of blues in the one-to-four-pound range, with a scattering of fish pushing five and six mixed in. Small poppers and quarter-ounce Kastmasters worked fast over the top are producing well on the last two hours of the incoming tide, when the bait gets pinned against structure and the blues stop being selective.
+
+The warm water pushing north along the coast — the same pulse that's been driving daylight striper blitzes well south of us and stretching bluefin activity up toward the midcoast — is doing something similar here, just at a smaller scale. Casco Bay hasn't turned into Narragansett Bay, and it won't, but the striped bass have responded to the extra degree or two by staying active later into the morning than I'd expect for mid-August. Cape Small has been the most consistent spot for bass on the ledges — I've had good luck working the outgoing tide there with three-inch white paddletails on quarter-ounce jigheads, drifted along the rockweed edges in eight to fifteen feet of water. The fish are keying on sand eels and small pogies pushed out of the coves on the ebb, and the bite window has been running a solid hour past what I'd normally call quits.
+
+Two Lights is fishing more like a classic dusk pattern — bass holding tight to the rocks, feeding hard in the last real light and again at first light, mostly on topwater. A black Gibbs pencil popper worked slow along the current seams there has taken fish to better than thirty inches this week, though the numbers have been modest — two or three keepers on a good outing, not a blitz by any stretch.
+
+Out at Halfway Rock, the groundfish have held steady, which is really the story there most Augusts. Cod and the occasional haddock are still coming off the ledges in the forty-to-ninety-foot range, but you need to fish it on the slack — the current runs hard enough out there that anything but dead-low or dead-high water turns your jig into a kite. Diamond jigs tipped with a strip of squid, or straight cut mackerel on a two-hook bottom rig, have been the go-to. It's not a fast bite, but it's a reliable one, and the fish have been decent size for this time of year — several cod in the six-to-nine-pound range reported by boats working the north side of the ledge.
+
+Mackerel schools are still very much present around Peaks Island and along the Portland shipping channel edges, which matters both for the table and for bait. A string of mackerel jigs dropped through a school holding at twenty to thirty feet on the last of the incoming tide will fill a bucket fast, and that fresh mackerel is exactly what's been producing the better bass and groundfish catches elsewhere in the bay this week.
+
+Worth watching closely over the next several days: if this warm pulse keeps pushing north the way it has, there's a real chance we start seeing some of the recreational bluefin activity currently concentrated up around York and Rockland work its way into range near Halfway Rock. I wouldn't plan a trip around it yet — that's speculative, not something I've seen firsthand — but it's the single biggest variable I'm tracking right now, and I'll have a clearer read after this week.
+
+The moon is building back toward the August 28 full, which should firm up the tidal swing across the bay and likely sharpen both the bass bite on the outer ledges and the bottom bite at Halfway Rock as current strength returns. If I had one day to fish this week, I'd take the last two hours of an outgoing tide at Cape Small early, then run out to the Rock and fish the slack around midday for cod. Not a guaranteed day, but the ingredients are lining up.
+
+---
+
+Tags: striped-bass, mackerel, cod, haddock, bluefish, casco-bay

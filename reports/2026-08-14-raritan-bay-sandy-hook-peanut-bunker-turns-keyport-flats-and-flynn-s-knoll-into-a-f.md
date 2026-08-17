@@ -1,0 +1,24 @@
+# Peanut Bunker Turns Keyport Flats and Flynn's Knoll Into a Feeding Lane
+*A 12-pound-class doormat out of the back bays and bass stacking on bait tell you the same thing: the current lines are where you want to be this week.*
+
+**PERTH AMBOY, NJ — August 14** — _by Marisol Duarte, Zone Writer_
+
+I made the call Tuesday morning before I even hit the ramp: skip the open bay, go straight to the current edges. Flynn's Knoll, the Reach channel drop-off, the rip line off the Hook — anywhere the tide has to squeeze past structure. That's the program right now, and it's paying off.
+
+We flagged this last week — said the building tidal flow into the new moon would sharpen things up at current-driven structure, and that's exactly where it turned. Two days past the new moon and the swings are still stout, which means bait gets pushed hard against the edges instead of drifting loose through open water. Peanut bunker are stacking thick off Keyport and Union Beach, right up on the flats in three to six feet at first light, and every predator in the bay knows it.
+
+Stripers are the headline. Not a blitz every day — I want to be straight with you, some mornings it's dead calm and you have to hunt — but when the bunker balls get pinned against the drop at Flynn's Knoll on the incoming, it lights up in patches. Bucktails in the 1 to 1.5-ounce range, white or bunker-colored, worked with a slow lift-drop right off the edge where the flat falls into the channel, are drawing hits from schoolies up through mid-20-inch fish. A few bigger resident bass — mid-30s — have shown mixed in with what looks like an early trickle of fish staging ahead of the fall push south. That's not the full run yet, don't get it twisted, but the size class variety in the same drift tells you something's stirring early.
+
+Bluefish are riding shotgun on the same bait, same spots, same tide stage. If you want nonstop action for an hour, run to where the bunker are getting pushed up against the rip at the Hook on the last two hours of the incoming — poppers or diamond jigs, wire leader unless you enjoy retying. Snapper blues are thick as fleas in the Navesink and Shrewsbury right now too. If you've got a kid who wants bent-rod action off a dock, small Kastmasters or spearing under a bobber in either river will keep them busy all afternoon.
+
+Fluke is where I want to spend the rest of this report, because the story coming out of the back bays this month is real. A 12.3-pound doormat got weighed in at Bayonne, and fish that size don't show up as loners — there's usually a class of big females staging in the same general program before they slide out toward deeper water in September. I've been working the channel edges along the Reach and the drop-off south of the Flats on the tail end of the outgoing, into the turn, in 25 to 35 feet. White and chartreuse Gulp Swimming Mullets on ¾-ounce bucktails, dragged slow, tipped with a strip of squid if the current's really moving. The ratio isn't fast — you're grinding through a lot of shorts to find the keeper — but the size potential is legit right now, and every serious fluke guy I've talked to at the dock this week has a fish in the high 20s or low 30s of inches to show for the effort. Romer Shoal's edges have also produced when the tide's running clean.
+
+Porgies remain the reliable bread-and-butter play if you just want a bucket of fish for the table. The rubble and reef structure inside the bay — Romer Shoal's flanks, the humps off Keansburg — are holding solid numbers on bottom rigs with clam or squid strips. Nothing glamorous, but it's steady, and it's a good option on days the wind kills the current bite up top.
+
+Conditions have been generally cooperative — warm, typical August water, current running strong with the fresh moon swings, and enough bait in the system to keep fish honest. Wind's been the wildcard some afternoons, kicking up a chop on the open bay that pushes me into the lee of the Hook or up into the rivers where it's protected.
+
+Looking ahead, I'd keep leaning on the current-structure program through this week. The tides are still building off that new moon push, which should keep bait concentrated at the Knoll, the Reach, and the rip through the weekend. If the bass staging pattern I'm seeing continues to thicken — more mixed size classes showing in the same drifts — that's your early tell that the fall run conversation starts sooner rather than later this year. I wouldn't bet the house on a full-blown blitz just yet, but if you've got a weekday morning free, I'd fish the last two hours of the incoming at Flynn's Knoll first, then slide to the Reach channel edges for fluke once the tide turns. Have a backup spot in the rivers if the wind gets up — the Navesink's snapper blues never let you down when the open bay turns ugly.
+
+---
+
+Tags: striped-bass, fluke, bluefish, flynns-knoll, bunker, incoming-tide
