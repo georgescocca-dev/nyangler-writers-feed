@@ -59,8 +59,8 @@ if [ -n "$FAILED_WRITERS" ]; then
     echo "Failed writers:$FAILED_WRITERS"
 fi
 
-# Rebuild index
-echo "[index] rebuilding reports.json + teasers.json"
+# Rebuild archive index
+echo "[index] rebuilding archive reports.json + teasers.json"
 "$PYTHON" -c "
 import json, glob, os
 reports = []
@@ -77,8 +77,11 @@ with open('reports.json', 'w') as fh:
 teasers = [{'id': r.get('id',''), 'headline': r.get('headline',''), 'zone': r.get('zone',{}).get('name',''), 'date': r.get('date','')} for r in reports]
 with open('teasers.json', 'w') as fh:
     json.dump({'teasers': teasers}, fh, indent=2)
-print(f'[index] wrote reports.json ({len(reports)} reports) + teasers.json ({len(teasers)} teasers)')
+print(f'[index] wrote archive reports.json ({len(reports)} reports) + teasers.json ({len(teasers)} teasers)')
 "
+
+echo "[archive] dumping public.fishing_reports"
+"$PYTHON" scripts/archive_fishing_reports.py 2>&1 || echo "[WARN] fishing_reports archive dump skipped"
 
 # Commit
 git add -A

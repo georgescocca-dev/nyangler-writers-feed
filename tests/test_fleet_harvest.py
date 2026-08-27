@@ -303,5 +303,167 @@ class GeneratorFallbackTests(unittest.TestCase):
         self.assertIn("using jsonl forum intel", buf.getvalue())
 
 
+class ArchiveDumpTests(unittest.TestCase):
+    def test_strip_jpegs_keeps_facebook_post_permalinks(self):
+        row = ready_row(
+            photo_url="https://scontent.xx.fbcdn.net/v/t1/catch.jpg",
+            image="https://cdn.example.com/boat.jpeg",
+            text="Keepers. Photo: https://cdn.example.com/fish.jpg",
+            source_url="https://www.facebook.com/missmontauk/posts/123",
+        )
+        cleaned = HARVEST.strip_media_fields(row)
+        blob = json.dumps(cleaned).lower()
+        self.assertNotIn("fbcdn", blob)
+        self.assertNotIn(".jpg", blob)
+        self.assertNotIn(".jpeg", blob)
+        self.assertNotIn("photo_url", cleaned)
+        self.assertNotIn("image", cleaned)
+        self.assertIn(
+            "facebook.com/missmontauk/posts/123",
+            str(cleaned.get("source_url") or ""),
+        )
+
+    def test_dump_includes_held_rows(self):
+        with tempfile.TemporaryDirectory() as temp:
+            dest = Path(temp) / "fishing_reports.jsonl"
+            rows = [
+                ready_row(id="ready-1"),
+                ready_row(id="held-1", status="held", headline="Held catch"),
+            ]
+            result = HARVEST.dump_fishing_reports_archive(dest, rows=rows)
+            self.assertTrue(result["ok"])
+            dumped = HARVEST.load_archive_jsonl(dest)
+            ids = {row.get("id") for row in dumped}
+            self.assertEqual(ids, {"ready-1", "held-1"})
+            statuses = {row.get("status") for row in dumped}
+            self.assertIn("held", statuses)
+
+    def test_dump_dedups_by_id_keeps_newer(self):
+        with tempfile.TemporaryDirectory() as temp:
+            dest = Path(temp) / "fishing_reports.jsonl"
+            dest.write_text(
+                json.dumps(
+                    {
+                        "id": "row-1",
+                        "headline": "old",
+                        "created_at": "2026-08-20T00:00:00Z",
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            incoming = [
+                ready_row(
+                    id="row-1",
+                    headline="new",
+                    created_at="2026-08-26T00:00:00Z",
+                )
+            ]
+            HARVEST.dump_fishing_reports_archive(dest, rows=incoming)
+            dumped = HARVEST.load_archive_jsonl(dest)
+            self.assertEqual(len(dumped), 1)
+            self.assertEqual(dumped[0]["headline"], "new")
+
+    def test_missing_credentials_do_not_overwrite_dump(self):
+        with tempfile.TemporaryDirectory() as temp:
+            dest = Path(temp) / "fishing_reports.jsonl"
+            original = json.dumps({"id": "keep-me", "headline": "stays"}) + "\n"
+            dest.write_text(original, encoding="utf-8")
+            env = {
+                k: v
+                for k, v in os.environ.items()
+                if "SUPABASE" not in k and k != "SERVICE_ROLE"
+            }
+            with mock.patch.dict(os.environ, env, clear=True), mock.patch.object(
+                HARVEST, "_load_dotenv_value", return_value=""
+            ):
+                result = HARVEST.dump_fishing_reports_archive(dest)
+            self.assertFalse(result["ok"])
+            self.assertEqual(dest.read_text(encoding="utf-8"), original)
+
+    def test_fetch_all_does_not_filter_status(self):
+        captured: list[dict] = []
+
+        def fake_get(_url: str, _role: str, params: dict) -> list[dict]:
+            captured.append(dict(params))
+            if params.get("limit") == "1":
+                return [{"id": "probe"}]
+            return [{"id": "held-row", "status": "held"}]
+
+        with mock.patch.object(HARVEST, "_rest_get", side_effect=fake_get):
+            rows = HARVEST.fetch_all_fishing_reports(
+                url="https://bcdlbzyvbpolxdpdthls.supabase.co",
+                service_role="secret",
+            )
+        self.assertEqual(rows[0]["status"], "held")
+        self.assertTrue(captured)
+        for params in captured:
+            self.assertNotIn("status", params)
+            self.assertNotIn("eq.ready", " ".join(params.values()))
+
+
+class ZoneWriterFactTests(unittest.TestCase):
+    def writer(self) -> dict:
+        return {"id": "montauk", "name": "Test Montauk Writer", "role": "Zone Writer"}
+
+    def test_fact_payload_is_short_ticker_not_a_boat_column(self):
+        report = {
+            "headline": "North Bar bass hold the outgoing",
+            "subhead": "The Point fleet is working bucktails on the outgoing.",
+            "body_markdown": "x" * 800,
+        }
+        payload = HARVEST.zone_writer_fact_payload(
+            self.writer(), report, "2026-08-27"
+        )
+        self.assertNotIn("body_markdown", payload)
+        self.assertNotIn("boat", payload)
+        self.assertNotIn("vessel", payload)
+        self.assertLessEqual(len(payload["text"]), 240)
+        self.assertEqual(
+            payload["text"],
+            "The Point fleet is working bucktails on the outgoing.",
+        )
+        self.assertEqual(payload["desk"], "zone-writer")
+        self.assertEqual(payload["source"], "zone-writer-archive")
+        self.assertEqual(payload["author"], "zone-writer")
+        self.assertEqual(payload["area"], "montauk")
+        self.assertEqual(payload["status"], "ready")
+
+    def test_fact_text_caps_first_paragraph_at_240(self):
+        first = ("keepers " * 80).strip()
+        report = {
+            "headline": "Headline",
+            "subhead": "",
+            "body_markdown": first + "\n\nsecond paragraph must not land",
+        }
+        payload = HARVEST.zone_writer_fact_payload(
+            self.writer(), report, "2026-08-27"
+        )
+        self.assertLessEqual(len(payload["text"]), 240)
+        self.assertNotIn("second paragraph", payload["text"])
+        self.assertNotIn("body_markdown", payload)
+
+    def test_upsert_swallows_errors(self):
+        report = {
+            "headline": "North Bar bass hold the outgoing",
+            "subhead": "Short ticker line.",
+            "body_markdown": "x" * 800,
+        }
+        with mock.patch.object(
+            HARVEST, "_rest_post", side_effect=OSError("network down")
+        ):
+            buf = io.StringIO()
+            with mock.patch.object(HARVEST.sys, "stderr", buf):
+                ok = HARVEST.upsert_zone_writer_fact(
+                    self.writer(),
+                    report,
+                    "2026-08-27",
+                    url="https://bcdlbzyvbpolxdpdthls.supabase.co",
+                    service_role="secret",
+                )
+        self.assertFalse(ok)
+        self.assertIn("zone-writer fact upsert failed", buf.getvalue())
+
+
 if __name__ == "__main__":
     unittest.main()

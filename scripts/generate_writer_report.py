@@ -1,21 +1,20 @@
 #!/usr/bin/env python3
 """
-Mariana Reyes — Fire Island / Great South Bay Report Generator
+Zone-writer column generator (GitHub archive copy).
 
-Produces a single, dated fishing report in Mariana's voice by synthesizing:
-  • Her persona from writers_roster.json (voice, mood, beat, system prompt)
-  • Recent forum reports for her zone (raw nyangler scrape)
+Produces a single, dated fishing report in a writer's voice by synthesizing:
+  • Persona from writers_roster.json (voice, mood, beat, system prompt)
+  • Optional stale local forum jsonl (not source of truth; do not scrape nyangler.com)
   • Fresh-from-the-Fleet harvest (Supabase public.fishing_reports, when configured)
   • Latest SST package (water temps, dates)
   • Optional environmental signals (moon phase, wind, tide-window)
 
-Writes:
-  • <out_dir>/reports/<id>.json  (machine-readable, published to GitHub feed)
+Writes archive files in this repo (not a live reports.nyangler.com delivery):
+  • <out_dir>/reports/<id>.json  (zone-writer column; reports.json is an archive index)
   • <out_dir>/reports/<id>.md    (human-readable preview)
 
-Designed to be safe and deterministic-ish — passes ALL the source intel to the
-LLM and constrains the output schema, so the writer can never invent species
-or locations that aren't in her beat.
+Live fishing reports live in Supabase public.fishing_reports. As of 2026-08-27,
+nyangler.com / reports.nyangler.com get no new fishing reports from this repo.
 
 Usage:
   python3 scripts/generate_writer_report.py mariana-reyes [--dry-run] [--intel-only]
@@ -172,7 +171,11 @@ def load_writer(writer_id: str) -> dict:
 
 
 def load_recent_reports(zone_slug: str, writer_id: str | None = None, limit: int = 30) -> list[dict]:
-    """Load forum fishing reports for a zone.
+    """Load optional stale local forum jsonl for a zone.
+
+    This is leftover local archive, not the live product and not a reason to
+    scrape nyangler.com. Fleet harvest from public.fishing_reports is the
+    live table; jsonl is fallback background only.
 
     If writer_id is provided, only returns reports dated AFTER the writer's
     most recent generated report — so we only feed new intel each cycle.
@@ -1763,7 +1766,11 @@ def rebuild_teasers(reports: list[dict]) -> None:
 
 
 def rebuild_reports_index() -> dict:
-    """Scan reports/*.json and rebuild the public reports.json index."""
+    """Scan reports/*.json and rebuild the archive reports.json index.
+
+    reports.json is a GitHub backup of zone-writer columns, not a live
+    Noreaster feed and not what sites should fetch for fishing reports.
+    """
     items = []
     for f in sorted(REPORTS_DIR.glob("*.json")):
         try:
@@ -1945,6 +1952,16 @@ def main() -> int:
 
     today = report_datetime()
     pub = emit_report(writer, report, today)
+    try:
+        fleet_harvest.upsert_zone_writer_fact(
+            writer, report, today.strftime("%Y-%m-%d")
+        )
+    except Exception as exc:  # noqa: BLE001 — archive fact is optional
+        print(
+            f"[warn] zone-writer fact upsert skipped "
+            f"({type(exc).__name__}: {exc})",
+            file=sys.stderr,
+        )
     index = None if args.skip_index else rebuild_reports_index()
     print(f"[gen] wrote {pub['id']}", file=sys.stderr)
     if index:

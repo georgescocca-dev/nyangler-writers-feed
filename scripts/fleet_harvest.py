@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Load Fresh-from-the-Fleet harvest (public.fishing_reports) as writer intel.
+"""Fleet harvest helpers for the GitHub archive of public.fishing_reports.
 
-This is source material for the zone-writer prompt — not a second reports.json
-feed. Facebook URLs stay out of the prompt blob. Rows that cannot be mapped
-onto a single writer beat are skipped rather than broadcast.
+Live product is Supabase public.fishing_reports. This repo is an archive/backup.
+Writer intel still uses status=ready rows from the last 7 days. The archive dump
+backs up every row (no status filter), strips Facebook JPEGs, and dedups.
+
+Facebook post permalinks may stay in the dump. Photo payloads do not. Rows that
+cannot be mapped onto a single writer beat are skipped for intel, not for backup.
 """
 from __future__ import annotations
 
@@ -13,6 +16,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+import hashlib
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
@@ -75,6 +79,19 @@ PHOTO_KEYS = frozenset(
         "pictures",
     }
 )
+IMAGE_URL_RE = re.compile(
+    r"https?://\S+\.(?:jpe?g|png|gif|webp|heic)(?:\?\S*)?"
+    r"|https?://(?:scontent|static)\S*fbcdn\.net\S*"
+    r"|https?://\S*facebook\.com/\S+\.(?:jpe?g|png|gif|webp)",
+    re.IGNORECASE,
+)
+ZONE_WRITER_DESK = "zone-writer"
+ZONE_WRITER_SOURCE = "zone-writer-archive"
+FACT_TEXT_MAX = 240
+ARCHIVE_PAGE_SIZE = 1000
+ARCHIVE_MAX_ROWS = 100_000
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_ARCHIVE_PATH = REPO_ROOT / "archive" / "fishing_reports.jsonl"
 
 # Writer ids / zone slugs that the generator already knows. Area values that
 # match these (or the aliases below) are the primary wiring.
@@ -456,6 +473,313 @@ def _rest_get(url: str, service_role: str, params: dict[str, str]) -> list[dict]
     if not isinstance(payload, list):
         return []
     return [row for row in payload if isinstance(row, dict)]
+
+
+def _rest_post(url: str, service_role: str, payload: dict) -> None:
+    request = urllib.request.Request(
+        f"{url.rstrip('/')}/rest/v1/{FLEET_TABLE}",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "apikey": service_role,
+            "Authorization": f"Bearer {service_role}",
+            "Content-Type": "application/json",
+            "Prefer": "return=minimal",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=20) as resp:
+        resp.read()
+
+
+def _is_photo_key(key: str) -> bool:
+    slug = _norm_slug(key)
+    if slug in PHOTO_KEYS:
+        return True
+    if slug in {"source-url", "url", "permalink", "link", "post-url"}:
+        return False
+    return any(token in slug for token in ("photo", "image", "thumb", "media", "picture", "jpeg", "jpg"))
+
+
+def _is_image_value(value: object) -> bool:
+    if not isinstance(value, str):
+        return False
+    text = value.strip().lower()
+    if not text:
+        return False
+    if "fbcdn.net" in text or "scontent" in text:
+        return True
+    if any(ext in text for ext in (".jpg", ".jpeg", ".png", ".gif", ".webp", ".heic")):
+        if text.startswith("http") or text.startswith("data:image"):
+            return True
+    return bool(IMAGE_URL_RE.search(value))
+
+
+def strip_media_fields(value: object) -> object:
+    """Drop Facebook JPEGs / photo payloads. Keep text and post permalinks."""
+    if isinstance(value, dict):
+        out: dict[str, object] = {}
+        for key, item in value.items():
+            if _is_photo_key(str(key)):
+                continue
+            cleaned = strip_media_fields(item)
+            if _is_image_value(cleaned):
+                continue
+            out[str(key)] = cleaned
+        return out
+    if isinstance(value, list):
+        return [
+            strip_media_fields(item)
+            for item in value
+            if not _is_image_value(item)
+        ]
+    if isinstance(value, str):
+        if _is_image_value(value):
+            return ""
+        return IMAGE_URL_RE.sub("", value).strip()
+    return value
+
+
+def archive_row_key(row: dict) -> str:
+    if row.get("id") not in (None, ""):
+        return f"id:{row['id']}"
+    blob = "|".join(
+        [
+            str(row.get("source_url") or row.get("url") or ""),
+            str(row.get("created_at") or row.get("posted_at") or row.get("harvested_at") or ""),
+            str(row.get("headline") or row.get("title") or ""),
+            str(row.get("boat") or row.get("author") or ""),
+            str(row.get("area") or ""),
+            str(row.get("text") or row.get("body") or "")[:80],
+        ]
+    )
+    return "hash:" + hashlib.sha1(blob.encode("utf-8")).hexdigest()[:20]
+
+
+def load_archive_jsonl(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    rows: list[dict] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            item = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(item, dict):
+            rows.append(item)
+    return rows
+
+
+def write_archive_jsonl(path: Path, rows: list[dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    lines = [
+        json.dumps(row, ensure_ascii=False, sort_keys=True)
+        for row in rows
+    ]
+    path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+
+
+def merge_archive_rows(existing: list[dict], incoming: list[dict]) -> list[dict]:
+    """Dedup by id (or content hash). Incoming table rows win when newer."""
+    by_key: dict[str, dict] = {}
+    for row in existing + incoming:
+        if not isinstance(row, dict):
+            continue
+        cleaned = strip_media_fields(row)
+        if not isinstance(cleaned, dict) or not cleaned:
+            continue
+        key = archive_row_key(cleaned)
+        prev = by_key.get(key)
+        if prev is None:
+            by_key[key] = cleaned
+            continue
+        prev_ts = row_timestamp(prev)
+        new_ts = row_timestamp(cleaned)
+        if prev_ts and new_ts and new_ts < prev_ts:
+            continue
+        by_key[key] = cleaned
+    merged = list(by_key.values())
+    merged.sort(
+        key=lambda row: (
+            row_timestamp(row) or datetime.min.replace(tzinfo=timezone.utc)
+        ).isoformat(),
+        reverse=True,
+    )
+    return merged
+
+
+def fetch_all_fishing_reports(
+    *,
+    url: str | None = None,
+    service_role: str | None = None,
+) -> list[dict]:
+    """Backup every fishing_reports row. No status filter. Returns [] on failure."""
+    if url is None or service_role is None:
+        url, service_role = supabase_credentials()
+    if not url or not service_role:
+        return []
+    collected: list[dict] = []
+    offset = 0
+    order_params = [
+        {"select": "*", "order": "created_at.desc"},
+        {"select": "*", "order": "id.desc"},
+        {"select": "*"},
+    ]
+    base_params = order_params[0]
+    for candidate in order_params:
+        try:
+            _rest_get(
+                url,
+                service_role,
+                {**candidate, "limit": "1"},
+            )
+            base_params = candidate
+            break
+        except Exception:
+            continue
+    try:
+        while offset < ARCHIVE_MAX_ROWS:
+            batch = _rest_get(
+                url,
+                service_role,
+                {
+                    **base_params,
+                    "limit": str(ARCHIVE_PAGE_SIZE),
+                    "offset": str(offset),
+                },
+            )
+            if not batch:
+                break
+            collected.extend(batch)
+            if len(batch) < ARCHIVE_PAGE_SIZE:
+                break
+            offset += ARCHIVE_PAGE_SIZE
+    except Exception as exc:  # noqa: BLE001 — cron must not crash
+        print(
+            f"[warn] fishing_reports archive fetch failed "
+            f"({type(exc).__name__}: {exc})",
+            file=sys.stderr,
+        )
+        return []
+    return collected
+
+
+def dump_fishing_reports_archive(
+    dest: Path,
+    *,
+    rows: list[dict] | None = None,
+) -> dict[str, Any]:
+    """Merge table rows into dest jsonl. Never deletes an existing dump on miss."""
+    existing = load_archive_jsonl(dest)
+    if rows is None:
+        reason = credentials_missing_reason()
+        if reason:
+            print(
+                f"[archive] skip (no {reason}) — keeping existing dump at {dest}",
+                file=sys.stderr,
+            )
+            return {
+                "ok": False,
+                "reason": reason,
+                "kept_existing": len(existing),
+                "path": str(dest),
+            }
+        rows = fetch_all_fishing_reports()
+        if not rows and not existing:
+            print(
+                "[warn] fishing_reports archive fetch returned 0 rows",
+                file=sys.stderr,
+            )
+    merged = merge_archive_rows(existing, rows or [])
+    write_archive_jsonl(dest, merged)
+    print(
+        f"[archive] fishing_reports jsonl={dest} rows={len(merged)} "
+        f"(incoming={len(rows or [])} existing={len(existing)})",
+        file=sys.stderr,
+    )
+    return {
+        "ok": True,
+        "rows": len(merged),
+        "incoming": len(rows or []),
+        "existing": len(existing),
+        "path": str(dest),
+    }
+
+
+def zone_writer_fact_payload(writer: dict, report: dict, date: str) -> dict:
+    """Short ticker fact. Not a boat post and not the 800-word column."""
+    writer_id = str(writer.get("id") or writer.get("zone_slug") or "").strip()
+    headline = str(report.get("headline") or "").strip()[:160]
+    text = str(report.get("subhead") or "").strip()
+    if not text:
+        body = str(report.get("body_markdown") or "")
+        text = re.split(r"\n\s*\n", body, maxsplit=1)[0]
+        text = re.sub(r"\s+", " ", text).strip()
+    text = text[:FACT_TEXT_MAX]
+    payload = {
+        "status": READY_STATUS,
+        "area": writer_id,
+        "desk": ZONE_WRITER_DESK,
+        "headline": headline,
+        "text": text,
+        "source": ZONE_WRITER_SOURCE,
+        "author": ZONE_WRITER_DESK,
+        "report_date": date,
+        "source_url": f"archive://zone-writer/{writer_id}/{date}",
+    }
+    return {key: value for key, value in payload.items() if value not in (None, "")}
+
+
+def upsert_zone_writer_fact(
+    writer: dict,
+    report: dict,
+    date: str,
+    *,
+    url: str | None = None,
+    service_role: str | None = None,
+) -> bool:
+    """Insert a short zone-writer fact. Never impersonates a boat. Never raises."""
+    if url is None or service_role is None:
+        url, service_role = supabase_credentials()
+    if not url or not service_role:
+        print(
+            "[gen] zone-writer fact skip (no SUPABASE_URL / SERVICE_ROLE)",
+            file=sys.stderr,
+        )
+        return False
+    payload = zone_writer_fact_payload(writer, report, date)
+    if "body_markdown" in payload or payload.get("desk") != ZONE_WRITER_DESK:
+        return False
+    if payload.get("boat") or payload.get("vessel"):
+        return False
+    attempts = [
+        payload,
+        {
+            key: payload[key]
+            for key in ("status", "area", "desk", "headline", "text")
+            if key in payload
+        },
+    ]
+    last_err: Exception | None = None
+    for body in attempts:
+        try:
+            _rest_post(url, service_role, body)
+            print(
+                f"[gen] zone-writer fact upserted area={payload.get('area')} "
+                f"date={date}",
+                file=sys.stderr,
+            )
+            return True
+        except Exception as exc:  # noqa: BLE001 — cron must not crash
+            last_err = exc
+    print(
+        f"[warn] zone-writer fact upsert failed "
+        f"({type(last_err).__name__}: {last_err})",
+        file=sys.stderr,
+    )
+    return False
 
 
 def fetch_ready_fishing_reports(
