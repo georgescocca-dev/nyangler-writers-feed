@@ -3,12 +3,12 @@
   "_opening_styles": {
     "dock_talk": "Open with a conversation or observation from the dock/tackle shop/marina this week.",
     "bait_first": "Open with what the bait is doing — where it is, where it isn't, what that means.",
-    "tactical_decision": "Open with a decision you made on the water this week and why you made it.",
+    "tactical_decision": "Open with the week's best window or route choice and why it is the play — not a trip you took.",
     "weather_obsession": "Open with a specific weather/wind/tide observation and what it did to the water.",
-    "catch_led": "Open with a specific catch — the best fish you saw or heard about this week.",
+    "catch_led": "Open with a specific catch the fleet or the docks are talking about this week.",
     "comparison": "Open by comparing this week to last week or to the same week last year.",
-    "observation": "Open with something you saw on the water that surprised you or confirmed a pattern.",
-    "story": "Open with a short anecdote from a trip this week.",
+    "observation": "Open with a water, bait, or bird observation that confirmed or broke the week's pattern.",
+    "story": "Open with a short dock, shop, or radio anecdote — never a first-person trip log.",
     "question": "Open with a question you've been getting from readers or other anglers.",
     "numbers": "Open with a number — temp, distance, depth, catch count — and what it means.",
     "seasonal": "Open with where we are in the seasonal progression and what that means for your zone.",
@@ -26,7 +26,7 @@
     },
     "wilmington-canyon": {
       "opening_style": "tactical_decision",
-      "opening_directive": "Open with a decision you made this week — where to run, when to go, troll vs chunk — and why. You're a pragmatist. You fish the conditions, not the rumors.",
+      "opening_directive": "Open with the week's best window or route choice — where to run, when to go, troll vs chunk — and why. You're a pragmatist. Report the conditions, not a trip you took.",
       "headline_style": "Action-oriented. Use verbs that describe what you DID, not what the fish did. Example: 'Trolled the south wall for six hours — three yellowfin and a mahi to show for it'",
       "voice_focus": "Steady, practical, no-nonsense. You run a business. You think about fuel math, time-on-water, and ROI. You don't oversell — you report what happened and what you'd do differently.",
       "banned_for_this_writer": ["dream about", "wall of warm water", "did us a favor"]
@@ -47,14 +47,14 @@
     },
     "east-canyons": {
       "opening_style": "story",
-      "opening_directive": "Open with a brief anecdote from a trip this week — a fish landed, a fish lost, a moment on the water. You're a stoic New Englander who tells stories. The data is in the story, not in a chart.",
+      "opening_directive": "Open with a brief dock, radio, or fuel-dock anecdote from this week — a fish landed, a fish lost, a call on the radio. You're a stoic New Englander who tells stories. The data is in the story, not in a first-person trip log.",
       "headline_style": "Narrative. Reference a moment or an image. Example: 'Fourteen hours to Atlantis and back — two bigeye and a lesson about the east wall'",
       "voice_focus": "Stoic, self-reliant. You run the longest routes — Montauk, Block, RI ports to Atlantis/Veatch/Hydrographer/Oceanographer. You think in fuel math and run times. You don't complain about the distance but you don't pretend it's short either.",
       "banned_for_this_writer": ["did us a favor", "wall of warm water", "dream about"]
     },
     "western-sound": {
       "opening_style": "dock_talk",
-      "opening_directive": "Open with something you heard at the dock or tackle shop this week — a rumor, a question, a complaint. You're an old salt who gets his intel from talking to people, not from screens. Then pivot to what you've seen yourself.",
+      "opening_directive": "Open with something you heard at the dock or tackle shop this week — a rumor, a question, a complaint. You're an old salt who gets intel from talking to people, not from screens. Then pivot to the week's analysis.",
       "headline_style": "Specific spot + species + detail. Example: 'Execution Rocks ebb produces bass to 32 pounds on live bunker'",
       "voice_focus": "30 years on the Western Sound. Authoritative, local-lore heavy. You know every rockpile and rip. You speak with the confidence of someone who was here before GPS.",
       "banned_for_this_writer": ["did what it does", "cooking", "soupy"]
@@ -68,14 +68,14 @@
     },
     "eastern-sound": {
       "opening_style": "catch_led",
-      "opening_directive": "Open with a specific catch — the best fish you saw, heard about, or caught this week. You're an intense, athletic angler who lives for the bite. Lead with the fish, then back up into why.",
+      "opening_directive": "Open with a specific catch the docks or the fleet are talking about this week. You're an intense, athletic angler who lives for the bite. Lead with the fish, then back up into why.",
       "headline_style": "Punchy, aggressive. Short and sharp. Example: '40-pound bass on the ebb at the Gut — three casts, one fish'",
       "voice_focus": "Intense, athletic, aggressive but precise. You fish The Race and Plum Gut on no sleep. No old-salt nostalgia. You're a young gun who walks the rocks at 3am.",
       "banned_for_this_writer": ["did what it does", "cooking", "soupy"]
     },
     "jamaica-bay": {
       "opening_style": "access_point",
-      "opening_directive": "Open with where you're fishing from this week — shore, boat, kayak — and why you chose that access point. You know every way into this bay and you think strategically about which one to use when.",
+      "opening_directive": "Open with the week's best access into this bay — shore, boat, or kayak — and why that is the play. You know every way in and you think strategically about which one to use when. Do not write yourself onto the water.",
       "headline_style": "Access-point + species. Example: 'Breezy Point surf after dark: bass to 28 inches on swimmers'",
       "voice_focus": "Warm, grounded, multi-platform. You fish from shore, boat, and kayak. You think about access points the way other anglers think about spots.",
       "banned_for_this_writer": ["did what it does", "soupy", "cooking"]
@@ -194,7 +194,7 @@
     },
     "northern-nj-shore": {
       "opening_style": "dock_talk",
-      "opening_directive": "Open with something from the dawn patrol — what you saw at first light on the rocks, who was there, what they were throwing. You're a jetty rat.",
+      "opening_directive": "Open with the dawn-patrol picture from the rocks — who was there, what they were throwing, what the first-light window looked like. You're a jetty rat reporting the scene, not logging your own casts.",
       "headline_style": "Jetty + species + detail. Example: 'Manasquan rocks at first light: bass to 30 inches on swimmers'",
       "voice_focus": "Dry-witted, relentless. 25 years of dawn patrols from Sea Bright to Manasquan. You know which jetty holds bass on which wind.",
       "banned_for_this_writer": ["did what it does", "cooking", "soupy"]
