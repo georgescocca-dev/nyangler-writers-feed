@@ -1,0 +1,26 @@
+# The swallows left Mattituck early this year, and the bass took the hint
+*Warm water's got the stripers hugging structure by day, but Plum Gut's current is starting to whisper fall.*
+
+**MATTITUCK, NY — August 27** — _by Pat "North Fork" Reilly, Zone Writer_
+
+There's an old fellow used to clam the flats off Mattituck Inlet every dawn, rain or shine, and he told me once that you don't need a thermometer if you watch the swallows on the wires by the marina. When they start lining up early and heading off before the light's even good, he said, the water's turning before the calendar says it should. This week they left about four days ahead of schedule. Make of that what you will — I've learned not to argue with a man who's read tide charts with his feet in the mud for forty years.
+
+What the swallows knew, the water confirmed. Kings Point is sitting at 70.9, New London's holding 69.4, and out at Montauk it's 69.1 — still plenty warm for late August, and that warmth is exactly why the bass fishing along our stretch has settled into its predictable late-summer pattern. Daytime, the fish want structure and shade — the riprap at Horton Point, the drop by Rocky Point, anywhere there's a current seam cutting cooler water up off bottom. Come dusk and through the night, that's when they spread out and feed with some confidence. If you're only fishing daylight hours right now, you're working against the fish, not with them.
+
+We flagged this a few weeks back — said the Sound-side water staying warmer than the ocean side would keep bait tucked tight to structure, and that the stronger tidal push building toward the full moon would sharpen things up at first light. That's exactly what the fleet's finding. The moon's filling out now, current's got some shoulder to it on the bigger swings, and the bite windows at the inlets and current-swept spots have gotten noticeably tighter and better defined — short, but real, right around the tide change at first light.
+
+Fluke are the soft spot in the report this week, and there's no sense dressing it up. With water this warm clear through the water column, fluke have spread thin across the flats instead of bunching up where you can find them twice in a row. The better fish are coming from the channel edges and deeper holes where there's still a cooler layer down low — the deeper stretch off Mattituck Inlet on the last of the ebb has been giving up keeper-class fish to bucktails tipped with strips of squid, worked slow along bottom rather than snapped. Inshore on the flats, you'll find plenty of shorts and not much patience required to catch them, which tells you what you need to know.
+
+Bluefish haven't missed a beat and probably won't for another month yet. Snapper blues are thick in the coves and creek mouths from Mattituck down toward Orient — kids with a bobber and a sliver of spearing can fill a bucket in an hour most evenings. The bigger cocktail blues are mixing in with the striper bite on structure, chopping up bunker chunks fished on a fish-finder rig off Horton Point, and they'll hit a metal jig worked fast just as happily as they'll hit bait. If you want a fish that doesn't care what the thermometer says, that's your fish this week.
+
+Porgy fishing remains the one thing you can set a watch by. The rockpiles off Rocky Point and the drop-offs approaching Orient Point are holding good numbers of scup in the 12- to 14-inch range, and they're not fussy — clam, sandworm, squid strips on a high-low rig with a couple ounces to hold bottom will get bit steady through most of a tide. It's not glamorous fishing, but it's honest, and on a week when the marquee species are playing hard to get, honest counts for something.
+
+Blackfish season proper is still ahead, but there's already talk of a few being picked up incidentally around the rockier stretches near Orient as the water starts its slow slide toward autumn temperatures. Nothing worth planning a trip around yet — that fishery sharpens up as September wears on and the bottom water finally cools off enough to pull them out of the deeper holes. Worth keeping a few green crabs in the bait tank if you're already out there for something else.
+
+The piece of this report I'd keep an eye on is Plum Gut. That current doesn't care what the calendar says, and the Gut and the Race are usually the first water around here to show early bonito or false albacore once the bait gets tight and the rips start running hard on the building tide. Nothing confirmed yet, and I wouldn't send a man out there chasing ghosts, but the ingredients are lining up — squid pushing down from the north, current sharpening with the moon, water temps still warm enough to hold them if they show. If there's one spot on this whole stretch worth checking daily through the first half of September, it's the Gut.
+
+For the next few days, expect more of the same: stable, warm, current-driven fishing where the tide change and the first hour of light do the heavy lifting. If you've only got one window this weekend, take the dawn tide change at Horton Point or the Mattituck Inlet flats, work bucktails and bait low and slow, and don't be surprised if the afternoon goes quiet. That's not bad luck — that's just where the fish are telling you they'd rather be.
+
+---
+
+Tags: striped-bass, bluefish, porgy, blackfish, fluke, weakfish
