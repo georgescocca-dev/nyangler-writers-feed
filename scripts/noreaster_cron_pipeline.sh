@@ -65,6 +65,20 @@ if [ -z "$OPENROUTER_API_KEY" ]; then
     exit 1
 fi
 
+# Optional Fresh-from-the-Fleet harvest. Missing vars are not fatal —
+# generate_writer_report.py falls back to jsonl forum intel and logs a miss.
+_SB_URL=$(grep '^SUPABASE_URL=' /Users/spartacus/.hermes/.env 2>/dev/null | cut -d'=' -f2- | tr -d '"' | tr -d "'")
+_SB_ROLE=$(grep -E '^(SUPABASE_SERVICE_ROLE|SUPABASE_SERVICE_ROLE_KEY|SERVICE_ROLE)=' /Users/spartacus/.hermes/.env 2>/dev/null | head -1 | cut -d'=' -f2- | tr -d '"' | tr -d "'")
+if [ -n "$_SB_URL" ]; then
+    export SUPABASE_URL="$_SB_URL"
+fi
+if [ -n "$_SB_ROLE" ]; then
+    export SUPABASE_SERVICE_ROLE="$_SB_ROLE"
+fi
+if [ -z "${SUPABASE_URL:-}" ] || [ -z "${SUPABASE_SERVICE_ROLE:-}" ]; then
+    echo "  [WARN] SUPABASE_URL / SERVICE_ROLE unset — writers will skip fleet harvest"
+fi
+
 # --- Step 1: Analyst (buoy data, no LLM) ---
 echo "--- Step 1: Analyst ---"
 cd "$INTEL_DIR"

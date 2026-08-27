@@ -5,6 +5,7 @@ Mariana Reyes — Fire Island / Great South Bay Report Generator
 Produces a single, dated fishing report in Mariana's voice by synthesizing:
   • Her persona from writers_roster.json (voice, mood, beat, system prompt)
   • Recent forum reports for her zone (raw nyangler scrape)
+  • Fresh-from-the-Fleet harvest (Supabase public.fishing_reports, when configured)
   • Latest SST package (water temps, dates)
   • Optional environmental signals (moon phase, wind, tide-window)
 
@@ -17,7 +18,7 @@ LLM and constrains the output schema, so the writer can never invent species
 or locations that aren't in her beat.
 
 Usage:
-  python3 scripts/generate_writer_report.py mariana-reyes [--dry-run] [--push]
+  python3 scripts/generate_writer_report.py mariana-reyes [--dry-run] [--intel-only]
 """
 from __future__ import annotations
 
@@ -32,6 +33,11 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+
+_SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(_SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS_DIR))
+import fleet_harvest  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -499,6 +505,14 @@ HARD RULES (break these and we pull the column):
    breakfast stops, fuel docks, or parking rules. If the verified field
    guide does not contain the fact, omit it.
 
+7. FLEET HARVEST IS BACKGROUND INTEL, NOT YOUR CATCH AND NOT YOUR
+   COLUMN. Boat reports in the intel blob (often Facebook dock posts)
+   are what the fleet said this week. Synthesize them into your own
+   analysis. Do not cite Facebook URLs. Do not paste the post. Do not
+   write as that captain or boat. You may say the fleet or a named
+   boat out of a port reported X only when that fact is in the intel.
+   Do not invent species or places that are not in the intel.
+
 BANNED PHRASES — never use any of these. They are clichés that make
 every writer sound the same:
 
@@ -944,7 +958,7 @@ def load_recent_youtube_intel(zone_slug: str, days: int = 14) -> list[dict]:
     return results[:50]  # Cap to keep prompt size reasonable
 
 
-def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel: list[dict] = None, hooper: dict = None, called_it: list[dict] = None) -> tuple[str, str]:
+def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel: list[dict] = None, hooper: dict = None, called_it: list[dict] = None, fleet_harvest: list[dict] = None) -> tuple[str, str]:
     """Returns (system_prompt, user_prompt)."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     hooper = hooper or {}
@@ -1130,6 +1144,7 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
             "hooper_synthesis_background_DO_NOT_CITE": hooper_context,
             "youtube_intel_DO_NOT_CITE": youtube_intel or [],
             "background_forum_chatter_DO_NOT_CITE": background_reports,
+            "fleet_harvest_DO_NOT_CITE": fleet_harvest or [],
             "task": (
                 "Write this week's fishing report for your zone as a beat "
                 "reporter. Open with analysis of what happened and what the "
@@ -1141,9 +1156,11 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
                 "mixed, say so. Anglers respect honesty, not hype. Use the "
                 "buoy/tide conditions and the Hooper synthesis to explain WHY "
                 "conditions are producing. The forum chatter, YouTube intel, "
-                "and Hooper synthesis are BACKGROUND ONLY — synthesize them "
-                "into your voice, never cite users, video channels, Hooper, "
-                "or the buoy data source."
+                "fleet harvest, and Hooper synthesis are BACKGROUND ONLY — "
+                "synthesize them into your voice, never cite users, video "
+                "channels, Hooper, Facebook URLs, or the buoy data source. "
+                "Do not copy a fleet post as the finished column and do not "
+                "write in a boat's voice."
                 + called_it_block +
                 " Write it like YOUR column — your voice, your personality, "
                 "your way of reading the water — but as a reporter, not as "
@@ -1774,6 +1791,32 @@ def rebuild_reports_index() -> dict:
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+def load_fleet_harvest(writer_id: str, limit: int = 30) -> list[dict]:
+    """Load this week's ready fleet harvest for one writer. Never raises."""
+    if fleet_harvest.credentials_missing_reason():
+        fleet_harvest.log_credential_miss()
+        return []
+    try:
+        return fleet_harvest.load_fleet_harvest_for_writer(writer_id, limit=limit)
+    except Exception as exc:  # noqa: BLE001 — cron must not crash
+        print(
+            f"[warn] fleet harvest unavailable ({type(exc).__name__}: {exc}) "
+            "— using jsonl forum intel",
+            file=sys.stderr,
+        )
+        return []
+
+
+def log_fleet_sample(rows: list[dict]) -> None:
+    headlines = [
+        str(row.get("headline") or row.get("text") or "")[:90]
+        for row in rows[:5]
+        if row.get("headline") or row.get("text")
+    ]
+    if headlines:
+        print(f"[gen] fleet_sample={headlines}", file=sys.stderr)
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="Generate a fishing report for a writer.")
     p.add_argument("writer_id", help="e.g. fire-island, jamaica-bay")
@@ -1781,6 +1824,11 @@ def main() -> int:
                    help="OpenRouter model id (default: anthropic/claude-sonnet-5)")
     p.add_argument("--limit", type=int, default=30, help="Max source reports to include (default 30)")
     p.add_argument("--dry-run", action="store_true", help="Print the report; do not write files.")
+    p.add_argument(
+        "--intel-only",
+        action="store_true",
+        help="Assemble intel and print fleet headlines in the prompt blob; do not call the LLM.",
+    )
     p.add_argument("--skip-index", action="store_true",
                    help="Skip reports.json/teasers rebuild; intended for batch generation.")
     args = p.parse_args()
@@ -1788,6 +1836,7 @@ def main() -> int:
     writer = load_writer(args.writer_id)
     zone_slug = WRITER_TO_ZONE_BUCKET.get(writer["id"]) or writer.get("zone_slug") or writer["id"]
     reports = load_recent_reports(zone_slug, writer_id=args.writer_id, limit=args.limit)
+    fleet = load_fleet_harvest(writer["id"], limit=args.limit)
     raw_analyst = load_latest_analyst(writer_id=args.writer_id)
     analyst = filter_analyst_for_zone(raw_analyst, zone_slug, writer)
     youtube_intel = load_recent_youtube_intel(zone_slug, days=14)
@@ -1813,6 +1862,7 @@ def main() -> int:
     print(
         f"[gen] writer={writer['name']} zone={zone_slug} "
         f"forum_bg={len(reports)} "
+        f"fleet_harvest={len(fleet)} "
         f"analyst={'yes' if analyst else 'NO'} "
         f"analyst_runs={len(raw_analyst.get('prior_analyst_runs_since_last_report', [])) + 1 if raw_analyst else 0} "
         f"regional_match={len(analyst.get('regional_outlook_for_beat', []))} "
@@ -1821,13 +1871,44 @@ def main() -> int:
         f"youtube_intel={len(youtube_intel)}",
         file=sys.stderr,
     )
+    log_fleet_sample(fleet)
     if not analyst:
         print(
             "[warn] no analyst buoy/tide data available — report will be thinner than ideal",
             file=sys.stderr,
         )
 
-    system, user = build_prompt(writer, reports, analyst, youtube_intel, hooper=hooper, called_it=called_it)
+    system, user = build_prompt(
+        writer,
+        reports,
+        analyst,
+        youtube_intel,
+        hooper=hooper,
+        called_it=called_it,
+        fleet_harvest=fleet,
+    )
+    if args.intel_only:
+        payload = json.loads(user)
+        fleet_blob = payload.get("fleet_harvest_DO_NOT_CITE") or []
+        summary = {
+            "writer_id": writer["id"],
+            "zone_slug": zone_slug,
+            "forum_bg": len(reports),
+            "fleet_harvest": len(fleet_blob),
+            "fleet_headlines": [
+                row.get("headline") or row.get("text")
+                for row in fleet_blob
+                if row.get("headline") or row.get("text")
+            ],
+            "prompt_contains_fleet": bool(fleet_blob)
+            and "fleet_harvest_DO_NOT_CITE" in user,
+            "facebook_urls_in_prompt": bool(
+                fleet_harvest.FACEBOOK_URL_RE.search(user)
+            ),
+        }
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return 0
+
     print(f"[gen] calling {args.model} (prompt={len(system)+len(user):,} chars)", file=sys.stderr)
 
     # Retry the LLM call up to 3 times on invalid or incomplete output.

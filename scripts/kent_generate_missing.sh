@@ -10,6 +10,12 @@ if [ -z "$OPENROUTER_API_KEY" ]; then
     exit 1
 fi
 
+# Optional fleet harvest. Missing vars fall back to jsonl inside the generator.
+_SB_URL=$(grep '^SUPABASE_URL=' ~/.hermes/.env 2>/dev/null | cut -d'=' -f2- | tr -d '"' | tr -d "'")
+_SB_ROLE=$(grep -E '^(SUPABASE_SERVICE_ROLE|SUPABASE_SERVICE_ROLE_KEY|SERVICE_ROLE)=' ~/.hermes/.env 2>/dev/null | head -1 | cut -d'=' -f2- | tr -d '"' | tr -d "'")
+[ -n "$_SB_URL" ] && export SUPABASE_URL="$_SB_URL"
+[ -n "$_SB_ROLE" ] && export SUPABASE_SERVICE_ROLE="$_SB_ROLE"
+
 PYTHON="/Users/spartacus/nor-easter-setup/projects/noreaster-intel/.venv/bin/python3"
 FEED_DIR="$HOME/.hermes/workspace/noreaster/writers-feed"
 cd "$FEED_DIR" || { echo "[ERROR] Cannot cd to $FEED_DIR"; exit 1; }
