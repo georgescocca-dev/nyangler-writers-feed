@@ -1,51 +1,10 @@
 {
   "schema_version": "fleet-archive-1",
-  "generated_at": "2026-08-28T12:17:01.375027+00:00",
+  "generated_at": "2026-08-28T12:33:12.284840+00:00",
   "source": "public.fishing_reports",
   "note": "Backup only. Sites must not serve from this file.",
-  "total": 114,
+  "total": 118,
   "reports": [
-    {
-      "id": "1caeb125-8f59-4963-989b-a5ebeb614314",
-      "intel_item_id": "bf835e24-b863-4747-b0e4-80c1dc95ec22",
-      "observed_at": "2026-08-27T12:00:00+00:00",
-      "date": "2026-08-27",
-      "headline": "Jones/Debbs Inlet Saltwater Fishing Report 2026-08-27",
-      "body": "Crazy day at the windmills. 2 hours of non stop reeling. School bluefin. Bonito. False albies. We were covered up once we moved away from the traffic and started our own chum slick. All caught on live peanuts and jigs.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/1981794058538317/",
-      "item_url": "https://www.facebook.com/groups/1981794058538317/",
-      "platform": "facebook",
-      "water": "offshore",
-      "boat_class": "group",
-      "area": "jones-inlet",
-      "desk": null,
-      "port": "other",
-      "species": "bluefin tuna, bonito, false albacore",
-      "content_hash": "de6f444d1044d201b5fa1ffc79efb5493eed9ef97acdb5a1b874a7356a74e857",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "jones-inlet",
-          "state": "ny",
-          "reason": "jones-debbs-group",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "port": "other",
-        "poster": "Frank Ferro",
-        "species": [
-          "bluefin tuna",
-          "bonito",
-          "false albacore"
-        ],
-        "source_title": "Jones/Debbs Inlet Saltwater Fishing Report"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
     {
       "id": "3e708dec-2dc8-4c81-887e-4df151c771ed",
       "intel_item_id": "4c659bf2-05a1-41b8-9f84-475bd2c89c66",
@@ -112,6 +71,182 @@
       },
       "created_at": "2026-08-28T12:16:34.770695+00:00",
       "updated_at": "2026-08-28T12:16:34.770695+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "5925bd3b-7412-4a16-8a9d-c7531664438b",
+      "intel_item_id": "12ce609d-b0d5-444c-b003-f716345f1452",
+      "observed_at": "2026-08-27T16:00:00+00:00",
+      "date": "2026-08-27",
+      "headline": "The New York Angler \u2014 Gypsea Charters \u2014 2026-08-27",
+      "body": "Tuesdays open boat saw an awesome crowd and some beautiful weather. Picked up where we left off and had keepers and shorts coming up right out of the gate. Bounced around a bit and put together a nice catch. Plenty of short life to keep rods bent and a good amount of nice sized keepers. Henry had the hot hand nailing 5 himself and Ramsey took down the pool with a beauty. Couple other limits around the boat and down from there. There are still plenty of fish around!",
+      "source_name": "The New York Angler",
+      "source_url": "https://www.facebook.com/groups/387833942043030/post_insights/2283025955857143/",
+      "item_url": "https://www.facebook.com/groups/387833942043030/post_insights/2283025955857143/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "charter",
+      "area": "jamaica-bay",
+      "desk": null,
+      "port": "Brooklyn, NY (Futura Marina, Knapp St)",
+      "species": "fluke",
+      "content_hash": "2ee489972c99331271751f910f83a156093834e51506482a7f3a8e0d5618420f",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "jamaica-bay",
+          "state": "ny",
+          "backfill": "2026-08-28-fleet"
+        },
+        "kind": "group",
+        "poster": "Gypsea Charters",
+        "geo_hint": {
+          "area": "jamaica-bay",
+          "state": "ny",
+          "water": "inshore",
+          "boat_class": "charter"
+        },
+        "harvester": "inlet",
+        "fetch_date": "2026-08-28",
+        "source_name": "The New York Angler",
+        "species_list": [
+          "fluke"
+        ]
+      },
+      "created_at": "2026-08-28T12:33:11.93157+00:00",
+      "updated_at": "2026-08-28T12:33:11.93157+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "c80e552f-607f-4d42-87e2-6c54fb8ec744",
+      "intel_item_id": "b59f47d0-a770-4429-b39a-e2c67802637d",
+      "observed_at": "2026-08-27T16:00:00+00:00",
+      "date": "2026-08-27",
+      "headline": "The New York Angler \u2014 Patty Ann Charters \u2014 2026-08-27",
+      "body": "Nice day on the water. No wind and sunny. Fluke fishing is excellent but you really have to work to get keepers. We released countless 19 inch fish.",
+      "source_name": "The New York Angler",
+      "source_url": "https://www.facebook.com/groups/387833942043030/",
+      "item_url": "https://www.facebook.com/groups/387833942043030/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "charter",
+      "area": "captree",
+      "desk": null,
+      "port": "Captree State Park / Babylon, NY",
+      "species": "fluke",
+      "content_hash": "6d5f07df81efcd111b00c8e26acd33ae185fc724f0184613df244d2c182c6370",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "captree",
+          "state": "ny",
+          "backfill": "2026-08-28-fleet"
+        },
+        "kind": "group",
+        "poster": "Patty Ann Charters",
+        "geo_hint": {
+          "area": "captree",
+          "state": "ny",
+          "water": "inshore",
+          "boat_class": "charter"
+        },
+        "harvester": "inlet",
+        "fetch_date": "2026-08-28",
+        "source_name": "The New York Angler",
+        "species_list": [
+          "fluke"
+        ]
+      },
+      "created_at": "2026-08-28T12:33:11.93157+00:00",
+      "updated_at": "2026-08-28T12:33:11.93157+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "c32aba33-b514-481f-ade6-8a820ccc1362",
+      "intel_item_id": "04a1bcdd-49da-4d60-9ad4-5501b584a939",
+      "observed_at": "2026-08-27T16:00:00+00:00",
+      "date": "2026-08-27",
+      "headline": "Long Island Tuna Fishing \u2014 Tyler Abbatiello (comment) \u2014 2026-08-27",
+      "body": "5 miles north of coimbra yesterday had bait and 10+ whales going nuts. Don't think anyone pulled in a fish tho. They weren't eating. First light I heard of a few fish caught there but not much",
+      "source_name": "Long Island Tuna Fishing",
+      "source_url": "https://www.facebook.com/groups/636827893924535/",
+      "item_url": "https://www.facebook.com/groups/636827893924535/",
+      "platform": "facebook",
+      "water": "offshore",
+      "boat_class": "private",
+      "area": "unclassified",
+      "desk": null,
+      "port": "Coimbra area, offshore Long Island, NY",
+      "species": "bluefin tuna",
+      "content_hash": "8ecf32634208ea84e6a2eb081f80f1c34c6c28df54e175c3e9233bada69f358e",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "unclassified",
+          "state": "ny",
+          "backfill": "2026-08-28-fleet"
+        },
+        "kind": "group",
+        "poster": "Tyler Abbatiello (comment)",
+        "geo_hint": {
+          "area": "unclassified",
+          "state": "ny",
+          "water": "offshore",
+          "boat_class": "private"
+        },
+        "harvester": "inlet",
+        "fetch_date": "2026-08-28",
+        "source_name": "Long Island Tuna Fishing",
+        "species_list": [
+          "bluefin tuna"
+        ]
+      },
+      "created_at": "2026-08-28T12:33:11.93157+00:00",
+      "updated_at": "2026-08-28T12:33:11.93157+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "6e3c4f77-12b6-4942-b5cc-a15ee3f65564",
+      "intel_item_id": "834091ba-03f6-4f50-9f37-128e54d9b5da",
+      "observed_at": "2026-08-27T16:00:00+00:00",
+      "date": "2026-08-27",
+      "headline": "Long Island Tuna Fishing \u2014 Teddy Robert Laq (comment on 'ANYTHING GOING ON AT THE TAILS????') \u2014 2026-08-27",
+      "body": "Not great for tuna yesterday, just small yellows. Just day trip",
+      "source_name": "Long Island Tuna Fishing",
+      "source_url": "https://www.facebook.com/groups/636827893924535/",
+      "item_url": "https://www.facebook.com/groups/636827893924535/",
+      "platform": "facebook",
+      "water": "offshore",
+      "boat_class": "private",
+      "area": "unclassified",
+      "desk": null,
+      "port": "The Tails, offshore NY",
+      "species": "yellowfin tuna",
+      "content_hash": "3f478cb0b49280ad0a16ca4357d04d89181be80f76ed1802c3f6a7c08ea375c6",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "unclassified",
+          "state": "ny",
+          "backfill": "2026-08-28-fleet"
+        },
+        "kind": "group",
+        "poster": "Teddy Robert Laq (comment on 'ANYTHING GOING ON AT THE TAILS????')",
+        "geo_hint": {
+          "area": "unclassified",
+          "state": "ny",
+          "water": "offshore",
+          "boat_class": "private"
+        },
+        "harvester": "inlet",
+        "fetch_date": "2026-08-28",
+        "source_name": "Long Island Tuna Fishing",
+        "species_list": [
+          "yellowfin tuna"
+        ]
+      },
+      "created_at": "2026-08-28T12:33:11.93157+00:00",
+      "updated_at": "2026-08-28T12:33:11.93157+00:00",
       "state": "ny"
     },
     {
@@ -344,259 +479,45 @@
       "state": "ny"
     },
     {
-      "id": "fc94fb0e-ddab-42f2-b29e-be28ee72f7ee",
-      "intel_item_id": "fd998d35-7a21-41f0-bfa7-0e8cede445a5",
-      "observed_at": "2026-08-26T12:00:00+00:00",
-      "date": "2026-08-26",
-      "headline": "Maine Saltwater Fishing 2026-08-26",
-      "body": "First stripers for a couple of the gals and Judy set a new personal best. Rocking it with Pine Island Guide Service!\u2026",
+      "id": "1caeb125-8f59-4963-989b-a5ebeb614314",
+      "intel_item_id": "bf835e24-b863-4747-b0e4-80c1dc95ec22",
+      "observed_at": "2026-08-27T12:00:00+00:00",
+      "date": "2026-08-27",
+      "headline": "Jones/Debbs Inlet Saltwater Fishing Report 2026-08-27",
+      "body": "Crazy day at the windmills. 2 hours of non stop reeling. School bluefin. Bonito. False albies. We were covered up once we moved away from the traffic and started our own chum slick. All caught on live peanuts and jigs.",
       "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/1878039415827249",
-      "item_url": "https://www.facebook.com/groups/1878039415827249",
+      "source_url": "https://www.facebook.com/groups/1981794058538317/",
+      "item_url": "https://www.facebook.com/groups/1981794058538317/",
       "platform": "facebook",
-      "water": "surf",
+      "water": "offshore",
       "boat_class": "group",
-      "area": "southern-maine",
+      "area": "jones-inlet",
       "desk": null,
       "port": "other",
-      "species": "striped bass",
-      "content_hash": "ab3d8ff49c5eda3ed0b1565de9249d4be2ff1ae4ff7f19a6b9b6e9b351fab222",
+      "species": "bluefin tuna, bonito, false albacore",
+      "content_hash": "de6f444d1044d201b5fa1ffc79efb5493eed9ef97acdb5a1b874a7356a74e857",
       "status": "ready",
       "extra": {
         "geo": {
-          "area": "southern-maine",
-          "state": "me",
-          "reason": "pine-island-ogunquit",
-          "region": "new-england",
+          "area": "jones-inlet",
+          "state": "ny",
+          "reason": "jones-debbs-group",
+          "region": "new-york",
           "backfill": "2026-08-27"
         },
         "kind": "group",
         "port": "other",
-        "poster": "Jake Rackliff",
+        "poster": "Frank Ferro",
         "species": [
-          "striped bass"
+          "bluefin tuna",
+          "bonito",
+          "false albacore"
         ],
-        "source_title": "Maine Saltwater Fishing"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "me"
-    },
-    {
-      "id": "021ceb5a-a0c0-479d-9696-c6025e61400b",
-      "intel_item_id": "f0d14ffb-01a9-4651-b9d9-ce1f09c2251a",
-      "observed_at": "2026-08-26T12:00:00+00:00",
-      "date": "2026-08-26",
-      "headline": "Ebb Tide Fishing Boat - Montauk 2026-08-26",
-      "body": "\"8/25 AM and Fishtac Report\" (photo report, text truncated behind See more)",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/posts/pfbid02Q8bdiSkq9QHEMAzuoEQfuQPF1j7Lg7AUVqKtcT9b3UwVvz9T5cr7zfeAVCvicuNZl",
-      "item_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/posts/pfbid02Q8bdiSkq9QHEMAzuoEQfuQPF1j7Lg7AUVqKtcT9b3UwVvz9T5cr7zfeAVCvicuNZl",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "boat-page",
-      "area": "montauk",
-      "desk": "montauk",
-      "port": "montauk",
-      "species": null,
-      "content_hash": "66363a1553ee67ad1314da650027e6a2500fbcf8ab8daad1fb3f41bf1fbc62aa",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "montauk",
-          "state": "ny",
-          "reason": "already-tagged-area",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "boat-page",
-        "poster": "Ebb Tide Fishing Boat - Montauk",
-        "species": [],
-        "source_title": "Ebb Tide Fishing Boat - Montauk"
+        "source_title": "Jones/Debbs Inlet Saltwater Fishing Report"
       },
       "created_at": "2026-08-27T19:54:05.86619+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "ny"
-    },
-    {
-      "id": "aaf5db08-28f8-45ad-a70f-acf8fd3e0f3c",
-      "intel_item_id": "fe113d2c-c1f8-4d61-a7c8-def963744c29",
-      "observed_at": "2026-08-26T16:00:00+00:00",
-      "date": "2026-08-26",
-      "headline": "Viking Fleet \u2014 2026-08-26 (Montauk)",
-      "body": "Captain JR reported a lively Viking Star half-day AM with lots of action everywhere they went \u2014 sea bass, porgies, and fluke bending rods. He said there were definitely a lot of shorts this morning, but enough nicer-sized fish for a good catch, and when the tide started running they added a few nice keeper fluke. Pool winner was John Strauss of West Shokan, NY with a 4.4 lb fluke.",
-      "source_name": "Viking Fleet",
-      "source_url": "https://fishingreports.vikingfleet.com/fishing-reports/",
-      "item_url": "https://fishingreports.vikingfleet.com/2026/08/26/wed-aug-26-1-2-fishing-am/",
-      "platform": "party_boat",
-      "water": "surf",
-      "boat_class": "party",
-      "area": "montauk",
-      "desk": "montauk",
-      "port": "montauk",
-      "species": "sea bass, porgies, fluke",
-      "content_hash": "d447d665d793e3a2dc0e93ebbd4c54ba",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "montauk",
-          "state": "ny",
-          "reason": "already-tagged-area",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "file": "2026-08-26-montauk-viking-star-am.md",
-        "harvester": "wire",
-        "fetch_date": "2026-08-27",
-        "source_name": "Viking Fleet"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "021cbf5c-9575-4345-acad-9e4ca0993f20",
-      "intel_item_id": "11544efe-0c80-4a11-afa7-8a8e45302bb8",
-      "observed_at": "2026-08-26T16:00:00+00:00",
-      "date": "2026-08-26",
-      "headline": "Viking Fleet \u2014 2026-08-26 (Montauk)",
-      "body": "Capt Dave reported excellent fishing on the Viking Starship. They started down the beach out of the tide and had a pick of the biggest porgies they had seen since July \u2014 all large and jumbo \u2014 then made one drop at the lighthouse for a mixed bag of mixed-size porgies, some keeper sea bass with a lot of throwbacks, plus bluefish, triggerfish, and fluke. First-place pool was Ray Young of Brooklyn, NY with a 4 lb jumbo porgy; edible pool was Kim Callander of Roselle, NY with a 6 lb fluke.",
-      "source_name": "Viking Fleet",
-      "source_url": "https://fishingreports.vikingfleet.com/fishing-reports/",
-      "item_url": "https://fishingreports.vikingfleet.com/2026/08/26/wed-aug-26-montauk-lighthouse-jumbo-porgies-knothead-sea-bass/",
-      "platform": "party_boat",
-      "water": "surf",
-      "boat_class": "party",
-      "area": "montauk",
-      "desk": "montauk",
-      "port": "montauk",
-      "species": "porgies, sea bass, bluefish, triggerfish, fluke",
-      "content_hash": "d83a9ba5f89fcf08e3b6f12427658b47",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "montauk",
-          "state": "ny",
-          "reason": "already-tagged-area",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "file": "2026-08-26-montauk-viking-lighthouse.md",
-        "harvester": "wire",
-        "fetch_date": "2026-08-27",
-        "source_name": "Viking Fleet"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "c8746d90-cc0f-4a02-85c1-a648831d38bb",
-      "intel_item_id": "178f6cb6-e973-4af4-9932-0a8ead0433d7",
-      "observed_at": "2026-08-26T16:00:00+00:00",
-      "date": "2026-08-26",
-      "headline": "Viking Fleet \u2014 2026-08-26 (Montauk)",
-      "body": "Captain JR reported a great afternoon of catching on the Viking Star half-day PM. He said there was loads of action all around the boat with sea bass, porgies, and fluke keeping them busy, with an increase in size of the catch, including big sea bass and some beauty fluke, and everyone took home a mixed bag. Pool winner was Jennifer Razzano with a 3 lb fluke.",
-      "source_name": "Viking Fleet",
-      "source_url": "https://fishingreports.vikingfleet.com/fishing-reports/",
-      "item_url": "https://fishingreports.vikingfleet.com/2026/08/26/wed-aug-26-1-2-day-fishing-pm-2/",
-      "platform": "party_boat",
-      "water": "surf",
-      "boat_class": "party",
-      "area": "montauk",
-      "desk": "montauk",
-      "port": "montauk",
-      "species": "sea bass, porgies, fluke",
-      "content_hash": "7d0bc51be83e4427ecdc8a010a4a73ac",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "montauk",
-          "state": "ny",
-          "reason": "already-tagged-area",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "file": "2026-08-26-montauk-viking-star-pm.md",
-        "harvester": "wire",
-        "fetch_date": "2026-08-27",
-        "source_name": "Viking Fleet"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "5655b120-0dcd-4cbd-a1ec-5051f2ab3032",
-      "intel_item_id": "7b31c204-f46b-42bf-b7ba-bf0cd9957ca5",
-      "observed_at": "2026-08-26T16:00:00+00:00",
-      "date": "2026-08-26",
-      "headline": "Capt. Ron's Fishermen \u2014 2026-08-26 (Atlantic Highlands)",
-      "body": "Capt. Ron\u2019s Aug. 26 \u201cMuch Better Life today! Wednesdays Report\u201d said they headed out with a nice gang of fishermen regs, a bunch of youngsters getting in the last shot before going back to school. The fishing did not disappoint as they had action all day with the fluke and sea bass. Eric started the morning off with his limit on the first two drifts, ended up with 5 keepers and the pool fish at 6 lbs 10 oz; lots of guys with 2 and a good catch of jumbo sea bass. The past two days has been a big improvement in the life and the action. Weather looks great right through the weekend; sailing every day 7:30\u20132:30 p.m., open boat, no reservations.",
-      "source_name": "Capt. Ron's Fishermen",
-      "source_url": "https://www.captainronsfishermen.com/atlantic-highlands-fishing-reports/1164-fishermen-much-better-life-today-wednesdays-report",
-      "item_url": "https://www.captainronsfishermen.com/atlantic-highlands-fishing-reports/1164-fishermen-much-better-life-today-wednesdays-report",
-      "platform": "public_web",
-      "water": "surf",
-      "boat_class": "party",
-      "area": "raritan-bay-sandy-hook",
-      "desk": "atlantic-highlands",
-      "port": "atlantic-highlands",
-      "species": "fluke, sea bass",
-      "content_hash": "eed3da92d8fafa16945fe8a47e52f160",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "raritan-bay-sandy-hook",
-          "state": "nj",
-          "reason": "capt-ron-atlantic-highlands",
-          "region": "new-jersey",
-          "backfill": "2026-08-27"
-        },
-        "file": "2026-08-26-atlantic-highlands-capt-rons.md",
-        "harvester": "wire",
-        "fetch_date": "2026-08-27",
-        "source_name": "Capt. Ron's Fishermen"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "nj"
-    },
-    {
-      "id": "f633be5f-ceba-4232-9272-f791ee312ea7",
-      "intel_item_id": "2e3ca4ea-80d9-4e21-9c1b-d25120982d06",
-      "observed_at": "2026-08-26T16:00:00+00:00",
-      "date": "2026-08-26",
-      "headline": "Golden Eagle \u2014 2026-08-26 (Belmar)",
-      "body": "The Golden Eagle\u2019s Aug. 26 report said they had a tough day with the bluefish: they read them really well first thing this morning and had a nice little shot at them, but then had a difficult time finding the fish again. They ended up working offshore, picking a few fish on a drift here and there, with just a little sprinkle of fish on the hills. Overall it was a tough day trying to locate the big body of fish they\u2019ve been having; they said they\u2019ll be right back at it tomorrow.",
-      "source_name": "Golden Eagle",
-      "source_url": "https://www.goldeneaglefishing.com/fishingreports",
-      "item_url": "https://www.goldeneaglefishing.com/fishingreports",
-      "platform": "public_web",
-      "water": "offshore",
-      "boat_class": "other",
-      "area": "northern-nj-shore",
-      "desk": "belmar",
-      "port": "belmar",
-      "species": "bluefish",
-      "content_hash": "1b35f19fc8bb5e5ed7dc464d37a986d1",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "northern-nj-shore",
-          "state": "nj",
-          "reason": "already-tagged-area",
-          "region": "new-jersey",
-          "backfill": "2026-08-27"
-        },
-        "file": "2026-08-26-belmar-golden-eagle.md",
-        "harvester": "wire",
-        "fetch_date": "2026-08-27",
-        "source_name": "Golden Eagle"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "nj"
     },
     {
       "id": "da3162c6-8b93-4862-b8d8-a2a1ed3315b1",
@@ -1114,45 +1035,6 @@
       "state": "ny"
     },
     {
-      "id": "097a5a0e-c3a0-4df1-bb53-493825e599ba",
-      "intel_item_id": "eaea7b57-77be-44e5-a263-f9860193ea2b",
-      "observed_at": "2026-08-26T12:00:00+00:00",
-      "date": "2026-08-26",
-      "headline": "Fluke Fishing 2026-08-26",
-      "body": "8/26 AM and PM \u2014 lots of life all day, picked at them through the shorts. Biggest fish today was Joe Kim, 6 lbs 4 oz.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/40601788277/",
-      "item_url": "https://www.facebook.com/groups/40601788277/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": "fluke",
-      "content_hash": "7b834c36392feb2de9e598ed12cf4befa19f8387e870260d6719aa005c6fba05",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": null,
-          "state": null,
-          "reason": "generic-unlocated",
-          "region": null,
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "port": "other",
-        "poster": "Joseph Bogan / Jamaica II",
-        "species": [
-          "fluke"
-        ],
-        "source_title": "Fluke Fishing"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": null
-    },
-    {
       "id": "d5aa99d9-4ca5-4687-9156-b88935287d1a",
       "intel_item_id": "e749ba94-b82d-4d45-b960-60a9d363b345",
       "observed_at": "2026-08-26T12:00:00+00:00",
@@ -1192,6 +1074,156 @@
       "created_at": "2026-08-27T19:54:05.86619+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "nj"
+    },
+    {
+      "id": "097a5a0e-c3a0-4df1-bb53-493825e599ba",
+      "intel_item_id": "eaea7b57-77be-44e5-a263-f9860193ea2b",
+      "observed_at": "2026-08-26T12:00:00+00:00",
+      "date": "2026-08-26",
+      "headline": "Fluke Fishing 2026-08-26",
+      "body": "8/26 AM and PM \u2014 lots of life all day, picked at them through the shorts. Biggest fish today was Joe Kim, 6 lbs 4 oz.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/40601788277/",
+      "item_url": "https://www.facebook.com/groups/40601788277/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": "fluke",
+      "content_hash": "7b834c36392feb2de9e598ed12cf4befa19f8387e870260d6719aa005c6fba05",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": null,
+          "reason": "generic-unlocated",
+          "region": null,
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Joseph Bogan / Jamaica II",
+        "species": [
+          "fluke"
+        ],
+        "source_title": "Fluke Fishing"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": null
+    },
+    {
+      "id": "021ceb5a-a0c0-479d-9696-c6025e61400b",
+      "intel_item_id": "f0d14ffb-01a9-4651-b9d9-ce1f09c2251a",
+      "observed_at": "2026-08-26T12:00:00+00:00",
+      "date": "2026-08-26",
+      "headline": "Ebb Tide Fishing Boat - Montauk 2026-08-26",
+      "body": "\"8/25 AM and Fishtac Report\" (photo report, text truncated behind See more)",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/posts/pfbid02Q8bdiSkq9QHEMAzuoEQfuQPF1j7Lg7AUVqKtcT9b3UwVvz9T5cr7zfeAVCvicuNZl",
+      "item_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/posts/pfbid02Q8bdiSkq9QHEMAzuoEQfuQPF1j7Lg7AUVqKtcT9b3UwVvz9T5cr7zfeAVCvicuNZl",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "boat-page",
+      "area": "montauk",
+      "desk": "montauk",
+      "port": "montauk",
+      "species": null,
+      "content_hash": "66363a1553ee67ad1314da650027e6a2500fbcf8ab8daad1fb3f41bf1fbc62aa",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "montauk",
+          "state": "ny",
+          "reason": "already-tagged-area",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "boat-page",
+        "poster": "Ebb Tide Fishing Boat - Montauk",
+        "species": [],
+        "source_title": "Ebb Tide Fishing Boat - Montauk"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "aaf5db08-28f8-45ad-a70f-acf8fd3e0f3c",
+      "intel_item_id": "fe113d2c-c1f8-4d61-a7c8-def963744c29",
+      "observed_at": "2026-08-26T16:00:00+00:00",
+      "date": "2026-08-26",
+      "headline": "Viking Fleet \u2014 2026-08-26 (Montauk)",
+      "body": "Captain JR reported a lively Viking Star half-day AM with lots of action everywhere they went \u2014 sea bass, porgies, and fluke bending rods. He said there were definitely a lot of shorts this morning, but enough nicer-sized fish for a good catch, and when the tide started running they added a few nice keeper fluke. Pool winner was John Strauss of West Shokan, NY with a 4.4 lb fluke.",
+      "source_name": "Viking Fleet",
+      "source_url": "https://fishingreports.vikingfleet.com/fishing-reports/",
+      "item_url": "https://fishingreports.vikingfleet.com/2026/08/26/wed-aug-26-1-2-fishing-am/",
+      "platform": "party_boat",
+      "water": "surf",
+      "boat_class": "party",
+      "area": "montauk",
+      "desk": "montauk",
+      "port": "montauk",
+      "species": "sea bass, porgies, fluke",
+      "content_hash": "d447d665d793e3a2dc0e93ebbd4c54ba",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "montauk",
+          "state": "ny",
+          "reason": "already-tagged-area",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "file": "2026-08-26-montauk-viking-star-am.md",
+        "harvester": "wire",
+        "fetch_date": "2026-08-27",
+        "source_name": "Viking Fleet"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "fc94fb0e-ddab-42f2-b29e-be28ee72f7ee",
+      "intel_item_id": "fd998d35-7a21-41f0-bfa7-0e8cede445a5",
+      "observed_at": "2026-08-26T12:00:00+00:00",
+      "date": "2026-08-26",
+      "headline": "Maine Saltwater Fishing 2026-08-26",
+      "body": "First stripers for a couple of the gals and Judy set a new personal best. Rocking it with Pine Island Guide Service!\u2026",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/1878039415827249",
+      "item_url": "https://www.facebook.com/groups/1878039415827249",
+      "platform": "facebook",
+      "water": "surf",
+      "boat_class": "group",
+      "area": "southern-maine",
+      "desk": null,
+      "port": "other",
+      "species": "striped bass",
+      "content_hash": "ab3d8ff49c5eda3ed0b1565de9249d4be2ff1ae4ff7f19a6b9b6e9b351fab222",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "southern-maine",
+          "state": "me",
+          "reason": "pine-island-ogunquit",
+          "region": "new-england",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Jake Rackliff",
+        "species": [
+          "striped bass"
+        ],
+        "source_title": "Maine Saltwater Fishing"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "me"
     },
     {
       "id": "6e9295b6-aaca-4a76-b3ba-c14f5fda8c8e",
@@ -1376,141 +1408,23 @@
       "state": "ny"
     },
     {
-      "id": "8109705a-e247-4bdf-9d3a-949e9dd2ba7c",
-      "intel_item_id": "de617b3c-fcd2-4392-9d35-4ef236bbb820",
-      "observed_at": "2026-08-25T12:00:00+00:00",
-      "date": "2026-08-25",
-      "headline": "Long Island Surf Fishing 2026-08-25",
-      "body": "Fished Demo before first light. Few light taps on an SP; around false dawn got a few cocktail blues. Hooked a huge bat/eagle ray that ate a jig before the snap gave out. Saw lots of small tunas (bonito?) jumping outside casting range all morning; dolphins and a SpaceX launch at first light.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/961269243956197/",
-      "item_url": "https://www.facebook.com/groups/961269243956197/",
-      "platform": "facebook",
-      "water": "offshore",
-      "boat_class": "group",
-      "area": "fire-island",
-      "desk": null,
-      "port": "other",
-      "species": "bluefish, bonito",
-      "content_hash": "d1b6f3577744f1d2c0e7560e2754d56dfd36fb928f7f8f6a55b13532a3ecf65f",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "fire-island",
-          "state": "ny",
-          "reason": "democrat-point",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "port": "other",
-        "poster": "Jaiem Fleischmann",
-        "species": [
-          "bluefish",
-          "bonito"
-        ],
-        "source_title": "Long Island Surf Fishing"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "8be2fb0e-a13e-48b4-9294-6b103eb05e32",
-      "intel_item_id": "44cb0e32-2d19-4981-a06b-d35966310e5d",
-      "observed_at": "2026-08-25T12:00:00+00:00",
-      "date": "2026-08-25",
-      "headline": "Home feed (Follow) 2026-08-25",
-      "body": "Mako caught and released. (Home feed; Follow byline, Ben Gardner at Kristin K Charters. Relative date 2 days ago as of 2026-08-27. No permalink captured.)",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/",
-      "item_url": "https://www.facebook.com/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "follow",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": "mako shark",
-      "content_hash": "7f4e6ce9f34625750fe7dbddb5b54b97e5b6e56f60ebcff007fef6aa5c7e1027",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": null,
-          "state": null,
-          "reason": "generic-unlocated",
-          "region": null,
-          "backfill": "2026-08-27"
-        },
-        "kind": "follow",
-        "port": "other",
-        "poster": "Ben Gardner",
-        "species": [
-          "mako shark"
-        ],
-        "source_title": "Home feed (Follow)"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": null
-    },
-    {
-      "id": "0b6636ea-58bf-4cee-8abc-4e83b49af3af",
-      "intel_item_id": "b106670a-71db-4ff3-87d0-a2c43ac07408",
-      "observed_at": "2026-08-25T12:00:00+00:00",
-      "date": "2026-08-25",
-      "headline": "New England Bluefin Tuna 2026-08-25",
-      "body": "Report from MB yesterday. Life everywhere, whales from Boston Light to the bank, sharks, birds, mack, herring, squid and more sharks. We had one mark between two boats, heard of one hookup. Rumors of footballs down the cape finally, can anyone confirm? Feel free to message. Tight lines.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/544091920252321/posts/1739906287337539/",
-      "item_url": "https://www.facebook.com/groups/544091920252321/posts/1739906287337539/",
-      "platform": "facebook",
-      "water": "offshore",
-      "boat_class": "group",
-      "area": "ma-offshore-stellwagen",
-      "desk": null,
-      "port": "other",
-      "species": "tuna, shark",
-      "content_hash": "8b2fc0f5e671f15490011a281c8db9ffbb71921a0ba573facc61faeb271550bb",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "ma-offshore-stellwagen",
-          "state": "ma",
-          "reason": "boston-light-to-bank",
-          "region": "new-england",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "poster": "Dan MacAuley",
-        "species": [
-          "tuna",
-          "shark"
-        ],
-        "source_title": "New England Bluefin Tuna"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ma"
-    },
-    {
-      "id": "0cf04c16-9f1d-477d-8c52-690fb29b3fe8",
-      "intel_item_id": "81a675eb-b82e-41cc-a4c0-36733a0547e2",
-      "observed_at": "2026-08-25T12:00:00+00:00",
-      "date": "2026-08-25",
-      "headline": "Home feed 2026-08-25",
-      "body": "Quick trip out to montauk with my boat...fished 2 days. Hit tuna grounds in AM and tried for fluke and whatever else's afterwards. Day 1, Bobby and I took out former club President and current University of Notre Dame student Andrew Andrew got rewarded with his first BFt of 45\". We had a second one on but dropped it. Also caught one of the hundreds of rays out there. Loads of marks day 1... (post continues, See more truncated)",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/",
-      "item_url": "https://www.facebook.com/",
-      "platform": "facebook",
-      "water": "offshore",
-      "boat_class": "friend",
+      "id": "021cbf5c-9575-4345-acad-9e4ca0993f20",
+      "intel_item_id": "11544efe-0c80-4a11-afa7-8a8e45302bb8",
+      "observed_at": "2026-08-26T16:00:00+00:00",
+      "date": "2026-08-26",
+      "headline": "Viking Fleet \u2014 2026-08-26 (Montauk)",
+      "body": "Capt Dave reported excellent fishing on the Viking Starship. They started down the beach out of the tide and had a pick of the biggest porgies they had seen since July \u2014 all large and jumbo \u2014 then made one drop at the lighthouse for a mixed bag of mixed-size porgies, some keeper sea bass with a lot of throwbacks, plus bluefish, triggerfish, and fluke. First-place pool was Ray Young of Brooklyn, NY with a 4 lb jumbo porgy; edible pool was Kim Callander of Roselle, NY with a 6 lb fluke.",
+      "source_name": "Viking Fleet",
+      "source_url": "https://fishingreports.vikingfleet.com/fishing-reports/",
+      "item_url": "https://fishingreports.vikingfleet.com/2026/08/26/wed-aug-26-montauk-lighthouse-jumbo-porgies-knothead-sea-bass/",
+      "platform": "party_boat",
+      "water": "surf",
+      "boat_class": "party",
       "area": "montauk",
       "desk": "montauk",
       "port": "montauk",
-      "species": "bluefin tuna, fluke",
-      "content_hash": "4797a927d5c8dea63b8a4dca85043894a155fad46d17ad49f5cb732f17c2b213",
+      "species": "porgies, sea bass, bluefish, triggerfish, fluke",
+      "content_hash": "d83a9ba5f89fcf08e3b6f12427658b47",
       "status": "ready",
       "extra": {
         "geo": {
@@ -1520,131 +1434,159 @@
           "region": "new-york",
           "backfill": "2026-08-27"
         },
-        "kind": "friend",
-        "poster": "Bob Wilson",
-        "species": [
-          "bluefin tuna",
-          "fluke"
-        ],
-        "source_title": "Home feed"
+        "file": "2026-08-26-montauk-viking-lighthouse.md",
+        "harvester": "wire",
+        "fetch_date": "2026-08-27",
+        "source_name": "Viking Fleet"
       },
       "created_at": "2026-08-27T19:54:05.86619+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "ny"
     },
     {
-      "id": "8b1ee33b-2e70-4e20-91af-f98f2db2d2e2",
-      "intel_item_id": "c2f7608d-22b9-48db-92d3-261de7c8c976",
-      "observed_at": "2026-08-25T12:00:00+00:00",
-      "date": "2026-08-25",
-      "headline": "South Jersey Fishing Reports 2026-08-25",
-      "body": "Busy Monday - double charters 10keeps to 6 pounds.\u2026",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/674709435921137",
-      "item_url": "https://www.facebook.com/groups/674709435921137",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": "fluke",
-      "content_hash": "95c3efdf56e85bb1aa1dd586f808a57fc497a4e652a0a92d4dc4ab546a927332",
+      "id": "c8746d90-cc0f-4a02-85c1-a648831d38bb",
+      "intel_item_id": "178f6cb6-e973-4af4-9932-0a8ead0433d7",
+      "observed_at": "2026-08-26T16:00:00+00:00",
+      "date": "2026-08-26",
+      "headline": "Viking Fleet \u2014 2026-08-26 (Montauk)",
+      "body": "Captain JR reported a great afternoon of catching on the Viking Star half-day PM. He said there was loads of action all around the boat with sea bass, porgies, and fluke keeping them busy, with an increase in size of the catch, including big sea bass and some beauty fluke, and everyone took home a mixed bag. Pool winner was Jennifer Razzano with a 3 lb fluke.",
+      "source_name": "Viking Fleet",
+      "source_url": "https://fishingreports.vikingfleet.com/fishing-reports/",
+      "item_url": "https://fishingreports.vikingfleet.com/2026/08/26/wed-aug-26-1-2-day-fishing-pm-2/",
+      "platform": "party_boat",
+      "water": "surf",
+      "boat_class": "party",
+      "area": "montauk",
+      "desk": "montauk",
+      "port": "montauk",
+      "species": "sea bass, porgies, fluke",
+      "content_hash": "7d0bc51be83e4427ecdc8a010a4a73ac",
       "status": "ready",
       "extra": {
         "geo": {
-          "area": null,
+          "area": "montauk",
+          "state": "ny",
+          "reason": "already-tagged-area",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "file": "2026-08-26-montauk-viking-star-pm.md",
+        "harvester": "wire",
+        "fetch_date": "2026-08-27",
+        "source_name": "Viking Fleet"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "5655b120-0dcd-4cbd-a1ec-5051f2ab3032",
+      "intel_item_id": "7b31c204-f46b-42bf-b7ba-bf0cd9957ca5",
+      "observed_at": "2026-08-26T16:00:00+00:00",
+      "date": "2026-08-26",
+      "headline": "Capt. Ron's Fishermen \u2014 2026-08-26 (Atlantic Highlands)",
+      "body": "Capt. Ron\u2019s Aug. 26 \u201cMuch Better Life today! Wednesdays Report\u201d said they headed out with a nice gang of fishermen regs, a bunch of youngsters getting in the last shot before going back to school. The fishing did not disappoint as they had action all day with the fluke and sea bass. Eric started the morning off with his limit on the first two drifts, ended up with 5 keepers and the pool fish at 6 lbs 10 oz; lots of guys with 2 and a good catch of jumbo sea bass. The past two days has been a big improvement in the life and the action. Weather looks great right through the weekend; sailing every day 7:30\u20132:30 p.m., open boat, no reservations.",
+      "source_name": "Capt. Ron's Fishermen",
+      "source_url": "https://www.captainronsfishermen.com/atlantic-highlands-fishing-reports/1164-fishermen-much-better-life-today-wednesdays-report",
+      "item_url": "https://www.captainronsfishermen.com/atlantic-highlands-fishing-reports/1164-fishermen-much-better-life-today-wednesdays-report",
+      "platform": "public_web",
+      "water": "surf",
+      "boat_class": "party",
+      "area": "raritan-bay-sandy-hook",
+      "desk": "atlantic-highlands",
+      "port": "atlantic-highlands",
+      "species": "fluke, sea bass",
+      "content_hash": "eed3da92d8fafa16945fe8a47e52f160",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "raritan-bay-sandy-hook",
           "state": "nj",
-          "reason": "south-jersey-group-state-only",
+          "reason": "capt-ron-atlantic-highlands",
           "region": "new-jersey",
           "backfill": "2026-08-27"
         },
-        "kind": "group",
-        "poster": "Reel Reaction Sportfishing, LLC",
-        "species": [
-          "fluke"
-        ],
-        "source_title": "South Jersey Fishing Reports"
+        "file": "2026-08-26-atlantic-highlands-capt-rons.md",
+        "harvester": "wire",
+        "fetch_date": "2026-08-27",
+        "source_name": "Capt. Ron's Fishermen"
       },
       "created_at": "2026-08-27T19:54:05.86619+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "nj"
     },
     {
-      "id": "4f25f076-4963-45de-bf8d-daca3d6ba37f",
-      "intel_item_id": "4f9036ab-1111-47c5-b023-103d323f8899",
-      "observed_at": "2026-08-25T12:00:00+00:00",
-      "date": "2026-08-25",
-      "headline": "Long Island Salt Water Fishing 2026-08-25",
-      "body": "Tuesday's 10am Fluke trip saw another good day fishing the outside reef; steady pick of keepers and shorts to 4 lbs. Conditions weren't the best.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/195203154017122/",
-      "item_url": "https://www.facebook.com/groups/195203154017122/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": "fluke",
-      "content_hash": "8cf169eef68ae8312e5367bc6f4681517c00fad3a2529156fa954e344473bb6c",
+      "id": "f633be5f-ceba-4232-9272-f791ee312ea7",
+      "intel_item_id": "2e3ca4ea-80d9-4e21-9c1b-d25120982d06",
+      "observed_at": "2026-08-26T16:00:00+00:00",
+      "date": "2026-08-26",
+      "headline": "Golden Eagle \u2014 2026-08-26 (Belmar)",
+      "body": "The Golden Eagle\u2019s Aug. 26 report said they had a tough day with the bluefish: they read them really well first thing this morning and had a nice little shot at them, but then had a difficult time finding the fish again. They ended up working offshore, picking a few fish on a drift here and there, with just a little sprinkle of fish on the hills. Overall it was a tough day trying to locate the big body of fish they\u2019ve been having; they said they\u2019ll be right back at it tomorrow.",
+      "source_name": "Golden Eagle",
+      "source_url": "https://www.goldeneaglefishing.com/fishingreports",
+      "item_url": "https://www.goldeneaglefishing.com/fishingreports",
+      "platform": "public_web",
+      "water": "offshore",
+      "boat_class": "other",
+      "area": "northern-nj-shore",
+      "desk": "belmar",
+      "port": "belmar",
+      "species": "bluefish",
+      "content_hash": "1b35f19fc8bb5e5ed7dc464d37a986d1",
       "status": "ready",
       "extra": {
         "geo": {
-          "area": null,
-          "state": "ny",
-          "reason": "li-group-state-only",
-          "region": "new-york",
+          "area": "northern-nj-shore",
+          "state": "nj",
+          "reason": "already-tagged-area",
+          "region": "new-jersey",
           "backfill": "2026-08-27"
         },
-        "kind": "group",
-        "port": "other",
-        "poster": "Walter Czekaj / FISHFINDER",
-        "species": [
-          "fluke"
-        ],
-        "source_title": "Long Island Salt Water Fishing"
+        "file": "2026-08-26-belmar-golden-eagle.md",
+        "harvester": "wire",
+        "fetch_date": "2026-08-27",
+        "source_name": "Golden Eagle"
       },
       "created_at": "2026-08-27T19:54:05.86619+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
+      "state": "nj"
     },
     {
-      "id": "9147b4cd-753a-483e-b6c6-16040f5d8783",
-      "intel_item_id": "ca3f4bf0-d243-4d67-bfb8-2f919465766e",
+      "id": "3a1d0bb6-37ed-4055-a64d-d8946bb6e9d4",
+      "intel_item_id": "e6281089-a240-4599-b2e8-c9aa40549327",
       "observed_at": "2026-08-25T12:00:00+00:00",
       "date": "2026-08-25",
-      "headline": "Long Island Salt Water Fishing 2026-08-25",
-      "body": "CAPTREE PRIDE full day adventure \u2014 George ended up with his limit plus catching well over 30 fluke. Much better day with keepers and plenty of shorts.",
+      "headline": "Long Island Surf Fishing 2026-08-25",
+      "body": "First Spanish mackerel catch \u2014 a wonderful surprise, in Great South Bay.",
       "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/195203154017122/",
-      "item_url": "https://www.facebook.com/groups/195203154017122/",
+      "source_url": "https://www.facebook.com/groups/961269243956197/",
+      "item_url": "https://www.facebook.com/groups/961269243956197/",
       "platform": "facebook",
-      "water": "inshore",
+      "water": "surf",
       "boat_class": "group",
       "area": "fire-island",
       "desk": null,
       "port": "other",
-      "species": "fluke",
-      "content_hash": "886c3913cd5b0580f18ba07d520eb1b459225a19d8fcfb1ee83788348bf77d55",
+      "species": "spanish mackerel",
+      "content_hash": "511f5b2c37c5345e1022aa2ea02d23e88b8e341a7238f1caf0363e5d667daaf4",
       "status": "ready",
       "extra": {
         "geo": {
           "area": "fire-island",
           "state": "ny",
-          "reason": "captree-named",
+          "reason": "great-south-bay",
           "region": "new-york",
           "backfill": "2026-08-27"
         },
         "kind": "group",
         "port": "other",
-        "poster": "Ken Higgins",
+        "poster": "James Lento",
         "species": [
-          "fluke"
+          "spanish mackerel"
         ],
-        "source_title": "Long Island Salt Water Fishing"
+        "source_title": "Long Island Surf Fishing"
       },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "ny"
     },
@@ -1788,45 +1730,6 @@
         "poster": "Matthew Matthew",
         "species": [
           "fluke"
-        ],
-        "source_title": "Long Island Surf Fishing"
-      },
-      "created_at": "2026-08-27T19:54:05.86619+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "3a1d0bb6-37ed-4055-a64d-d8946bb6e9d4",
-      "intel_item_id": "e6281089-a240-4599-b2e8-c9aa40549327",
-      "observed_at": "2026-08-25T12:00:00+00:00",
-      "date": "2026-08-25",
-      "headline": "Long Island Surf Fishing 2026-08-25",
-      "body": "First Spanish mackerel catch \u2014 a wonderful surprise, in Great South Bay.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/961269243956197/",
-      "item_url": "https://www.facebook.com/groups/961269243956197/",
-      "platform": "facebook",
-      "water": "surf",
-      "boat_class": "group",
-      "area": "fire-island",
-      "desk": null,
-      "port": "other",
-      "species": "spanish mackerel",
-      "content_hash": "511f5b2c37c5345e1022aa2ea02d23e88b8e341a7238f1caf0363e5d667daaf4",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "fire-island",
-          "state": "ny",
-          "reason": "great-south-bay",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "port": "other",
-        "poster": "James Lento",
-        "species": [
-          "spanish mackerel"
         ],
         "source_title": "Long Island Surf Fishing"
       },
@@ -2105,6 +2008,356 @@
       "state": "nj"
     },
     {
+      "id": "8be2fb0e-a13e-48b4-9294-6b103eb05e32",
+      "intel_item_id": "44cb0e32-2d19-4981-a06b-d35966310e5d",
+      "observed_at": "2026-08-25T12:00:00+00:00",
+      "date": "2026-08-25",
+      "headline": "Home feed (Follow) 2026-08-25",
+      "body": "Mako caught and released. (Home feed; Follow byline, Ben Gardner at Kristin K Charters. Relative date 2 days ago as of 2026-08-27. No permalink captured.)",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/",
+      "item_url": "https://www.facebook.com/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "follow",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": "mako shark",
+      "content_hash": "7f4e6ce9f34625750fe7dbddb5b54b97e5b6e56f60ebcff007fef6aa5c7e1027",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": null,
+          "reason": "generic-unlocated",
+          "region": null,
+          "backfill": "2026-08-27"
+        },
+        "kind": "follow",
+        "port": "other",
+        "poster": "Ben Gardner",
+        "species": [
+          "mako shark"
+        ],
+        "source_title": "Home feed (Follow)"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": null
+    },
+    {
+      "id": "0b6636ea-58bf-4cee-8abc-4e83b49af3af",
+      "intel_item_id": "b106670a-71db-4ff3-87d0-a2c43ac07408",
+      "observed_at": "2026-08-25T12:00:00+00:00",
+      "date": "2026-08-25",
+      "headline": "New England Bluefin Tuna 2026-08-25",
+      "body": "Report from MB yesterday. Life everywhere, whales from Boston Light to the bank, sharks, birds, mack, herring, squid and more sharks. We had one mark between two boats, heard of one hookup. Rumors of footballs down the cape finally, can anyone confirm? Feel free to message. Tight lines.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/544091920252321/posts/1739906287337539/",
+      "item_url": "https://www.facebook.com/groups/544091920252321/posts/1739906287337539/",
+      "platform": "facebook",
+      "water": "offshore",
+      "boat_class": "group",
+      "area": "ma-offshore-stellwagen",
+      "desk": null,
+      "port": "other",
+      "species": "tuna, shark",
+      "content_hash": "8b2fc0f5e671f15490011a281c8db9ffbb71921a0ba573facc61faeb271550bb",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "ma-offshore-stellwagen",
+          "state": "ma",
+          "reason": "boston-light-to-bank",
+          "region": "new-england",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "poster": "Dan MacAuley",
+        "species": [
+          "tuna",
+          "shark"
+        ],
+        "source_title": "New England Bluefin Tuna"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ma"
+    },
+    {
+      "id": "0cf04c16-9f1d-477d-8c52-690fb29b3fe8",
+      "intel_item_id": "81a675eb-b82e-41cc-a4c0-36733a0547e2",
+      "observed_at": "2026-08-25T12:00:00+00:00",
+      "date": "2026-08-25",
+      "headline": "Home feed 2026-08-25",
+      "body": "Quick trip out to montauk with my boat...fished 2 days. Hit tuna grounds in AM and tried for fluke and whatever else's afterwards. Day 1, Bobby and I took out former club President and current University of Notre Dame student Andrew Andrew got rewarded with his first BFt of 45\". We had a second one on but dropped it. Also caught one of the hundreds of rays out there. Loads of marks day 1... (post continues, See more truncated)",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/",
+      "item_url": "https://www.facebook.com/",
+      "platform": "facebook",
+      "water": "offshore",
+      "boat_class": "friend",
+      "area": "montauk",
+      "desk": "montauk",
+      "port": "montauk",
+      "species": "bluefin tuna, fluke",
+      "content_hash": "4797a927d5c8dea63b8a4dca85043894a155fad46d17ad49f5cb732f17c2b213",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "montauk",
+          "state": "ny",
+          "reason": "already-tagged-area",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "friend",
+        "poster": "Bob Wilson",
+        "species": [
+          "bluefin tuna",
+          "fluke"
+        ],
+        "source_title": "Home feed"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "8b1ee33b-2e70-4e20-91af-f98f2db2d2e2",
+      "intel_item_id": "c2f7608d-22b9-48db-92d3-261de7c8c976",
+      "observed_at": "2026-08-25T12:00:00+00:00",
+      "date": "2026-08-25",
+      "headline": "South Jersey Fishing Reports 2026-08-25",
+      "body": "Busy Monday - double charters 10keeps to 6 pounds.\u2026",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/674709435921137",
+      "item_url": "https://www.facebook.com/groups/674709435921137",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": "fluke",
+      "content_hash": "95c3efdf56e85bb1aa1dd586f808a57fc497a4e652a0a92d4dc4ab546a927332",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": "nj",
+          "reason": "south-jersey-group-state-only",
+          "region": "new-jersey",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "poster": "Reel Reaction Sportfishing, LLC",
+        "species": [
+          "fluke"
+        ],
+        "source_title": "South Jersey Fishing Reports"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "nj"
+    },
+    {
+      "id": "4f25f076-4963-45de-bf8d-daca3d6ba37f",
+      "intel_item_id": "4f9036ab-1111-47c5-b023-103d323f8899",
+      "observed_at": "2026-08-25T12:00:00+00:00",
+      "date": "2026-08-25",
+      "headline": "Long Island Salt Water Fishing 2026-08-25",
+      "body": "Tuesday's 10am Fluke trip saw another good day fishing the outside reef; steady pick of keepers and shorts to 4 lbs. Conditions weren't the best.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/195203154017122/",
+      "item_url": "https://www.facebook.com/groups/195203154017122/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": "fluke",
+      "content_hash": "8cf169eef68ae8312e5367bc6f4681517c00fad3a2529156fa954e344473bb6c",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": "ny",
+          "reason": "li-group-state-only",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Walter Czekaj / FISHFINDER",
+        "species": [
+          "fluke"
+        ],
+        "source_title": "Long Island Salt Water Fishing"
+      },
+      "created_at": "2026-08-27T19:54:05.86619+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "9147b4cd-753a-483e-b6c6-16040f5d8783",
+      "intel_item_id": "ca3f4bf0-d243-4d67-bfb8-2f919465766e",
+      "observed_at": "2026-08-25T12:00:00+00:00",
+      "date": "2026-08-25",
+      "headline": "Long Island Salt Water Fishing 2026-08-25",
+      "body": "CAPTREE PRIDE full day adventure \u2014 George ended up with his limit plus catching well over 30 fluke. Much better day with keepers and plenty of shorts.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/195203154017122/",
+      "item_url": "https://www.facebook.com/groups/195203154017122/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "fire-island",
+      "desk": null,
+      "port": "other",
+      "species": "fluke",
+      "content_hash": "886c3913cd5b0580f18ba07d520eb1b459225a19d8fcfb1ee83788348bf77d55",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "fire-island",
+          "state": "ny",
+          "reason": "captree-named",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Ken Higgins",
+        "species": [
+          "fluke"
+        ],
+        "source_title": "Long Island Salt Water Fishing"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "8109705a-e247-4bdf-9d3a-949e9dd2ba7c",
+      "intel_item_id": "de617b3c-fcd2-4392-9d35-4ef236bbb820",
+      "observed_at": "2026-08-25T12:00:00+00:00",
+      "date": "2026-08-25",
+      "headline": "Long Island Surf Fishing 2026-08-25",
+      "body": "Fished Demo before first light. Few light taps on an SP; around false dawn got a few cocktail blues. Hooked a huge bat/eagle ray that ate a jig before the snap gave out. Saw lots of small tunas (bonito?) jumping outside casting range all morning; dolphins and a SpaceX launch at first light.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/961269243956197/",
+      "item_url": "https://www.facebook.com/groups/961269243956197/",
+      "platform": "facebook",
+      "water": "offshore",
+      "boat_class": "group",
+      "area": "fire-island",
+      "desk": null,
+      "port": "other",
+      "species": "bluefish, bonito",
+      "content_hash": "d1b6f3577744f1d2c0e7560e2754d56dfd36fb928f7f8f6a55b13532a3ecf65f",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "fire-island",
+          "state": "ny",
+          "reason": "democrat-point",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Jaiem Fleischmann",
+        "species": [
+          "bluefish",
+          "bonito"
+        ],
+        "source_title": "Long Island Surf Fishing"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "4b8c13e1-e19f-4c31-b302-a32b2d708903",
+      "intel_item_id": "95440d9b-caac-439c-a42a-72b1de7c363b",
+      "observed_at": "2026-08-24T12:00:00+00:00",
+      "date": "2026-08-24",
+      "headline": "VikingFleet Montauk 2026-08-24",
+      "body": "\"Mon Aug 24 - 1/2 Day Fishing AM. Capt Steven Sr reports very calm beautiful conditions. We did have slower fishing than we ha\u2026\"",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/VikingFishingFleet/",
+      "item_url": "https://www.facebook.com/VikingFishingFleet/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "boat-page",
+      "area": "montauk",
+      "desk": "montauk",
+      "port": "montauk",
+      "species": null,
+      "content_hash": "33b07e7bc818405c8539af36f53b1eb1884ba37942dd0a80092a8005780fab70",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "montauk",
+          "state": "ny",
+          "reason": "already-tagged-area",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "boat-page",
+        "poster": "VikingFleet Montauk",
+        "species": [],
+        "source_title": "VikingFleet Montauk"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "4cc2f119-702b-419a-9476-802be5af16c5",
+      "intel_item_id": "c93d7a40-d32f-4662-88d6-aceede3ae09c",
+      "observed_at": "2026-08-24T12:00:00+00:00",
+      "date": "2026-08-24",
+      "headline": "SEA STAR III 2026-08-24",
+      "body": "Fluke, Sea Bass, and a couple of Triggerfish too! Action was slow but... (See more not expanded before driver failure)",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/SEASTARIII/posts/pfbid02Q47xTNTAvKmiPH47qDeEDTCLkvZhvkp",
+      "item_url": "https://www.facebook.com/SEASTARIII/posts/pfbid02Q47xTNTAvKmiPH47qDeEDTCLkvZhvkp",
+      "platform": "facebook",
+      "water": "surf",
+      "boat_class": "boat-page",
+      "area": "cape-may-delaware-bay",
+      "desk": "cape-may",
+      "port": "cape-may",
+      "species": "fluke, sea bass, triggerfish",
+      "content_hash": "87c52ace511604a4503905b39a70458d930ca29b233f169fcfe0a83f2241cc2d",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "cape-may-delaware-bay",
+          "state": "nj",
+          "reason": "already-tagged-area",
+          "region": "new-jersey",
+          "backfill": "2026-08-27"
+        },
+        "kind": "boat-page",
+        "port": "cape-may",
+        "poster": "SEA STAR III",
+        "species": [
+          "fluke",
+          "sea bass",
+          "triggerfish"
+        ],
+        "source_title": "SEA STAR III"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "nj"
+    },
+    {
       "id": "7662f020-c809-49e1-91cb-8fbf6e1700ed",
       "intel_item_id": "0718a058-d0d5-40a3-b5b7-2189023c4efa",
       "observed_at": "2026-08-24T16:00:00+00:00",
@@ -2135,6 +2388,42 @@
         "harvester": "wire",
         "fetch_date": "2026-08-27",
         "source_name": "My Joyce Fishing"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "26440f84-b8c6-4671-9752-0f0791067043",
+      "intel_item_id": "b49dfe67-f731-4f56-924c-9874878f721d",
+      "observed_at": "2026-08-24T16:00:00+00:00",
+      "date": "2026-08-24",
+      "headline": "J&J Sports / Patchogue Fishing Center \u2014 2026-08-24 (Patchogue)",
+      "body": "Pablo Salinas\u2019s Aug. 24 J&J Sports report said September marks the start of the highly anticipated fall run, which most anglers regard as the best part of the season, with large blues, trophy-sized striped bass, and albies flooding local waters. The bass and bluefish bite in the fall is unmatched because of the influx of baitfish, and during the fall the inlets, bays, and open beaches are all great places to catch bass and blues. With warmer water, fishing has been most active during incoming tides; back-bay patterns that simulate snappers and spearing are the key, and he said don\u2019t be surprised to catch larger fluke on hard plastics, even at night. Local docks are producing fluke, blowfish, kingfish and snappers; fluke fishing has been pretty good at Moriches Coast Guard Station (shorts in the mix); there has been a surprising run of weakfish in the Great South Bay; blues are starting to pick up at Moriches and Shinnecock inlets on incoming tides; and the porgy bite continued to hold strong.",
+      "source_name": "J&J Sports / Patchogue Fishing Center",
+      "source_url": "https://www.jjsportsfishing.com/blogs/fishing-reports/surf-fishing-forecast",
+      "item_url": "https://www.jjsportsfishing.com/blogs/fishing-reports/surf-fishing-forecast",
+      "platform": "public_web",
+      "water": "surf",
+      "boat_class": "other",
+      "area": "fire-island",
+      "desk": "patchogue",
+      "port": "patchogue",
+      "species": "striped bass, bluefish, false albacore, fluke, blowfish, kingfish, weakfish, porgy, black sea bass, bonito",
+      "content_hash": "a080dd9f65708383c45fca3be37b988f",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "fire-island",
+          "state": "ny",
+          "reason": "jj-patchogue-gsb",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "file": "2026-08-24-patchogue-jjsports.md",
+        "harvester": "wire",
+        "fetch_date": "2026-08-27",
+        "source_name": "J&J Sports / Patchogue Fishing Center"
       },
       "created_at": "2026-08-27T19:54:05.991321+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
@@ -2175,42 +2464,6 @@
       "created_at": "2026-08-27T19:54:05.991321+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "ct"
-    },
-    {
-      "id": "26440f84-b8c6-4671-9752-0f0791067043",
-      "intel_item_id": "b49dfe67-f731-4f56-924c-9874878f721d",
-      "observed_at": "2026-08-24T16:00:00+00:00",
-      "date": "2026-08-24",
-      "headline": "J&J Sports / Patchogue Fishing Center \u2014 2026-08-24 (Patchogue)",
-      "body": "Pablo Salinas\u2019s Aug. 24 J&J Sports report said September marks the start of the highly anticipated fall run, which most anglers regard as the best part of the season, with large blues, trophy-sized striped bass, and albies flooding local waters. The bass and bluefish bite in the fall is unmatched because of the influx of baitfish, and during the fall the inlets, bays, and open beaches are all great places to catch bass and blues. With warmer water, fishing has been most active during incoming tides; back-bay patterns that simulate snappers and spearing are the key, and he said don\u2019t be surprised to catch larger fluke on hard plastics, even at night. Local docks are producing fluke, blowfish, kingfish and snappers; fluke fishing has been pretty good at Moriches Coast Guard Station (shorts in the mix); there has been a surprising run of weakfish in the Great South Bay; blues are starting to pick up at Moriches and Shinnecock inlets on incoming tides; and the porgy bite continued to hold strong.",
-      "source_name": "J&J Sports / Patchogue Fishing Center",
-      "source_url": "https://www.jjsportsfishing.com/blogs/fishing-reports/surf-fishing-forecast",
-      "item_url": "https://www.jjsportsfishing.com/blogs/fishing-reports/surf-fishing-forecast",
-      "platform": "public_web",
-      "water": "surf",
-      "boat_class": "other",
-      "area": "fire-island",
-      "desk": "patchogue",
-      "port": "patchogue",
-      "species": "striped bass, bluefish, false albacore, fluke, blowfish, kingfish, weakfish, porgy, black sea bass, bonito",
-      "content_hash": "a080dd9f65708383c45fca3be37b988f",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "fire-island",
-          "state": "ny",
-          "reason": "jj-patchogue-gsb",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "file": "2026-08-24-patchogue-jjsports.md",
-        "harvester": "wire",
-        "fetch_date": "2026-08-27",
-        "source_name": "J&J Sports / Patchogue Fishing Center"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
     },
     {
       "id": "2e0045fe-d26c-4b70-8a0b-43d13986c731",
@@ -2440,122 +2693,6 @@
       "state": null
     },
     {
-      "id": "4b8c13e1-e19f-4c31-b302-a32b2d708903",
-      "intel_item_id": "95440d9b-caac-439c-a42a-72b1de7c363b",
-      "observed_at": "2026-08-24T12:00:00+00:00",
-      "date": "2026-08-24",
-      "headline": "VikingFleet Montauk 2026-08-24",
-      "body": "\"Mon Aug 24 - 1/2 Day Fishing AM. Capt Steven Sr reports very calm beautiful conditions. We did have slower fishing than we ha\u2026\"",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/VikingFishingFleet/",
-      "item_url": "https://www.facebook.com/VikingFishingFleet/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "boat-page",
-      "area": "montauk",
-      "desk": "montauk",
-      "port": "montauk",
-      "species": null,
-      "content_hash": "33b07e7bc818405c8539af36f53b1eb1884ba37942dd0a80092a8005780fab70",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "montauk",
-          "state": "ny",
-          "reason": "already-tagged-area",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "boat-page",
-        "poster": "VikingFleet Montauk",
-        "species": [],
-        "source_title": "VikingFleet Montauk"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "4cc2f119-702b-419a-9476-802be5af16c5",
-      "intel_item_id": "c93d7a40-d32f-4662-88d6-aceede3ae09c",
-      "observed_at": "2026-08-24T12:00:00+00:00",
-      "date": "2026-08-24",
-      "headline": "SEA STAR III 2026-08-24",
-      "body": "Fluke, Sea Bass, and a couple of Triggerfish too! Action was slow but... (See more not expanded before driver failure)",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/SEASTARIII/posts/pfbid02Q47xTNTAvKmiPH47qDeEDTCLkvZhvkp",
-      "item_url": "https://www.facebook.com/SEASTARIII/posts/pfbid02Q47xTNTAvKmiPH47qDeEDTCLkvZhvkp",
-      "platform": "facebook",
-      "water": "surf",
-      "boat_class": "boat-page",
-      "area": "cape-may-delaware-bay",
-      "desk": "cape-may",
-      "port": "cape-may",
-      "species": "fluke, sea bass, triggerfish",
-      "content_hash": "87c52ace511604a4503905b39a70458d930ca29b233f169fcfe0a83f2241cc2d",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "cape-may-delaware-bay",
-          "state": "nj",
-          "reason": "already-tagged-area",
-          "region": "new-jersey",
-          "backfill": "2026-08-27"
-        },
-        "kind": "boat-page",
-        "port": "cape-may",
-        "poster": "SEA STAR III",
-        "species": [
-          "fluke",
-          "sea bass",
-          "triggerfish"
-        ],
-        "source_title": "SEA STAR III"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "nj"
-    },
-    {
-      "id": "7536a605-ffa4-4dc7-bdc0-ce3a6a14f161",
-      "intel_item_id": "e0e342aa-bef3-4538-8df0-b67fe4da6a72",
-      "observed_at": "2026-08-23T12:00:00+00:00",
-      "date": "2026-08-23",
-      "headline": "CT Fishing 2026-08-23",
-      "body": "First time catching a bluefin tuna (video/photos).",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/ctfishing/",
-      "item_url": "https://www.facebook.com/groups/ctfishing/",
-      "platform": "facebook",
-      "water": "offshore",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": "bluefin tuna",
-      "content_hash": "6dbb7df411bb612a55e78ece00d3bcd8d0110ee52e5cd2841cdcbfb927b763e2",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": null,
-          "state": "ct",
-          "reason": "ct-fishing-group-state-only",
-          "region": "new-england",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "port": "other",
-        "poster": "Tumbay Lion",
-        "species": [
-          "bluefin tuna"
-        ],
-        "source_title": "CT Fishing"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ct"
-    },
-    {
       "id": "de7c1639-6906-4a2f-9f70-6d3b16a25c80",
       "intel_item_id": "0ebf7612-0fca-412f-806a-6a491b64b64f",
       "observed_at": "2026-08-23T12:00:00+00:00",
@@ -2585,45 +2722,6 @@
         "kind": "boat-page",
         "poster": "VikingFleet Montauk",
         "species": [],
-        "source_title": "VikingFleet Montauk"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "5aefb7d3-1259-40c6-b5f2-ea240f42632e",
-      "intel_item_id": "48ccdd3d-e91c-42f1-9d43-0c17cfd26478",
-      "observed_at": "2026-08-23T12:00:00+00:00",
-      "date": "2026-08-23",
-      "headline": "VikingFleet Montauk 2026-08-23",
-      "body": "\"Sun Aug 23 - Montauk Lighthouse Jumbo Porgies and Knothead Seabass. Capt. Dave reports a very good day of fishing. We started out down the beach where we had very nice p\u2026\"",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/VikingFishingFleet/",
-      "item_url": "https://www.facebook.com/VikingFishingFleet/",
-      "platform": "facebook",
-      "water": "surf",
-      "boat_class": "boat-page",
-      "area": "montauk",
-      "desk": "montauk",
-      "port": "montauk",
-      "species": "porgy, sea bass",
-      "content_hash": "10597a4bd33f360e97f903fb5b5bcfab50b9a1d5d481cad633a0c972a43d62eb",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "montauk",
-          "state": "ny",
-          "reason": "already-tagged-area",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "boat-page",
-        "poster": "VikingFleet Montauk",
-        "species": [
-          "porgy",
-          "sea bass"
-        ],
         "source_title": "VikingFleet Montauk"
       },
       "created_at": "2026-08-27T19:54:05.991321+00:00",
@@ -2740,6 +2838,84 @@
       "created_at": "2026-08-27T19:54:05.991321+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "ri"
+    },
+    {
+      "id": "7536a605-ffa4-4dc7-bdc0-ce3a6a14f161",
+      "intel_item_id": "e0e342aa-bef3-4538-8df0-b67fe4da6a72",
+      "observed_at": "2026-08-23T12:00:00+00:00",
+      "date": "2026-08-23",
+      "headline": "CT Fishing 2026-08-23",
+      "body": "First time catching a bluefin tuna (video/photos).",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/ctfishing/",
+      "item_url": "https://www.facebook.com/groups/ctfishing/",
+      "platform": "facebook",
+      "water": "offshore",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": "bluefin tuna",
+      "content_hash": "6dbb7df411bb612a55e78ece00d3bcd8d0110ee52e5cd2841cdcbfb927b763e2",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": "ct",
+          "reason": "ct-fishing-group-state-only",
+          "region": "new-england",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Tumbay Lion",
+        "species": [
+          "bluefin tuna"
+        ],
+        "source_title": "CT Fishing"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ct"
+    },
+    {
+      "id": "5aefb7d3-1259-40c6-b5f2-ea240f42632e",
+      "intel_item_id": "48ccdd3d-e91c-42f1-9d43-0c17cfd26478",
+      "observed_at": "2026-08-23T12:00:00+00:00",
+      "date": "2026-08-23",
+      "headline": "VikingFleet Montauk 2026-08-23",
+      "body": "\"Sun Aug 23 - Montauk Lighthouse Jumbo Porgies and Knothead Seabass. Capt. Dave reports a very good day of fishing. We started out down the beach where we had very nice p\u2026\"",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/VikingFishingFleet/",
+      "item_url": "https://www.facebook.com/VikingFishingFleet/",
+      "platform": "facebook",
+      "water": "surf",
+      "boat_class": "boat-page",
+      "area": "montauk",
+      "desk": "montauk",
+      "port": "montauk",
+      "species": "porgy, sea bass",
+      "content_hash": "10597a4bd33f360e97f903fb5b5bcfab50b9a1d5d481cad633a0c972a43d62eb",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "montauk",
+          "state": "ny",
+          "reason": "already-tagged-area",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "boat-page",
+        "poster": "VikingFleet Montauk",
+        "species": [
+          "porgy",
+          "sea bass"
+        ],
+        "source_title": "VikingFleet Montauk"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
     },
     {
       "id": "28a8bccd-f4fe-48b4-88a1-0c5a09007dcc",
@@ -2934,6 +3110,120 @@
       "state": "ri"
     },
     {
+      "id": "bb0b71e6-abae-4137-ba99-43dc343e3f5b",
+      "intel_item_id": "ec88829b-134d-478a-9cb1-e68558ca0dd0",
+      "observed_at": "2026-08-20T12:00:00+00:00",
+      "date": "2026-08-20",
+      "headline": "CT Fishing 2026-08-20",
+      "body": "Brown sharks were eating our porgy, sea bass and stripers Saturday.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/ctfishing/",
+      "item_url": "https://www.facebook.com/groups/ctfishing/",
+      "platform": "facebook",
+      "water": "surf",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": "brown shark, porgy, sea bass, striped bass",
+      "content_hash": "c87a3653ba9f0f109a9193adef414d05ea30b992f3efabc1267fbf98d42fcb8a",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": "ct",
+          "reason": "ct-fishing-group-state-only",
+          "region": "new-england",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Eric Konopaske",
+        "species": [
+          "brown shark",
+          "porgy",
+          "sea bass",
+          "striped bass"
+        ],
+        "source_title": "CT Fishing"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ct"
+    },
+    {
+      "id": "7e24b774-d606-4026-9da1-28092ca62435",
+      "intel_item_id": "4794f053-9909-435f-9263-f22ad6d403b8",
+      "observed_at": "2026-08-20T16:00:00+00:00",
+      "date": "2026-08-20",
+      "headline": "Yankee Fleet \u2014 2026-08-20 (Gloucester)",
+      "body": "Yankee Fleet said customers and crew have been enjoying great weather the last week or so. Full day trips have been good; the Yankee Clipper is doing a great job avoiding the dogfish, with occasional surprise stops but a lot of trips at very low dogfish numbers (1-20 for a boat full of anglers). Haddock and pollock are coming up, and some of the better trips did very well on the pollock. Half days are killing it \u2014 one dogfish all week, loads of reds, hake/whiting regularly coming over, and some big cusk. Marine life has been exciting recently as well, with dolphins, whales, and sunfish seen regularly on the ride in or out and during fishing.",
+      "source_name": "Yankee Fleet",
+      "source_url": "https://www.yankeefleet.com/fishing-reports/",
+      "item_url": "https://www.yankeefleet.com/17300-2/",
+      "platform": "party_boat",
+      "water": "inshore",
+      "boat_class": "party",
+      "area": "boston-harbor-north-shore",
+      "desk": "gloucester",
+      "port": "gloucester",
+      "species": "haddock, pollock, dogfish, redfish, hake, whiting, cusk",
+      "content_hash": "03cbf97ad57db1e51e2ea310c92d6421",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "boston-harbor-north-shore",
+          "state": "ma",
+          "reason": "already-tagged-area",
+          "region": "new-england",
+          "backfill": "2026-08-27"
+        },
+        "file": "2026-08-20-gloucester-yankee-fleet-full-and-half-days.md",
+        "harvester": "wire",
+        "fetch_date": "2026-08-27",
+        "source_name": "Yankee Fleet"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ma"
+    },
+    {
+      "id": "7523a3bc-2641-47a1-90df-eb866b68db97",
+      "intel_item_id": "1cf89b1f-20e0-413d-978f-ecba5695807f",
+      "observed_at": "2026-08-20T16:00:00+00:00",
+      "date": "2026-08-20",
+      "headline": "Yankee Fleet \u2014 2026-08-20 (Gloucester)",
+      "body": "Yankee Fleet posted this recap on 20 August of the Platts overnight on the Yankee Star, 10/11 August. They reported fantastic fishing and a good night bite: mixed bag of haddock, pollock, cusk, and big squid for an hour or so. After sunrise and a tide change they drifted the rest of the trip; daylight fishing was great, with nonstop pollock, a fair amount of haddock with some 7 lbs+, cusk/redfish mixed in, and some anglers fishing the whole trip with zero dogfish. Fish counts ranged from 25 to 50+, and the end of the trip was giving anglers some monster pollock.",
+      "source_name": "Yankee Fleet",
+      "source_url": "https://www.yankeefleet.com/fishing-reports/",
+      "item_url": "https://www.yankeefleet.com/overnights-2026/",
+      "platform": "party_boat",
+      "water": "inshore",
+      "boat_class": "party",
+      "area": "boston-harbor-north-shore",
+      "desk": "gloucester",
+      "port": "gloucester",
+      "species": "haddock, pollock, cusk, squid, redfish, dogfish",
+      "content_hash": "729d55cdcb18f8b443ba842125936f67",
+      "status": "ready",
+      "extra": {
+        "geo": {
+          "area": "boston-harbor-north-shore",
+          "state": "ma",
+          "reason": "already-tagged-area",
+          "region": "new-england",
+          "backfill": "2026-08-27"
+        },
+        "file": "2026-08-20-gloucester-yankee-fleet-platts-overnight.md",
+        "harvester": "wire",
+        "fetch_date": "2026-08-27",
+        "source_name": "Yankee Fleet"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ma"
+    },
+    {
       "id": "55fcf58e-ff2e-48f0-bb2a-660dc7e2fbe2",
       "intel_item_id": "71859deb-f831-4f80-ad1e-eec94db4e488",
       "observed_at": "2026-08-20T16:00:00+00:00",
@@ -3043,120 +3333,6 @@
       "created_at": "2026-08-27T19:54:05.991321+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "ny"
-    },
-    {
-      "id": "bb0b71e6-abae-4137-ba99-43dc343e3f5b",
-      "intel_item_id": "ec88829b-134d-478a-9cb1-e68558ca0dd0",
-      "observed_at": "2026-08-20T12:00:00+00:00",
-      "date": "2026-08-20",
-      "headline": "CT Fishing 2026-08-20",
-      "body": "Brown sharks were eating our porgy, sea bass and stripers Saturday.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/ctfishing/",
-      "item_url": "https://www.facebook.com/groups/ctfishing/",
-      "platform": "facebook",
-      "water": "surf",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": "brown shark, porgy, sea bass, striped bass",
-      "content_hash": "c87a3653ba9f0f109a9193adef414d05ea30b992f3efabc1267fbf98d42fcb8a",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": null,
-          "state": "ct",
-          "reason": "ct-fishing-group-state-only",
-          "region": "new-england",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "port": "other",
-        "poster": "Eric Konopaske",
-        "species": [
-          "brown shark",
-          "porgy",
-          "sea bass",
-          "striped bass"
-        ],
-        "source_title": "CT Fishing"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ct"
-    },
-    {
-      "id": "7523a3bc-2641-47a1-90df-eb866b68db97",
-      "intel_item_id": "1cf89b1f-20e0-413d-978f-ecba5695807f",
-      "observed_at": "2026-08-20T16:00:00+00:00",
-      "date": "2026-08-20",
-      "headline": "Yankee Fleet \u2014 2026-08-20 (Gloucester)",
-      "body": "Yankee Fleet posted this recap on 20 August of the Platts overnight on the Yankee Star, 10/11 August. They reported fantastic fishing and a good night bite: mixed bag of haddock, pollock, cusk, and big squid for an hour or so. After sunrise and a tide change they drifted the rest of the trip; daylight fishing was great, with nonstop pollock, a fair amount of haddock with some 7 lbs+, cusk/redfish mixed in, and some anglers fishing the whole trip with zero dogfish. Fish counts ranged from 25 to 50+, and the end of the trip was giving anglers some monster pollock.",
-      "source_name": "Yankee Fleet",
-      "source_url": "https://www.yankeefleet.com/fishing-reports/",
-      "item_url": "https://www.yankeefleet.com/overnights-2026/",
-      "platform": "party_boat",
-      "water": "inshore",
-      "boat_class": "party",
-      "area": "boston-harbor-north-shore",
-      "desk": "gloucester",
-      "port": "gloucester",
-      "species": "haddock, pollock, cusk, squid, redfish, dogfish",
-      "content_hash": "729d55cdcb18f8b443ba842125936f67",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "boston-harbor-north-shore",
-          "state": "ma",
-          "reason": "already-tagged-area",
-          "region": "new-england",
-          "backfill": "2026-08-27"
-        },
-        "file": "2026-08-20-gloucester-yankee-fleet-platts-overnight.md",
-        "harvester": "wire",
-        "fetch_date": "2026-08-27",
-        "source_name": "Yankee Fleet"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ma"
-    },
-    {
-      "id": "7e24b774-d606-4026-9da1-28092ca62435",
-      "intel_item_id": "4794f053-9909-435f-9263-f22ad6d403b8",
-      "observed_at": "2026-08-20T16:00:00+00:00",
-      "date": "2026-08-20",
-      "headline": "Yankee Fleet \u2014 2026-08-20 (Gloucester)",
-      "body": "Yankee Fleet said customers and crew have been enjoying great weather the last week or so. Full day trips have been good; the Yankee Clipper is doing a great job avoiding the dogfish, with occasional surprise stops but a lot of trips at very low dogfish numbers (1-20 for a boat full of anglers). Haddock and pollock are coming up, and some of the better trips did very well on the pollock. Half days are killing it \u2014 one dogfish all week, loads of reds, hake/whiting regularly coming over, and some big cusk. Marine life has been exciting recently as well, with dolphins, whales, and sunfish seen regularly on the ride in or out and during fishing.",
-      "source_name": "Yankee Fleet",
-      "source_url": "https://www.yankeefleet.com/fishing-reports/",
-      "item_url": "https://www.yankeefleet.com/17300-2/",
-      "platform": "party_boat",
-      "water": "inshore",
-      "boat_class": "party",
-      "area": "boston-harbor-north-shore",
-      "desk": "gloucester",
-      "port": "gloucester",
-      "species": "haddock, pollock, dogfish, redfish, hake, whiting, cusk",
-      "content_hash": "03cbf97ad57db1e51e2ea310c92d6421",
-      "status": "ready",
-      "extra": {
-        "geo": {
-          "area": "boston-harbor-north-shore",
-          "state": "ma",
-          "reason": "already-tagged-area",
-          "region": "new-england",
-          "backfill": "2026-08-27"
-        },
-        "file": "2026-08-20-gloucester-yankee-fleet-full-and-half-days.md",
-        "harvester": "wire",
-        "fetch_date": "2026-08-27",
-        "source_name": "Yankee Fleet"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ma"
     },
     {
       "id": "ed2b9a33-943d-4671-95e2-ddff86bcd640",
@@ -3384,311 +3560,6 @@
           "bluefin tuna"
         ],
         "source_title": "Fishing Long Island Sound"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "224607cf-b561-48dc-830e-95da5c59752b",
-      "intel_item_id": "847baa2e-b59b-4ded-9e29-0b17d55171db",
-      "observed_at": null,
-      "date": null,
-      "headline": "Ebb Tide Fishing Boat - Montauk ~2026-08-2",
-      "body": "\"Yesterday's afternoon and Sunset Fluke and Seabass Report\" (+24 photos)",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/",
-      "item_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/",
-      "platform": "facebook",
-      "water": "surf",
-      "boat_class": "boat-page",
-      "area": "montauk",
-      "desk": "montauk",
-      "port": "montauk",
-      "species": "fluke, sea bass",
-      "content_hash": "f8c56884a2bb83e016492aeb050ee44065e01ed849a0bc777bec62f2447f463b",
-      "status": "held",
-      "extra": {
-        "geo": {
-          "area": "montauk",
-          "state": "ny",
-          "reason": "already-tagged-area",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "boat-page",
-        "poster": "Ebb Tide Fishing Boat - Montauk",
-        "species": [
-          "fluke",
-          "sea bass"
-        ],
-        "source_title": "Ebb Tide Fishing Boat - Montauk"
-      },
-      "created_at": "2026-08-27T19:54:06.100775+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "e880635d-da1e-4507-ae69-3f3dc831f475",
-      "intel_item_id": "ea0ce4e5-312c-4ed1-9cb7-e10c9d4854f5",
-      "observed_at": null,
-      "date": null,
-      "headline": "Ebb Tide Fishing Boat - Montauk ~2026-08-2",
-      "body": "\"Sailed with a lighter crowd this morning and the ocean was absolutely beautiful. For the most part we had pure fluke. Lots of short action but a decent amount kept.\"",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/",
-      "item_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "boat-page",
-      "area": "montauk",
-      "desk": "montauk",
-      "port": "montauk",
-      "species": "fluke",
-      "content_hash": "33a039f1ced616aefec2e28406607f8d5faac5b585c0c943446ccf182d0a83a2",
-      "status": "held",
-      "extra": {
-        "geo": {
-          "area": "montauk",
-          "state": "ny",
-          "reason": "already-tagged-area",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "boat-page",
-        "poster": "Ebb Tide Fishing Boat - Montauk",
-        "species": [
-          "fluke"
-        ],
-        "source_title": "Ebb Tide Fishing Boat - Montauk"
-      },
-      "created_at": "2026-08-27T19:54:06.100775+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "8cbdd4fc-9fea-4ab5-982d-212fc651fb5f",
-      "intel_item_id": "ccc6745c-8662-4e1e-b99f-9d043c182327",
-      "observed_at": null,
-      "date": null,
-      "headline": "Jamaica Bay Fishing Forum unknown",
-      "body": "Another monster. In the concrete jungle. (large bluefish from shore, urban Jamaica Bay area)",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/560241920742427/",
-      "item_url": "https://www.facebook.com/groups/560241920742427/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "jamaica-bay",
-      "desk": null,
-      "port": "other",
-      "species": "bluefish",
-      "content_hash": "b039f8d57eacbc87d1c5ff16ebb21b78160697b2af74b9c341b3eb4c2942b41c",
-      "status": "held",
-      "extra": {
-        "geo": {
-          "area": "jamaica-bay",
-          "state": "ny",
-          "reason": "jamaica-bay-forum",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "port": "other",
-        "poster": "Robert DiMino",
-        "species": [
-          "bluefish"
-        ],
-        "source_title": "Jamaica Bay Fishing Forum"
-      },
-      "created_at": "2026-08-27T19:54:06.100775+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "6554f462-f713-4035-b762-127a188d1992",
-      "intel_item_id": "b457c657-d074-418c-95e9-3f20e2f1b943",
-      "observed_at": null,
-      "date": null,
-      "headline": "Fishing Long Island Sound unknown",
-      "body": "Fishing was a little slower today out of Norwalk but still landed 3 beautiful fish, biggest 41 inches.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/785366134919368/",
-      "item_url": "https://www.facebook.com/groups/785366134919368/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "western-ct-sound",
-      "desk": null,
-      "port": "other",
-      "species": "striped bass",
-      "content_hash": "5b48939483f9f03c152e577d0783fb705442d3238e5bfe3fd94083107b56e922",
-      "status": "held",
-      "extra": {
-        "geo": {
-          "area": "western-ct-sound",
-          "state": "ct",
-          "reason": "norwalk",
-          "region": "new-england",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "port": "other",
-        "poster": "Pelagic Beast Fleet",
-        "species": [
-          "striped bass"
-        ],
-        "source_title": "Fishing Long Island Sound"
-      },
-      "created_at": "2026-08-27T19:54:06.100775+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ct"
-    },
-    {
-      "id": "73d137e6-ae2b-4baa-a52e-77124da2abe1",
-      "intel_item_id": "9fdd7557-26ed-46b1-b73a-6031a1018fc4",
-      "observed_at": null,
-      "date": null,
-      "headline": "The New York Angler unknown",
-      "body": "Weekend recap aboard the big boat- Sat we had Mike, Megan and family for an awesome day on the water. It was a bit breezy but they all fished hard in some tough condit\u2026",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/387833942043030/",
-      "item_url": "https://www.facebook.com/groups/387833942043030/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": null,
-      "content_hash": "bde9a49ad95565cfc2a03f6005dde256209e4b8c8abd4b12485ce9c4efcc583c",
-      "status": "held",
-      "extra": {
-        "geo": {
-          "area": null,
-          "state": "ny",
-          "reason": "ny-angler-group-state-only",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "poster": "Gypsea Charters",
-        "species": [],
-        "source_title": "The New York Angler"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "cbeae19a-7f60-4282-916e-271d312b6beb",
-      "intel_item_id": "dd73f064-3ace-428d-82eb-f8298af55578",
-      "observed_at": null,
-      "date": null,
-      "headline": "The New York Angler unknown",
-      "body": "Tuesdays open boat saw some beautiful weather for an awesome crowd. The fishing was slow for the most part, with a few flurries of keepers coming up at times.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/387833942043030/",
-      "item_url": "https://www.facebook.com/groups/387833942043030/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": null,
-      "content_hash": "cf8ed7e74cd2d6a3068630a501b25ac22a0da823424c454a735ab5cb3130a721",
-      "status": "held",
-      "extra": {
-        "geo": {
-          "area": null,
-          "state": "ny",
-          "reason": "ny-angler-group-state-only",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "poster": "Gypsea Charters",
-        "species": [],
-        "source_title": "The New York Angler"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "847bf009-fb99-4199-a012-a29c6289d487",
-      "intel_item_id": "33895fd1-d45d-4638-8034-c4fc51b993be",
-      "observed_at": null,
-      "date": null,
-      "headline": "The New York Angler unknown",
-      "body": "Nice day on the water. No wind and sunny. Fluke fishing is excellent but you really have to work to get keepers. We released countless 19 inch fish.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/387833942043030/",
-      "item_url": "https://www.facebook.com/groups/387833942043030/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": "fluke",
-      "content_hash": "0e4c20851fd0a8ce0f0b9b06c6c140d41f467a8b622d0b1303d1a163bac81778",
-      "status": "held",
-      "extra": {
-        "geo": {
-          "area": null,
-          "state": "ny",
-          "reason": "ny-angler-group-state-only",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "poster": "Patty Ann Charters",
-        "species": [
-          "fluke"
-        ],
-        "source_title": "The New York Angler"
-      },
-      "created_at": "2026-08-27T19:54:05.991321+00:00",
-      "updated_at": "2026-08-27T20:48:59.47926+00:00",
-      "state": "ny"
-    },
-    {
-      "id": "93a0cfa7-06b3-4c63-a201-669d162dada0",
-      "intel_item_id": "64d3bc5b-93b1-445e-826b-924aac6f61a8",
-      "observed_at": null,
-      "date": null,
-      "headline": "The New York Angler unknown",
-      "body": "Excellent fishing today. Tons of shorts with some nice keeper Fluke bonus green bonitos and a bunch of blues.",
-      "source_name": "facebook",
-      "source_url": "https://www.facebook.com/groups/387833942043030/",
-      "item_url": "https://www.facebook.com/groups/387833942043030/",
-      "platform": "facebook",
-      "water": "inshore",
-      "boat_class": "group",
-      "area": "unclassified",
-      "desk": null,
-      "port": "other",
-      "species": "fluke, bonito, bluefish",
-      "content_hash": "bd739e17405922d0200ee354e67914a0cd0ed534df7b15cf7681d27957d1a1cc",
-      "status": "held",
-      "extra": {
-        "geo": {
-          "area": null,
-          "state": "ny",
-          "reason": "ny-angler-group-state-only",
-          "region": "new-york",
-          "backfill": "2026-08-27"
-        },
-        "kind": "group",
-        "poster": "Patty Ann Charters",
-        "species": [
-          "fluke",
-          "bonito",
-          "bluefish"
-        ],
-        "source_title": "The New York Angler"
       },
       "created_at": "2026-08-27T19:54:05.991321+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
@@ -4345,6 +4216,311 @@
         "source_title": "The New York Angler"
       },
       "created_at": "2026-08-27T19:54:06.100775+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "224607cf-b561-48dc-830e-95da5c59752b",
+      "intel_item_id": "847baa2e-b59b-4ded-9e29-0b17d55171db",
+      "observed_at": null,
+      "date": null,
+      "headline": "Ebb Tide Fishing Boat - Montauk ~2026-08-2",
+      "body": "\"Yesterday's afternoon and Sunset Fluke and Seabass Report\" (+24 photos)",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/",
+      "item_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/",
+      "platform": "facebook",
+      "water": "surf",
+      "boat_class": "boat-page",
+      "area": "montauk",
+      "desk": "montauk",
+      "port": "montauk",
+      "species": "fluke, sea bass",
+      "content_hash": "f8c56884a2bb83e016492aeb050ee44065e01ed849a0bc777bec62f2447f463b",
+      "status": "held",
+      "extra": {
+        "geo": {
+          "area": "montauk",
+          "state": "ny",
+          "reason": "already-tagged-area",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "boat-page",
+        "poster": "Ebb Tide Fishing Boat - Montauk",
+        "species": [
+          "fluke",
+          "sea bass"
+        ],
+        "source_title": "Ebb Tide Fishing Boat - Montauk"
+      },
+      "created_at": "2026-08-27T19:54:06.100775+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "e880635d-da1e-4507-ae69-3f3dc831f475",
+      "intel_item_id": "ea0ce4e5-312c-4ed1-9cb7-e10c9d4854f5",
+      "observed_at": null,
+      "date": null,
+      "headline": "Ebb Tide Fishing Boat - Montauk ~2026-08-2",
+      "body": "\"Sailed with a lighter crowd this morning and the ocean was absolutely beautiful. For the most part we had pure fluke. Lots of short action but a decent amount kept.\"",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/",
+      "item_url": "https://www.facebook.com/EbbTide.Fishing.Montauk/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "boat-page",
+      "area": "montauk",
+      "desk": "montauk",
+      "port": "montauk",
+      "species": "fluke",
+      "content_hash": "33a039f1ced616aefec2e28406607f8d5faac5b585c0c943446ccf182d0a83a2",
+      "status": "held",
+      "extra": {
+        "geo": {
+          "area": "montauk",
+          "state": "ny",
+          "reason": "already-tagged-area",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "boat-page",
+        "poster": "Ebb Tide Fishing Boat - Montauk",
+        "species": [
+          "fluke"
+        ],
+        "source_title": "Ebb Tide Fishing Boat - Montauk"
+      },
+      "created_at": "2026-08-27T19:54:06.100775+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "8cbdd4fc-9fea-4ab5-982d-212fc651fb5f",
+      "intel_item_id": "ccc6745c-8662-4e1e-b99f-9d043c182327",
+      "observed_at": null,
+      "date": null,
+      "headline": "Jamaica Bay Fishing Forum unknown",
+      "body": "Another monster. In the concrete jungle. (large bluefish from shore, urban Jamaica Bay area)",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/560241920742427/",
+      "item_url": "https://www.facebook.com/groups/560241920742427/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "jamaica-bay",
+      "desk": null,
+      "port": "other",
+      "species": "bluefish",
+      "content_hash": "b039f8d57eacbc87d1c5ff16ebb21b78160697b2af74b9c341b3eb4c2942b41c",
+      "status": "held",
+      "extra": {
+        "geo": {
+          "area": "jamaica-bay",
+          "state": "ny",
+          "reason": "jamaica-bay-forum",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Robert DiMino",
+        "species": [
+          "bluefish"
+        ],
+        "source_title": "Jamaica Bay Fishing Forum"
+      },
+      "created_at": "2026-08-27T19:54:06.100775+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "6554f462-f713-4035-b762-127a188d1992",
+      "intel_item_id": "b457c657-d074-418c-95e9-3f20e2f1b943",
+      "observed_at": null,
+      "date": null,
+      "headline": "Fishing Long Island Sound unknown",
+      "body": "Fishing was a little slower today out of Norwalk but still landed 3 beautiful fish, biggest 41 inches.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/785366134919368/",
+      "item_url": "https://www.facebook.com/groups/785366134919368/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "western-ct-sound",
+      "desk": null,
+      "port": "other",
+      "species": "striped bass",
+      "content_hash": "5b48939483f9f03c152e577d0783fb705442d3238e5bfe3fd94083107b56e922",
+      "status": "held",
+      "extra": {
+        "geo": {
+          "area": "western-ct-sound",
+          "state": "ct",
+          "reason": "norwalk",
+          "region": "new-england",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "port": "other",
+        "poster": "Pelagic Beast Fleet",
+        "species": [
+          "striped bass"
+        ],
+        "source_title": "Fishing Long Island Sound"
+      },
+      "created_at": "2026-08-27T19:54:06.100775+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ct"
+    },
+    {
+      "id": "73d137e6-ae2b-4baa-a52e-77124da2abe1",
+      "intel_item_id": "9fdd7557-26ed-46b1-b73a-6031a1018fc4",
+      "observed_at": null,
+      "date": null,
+      "headline": "The New York Angler unknown",
+      "body": "Weekend recap aboard the big boat- Sat we had Mike, Megan and family for an awesome day on the water. It was a bit breezy but they all fished hard in some tough condit\u2026",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/387833942043030/",
+      "item_url": "https://www.facebook.com/groups/387833942043030/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": null,
+      "content_hash": "bde9a49ad95565cfc2a03f6005dde256209e4b8c8abd4b12485ce9c4efcc583c",
+      "status": "held",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": "ny",
+          "reason": "ny-angler-group-state-only",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "poster": "Gypsea Charters",
+        "species": [],
+        "source_title": "The New York Angler"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "cbeae19a-7f60-4282-916e-271d312b6beb",
+      "intel_item_id": "dd73f064-3ace-428d-82eb-f8298af55578",
+      "observed_at": null,
+      "date": null,
+      "headline": "The New York Angler unknown",
+      "body": "Tuesdays open boat saw some beautiful weather for an awesome crowd. The fishing was slow for the most part, with a few flurries of keepers coming up at times.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/387833942043030/",
+      "item_url": "https://www.facebook.com/groups/387833942043030/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": null,
+      "content_hash": "cf8ed7e74cd2d6a3068630a501b25ac22a0da823424c454a735ab5cb3130a721",
+      "status": "held",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": "ny",
+          "reason": "ny-angler-group-state-only",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "poster": "Gypsea Charters",
+        "species": [],
+        "source_title": "The New York Angler"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "847bf009-fb99-4199-a012-a29c6289d487",
+      "intel_item_id": "33895fd1-d45d-4638-8034-c4fc51b993be",
+      "observed_at": null,
+      "date": null,
+      "headline": "The New York Angler unknown",
+      "body": "Nice day on the water. No wind and sunny. Fluke fishing is excellent but you really have to work to get keepers. We released countless 19 inch fish.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/387833942043030/",
+      "item_url": "https://www.facebook.com/groups/387833942043030/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": "fluke",
+      "content_hash": "0e4c20851fd0a8ce0f0b9b06c6c140d41f467a8b622d0b1303d1a163bac81778",
+      "status": "held",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": "ny",
+          "reason": "ny-angler-group-state-only",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "poster": "Patty Ann Charters",
+        "species": [
+          "fluke"
+        ],
+        "source_title": "The New York Angler"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
+      "updated_at": "2026-08-27T20:48:59.47926+00:00",
+      "state": "ny"
+    },
+    {
+      "id": "93a0cfa7-06b3-4c63-a201-669d162dada0",
+      "intel_item_id": "64d3bc5b-93b1-445e-826b-924aac6f61a8",
+      "observed_at": null,
+      "date": null,
+      "headline": "The New York Angler unknown",
+      "body": "Excellent fishing today. Tons of shorts with some nice keeper Fluke bonus green bonitos and a bunch of blues.",
+      "source_name": "facebook",
+      "source_url": "https://www.facebook.com/groups/387833942043030/",
+      "item_url": "https://www.facebook.com/groups/387833942043030/",
+      "platform": "facebook",
+      "water": "inshore",
+      "boat_class": "group",
+      "area": "unclassified",
+      "desk": null,
+      "port": "other",
+      "species": "fluke, bonito, bluefish",
+      "content_hash": "bd739e17405922d0200ee354e67914a0cd0ed534df7b15cf7681d27957d1a1cc",
+      "status": "held",
+      "extra": {
+        "geo": {
+          "area": null,
+          "state": "ny",
+          "reason": "ny-angler-group-state-only",
+          "region": "new-york",
+          "backfill": "2026-08-27"
+        },
+        "kind": "group",
+        "poster": "Patty Ann Charters",
+        "species": [
+          "fluke",
+          "bonito",
+          "bluefish"
+        ],
+        "source_title": "The New York Angler"
+      },
+      "created_at": "2026-08-27T19:54:05.991321+00:00",
       "updated_at": "2026-08-27T20:48:59.47926+00:00",
       "state": "ny"
     }
