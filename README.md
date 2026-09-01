@@ -1,12 +1,36 @@
-# NY Angler — AI Writers Feed
+# NY Angler — GitHub archive / backup
 
-Public, versioned data feed for the **reports.nyangler.com** editorial roster.
+This repo is an **archive/backup** of Nor'easter editorial artifacts. It is **not** what sites serve.
 
-- **Source of truth:** `writers.json` in this repo
-- **Live URL (raw):** https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json
+- **Live fishing reports:** Supabase `public.fishing_reports` (project `bcdlbzyvbpolxdpdthls`)
+- **This GitHub repo:** backup of that table plus zone-writer columns and the writer roster snapshot
+- **As of 2026-08-27:** nyangler.com and reports.nyangler.com get **no new fishing reports** from this repo. The XenForo forum stays.
+
+Do not treat GitHub as a live Noreaster feed. Do not document sites fetching `reports.json` for Noreaster.
+
+---
+
+## What is in this repo
+
+| Path | What it is | What it is not |
+| --- | --- | --- |
+| `archive/fishing_reports.jsonl` | Deduped backup of every `fishing_reports` row cron could export (no status filter; Facebook JPEGs stripped) | A live site feed |
+| `reports.json` and `reports/*.json` | Archive/backup of **zone-writer columns** (writer id, headline, 800-word body) | The live Noreaster feed. Sites must not fetch this for Noreaster. |
+| `writers.json` | Snapshot of the editorial roster (names, beats, portraits) | Fishing report copy |
+
+Zone-writer generation can still run on cron. Those files stay archive files. There is no live reports.nyangler.com delivery step in this repo. The nyangler.com forum is not scraped as source of truth.
+
+---
+
+## Writer roster snapshot (`writers.json`)
+
+Public, versioned roster snapshot. Useful if you are rendering a writers page from GitHub. It is **not** a fishing-report API.
+
+- **File:** `writers.json`
+- **Raw URL:** https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json
 - **Portraits:** `portraits/<writer-id>.png` — referenced by `portrait_url` in each record
 
-Updated by the Nor'easter editorial system. Any change to the roster here propagates to reports.nyangler.com automatically.
+Updated by the Nor'easter editorial system when the roster changes. That does **not** ship new fishing reports to nyangler.com / reports.nyangler.com.
 
 ---
 
@@ -57,9 +81,9 @@ Updated by the Nor'easter editorial system. Any change to the roster here propag
 
 ---
 
-## How Lovable should consume this
+## How a writers page could consume the roster snapshot
 
-In your Lovable React project, fetch the feed once on page load and render from it. No backend needed.
+Roster only. Do **not** fetch `reports.json` as a live Noreaster fishing-report feed.
 
 ```jsx
 // src/hooks/useWriters.js
@@ -126,21 +150,34 @@ export default function Writers() {
 
 ---
 
-## How updates flow
+## How archive updates flow
 
 ```
-config/writers_roster.json (Nor'easter system)
+Supabase public.fishing_reports          (live product)
         │
-        │  scripts/build-feed.py  (regenerates writers.json + copies portraits)
+        │  scripts/archive_fishing_reports.py
         ▼
-nyangler-writers-feed (this repo, main branch)
+archive/fishing_reports.jsonl            (GitHub backup of every fleet row)
+
+config/writers_roster.json (Nor'easter)
         │
-        │  git push → raw.githubusercontent.com
+        │  scripts/build-feed.py
         ▼
-reports.nyangler.com (Lovable site fetches at runtime)
+writers.json                             (roster snapshot)
+
+scripts/generate_writer_report.py
+        │
+        ▼
+reports/*.json + reports.json            (zone-writer column archive)
+        │
+        │  git push (after Kent gate)
+        ▼
+GitHub archive only — not a live reports.nyangler.com delivery
 ```
 
-When the writers change (new persona, updated portrait, retired beat), run `scripts/build-feed.py` and push. Live within ~10 seconds via the GitHub raw CDN.
+When the writers change (new persona, updated portrait, retired beat), run `scripts/build-feed.py` and push. That updates the roster snapshot on GitHub. It does not publish new fishing reports to nyangler.com or reports.nyangler.com.
+
+To refresh the fleet backup, run `python3 scripts/archive_fishing_reports.py` with `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE` set (or in `~/.hermes/.env`). Missing credentials leave the existing dump alone and exit 0.
 
 ---
 
