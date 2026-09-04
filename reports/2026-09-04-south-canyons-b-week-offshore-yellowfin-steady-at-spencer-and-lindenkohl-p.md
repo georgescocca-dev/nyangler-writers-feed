@@ -1,0 +1,26 @@
+# B+ Week Offshore: Yellowfin Steady at Spencer and Lindenkohl, Poor Man's Still Waiting Its Turn
+*The warm-water setup that's carried the canyon bite all summer is holding into Labor Day week, but the tropics are the one grade that could still change.*
+
+**CAPE MAY, NJ — September 4** — _by Capt. Ray Lugo, Zone Writer_
+
+Call it a B+ week across the four canyons. Not an A — the bite wasn't uniform, and Poor Man's stayed the quiet cousin again — but Spencer and Lindenkohl carried the boats that ran there, and the reasons why are worth understanding before you plan the next trip.
+
+The short version: the warm-water regime that's driven this whole summer's canyon action is still intact. The Gulf Stream filament pushing eddies up against the shelf edge hasn't broken down, and that's the difference between a good week and a bad one out here. We flagged this exact risk last week — said the pattern would hold in the near term with the biggest threat being any tropical system disrupting that warm eddy structure — and here we are, still riding it into September with nothing organized in the western Atlantic to knock it off track. That's the good news. Keep an eye on the tropics anyway, because that's the only thing that ends this run on short notice.
+
+Routing logic for the week was simple. Spencer and Lindenkohl had the better temp breaks and cleaner blue water pushing up onto the edge, and that's where the fleet that ran offshore put their spreads. Yellowfin and bigeye stayed steady on the troll along both canyons, working the 100-fathom curve out to the deeper drop-offs where the color changes from green to that ink blue. Standard spread — naked ballyhoo staggered behind a couple of cedar plugs, a small spreader bar or two in the shotgun and long rigger — is still doing the work, with the bite windows tightening up early and again in that last hour before dark. Boats that stuck around after the sun dropped and switched to chunking bunker and butterfish picked up bigeye through the night, drifting with the current instead of anchoring, letting the chunk line stretch out naturally.
+
+Norfolk, being the run it is, only had a handful of boats make the trip, but the ones that did came back with a mixed bag — a few yellowfin mixed with some mahi found sitting under scattered weed lines and any floating debris on the way out. That's the pattern down there right now: less consistent than the northern two canyons, more of a scout-as-you-go situation, worth it if you've got the fuel and the weather window but not a guaranteed day.
+
+Wahoo showed up sporadically for boats running high-speed spreads with wahoo bombs and Ilanders in that 12-to-15-knot range along the edge at Lindenkohl, mostly early morning before the trolling bite settled into the tuna pattern. If wahoo is the target, that's the window — first light, before the boat traffic and prop wash push them off the structure.
+
+White marlin have been in the mix but not stacked. A few releases came off Spencer on the drop-back with ballyhoo and a circle hook, mostly fish found working bait balls pushed up by the current on the edge of the canyon wall. Not a blitz, but enough activity that it's worth keeping a pitch rod rigged if you're already trolling that water.
+
+The other piece of the week that's worth talking about at the dock is the daytime swordfish bite. Boats deep-dropping live squid around 200 feet during daylight hours have had an excellent run of it, and that's mirroring what's being reported further up the coast right now. If you've got the gear and the patience for it, that daytime swordfish window is producing better than a lot of the overnight chunk trips, and it doesn't require the all-nighter. Squid and butterfish have both been showing heavy on the meters along these edges, which is exactly the bait signature you want stacked under a temp break holding tuna and swords both.
+
+The moon is building toward full over the next several days, and that's going to tighten current flow on all four canyons. Stronger tide means better drift speed for the chunk boats and tighter bait concentrations along the edges — usually a net positive for this pattern, as long as the wind doesn't stack up against the current and turn the ride uncomfortable.
+
+Looking at the next few days: expect the canyon tuna and billfish bite to keep running close to what it's been doing, with Spencer and Lindenkohl remaining the better bets over Poor Man's for consistency. If the moon-driven current bumps up bait density like it should, look for the chunk bite at night to sharpen up on both those canyons. Norfolk stays the wildcard — worth the run if the forecast is clean and you're prepared to scout, but not the pick if you only have one shot at getting offshore this week. The single biggest variable through Labor Day weekend remains any tropical development spinning up in the basin; nothing's organized as of now, but that's the one line item that can turn a B+ week into a scrubbed one with a few days' notice. Until that changes, the smart play is running when the window's clean and picking Spencer or Lindenkohl first.
+
+---
+
+Tags: yellowfin-tuna, bigeye-tuna, canyon-troll, swordfish-deep-drop, spencer-canyon, lindenkohl-canyon
