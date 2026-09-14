@@ -1,0 +1,26 @@
+# Sea Bright to Manasquan: peanut bunker pours out, blues and bass start committing
+*The first real bunker-driven bite of the fall showed up on the rocks this week — here's where it's headed as the tide builds.*
+
+**SEA BRIGHT, NJ — September 14** — _by Brendan Doyle, Zone Writer_
+
+First light on the Sea Bright rocks this week looked like September is supposed to look. Guys were lined up on the north end jetties before the sky went gray, casting bunker spoons and white bucktails into pods of peanuts getting pushed out of the Shrewsbury and Navesink on the tail of the outgoing. Nobody was catching by accident. The bait was there, stacked thick against the rocks, and anything that ate bunker was underneath it sooner or later.
+
+We flagged this a week back — said the new-moon tide push would get bass and blues committing harder to the beachfront bunker schools, and that's exactly what showed up. The moon phase built the tidal range back up through the week, which means more water moving, which means more bait getting flushed out of the back bays on the ebb. That's the whole engine right now. When the peanuts come pouring out of the Shrewsbury on a strong outgoing, especially the last two hours before dead low, the blues find them first and the bass aren't far behind.
+
+Bluefish have been the more consistent player from Sea Bright down through Monmouth Beach. Size class has been mixed — plenty of choppers in the 2 to 4 pound range mixed with some genuine cows pushing 8 to 10, which tracks with the bigger bluefish showing up to the north this month. Best bet has been a 2-ounce diamond jig with a green surgical tube trailer, worked with a fast, erratic retrieve right through the surface wash where the bait's getting pinned against the rocks. Poppers have worked too, early, before the sun gets up — a Gibbs Polaris or a Yo-Zuri Sashimi popper thrown parallel to the jetty face on the last hour of the ebb has been drawing blow-ups from blues that are clearly feeding up and not just cruising.
+
+Stripers are the story everybody wants, and they're starting to show, but don't let anybody tell you it's a blitz yet. It's a commitment, not a blowup. Manasquan Inlet has had the better numbers — the jetty rocks on the north side, fishing the last two hours of the incoming into the top of the tide, have produced schoolies to 26 inches and a scattering of fish pushing 30 on white bucktails tipped with a Fin-S trailer, and on bunker spoons worked slow along bottom in that 8 to 12 foot channel water. Shark River Inlet has been a close second — the rock pile on the south side at first light, same tide stage, has given up similar-sized fish to guys throwing Doc's swimmers and Bomber Long A's in bunker patterns.
+
+Belmar and the Spring Lake jetties have been spottier. There's bait moving through, peanuts and some small mullet, but the bass haven't set up as tight to those rocks yet the way they have at the two inlets. If you're picking one spot for a short window this weekend, Manasquan's north jetty on the incoming, first two hours of light, is the better bet right now over the Belmar stretch.
+
+Fluke are still around and still worth a trip if stripers and blues aren't your priority. The channel edges at Manasquan Inlet and the deeper holes inside Shark River have kept giving up keeper fluke to 4 and 5 pounds on white Gulp Swimming Mullets fished on 3/4-ounce bucktails, drifted slow with the current rather than fought against it. That bite typically holds another two, maybe three weeks before the fish start sliding toward deeper water for the winter, so there's still time, but don't wait too long.
+
+False albacore have been mentioned but not confirmed heavy in this stretch yet — the pattern building to the east around Montauk and eastern Long Island, driven by that warm-water edge holding bait tight to structure, hasn't fully arrived on the Jersey side. Keep an eye on Shark River Inlet and the Manasquan jetties for surface activity mid-morning when the sun's up and the water's calm — if albies show, that's usually where they'll first appear on this stretch, chasing bay anchovies in tight, fast-moving pods.
+
+Blackfish and porgies aren't in the conversation yet on the rocks — that's an October story once the water cools another five or six degrees, though a few porgies have been showing as bycatch on bottom rigs fished for fluke inside the inlets.
+
+Looking ahead, the tidal range keeps building over the next several days as we move away from the new moon, and that should keep pushing more bait out of the rivers and back bays on every outgoing. If the wind stays manageable out of the northwest or west — the kind of wind that lays the surf down rather than stirring it — expect the bass commitment at Manasquan and Shark River to keep strengthening through the weekend into next week. The blue class should stay mixed with more of the bigger fish showing as the week goes on. If there's one window worth building a trip around, it's the last two hours of the incoming at first light on the Manasquan north jetty — that's where the tide, the bait, and the fish have been lining up most consistently this week.
+
+---
+
+Tags: striped-bass, bluefish, manasquan-inlet, shark-river-inlet, bunker-spoon, jetty-fishing
