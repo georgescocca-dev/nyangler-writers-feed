@@ -161,6 +161,12 @@ def load_writer(writer_id: str) -> dict:
     roster = json.loads(SRC_ROSTER.read_text(encoding="utf-8"))
     for w in roster["writers"]:
         if w["id"] == writer_id:
+            # Single disclosed AI byline across every zone report (2026-09).
+            # The roster's fake persona name/bio/system_prompt fields are
+            # retired — do NOT reintroduce a per-writer human identity here.
+            w = dict(w)
+            w["name"] = "Nor'easter AI"
+            w["role"] = "AI Beat Reporter" if w.get("role") != "Editor-in-Chief" else w.get("role")
             return w
     raise SystemExit(f"writer not found: {writer_id}")
 
@@ -459,12 +465,58 @@ def shorten_report(r: dict, max_chars: int = 700) -> dict:
 # ---------------------------------------------------------------------------
 # LLM call
 # ---------------------------------------------------------------------------
+NOREASTER_AI_IDENTITY = """
+IDENTITY — READ FIRST, THIS OVERRIDES ANY OLDER PERSONA INSTRUCTION:
+
+You are Nor'easter AI — the single, openly-disclosed AI byline behind every
+zone report on this site. You are not a fictional angler, captain, or
+dockhand, and you never claim to be one. There is no per-zone human persona
+anymore; every report site-wide carries this same identity.
+
+DISCLOSE THIS PLAINLY, within the first two paragraphs, every report. Not a
+buried legal disclaimer — a confident, brief line that states this is
+Nor'easter AI, not a human writer. Vary the exact wording report to report
+(never reuse the same sentence twice in a row across zones) — see the
+OPENING STYLE block below for this report's structural angle.
+
+WHAT YOU ACTUALLY HAVE — state it factually, do not inflate it:
+- Buoy readings, tide tables, and water temperatures for this zone
+- This week's reports and prior Nor'easter calls for this beat
+- The ability to cover every zone at once, which one human writer can't
+
+WHAT YOU DO NOT HAVE AND MUST NEVER CLAIM:
+- A boat, a rod, sea legs, or any fishing trip, ever
+- Superiority over any angler, captain, or reader. Phrases like "more than
+  anyone," "better than every angler," "no one alive knows this water like
+  I do," "more information than anybody could ever have" are BANNED — they
+  are unverifiable hype, exactly what this site exists to avoid. Describe
+  what data you have plainly. Do not crown yourself.
+- Personal presence at a dock, tackle shop, or ramp. Dock talk and shop
+  talk are still allowed as REPORTED chatter ("word out of [verified shop]
+  this week," "captains on the radio said") — never as something you
+  witnessed firsthand.
+
+TONE: confident, a little funny, self-aware about being an AI. The humor
+comes from being straight about what you are (no rod, no boat, no sea legs)
+— not from claiming to out-know every angler on the water. One dry joke
+about not owning tackle lands. A claim that you know more than any human
+does not.
+"""
+
+AI_SUPERIORITY_RE = re.compile(
+    r"\b(more|better|smarter)\s+than\s+(any|anyone|anybody|every|all)\b|"
+    r"\bnobody\s+(else\s+)?knows\s+this\s+water\b|"
+    r"\bno\s+(human|angler|one)\s+(alive\s+)?(could|can|knows)\b|"
+    r"\bmore\s+information\s+than\s+anybody\b",
+    re.IGNORECASE,
+)
+
 EDITORIAL_RULES = """
-You are the assigned beat reporter for this zone on reports.nyangler.com.
-You are a fisherman who knows the block, not a character who went fishing
-this week. Write as the person at the dock, in the tackle shop, or on the
-radio — the one who already talked to the fleet and can tell readers what
-happened and what the next few days look like.
+You are covering this zone's fishing report on reports.nyangler.com as
+Nor'easter AI (see IDENTITY above — follow it, it is not optional). Write
+as an analyst who has synthesized the buoy data, tides, prior reports, and
+reported dock/shop/radio chatter for this zone — not as someone who went
+fishing this week.
 
 Open with analysis: what the week did, why, and what is setting up. Weather,
 tides, bait, wind, water color, moon, and where the bite is moving all
@@ -476,8 +528,9 @@ HARD RULES (break these and we pull the column):
    the surf, or on a drift this week. Banned: "I was out," "I fished,"
    "I drifted," "I dropped a jig," "I had two rods bent," "we left the
    dock," "I landed," "I hooked," "my rod." Dock talk, shop talk, and
-   radio chatter are allowed ("a mate at Captree said," "the fleet is
-   working the east wall"). Advice is allowed ("if you only have Sunday,
+   radio chatter are allowed as REPORTED chatter ("a mate at Captree
+   said," "the fleet is working the east wall") — never as something you
+   personally witnessed. Advice is allowed ("if you only have Sunday,
    start the flood at the inlet").
 
 2. NO FORUM NAMES. No usernames, no "according to X." The intel you get
@@ -515,9 +568,10 @@ every writer sound the same:
 
 If you catch yourself using any of these phrases, stop and rewrite.
 
-ANTI-SAMENESS RULES — CRITICAL. You are one of 45+ writers. If your
-report sounds like the others, it fails. These rules are here to
-force your report to sound like YOU and nobody else:
+ANTI-SAMENESS RULES — CRITICAL. You write all 45+ zone reports under
+one voice. If two reports use the same disclosure line, the same joke,
+or the same opening move, it fails. Same identity, same standards —
+but vary your structure and phrasing zone to zone:
 
 A. NEVER open with "Last week the [water body] did what it does in
    [month]..." or any variation. This is the #1 most overused opening
@@ -1024,27 +1078,31 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
         ]
         called_it_block = "\n".join(lines)
 
-    # Load per-writer voice profile and build the voice directive block
+    # Structural variety per report — this rotates HOW the report opens and
+    # is headlined so 45+ zone reports don't read identically. It does NOT
+    # assign a distinct persona/identity; that's fixed by NOREASTER_AI_IDENTITY.
     voice_profile = load_voice_profile(writer["id"])
     voice_block = ""
     if voice_profile:
         voice_lines = [
-            f"\nYOUR VOICE PROFILE (follow these directives — they make you unique):",
+            "\nOPENING STYLE FOR THIS REPORT (structural variety only — you "
+            "are still Nor'easter AI, this does not change your identity):",
             f"  Opening style: {voice_profile.get('opening_style', 'your own choice')}",
             f"  How to open: {voice_profile.get('opening_directive', 'Open however feels right for you this week.')}",
             f"  Headline style: {voice_profile.get('headline_style', 'Punchy and specific.')}",
-            f"  Voice focus: {voice_profile.get('voice_focus', 'Be yourself.')}",
+            f"  Structural focus: {voice_profile.get('voice_focus', 'Be direct.')}",
         ]
         banned = voice_profile.get("banned_for_this_writer", [])
         if banned:
-            voice_lines.append(f"  Phrases banned for YOU specifically: {', '.join(banned)}")
+            voice_lines.append(f"  Phrases banned for this report specifically: {', '.join(banned)}")
         voice_lines.append(
-            "  These directives color YOUR voice. They do not authorize a first-person fishing trip."
+            "  This changes structure and phrasing only. It does not authorize "
+            "a first-person fishing trip, a fake name, or a superiority claim."
         )
         voice_block = "\n".join(voice_lines)
 
     system = (
-        writer.get("system_prompt", "")
+        NOREASTER_AI_IDENTITY.strip()
         + "\n\n---\n"
         + EDITORIAL_RULES.strip()
     )
@@ -1131,11 +1189,16 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
             "youtube_intel_DO_NOT_CITE": youtube_intel or [],
             "background_forum_chatter_DO_NOT_CITE": background_reports,
             "task": (
-                "Write this week's fishing report for your zone as a beat "
-                "reporter. Open with analysis of what happened and what the "
-                "next few days look like — weather, tides, bait, wind, and "
-                "where the bite is moving. Do not write a first-person trip. "
-                "Dock talk and shop talk are allowed. Then move into what's "
+                "Write this week's fishing report for your zone as "
+                "Nor'easter AI. Disclose that identity plainly within the "
+                "first two paragraphs — briefly, confidently, not as a wall "
+                "of legal disclaimer, and phrased differently than your "
+                "last few reports. Then open with analysis of what "
+                "happened and what the next few days look like — weather, "
+                "tides, bait, wind, and where the bite is moving. Do not "
+                "write a first-person trip. Dock talk and shop talk are "
+                "allowed as reported chatter, never as something you "
+                "witnessed. Then move into what's "
                 "being CAUGHT — species, sizes, tactics, baits, specific "
                 "spots. Be honest about the bite quality — if it's slow or "
                 "mixed, say so. Anglers respect honesty, not hype. Use the "
@@ -1145,11 +1208,12 @@ def build_prompt(writer: dict, reports: list[dict], analyst: dict, youtube_intel
                 "into your voice, never cite users, video channels, Hooper, "
                 "or the buoy data source."
                 + called_it_block +
-                " Write it like YOUR column — your voice, your personality, "
-                "your way of reading the water — but as a reporter, not as "
-                "someone who just got off the boat. Be specific on baits and "
-                "rigs. Return ONLY the JSON object specified — no preamble, "
-                "no markdown code fence."
+                " Write it in Nor'easter AI's voice — confident, a little "
+                "funny about being an AI with no boat and no rod, but never "
+                "claiming to know more than any angler or human — as a "
+                "reporter, not as someone who just got off the boat. Be "
+                "specific on baits and rigs. Return ONLY the JSON object "
+                "specified — no preamble, no markdown code fence."
             ),
         },
         indent=2,
@@ -1332,6 +1396,8 @@ FIRST_PERSON_FISHING_RE = re.compile(
     re.IGNORECASE,
 )
 
+DISCLOSURE_RE = re.compile(r"nor'?easter\s+ai", re.IGNORECASE)
+
 
 # Phrases the LLM uses despite being told not to. We strip them post-hoc
 # rather than re-rolling the generation (which costs another API call).
@@ -1446,6 +1512,13 @@ def report_quality_errors(
     )
     if FIRST_PERSON_FISHING_RE.search(full_text):
         errors.append("first-person fishing")
+    if AI_SUPERIORITY_RE.search(full_text):
+        errors.append("AI self-superiority claim")
+    lead_text = " ".join(
+        str(report.get(key, "")) for key in ("headline", "subhead")
+    ) + " " + str(body or "")[:600]
+    if not DISCLOSURE_RE.search(lead_text):
+        errors.append("missing Nor'easter AI disclosure in lead")
     full_text = full_text.lower()
     is_offshore_writer = (writer or {}).get("domain") == "offshore"
     evidence = (hooper or {}).get("named_lead_evidence", {})
@@ -1571,7 +1644,7 @@ def emit_report(writer: dict, report: dict, today: datetime) -> dict:
         "writer_id": writer["id"],
         "writer_name": writer["name"],
         "writer_role": writer["role"],
-        "writer_portrait_url": f"https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/{writer['id']}.png",
+        "writer_portrait_url": "",
         "zone": {
             "slug": writer.get("zone_slug"),
             "name": writer.get("zone_name"),

@@ -2,17 +2,13 @@
   "schema_version": "1.0",
   "site": "reports.nyangler.com",
   "publisher": "Nor'easter / NY Angler",
-  "description": "Editorial roster: 1 editor-in-chief + 18 zone writers covering NY/NJ inshore, surf, sound, bay, and offshore canyons.",
+  "description": "Nor'easter AI: one disclosed AI byline covering every zone from South Jersey to Maine.",
   "feed_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/writers.json",
   "total_writers": 46,
   "writers": [
     {
       "id": "editor-in-chief",
-      "name": "Margaret Maggie Holloway",
-      "full_name": "Margaret \"Maggie\" Holloway",
-      "first_name": "Margaret",
-      "last_name": "Holloway",
-      "nickname": "Maggie",
+      "name": "Nor'easter AI",
       "role": "Editor-in-Chief",
       "domain": "editorial",
       "zone": {
@@ -33,18 +29,12 @@
         "headline-polish",
         "Pro-gating"
       ],
-      "bio": "Margaret Holloway runs the Nor'easter newsroom. A thirty-year veteran of fishing journalism with the editorial instincts to match, she enforces voice consistency across the zone roster, fact-checks every report against live SST, chlorophyll, and buoy data, and decides which intel goes free and which goes Pro.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/editor-in-chief.png",
       "status": "active"
     },
     {
       "id": "western-sound",
-      "name": "Frank The Sound Pro Marinaro",
-      "full_name": "Frank \"The Sound Pro\" Marinaro",
-      "first_name": "Frank",
-      "last_name": "Marinaro",
-      "nickname": "The Sound Pro",
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "western-sound",
@@ -73,18 +63,12 @@
         "local-lore",
         "tide-savvy"
       ],
-      "bio": "Frank Marinaro has fished the Western Sound for thirty years — from the Throgs Neck pilings to Oyster Bay — and remembers every rockpile, rip line, and channel edge. He'll tell you why Execution Rocks holds bass on the outgoing tide and exactly when the bunker schools stack up off Matinecock Point in June.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/western-sound.png",
       "status": "active"
     },
     {
       "id": "central-sound",
-      "name": "David The Harbor Scout Han",
-      "full_name": "David \"The Harbor Scout\" Han",
-      "first_name": "David",
-      "last_name": "Han",
-      "nickname": "The Harbor Scout",
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "central-sound",
@@ -113,18 +97,12 @@
         "data-first",
         "bait-watcher"
       ],
-      "bio": "David Han is the Harbor Scout of the Central Sound, working the middle waters from Oyster Bay east to Port Jefferson and across to the Connecticut shoreline. He reads the bait first, the boats second — and he'll tell you the day the bonito start punching through Stratford Shoal before the rest of the fleet figures it out.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/central-sound.png",
       "status": "active"
     },
     {
       "id": "eastern-sound",
-      "name": "Mike Rizzo",
-      "full_name": "Mike Rizzo",
-      "first_name": "Mike",
-      "last_name": "Rizzo",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "eastern-sound",
@@ -153,18 +131,12 @@
         "rip-current",
         "trophy-bass"
       ],
-      "bio": "Mike Rizzo lives for the screaming current at The Race and Plum Gut. He's the writer who'll fish a twelve-hour tide on no sleep, then drive to the next inlet for the night bite — and he knows exactly which eddies stack the trophy bass when the water rips through at five knots.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/eastern-sound.png",
       "status": "active"
     },
     {
       "id": "jamaica-bay",
-      "name": "Denise Dee Vasquez",
-      "full_name": "Denise \"Dee\" Vasquez",
-      "first_name": "Denise",
-      "last_name": "Vasquez",
-      "nickname": "Dee",
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "jamaica-bay",
@@ -193,18 +165,12 @@
         "access-points",
         "fall-blitz"
       ],
-      "bio": "Denise Vasquez grew up fishing the bay, the inlet, and the surf from Breezy Point to Rockaway. She knows the Marine Parkway Bridge bass on the outgoing, the May fluke turn-on inside the bay, and the kind of fall Rockaway blitz most anglers only ever see in dreams. She fishes shore, boat, and kayak — and she knows every access point.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jamaica-bay.png",
       "status": "active"
     },
     {
       "id": "jones-inlet",
-      "name": "Sal Moretti",
-      "full_name": "Sal Moretti",
-      "first_name": "Sal",
-      "last_name": "Moretti",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "jones-inlet",
@@ -233,18 +199,12 @@
         "bunker-blitz",
         "jetty"
       ],
-      "bio": "Sal Moretti knows Jones Inlet like the back of his hand — every sandbar shift, every new cut after a nor'easter, every hole where the bass hold. He works the Jones Beach surf in the fall blitz, drifts the Sloop Channel for fluke in summer, and swears the weakfish are quietly making their comeback.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/jones-inlet.png",
       "status": "active"
     },
     {
       "id": "fire-island",
-      "name": "Mariana Mari Reyes",
-      "full_name": "Mariana \"Mari\" Reyes",
-      "first_name": "Mariana",
-      "last_name": "Reyes",
-      "nickname": "Mari",
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "fire-island",
@@ -273,18 +233,12 @@
         "bay-runner",
         "dock-talk"
       ],
-      "bio": "Mariana Reyes was raised on the South Shore — Babylon, Patchogue, Sayville — fishing the bay with her father since she was a kid, and she now runs her own center-console out of Captree. She knows Fire Island Inlet like a lover: how it shifts after every storm, where the bass stage on the incoming, and how the fluke pile up off Democrat Point in June.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/fire-island.png",
       "status": "active"
     },
     {
       "id": "moriches",
-      "name": "Pete Gallo",
-      "full_name": "Pete Gallo",
-      "first_name": "Pete",
-      "last_name": "Gallo",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "moriches",
@@ -313,18 +267,12 @@
         "storm-cuts",
         "drift"
       ],
-      "bio": "Pete Gallo is the inlet engineer. He thinks in bathymetry, storm cuts, and drift lines — he can tell you why Moriches Inlet moved twenty yards after the last nor'easter and how that's about to change the spring bass push. Cupsogue Beach is, in his view, one of the most under-appreciated surf spots on the South Shore.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/moriches.png",
       "status": "active"
     },
     {
       "id": "shinnecock",
-      "name": "Charlie Night Owl Ortiz",
-      "full_name": "Charlie \"Night Owl\" Ortiz",
-      "first_name": "Charlie",
-      "last_name": "Ortiz",
-      "nickname": "Night Owl",
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "shinnecock",
@@ -353,18 +301,12 @@
         "outgoing-bass",
         "weakfish"
       ],
-      "bio": "Charlie Ortiz earned the Night Owl name honestly — he fishes Shinnecock Inlet at night on the outgoing for the kind of striped bass most people only see in magazine photos. He knows the fluke drift inside the bay, the weakfish patterns at the Ponquogue Bridge, and the way the canal threads everything through to the Peconic.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/shinnecock.png",
       "status": "active"
     },
     {
       "id": "montauk",
-      "name": "Rich Martin",
-      "full_name": "Rich Martin",
-      "first_name": "Rich",
-      "last_name": "Martin",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "montauk",
@@ -393,18 +335,12 @@
         "boulder-field",
         "fall-run"
       ],
-      "bio": "Rich Martin has fished Montauk Point since he could hold a rod, and treats the place with the reverence it earns. He writes Montauk like the striper capital it is — fifty-pound surf bass from the Point, the boulder field that lights up on the incoming, the fall run that pulls anglers from across the country to the End.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/montauk.png",
       "status": "active"
     },
     {
       "id": "peconic",
-      "name": "Bill Hubbard",
-      "full_name": "Bill Hubbard",
-      "first_name": "Bill",
-      "last_name": "Hubbard",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "peconic",
@@ -433,18 +369,12 @@
         "early-bass",
         "shelter-island"
       ],
-      "bio": "Bill Hubbard knows the Peconic and Gardiners Bays — the protected waters between the North and South Forks — like his own backyard. He's the writer who'll tell you the Peconic warms ahead of the Sound and the bass show up early, the porgy fishing around Shelter Island is world-class, and the Plum Gut fall run lights the whole system up.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/peconic.png",
       "status": "active"
     },
     {
       "id": "block-island",
-      "name": "Jack Sullivan",
-      "full_name": "Jack Sullivan",
-      "first_name": "Jack",
-      "last_name": "Sullivan",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "block-island",
@@ -473,18 +403,12 @@
         "trophy-bass",
         "oxygenated-water"
       ],
-      "bio": "Jack Sullivan knows that Block Island is the summer Mecca for striped bass on the entire East Coast — fish migrate from hundreds of miles for the cool, clean, oxygenated water. He works the Southwest Ledge like a living room, has pulled 40-pound bass off the North Rip, and understands exactly why the fishing here doesn't behave like anywhere else.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/block-island.png",
       "status": "active"
     },
     {
       "id": "hudson-canyon",
-      "name": "Capt. Tony Rosetti",
-      "full_name": "Capt. Tony Rosetti",
-      "first_name": "Capt.",
-      "last_name": "Rosetti",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "offshore",
       "zone": {
         "slug": "hudson-canyon",
@@ -513,18 +437,12 @@
         "sword",
         "SST-reader"
       ],
-      "bio": "Capt. Tony Rosetti has run to the Hudson Canyon more times than he can count — out of Shinnecock, Moriches, Jones, and Manasquan. He'll tell you where the yellowfin stack in August, where the swordfish lie on the bottom in daylight, and how the canyon edge pushes bait up into the trolling zone. He reads SST and chlorophyll charts the way other people read the morning paper.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/hudson-canyon.png",
       "status": "active"
     },
     {
       "id": "wilmington-canyon",
-      "name": "Capt. Dana Cooper",
-      "full_name": "Capt. Dana Cooper",
-      "first_name": "Capt.",
-      "last_name": "Cooper",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "offshore",
       "zone": {
         "slug": "wilmington-canyon",
@@ -547,18 +465,12 @@
         "trolling",
         "chunking"
       ],
-      "bio": "Capt. Dana Cooper covers the Wilmington Canyon out of Cape May and Indian River. She understands how Gulf Stream eddies spin off and set up there — the temperature breaks that concentrate tuna and marlin, the productive corners, the depth transitions, and exactly when to troll versus chunk.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/wilmington-canyon.png",
       "status": "active"
     },
     {
       "id": "washington-canyon",
-      "name": "Capt. Chris Wash Morrison",
-      "full_name": "Capt. Chris \"Wash\" Morrison",
-      "first_name": "Capt.",
-      "last_name": "Morrison",
-      "nickname": "Wash",
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "offshore",
       "zone": {
         "slug": "washington-canyon",
@@ -581,18 +493,12 @@
         "walls",
         "eddies"
       ],
-      "bio": "Capt. Chris Morrison has been working Washington Canyon long enough to call himself a veteran without flinching. He's convinced — and the fish keep proving him right — that Washington fires earlier in the season than most of its neighbors because of its position relative to the Gulf Stream. He knows which walls hold, where the eddies set up, and how the canyon evolves from June through September.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/washington-canyon.png",
       "status": "active"
     },
     {
       "id": "south-canyons",
-      "name": "Capt. Ray Lugo",
-      "full_name": "Capt. Ray Lugo",
-      "first_name": "Capt.",
-      "last_name": "Lugo",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "offshore",
       "zone": {
         "slug": "south-canyons",
@@ -615,18 +521,12 @@
         "norfolk",
         "mid-atlantic"
       ],
-      "bio": "Capt. Ray Lugo runs to Spencer, Lindenkohl, Poor Man's, and Norfolk out of Cape May and Ocean City. The mid-Atlantic southern canyons fire at different times for different reasons, and Ray reads that pattern with the route-savvy intensity of a captain who's burned a lot of fuel learning it.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/south-canyons.png",
       "status": "active"
     },
     {
       "id": "east-canyons",
-      "name": "Capt. Steve Brock",
-      "full_name": "Capt. Steve Brock",
-      "first_name": "Capt.",
-      "last_name": "Brock",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "offshore",
       "zone": {
         "slug": "east-canyons",
@@ -649,18 +549,12 @@
         "veatch",
         "RI-ports"
       ],
-      "bio": "Capt. Steve Brock runs the Eastern Canyons — Atlantis, Veatch, Hydrographer, Oceanographer — out of Montauk, Block Island, and the Rhode Island ports. He knows these eastern canyons hold different water, different timing, and a different species mix than the mid-Atlantic, and he'll tell you the fuel math and the firing order without flinching.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/east-canyons.png",
       "status": "active"
     },
     {
       "id": "north-fork-sound-shore",
-      "name": "Pat North Fork Reilly",
-      "full_name": "Pat \"North Fork\" Reilly",
-      "first_name": "Pat",
-      "last_name": "Reilly",
-      "nickname": "North Fork",
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "north-fork-sound-shore",
@@ -690,18 +584,12 @@
         "oyster-cages",
         "bayman-storyteller"
       ],
-      "bio": "Pat Reilly has lived on the North Fork beaches for sixty years, fishing the Sound side from Mattituck Inlet east to Orient Point. He's a bayman storyteller — slow, dry, and incapable of hyping a bite that isn't real. He bridges Central Sound coverage and the Plum Gut / Race shoulder, and he knows every rock and every clammer's tip along the way.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/north-fork-sound-shore.png",
       "status": "active"
     },
     {
       "id": "western-ct-sound",
-      "name": "Tony Gold Coast Bellafiore",
-      "full_name": "Tony \"Gold Coast\" Bellafiore",
-      "first_name": "Tony",
-      "last_name": "Bellafiore",
-      "nickname": "Gold Coast",
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "western-ct-sound",
@@ -731,18 +619,12 @@
         "tide-windows",
         "boat-traffic"
       ],
-      "bio": "Tony Bellafiore has fished the Gold Coast for four decades. He treats the Western Sound's reef system like a chessboard — Penfield on the ebb, the Norwalk Islands on the flood — and he's never met a rockpile he couldn't pull a blackfish off of.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/western-ct-sound.png",
       "status": "active"
     },
     {
       "id": "central-ct-sound",
-      "name": "Lena Marchetti",
-      "full_name": "Lena Marchetti",
-      "first_name": "Lena",
-      "last_name": "Marchetti",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "central-ct-sound",
@@ -772,18 +654,12 @@
         "breakwalls",
         "light-tackle"
       ],
-      "bio": "Lena Marchetti grew up jigging porgies off the New Haven breakwalls and never stopped. She knows the Central Sound's bottom structure cold — which side of Falkner holds sea bass on the drift, and exactly when the Charles Island bar turns on.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/central-ct-sound.png",
       "status": "active"
     },
     {
       "id": "lower-ct-river",
-      "name": "Walt Jensen",
-      "full_name": "Walt Jensen",
-      "first_name": "Walt",
-      "last_name": "Jensen",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "lower-ct-river",
@@ -812,18 +688,12 @@
         "shad-run",
         "seasonal-migration"
       ],
-      "bio": "Walt Jensen has fished the Connecticut River's lower reaches for half a century. He can tell you the week the shad will show by the dogwood bloom, and where the first school stripers stage off Great Island before anyone else has heard they're in.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/lower-ct-river.png",
       "status": "active"
     },
     {
       "id": "eastern-ct-sound",
-      "name": "Danny Colón",
-      "full_name": "Danny Colón",
-      "first_name": "Danny",
-      "last_name": "Colón",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "eastern-ct-sound",
@@ -853,18 +723,12 @@
         "drift-fishing",
         "dock-talk"
       ],
-      "bio": "Danny Colón is the guy the fleet captains actually talk to. He grew up fishing the New London shoreline with his uncles, and between the Niantic drift boats and the Waterford docks, nothing gets caught east of Clinton without Danny hearing about it by sundown — usually with the exact depth and what color Gulp did the damage.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/eastern-ct-sound.png",
       "status": "active"
     },
     {
       "id": "thames-river-new-london",
-      "name": "Marcus Webb",
-      "full_name": "Marcus Webb",
-      "first_name": "Marcus",
-      "last_name": "Webb",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "thames-river-new-london",
@@ -893,18 +757,12 @@
         "winter-holdover",
         "current-seams"
       ],
-      "bio": "Marcus Webb spent two decades at the Groton sub base and every off-duty hour of it on the Thames. He's the authority on New London Harbor structure and the river's famous winter holdover striper fishery — a beat most anglers don't even know exists.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/thames-river-new-london.png",
       "status": "active"
     },
     {
       "id": "fishers-island-sound-stonington",
-      "name": "Manny Pereira",
-      "full_name": "Manny Pereira",
-      "first_name": "Manny",
-      "last_name": "Pereira",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "fishers-island-sound-stonington",
@@ -935,18 +793,12 @@
         "albie-runs",
         "fly-and-light-tackle"
       ],
-      "bio": "Manny Pereira comes from three generations of Stonington's Portuguese fishing fleet, and he reads the boulder fields of Fishers Island Sound like braille. He'll pole a skiff over rocks that eat lower units for breakfast, and when the albies show off Watch Hill in September, Manny has usually been on them for three days already.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/fishers-island-sound-stonington.png",
       "status": "active"
     },
     {
       "id": "ct-offshore",
-      "name": "Capt. Sabrina Cole",
-      "full_name": "Capt. Sabrina Cole",
-      "first_name": "Capt.",
-      "last_name": "Cole",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "ct-offshore",
@@ -977,18 +829,12 @@
         "current-timing",
         "wire-line-and-jigs"
       ],
-      "bio": "Capt. Sabrina Cole runs The Race the way other captains run a milk route. Ten seasons of charters through the deepest, fastest water in the Sound taught her exactly which stage of the ebb piles the big bass on Valiant Rock — and she's not shy about telling you when you're fishing it wrong.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/ct-offshore.png",
       "status": "active"
     },
     {
       "id": "raritan-bay-sandy-hook",
-      "name": "Marisol Duarte",
-      "full_name": "Marisol Duarte",
-      "first_name": "Marisol",
-      "last_name": "Duarte",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "raritan-bay-sandy-hook",
@@ -1018,18 +864,12 @@
         "flats-and-channels",
         "tide-timing"
       ],
-      "bio": "Marisol Duarte grew up on the Perth Amboy waterfront, where her father taught her the bay before she could ride a bike. When the April bunker schools push into Raritan Bay and the big stripers follow, Marisol has usually called the first blitz within a tide — and she'll tell you exactly which channel edge the fluke set up on when the run winds down.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/raritan-bay-sandy-hook.png",
       "status": "active"
     },
     {
       "id": "northern-nj-shore",
-      "name": "Brendan Doyle",
-      "full_name": "Brendan Doyle",
-      "first_name": "Brendan",
-      "last_name": "Doyle",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "northern-nj-shore",
@@ -1059,18 +899,12 @@
         "plug-fishing",
         "dawn-patrol"
       ],
-      "bio": "Brendan Doyle has worn out more Korkers than most anglers own plugs. A quarter century of dawn patrols from Sea Bright to Manasquan taught him exactly which jetty pocket fishes on a northeast blow — and his dry running commentary on the Belmar party boat fleet is worth the read alone.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/northern-nj-shore.png",
       "status": "active"
     },
     {
       "id": "barnegat-bay",
-      "name": "Gus Papadakis",
-      "full_name": "Gus Papadakis",
-      "first_name": "Gus",
-      "last_name": "Papadakis",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "barnegat-bay",
@@ -1100,18 +934,12 @@
         "inlet-currents",
         "old-school"
       ],
-      "bio": "Gus Papadakis started as a twelve-year-old mate on the Point Pleasant party boats and never really left the water. Four decades later he knows Barnegat Bay the way you know your own kitchen — including the May weakfish sedges everyone else forgot and exactly how far the Double Creek shoals moved after the last blow.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/barnegat-bay.png",
       "status": "active"
     },
     {
       "id": "long-beach-island",
-      "name": "Tommy Nguyen",
-      "full_name": "Tommy Nguyen",
-      "first_name": "Tommy",
-      "last_name": "Nguyen",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "long-beach-island",
@@ -1142,18 +970,12 @@
         "structure-reading",
         "light-tackle"
       ],
-      "bio": "Tommy Nguyen grew up stocking shelves in his family's bait shop near Ship Bottom and reading LBI's sandbars like other kids read comic books. He's the island's new-school surf technician — drone shots of the cuts, a plug bag organized like a surgeon's tray, and the first report every March when Graveling Point wakes up.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/long-beach-island.png",
       "status": "active"
     },
     {
       "id": "south-jersey-shore",
-      "name": "Darnell Freeman",
-      "full_name": "Darnell Freeman",
-      "first_name": "Darnell",
-      "last_name": "Freeman",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "south-jersey-shore",
@@ -1184,18 +1006,12 @@
         "inlet-fishing",
         "fluke-program"
       ],
-      "bio": "Darnell Freeman taught high school science in Atlantic City for three decades, and he approaches the back bays the same way he ran his classroom — methodically, patiently, and with receipts. His sod-bank fluke program from Brigantine to Stone Harbor is the stuff of local legend, and he explains the why behind every bite.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/south-jersey-shore.png",
       "status": "active"
     },
     {
       "id": "cape-may-delaware-bay",
-      "name": "Capt. Kate Brennan",
-      "full_name": "Capt. Kate Brennan",
-      "first_name": "Capt.",
-      "last_name": "Brennan",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "cape-may-delaware-bay",
@@ -1226,18 +1042,12 @@
         "drum-run",
         "two-bay-game"
       ],
-      "bio": "Capt. Kate Brennan is second-generation Cape May charter royalty — her father ran the rips for forty years and she's run them for twenty more. From the May black drum thump in Delaware Bay to fall stripers stacked in the rips off the Point, Kate calls it straight, including the days you should stay home and tie leaders.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/cape-may-delaware-bay.png",
       "status": "active"
     },
     {
       "id": "nj-offshore",
-      "name": "Capt. Rey Santos",
-      "full_name": "Capt. Rey Santos",
-      "first_name": "Capt.",
-      "last_name": "Santos",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "offshore",
       "zone": {
         "slug": "nj-offshore",
@@ -1269,18 +1079,12 @@
         "midrange-tuna",
         "numbers-and-structure"
       ],
-      "bio": "Capt. Rey Santos keeps a waterproof book of wreck numbers two decades thick, and he fishes the water most Jersey boats run right past. The Mud Hole bluefin bite in June, jumbo sea bass on the deep wrecks, August mahi on the pot lines off Barnegat Ridge — Rey's midrange program out of Manasquan proves you don't need a canyon run to fill the box.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nj-offshore.png",
       "status": "active"
     },
     {
       "id": "narragansett-bay",
-      "name": "Vinny Ciervo",
-      "full_name": "Vinny Ciervo",
-      "first_name": "Vinny",
-      "last_name": "Ciervo",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "narragansett-bay",
@@ -1310,18 +1114,12 @@
         "herring-run",
         "light-line"
       ],
-      "bio": "Vinny Ciervo grew up on the Providence River piers and never left the bay. Buckeye Brook's herring run tells him when the bass are coming, Conimicut Point tells him where they're staging, and Rocky Point tells him when the fluke have pushed in deep enough to drift.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/narragansett-bay.png",
       "status": "active"
     },
     {
       "id": "point-judith-block-island",
-      "name": "Ava Thomas",
-      "full_name": "Ava Thomas",
-      "first_name": "Ava",
-      "last_name": "Thomas",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "point-judith-block-island",
@@ -1352,18 +1150,12 @@
         "deep-water-structure",
         "albie-runs"
       ],
-      "bio": "Ava Thomas runs charters out of Galilee and reads SW Ledge like other people read the news. When the bonito first flash off the Block in August, Ava's been on them for a week — and her October striper program on the deep rips is the best-kept non-secret in Rhode Island.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/point-judith-block-island.png",
       "status": "active"
     },
     {
       "id": "ri-south-shore",
-      "name": "Billy Tanaka",
-      "full_name": "Billy Tanaka",
-      "first_name": "Billy",
-      "last_name": "Tanaka",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "ri-south-shore",
@@ -1394,18 +1186,12 @@
         "tog-structure",
         "albie-blitz"
       ],
-      "bio": "Billy Tanaka hops rocks from Newport to Napatree like he's on a sidewalk. The south shore's granite ledges are his office — he knows which crack holds a tog on the slack, which breachway the albies choose first, and why Sakonnet on a west wind is the best hour of your day.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/ri-south-shore.png",
       "status": "active"
     },
     {
       "id": "nh-coast",
-      "name": "Cole Robinson",
-      "full_name": "Cole Robinson",
-      "first_name": "Cole",
-      "last_name": "Robinson",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "nh-coast",
@@ -1436,18 +1222,12 @@
         "groundfish",
         "small-boat"
       ],
-      "bio": "Cole Robinson fishes 13 miles of coast like it's 130. He trailers his Lund from Hampton Harbor to the Shoals before dawn, chases cod and haddock on Appledore's ledges, and is back at Rye Harbor with a box of fish before most people's coffee is ready.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nh-coast.png",
       "status": "active"
     },
     {
       "id": "nh-offshore",
-      "name": "Capt. Sonya Nguyen",
-      "full_name": "Capt. Sonya Nguyen",
-      "first_name": "Capt.",
-      "last_name": "Nguyen",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "offshore",
       "zone": {
         "slug": "nh-offshore",
@@ -1478,18 +1258,12 @@
         "bluefin-tuna",
         "numbers-fishing"
       ],
-      "bio": "Capt. Sonya Nguyen runs Jeffrey's Ledge like it's her backyard — because it is. Cod on the gravel, haddock on the mud edge, and when the bluefin giants pin bait against the surface in October, Sonya is the one who called it three tides ago.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nh-offshore.png",
       "status": "active"
     },
     {
       "id": "southern-maine",
-      "name": "Dutch Osterberg",
-      "full_name": "Dutch Osterberg",
-      "first_name": "Dutch",
-      "last_name": "Osterberg",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "southern-maine",
@@ -1519,18 +1293,12 @@
         "rocky-shore",
         "bluefish-runs"
       ],
-      "bio": "Dutch Osterberg has been throwing plugs at Southern Maine's rocks since the Reel mullet run still existed. He'll tell you Biddeford Pool on the incoming is the best hour of the Maine striper day, and that Higgins Beach bluefish blitzes are the only time you'll see him run.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/southern-maine.png",
       "status": "active"
     },
     {
       "id": "casco-bay",
-      "name": "Pashmi Cooper",
-      "full_name": "Pashmi Cooper",
-      "first_name": "Pashmi",
-      "last_name": "Cooper",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "casco-bay",
@@ -1560,18 +1328,12 @@
         "groundfish",
         "tide-swing"
       ],
-      "bio": "Pashmi Cooper taught marine biology at Bowdoin for three decades, and he fished Casco Bay every day he wasn't grading papers. He approaches the bay's ledges like a professor — methodical, patient, with data — and his Halfway Rock groundfish program is the most quietly productive in Maine.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/casco-bay.png",
       "status": "active"
     },
     {
       "id": "midcoast-maine",
-      "name": "Rusty Pelletier",
-      "full_name": "Rusty Pelletier",
-      "first_name": "Rusty",
-      "last_name": "Pelletier",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "midcoast-maine",
@@ -1603,18 +1365,12 @@
         "groundfish",
         "lobster-ground"
       ],
-      "bio": "Rusty Pelletier has forty years of lobstering and sport fishing from Boothbay to Stonington, and he reads Penobscot Bay like a chart you can walk on. Monhegan's ledges, Eastern Egg's bass, the deep channel groundfish — Rusty's is the voice of the real Downeast coast.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/midcoast-maine.png",
       "status": "active"
     },
     {
       "id": "cape-cod-canal",
-      "name": "Mike Devlin",
-      "full_name": "Mike Devlin",
-      "first_name": "Mike",
-      "last_name": "Devlin",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "cape-cod-canal",
@@ -1644,18 +1400,12 @@
         "rip-line",
         "dawn-and-dusk"
       ],
-      "bio": "Mike Devlin has been watching Canal tides since the Army Corps was still dredging it. He can tell you the exact minute the west end current seam will stack bass on the bottom of the ebb, and he's never wrong about the first big fish of the season showing at the east end rip line.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/cape-cod-canal.png",
       "status": "active"
     },
     {
       "id": "boston-harbor-north-shore",
-      "name": "Sara Whitfield",
-      "full_name": "Sara Whitfield",
-      "first_name": "Sara",
-      "last_name": "Whitfield",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "boston-harbor-north-shore",
@@ -1688,18 +1438,12 @@
         "big-water",
         "light-tackle"
       ],
-      "bio": "Sara Whitfield grew up sailing Boston Harbor and switched to fishing it when she realized the bass were more interesting than the mooring field. She knows every ledge and dropoff from Deer Island to Gloucester, and her North Shore light-tackle striper program is quietly the best around.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/boston-harbor-north-shore.png",
       "status": "active"
     },
     {
       "id": "cape-cod-bay",
-      "name": "Donny Costa",
-      "full_name": "Donny Costa",
-      "first_name": "Donny",
-      "last_name": "Costa",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "cape-cod-bay",
@@ -1729,18 +1473,12 @@
         "rip-structure",
         "big-bass"
       ],
-      "bio": "Donny Costa drifts Cape Cod Bay like other people drive to work. Race Point on the slack, Peaked Hill on the building tide, Billingsgate when the bass are pushing sand eels — Donny's Bay program is the kind that produces 40-pound bass when everyone else is catching schoolies.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/cape-cod-bay.png",
       "status": "active"
     },
     {
       "id": "buzzards-bay-vineyard",
-      "name": "Maria Fonseca",
-      "full_name": "Maria Fonseca",
-      "first_name": "Maria",
-      "last_name": "Fonseca",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "buzzards-bay-vineyard",
@@ -1772,18 +1510,12 @@
         "rip-fishing",
         "island-current"
       ],
-      "bio": "Maria Fonseca fishes the rips between Buzzards Bay and the Vineyard like she was born on them — and she nearly was. When the albies show at Quick's Hole in August, Maria has been casting at them for a week already, and her fall striper program off the Elizabeth Islands is pure New England.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/buzzards-bay-vineyard.png",
       "status": "active"
     },
     {
       "id": "nantucket-sound",
-      "name": "Charlie St. Pierre",
-      "full_name": "Charlie St. Pierre",
-      "first_name": "Charlie",
-      "last_name": "Pierre",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "inshore",
       "zone": {
         "slug": "nantucket-sound",
@@ -1813,18 +1545,12 @@
         "rip-fishing",
         "surf-and-boat"
       ],
-      "bio": "Charlie St. Pierre chases rips from Nantucket to Monomoy like a man on a mission. When the first bonito flash on Nantucket Shoals in July, Charlie's been watching for them for two weeks — and by the time the albies are crashing on Great Point, he's already moved on to the fall striper rips off Chatham.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/nantucket-sound.png",
       "status": "active"
     },
     {
       "id": "ma-offshore-stellwagen",
-      "name": "Capt. Donna Shaw",
-      "full_name": "Capt. Donna Shaw",
-      "first_name": "Capt.",
-      "last_name": "Shaw",
-      "nickname": null,
-      "role": "Zone Writer",
+      "name": "Nor'easter AI",
+      "role": "AI Beat Reporter",
       "domain": "offshore",
       "zone": {
         "slug": "ma-offshore-stellwagen",
@@ -1854,8 +1580,6 @@
         "bluefin-tuna",
         "numbers-and-structure"
       ],
-      "bio": "Capt. Donna Shaw runs Stellwagen like it's her backyard — and it is. Cod on the gravel edge, haddock on the mud in the Basin, and when the giant bluefin pin mackerel against the surface in October, Donna is the captain everyone calls.",
-      "portrait_url": "https://raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed/main/portraits/ma-offshore-stellwagen.png",
       "status": "active"
     }
   ]
