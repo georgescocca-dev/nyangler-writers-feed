@@ -5,11 +5,12 @@
 # No Hermes app required. Just Python, OpenRouter API, and git.
 #
 # Steps: analyst → hooper → generate 45 writer reports → fix empty tags →
-#        rebuild index → commit locally (NO PUSH — the push is gated on Kent's
-#        editorial review, which runs at 5:30am; push job at 6am ships only if
-#        Kent's verdict file approves).
+#        rebuild archive index → dump fishing_reports jsonl → commit locally
+#        (NO PUSH — the push is gated on Kent's editorial review, which runs
+#        at 5:30am; push job at 6am ships the GitHub archive only if Kent's
+#        verdict file approves). This is not a live reports.nyangler.com step.
 #
-# Crontab entry (11pm Sun/Thu — reports go live next morning):
+# Crontab entry (11pm Sun/Thu — GitHub archive lands next morning if approved):
 #   0 23 * * 0,4 /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/noreaster_cron_pipeline.sh >> /Users/spartacus/.hermes/workspace/noreaster/writers-feed/scripts/pipeline.log 2>&1
 # Companion jobs (installed 2026-07-20): Kent auto-review at 5:30am Mon/Fri
 # (kent_auto_review.sh) and gated push at 6am (noreaster_push_if_approved.sh).
@@ -29,8 +30,8 @@ fi
 
 # Graceful degradation: do NOT use `set -e`. A failed analyst or Hooper run
 # must NOT kill the whole pipeline — writers can still generate (thinner) and
-# the site still gets an update. We only hard-fail when publishing is truly
-# impossible (no python, no API key). Each step reports its own status.
+# the GitHub archive still gets an update. We only hard-fail when the archive
+# run is truly impossible (no python, no API key). Each step reports status.
 set -uo pipefail
 
 # --- Paths ---
@@ -63,6 +64,20 @@ export OPENROUTER_API_KEY=$(grep '^OPENROUTER_API_KEY=' /Users/spartacus/.hermes
 if [ -z "$OPENROUTER_API_KEY" ]; then
     echo "FATAL: OPENROUTER_API_KEY not found in ~/.hermes/.env"
     exit 1
+fi
+
+# Optional Fresh-from-the-Fleet harvest. Missing vars are not fatal —
+# generate_writer_report.py falls back to jsonl forum intel and logs a miss.
+_SB_URL=$(grep '^SUPABASE_URL=' /Users/spartacus/.hermes/.env 2>/dev/null | cut -d'=' -f2- | tr -d '"' | tr -d "'")
+_SB_ROLE=$(grep -E '^(SUPABASE_SERVICE_ROLE|SUPABASE_SERVICE_ROLE_KEY|SERVICE_ROLE)=' /Users/spartacus/.hermes/.env 2>/dev/null | head -1 | cut -d'=' -f2- | tr -d '"' | tr -d "'")
+if [ -n "$_SB_URL" ]; then
+    export SUPABASE_URL="$_SB_URL"
+fi
+if [ -n "$_SB_ROLE" ]; then
+    export SUPABASE_SERVICE_ROLE="$_SB_ROLE"
+fi
+if [ -z "${SUPABASE_URL:-}" ] || [ -z "${SUPABASE_SERVICE_ROLE:-}" ]; then
+    echo "  [WARN] SUPABASE_URL / SERVICE_ROLE unset — writers will skip fleet harvest"
 fi
 
 # --- Step 1: Analyst (buoy data, no LLM) ---
@@ -288,18 +303,21 @@ for f in files:
 print(f"  Fixed {fixed} empty tag lines")
 TAGFIX
 
-# --- Step 5: Rebuild index, commit and push ---
-echo "--- Step 5: Rebuild index, commit and push ---"
+# --- Step 5: Rebuild archive index, dump fishing_reports, commit ---
+echo "--- Step 5: Rebuild archive index, dump fishing_reports, commit ---"
 cd "$FEED_DIR"
-# Writers ran with --skip-index (fast); rebuild reports.json/teasers.json once here.
+# Writers ran with --skip-index (fast); rebuild archive reports.json/teasers.json once here.
 "$PYTHON" -c "
 import sys; sys.path.insert(0, 'scripts')
 import importlib.util as u
 spec = u.spec_from_file_location('g', 'scripts/generate_writer_report.py')
 m = u.module_from_spec(spec); spec.loader.exec_module(m)
 idx = m.rebuild_reports_index()
-print(f'  Index rebuilt: {idx[\"total_reports\"]} reports')
+print(f'  Archive index rebuilt: {idx[\"total_reports\"]} reports')
 " 2>&1
+
+echo "  Dumping public.fishing_reports archive (no status filter)…"
+"$PYTHON" "$FEED_DIR/scripts/archive_fishing_reports.py" 2>&1 || echo "  [WARN] fishing_reports archive dump skipped"
 
 DEG_NOTE=""
 if [ -n "$DEGRADED" ]; then
@@ -312,7 +330,8 @@ git commit -m "Auto-pipeline (staged): $TODAY — $SUCCESS reports generated, ta
 
 # Do NOT push here. Push is gated on Kent's editorial review (5:30am) and runs
 # as a separate 6am job (noreaster_push_if_approved.sh) that checks Kent's
-# verdict file first. This keeps unreviewed content off the live site.
-echo "  Staged locally — awaiting Kent review before push"
+# verdict file first. This keeps unreviewed content out of the GitHub archive.
+# Git push is the archive landing on GitHub — not a live site delivery.
+echo "  Staged locally — awaiting Kent review before GitHub archive push"
 
 echo "=== GENERATE COMPLETE: $TODAY $(date) — $SUCCESS reports staged$DEG_NOTE ==="

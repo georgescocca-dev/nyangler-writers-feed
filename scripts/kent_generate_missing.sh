@@ -10,6 +10,12 @@ if [ -z "$OPENROUTER_API_KEY" ]; then
     exit 1
 fi
 
+# Optional fleet harvest. Missing vars fall back to jsonl inside the generator.
+_SB_URL=$(grep '^SUPABASE_URL=' ~/.hermes/.env 2>/dev/null | cut -d'=' -f2- | tr -d '"' | tr -d "'")
+_SB_ROLE=$(grep -E '^(SUPABASE_SERVICE_ROLE|SUPABASE_SERVICE_ROLE_KEY|SERVICE_ROLE)=' ~/.hermes/.env 2>/dev/null | head -1 | cut -d'=' -f2- | tr -d '"' | tr -d "'")
+[ -n "$_SB_URL" ] && export SUPABASE_URL="$_SB_URL"
+[ -n "$_SB_ROLE" ] && export SUPABASE_SERVICE_ROLE="$_SB_ROLE"
+
 PYTHON="/Users/spartacus/nor-easter-setup/projects/noreaster-intel/.venv/bin/python3"
 FEED_DIR="$HOME/.hermes/workspace/noreaster/writers-feed"
 cd "$FEED_DIR" || { echo "[ERROR] Cannot cd to $FEED_DIR"; exit 1; }
@@ -53,8 +59,8 @@ if [ -n "$FAILED_WRITERS" ]; then
     echo "Failed writers:$FAILED_WRITERS"
 fi
 
-# Rebuild index
-echo "[index] rebuilding reports.json + teasers.json"
+# Rebuild archive index
+echo "[index] rebuilding archive reports.json + teasers.json"
 "$PYTHON" -c "
 import json, glob, os
 reports = []
@@ -71,8 +77,11 @@ with open('reports.json', 'w') as fh:
 teasers = [{'id': r.get('id',''), 'headline': r.get('headline',''), 'zone': r.get('zone',{}).get('name',''), 'date': r.get('date','')} for r in reports]
 with open('teasers.json', 'w') as fh:
     json.dump({'teasers': teasers}, fh, indent=2)
-print(f'[index] wrote reports.json ({len(reports)} reports) + teasers.json ({len(teasers)} teasers)')
+print(f'[index] wrote archive reports.json ({len(reports)} reports) + teasers.json ({len(teasers)} teasers)')
 "
+
+echo "[archive] dumping public.fishing_reports"
+"$PYTHON" scripts/archive_fishing_reports.py 2>&1 || echo "[WARN] fishing_reports archive dump skipped"
 
 # Commit
 git add -A
