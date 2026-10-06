@@ -1,14 +1,16 @@
-# Lovable Build Prompt — reports.nyangler.com Writers Section
+# Lovable Build Prompt — writer roster snapshot (not live fishing reports)
 
-**Paste this into a new Lovable project to spin up the writers section of reports.nyangler.com.**
+**Paste this into a Lovable project only if you need the Writers / Editorial Team roster UI.**
 
-The data is live-hosted on GitHub at `raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed`. No backend, no API keys, no database needed. Updates to the roster propagate to the live site within seconds whenever the source repo is pushed.
+This GitHub repo is an **archive/backup**. Live fishing reports live in Supabase `public.fishing_reports`. **As of 2026-08-27, nyangler.com and reports.nyangler.com get no new fishing reports from this repo.** The XenForo forum stays. Do **not** fetch `reports.json` as a live Noreaster feed.
+
+The roster snapshot is hosted on GitHub at `raw.githubusercontent.com/georgescocca-dev/nyangler-writers-feed`. No backend, no API keys, no database needed for **writer names, beats, and portraits**. That is not fishing-report copy.
 
 ---
 
 ## Master Prompt
 
-> Build the **Writers / Editorial Team** section for **reports.nyangler.com** — the AI-powered subdomain of New York Angler, the largest fishing community in the Northeast.
+> Build the **Writers / Editorial Team** section from the **roster snapshot** in this GitHub archive — names, beats, portraits. This is **not** a live fishing-reports product and must not fetch `reports.json` for Noreaster.
 >
 > The data is hosted as a public JSON feed at:
 >
@@ -121,7 +123,7 @@ The data is live-hosted on GitHub at `raw.githubusercontent.com/georgescocca-dev
 
 ## Updating the roster going forward
 
-When you (George) want to add a writer, retire one, refresh a portrait, or rewrite a bio, the Nor'easter system (Spartacus) updates the source roster, regenerates the feed, and pushes to GitHub. The live reports.nyangler.com site picks up the change on the next page load — no Lovable redeploy required.
+When you (George) want to add a writer, retire one, refresh a portrait, or rewrite a bio, the Nor'easter system (Spartacus) updates the source roster, regenerates the snapshot, and pushes to GitHub. That updates the **roster archive**. It does **not** ship new fishing reports to reports.nyangler.com.
 
 ## Feed sample
 
